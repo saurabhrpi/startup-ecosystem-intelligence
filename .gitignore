@@ -1,0 +1,35 @@
+# Python
+**pycache**/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+
+# Data
+data/raw/*
+data/processed/*
+data/embeddings/*
+!data/*/.gitkeep
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# API Keys
+config/secrets.json
+.env.local
+
+#Other Folders
+/context-conversations/
