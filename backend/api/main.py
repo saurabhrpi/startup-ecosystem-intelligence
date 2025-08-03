@@ -177,6 +177,51 @@ async def get_entity_network(
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
+@app.get("/test-search-detailed")
+async def test_search_detailed(query: str = "AI"):
+    """Test the actual search with detailed debug info"""
+    try:
+        # Step 1: Test embedding generation
+        embedding = None
+        embedding_success = False
+        embedding_error = None
+        embedding_length = 0
+        search_error = None
+        
+        try:
+            embedding = graph_rag_service._get_query_embedding(query)
+            embedding_success = True
+            embedding_length = len(embedding) if embedding else 0
+        except Exception as e:
+            embedding_success = False
+            embedding_error = str(e)
+        
+        # Step 2: Test vector search if embedding worked
+        search_results = []
+        if embedding:
+            try:
+                search_results = graph_rag_service.neo4j_store.vector_search(
+                    query_embedding=embedding,
+                    node_type="company",
+                    top_k=5,
+                    min_score=0.5  # Lower threshold for testing
+                )
+            except Exception as e:
+                search_error = str(e)
+        
+        return {
+            "query": query,
+            "embedding_generated": embedding_success,
+            "embedding_length": embedding_length,
+            "embedding_error": embedding_error,
+            "search_results_count": len(search_results),
+            "search_results": search_results[:2] if search_results else [],
+            "search_error": search_error,
+            "openai_configured": bool(os.getenv('OPENAI_API_KEY'))
+        }
+    except Exception as e:
+        return {"error": str(e)}
+
 @app.get("/test-search")
 async def test_search():
     """Test search functionality with debug info"""
