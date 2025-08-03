@@ -177,6 +177,34 @@ async def get_entity_network(
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
+@app.get("/test-search")
+async def test_search():
+    """Test search functionality with debug info"""
+    try:
+        # Test direct Neo4j query
+        store = graph_rag_service.neo4j_store
+        with store.driver.session() as session:
+            # Simple query to get a few companies
+            result = session.run("""
+                MATCH (c:Company)
+                WHERE c.embedding IS NOT NULL
+                RETURN c.id as id, c.name as name, c.industries as industries
+                LIMIT 5
+            """)
+            companies = [dict(record) for record in result]
+        
+        return {
+            "message": "Test search endpoint",
+            "neo4j_connected": True,
+            "sample_companies": companies,
+            "total_companies": len(companies)
+        }
+    except Exception as e:
+        return {
+            "error": str(e),
+            "neo4j_connected": False
+        }
+
 @app.get("/stats")
 async def get_stats():
     """
