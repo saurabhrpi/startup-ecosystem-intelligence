@@ -52,7 +52,7 @@ class GraphRAGService:
         
         return {
             'query': query,
-            'results': results,
+            'matches': results,  # Changed from 'results' to 'matches' to match frontend
             'response': response,
             'graph': graph_data,
             'total_results': len(results),
