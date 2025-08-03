@@ -15,11 +15,21 @@ export default function Home() {
     setLoading(true)
     try {
       const response = await fetch(`/api/backend/search?query=${encodeURIComponent(query)}&top_k=20&filter_type=company`)
+      if (!response.ok) {
+        throw new Error(`Search failed: ${response.status}`)
+      }
       const data = await response.json()
+      console.log('Search response:', data) // Debug log
       setSearchResults(data)
       setSelectedCompany(null)
     } catch (error) {
       console.error('Search error:', error)
+      setSearchResults({
+        query: query,
+        matches: [],
+        response: 'Error connecting to the search service. Please try again.',
+        total_results: 0
+      })
     } finally {
       setLoading(false)
     }
