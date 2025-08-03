@@ -1,0 +1,21 @@
+# Core
+fastapi==0.109.0
+uvicorn==0.27.0
+python-dotenv==1.0.0
+pydantic==2.5.3
+
+# API clients
+httpx==0.26.0
+openai==1.9.0
+
+# Neo4j - using older version that works better on Replit
+neo4j==5.2.0
+
+# Utilities
+tqdm==4.66.1
+
+# Remove these for now as they cause issues on Replit:
+# sentence-transformers
+# pandas
+# numpy
+# lxml
