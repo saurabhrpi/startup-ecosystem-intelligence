@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "startup-ecosystem-intelligence"
+version = "0.1.0"
+description = "AI-powered startup discovery platform"
+authors = ["Your Name"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.109.0"
+uvicorn = "^0.25.0"
+neo4j = "^5.15.0"
+openai = "^1.8.0"
+python-dotenv = "^1.0.0"
+httpx = "^0.26.0"
+tqdm = "^4.66.0"
+pydantic = "^2.5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

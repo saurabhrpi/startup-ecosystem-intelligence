@@ -1,5 +1,5 @@
 # Python
-**pycache**/
+__pycache__/
 *.py[cod]
 *$py.class
 *.so
@@ -7,17 +7,22 @@
 env/
 venv/
 .env
+.env.local
+.env.production
 
 # Data
 data/raw/*
 data/processed/*
 data/embeddings/*
+data/pipeline_report_*.json
+data/neo4j_pipeline_report_*.json
 !data/*/.gitkeep
 
 # IDEs
 .vscode/
 .idea/
 *.swp
+*.swo
 
 # OS
 .DS_Store
@@ -29,7 +34,20 @@ logs/
 
 # API Keys
 config/secrets.json
-.env.local
 
-#Other Folders
+# Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.vercel
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Context conversations
 /context-conversations/
