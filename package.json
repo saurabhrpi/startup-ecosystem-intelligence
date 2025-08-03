@@ -1,0 +1,15 @@
+{
+  "name": "startup-ecosystem-intelligence",
+  "version": "1.0.0",
+  "description": "AI-powered startup ecosystem intelligence platform",
+  "scripts": {
+    "start": "python main.py",
+    "backend": "python run_api.py",
+    "frontend": "cd frontend && npm run dev",
+    "install-frontend": "cd frontend && npm install"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}

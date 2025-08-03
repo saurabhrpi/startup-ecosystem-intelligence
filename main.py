@@ -12,7 +12,9 @@ from threading import Thread
 def start_backend():
     """Start the FastAPI backend"""
     print("[BACKEND] Starting API server on port 8000...")
-    subprocess.run([sys.executable, "run_api.py"])
+    env = os.environ.copy()
+    env["PORT"] = "8000"
+    subprocess.run([sys.executable, "run_api.py"], env=env)
 
 def start_frontend():
     """Start the Next.js frontend"""
