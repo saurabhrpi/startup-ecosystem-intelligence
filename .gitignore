@@ -9,6 +9,7 @@ venv/
 .env
 .env.local
 .env.production
+!frontend/.env.production
 
 # Data
 data/raw/*
