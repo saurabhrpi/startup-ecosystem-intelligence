@@ -209,9 +209,6 @@ class Neo4jStore:
             logger.error(f"Neo4j connection failed: {e}")
             raise
         
-        print("node_type")
-        print(node_type)
-        
         with self.driver.session() as session:
             # Build node pattern based on type
             if node_type:
@@ -220,48 +217,29 @@ class Neo4jStore:
                 node_pattern = "(n)"
             
             
-            #query = f"""
-            #MATCH {node_pattern}
-            #WHERE n.embedding IS NOT NULL
-            #WITH n, gds.similarity.cosine(n.embedding, $query_embedding) AS score
-            #WHERE score >= $min_score
-            #RETURN n, score, labels(n) as node_labels
-            #ORDER BY score DESC
-            #LIMIT $top_k
-            #"""
-            
             query = f"""
-            MATCH (n:Company)
+            MATCH {node_pattern}
             WHERE n.embedding IS NOT NULL
-            RETURN n
-            LIMIT 5
-            """
+            WITH n, gds.similarity.cosine(n.embedding, $query_embedding) AS score
+            WHERE score >= $min_score
+            RETURN n, score, labels(n) as node_labels
+            ORDER BY score DESC
+            LIMIT $top_k
+            """         
             
-            print("node_pattern")
-            print(node_pattern)
+            results = session.run(query, {
+                'query_embedding': query_embedding,
+                'min_score': min_score,
+                'top_k': top_k
+            })           
             
-            print("query_embedding")
-            print(query_embedding)
-            
-            print("Calling session.run")
-            
-            #results = session.run(query, {
-            #    'query_embedding': query_embedding,
-            #    'min_score': min_score,
-            #    'top_k': top_k
-            #})
-            
-            results = session.run(query)
-            
-            print("Out of session.run")          
             matches = []
                         
             # Convert to list to ensure all results are consumed
             records = list(results)
             
             
-            for i, record in enumerate(records):
-                print(f"record {i}: {dict(record)}")
+            for record in records:                
                 node = record['n']
                 node_data = dict(node)
                 node_data.pop('embedding', None)  # Remove embedding from response
