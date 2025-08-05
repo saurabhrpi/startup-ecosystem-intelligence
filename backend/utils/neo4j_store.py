@@ -2,6 +2,7 @@
 Neo4j Store - Unified storage for both graph relationships and vector embeddings
 """
 import os
+import time
 from typing import List, Dict, Any, Optional, Tuple
 from neo4j import GraphDatabase
 from dotenv import load_dotenv
@@ -12,6 +13,25 @@ load_dotenv()
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+
+def retry_on_failure(max_retries=3, delay=1.0):
+    """Decorator to retry Neo4j operations on failure"""
+    def decorator(func):
+        def wrapper(*args, **kwargs):
+            last_exception = None
+            for attempt in range(max_retries):
+                try:
+                    return func(*args, **kwargs)
+                except Exception as e:
+                    last_exception = e
+                    if attempt < max_retries - 1:
+                        logger.warning(f"Attempt {attempt + 1} failed: {str(e)}. Retrying in {delay} seconds...")
+                        time.sleep(delay)
+                    else:
+                        logger.error(f"All {max_retries} attempts failed.")
+            raise last_exception
+        return wrapper
+    return decorator
 
 class Neo4jStore:
     def __init__(self):
@@ -29,6 +49,7 @@ class Neo4jStore:
             logger.error(f"Failed to connect to Neo4j: {e}")
             raise
     
+    @retry_on_failure(max_retries=3, delay=1.0)
     def _verify_connection(self):
         """Verify Neo4j connection"""
         with self.driver.session() as session:
@@ -152,6 +173,7 @@ class Neo4jStore:
                 'embedding': embedding
             })
     
+    @retry_on_failure(max_retries=3, delay=1.0)
     def vector_search(
         self, 
         query_embedding: List[float], 
