@@ -168,6 +168,15 @@ class Neo4jStore:
             top_k: Number of results to return
             min_score: Minimum similarity score
         """
+        # Add connectivity check
+        try:
+            self.driver.verify_connectivity()
+            print("Connection verified!")
+        except Exception as e:
+            print(f"Connection failed: {e}")
+            logger.error(f"Neo4j connection failed: {e}")
+            raise
+            
         with self.driver.session() as session:
             # Build node pattern based on type
             if node_type:
