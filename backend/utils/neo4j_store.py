@@ -231,6 +231,8 @@ class Neo4jStore:
                 'top_k': top_k
             })
             print("Out of session.run")
+            print("results")
+            print(results)
             matches = []
             # Convert to list to ensure all results are consumed
             records = list(results)
@@ -246,7 +248,8 @@ class Neo4jStore:
                     'type': record['node_labels'][0] if record['node_labels'] else 'Unknown',
                     'data': node_data
                 })
-            
+            print("matches")   
+            print(matches)
             return matches
     
     def hybrid_search(
