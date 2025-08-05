@@ -41,7 +41,16 @@ class Neo4jStore:
         self.password = os.getenv('NEO4J_PASSWORD', 'password')
         
         try:
-            self.driver = GraphDatabase.driver(self.uri, auth=(self.user, self.password))
+            # Configure driver with connection pooling and timeouts
+            self.driver = GraphDatabase.driver(
+                self.uri, 
+                auth=(self.user, self.password),
+                max_connection_lifetime=3600,  # 1 hour
+                max_connection_pool_size=50,
+                connection_acquisition_timeout=60.0,  # 60 seconds
+                connection_timeout=30.0,  # 30 seconds
+                keep_alive=True
+            )
             self._verify_connection()
             self._create_indexes()
             logger.info(f"Connected to Neo4j at {self.uri}")
@@ -223,7 +232,10 @@ class Neo4jStore:
             })
             print("Out of session.run")
             matches = []
-            for record in results:
+            # Convert to list to ensure all results are consumed
+            records = list(results)
+            
+            for record in records:
                 node = record['n']
                 node_data = dict(node)
                 node_data.pop('embedding', None)  # Remove embedding from response
@@ -464,4 +476,9 @@ class Neo4jStore:
     
     def close(self):
         """Close the database connection"""
-        self.driver.close()
+        try:
+            if hasattr(self, 'driver') and self.driver:
+                self.driver.close()
+                logger.info("Neo4j connection closed successfully")
+        except Exception as e:
+            logger.warning(f"Error closing Neo4j connection: {e}")

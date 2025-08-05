@@ -38,6 +38,18 @@ app.add_middleware(
 graph_rag_service = GraphRAGService()
 scoring_agent = ScoringAgent()
 
+# Shutdown handler
+@app.on_event("shutdown")
+async def shutdown_event():
+    """Properly close Neo4j connections on shutdown"""
+    try:
+        if hasattr(graph_rag_service, 'neo4j_store') and graph_rag_service.neo4j_store:
+            graph_rag_service.neo4j_store.close()
+        if hasattr(scoring_agent, 'neo4j_store') and scoring_agent.neo4j_store:
+            scoring_agent.neo4j_store.close()
+    except Exception as e:
+        print(f"Error during shutdown: {e}")
+
 # Request/Response models
 class SearchRequest(BaseModel):
     query: str
