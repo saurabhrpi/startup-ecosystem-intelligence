@@ -110,8 +110,9 @@ async def search(request: SearchRequest):
         
     Returns:
         SearchResponse with matches and AI-generated response
-    """
+    """    
     try:
+        print(f"Search request - query: {request.query}, top_k: {request.top_k}, filter_type: {request.filter_type}")
         result = graph_rag_service.search(
             query=request.query,
             top_k=request.top_k,

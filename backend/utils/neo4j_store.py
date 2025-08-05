@@ -207,7 +207,10 @@ class Neo4jStore:
             print(f"Connection failed: {e}")
             logger.error(f"Neo4j connection failed: {e}")
             raise
-            
+        
+        print("node_type")
+        print(node_type)
+        
         with self.driver.session() as session:
             # Build node pattern based on type
             if node_type:
@@ -224,6 +227,12 @@ class Neo4jStore:
             ORDER BY score DESC
             LIMIT $top_k
             """
+            print("node_pattern")
+            print(node_pattern)
+            
+            print("query_embedding")
+            print(query_embedding)
+            
             print("Calling session.run")
             results = session.run(query, {
                 'query_embedding': query_embedding,

@@ -34,8 +34,12 @@ class GraphRAGService:
         Perform Graph RAG search using Neo4j's hybrid capabilities
         """
         # Generate query embedding
+        print("query passed to search()")
+        print(query)
         query_embedding = self._get_query_embedding(query)
         
+        print("query_embedding inside search()")
+        print(query_embedding)
         # Perform hybrid search (vector + graph)
         results = self.neo4j_store.hybrid_search(
             query_embedding=query_embedding,
