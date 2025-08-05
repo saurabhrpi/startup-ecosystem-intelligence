@@ -230,14 +230,15 @@ class Neo4jStore:
                 'min_score': min_score,
                 'top_k': top_k
             })
-            print("Out of session.run")
-            print("results")
-            print(results)
+            print("Out of session.run")          
             matches = []
+                        
             # Convert to list to ensure all results are consumed
             records = list(results)
             
-            for record in records:
+            
+            for i, record in enumerate(records):
+                print(f"record {i}: {dict(record)}")
                 node = record['n']
                 node_data = dict(node)
                 node_data.pop('embedding', None)  # Remove embedding from response
@@ -247,9 +248,7 @@ class Neo4jStore:
                     'score': record['score'],
                     'type': record['node_labels'][0] if record['node_labels'] else 'Unknown',
                     'data': node_data
-                })
-            print("matches")   
-            print(matches)
+                })            
             return matches
     
     def hybrid_search(
