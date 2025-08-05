@@ -201,6 +201,7 @@ class Neo4jStore:
         """
         # Add connectivity check
         try:
+            print("Trying to verify connection")
             self.driver.verify_connectivity()
             print("Connection verified!")
         except Exception as e:
@@ -218,15 +219,24 @@ class Neo4jStore:
             else:
                 node_pattern = "(n)"
             
+            
+            #query = f"""
+            #MATCH {node_pattern}
+            #WHERE n.embedding IS NOT NULL
+            #WITH n, gds.similarity.cosine(n.embedding, $query_embedding) AS score
+            #WHERE score >= $min_score
+            #RETURN n, score, labels(n) as node_labels
+            #ORDER BY score DESC
+            #LIMIT $top_k
+            #"""
+            
             query = f"""
-            MATCH {node_pattern}
+            MATCH (n:Company)
             WHERE n.embedding IS NOT NULL
-            WITH n, gds.similarity.cosine(n.embedding, $query_embedding) AS score
-            WHERE score >= $min_score
-            RETURN n, score, labels(n) as node_labels
-            ORDER BY score DESC
-            LIMIT $top_k
+            RETURN n
+            LIMIT 5
             """
+            
             print("node_pattern")
             print(node_pattern)
             
@@ -234,11 +244,15 @@ class Neo4jStore:
             print(query_embedding)
             
             print("Calling session.run")
-            results = session.run(query, {
-                'query_embedding': query_embedding,
-                'min_score': min_score,
-                'top_k': top_k
-            })
+            
+            #results = session.run(query, {
+            #    'query_embedding': query_embedding,
+            #    'min_score': min_score,
+            #    'top_k': top_k
+            #})
+            
+            results = session.run(query)
+            
             print("Out of session.run")          
             matches = []
                         
