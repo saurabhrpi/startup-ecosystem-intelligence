@@ -184,13 +184,13 @@ class Neo4jStore:
             ORDER BY score DESC
             LIMIT $top_k
             """
-            
+            print("Calling session.run")
             results = session.run(query, {
                 'query_embedding': query_embedding,
                 'min_score': min_score,
                 'top_k': top_k
             })
-            
+            print("Out of session.run")
             matches = []
             for record in results:
                 node = record['n']

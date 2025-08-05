@@ -19,12 +19,7 @@ export default function CompanyDetail({ company, onClose }: CompanyDetailProps) 
 
   const fetchCompanyScore = async () => {
     try {
-      const response = await fetch(`/api/backend/score/${company.id}`, {
-        headers: {
-          'ngrok-skip-browser-warning': 'true',
-          'Accept': 'application/json',
-        },
-      })
+      const response = await fetch(`/api/backend/score/${company.id}`)
       if (response.ok) {
         const data = await response.json()
         setScore(data)
