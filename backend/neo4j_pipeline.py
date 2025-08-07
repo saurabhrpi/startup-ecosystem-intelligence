@@ -104,18 +104,49 @@ class Neo4jDataPipeline:
         if all_data.get('repos'):
             await self._load_repositories(all_data['repos'])
     
-    async def _load_companies(self, companies: List[Dict[str, Any]]):
+    async def _load_companies(self, companies: List[Dict[str, Any]], skip_existing: bool = True):
         """Load companies with embeddings"""
         print(f"\n[PROCESSING] Processing {len(companies)} companies...")
         
+        # Get existing company IDs if skip_existing is True
+        existing_ids = set()
+        if skip_existing:
+            with self.neo4j_store.driver.session() as session:
+                result = session.run("""
+                    MATCH (c:Company)
+                    WHERE c.source = 'yc'
+                    RETURN c.id as id
+                """)
+                existing_ids = {record['id'] for record in result}
+                print(f"[INFO] Found {len(existing_ids)} existing YC companies in database")
+        
+        # Filter out existing companies
+        new_companies = []
+        skipped_count = 0
+        for company in companies:
+            company_id = self._generate_id(company, 'company')
+            if company_id not in existing_ids:
+                new_companies.append(company)
+            else:
+                skipped_count += 1
+        
+        if skipped_count > 0:
+            print(f"[INFO] Skipping {skipped_count} companies that already exist")
+        
+        if not new_companies:
+            print("[INFO] All companies are already loaded!")
+            return
+        
+        print(f"[INFO] Loading {len(new_companies)} new companies...")
+        
         # Process in batches to avoid rate limits
         batch_size = 50
-        total_batches = (len(companies) + batch_size - 1) // batch_size
+        total_batches = (len(new_companies) + batch_size - 1) // batch_size
         
         for batch_idx in range(total_batches):
             batch_start = batch_idx * batch_size
-            batch_end = min((batch_idx + 1) * batch_size, len(companies))
-            batch = companies[batch_start:batch_end]
+            batch_end = min((batch_idx + 1) * batch_size, len(new_companies))
+            batch = new_companies[batch_start:batch_end]
             
             print(f"\n[BATCH {batch_idx + 1}/{total_batches}] Processing companies {batch_start + 1}-{batch_end}")
             
@@ -338,10 +369,27 @@ class Neo4jDataPipeline:
         return hashlib.md5(content.encode()).hexdigest()
 
 # Main execution
-async def main():
+async def main(load_remaining_only: bool = False):
     """Run the Neo4j data pipeline"""
     pipeline = Neo4jDataPipeline()
-    await pipeline.run_full_pipeline()
+    
+    if load_remaining_only:
+        print("Loading only remaining YC companies (skipping existing)...")
+        # Load YC companies from file
+        yc_path = 'data/raw/yc_companies.json'
+        if os.path.exists(yc_path):
+            with open(yc_path, 'r', encoding='utf-8') as f:
+                companies = json.load(f)
+                await pipeline._load_companies(companies, skip_existing=True)
+            
+            # Show statistics
+            pipeline.generate_summary_report()
+        else:
+            print(f"[ERROR] YC companies file not found: {yc_path}")
+    else:
+        await pipeline.run_full_pipeline()
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    import sys
+    load_remaining = '--load-remaining' in sys.argv
+    asyncio.run(main(load_remaining_only=load_remaining))

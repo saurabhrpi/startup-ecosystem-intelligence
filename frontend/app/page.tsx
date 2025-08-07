@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import SearchBar from '@/components/SearchBar'
 import CompanyGrid from '@/components/CompanyGrid'
 import CompanyDetail from '@/components/CompanyDetail'
@@ -12,6 +12,32 @@ export default function Home() {
   const [searchResults, setSearchResults] = useState<SearchResult | null>(null)
   const [selectedCompany, setSelectedCompany] = useState<Company | null>(null)
   const [loading, setLoading] = useState(false)
+  const [stats, setStats] = useState({
+    total_companies: 0,
+    total_embeddings: 0,
+    data_sources: 6
+  })
+
+  // Fetch stats on component mount
+  useEffect(() => {
+    const fetchStats = async () => {
+      try {
+        const response = await fetch('/api/backend/ecosystem-stats', {
+          headers: {
+            'ngrok-skip-browser-warning': 'true',
+            'Accept': 'application/json',
+          },
+        })
+        if (response.ok) {
+          const data = await response.json()
+          setStats(data)
+        }
+      } catch (error) {
+        console.error('Error fetching stats:', error)
+      }
+    }
+    fetchStats()
+  }, [])
 
   const handleSearch = async (query: string) => {
     setLoading(true)
@@ -71,8 +97,8 @@ export default function Home() {
           
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Discover hidden connections and opportunities across{' '}
-            <span className="font-semibold text-gray-800">
-              {new Intl.NumberFormat().format(2485)}
+            <span className="font-semibold text-gray-800 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+              {stats.total_companies > 0 ? new Intl.NumberFormat().format(stats.total_companies) : '5,000+'}
             </span>{' '}
             startups using advanced AI analysis
           </p>
@@ -82,13 +108,15 @@ export default function Home() {
             <div className="flex items-center space-x-2">
               <TrendingUp className="text-green-500" size={20} />
               <span className="text-sm text-gray-600">
-                <span className="font-bold text-gray-800">15K+</span> Embeddings
+                <span className="font-bold text-gray-800">
+                  {stats.total_embeddings > 0 ? `${(stats.total_embeddings / 1000).toFixed(0)}K+` : '15K+'}
+                </span> Embeddings
               </span>
             </div>
             <div className="flex items-center space-x-2">
               <Sparkles className="text-purple-500" size={20} />
               <span className="text-sm text-gray-600">
-                <span className="font-bold text-gray-800">6</span> Data Sources
+                <span className="font-bold text-gray-800">{stats.data_sources}</span> Data Sources
               </span>
             </div>
           </div>

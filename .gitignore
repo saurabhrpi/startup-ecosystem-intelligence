@@ -52,3 +52,6 @@ htmlcov/
 
 # Context conversations
 /context-conversations/
+
+# Domain setup documentation
+DOMAIN_SETUP.md
