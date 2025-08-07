@@ -4,7 +4,9 @@ import { useState } from 'react'
 import SearchBar from '@/components/SearchBar'
 import CompanyGrid from '@/components/CompanyGrid'
 import CompanyDetail from '@/components/CompanyDetail'
+import ResponseDisplay from '@/components/ResponseDisplay'
 import { Company, SearchResult } from '@/lib/types'
+import { TrendingUp, Sparkles, Zap } from 'lucide-react'
 
 export default function Home() {
   const [searchResults, setSearchResults] = useState<SearchResult | null>(null)
@@ -41,45 +43,105 @@ export default function Home() {
   }
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
-      <div className="container mx-auto px-4 py-8">
+    <main className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
+      {/* Animated Background */}
+      <div className="fixed inset-0 -z-10 overflow-hidden">
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob"></div>
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob animation-delay-2000"></div>
+        <div className="absolute top-40 left-40 w-80 h-80 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob animation-delay-4000"></div>
+      </div>
+
+      <div className="container mx-auto px-4 py-8 relative">
+        {/* Header */}
         <header className="text-center mb-12">
-          <h1 className="text-5xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent mb-4">
-            Startup Ecosystem Intelligence
+          <div className="inline-flex items-center justify-center space-x-2 mb-4 bg-gradient-to-r from-blue-100 to-indigo-100 px-4 py-2 rounded-full">
+            <Zap className="text-indigo-600" size={20} />
+            <span className="text-sm font-semibold text-indigo-700">Graph-RAG Powered Intelligence</span>
+          </div>
+          
+          <h1 className="text-6xl font-bold mb-4">
+            <span className="bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 bg-clip-text text-transparent">
+              Startup Ecosystem
+            </span>
+            <br />
+            <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+              Intelligence Platform
+            </span>
           </h1>
-          <p className="text-xl text-gray-600">
-            AI-powered discovery and analysis of {new Intl.NumberFormat().format(2485)} startups
+          
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            Discover hidden connections and opportunities across{' '}
+            <span className="font-semibold text-gray-800">
+              {new Intl.NumberFormat().format(2485)}
+            </span>{' '}
+            startups using advanced AI analysis
           </p>
+
+          {/* Stats Row */}
+          <div className="flex justify-center items-center space-x-8 mt-8">
+            <div className="flex items-center space-x-2">
+              <TrendingUp className="text-green-500" size={20} />
+              <span className="text-sm text-gray-600">
+                <span className="font-bold text-gray-800">15K+</span> Embeddings
+              </span>
+            </div>
+            <div className="flex items-center space-x-2">
+              <Sparkles className="text-purple-500" size={20} />
+              <span className="text-sm text-gray-600">
+                <span className="font-bold text-gray-800">6</span> Data Sources
+              </span>
+            </div>
+          </div>
         </header>
 
-        <SearchBar onSearch={handleSearch} />
+        {/* Search Section */}
+        <div className="max-w-3xl mx-auto mb-12">
+          <SearchBar onSearch={handleSearch} />
+        </div>
 
+        {/* Loading State */}
         {loading && (
-          <div className="flex justify-center items-center py-20">
-            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary"></div>
-          </div>
-        )}
-
-        {searchResults && !loading && (
-          <div className="mt-12">
-            <div className="mb-6">
-              <h2 className="text-2xl font-semibold text-center mb-4">
-                Found {searchResults.total_results} results
-              </h2>
-              {searchResults.response && (
-                <div className="max-w-3xl mx-auto text-center">
-                  <p className="text-gray-600 italic">{searchResults.response}</p>
-                </div>
-              )}
+          <div className="flex flex-col justify-center items-center py-20">
+            <div className="relative">
+              <div className="animate-spin rounded-full h-16 w-16 border-4 border-indigo-200"></div>
+              <div className="absolute top-0 animate-spin rounded-full h-16 w-16 border-t-4 border-indigo-600"></div>
             </div>
-
-            <CompanyGrid 
-              companies={searchResults.matches} 
-              onSelectCompany={setSelectedCompany}
-            />
+            <p className="mt-4 text-gray-600 animate-pulse">Analyzing ecosystem intelligence...</p>
           </div>
         )}
 
+        {/* Results Section */}
+        {searchResults && !loading && (
+          <div className="space-y-8">
+            {/* Response Display */}
+            {searchResults.response && (
+              <ResponseDisplay 
+                response={searchResults.response}
+                totalResults={searchResults.total_results}
+              />
+            )}
+
+            {/* Companies Grid */}
+            {searchResults.matches && searchResults.matches.length > 0 && (
+              <div>
+                <div className="text-center mb-6">
+                  <h2 className="text-3xl font-bold text-gray-800 mb-2">
+                    Discovered Companies
+                  </h2>
+                  <p className="text-gray-600">
+                    Click on any company to explore detailed insights
+                  </p>
+                </div>
+                <CompanyGrid 
+                  companies={searchResults.matches} 
+                  onSelectCompany={setSelectedCompany}
+                />
+              </div>
+            )}
+          </div>
+        )}
+
+        {/* Company Detail Modal */}
         {selectedCompany && (
           <CompanyDetail 
             company={selectedCompany} 

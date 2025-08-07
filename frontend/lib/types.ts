@@ -10,6 +10,11 @@ export interface Company {
     website?: string
     type: string
     source?: string
+    team_size?: number | string
+    status?: string
+    founded_date?: string
+    funding_stage?: string
+    total_funding?: string
   }
 }
 
