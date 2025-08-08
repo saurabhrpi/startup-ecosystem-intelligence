@@ -24,7 +24,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the application code
 COPY backend/ ./backend/
-COPY run_api.py ./
 
 # Expose the port (Railway will set this via $PORT)
 EXPOSE 8000
