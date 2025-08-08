@@ -33,9 +33,8 @@ class GraphRAGService:
         """
         Perform Graph RAG search using Neo4j's hybrid capabilities
         """
-        # Generate query embedding       
-        query_embedding = self._get_query_embedding(query)        
-     
+        query_embedding = self._get_query_embedding(query)
+        
         # Perform hybrid search (vector + graph)
         results = self.neo4j_store.hybrid_search(
             query_embedding=query_embedding,
@@ -108,7 +107,7 @@ class GraphRAGService:
         if direct_matches:
             context_parts.append("**Direct Matches:**")
             for i, match in enumerate(direct_matches[:3], 1):
-                data = match['data']
+                data = match['metadata']  # Changed from 'data' to 'metadata'
                 context_parts.append(
                     f"{i}. **{data.get('name', 'Unknown')}** ({match['type']})"
                 )
@@ -120,7 +119,7 @@ class GraphRAGService:
         if connected_matches:
             context_parts.append("\n**Related Entities (discovered through connections):**")
             for match in connected_matches[:3]:
-                data = match['data']
+                data = match['metadata']  # Changed from 'data' to 'metadata'
                 conn = match['connection']
                 context_parts.append(
                     f"- **{data.get('name', 'Unknown')}** "
@@ -176,7 +175,7 @@ Provide a comprehensive yet concise response (max 3-4 paragraphs)."""
                 seen_nodes.add(node_id)
                 nodes.append({
                     'id': node_id,
-                    'label': result['data'].get('name', 'Unknown'),
+                    'label': result['metadata'].get('name', 'Unknown'),
                     'type': result['type'],
                     'score': result.get('score', 0)
                 })

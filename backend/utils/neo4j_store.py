@@ -5,6 +5,7 @@ import os
 import time
 from typing import List, Dict, Any, Optional, Tuple
 from neo4j import GraphDatabase
+from neo4j.time import DateTime
 from dotenv import load_dotenv
 import numpy as np
 import logging
@@ -32,6 +33,19 @@ def retry_on_failure(max_retries=3, delay=1.0):
             raise last_exception
         return wrapper
     return decorator
+
+def clean_neo4j_data(data):
+    """Recursively clean Neo4j-specific types to make them JSON serializable"""
+    if isinstance(data, dict):
+        return {key: clean_neo4j_data(value) for key, value in data.items()}
+    elif isinstance(data, list):
+        return [clean_neo4j_data(item) for item in data]
+    elif isinstance(data, DateTime):
+        return data.iso_format()
+    elif hasattr(data, '__class__') and 'neo4j' in str(type(data)):
+        return str(data)
+    else:
+        return data
 
 class Neo4jStore:
     def __init__(self):
@@ -212,20 +226,23 @@ class Neo4jStore:
         with self.driver.session() as session:
             # Build node pattern based on type
             if node_type:
-                node_pattern = f"(n:{node_type})"
+                # Capitalize the node type to match Neo4j labels (Company, Person, etc.)
+                node_type_capitalized = node_type.capitalize()
+                node_pattern = f"(n:{node_type_capitalized})"
             else:
                 node_pattern = "(n)"
             
             
-            query = f"""
-            MATCH {node_pattern}
+            # Build query without f-string to avoid parameter issues
+            query = """
+            MATCH """ + node_pattern + """
             WHERE n.embedding IS NOT NULL
             WITH n, gds.similarity.cosine(n.embedding, $query_embedding) AS score
             WHERE score >= $min_score
             RETURN n, score, labels(n) as node_labels
             ORDER BY score DESC
             LIMIT $top_k
-            """         
+            """
             
             results = session.run(query, {
                 'query_embedding': query_embedding,
@@ -238,17 +255,21 @@ class Neo4jStore:
             # Convert to list to ensure all results are consumed
             records = list(results)
             
+            print(f"Got {len(records)} records back with min_score={min_score}")
             
             for record in records:                
                 node = record['n']
                 node_data = dict(node)
                 node_data.pop('embedding', None)  # Remove embedding from response
                 
+                # Clean all Neo4j-specific types recursively
+                clean_node_data = clean_neo4j_data(node_data)
+                
                 matches.append({
-                    'id': node_data.get('id'),
+                    'id': clean_node_data.get('id'),
                     'score': record['score'],
                     'type': record['node_labels'][0] if record['node_labels'] else 'Unknown',
-                    'data': node_data
+                    'metadata': clean_node_data  # Frontend expects 'metadata' not 'data'
                 })            
             return matches
     
@@ -270,8 +291,8 @@ class Neo4jStore:
             top_k: Number of results
             graph_depth: Depth for graph expansion
         """
-        # First, get vector search results
-        vector_results = self.vector_search(query_embedding, node_type, top_k * 2)
+        # First, get vector search results with reasonable threshold
+        vector_results = self.vector_search(query_embedding, node_type, top_k * 2, min_score=0.5)
         
         # Then expand using graph relationships
         expanded_results = []
@@ -282,10 +303,10 @@ class Neo4jStore:
                 node_id = result['id']
                 seen_ids.add(node_id)
                 
-                # Get connected nodes
-                expansion_query = """
-                MATCH (start {id: $node_id})
-                MATCH path = (start)-[*1..$depth]-(connected)
+                # Get connected nodes - build query with depth value directly
+                expansion_query = f"""
+                MATCH (start {{id: $node_id}})
+                MATCH path = (start)-[*1..{graph_depth}]-(connected)
                 WHERE connected.id <> start.id
                 WITH connected, 
                      length(path) as distance,
@@ -296,8 +317,7 @@ class Neo4jStore:
                 """
                 
                 expansion_results = session.run(expansion_query, {
-                    'node_id': node_id,
-                    'depth': graph_depth
+                    'node_id': node_id
                 })
                 
                 for record in expansion_results:
@@ -312,11 +332,14 @@ class Neo4jStore:
                         graph_score = 1.0 / (record['distance'] + 1)
                         combined_score = (vector_score * 0.7) + (graph_score * 0.3)
                         
+                        # Clean the connected node data
+                        clean_conn_data = clean_neo4j_data(dict(conn_node))
+                        
                         expanded_results.append({
                             'id': conn_id,
                             'score': combined_score,
                             'type': list(conn_node.labels)[0] if conn_node.labels else 'Unknown',
-                            'data': dict(conn_node),
+                            'metadata': clean_conn_data,  # Frontend expects 'metadata' not 'data'
                             'connection': {
                                 'from_id': node_id,
                                 'distance': record['distance'],

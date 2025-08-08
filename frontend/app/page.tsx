@@ -53,6 +53,7 @@ export default function Home() {
       }
       const data = await response.json()
       console.log('Search response:', data) // Debug log
+      console.log('First match structure:', data.matches?.[0]) // Debug company structure
       setSearchResults(data)
       setSelectedCompany(null)
     } catch (error) {

@@ -6,7 +6,9 @@ const nextConfig = {
     const apiUrl = isDev 
       ? 'http://localhost:8000' 
       : (process.env.NEXT_PUBLIC_API_URL || 'https://startup-ecosystem-intelligence.onrender.com');
-    console.log('API URL in next.config.js:', apiUrl);
+    console.log('🔧 API URL in next.config.js:', apiUrl);
+    console.log('🌍 NODE_ENV:', process.env.NODE_ENV);
+    console.log('🔄 Setting up proxy: /api/backend/* -> ${apiUrl}/*');
     return [
       {
         source: '/api/backend/:path*',
