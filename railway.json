@@ -1,9 +1,0 @@
-{
-  "$schema": "https://railway.app/railway.schema.json",
-  "deploy": {
-    "startCommand": "python -m uvicorn backend.api.main:app --host 0.0.0.0 --port $PORT",
-    "healthcheckPath": "/health",
-    "healthcheckTimeout": 100,
-    "restartPolicyType": "ON_FAILURE"
-  }
-}
