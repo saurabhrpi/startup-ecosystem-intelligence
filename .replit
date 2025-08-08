@@ -1,26 +1,19 @@
-entrypoint = "frontend"
-modules = ["nodejs-20"]
+entrypoint = "main.py"
+modules = ["nodejs-20", "python-3.11"]
 hidden = ["venv", ".pythonlibs", "frontend/node_modules", "frontend/.next"]
-run = "cd frontend && npm install && npm run dev"
 
 [nix]
 channel = "stable-24_05"
 
-[packager]
-language = "nodejs-npm"
-
 [deployment]
-run = ["sh", "-c", "cd frontend && npm ci && npm run build && npm run start"]
+run = ["sh", "-c", "cd frontend && npm install && npm run build && npm run start"]
 deploymentTarget = "gce"
-build = ["sh", "-c", "cd frontend && npm ci && npm run build"]
 ignorePorts = false
 
 [[ports]]
 localPort = 3000
-externalPort = 3000
+externalPort = 80
 exposeLocalhost = true
 
 [env]
 NEXT_PUBLIC_API_URL = "https://startup-ecosystem-api-production.up.railway.app"
-PORT = "3000"
-NODE_ENV = "production"
