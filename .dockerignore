@@ -1,0 +1,36 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+
+# Development
+.vscode/
+.idea/
+*.log
+
+# Data and outputs
+data/raw/
+*.tmp
+*.temp
+
+# Frontend (not needed for backend container)
+frontend/
+node_modules/
+
+# Documentation
+README.md
+context-conversations/
+
+# Platform files
+Procfile
+railway.json
+runtime.txt
+.railwayignore
