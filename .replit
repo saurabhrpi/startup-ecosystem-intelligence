@@ -1,13 +1,18 @@
 entrypoint = "frontend"
 modules = ["nodejs-20"]
 hidden = ["venv", ".pythonlibs", "frontend/node_modules", "frontend/.next"]
+run = "cd frontend && npm install && npm run dev"
 
 [nix]
 channel = "stable-24_05"
 
+[packager]
+language = "nodejs-npm"
+
 [deployment]
-run = ["sh", "-c", "cd frontend && npm install && npm run build && PORT=3000 npm run start"]
+run = ["sh", "-c", "cd frontend && npm ci && npm run build && npm run start"]
 deploymentTarget = "gce"
+build = ["sh", "-c", "cd frontend && npm ci && npm run build"]
 ignorePorts = false
 
 [[ports]]

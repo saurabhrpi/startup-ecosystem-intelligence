@@ -13,15 +13,15 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "axios": "^1.6.7",
-    "lucide-react": "^0.344.0"
+    "lucide-react": "^0.344.0",
+    "tailwindcss": "^3.4.1",
+    "postcss": "^8",
+    "autoprefixer": "^10"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "typescript": "^5",
-    "tailwindcss": "^3.4.1",
-    "postcss": "^8",
-    "autoprefixer": "^10"
+    "typescript": "^5"
   }
 }
