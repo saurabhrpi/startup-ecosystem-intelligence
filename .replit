@@ -6,7 +6,7 @@ hidden = ["venv", ".pythonlibs", "frontend/node_modules", "frontend/.next"]
 channel = "stable-24_05"
 
 [deployment]
-run = ["sh", "-c", "cd frontend && npm install && npm run build && npm run start"]
+run = ["sh", "-c", "cd frontend && npm install && npm run build && NODE_ENV=production HOST=0.0.0.0 PORT=${PORT:-8080} npm run start"]
 deploymentTarget = "gce"
 ignorePorts = false
 
