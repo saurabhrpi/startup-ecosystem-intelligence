@@ -115,17 +115,23 @@ async def get_ecosystem_stats():
             result_emb = session.run("MATCH (n) WHERE n.embedding IS NOT NULL RETURN count(n) as count")
             embeddings_count = result_emb.single()["count"]
             
+            # Count distinct data sources actually present in the graph
+            result_sources = session.run(
+                "MATCH (n) WHERE n.source IS NOT NULL RETURN count(DISTINCT n.source) as count"
+            )
+            data_sources_count = result_sources.single()["count"] or 0
+            
             return {
                 "total_companies": company_count,
                 "total_embeddings": embeddings_count,
-                "data_sources": 6
+                "data_sources": data_sources_count
             }
     except Exception as e:
-        # Fallback to known values
+        # Fallback to conservative defaults
         return {
-            "total_companies": 5353,
-            "total_embeddings": 5357,
-            "data_sources": 6,
+            "total_companies": 0,
+            "total_embeddings": 0,
+            "data_sources": 2,
             "error": str(e)
         }
 
@@ -160,7 +166,7 @@ async def search_get(
     filter_source: Optional[str] = Query(None, description="Filter by data source")
 ):
     """
-    Search the startup ecosystem database (GET version)
+    Search endpoint for GET requests
     """
     try:
         result = graph_rag_service.search(
@@ -171,8 +177,6 @@ async def search_get(
         )
         return result
     except Exception as e:
-        import traceback
-        traceback.print_exc()
         raise HTTPException(status_code=500, detail=str(e))
 
 @app.get("/similar/{entity_id}")
