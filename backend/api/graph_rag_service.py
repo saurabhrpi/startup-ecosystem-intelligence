@@ -44,6 +44,7 @@ class GraphRAGService:
         # Extract optional filters from the free-text query (e.g., location hints like "NYC")
         location_code = self._extract_location_from_query(query)
         batch_filters = self._extract_batch_from_query(query)
+        exclude_locations = self._derive_exclude_locations(location_code)
         
         # Perform hybrid search (vector + graph)
         adjusted_top_k = top_k * 2 if location_code else top_k
@@ -53,7 +54,8 @@ class GraphRAGService:
             top_k=adjusted_top_k,
             graph_depth=graph_depth,
             location_filters=self._aliases_for_code(location_code) if location_code else None,
-            batch_filters=batch_filters
+            batch_filters=batch_filters,
+            exclude_location_filters=exclude_locations
         )
 
         # If a location was detected in the query, enforce strict filtering in all cases
@@ -87,7 +89,8 @@ class GraphRAGService:
                 'filter_type': filter_type,
                 'applied_filters': {
                     'location': location_code,
-                    'batch': batch_filters
+                    'batch': batch_filters,
+                    'exclude_locations': exclude_locations
                 }
             }
         }
@@ -195,6 +198,22 @@ class GraphRAGService:
         # Deduplicate & return
         tokens = list({t for t in tokens if t})
         return tokens or None
+
+    def _derive_exclude_locations(self, canonical_code: Optional[str]) -> Optional[List[str]]:
+        """Given a selected canonical location (e.g., 'sf'), derive alias lists for other major hubs to exclude (e.g., NYC, LA).
+        This reduces far-off false positives like NYC when searching for SF.
+        """
+        if not canonical_code:
+            return None
+        hubs = set(self.location_aliases.keys())
+        if canonical_code in hubs:
+            hubs.remove(canonical_code)
+        # Heuristic: only exclude well-known distant hubs that frequently collide
+        candidates = [k for k in hubs if k in {'nyc', 'la', 'boston', 'london'}]
+        exclude_aliases: List[str] = []
+        for k in candidates:
+            exclude_aliases.extend(self.location_aliases.get(k, []))
+        return [a.lower() for a in exclude_aliases] or None
     
     def get_entity_network(self, entity_id: str, depth: int = 2) -> Dict[str, Any]:
         """Get the network around an entity"""

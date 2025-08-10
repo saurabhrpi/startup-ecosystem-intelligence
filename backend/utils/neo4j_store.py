@@ -257,7 +257,8 @@ class Neo4jStore:
         top_k: int = 10,
         min_score: float = 0.7,
         location_filters: Optional[List[str]] = None,
-        batch_filters: Optional[List[str]] = None
+        batch_filters: Optional[List[str]] = None,
+        exclude_location_filters: Optional[List[str]] = None
     ) -> List[Dict[str, Any]]:
         """
         Perform vector similarity search across nodes
@@ -294,6 +295,7 @@ class Neo4jStore:
             WHERE n.embedding IS NOT NULL
               AND ($location_filters IS NULL OR ANY(loc IN $location_filters WHERE toLower(coalesce(n.location, '')) CONTAINS loc))
               AND ($batch_filters IS NULL OR ANY(b IN $batch_filters WHERE toLower(coalesce(n.batch, '')) CONTAINS b))
+              AND ($exclude_location_filters IS NULL OR NONE(ex IN $exclude_location_filters WHERE toLower(coalesce(n.location, '')) CONTAINS ex))
             WITH n, gds.similarity.cosine(n.embedding, $query_embedding) AS score
             WHERE score >= $min_score
             RETURN n, score, labels(n) as node_labels
@@ -306,7 +308,8 @@ class Neo4jStore:
                 'min_score': min_score,
                 'top_k': top_k,
                 'location_filters': location_filters,
-                'batch_filters': batch_filters
+                'batch_filters': batch_filters,
+                'exclude_location_filters': exclude_location_filters
             })           
             
             matches = []
@@ -340,7 +343,8 @@ class Neo4jStore:
         top_k: int = 10,
         graph_depth: int = 2,
         location_filters: Optional[List[str]] = None,
-        batch_filters: Optional[List[str]] = None
+        batch_filters: Optional[List[str]] = None,
+        exclude_location_filters: Optional[List[str]] = None
     ) -> List[Dict[str, Any]]:
         """
         Perform hybrid search combining vector similarity and graph patterns
@@ -359,7 +363,8 @@ class Neo4jStore:
             top_k * 2,
             min_score=0.5,
             location_filters=location_filters,
-            batch_filters=batch_filters
+            batch_filters=batch_filters,
+            exclude_location_filters=exclude_location_filters
         )
         
         # Then expand using graph relationships
@@ -381,6 +386,7 @@ class Neo4jStore:
                 WHERE connected.id <> start.id
                   AND ($location_filters IS NULL OR ANY(loc IN $location_filters WHERE toLower(coalesce(connected.location, '')) CONTAINS loc))
                   AND ($batch_filters IS NULL OR ANY(b IN $batch_filters WHERE toLower(coalesce(connected.batch, '')) CONTAINS b))
+                  AND ($exclude_location_filters IS NULL OR NONE(ex IN $exclude_location_filters WHERE toLower(coalesce(connected.location, '')) CONTAINS ex))
                 WITH connected, 
                      length(path) as distance,
                      [rel in relationships(path) | type(rel)] as rel_types
@@ -392,7 +398,8 @@ class Neo4jStore:
                 expansion_results = session.run(expansion_query, {
                     'node_id': node_id,
                     'location_filters': location_filters,
-                    'batch_filters': batch_filters
+                    'batch_filters': batch_filters,
+                    'exclude_location_filters': exclude_location_filters
                 })
                 
                 for record in expansion_results:
