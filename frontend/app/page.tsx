@@ -24,7 +24,6 @@ export default function Home() {
       try {
         const response = await fetch('/api/backend/ecosystem-stats', {
           headers: {
-            'ngrok-skip-browser-warning': 'true',
             'Accept': 'application/json',
           },
         })
@@ -42,9 +41,8 @@ export default function Home() {
   const handleSearch = async (query: string) => {
     setLoading(true)
     try {
-      const response = await fetch(`/api/backend/search?query=${encodeURIComponent(query)}&top_k=20&filter_type=company`, {
+      const response = await fetch(`/api/search?query=${encodeURIComponent(query)}&top_k=20&filter_type=company`, {
         headers: {
-          'ngrok-skip-browser-warning': 'true',
           'Accept': 'application/json',
         },
       })

@@ -3,7 +3,6 @@ export const apiClient = {
   async get(path: string) {
     const response = await fetch(path, {
       headers: {
-        'ngrok-skip-browser-warning': 'true',
         'Accept': 'application/json',
       },
     });

@@ -72,6 +72,36 @@ class Neo4jStore:
             logger.error(f"Failed to connect to Neo4j: {e}")
             raise
     
+    def _sanitize_company_data(self, company_data: Dict[str, Any]) -> Dict[str, Any]:
+        """Sanitize raw company fields prior to persistence.
+        - Trim whitespace
+        - Remove leading '@' from website
+        - Ensure website has http(s) scheme if present
+        """
+        sanitized: Dict[str, Any] = dict(company_data)
+        # Description
+        description = sanitized.get('description', '')
+        if isinstance(description, str):
+            sanitized['description'] = description.strip()
+        # Location
+        location = sanitized.get('location', '')
+        if isinstance(location, str):
+            sanitized['location'] = location.strip()
+        # Website
+        website = sanitized.get('website', '') or ''
+        if isinstance(website, str):
+            website = website.strip()
+            if website.startswith('@'):
+                website = website[1:].strip()
+            if website and not (website.startswith('http://') or website.startswith('https://')):
+                website = f"https://{website}"
+            sanitized['website'] = website
+        # Industries
+        industries = sanitized.get('industries')
+        if isinstance(industries, list):
+            sanitized['industries'] = [str(ind).strip() for ind in industries if str(ind).strip()]
+        return sanitized
+    
     @retry_on_failure(max_retries=3, delay=1.0)
     def _verify_connection(self):
         """Verify Neo4j connection"""
@@ -111,30 +141,53 @@ class Neo4jStore:
                         logger.warning(f"Index creation warning: {e}")
     
     def create_company_with_embedding(self, company_data: Dict[str, Any], embedding: List[float]) -> None:
-        """Create a company node with its embedding"""
+        """Create or update a company node with its embedding using non-destructive updates.
+        - On first insert: set all provided fields
+        - On subsequent inserts: only fill empty fields (avoid overwriting manual corrections)
+        - Track all contributing sources in `sources` (array) while keeping original `source`
+        - Sanitize website/description/location
+        """
         with self.driver.session() as session:
+            sanitized = self._sanitize_company_data(company_data)
             query = """
             MERGE (c:Company {id: $id})
-            SET c.name = $name,
+            ON CREATE SET
+                c.name = $name,
                 c.description = $description,
                 c.location = $location,
                 c.website = $website,
                 c.batch = $batch,
                 c.industries = $industries,
                 c.source = $source,
+                c.sources = [$source],
                 c.embedding = $embedding,
-                c.created_at = datetime()
+                c.created_at = datetime(),
+                c.updated_at = datetime()
+            ON MATCH SET
+                c.name = coalesce(c.name, $name),
+                c.description = CASE WHEN c.description IS NULL OR c.description = '' THEN $description ELSE c.description END,
+                c.location = CASE WHEN c.location IS NULL OR c.location = '' THEN $location ELSE c.location END,
+                c.website = CASE WHEN c.website IS NULL OR c.website = '' THEN $website ELSE c.website END,
+                c.batch = CASE WHEN c.batch IS NULL OR c.batch = '' THEN $batch ELSE c.batch END,
+                c.industries = CASE WHEN c.industries IS NULL OR size(c.industries) = 0 THEN $industries ELSE c.industries END,
+                c.embedding = coalesce(c.embedding, $embedding),
+                c.sources = CASE 
+                    WHEN c.sources IS NULL THEN [$source]
+                    WHEN NOT $source IN c.sources THEN c.sources + $source
+                    ELSE c.sources
+                END,
+                c.updated_at = datetime()
             """
-            
+
             session.run(query, {
-                'id': company_data.get('id'),
-                'name': company_data.get('name'),
-                'description': company_data.get('description', ''),
-                'location': company_data.get('location', ''),
-                'website': company_data.get('website', ''),
-                'batch': company_data.get('batch', ''),
-                'industries': company_data.get('industries', []),
-                'source': company_data.get('source', 'unknown'),
+                'id': sanitized.get('id'),
+                'name': sanitized.get('name'),
+                'description': sanitized.get('description', ''),
+                'location': sanitized.get('location', ''),
+                'website': sanitized.get('website', ''),
+                'batch': sanitized.get('batch', ''),
+                'industries': sanitized.get('industries', []),
+                'source': sanitized.get('source', 'unknown'),
                 'embedding': embedding
             })
     

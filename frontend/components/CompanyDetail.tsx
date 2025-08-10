@@ -34,7 +34,6 @@ export default function CompanyDetail({ company, onClose }: CompanyDetailProps) 
     try {
       const response = await fetch(`/api/backend/score/${company.id}`, {
         headers: {
-          'ngrok-skip-browser-warning': 'true',
           'Accept': 'application/json',
         },
       })

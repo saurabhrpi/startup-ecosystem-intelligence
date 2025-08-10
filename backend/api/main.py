@@ -1,12 +1,44 @@
 """
 Main FastAPI application for Startup Ecosystem Intelligence Platform
 """
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import FastAPI, HTTPException, Query, Depends, Request
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import Optional, List, Dict, Any
 from backend.api.graph_rag_service import GraphRAGService
 from backend.agents.scoring_agent import ScoringAgent
+from backend.config import settings
+import time
+
+# Simple in-memory rate limiter: key -> [window_start_ts, count]
+rate_buckets: Dict[str, Dict[str, float]] = {}
+
+def require_api_key(request: Request):
+    expected = settings.api_key
+    if not expected:
+        # If no key configured, allow (useful for local dev)
+        return True
+    provided = request.headers.get('x-api-key') or request.headers.get('authorization', '').replace('Bearer ', '')
+    if provided != expected:
+        raise HTTPException(status_code=401, detail="Unauthorized")
+    return True
+
+def rate_limit(request: Request):
+    # Build a key from API key (if present) and IP
+    api_key = request.headers.get('x-api-key') or 'anon'
+    ip = request.client.host if request.client else 'unknown'
+    key = f"{api_key}:{ip}"
+    now = time.time()
+    window = 60.0
+    limit = settings.rate_limit_rpm
+    bucket = rate_buckets.get(key)
+    if not bucket or now - bucket['ts'] >= window:
+        rate_buckets[key] = {'ts': now, 'count': 1}
+        return True
+    if bucket['count'] >= limit:
+        raise HTTPException(status_code=429, detail="Rate limit exceeded")
+    bucket['count'] += 1
+    return True
 
 # Initialize FastAPI app
 app = FastAPI(
@@ -135,7 +167,7 @@ async def get_ecosystem_stats():
             "error": str(e)
         }
 
-@app.post("/search", response_model=SearchResponse)
+@app.post("/search", response_model=SearchResponse, dependencies=[Depends(require_api_key), Depends(rate_limit)])
 async def search(request: SearchRequest):
     """
     Search the startup ecosystem database
@@ -158,7 +190,7 @@ async def search(request: SearchRequest):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-@app.get("/search", response_model=SearchResponse)
+@app.get("/search", response_model=SearchResponse, dependencies=[Depends(require_api_key), Depends(rate_limit)])
 async def search_get(
     query: str = Query(..., description="Search query"),
     top_k: int = Query(10, description="Number of results to return"),
@@ -179,7 +211,7 @@ async def search_get(
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-@app.get("/similar/{entity_id}")
+@app.get("/similar/{entity_id}", dependencies=[Depends(require_api_key), Depends(rate_limit)])
 async def find_similar(
     entity_id: str,
     top_k: int = Query(5, description="Number of similar entities to return")
@@ -202,7 +234,7 @@ async def find_similar(
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-@app.get("/network/{entity_id}")
+@app.get("/network/{entity_id}", dependencies=[Depends(require_api_key), Depends(rate_limit)])
 async def get_entity_network(
     entity_id: str,
     depth: int = Query(2, description="Depth of network to retrieve")

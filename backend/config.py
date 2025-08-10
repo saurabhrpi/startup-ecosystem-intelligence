@@ -29,6 +29,10 @@ class Settings(BaseSettings):
     # Embeddings
     embedding_model: str = "text-embedding-3-small"
     embedding_dimension: int = 1536
+
+    # API security
+    api_key: Optional[str] = os.getenv("API_KEY")
+    rate_limit_rpm: int = int(os.getenv("RATE_LIMIT_RPM", "60"))
     
     class Config:
         env_file = ".env"
