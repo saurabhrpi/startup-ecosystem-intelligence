@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import { useRouter } from 'next/navigation'
 import SearchBar from '@/components/SearchBar'
 import CompanyGrid from '@/components/CompanyGrid'
 import CompanyDetail from '@/components/CompanyDetail'
@@ -9,6 +10,7 @@ import { Company, SearchResult } from '@/lib/types'
 import { TrendingUp, Sparkles, Zap } from 'lucide-react'
 
 export default function Home() {
+  const router = useRouter()
   const [searchResults, setSearchResults] = useState<SearchResult | null>(null)
   const [selectedCompany, setSelectedCompany] = useState<Company | null>(null)
   const [loading, setLoading] = useState(false)
@@ -20,6 +22,18 @@ export default function Home() {
 
   // Fetch stats on component mount
   useEffect(() => {
+    // Redirect unauthenticated users to /signin
+    const ensureAuth = async () => {
+      try {
+        const res = await fetch('/api/auth/session', { cache: 'no-store' })
+        const data = await res.json()
+        if (!data?.user) router.replace('/signin')
+      } catch {
+        // ignore
+      }
+    }
+    ensureAuth()
+
     const fetchStats = async () => {
       try {
         const response = await fetch('/api/backend/ecosystem-stats', {

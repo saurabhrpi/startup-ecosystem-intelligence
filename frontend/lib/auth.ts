@@ -19,7 +19,8 @@ export const authOptions: NextAuthOptions = {
       },
     }),
   ],
-  secret: process.env.NEXTAUTH_SECRET,
+  // Fallback to BACKEND_API_KEY if NEXTAUTH_SECRET isn't set in hosting env
+  secret: process.env.NEXTAUTH_SECRET || process.env.BACKEND_API_KEY,
   session: { strategy: 'jwt' },
   pages: { signIn: '/signin' },
   callbacks: {
