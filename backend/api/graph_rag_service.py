@@ -34,7 +34,9 @@ class GraphRAGService:
         top_k: int = 10,
         graph_depth: int = 2,
         filter_type: Optional[str] = None,
-        min_score: float = 0.7
+        min_score: float = 0.7,
+        min_repo_stars: Optional[int] = None,
+        person_role_filters: Optional[List[str]] = None
     ) -> Dict[str, Any]:
         """
         Perform Graph RAG search using Neo4j's hybrid capabilities
@@ -55,7 +57,9 @@ class GraphRAGService:
             graph_depth=graph_depth,
             location_filters=self._aliases_for_code(location_code) if location_code else None,
             batch_filters=batch_filters,
-            exclude_location_filters=exclude_locations
+            exclude_location_filters=exclude_locations,
+            min_repo_stars=min_repo_stars,
+            person_role_filters=person_role_filters
         )
 
         # If a location was detected in the query, enforce strict filtering in all cases
@@ -90,7 +94,9 @@ class GraphRAGService:
                 'applied_filters': {
                     'location': location_code,
                     'batch': batch_filters,
-                    'exclude_locations': exclude_locations
+                    'exclude_locations': exclude_locations,
+                    'min_repo_stars': min_repo_stars,
+                    'person_roles': person_role_filters
                 }
             }
         }

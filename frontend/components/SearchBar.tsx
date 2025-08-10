@@ -35,6 +35,8 @@ export default function SearchBar({ onSearch }: SearchBarProps) {
     { icon: Building2, text: 'YC W24 companies', color: 'text-blue-600' },
     { icon: Sparkles, text: 'Fintech founders from Stanford', color: 'text-purple-600' },
     { icon: Command, text: 'Developer tools with >100 stars', color: 'text-orange-600' },
+    { icon: Command, text: 'Founders in Boston', color: 'text-blue-600' },
+    { icon: Command, text: 'Investors in fintech', color: 'text-green-600' },
   ]
 
   const handleSuggestionClick = (text: string) => {

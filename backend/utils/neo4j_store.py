@@ -258,7 +258,9 @@ class Neo4jStore:
         min_score: float = 0.7,
         location_filters: Optional[List[str]] = None,
         batch_filters: Optional[List[str]] = None,
-        exclude_location_filters: Optional[List[str]] = None
+        exclude_location_filters: Optional[List[str]] = None,
+        min_repo_stars: Optional[int] = None,
+        person_role_filters: Optional[List[str]] = None
     ) -> List[Dict[str, Any]]:
         """
         Perform vector similarity search across nodes
@@ -296,6 +298,8 @@ class Neo4jStore:
               AND ($location_filters IS NULL OR ANY(loc IN $location_filters WHERE toLower(coalesce(n.location, '')) CONTAINS loc))
               AND ($batch_filters IS NULL OR ANY(b IN $batch_filters WHERE toLower(coalesce(n.batch, '')) CONTAINS b))
               AND ($exclude_location_filters IS NULL OR NONE(ex IN $exclude_location_filters WHERE toLower(coalesce(n.location, '')) CONTAINS ex))
+              AND ($min_repo_stars IS NULL OR (exists(n.stars) AND n.stars >= $min_repo_stars))
+              AND ($person_role_filters IS NULL OR (exists(n.role) AND toLower(n.role) IN $person_role_filters))
             WITH n, gds.similarity.cosine(n.embedding, $query_embedding) AS score
             WHERE score >= $min_score
             RETURN n, score, labels(n) as node_labels
@@ -309,7 +313,9 @@ class Neo4jStore:
                 'top_k': top_k,
                 'location_filters': location_filters,
                 'batch_filters': batch_filters,
-                'exclude_location_filters': exclude_location_filters
+                'exclude_location_filters': exclude_location_filters,
+                'min_repo_stars': min_repo_stars,
+                'person_role_filters': person_role_filters
             })           
             
             matches = []
@@ -344,7 +350,9 @@ class Neo4jStore:
         graph_depth: int = 2,
         location_filters: Optional[List[str]] = None,
         batch_filters: Optional[List[str]] = None,
-        exclude_location_filters: Optional[List[str]] = None
+        exclude_location_filters: Optional[List[str]] = None,
+        min_repo_stars: Optional[int] = None,
+        person_role_filters: Optional[List[str]] = None
     ) -> List[Dict[str, Any]]:
         """
         Perform hybrid search combining vector similarity and graph patterns
@@ -364,7 +372,9 @@ class Neo4jStore:
             min_score=0.5,
             location_filters=location_filters,
             batch_filters=batch_filters,
-            exclude_location_filters=exclude_location_filters
+            exclude_location_filters=exclude_location_filters,
+            min_repo_stars=min_repo_stars,
+            person_role_filters=person_role_filters
         )
         
         # Then expand using graph relationships
@@ -387,6 +397,8 @@ class Neo4jStore:
                   AND ($location_filters IS NULL OR ANY(loc IN $location_filters WHERE toLower(coalesce(connected.location, '')) CONTAINS loc))
                   AND ($batch_filters IS NULL OR ANY(b IN $batch_filters WHERE toLower(coalesce(connected.batch, '')) CONTAINS b))
                   AND ($exclude_location_filters IS NULL OR NONE(ex IN $exclude_location_filters WHERE toLower(coalesce(connected.location, '')) CONTAINS ex))
+                  AND ($min_repo_stars IS NULL OR (exists(connected.stars) AND connected.stars >= $min_repo_stars))
+                  AND ($person_role_filters IS NULL OR (exists(connected.role) AND toLower(connected.role) IN $person_role_filters))
                 WITH connected, 
                      length(path) as distance,
                      [rel in relationships(path) | type(rel)] as rel_types
@@ -399,7 +411,9 @@ class Neo4jStore:
                     'node_id': node_id,
                     'location_filters': location_filters,
                     'batch_filters': batch_filters,
-                    'exclude_location_filters': exclude_location_filters
+                    'exclude_location_filters': exclude_location_filters,
+                    'min_repo_stars': min_repo_stars,
+                    'person_role_filters': person_role_filters
                 })
                 
                 for record in expansion_results:

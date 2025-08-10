@@ -88,6 +88,8 @@ class SearchRequest(BaseModel):
     top_k: Optional[int] = 10
     filter_type: Optional[str] = None
     filter_source: Optional[str] = None
+    min_stars: Optional[int] = None
+    person_roles: Optional[List[str]] = None
 
 class SearchResponse(BaseModel):
     query: str
@@ -184,7 +186,9 @@ async def search(request: SearchRequest):
             query=request.query,
             top_k=request.top_k,
             filter_type=request.filter_type,
-            graph_depth=2
+            graph_depth=2,
+            min_repo_stars=request.min_stars,
+            person_role_filters=request.person_roles
         )
         return result
     except Exception as e:
@@ -195,17 +199,24 @@ async def search_get(
     query: str = Query(..., description="Search query"),
     top_k: int = Query(10, description="Number of results to return"),
     filter_type: Optional[str] = Query(None, description="Filter by entity type"),
-    filter_source: Optional[str] = Query(None, description="Filter by data source")
+    filter_source: Optional[str] = Query(None, description="Filter by data source"),
+    min_stars: Optional[int] = Query(None, description="Minimum stars for repositories"),
+    person_roles: Optional[str] = Query(None, description="Comma-separated person roles to include (e.g., founder,investor)")
 ):
     """
     Search endpoint for GET requests
     """
     try:
+        role_list = None
+        if person_roles:
+            role_list = [r.strip().lower() for r in person_roles.split(',') if r.strip()]
         result = graph_rag_service.search(
             query=query,
             top_k=top_k,
             filter_type=filter_type,
-            graph_depth=2
+            graph_depth=2,
+            min_repo_stars=min_stars,
+            person_role_filters=role_list
         )
         return result
     except Exception as e:
