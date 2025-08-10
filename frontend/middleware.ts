@@ -1,3 +1,15 @@
+import { withAuth } from 'next-auth/middleware'
+
+export default withAuth({
+  pages: {
+    signIn: '/signin',
+  },
+})
+
+export const config = {
+  matcher: ['/', '/api/search'],
+}
+
 import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
 
