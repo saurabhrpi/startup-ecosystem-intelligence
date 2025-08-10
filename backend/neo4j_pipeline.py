@@ -23,6 +23,8 @@ class Neo4jDataPipeline:
         }
         self.embedding_generator = EmbeddingGenerator()
         self.neo4j_store = Neo4jStore()
+        # Track processed people to avoid redundant embedding generation
+        self.processed_person_ids = set()
         
     async def run_full_pipeline(self):
         """Run the complete data pipeline"""
@@ -185,9 +187,13 @@ class Neo4jDataPipeline:
                                         'source': 'yc'
                                     }
                                     
-                                    # Generate embedding for person
-                                    person_text = f"Name: {founder.get('name')}\nRole: Founder\nCompany: {company.get('name')}"
-                                    person_embedding = self._get_embedding(person_text)
+                                    # Generate embedding for person (founder)
+                                    if person_id not in self.processed_person_ids:
+                                        person_text = f"Name: {founder.get('name')}\nRole: Founder\nCompany: {company.get('name')}"
+                                        person_embedding = self._get_embedding(person_text)
+                                        self.processed_person_ids.add(person_id)
+                                    else:
+                                        person_embedding = None
                                     
                                     self.neo4j_store.create_person_with_embedding(person_data, person_embedding)
                                     
@@ -213,7 +219,7 @@ class Neo4jDataPipeline:
         
         for repo in tqdm(repos, desc="Loading repositories"):
             try:
-                # Generate embedding
+                # Generate embedding for repository
                 embedding_text = self._create_repo_text(repo)
                 embedding = self._get_embedding(embedding_text)
                 
@@ -234,17 +240,30 @@ class Neo4jDataPipeline:
                     
                     self.neo4j_store.create_repository_with_embedding(repo_data, embedding)
                     
-                    # Create owner node if exists
+                    # Create owner node if exists (with embedding when first seen)
                     if repo.get('owner', {}).get('login'):
-                        owner_id = self._generate_id({'name': repo['owner']['login']}, 'person')
+                        owner_login = repo['owner']['login']
+                        owner_id = self._generate_id({'name': owner_login, 'source': 'github'}, 'person')
                         owner_data = {
                             'id': owner_id,
-                            'name': repo['owner']['login'],
+                            'name': owner_login,
                             'role': 'Developer',
                             'source': 'github'
                         }
                         
-                        self.neo4j_store.create_person_with_embedding(owner_data, None)
+                        if owner_id not in self.processed_person_ids:
+                            owner_text = (
+                                f"Name: {owner_login}\n"
+                                f"Role: Developer\n"
+                                f"Repository: {repo.get('name', '')}\n"
+                                f"Description: {repo.get('description', '')}"
+                            )
+                            owner_embedding = self._get_embedding(owner_text)
+                            self.processed_person_ids.add(owner_id)
+                        else:
+                            owner_embedding = None
+                        
+                        self.neo4j_store.create_person_with_embedding(owner_data, owner_embedding)
                         
                         # Create OWNS relationship
                         self.neo4j_store.create_relationship(
@@ -262,38 +281,121 @@ class Neo4jDataPipeline:
         print("\n[RELATIONSHIPS] Creating cross-entity relationships...")
         
         with self.neo4j_store.driver.session() as session:
-            # Link companies in same batch
-            print("  - Linking companies in same YC batch...")
-            session.run("""
-                MATCH (c1:Company), (c2:Company)
-                WHERE c1.batch = c2.batch 
-                  AND c1.batch <> ''
-                  AND c1.id < c2.id
-                MERGE (c1)-[:SAME_BATCH]->(c2)
-            """)
+            # Remove dense pairwise edges if they exist
+            print("  - Removing SAME_BATCH/SAME_INDUSTRY pairwise edges (if any)...")
+            session.run("MATCH ()-[r:SAME_BATCH]->() DELETE r")
+            session.run("MATCH ()-[r:SAME_INDUSTRY]->() DELETE r")
+
+            # Ensure uniqueness constraints for hub nodes
+            print("  - Ensuring constraints for hub nodes...")
+            session.run("CREATE CONSTRAINT batch_name IF NOT EXISTS FOR (b:Batch) REQUIRE b.name IS UNIQUE")
+            session.run("CREATE CONSTRAINT industry_name IF NOT EXISTS FOR (i:Industry) REQUIRE i.name IS UNIQUE")
+
+            # Batch hubs (Company)-[:IN_BATCH]->(Batch)
+            print("  - Creating IN_BATCH hub relationships...")
+            session.run(
+                """
+                MATCH (c:Company) WHERE c.batch IS NOT NULL AND c.batch <> ''
+                MERGE (b:Batch {name: c.batch})
+                MERGE (c)-[:IN_BATCH]->(b)
+                """
+            )
+
+            # Industry hubs (Company)-[:IN_INDUSTRY]->(Industry)
+            print("  - Creating IN_INDUSTRY hub relationships...")
+            session.run(
+                """
+                MATCH (c:Company)
+                WITH c, coalesce(c.industries, []) AS inds
+                UNWIND inds AS ind
+                WITH c, toLower(trim(ind)) AS ind
+                WHERE ind <> ''
+                MERGE (i:Industry {name: ind})
+                MERGE (c)-[:IN_INDUSTRY]->(i)
+                """
+            )
             
-            # Link companies in same industry
-            print("  - Linking companies in same industry...")
-            session.run("""
-                MATCH (c1:Company), (c2:Company)
-                WHERE c1.id <> c2.id
-                  AND ANY(ind IN c1.industries WHERE ind IN c2.industries)
-                MERGE (c1)-[:SAME_INDUSTRY]->(c2)
-            """)
-            
-            # Link repos that might belong to companies
+            # Keep repo links
             print("  - Linking repos to potential company owners...")
-            session.run("""
+            session.run(
+                """
                 MATCH (c:Company), (r:Repository)
                 WHERE toLower(r.name) CONTAINS toLower(c.name) 
                    OR toLower(r.description) CONTAINS toLower(c.name)
                 MERGE (c)-[:LIKELY_OWNS]->(r)
-            """)
-            
-            # Create similarity relationships based on embeddings
-            print("  - Creating similarity relationships...")
-            # This would be more efficient with Graph Data Science library
-            # For now, we'll skip this step
+                """
+            )
+
+            # Create sparse SIMILAR_TO edges using vector indexes (top-3 per node)
+            top_k = 3
+            threshold = 0.85
+
+            print("  - Rebuilding SIMILAR_TO edges (Company)...")
+            session.run("MATCH ()-[r:SIMILAR_TO]->() DELETE r")
+            session.run(
+                """
+                MATCH (c:Company) WHERE c.embedding IS NOT NULL
+                CALL db.index.vector.queryNodes('company_embedding', $topKPlusSelf, c.embedding)
+                YIELD node, score
+                WHERE node <> c AND score >= $threshold
+                WITH c, node, score
+                ORDER BY score DESC
+                WITH c, collect({node: node, score: score})[0..$topK] AS top
+                UNWIND top AS t
+                WITH c, t.node AS other, t.score AS s
+                MERGE (c)-[r:SIMILAR_TO]-(other)
+                SET r.score = s
+                """,
+                {
+                    "topKPlusSelf": top_k + 1,
+                    "topK": top_k,
+                    "threshold": threshold,
+                }
+            )
+
+            print("  - Rebuilding SIMILAR_TO edges (Person)...")
+            session.run(
+                """
+                MATCH (p:Person) WHERE p.embedding IS NOT NULL
+                CALL db.index.vector.queryNodes('person_embedding', $topKPlusSelf, p.embedding)
+                YIELD node, score
+                WHERE node <> p AND score >= $threshold
+                WITH p, node, score
+                ORDER BY score DESC
+                WITH p, collect({node: node, score: score})[0..$topK] AS top
+                UNWIND top AS t
+                WITH p, t.node AS other, t.score AS s
+                MERGE (p)-[r:SIMILAR_TO]-(other)
+                SET r.score = s
+                """,
+                {
+                    "topKPlusSelf": top_k + 1,
+                    "topK": top_k,
+                    "threshold": threshold,
+                }
+            )
+
+            print("  - Rebuilding SIMILAR_TO edges (Repository)...")
+            session.run(
+                """
+                MATCH (r:Repository) WHERE r.embedding IS NOT NULL
+                CALL db.index.vector.queryNodes('repo_embedding', $topKPlusSelf, r.embedding)
+                YIELD node, score
+                WHERE node <> r AND score >= $threshold
+                WITH r, node, score
+                ORDER BY score DESC
+                WITH r, collect({node: node, score: score})[0..$topK] AS top
+                UNWIND top AS t
+                WITH r, t.node AS other, t.score AS s
+                MERGE (r)-[rel:SIMILAR_TO]-(other)
+                SET rel.score = s
+                """,
+                {
+                    "topKPlusSelf": top_k + 1,
+                    "topK": top_k,
+                    "threshold": threshold,
+                }
+            )
     
     def generate_summary_report(self):
         """Generate summary report of the pipeline run"""

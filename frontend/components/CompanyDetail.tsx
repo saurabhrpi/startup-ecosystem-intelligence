@@ -17,6 +17,19 @@ export default function CompanyDetail({ company, onClose }: CompanyDetailProps) 
     fetchCompanyScore()
   }, [company.id])
 
+  // Close on ESC key
+  useEffect(() => {
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        onClose()
+      }
+    }
+    document.addEventListener('keydown', handleKeyDown)
+    return () => {
+      document.removeEventListener('keydown', handleKeyDown)
+    }
+  }, [onClose])
+
   const fetchCompanyScore = async () => {
     try {
       const response = await fetch(`/api/backend/score/${company.id}`, {
