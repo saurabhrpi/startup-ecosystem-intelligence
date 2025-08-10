@@ -11,10 +11,22 @@ export default function SearchBar({ onSearch }: SearchBarProps) {
   const [query, setQuery] = useState('')
   const [isFocused, setIsFocused] = useState(false)
 
+  const normalizeBatchAbbreviation = (text: string): string => {
+    // Convert patterns like "YC W24" -> "YC Winter 2024", "YC S23" -> "YC Summer 2023"
+    // Also handle without leading YC
+    const re = /(yc\s+)?([ws])\s*'?\s*(20)?(\d{2})/i
+    return text.replace(re, (_m, _yc, season, _yearPrefix, year2) => {
+      const fullYear = `20${year2}`
+      const seasonWord = season.toLowerCase() === 'w' ? 'Winter' : 'Summer'
+      const ycPrefix = _yc ? 'YC ' : ''
+      return `${ycPrefix}${seasonWord} ${fullYear}`
+    })
+  }
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     if (query.trim()) {
-      onSearch(query)
+      onSearch(normalizeBatchAbbreviation(query))
     }
   }
 
@@ -26,8 +38,9 @@ export default function SearchBar({ onSearch }: SearchBarProps) {
   ]
 
   const handleSuggestionClick = (text: string) => {
-    setQuery(text)
-    onSearch(text)
+    const normalized = normalizeBatchAbbreviation(text)
+    setQuery(normalized)
+    onSearch(normalized)
   }
 
   return (

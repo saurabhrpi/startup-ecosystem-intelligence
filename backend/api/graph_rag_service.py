@@ -21,6 +21,12 @@ class GraphRAGService:
         # Initialize OpenAI
         openai.api_key = os.getenv('OPENAI_API_KEY')
         self.openai_client = openai
+        
+        # Location aliases are loaded dynamically at runtime from
+        # 1) Neo4j Location nodes (if present), else
+        # 2) LOCATION_ALIASES_JSON env var (JSON object), else
+        # 3) empty map (no location filtering).
+        self.location_aliases: Dict[str, List[str]] = self._load_location_aliases()
     
     def search(
         self, 
@@ -34,14 +40,34 @@ class GraphRAGService:
         Perform Graph RAG search using Neo4j's hybrid capabilities
         """
         query_embedding = self._get_query_embedding(query)
+
+        # Extract optional filters from the free-text query (e.g., location hints like "NYC")
+        location_code = self._extract_location_from_query(query)
+        batch_filters = self._extract_batch_from_query(query)
         
         # Perform hybrid search (vector + graph)
+        adjusted_top_k = top_k * 2 if location_code else top_k
         results = self.neo4j_store.hybrid_search(
             query_embedding=query_embedding,
             node_type=filter_type,
-            top_k=top_k,
-            graph_depth=graph_depth
+            top_k=adjusted_top_k,
+            graph_depth=graph_depth,
+            location_filters=self._aliases_for_code(location_code) if location_code else None,
+            batch_filters=batch_filters
         )
+
+        # If a location was detected in the query, enforce strict filtering in all cases
+        if location_code:
+            matching: List[Dict[str, Any]] = []
+            for r in results:
+                location_text = (r.get('metadata') or {}).get('location', '') or ''
+                if self._location_matches(location_code, location_text):
+                    matching.append(r)
+            results = matching[:top_k]
+
+        # If a batch intent was detected and no results, fall back to direct batch query
+        if batch_filters and not results:
+            results = self.neo4j_store.find_companies_by_batch(batch_filters, limit=top_k)
         
         # Generate intelligent response with graph context
         response = self._generate_graph_aware_response(query, results)
@@ -58,7 +84,11 @@ class GraphRAGService:
             'search_params': {
                 'graph_depth': graph_depth,
                 'min_score': min_score,
-                'filter_type': filter_type
+                'filter_type': filter_type,
+                'applied_filters': {
+                    'location': location_code,
+                    'batch': batch_filters
+                }
             }
         }
     
@@ -71,6 +101,100 @@ class GraphRAGService:
             'similar_entities': similar,
             'count': len(similar)
         }
+    
+    def _extract_location_from_query(self, query: str) -> Optional[str]:
+        """Extract a canonical location code from a free-text query using simple alias matching.
+        Returns a key from self.location_aliases (e.g., 'nyc') when matched, else None.
+        """
+        q = (query or '').lower()
+        for canonical, aliases in self.location_aliases.items():
+            for alias in aliases:
+                if alias in q:
+                    return canonical
+        return None
+    
+    def _location_matches(self, canonical_code: str, location_text: str) -> bool:
+        """Check if a company location string matches a canonical location code using alias matching."""
+        if not canonical_code or not location_text:
+            return False
+        loc = location_text.lower()
+        aliases = self.location_aliases.get(canonical_code, [])
+        return any(alias in loc for alias in aliases)
+
+    def _aliases_for_code(self, canonical_code: Optional[str]) -> Optional[List[str]]:
+        if not canonical_code:
+            return None
+        return [a.lower() for a in self.location_aliases.get(canonical_code, [])]
+
+    def _load_location_aliases(self) -> Dict[str, List[str]]:
+        """Load location aliases from Neo4j if available; fall back to env JSON; else empty.
+        Expected Neo4j schema: (l:Location { canonical: 'nyc', aliases: ['nyc','new york', ...] })
+        Expected ENV: LOCATION_ALIASES_JSON = '{"nyc":["nyc","new york"], ...}'
+        """
+        # Try Neo4j
+        try:
+            aliases: Dict[str, List[str]] = {}
+            with self.neo4j_store.driver.session() as session:
+                query = """
+                MATCH (l:Location)
+                RETURN l.canonical AS canonical, coalesce(l.aliases, []) AS aliases
+                """
+                rows = session.run(query)
+                for row in rows:
+                    canonical = (row.get('canonical') or '').strip().lower()
+                    alias_list = [str(a).strip().lower() for a in (row.get('aliases') or []) if str(a).strip()]
+                    if canonical:
+                        aliases[canonical] = alias_list
+            if aliases:
+                return aliases
+        except Exception as e:
+            logger.warning(f"Failed to load Location aliases from Neo4j: {e}")
+        # Try ENV
+        try:
+            import json
+            raw = os.getenv('LOCATION_ALIASES_JSON')
+            if raw:
+                parsed = json.loads(raw)
+                if isinstance(parsed, dict):
+                    normalized: Dict[str, List[str]] = {}
+                    for k, v in parsed.items():
+                        if isinstance(v, list):
+                            normalized[k.lower()] = [str(a).strip().lower() for a in v if str(a).strip()]
+                    return normalized
+        except Exception as e:
+            logger.warning(f"Failed to load LOCATION_ALIASES_JSON: {e}")
+        # Default
+        return {}
+
+    def _extract_batch_from_query(self, query: str) -> Optional[List[str]]:
+        """Extract implied YC batch filters from natural text, e.g., 'YC W24', 'Winter 2024', 'S24'.
+        Returns a list of lowercase substrings to match against c.batch.
+        """
+        if not query:
+            return None
+        q = query.lower()
+        tokens: List[str] = []
+        # Common patterns: W24, S24, W2024, Winter 2024, Summer 2024
+        import re
+        m = re.search(r"\b([ws])\s*'?\s*(20)?(\d{2})\b", q)
+        if m:
+            # Map 'w'/'s' to 'winter'/'summer', and normalize year to 20xx
+            season = 'winter' if m.group(1) == 'w' else 'summer'
+            year2 = m.group(3)
+            year = f"20{year2}"
+            # Include long form, year, and compact form (e.g., w24)
+            tokens.extend([f"{season} {year}", f"{year}", f"{m.group(1)}{year2}"])
+        m2 = re.search(r"\b(winter|summer)\s+20(\d{2})\b", q)
+        if m2:
+            tokens.append(f"{m2.group(1)} 20{m2.group(2)}")
+        # Also handle explicit phrases like 'yc w24'
+        m3 = re.search(r"yc\s+([ws])\s*(\d{2})\b", q)
+        if m3:
+            season = 'winter' if m3.group(1) == 'w' else 'summer'
+            tokens.append(f"{season} 20{m3.group(2)}")
+        # Deduplicate & return
+        tokens = list({t for t in tokens if t})
+        return tokens or None
     
     def get_entity_network(self, entity_id: str, depth: int = 2) -> Dict[str, Any]:
         """Get the network around an entity"""

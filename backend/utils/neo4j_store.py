@@ -255,7 +255,9 @@ class Neo4jStore:
         query_embedding: List[float], 
         node_type: str = None, 
         top_k: int = 10,
-        min_score: float = 0.7
+        min_score: float = 0.7,
+        location_filters: Optional[List[str]] = None,
+        batch_filters: Optional[List[str]] = None
     ) -> List[Dict[str, Any]]:
         """
         Perform vector similarity search across nodes
@@ -290,6 +292,8 @@ class Neo4jStore:
             query = """
             MATCH """ + node_pattern + """
             WHERE n.embedding IS NOT NULL
+              AND ($location_filters IS NULL OR ANY(loc IN $location_filters WHERE toLower(coalesce(n.location, '')) CONTAINS loc))
+              AND ($batch_filters IS NULL OR ANY(b IN $batch_filters WHERE toLower(coalesce(n.batch, '')) CONTAINS b))
             WITH n, gds.similarity.cosine(n.embedding, $query_embedding) AS score
             WHERE score >= $min_score
             RETURN n, score, labels(n) as node_labels
@@ -300,7 +304,9 @@ class Neo4jStore:
             results = session.run(query, {
                 'query_embedding': query_embedding,
                 'min_score': min_score,
-                'top_k': top_k
+                'top_k': top_k,
+                'location_filters': location_filters,
+                'batch_filters': batch_filters
             })           
             
             matches = []
@@ -332,7 +338,9 @@ class Neo4jStore:
         graph_pattern: Optional[str] = None,
         node_type: Optional[str] = None,
         top_k: int = 10,
-        graph_depth: int = 2
+        graph_depth: int = 2,
+        location_filters: Optional[List[str]] = None,
+        batch_filters: Optional[List[str]] = None
     ) -> List[Dict[str, Any]]:
         """
         Perform hybrid search combining vector similarity and graph patterns
@@ -345,7 +353,14 @@ class Neo4jStore:
             graph_depth: Depth for graph expansion
         """
         # First, get vector search results with reasonable threshold
-        vector_results = self.vector_search(query_embedding, node_type, top_k * 2, min_score=0.5)
+        vector_results = self.vector_search(
+            query_embedding,
+            node_type,
+            top_k * 2,
+            min_score=0.5,
+            location_filters=location_filters,
+            batch_filters=batch_filters
+        )
         
         # Then expand using graph relationships
         expanded_results = []
@@ -357,10 +372,15 @@ class Neo4jStore:
                 seen_ids.add(node_id)
                 
                 # Get connected nodes - build query with depth value directly
+                connected_label = ''
+                if node_type:
+                    connected_label = f":{node_type.capitalize()}"
                 expansion_query = f"""
                 MATCH (start {{id: $node_id}})
-                MATCH path = (start)-[*1..{graph_depth}]-(connected)
+                MATCH path = (start)-[*1..{graph_depth}]-(connected{connected_label})
                 WHERE connected.id <> start.id
+                  AND ($location_filters IS NULL OR ANY(loc IN $location_filters WHERE toLower(coalesce(connected.location, '')) CONTAINS loc))
+                  AND ($batch_filters IS NULL OR ANY(b IN $batch_filters WHERE toLower(coalesce(connected.batch, '')) CONTAINS b))
                 WITH connected, 
                      length(path) as distance,
                      [rel in relationships(path) | type(rel)] as rel_types
@@ -370,7 +390,9 @@ class Neo4jStore:
                 """
                 
                 expansion_results = session.run(expansion_query, {
-                    'node_id': node_id
+                    'node_id': node_id,
+                    'location_filters': location_filters,
+                    'batch_filters': batch_filters
                 })
                 
                 for record in expansion_results:
@@ -405,6 +427,30 @@ class Neo4jStore:
         all_results.sort(key=lambda x: x['score'], reverse=True)
         
         return all_results[:top_k]
+
+    def find_companies_by_batch(self, batch_filters: List[str], limit: int = 20) -> List[Dict[str, Any]]:
+        """Fallback: Find companies by batch text when vector similarity yields no results."""
+        with self.driver.session() as session:
+            query = """
+            MATCH (c:Company)
+            WHERE ($batch_filters IS NULL OR ANY(b IN $batch_filters WHERE toLower(coalesce(c.batch, '')) CONTAINS b))
+            RETURN c
+            LIMIT $limit
+            """
+            results = session.run(query, {'batch_filters': batch_filters, 'limit': limit})
+            matches: List[Dict[str, Any]] = []
+            for record in results:
+                node = record['c']
+                node_data = dict(node)
+                node_data.pop('embedding', None)
+                clean_node_data = clean_neo4j_data(node_data)
+                matches.append({
+                    'id': clean_node_data.get('id'),
+                    'score': 0.4,
+                    'type': 'Company',
+                    'metadata': clean_node_data
+                })
+            return matches
     
     def create_relationship(self, from_id: str, to_id: str, rel_type: str, properties: Dict = None) -> None:
         """Create a relationship between two nodes"""
