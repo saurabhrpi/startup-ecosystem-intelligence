@@ -8,32 +8,31 @@ import ResponseDisplay from '@/components/ResponseDisplay'
 import { Company, SearchResult } from '@/lib/types'
 import { TrendingUp, Sparkles, Zap } from 'lucide-react'
 
-export default function HomeClient() {
+type Stats = { total_companies: number; total_embeddings: number; data_sources: number }
+
+export default function HomeClient({ initialStats }: { initialStats: Stats }) {
   const [searchResults, setSearchResults] = useState<SearchResult | null>(null)
   const [selectedCompany, setSelectedCompany] = useState<Company | null>(null)
   const [loading, setLoading] = useState(false)
-  const [stats, setStats] = useState({
-    total_companies: 0,
-    total_embeddings: 0,
-    data_sources: 6,
-  })
+  const [stats, setStats] = useState<Stats>(initialStats)
 
   // Fetch stats on component mount
   useEffect(() => {
-    const fetchStats = async () => {
+    // Optionally refresh stats on mount; keeps UI consistent on first paint
+    const refreshStats = async () => {
       try {
         const response = await fetch('/api/backend/ecosystem-stats', {
           headers: { Accept: 'application/json' },
         })
         if (response.ok) {
           const data = await response.json()
-          setStats(data)
+          setStats((prev) => (JSON.stringify(prev) === JSON.stringify(data) ? prev : data))
         }
       } catch (error) {
         console.error('Error fetching stats:', error)
       }
     }
-    fetchStats()
+    refreshStats()
   }, [])
 
   const handleSearch = async (query: string) => {
