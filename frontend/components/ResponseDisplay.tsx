@@ -39,6 +39,36 @@ export default function ResponseDisplay({ response, totalResults }: ResponseDisp
 
   const { summary, insights, recommendations, companies } = parseResponse(response)
 
+  // Render simple markdown emphasis (**bold**, *italic*, __bold__, _italic_) as React elements
+  const renderWithEmphasis = (text: string) => {
+    if (!text) return text
+    const elements: React.ReactNode[] = []
+    let remaining = text
+    let keyIndex = 0
+    const pattern = /(\*\*[^*]+\*\*|__[^_]+__|\*[^*]+\*|_[^_]+_)/
+    while (remaining.length > 0) {
+      const match = remaining.match(pattern)
+      if (!match || match.index === undefined) {
+        elements.push(remaining)
+        break
+      }
+      const before = remaining.slice(0, match.index)
+      if (before) elements.push(before)
+      const token = match[0]
+      const isBold = token.startsWith('**') || token.startsWith('__')
+      const content = token.slice(isBold ? 2 : 1, isBold ? token.length - 2 : token.length - 1)
+      elements.push(
+        isBold ? (
+          <strong key={`b-${keyIndex++}`}>{content}</strong>
+        ) : (
+          <em key={`i-${keyIndex++}`}>{content}</em>
+        )
+      )
+      remaining = remaining.slice(match.index + token.length)
+    }
+    return elements
+  }
+
   return (
     <div className="w-full max-w-6xl mx-auto mb-8">
       {/* Main Response Card */}
@@ -76,7 +106,7 @@ export default function ResponseDisplay({ response, totalResults }: ResponseDisp
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-800 mb-2">Summary</h4>
-                    <p className="text-gray-700 leading-relaxed">{summary}</p>
+                    <p className="text-gray-700 leading-relaxed">{renderWithEmphasis(summary)}</p>
                   </div>
                 </div>
               </div>
@@ -98,7 +128,7 @@ export default function ResponseDisplay({ response, totalResults }: ResponseDisp
                       <div className="flex items-center justify-between">
                         <div className="flex items-start space-x-3">
                           <CheckCircle className="text-green-500 mt-1 flex-shrink-0" size={16} />
-                          <p className="text-gray-700 font-medium">{company}</p>
+                          <p className="text-gray-700 font-medium">{renderWithEmphasis(company)}</p>
                         </div>
                         <ArrowRight className="text-gray-400 group-hover:text-indigo-600 group-hover:translate-x-1 transition-all" size={16} />
                       </div>
@@ -120,7 +150,7 @@ export default function ResponseDisplay({ response, totalResults }: ResponseDisp
                     {insights.map((insight, idx) => (
                       <li key={idx} className="flex items-start space-x-2">
                         <span className="text-green-600 mt-1">•</span>
-                        <span className="text-gray-700">{insight}</span>
+                        <span className="text-gray-700">{renderWithEmphasis(insight)}</span>
                       </li>
                     ))}
                   </ul>
@@ -140,7 +170,7 @@ export default function ResponseDisplay({ response, totalResults }: ResponseDisp
                     {recommendations.map((rec, idx) => (
                       <li key={idx} className="flex items-start space-x-2">
                         <span className="text-purple-600 mt-1">→</span>
-                        <span className="text-gray-700">{rec}</span>
+                        <span className="text-gray-700">{renderWithEmphasis(rec)}</span>
                       </li>
                     ))}
                   </ul>
