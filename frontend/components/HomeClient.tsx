@@ -148,8 +148,9 @@ export default function HomeClient({ initialStats }: { initialStats: Stats }) {
             {searchResults.matches && searchResults.matches.length > 0 && (
               <div>
                 {(() => {
-                  // Determine result type based on first match
-                  const resultType = searchResults.matches[0]?.type || 'Company'
+                  // Determine result type based on first match structure
+                  const firstMatch: any = searchResults.matches[0]
+                  const resultType = firstMatch?.type || (firstMatch?.metadata?.type) || 'Company'
                   const isRepository = resultType === 'Repository'
                   
                   // Extract the actual data from matches
