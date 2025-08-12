@@ -174,7 +174,16 @@ export default function HomeClient({ initialStats }: { initialStats: Stats }) {
                           onSelectRepository={(repo) => {
                             // If repo has a company, show company detail
                             if (repo.company) {
-                              setSelectedCompany(repo.company as Company)
+                              // Convert repo.company to full Company type
+                              const company: Company = {
+                                id: repo.company.id,
+                                score: 1.0,
+                                metadata: {
+                                  ...repo.company,
+                                  type: 'Company'
+                                }
+                              }
+                              setSelectedCompany(company)
                             }
                           }}
                         />
