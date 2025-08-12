@@ -234,6 +234,8 @@ class GraphRAGService:
 
     def _get_top_starred_repos(self, top_k: int = 10) -> List[Dict[str, Any]]:
         """Get repositories with the most stars, including their associated companies"""
+        from backend.utils.neo4j_store import clean_neo4j_data
+        
         with self.neo4j_store.driver.session() as session:
             query = """
             MATCH (r:Repository)
@@ -253,19 +255,20 @@ class GraphRAGService:
                 company_node = record['c']
                 rel = record['rel']
                 
-                # Build repo data
-                repo_data = dict(repo_node)
+                # Build repo data and clean Neo4j types
+                repo_data = clean_neo4j_data(dict(repo_node))
                 repo_data.pop('embedding', None)  # Remove embedding from response
                 
                 # Add company info if available
                 if company_node:
-                    company_data = dict(company_node)
+                    company_data = clean_neo4j_data(dict(company_node))
                     company_data.pop('embedding', None)
                     repo_data['company'] = company_data
                     if rel:
+                        rel_data = clean_neo4j_data(dict(rel))
                         repo_data['company_relationship'] = {
-                            'confidence': rel.get('confidence', 0),
-                            'method': rel.get('method', 'unknown')
+                            'confidence': rel_data.get('confidence', 0),
+                            'method': rel_data.get('method', 'unknown')
                         }
                 
                 matches.append({
