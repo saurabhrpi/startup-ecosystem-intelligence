@@ -41,6 +41,33 @@ class GraphRAGService:
         """
         Perform Graph RAG search using Neo4j's hybrid capabilities
         """
+        # Check for special repository queries
+        query_lower = query.lower()
+        is_repo_query = any(term in query_lower for term in ['repo', 'github', 'code', 'stars', 'repository', 'open source'])
+        is_max_query = any(term in query_lower for term in ['max', 'most', 'top', 'highest', 'best'])
+        
+        # Handle special query: repos with max stars
+        if is_repo_query and is_max_query and 'star' in query_lower:
+            results = self._get_top_starred_repos(top_k)
+            response = self._generate_graph_aware_response(query, results)
+            graph_data = self._build_visualization_data(results[:5])
+            
+            return {
+                'query': query,
+                'matches': results,
+                'response': response,
+                'graph': graph_data,
+                'total_results': len(results),
+                'search_params': {
+                    'special_query': 'top_starred_repos',
+                    'filter_type': 'repository'
+                }
+            }
+        
+        # Auto-detect filter type if not specified
+        if not filter_type and is_repo_query:
+            filter_type = 'repository'
+        
         query_embedding = self._get_query_embedding(query)
 
         # Extract optional filters from the free-text query (e.g., location hints like "NYC")
@@ -205,6 +232,51 @@ class GraphRAGService:
         tokens = list({t for t in tokens if t})
         return tokens or None
 
+    def _get_top_starred_repos(self, top_k: int = 10) -> List[Dict[str, Any]]:
+        """Get repositories with the most stars, including their associated companies"""
+        with self.neo4j_store.driver.session() as session:
+            query = """
+            MATCH (r:Repository)
+            WHERE r.stars IS NOT NULL
+            OPTIONAL MATCH (c:Company)-[rel:OWNS|LIKELY_OWNS]->(r)
+            WITH r, c, rel
+            ORDER BY r.stars DESC
+            LIMIT $top_k
+            RETURN r, c, rel
+            """
+            
+            results = session.run(query, {'top_k': top_k})
+            
+            matches = []
+            for record in results:
+                repo_node = record['r']
+                company_node = record['c']
+                rel = record['rel']
+                
+                # Build repo data
+                repo_data = dict(repo_node)
+                repo_data.pop('embedding', None)  # Remove embedding from response
+                
+                # Add company info if available
+                if company_node:
+                    company_data = dict(company_node)
+                    company_data.pop('embedding', None)
+                    repo_data['company'] = company_data
+                    if rel:
+                        repo_data['company_relationship'] = {
+                            'confidence': rel.get('confidence', 0),
+                            'method': rel.get('method', 'unknown')
+                        }
+                
+                matches.append({
+                    'id': repo_data.get('id'),
+                    'score': 1.0,  # Special query, not similarity-based
+                    'type': 'Repository',
+                    'metadata': repo_data
+                })
+            
+            return matches
+    
     def _derive_exclude_locations(self, canonical_code: Optional[str]) -> Optional[List[str]]:
         """Given a selected canonical location (e.g., 'sf'), derive alias lists for other major hubs to exclude (e.g., NYC, LA).
         This reduces far-off false positives like NYC when searching for SF.

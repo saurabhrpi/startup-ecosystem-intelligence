@@ -4,7 +4,7 @@ Neo4j Data Pipeline - Loads data with embeddings directly into Neo4j
 import asyncio
 import json
 import os
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional
 from datetime import datetime
 from tqdm import tqdm
 import hashlib
@@ -12,8 +12,11 @@ import time
 
 from backend.collectors.yc_scraper import YCCompaniesScraper
 from backend.collectors.github_collector import GitHubCollector
+from backend.collectors.website_scraper import WebsiteScraper
 from backend.utils.embeddings import EmbeddingGenerator
 from backend.utils.neo4j_store import Neo4jStore
+from urllib.parse import urlparse
+import re
 
 class Neo4jDataPipeline:
     def __init__(self):
@@ -73,25 +76,43 @@ class Neo4jDataPipeline:
             print(f"[ERROR] Error collecting YC data: {e}")
             all_data['companies'] = []
         
-        # Collect GitHub repos
-        try:
-            if hasattr(self.collectors['github'], 'token') and self.collectors['github'].token:
-                repos = await self.collectors['github'].fetch_startup_repos()
-                all_data['repos'] = repos
-                print(f"[SUCCESS] Collected {len(repos)} GitHub repos")
-            else:
-                # Load sample data
-                sample_path = 'data/samples/github_repos.json'
-                if os.path.exists(sample_path):
-                    with open(sample_path, 'r', encoding='utf-8') as f:
-                        all_data['repos'] = json.load(f)
-                        print(f"[LOADED] Loaded {len(all_data['repos'])} GitHub repos from samples")
-                else:
-                    all_data['repos'] = []
-        except Exception as e:
-            print(f"[ERROR] Error collecting GitHub data: {e}")
+        # Collect GitHub repos using company-first approach
+        if not (hasattr(self.collectors['github'], 'token') and self.collectors['github'].token):
+            print("[WARN] GITHUB_TOKEN not set. Skipping GitHub repository collection.")
             all_data['repos'] = []
-        
+            self.repo_company_mappings = []
+        elif not all_data.get('companies'):
+            print("[WARN] No companies loaded. Skipping GitHub repository discovery.")
+            all_data['repos'] = []
+            self.repo_company_mappings = []
+        else:
+            # Use company-first approach to discover all repos
+            print("[GitHub] Starting company-first repository discovery...")
+            import os as _os
+            # Start with small batch for testing (5 companies by default)
+            MAX_COMPANY_REPO_QUERIES = int(_os.getenv('MAX_COMPANY_REPO_QUERIES', '5'))
+            print(f"[INFO] Processing up to {MAX_COMPANY_REPO_QUERIES} companies (set MAX_COMPANY_REPO_QUERIES env var to change)")
+            
+            try:
+                repos = await self.collectors['github'].fetch_all_company_repos(
+                    all_data.get('companies', []), 
+                    max_companies=MAX_COMPANY_REPO_QUERIES
+                )
+                
+                if not repos:
+                    print("[WARN] No GitHub repositories discovered. This might be due to rate limits or no matching repos.")
+                    all_data['repos'] = []
+                else:
+                    all_data['repos'] = repos
+                    print(f"[SUCCESS] Discovered {len(repos)} GitHub repos from {min(MAX_COMPANY_REPO_QUERIES, len(all_data.get('companies', [])))} companies")
+                
+                # Store the repo-company mappings for later relationship creation
+                self.repo_company_mappings = getattr(self.collectors['github'], 'repo_company_mappings', [])
+            except Exception as e:
+                print(f"[ERROR] Failed to fetch GitHub repos: {e}")
+                all_data['repos'] = []
+                self.repo_company_mappings = []
+
         return all_data
     
     async def load_data_to_neo4j(self, all_data: Dict[str, List[Dict[str, Any]]]):
@@ -171,39 +192,52 @@ class Neo4jDataPipeline:
                             'industries': company.get('industries', []),
                             'source': 'yc'
                         }
+                        # Compute normalized website domain for matching
+                        company_data['website_domain'] = self._extract_domain(company_data.get('website', ''))
                         
                         self.neo4j_store.create_company_with_embedding(company_data, embedding)
                         
+                        # Derive founders if missing: from text, then website scrape
+                        founders = []
+                        if isinstance(company.get('founders'), list) and company['founders']:
+                            founders = [f['name'] if isinstance(f, dict) else f for f in company['founders'] if f]
+                        if not founders:
+                            text = f"{company.get('long_description','')}\n{company.get('description','')}"
+                            founders = self._extract_founders_from_text(text)
+                        if not founders and company.get('website'):
+                            try:
+                                scraper = WebsiteScraper()
+                                founders = await scraper.scrape_founders(company.get('website'))
+                            except Exception:
+                                founders = []
+
                         # Create founder nodes and relationships
-                        if 'founders' in company and isinstance(company['founders'], list):
-                            for founder in company['founders']:
-                                if isinstance(founder, dict) and founder.get('name'):
-                                    person_id = self._generate_id(founder, 'person')
-                                    person_data = {
-                                        'id': person_id,
-                                        'name': founder.get('name'),
-                                        'role': 'Founder',
-                                        'company': company.get('name'),
-                                        'source': 'yc'
-                                    }
-                                    
-                                    # Generate embedding for person (founder)
-                                    if person_id not in self.processed_person_ids:
-                                        person_text = f"Name: {founder.get('name')}\nRole: Founder\nCompany: {company.get('name')}"
-                                        person_embedding = self._get_embedding(person_text)
-                                        self.processed_person_ids.add(person_id)
-                                    else:
-                                        person_embedding = None
-                                    
-                                    self.neo4j_store.create_person_with_embedding(person_data, person_embedding)
-                                    
-                                    # Create FOUNDED relationship
-                                    self.neo4j_store.create_relationship(
-                                        from_id=person_id,
-                                        to_id=company_id,
-                                        rel_type='FOUNDED',
-                                        properties={'role': 'Founder'}
-                                    )
+                        for founder_name in founders:
+                            if not founder_name:
+                                continue
+                            founder_obj = {'name': founder_name, 'source': 'yc'}
+                            person_id = self._generate_id(founder_obj, 'person')
+                            person_data = {
+                                'id': person_id,
+                                'name': founder_name,
+                                'role': 'Founder',
+                                'company': company.get('name'),
+                                'source': 'yc'
+                            }
+                            # Generate embedding for person (founder)
+                            if person_id not in self.processed_person_ids:
+                                person_text = f"Name: {founder_name}\nRole: Founder\nCompany: {company.get('name')}"
+                                person_embedding = self._get_embedding(person_text)
+                                self.processed_person_ids.add(person_id)
+                            else:
+                                person_embedding = None
+                            self.neo4j_store.create_person_with_embedding(person_data, person_embedding)
+                            self.neo4j_store.create_relationship(
+                                from_id=person_id,
+                                to_id=company_id,
+                                rel_type='FOUNDED',
+                                properties={'role': 'Founder'}
+                            )
                     
                 except Exception as e:
                     print(f"\n[ERROR] Error processing company {company.get('name', 'Unknown')}: {e}")
@@ -226,6 +260,9 @@ class Neo4jDataPipeline:
                 if embedding:
                     # Create repo node with embedding
                     repo_id = self._generate_id(repo, 'repo')
+                    owner_login = repo.get('owner', {}).get('login', '')
+                    owner_type = (repo.get('owner', {}).get('type') or '').lower()
+                    homepage = repo.get('homepage', '')
                     repo_data = {
                         'id': repo_id,
                         'name': repo.get('name'),
@@ -234,15 +271,18 @@ class Neo4jDataPipeline:
                         'stars': repo.get('stars', 0),
                         'url': repo.get('url', ''),
                         'owner': repo.get('owner', {}),
+                        'owner_login': owner_login,
+                        'owner_type': owner_type,
+                        'homepage': homepage,
+                        'homepage_domain': self._extract_domain(homepage),
                         'topics': repo.get('topics', []),
                         'source': 'github'
                     }
                     
                     self.neo4j_store.create_repository_with_embedding(repo_data, embedding)
                     
-                    # Create owner node if exists (with embedding when first seen)
-                    if repo.get('owner', {}).get('login'):
-                        owner_login = repo['owner']['login']
+                    # Create owner person only if it's a user (not organization)
+                    if owner_login and owner_type == 'user':
                         owner_id = self._generate_id({'name': owner_login, 'source': 'github'}, 'person')
                         owner_data = {
                             'id': owner_id,
@@ -250,7 +290,6 @@ class Neo4jDataPipeline:
                             'role': 'Developer',
                             'source': 'github'
                         }
-                        
                         if owner_id not in self.processed_person_ids:
                             owner_text = (
                                 f"Name: {owner_login}\n"
@@ -262,10 +301,7 @@ class Neo4jDataPipeline:
                             self.processed_person_ids.add(owner_id)
                         else:
                             owner_embedding = None
-                        
                         self.neo4j_store.create_person_with_embedding(owner_data, owner_embedding)
-                        
-                        # Create OWNS relationship
                         self.neo4j_store.create_relationship(
                             from_id=owner_id,
                             to_id=repo_id,
@@ -315,14 +351,41 @@ class Neo4jDataPipeline:
                 """
             )
             
-            # Keep repo links
-            print("  - Linking repos to potential company owners...")
+            # Create company-repo relationships with confidence scores from discovery
+            print("  - Creating company-repository ownership relationships...")
+            
+            # Use the mappings from the GitHub collector if available
+            if hasattr(self, 'repo_company_mappings') and self.repo_company_mappings:
+                print(f"    Creating {len(self.repo_company_mappings)} repo-company relationships...")
+                for mapping in self.repo_company_mappings:
+                    session.run(
+                        """
+                        MATCH (c:Company {id: $company_id})
+                        MATCH (r:Repository {id: $repo_id})
+                        MERGE (c)-[rel:OWNS]->(r)
+                        SET rel.confidence = $confidence,
+                            rel.method = $method,
+                            rel.discovered_at = datetime()
+                        """,
+                        {
+                            'company_id': mapping['company_id'],
+                            'repo_id': mapping['repo_id'],
+                            'confidence': mapping['confidence'],
+                            'method': mapping['method']
+                        }
+                    )
+            
+            # Also run fallback matching for any repos not discovered through company-first approach
+            print("  - Running fallback repo matching...")
+            # Only create LIKELY_OWNS for repos without existing OWNS relationships
             session.run(
                 """
                 MATCH (c:Company), (r:Repository)
-                WHERE toLower(r.name) CONTAINS toLower(c.name) 
-                   OR toLower(r.description) CONTAINS toLower(c.name)
-                MERGE (c)-[:LIKELY_OWNS]->(r)
+                WHERE c.website_domain IS NOT NULL AND c.website_domain <> ''
+                  AND r.homepage_domain IS NOT NULL AND r.homepage_domain <> ''
+                  AND c.website_domain = r.homepage_domain
+                  AND NOT EXISTS((c)-[:OWNS]->(r))
+                MERGE (c)-[rel:LIKELY_OWNS {method: 'fallback_domain', confidence: 0.8}]->(r)
                 """
             )
 
@@ -446,6 +509,36 @@ class Neo4jDataPipeline:
             f"Stars: {repo.get('stars', 0)}",
         ]
         return '\n'.join(filter(None, parts))
+
+
+    def _extract_domain(self, url: str) -> str:
+        try:
+            if not url:
+                return ''
+            host = urlparse(url).netloc.lower()
+            if host.startswith('www.'):
+                host = host[4:]
+            return host
+        except Exception:
+            return ''
+
+    def _extract_founders_from_text(self, text: str) -> List[str]:
+        if not text:
+            return []
+        patterns = [
+            r"Founders?:\s*([A-Z][a-z]+(?:\s[A-Z][a-z]+)+(?:\s*(?:,|and)\s*[A-Z][a-z]+(?:\s[A-Z][a-z]+)+)*)",
+            r"Founded by\s+([A-Z][a-z]+(?:\s[A-Z][a-z]+)+(?:\s*(?:,|and)\s*[A-Z][a-z]+(?:\s[A-Z][a-z]+)+)*)",
+            r"Co-?founders?:\s*([A-Z][a-z]+(?:\s[A-Z][a-z]+)+(?:\s*(?:,|and)\s*[A-Z][a-z]+(?:\s[A-Z][a-z]+)+)*)",
+        ]
+        for pat in patterns:
+            m = re.search(pat, text, flags=re.IGNORECASE)
+            if m:
+                names_blob = m.group(1)
+                parts = re.split(r',| and ', names_blob)
+                names = [p.strip() for p in parts if len(p.strip().split()) >= 2]
+                if names:
+                    return names
+        return []
     
     def _get_embedding(self, text: str) -> List[float]:
         """Get embedding from OpenAI"""

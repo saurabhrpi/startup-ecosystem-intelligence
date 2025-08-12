@@ -1,17 +1,32 @@
 from pydantic_settings import BaseSettings
 from typing import Optional
 import os
-from dotenv import load_dotenv
+from dotenv import load_dotenv, dotenv_values
 
-load_dotenv()
+"""Load .env first and let it override OS env for local development.
+This ensures the repo's .env takes precedence when both are present.
+"""
+load_dotenv(override=True)
+
+# Read raw values from .env without mutating the process env further
+ENV = dotenv_values()
 
 class Settings(BaseSettings):
     # Required API Keys
     openai_api_key: str = os.getenv("OPENAI_API_KEY", "")
     pinecone_api_key: str = os.getenv("PINECONE_API_KEY", "")
     
-    # Optional API Keys
-    github_token: Optional[str] = os.getenv("GITHUB_TOKEN")
+    # Optional API Keys (prefer .env, support common alias names)
+    github_token: Optional[str] = (
+        ENV.get("GITHUB_TOKEN")
+        or ENV.get("GH_TOKEN")
+        or ENV.get("GITHUB_API_TOKEN")
+        or ENV.get("GITHUB_PAT")
+        or os.getenv("GITHUB_TOKEN")
+        or os.getenv("GH_TOKEN")
+        or os.getenv("GITHUB_API_TOKEN")
+        or os.getenv("GITHUB_PAT")
+    )
     producthunt_api_key: Optional[str] = os.getenv("PRODUCTHUNT_API_KEY")
     news_api_key: Optional[str] = os.getenv("NEWS_API_KEY")
     

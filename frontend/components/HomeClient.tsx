@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import SearchBar from '@/components/SearchBar'
 import CompanyGrid from '@/components/CompanyGrid'
+import RepositoryGrid from '@/components/RepositoryGrid'
 import CompanyDetail from '@/components/CompanyDetail'
 import ResponseDisplay from '@/components/ResponseDisplay'
 import { Company, SearchResult } from '@/lib/types'
@@ -38,8 +39,9 @@ export default function HomeClient({ initialStats }: { initialStats: Stats }) {
   const handleSearch = async (query: string) => {
     setLoading(true)
     try {
+      // Don't force filter_type, let the backend auto-detect
       const response = await fetch(
-        `/api/search?query=${encodeURIComponent(query)}&top_k=20&filter_type=company`,
+        `/api/search?query=${encodeURIComponent(query)}&top_k=20`,
         {
           headers: { Accept: 'application/json' },
         }
@@ -142,14 +144,48 @@ export default function HomeClient({ initialStats }: { initialStats: Stats }) {
               <ResponseDisplay response={searchResults.response} totalResults={searchResults.total_results} />
             )}
 
-            {/* Companies Grid */}
+            {/* Results Grid - Companies or Repositories */}
             {searchResults.matches && searchResults.matches.length > 0 && (
               <div>
-                <div className="text-center mb-6">
-                  <h2 className="text-3xl font-bold text-gray-800 mb-2">Discovered Companies</h2>
-                  <p className="text-gray-600">Click on any company to explore detailed insights</p>
-                </div>
-                <CompanyGrid companies={searchResults.matches} onSelectCompany={setSelectedCompany} />
+                {(() => {
+                  // Determine result type based on first match
+                  const resultType = searchResults.matches[0]?.type || 'Company'
+                  const isRepository = resultType === 'Repository'
+                  
+                  // Extract the actual data from matches
+                  const items = searchResults.matches.map((match: any) => match.metadata || match)
+                  
+                  return (
+                    <>
+                      <div className="text-center mb-6">
+                        <h2 className="text-3xl font-bold text-gray-800 mb-2">
+                          {isRepository ? 'Discovered Repositories' : 'Discovered Companies'}
+                        </h2>
+                        <p className="text-gray-600">
+                          {isRepository 
+                            ? 'Showing repositories with their associated companies'
+                            : 'Click on any company to explore detailed insights'}
+                        </p>
+                      </div>
+                      {isRepository ? (
+                        <RepositoryGrid 
+                          repositories={items} 
+                          onSelectRepository={(repo) => {
+                            // If repo has a company, show company detail
+                            if (repo.company) {
+                              setSelectedCompany(repo.company as Company)
+                            }
+                          }}
+                        />
+                      ) : (
+                        <CompanyGrid 
+                          companies={items} 
+                          onSelectCompany={setSelectedCompany} 
+                        />
+                      )}
+                    </>
+                  )
+                })()}
               </div>
             )}
           </div>
