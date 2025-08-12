@@ -90,7 +90,7 @@ class Neo4jDataPipeline:
             print("[GitHub] Starting company-first repository discovery...")
             import os as _os
             # Start with small batch for testing (5 companies by default)
-            MAX_COMPANY_REPO_QUERIES = int(_os.getenv('MAX_COMPANY_REPO_QUERIES', '5'))
+            MAX_COMPANY_REPO_QUERIES = int(_os.getenv('MAX_COMPANY_REPO_QUERIES', '100'))
             print(f"[INFO] Processing up to {MAX_COMPANY_REPO_QUERIES} companies (set MAX_COMPANY_REPO_QUERIES env var to change)")
             
             try:

@@ -1,6 +1,6 @@
 'use client'
 
-import { Star, GitBranch, Building2 } from 'lucide-react'
+import { Star, GitBranch, Building2, ExternalLink } from 'lucide-react'
 
 interface Repository {
   id: string
@@ -46,6 +46,19 @@ export default function RepositoryCard({ repository, onClick }: RepositoryCardPr
       
       {repository.description && (
         <p className="text-sm text-gray-600 mb-3 line-clamp-2">{repository.description}</p>
+      )}
+      
+      {repository.url && (
+        <a 
+          href={repository.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-1 text-sm text-blue-600 hover:text-blue-800 mb-3"
+          onClick={(e) => e.stopPropagation()}
+        >
+          <ExternalLink size={14} />
+          View on GitHub
+        </a>
       )}
       
       <div className="flex flex-wrap gap-2 mb-3">
