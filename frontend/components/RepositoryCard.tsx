@@ -74,7 +74,7 @@ export default function RepositoryCard({ repository, onClick }: RepositoryCardPr
         )}
       </div>
       
-      {repository.company && (
+      {repository.company && repository.company.name && (
         <div className="border-t pt-3 mt-3">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">

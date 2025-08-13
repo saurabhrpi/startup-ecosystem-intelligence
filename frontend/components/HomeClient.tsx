@@ -172,8 +172,8 @@ export default function HomeClient({ initialStats }: { initialStats: Stats }) {
                         <RepositoryGrid 
                           repositories={items} 
                           onSelectRepository={(repo) => {
-                            // If repo has a company, show company detail
-                            if (repo.company) {
+                            // If repo has a company with valid data, show company detail
+                            if (repo.company && repo.company.id && repo.company.name) {
                               // Convert repo.company to full Company type
                               const company: Company = {
                                 id: repo.company.id,
