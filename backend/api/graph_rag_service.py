@@ -2,7 +2,8 @@
 Graph RAG Service V2 - Uses Neo4j for both vector search and graph relationships
 """
 import os
-from typing import List, Dict, Any, Optional
+import re
+from typing import List, Dict, Any, Optional, Tuple
 from dotenv import load_dotenv
 import openai
 from backend.utils.neo4j_store import Neo4jStore
@@ -28,6 +29,131 @@ class GraphRAGService:
         # 3) empty map (no location filtering).
         self.location_aliases: Dict[str, List[str]] = self._load_location_aliases()
     
+    def _extract_numeric_filters(self, query: str) -> Tuple[Dict[str, int], str]:
+        """
+        Extract numeric filters from natural language query.
+        Returns (filters_dict, cleaned_query)
+        
+        Examples:
+        - "developer tools with >100 stars" -> ({'min_star': 100}, "developer tools")
+        - "companies with >50 employees and <1000 stars" -> ({'min_employee': 50, 'max_star': 1000}, "companies")
+        - "projects with more than 200 forks" -> ({'min_fork': 200}, "projects")
+        """
+        filters = {}
+        cleaned_query = query
+        
+        # Define patterns for numeric comparisons
+        # Each pattern captures: (comparison_phrase, number, metric)
+        comparison_patterns = [
+            # Symbolic operators
+            (r'([><]=?)\s*(\d+)\s+(\w+)', lambda op, val: ('min' if op in ['>', '>='] else 'max', val)),
+            (r'(\d+)\+\s+(\w+)', lambda val, metric: ('min', val)),  # "100+ stars"
+            
+            # Natural language comparisons - captured as groups for operator detection
+            (r'(more\s+than|greater\s+than|over|above)\s+(\d+)\s+(\w+)', lambda phrase, val, metric: ('min', val)),
+            (r'(less\s+than|fewer\s+than|under|below)\s+(\d+)\s+(\w+)', lambda phrase, val, metric: ('max', val)),
+            (r'(at\s+least|minimum\s+of?|no\s+less\s+than)\s+(\d+)\s+(\w+)', lambda phrase, val, metric: ('min', val)),
+            (r'(at\s+most|maximum\s+of?|no\s+more\s+than)\s+(\d+)\s+(\w+)', lambda phrase, val, metric: ('max', val)),
+        ]
+        
+        # Process all patterns
+        all_matches = []
+        for pattern, operator_func in comparison_patterns:
+            for match in re.finditer(pattern, query, re.IGNORECASE):
+                groups = match.groups()
+                if len(groups) >= 2:
+                    # Get the metric (last group) and value (second to last group)
+                    metric = groups[-1].rstrip('s')  # Remove plural
+                    value = int(groups[-2])
+                    
+                    # Determine min/max based on the operator/phrase
+                    op_type, _ = operator_func(*groups)
+                    filter_key = f'{op_type}_{metric}'
+                    
+                    all_matches.append((match.start(), match.end(), filter_key, value, match.group(0)))
+        
+        # Sort matches by position (to remove them in reverse order)
+        all_matches.sort(key=lambda x: x[0], reverse=True)
+        
+        # Apply filters and remove matched text
+        for start, end, filter_key, value, matched_text in all_matches:
+            filters[filter_key] = value
+            # Remove the matched portion from the query
+            cleaned_query = cleaned_query[:start] + ' ' + cleaned_query[end:]
+        
+        # Clean up the query by removing:
+        # 1. Extra whitespace
+        # 2. Common stopwords that might be left dangling
+        # 3. Punctuation artifacts
+        
+        # Remove extra spaces and normalize
+        cleaned_query = ' '.join(cleaned_query.split())
+        
+        # Remove common English stopwords that add no semantic value
+        stopwords = {
+            'a', 'an', 'and', 'are', 'as', 'at', 'be', 'by', 'for', 'from',
+            'has', 'he', 'in', 'is', 'it', 'its', 'of', 'on', 'that', 'the',
+            'to', 'was', 'will', 'with', 'the', 'this', 'these', 'those',
+            'have', 'has', 'had', 'having', 'do', 'does', 'did', 'doing',
+            'would', 'could', 'should', 'may', 'might', 'must', 'shall', 'can',
+            'need', 'dare', 'ought', 'also', 'both', 'either', 'neither'
+        }
+        
+        # Common command/query prefixes that add no semantic value for search
+        command_prefixes = {
+            'find', 'get', 'show', 'list', 'display', 'search', 'give', 'fetch',
+            'retrieve', 'return', 'provide', 'tell', 'me', 'all', 'any', 'some'
+        }
+        
+        # Only remove stopwords if they're isolated (not part of a larger word)
+        words = cleaned_query.split()
+        
+        # First pass: remove command prefixes from the beginning
+        while words and words[0].lower() in command_prefixes:
+            words = words[1:]
+        
+        # Second pass: remove stopwords
+        filtered_words = [w for w in words if w.lower() not in stopwords or len(words) == 1]
+        
+        # If we removed all words except stopwords, keep the original words
+        if not filtered_words and words:
+            filtered_words = words
+            
+        cleaned_query = ' '.join(filtered_words)
+        
+        logger.info(f"Extracted numeric filters: {filters} from query: '{query}'")
+        return filters, cleaned_query
+    
+    def _detect_entity_type(self, query: str) -> Optional[str]:
+        """
+        Detect what type of entity the user is searching for.
+        Returns the detected filter_type or None.
+        """
+        query_lower = query.lower()
+        
+        # Repository/code related
+        repo_terms = ['repository', 'repo', 'github', 'code', 'project', 'package',
+                      'library', 'framework', 'sdk', 'cli', 'tool', 'toolkit', 
+                      'utility', 'plugin', 'extension', 'module', 'api']
+        
+        # Company related
+        company_terms = ['company', 'startup', 'business', 'firm', 'venture',
+                        'enterprise', 'organization', 'corp']
+        
+        # Person related
+        person_terms = ['founder', 'person', 'people', 'developer', 'engineer',
+                       'ceo', 'cto', 'investor', 'employee', 'team']
+        
+        # Check for matches (prioritize more specific terms)
+        if any(term in query_lower for term in repo_terms):
+            return 'repository'
+        elif any(term in query_lower for term in company_terms):
+            return 'company'
+        elif any(term in query_lower for term in person_terms):
+            return 'person'
+        
+        return None
+    
     def search(
         self, 
         query: str, 
@@ -41,9 +167,26 @@ class GraphRAGService:
         """
         Perform Graph RAG search using Neo4j's hybrid capabilities
         """
+        # Extract numeric filters from query
+        numeric_filters, cleaned_query = self._extract_numeric_filters(query)
+        
+        # Apply extracted star filter if not already specified
+        if 'min_star' in numeric_filters and not min_repo_stars:
+            min_repo_stars = numeric_filters['min_star']
+        
+        # Use cleaned query for embeddings to get better semantic matches
+        embedding_query = cleaned_query if cleaned_query else query
+        
+        # Auto-detect entity type if not specified
+        if not filter_type:
+            detected_type = self._detect_entity_type(query)
+            if detected_type:
+                filter_type = detected_type
+                logger.info(f"Auto-detected entity type: {filter_type}")
+        
         # Check for special repository queries
         query_lower = query.lower()
-        is_repo_query = any(term in query_lower for term in ['repo', 'github', 'code', 'stars', 'repository', 'open source'])
+        is_repo_query = filter_type == 'repository'
         is_max_query = any(term in query_lower for term in ['max', 'most', 'top', 'highest', 'best'])
         
         # Handle special query: repos with max stars
@@ -64,16 +207,17 @@ class GraphRAGService:
                 }
             }
         
-        # Auto-detect filter type if not specified
-        if not filter_type and is_repo_query:
-            filter_type = 'repository'
-        
-        query_embedding = self._get_query_embedding(query)
+        # Get embedding using cleaned query for better semantic matching
+        query_embedding = self._get_query_embedding(embedding_query)
 
         # Extract optional filters from the free-text query (e.g., location hints like "NYC")
         location_code = self._extract_location_from_query(query)
         batch_filters = self._extract_batch_from_query(query)
         exclude_locations = self._derive_exclude_locations(location_code)
+        
+        # Log applied filters for debugging
+        if min_repo_stars or numeric_filters:
+            logger.info(f"Search filters - min_repo_stars: {min_repo_stars}, numeric_filters: {numeric_filters}, filter_type: {filter_type}")
         
         # Perform hybrid search (vector + graph)
         adjusted_top_k = top_k * 2 if location_code else top_k
