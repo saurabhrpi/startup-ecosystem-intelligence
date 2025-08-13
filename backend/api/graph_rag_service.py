@@ -46,7 +46,7 @@ class GraphRAGService:
         # Each pattern captures: (comparison_phrase, number, metric)
         comparison_patterns = [
             # Symbolic operators
-            (r'([><]=?)\s*(\d+)\s+(\w+)', lambda op, val: ('min' if op in ['>', '>='] else 'max', val)),
+            (r'([><]=?)\s*(\d+)\s+(\w+)', lambda op, val, metric: ('min' if op in ['>', '>='] else 'max', val)),
             (r'(\d+)\+\s+(\w+)', lambda val, metric: ('min', val)),  # "100+ stars"
             
             # Natural language comparisons - captured as groups for operator detection
