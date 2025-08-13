@@ -198,6 +198,13 @@ class GraphRAGService:
             person_role_filters=person_role_filters
         )
 
+        # If repositories are in the results, enrich with associated company when available
+        try:
+            if any(r.get('type') == 'Repository' for r in results):
+                results = self._enrich_repository_matches_with_company(results)
+        except Exception as e:
+            logger.warning(f"Failed to enrich repository matches with company: {e}")
+
         # If a location was detected in the query, enforce strict filtering in all cases
         if location_code:
             matching: List[Dict[str, Any]] = []
@@ -236,6 +243,51 @@ class GraphRAGService:
                 }
             }
         }
+
+    def _enrich_repository_matches_with_company(self, results: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        """For each repository match, attach the highest-confidence associated company if present."""
+        from backend.utils.neo4j_store import clean_neo4j_data
+        enriched: List[Dict[str, Any]] = []
+        with self.neo4j_store.driver.session() as session:
+            for r in results:
+                if r.get('type') != 'Repository':
+                    enriched.append(r)
+                    continue
+                meta = r.get('metadata') or {}
+                # Skip if already has company
+                if meta.get('company'):
+                    enriched.append(r)
+                    continue
+                repo_id = meta.get('id') or r.get('id')
+                if not repo_id:
+                    enriched.append(r)
+                    continue
+                row = session.run(
+                    """
+                    MATCH (repo:Repository {id: $repo_id})
+                    OPTIONAL MATCH (c:Company)-[rel:LIKELY_OWNS]->(repo)
+                    WITH c, rel
+                    ORDER BY coalesce(rel.confidence, 0) DESC
+                    RETURN c, rel
+                    LIMIT 1
+                    """,
+                    { 'repo_id': repo_id }
+                ).single()
+                if row and row.get('c'):
+                    company_node = row.get('c')
+                    rel = row.get('rel')
+                    company_data = clean_neo4j_data(dict(company_node))
+                    company_data.pop('embedding', None)
+                    meta['company'] = company_data
+                    if rel:
+                        rel_data = clean_neo4j_data(dict(rel))
+                        meta['company_relationship'] = {
+                            'confidence': rel_data.get('confidence', 0),
+                            'method': rel_data.get('method', 'unknown')
+                        }
+                    r['metadata'] = meta
+                enriched.append(r)
+        return enriched
     
     def find_similar_entities(self, entity_id: str, top_k: int = 5) -> Dict[str, Any]:
         """Find entities similar to a given entity"""
