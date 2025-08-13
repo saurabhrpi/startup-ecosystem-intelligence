@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import SearchBar from '@/components/SearchBar'
 import CompanyGrid from '@/components/CompanyGrid'
 import RepositoryGrid from '@/components/RepositoryGrid'
+import RepositoryDetail from '@/components/RepositoryDetail'
 import CompanyDetail from '@/components/CompanyDetail'
 import ResponseDisplay from '@/components/ResponseDisplay'
 import { Company, SearchResult } from '@/lib/types'
@@ -14,6 +15,7 @@ type Stats = { total_companies: number; total_embeddings: number; data_sources: 
 export default function HomeClient({ initialStats }: { initialStats: Stats }) {
   const [searchResults, setSearchResults] = useState<SearchResult | null>(null)
   const [selectedCompany, setSelectedCompany] = useState<Company | null>(null)
+  const [selectedRepository, setSelectedRepository] = useState<any | null>(null)
   const [loading, setLoading] = useState(false)
   const [stats, setStats] = useState<Stats>(initialStats)
 
@@ -169,17 +171,7 @@ export default function HomeClient({ initialStats }: { initialStats: Stats }) {
                           <RepositoryGrid 
                             repositories={searchResults.matches.map((m: any) => m.metadata || m)} 
                             onSelectRepository={(repo) => {
-                              if (repo.company && repo.company.id && repo.company.name) {
-                                const company: Company = {
-                                  id: repo.company.id,
-                                  score: 1.0,
-                                  metadata: {
-                                    ...repo.company,
-                                    type: 'Company'
-                                  }
-                                }
-                                setSelectedCompany(company)
-                              }
+                              setSelectedRepository(repo)
                             }}
                           />
                         ) : (
@@ -199,6 +191,9 @@ export default function HomeClient({ initialStats }: { initialStats: Stats }) {
         {/* Company Detail Modal */}
         {selectedCompany && (
           <CompanyDetail company={selectedCompany} onClose={() => setSelectedCompany(null)} />
+        )}
+        {selectedRepository && (
+          <RepositoryDetail repository={selectedRepository} onClose={() => setSelectedRepository(null)} />
         )}
       </div>
     </main>
