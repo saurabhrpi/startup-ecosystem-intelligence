@@ -81,45 +81,10 @@ class GraphRAGService:
             # Remove the matched portion from the query
             cleaned_query = cleaned_query[:start] + ' ' + cleaned_query[end:]
         
-        # Clean up the query by removing:
-        # 1. Extra whitespace
-        # 2. Common stopwords that might be left dangling
-        # 3. Punctuation artifacts
-        
-        # Remove extra spaces and normalize
+        # Only clean up extra whitespace, don't remove stopwords
+        # This preserves important context like "Series A", "in San Francisco", etc.
+        # Embeddings are trained to understand full context including stopwords
         cleaned_query = ' '.join(cleaned_query.split())
-        
-        # Remove common English stopwords that add no semantic value
-        stopwords = {
-            'a', 'an', 'and', 'are', 'as', 'at', 'be', 'by', 'for', 'from',
-            'has', 'he', 'in', 'is', 'it', 'its', 'of', 'on', 'that', 'the',
-            'to', 'was', 'will', 'with', 'the', 'this', 'these', 'those',
-            'have', 'has', 'had', 'having', 'do', 'does', 'did', 'doing',
-            'would', 'could', 'should', 'may', 'might', 'must', 'shall', 'can',
-            'need', 'dare', 'ought', 'also', 'both', 'either', 'neither'
-        }
-        
-        # Common command/query prefixes that add no semantic value for search
-        command_prefixes = {
-            'find', 'get', 'show', 'list', 'display', 'search', 'give', 'fetch',
-            'retrieve', 'return', 'provide', 'tell', 'me', 'all', 'any', 'some'
-        }
-        
-        # Only remove stopwords if they're isolated (not part of a larger word)
-        words = cleaned_query.split()
-        
-        # First pass: remove command prefixes from the beginning
-        while words and words[0].lower() in command_prefixes:
-            words = words[1:]
-        
-        # Second pass: remove stopwords
-        filtered_words = [w for w in words if w.lower() not in stopwords or len(words) == 1]
-        
-        # If we removed all words except stopwords, keep the original words
-        if not filtered_words and words:
-            filtered_words = words
-            
-        cleaned_query = ' '.join(filtered_words)
         
         logger.info(f"Extracted numeric filters: {filters} from query: '{query}'")
         return filters, cleaned_query
