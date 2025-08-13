@@ -145,17 +145,14 @@ export default function HomeClient({ initialStats }: { initialStats: Stats }) {
             )}
 
             {/* Results Grid - Companies or Repositories */}
-            {searchResults.matches && searchResults.matches.length > 0 && (
+              {searchResults.matches && searchResults.matches.length > 0 && (
               <div>
                 {(() => {
                   // Determine result type based on first match structure
                   const firstMatch: any = searchResults.matches[0]
                   const resultType = firstMatch?.type || (firstMatch?.metadata?.type) || 'Company'
                   const isRepository = resultType === 'Repository'
-                  
-                  // Extract the actual data from matches
-                  const items = searchResults.matches.map((match: any) => match.metadata || match)
-                  
+                    
                   return (
                     <>
                       <div className="text-center mb-6">
@@ -168,31 +165,29 @@ export default function HomeClient({ initialStats }: { initialStats: Stats }) {
                             : 'Click on any company to explore detailed insights'}
                         </p>
                       </div>
-                      {isRepository ? (
-                        <RepositoryGrid 
-                          repositories={items} 
-                          onSelectRepository={(repo) => {
-                            // If repo has a company with valid data, show company detail
-                            if (repo.company && repo.company.id && repo.company.name) {
-                              // Convert repo.company to full Company type
-                              const company: Company = {
-                                id: repo.company.id,
-                                score: 1.0,
-                                metadata: {
-                                  ...repo.company,
-                                  type: 'Company'
+                        {isRepository ? (
+                          <RepositoryGrid 
+                            repositories={searchResults.matches.map((m: any) => m.metadata || m)} 
+                            onSelectRepository={(repo) => {
+                              if (repo.company && repo.company.id && repo.company.name) {
+                                const company: Company = {
+                                  id: repo.company.id,
+                                  score: 1.0,
+                                  metadata: {
+                                    ...repo.company,
+                                    type: 'Company'
+                                  }
                                 }
+                                setSelectedCompany(company)
                               }
-                              setSelectedCompany(company)
-                            }
-                          }}
-                        />
-                      ) : (
-                        <CompanyGrid 
-                          companies={items} 
-                          onSelectCompany={setSelectedCompany} 
-                        />
-                      )}
+                            }}
+                          />
+                        ) : (
+                          <CompanyGrid 
+                            companies={searchResults.matches as unknown as Company[]} 
+                            onSelectCompany={setSelectedCompany} 
+                          />
+                        )}
                     </>
                   )
                 })()}
