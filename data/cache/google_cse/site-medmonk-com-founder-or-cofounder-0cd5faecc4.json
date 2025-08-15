@@ -1,0 +1,95 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - site:medmonk.com (founder OR cofounder)",
+        "totalResults": "2",
+        "searchTerms": "site:medmonk.com (founder OR cofounder)",
+        "count": 2,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ]
+  },
+  "context": {
+    "title": "startup-ecosystem-intelligence"
+  },
+  "searchInformation": {
+    "searchTime": 0.084312,
+    "formattedSearchTime": "0.08",
+    "totalResults": "2",
+    "formattedTotalResults": "2"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "Untitled",
+      "htmlTitle": "Untitled",
+      "link": "https://medmonk.com/AboutUs",
+      "displayLink": "medmonk.com",
+      "snippet": "From the very beginning, our focus has always been clear: patients are our top priority. Medmonk's story began in 2009 when co-founder Somaira Punjwani, an HIV ...",
+      "htmlSnippet": "From the very beginning, our focus has always been clear: patients are our top priority. Medmonk&#39;s story began in 2009 when co-<b>founder</b> Somaira Punjwani, an HIV&nbsp;...",
+      "formattedUrl": "https://medmonk.com/AboutUs",
+      "htmlFormattedUrl": "https://medmonk.com/AboutUs",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStxamJw-PezGtkCtzTKg4YO704C65KtnPDcdSsz8l2XUugl2M_Z_YXZssF&s",
+            "width": "199",
+            "height": "253"
+          }
+        ],
+        "metatags": [
+          {
+            "next-head-count": "2",
+            "viewport": "width=device-width"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://medmonk.com/_next/image?url=%2Fassets%2FAccreditedBy-New.png&w=3840&q=75"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Medmonk",
+      "htmlTitle": "Medmonk",
+      "link": "https://medmonk.com/",
+      "displayLink": "medmonk.com",
+      "snippet": "Revolutionizing Patient Access to Vital Therapies. At Medmonk, we strongly believe that patients receiving their medication without unnecessary delays is a ...",
+      "htmlSnippet": "Revolutionizing Patient Access to Vital Therapies. At Medmonk, we strongly believe that patients receiving their medication without unnecessary delays is a&nbsp;...",
+      "formattedUrl": "https://medmonk.com/",
+      "htmlFormattedUrl": "https://medmonk.com/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStxamJw-PezGtkCtzTKg4YO704C65KtnPDcdSsz8l2XUugl2M_Z_YXZssF&s",
+            "width": "199",
+            "height": "253"
+          }
+        ],
+        "metatags": [
+          {
+            "next-head-count": "2",
+            "viewport": "width=device-width"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://medmonk.com/_next/image?url=%2Fassets%2FAccreditedBy-New.png&w=3840&q=75"
+          }
+        ]
+      }
+    }
+  ]
+}

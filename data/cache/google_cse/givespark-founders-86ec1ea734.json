@@ -1,0 +1,532 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - \"GiveSpark\" founders",
+        "totalResults": "25",
+        "searchTerms": "\"GiveSpark\" founders",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - \"GiveSpark\" founders",
+        "totalResults": "25",
+        "searchTerms": "\"GiveSpark\" founders",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ]
+  },
+  "context": {
+    "title": "startup-ecosystem-intelligence"
+  },
+  "searchInformation": {
+    "searchTime": 0.10538,
+    "formattedSearchTime": "0.11",
+    "totalResults": "25",
+    "formattedTotalResults": "25"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "Vicky | Edupreneur | Founder of Give Spark (@give.spark ...",
+      "htmlTitle": "Vicky | Edupreneur | <b>Founder</b> of Give Spark (@give.spark ...",
+      "link": "https://www.instagram.com/give.spark/?hl=en",
+      "displayLink": "www.instagram.com",
+      "snippet": "40k+ classrooms | Curriculum Designer 🛠️ PBL | Inquiry | Real Learning Curiosity before content ✨. linktr.ee/givespark.",
+      "htmlSnippet": "40k+ classrooms | Curriculum Designer 🛠️ PBL | Inquiry | Real Learning Curiosity before content ✨. linktr.ee/<b>givespark</b>.",
+      "formattedUrl": "https://www.instagram.com/give.spark/?hl=en",
+      "htmlFormattedUrl": "https://www.instagram.com/give.spark/?hl=en",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ56akbg7_rL9lKumxUfjg0SN2Z1wQKgdip7g_x5blBvqc1ABERTXnmLm8&s",
+            "width": "168",
+            "height": "300"
+          }
+        ],
+        "xfn": [
+          {}
+        ],
+        "metatags": [
+          {
+            "og:image": "https://scontent-iad3-1.cdninstagram.com/v/t51.2885-19/272766469_683280289507110_651640063314417534_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=108&ccb=1-7&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDI0LkMzIn0%3D&_nc_ohc=t3A3iVNfq9kQ7kNvwHBWnsW&_nc_oc=Adk7tEG1OwCkbNM3Qz1yRGyhgh1llraQ-5NEfxNzBUHUmgavToc0kDM2YO6y6VQFy18&_nc_zt=24&_nc_ht=scontent-iad3-1.cdninstagram.com&oh=00_AfVVjYzgA7hIp0lxuvEl7haWaytIC35wA0JsZeBAd8yq0w&oe=68A2CAFE",
+            "theme-color": "#FFFFFF",
+            "og:type": "profile",
+            "al:ios:app_name": "Instagram",
+            "og:title": "Vicky | Edupreneur | Founder of Give Spark (@give.spark) • Instagram photos and videos",
+            "application-title": "Instagram",
+            "al:android:package": "com.instagram.android",
+            "bingbot": "noarchive",
+            "al:ios:url": "instagram://user?username=give.spark",
+            "color-scheme": "light",
+            "og:description": "3,380 Followers, 797 Following, 155 Posts - See Instagram photos and videos from Vicky | Edupreneur | Founder of Give Spark (@give.spark)",
+            "al:ios:app_store_id": "389801252",
+            "al:android:url": "https://instagram.com/_u/give.spark/",
+            "apple-mobile-web-app-status-bar-style": "default",
+            "viewport": "width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover",
+            "mobile-web-app-capable": "yes",
+            "og:url": "https://www.instagram.com/give.spark/",
+            "al:android:app_name": "Instagram"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3685957756221756761"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "GiveSpark",
+      "htmlTitle": "<b>GiveSpark</b>",
+      "link": "https://www.viewspark.com/givespark",
+      "displayLink": "www.viewspark.com",
+      "snippet": "Rest assured knowing that donations made through GiveSpark are secure. Our ... Founders, 24/7 Marriage. Start raising more money. Schedule your free ...",
+      "htmlSnippet": "Rest assured knowing that donations made through <b>GiveSpark</b> are secure. Our ... <b>Founders</b>, 24/7 Marriage. Start raising more money. Schedule your free&nbsp;...",
+      "formattedUrl": "https://www.viewspark.com/givespark",
+      "htmlFormattedUrl": "https://www.viewspark.com/<b>givespark</b>",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3RPNsRv8s1H_xnWAVHI-eIo2w660S158skvTD0aYP9GUFxpaPA6xPqT0&s",
+            "width": "252",
+            "height": "200"
+          }
+        ],
+        "metatags": [
+          {
+            "twitter:title": "GiveSpark",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:title": "GiveSpark"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.prod.website-files.com/6437025eb1014a4d112b3268/66f46d7eb5a574bc8c64933b_Placeholder%20White%20Background.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Good Today - Crunchbase Company Profile & Funding",
+      "htmlTitle": "Good Today - Crunchbase Company Profile &amp; Funding",
+      "link": "https://www.crunchbase.com/organization/good-st",
+      "displayLink": "www.crunchbase.com",
+      "snippet": "Past Role: Givespark, Founder. Photo of Joe Benun. Joe Benun: Co-Founder ... Founders Ariel Sterman, Jeffrey Dobrinsky, Joe Benun, Joe Teplow. About the ...",
+      "htmlSnippet": "Past Role: <b>Givespark</b>, <b>Founder</b>. Photo of Joe Benun. Joe Benun: Co-Founder ... Founders Ariel Sterman, Jeffrey Dobrinsky, Joe Benun, Joe Teplow. About the&nbsp;...",
+      "formattedUrl": "https://www.crunchbase.com/organization/good-st",
+      "htmlFormattedUrl": "https://www.crunchbase.com/organization/good-st",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUMbYS4aEVJ4rCUlQsGzujK2SYjZ9mRZ-y-4FbVfpXM-ihpDVcircBlo9d&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/won367jqdejkdlkuxsqb",
+            "og:type": "website",
+            "og:image:alt": "Good Today",
+            "og:image:width": "256",
+            "og:site_name": "Crunchbase",
+            "viewport": "width=device-width, minimum-scale=1.0, initial-scale=1.0",
+            "og:title": "Good Today - Crunchbase Company Profile & Funding",
+            "og:image:height": "256",
+            "og:url": "https://www.crunchbase.com/organization/good-st",
+            "og:description": "Good Today is a subscription charity program making charitable giving easy and meaningful. You choose a daily donation starting at 25¢.",
+            "og:image:secure_url": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/won367jqdejkdlkuxsqb"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/won367jqdejkdlkuxsqb"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "20+ \"Samuel Rosenblatt\" profiles | LinkedIn",
+      "htmlTitle": "20+ &quot;Samuel Rosenblatt&quot; profiles | LinkedIn",
+      "link": "https://www.linkedin.com/pub/dir/Samuel/Rosenblatt",
+      "displayLink": "www.linkedin.com",
+      "snippet": "Co-Founder, BisDev at GiveSpark. Palo Alto, CA. GiveSpark. Sam Rosenblatt. Lyricist | Artist | Graphic Designer | Theatre Maker. New York, NY.",
+      "htmlSnippet": "Co-<b>Founder</b>, BisDev at <b>GiveSpark</b>. Palo Alto, CA. <b>GiveSpark</b>. Sam Rosenblatt. Lyricist | Artist | Graphic Designer | Theatre Maker. New York, NY.",
+      "formattedUrl": "https://www.linkedin.com/pub/dir/Samuel/Rosenblatt",
+      "htmlFormattedUrl": "https://www.linkedin.com/pub/dir/Samuel/Rosenblatt",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWsyhiUFbxiNT0XTapQqD8P60QdcXteDZIEpF9DoC7H9X9XEyKcYCB&s",
+            "width": "96",
+            "height": "96"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://static.licdn.com/scds/common/u/images/email/artdeco/logos/96/linkedin-bug-color.png",
+            "og:type": "article",
+            "twitter:card": "summary",
+            "twitter:title": "20+ &quot;Samuel Rosenblatt&quot; profiles | LinkedIn",
+            "clientsideingraphs": "1",
+            "og:title": "20+ &quot;Samuel Rosenblatt&quot; profiles | LinkedIn",
+            "pagekey": "p_people_guest_search",
+            "locale": "en_US",
+            "og:description": "View the profiles of professionals named &quot;Samuel Rosenblatt&quot; on LinkedIn. There are 20+ professionals named &quot;Samuel Rosenblatt&quot;, who use LinkedIn to exchange information, ideas, and opportunities.",
+            "twitter:image": "https://static.licdn.com/aero-v1/sc/h/3usjoqttpyv7mplawrjzi58bw",
+            "twitter:site": "@linkedin",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "twitter:description": "View the profiles of professionals named &quot;Samuel Rosenblatt&quot; on LinkedIn. There are 20+ professionals named &quot;Samuel Rosenblatt&quot;, who use LinkedIn to exchange information, ideas, and opportunities.",
+            "litmsprofilename": "people-guest-frontend",
+            "og:url": "https://www.linkedin.com/pub/dir/Samuel/Rosenblatt"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://static.licdn.com/scds/common/u/images/email/artdeco/logos/96/linkedin-bug-color.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Rebel - Crunchbase Company Profile & Funding",
+      "htmlTitle": "Rebel - Crunchbase Company Profile &amp; Funding",
+      "link": "https://www.crunchbase.com/organization/rebelmail",
+      "displayLink": "www.crunchbase.com",
+      "snippet": "Past Role: Givespark, Founder. Photo of Devin Torres. Devin Torres: Director ... Founders Joe Teplow, Trever Faden. About the Company. Rebel transforms ...",
+      "htmlSnippet": "Past Role: <b>Givespark</b>, <b>Founder</b>. Photo of Devin Torres. Devin Torres: Director ... Founders Joe Teplow, Trever Faden. About the Company. Rebel transforms&nbsp;...",
+      "formattedUrl": "https://www.crunchbase.com/organization/rebelmail",
+      "htmlFormattedUrl": "https://www.crunchbase.com/organization/rebelmail",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF9R62Ee63Oo6JqFqvLdiUGRzax69MgZyII4jYvaU3bN6vWCvt5MHfqBY&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1496867692/y1i1uu8b55pu76vqyhx1.png",
+            "og:type": "website",
+            "og:image:alt": "Rebel",
+            "og:image:width": "256",
+            "og:site_name": "Crunchbase",
+            "viewport": "width=device-width, minimum-scale=1.0, initial-scale=1.0",
+            "og:title": "Rebel - Crunchbase Company Profile & Funding",
+            "og:image:height": "256",
+            "og:url": "https://www.crunchbase.com/organization/rebelmail",
+            "og:description": "Rebel allows users to send interactive emails with no plug-ins required, increasing engagement, conversions, and actions.",
+            "og:image:secure_url": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1496867692/y1i1uu8b55pu76vqyhx1.png"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1496867692/y1i1uu8b55pu76vqyhx1.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Press | Screenleap",
+      "htmlTitle": "Press | Screenleap",
+      "link": "https://www.screenleap.com/news",
+      "displayLink": "www.screenleap.com",
+      "snippet": "Here Are The 10 Startups Taking The Spotlight Today At Founders Den: Screenleap, AnyPerk, And More ... Givespark, Popset, SendHub, Screenleap, Coderwall, LVL6.",
+      "htmlSnippet": "Here Are The 10 Startups Taking The Spotlight Today At <b>Founders</b> Den: Screenleap, AnyPerk, And More ... <b>Givespark</b>, Popset, SendHub, Screenleap, Coderwall, LVL6.",
+      "formattedUrl": "https://www.screenleap.com/news",
+      "htmlFormattedUrl": "https://www.screenleap.com/news",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREsQVX0PJUwVOqjjPPB-Y1rJ_esbbrb3e1zLjS6YHbXxXJUG-eWLm-rQ&s",
+            "width": "100",
+            "height": "100"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://www.screenleap.com/img/facebook_thumbnail.png",
+            "og:site_name": "Screenleap"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.screenleap.com/img/facebook_thumbnail.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "SendHub | FundersClub",
+      "htmlTitle": "SendHub | FundersClub",
+      "link": "https://fundersclub.com/companies/sendhub/",
+      "displayLink": "fundersclub.com",
+      "snippet": "Spotlight: Avi Herschman, High School Hockey Coach and Co-founder of Givespark ... Founders. Learn More · Criteria · Process · Apply To Raise · Catalyst.",
+      "htmlSnippet": "Spotlight: Avi Herschman, High School Hockey Coach and Co-<b>founder</b> of <b>Givespark</b> ... <b>Founders</b>. Learn More &middot; Criteria &middot; Process &middot; Apply To Raise &middot; Catalyst.",
+      "formattedUrl": "https://fundersclub.com/companies/sendhub/",
+      "htmlFormattedUrl": "https://fundersclub.com/companies/sendhub/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQB5Pv7fhh9fT77UOzWbtlwrRXtbEd_IRkqaESyeygYy3zPSB3N3Lu_Kha&s",
+            "width": "310",
+            "height": "163"
+          }
+        ],
+        "organization": [
+          {
+            "logo": "https://thefundersclub-production-media-public-files.s3.amazonaws.com/companylogos/sendhub_aCxAsCy.png",
+            "description": "Enterprise phone service that allows businesses to create and add virtual phone numbers to employees' existing mobile devices",
+            "sameas": "sendhub.com"
+          }
+        ],
+        "postaladdress": [
+          {
+            "addresslocality": "San Francisco,",
+            "postalcode": "94114",
+            "addressregion": "CA",
+            "streetaddress": "2261 Market Street #5081"
+          }
+        ],
+        "metatags": [
+          {
+            "msapplication-tilecolor": "#FFFFFF",
+            "og:image": "https://d288gf2k0wd772.cloudfront.net/static/img/graphics/fc-meta-image-default.a2fcc7873aed.png",
+            "theme-color": "#0E253A",
+            "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0",
+            "og:title": "FundersClub",
+            "msapplication-tileimage": "https://d288gf2k0wd772.cloudfront.net/static/img/favicons/ms-icon-144x144.0fcc46c52e20.png"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://d288gf2k0wd772.cloudfront.net/static/img/graphics/fc-meta-image-default.a2fcc7873aed.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Y Combinator shows off 39 companies at Demo Day | VentureBeat",
+      "htmlTitle": "Y Combinator shows off 39 companies at Demo Day | VentureBeat",
+      "link": "https://venturebeat.com/business/y-combinator-demo-day-march-2012/",
+      "displayLink": "venturebeat.com",
+      "snippet": "Mar 27, 2012 ... Each company generally gets a $5,000 base amount and $5,000 per-founder from Y Combinator to help it get up and running. ... Givespark: Celebrity ...",
+      "htmlSnippet": "Mar 27, 2012 <b>...</b> Each company generally gets a $5,000 base amount and $5,000 per-<b>founder</b> from Y Combinator to help it get up and running. ... <b>Givespark</b>: Celebrity&nbsp;...",
+      "formattedUrl": "https://venturebeat.com/business/y-combinator-demo-day-march-2012/",
+      "htmlFormattedUrl": "https://venturebeat.com/business/y-combinator-demo-day-march-2012/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9yM3S605S5_790GBlsByiQhxnJ9HUIvX11DCNPDDI5OUA6s93TFkzJd0&s",
+            "width": "327",
+            "height": "154"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://venturebeat.com/wp-content/uploads/2012/03/y-combinator-demo-days.jpg?w=655?w=1200&strip=all",
+            "og:type": "article",
+            "article:published_time": "2012-03-27T17:03:12+00:00",
+            "og:image:width": "655",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Y Combinator shows off 39 companies at Demo Day",
+            "og:site_name": "VentureBeat",
+            "author": "Sarah Mitroff",
+            "og:title": "Y Combinator shows off 39 companies at Demo Day",
+            "og:image:height": "310",
+            "og:image:type": "image/jpeg",
+            "og:description": "Y Combinator’s semi-annual Demo Day is taking place today, and 66 companies are pitching their products at the Computer History Museum in Mountain View, California. Twenty seven of the presenting companies are still in stealth mode. Twice a year, the incubator grabs the entrepreneurs from its three-month program and throws them onstage to present before Silicon Valley investors […]",
+            "twitter:creator": "@venturebeat",
+            "fb:pages": "7419689078",
+            "article:publisher": "https://www.facebook.com/venturebeat/",
+            "twitter:image": "https://venturebeat.com/wp-content/uploads/2012/03/y-combinator-demo-days.jpg?w=655?w=1200&strip=all",
+            "twitter:site": "@venturebeat",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "og:locale": "en_US",
+            "og:url": "https://venturebeat.com/business/y-combinator-demo-day-march-2012/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://venturebeat.com/wp-content/uploads/2012/03/y-combinator-demo-days.jpg?w=655?w=1200&strip=all"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "YC Demo Day Session 4: Shoptiques, Pair, Daily Muse, Per Vices ...",
+      "htmlTitle": "YC Demo Day Session 4: Shoptiques, Pair, Daily Muse, Per Vices ...",
+      "link": "https://techcrunch.com/2012/03/27/y-combinator-demo-day-session-4/",
+      "displayLink": "techcrunch.com",
+      "snippet": "Mar 27, 2012 ... YC Demo Day Session 1: PlanGrid, Medigram, Zillabyte, HireArt, Flutter, Givespark, Popset, SendHub, Screenleap, Coderwall, LVL6; YC Demo Day ...",
+      "htmlSnippet": "Mar 27, 2012 <b>...</b> YC Demo Day Session 1: PlanGrid, Medigram, Zillabyte, HireArt, Flutter, <b>Givespark</b>, Popset, SendHub, Screenleap, Coderwall, LVL6; YC Demo Day&nbsp;...",
+      "formattedUrl": "https://techcrunch.com/2012/03/27/y-combinator-demo-day-session-4/",
+      "htmlFormattedUrl": "https://techcrunch.com/2012/03/27/y-combinator-demo-day-session-4/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8VoSwxTo9kqBc2vnOYaOSBxSXkqAbjVyIBH4gC167RS3EbWWZfxWgREw&s",
+            "width": "239",
+            "height": "211"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://techcrunch.com/wp-content/uploads/2012/03/y-combinator-logo.png",
+            "article:published_time": "2012-03-27T22:46:48+00:00",
+            "og:image:width": "396",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "TechCrunch",
+            "sailthru.tags": ",Startups,Y Combinator,demo day,Startups",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "parsely-author": "Josh Constine",
+            "og:image:type": "image/png",
+            "msapplication-tileimage": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=270",
+            "og:description": "If you want a better way to shop, hire, share video, or stay in touch with your significant other, you'll love the companies that presented at today's Y Combinator Demo Day session four. Many are already gaining traction, and investors are vying to get in before their valuations increase.  Check out why Y Combinator companies are all about mobile, as well as our coverage of the first, second, and third sessions. Here's a look at the seven companies that strutted their stuff in session four:",
+            "twitter:creator": "@TechCrunch",
+            "parsely-metadata": "{\"post_id\":526464,\"is_brief\":false}",
+            "article:publisher": "https://www.facebook.com/techcrunch",
+            "twitter:data1": "Josh Constine",
+            "twitter:data2": "4 minutes",
+            "parsely-type": "post",
+            "twitter:site": "@TechCrunch",
+            "article:modified_time": "2012-03-28T09:19:47+00:00",
+            "parsely-link": "https://techcrunch.com/2012/03/27/y-combinator-demo-day-session-4/",
+            "sailthru.title": "YC Demo Day Session 4: Shoptiques, Pair, Daily Muse, Per Vices, iCracked, Socialcam, AnyVivo",
+            "parsely-image-url": "https://techcrunch.com/wp-content/uploads/2012/03/y-combinator-logo.png?w=150",
+            "parsely-section": "Startups",
+            "sailthru.date": "2012-03-27 15:46:48",
+            "og:type": "article",
+            "author": "Josh Constine",
+            "og:title": "YC Demo Day Session 4: Shoptiques, Pair, Daily Muse, Per Vices, iCracked, Socialcam, AnyVivo | TechCrunch",
+            "og:image:height": "350",
+            "sailthru.image.thumb": "https://techcrunch.com/wp-content/uploads/2012/03/y-combinator-logo.png?w=50",
+            "parsely-title": "YC Demo Day Session 4: Shoptiques, Pair, Daily Muse, Per Vices, iCracked, Socialcam, AnyVivo",
+            "parsely-pub-date": "2012-03-27T22:46:48Z",
+            "sailthru.description": "If you want a better way to shop, hire, share video, or stay in touch with your significant other, you'll love the companies that presented at today's <a href=\"http://ycombinator.com/\">Y Combinator</a> Demo Day session four. Many are already gaining traction, and investors are vying to get in before their valuations increase.\r\n\r\nCheck out why Y Combinator companies are <a href=\"https://techcrunch.com/2012/03/27/ycmobile/\">all about mobile</a>, as well as our <a href=\"https://techcrunch.com/2012/03/27/yc-demo-day-session-1/\">coverage of the first</a>, <a href=\"https://techcrunch.com/2012/03/27/yc-demo-day-session-2-midnox-42floors-sonalight-your-mechanic/\">second</a>, and <a href=\"https://techcrunch.com/2012/03/27/y-combinator-demo-day-session-3/\">third sessions</a>. Here's a look at the seven companies that strutted their stuff in session four:",
+            "parsely-tags": "startups,y combinator,demo day",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:locale": "en_US",
+            "og:url": "https://techcrunch.com/2012/03/27/y-combinator-demo-day-session-4/",
+            "sailthru.author": "Josh Constine",
+            "sailthru.image.full": "https://techcrunch.com/wp-content/uploads/2012/03/y-combinator-logo.png"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://techcrunch.com/wp-content/uploads/2012/03/y-combinator-logo.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "datasets/Y-Combinator/Startups.csv at master · ali-ce/datasets · GitHub",
+      "htmlTitle": "datasets/Y-Combinator/Startups.csv at master · ali-ce/datasets · GitHub",
+      "link": "https://github.com/ali-ce/datasets/blob/master/Y-Combinator/Startups.csv",
+      "displayLink": "github.com",
+      "snippet": "... Founders Fund, Dragoneer Investment Group, SV Angel, Elad Gil, Ashton ... http://www.crunchbase.com/organization/givespark, http://givespark.com. 334.",
+      "htmlSnippet": "... <b>Founders</b> Fund, Dragoneer Investment Group, SV Angel, Elad Gil, Ashton ... http://www.crunchbase.com/organization/<b>givespark</b>, http://<b>givespark</b>.com. 334.",
+      "formattedUrl": "https://github.com/ali-ce/datasets/blob/master/Y-Combinator/Startups.csv",
+      "htmlFormattedUrl": "https://github.com/ali-ce/datasets/blob/master/Y-Combinator/Startups.csv",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXmQ_5DLLln2AwugqJJMP0YT5LNrSy1wdex0ioz-XZ5VK_WqCk1pnCpUHz&s",
+            "width": "318",
+            "height": "159"
+          }
+        ],
+        "softwaresourcecode": [
+          {
+            "author": "ali-ce",
+            "name": "datasets"
+          }
+        ],
+        "metatags": [
+          {
+            "octolytics-url": "https://collector.github.com/github/collect",
+            "apple-itunes-app": "app-id=1477376905, app-argument=https://github.com/ali-ce/datasets/blob/master/Y-Combinator/Startups.csv",
+            "og:image": "https://opengraph.githubassets.com/3ec72f8ca21117c364fee7cf2c3a424b169d4f57d72faffbfff38611aa3b532a/ali-ce/datasets",
+            "twitter:card": "summary_large_image",
+            "og:image:width": "1200",
+            "theme-color": "#1e2327",
+            "og:site_name": "GitHub",
+            "hovercard-subject-tag": "repository:23547469",
+            "turbo-body-classes": "logged-out env-production page-responsive",
+            "release": "a3c9f7dbecc0d1eb1b5efbe4128951830e84b49a",
+            "html-safe-nonce": "3d0b785955e1d0c517b3da6b5859573b80472d726d6f1e3d1e3a5c4f17f20ab5",
+            "expected-hostname": "github.com",
+            "og:description": "My datasets - Original data or Aggregated / cleaned / restructured existing datasets. Released here under Creative Commons B - ali-ce/datasets",
+            "twitter:image": "https://opengraph.githubassets.com/3ec72f8ca21117c364fee7cf2c3a424b169d4f57d72faffbfff38611aa3b532a/ali-ce/datasets",
+            "browser-errors-url": "https://api.github.com/_private/browser/errors",
+            "octolytics-dimension-user_login": "ali-ce",
+            "hostname": "github.com",
+            "twitter:site": "@github",
+            "browser-stats-url": "https://api.github.com/_private/browser/stats",
+            "route-pattern": "/:user_id/:repository/blob/*name(/*path)",
+            "visitor-payload": "eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJFRDYzOjMyQzQ5Mzo5NjBFNzpDOTAyRDo2ODA4MTREMCIsInZpc2l0b3JfaWQiOiI0NjkxNzI0MzA3NjkxNzM4MzIwIiwicmVnaW9uX2VkZ2UiOiJpYWQiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=",
+            "github-keyboard-shortcuts": "repository,source-code,file-tree,copilot",
+            "octolytics-dimension-repository_id": "23547469",
+            "octolytics-dimension-repository_network_root_nwo": "ali-ce/datasets",
+            "twitter:title": "datasets/Y-Combinator/Startups.csv at master · ali-ce/datasets",
+            "og:image:alt": "My datasets - Original data or Aggregated / cleaned / restructured existing datasets. Released here under Creative Commons B - ali-ce/datasets",
+            "og:type": "object",
+            "og:title": "datasets/Y-Combinator/Startups.csv at master · ali-ce/datasets",
+            "visitor-hmac": "4bfb85849116cddb34da8ae2d4a214c845e57ba37766338ded0a347a80133c1e",
+            "og:image:height": "600",
+            "turbo-cache-control": "no-preview",
+            "route-action": "show",
+            "request-id": "ED63:32C493:960E7:C902D:680814D0",
+            "analytics-location": "/<user-name>/<repo-name>/blob/show",
+            "color-scheme": "light dark",
+            "octolytics-dimension-repository_is_fork": "false",
+            "go-import": "github.com/ali-ce/datasets git https://github.com/ali-ce/datasets.git",
+            "octolytics-dimension-user_id": "7140368",
+            "octolytics-dimension-repository_public": "true",
+            "fb:app_id": "1401488693436528",
+            "octolytics-dimension-repository_network_root_id": "23547469",
+            "octolytics-dimension-repository_nwo": "ali-ce/datasets",
+            "viewport": "width=device-width",
+            "twitter:description": "My datasets - Original data or Aggregated / cleaned / restructured existing datasets. Released here under Creative Commons B - ali-ce/datasets",
+            "route-controller": "blob",
+            "current-catalog-service-hash": "f3abb0cc802f3d7b95fc8762b94bdcb13bf39634c40c357301c4aa1d67a256fb",
+            "og:url": "https://github.com/ali-ce/datasets/blob/master/Y-Combinator/Startups.csv"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://opengraph.githubassets.com/3ec72f8ca21117c364fee7cf2c3a424b169d4f57d72faffbfff38611aa3b532a/ali-ce/datasets"
+          }
+        ]
+      }
+    }
+  ]
+}

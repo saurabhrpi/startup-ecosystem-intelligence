@@ -1,0 +1,552 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - \"GoCardless\" founders",
+        "totalResults": "42500",
+        "searchTerms": "\"GoCardless\" founders",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - \"GoCardless\" founders",
+        "totalResults": "42500",
+        "searchTerms": "\"GoCardless\" founders",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ]
+  },
+  "context": {
+    "title": "startup-ecosystem-intelligence"
+  },
+  "searchInformation": {
+    "searchTime": 0.190454,
+    "formattedSearchTime": "0.19",
+    "totalResults": "42500",
+    "formattedTotalResults": "42,500"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "GoCardless - Wikipedia",
+      "htmlTitle": "<b>GoCardless</b> - Wikipedia",
+      "link": "https://en.wikipedia.org/wiki/GoCardless",
+      "displayLink": "en.wikipedia.org",
+      "snippet": "GoCardless ; Hiroki Takeuchi; Tom Blomfield; Matt Robinson · London, United Kingdom · Hiroki Takeuchi (CEO) · Direct Debit payments, Open Banking, payment ...",
+      "htmlSnippet": "<b>GoCardless</b> ; Hiroki Takeuchi; Tom Blomfield; Matt Robinson &middot; London, United Kingdom &middot; Hiroki Takeuchi (CEO) &middot; Direct Debit payments, Open Banking, payment&nbsp;...",
+      "formattedUrl": "https://en.wikipedia.org/wiki/GoCardless",
+      "htmlFormattedUrl": "https://en.wikipedia.org/wiki/<b>GoCardless</b>",
+      "pagemap": {
+        "hcard": [
+          {
+            "url_text": "gocardless.com",
+            "bday": "2011-02-24",
+            "fn": "GoCardless",
+            "category": "Private",
+            "url": "gocardless.com"
+          }
+        ],
+        "metatags": [
+          {
+            "referrer": "origin",
+            "theme-color": "#eaecf0",
+            "og:type": "website",
+            "viewport": "width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0",
+            "og:title": "GoCardless - Wikipedia",
+            "format-detection": "telephone=no"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Hiroki Takeuchi - GoCardless | LinkedIn",
+      "htmlTitle": "Hiroki Takeuchi - <b>GoCardless</b> | LinkedIn",
+      "link": "https://uk.linkedin.com/in/hirokitakeuchi",
+      "displayLink": "uk.linkedin.com",
+      "snippet": "Experience: GoCardless · Location: London · 500+ connections on LinkedIn. View Hiroki Takeuchi's profile on LinkedIn, a professional community of 1 billion ...",
+      "htmlSnippet": "Experience: <b>GoCardless</b> · Location: London · 500+ connections on LinkedIn. View Hiroki Takeuchi&#39;s profile on LinkedIn, a professional community of 1 billion&nbsp;...",
+      "formattedUrl": "https://uk.linkedin.com/in/hirokitakeuchi",
+      "htmlFormattedUrl": "https://uk.linkedin.com/in/hirokitakeuchi",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_i1msJ4ngVw8g3QKj8TEavKQmbei91-MfOJTbRLmFlhcZcTqgnmdM3-pF&s",
+            "width": "200",
+            "height": "200"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://media.licdn.com/dms/image/v2/D4E03AQHlGqcsZM-1mg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1680005333964?e=2147483647&v=beta&t=so-UtDlycdEVDzcMFeKK56aDYmy0VfO3qEAYuTRch4o",
+            "twitter:card": "summary",
+            "linkedin:pagetag": "openToProvider",
+            "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+            "al:android:package": "com.linkedin.android",
+            "bingbot": "nocache",
+            "locale": "en_US",
+            "al:ios:url": "https://uk.linkedin.com/in/hirokitakeuchi",
+            "og:description": "Experience: GoCardless · Location: London · 500+ connections on LinkedIn. View Hiroki Takeuchi’s profile on LinkedIn, a professional community of 1 billion members.",
+            "al:ios:app_store_id": "288429040",
+            "platform": "https://static.licdn.com/aero-v1/sc/h/4nm9pu95jzy03fx73wtc0vlru",
+            "twitter:image": "https://media.licdn.com/dms/image/v2/D4E03AQHlGqcsZM-1mg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1680005333964?e=2147483647&v=beta&t=so-UtDlycdEVDzcMFeKK56aDYmy0VfO3qEAYuTRch4o",
+            "profile:last_name": "Takeuchi",
+            "twitter:site": "@Linkedin",
+            "litmsprofilename": "public-profile-frontend",
+            "profile:first_name": "Hiroki",
+            "og:type": "profile",
+            "twitter:title": "Hiroki Takeuchi - GoCardless | LinkedIn",
+            "al:ios:app_name": "LinkedIn",
+            "og:title": "Hiroki Takeuchi - GoCardless | LinkedIn",
+            "pagekey": "public_profile_v3_mobile",
+            "al:android:url": "https://uk.linkedin.com/in/hirokitakeuchi",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "twitter:description": "Experience: GoCardless · Location: London · 500+ connections on LinkedIn. View Hiroki Takeuchi’s profile on LinkedIn, a professional community of 1 billion members.",
+            "ubba": "https://static.licdn.com/aero-v1/sc/h/6314rx53vzqnwyjpjmgri18gg",
+            "og:url": "https://uk.linkedin.com/in/hirokitakeuchi",
+            "al:android:app_name": "LinkedIn"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://media.licdn.com/dms/image/v2/D4E03AQHlGqcsZM-1mg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1680005333964?e=2147483647&v=beta&t=so-UtDlycdEVDzcMFeKK56aDYmy0VfO3qEAYuTRch4o"
+          }
+        ],
+        "Person": [
+          {}
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Top articles by Hiroki Takeuchi | GoCardless",
+      "htmlTitle": "Top articles by Hiroki Takeuchi | <b>GoCardless</b>",
+      "link": "https://gocardless.com/resources/authors/hiroki/",
+      "displayLink": "gocardless.com",
+      "snippet": "Hiroki Takeuchi is co-founder and CEO of GoCardless and has built the company into a global operation worth over $2billion with offices in London, Paris, New ...",
+      "htmlSnippet": "<b>Hiroki Takeuchi</b> is co-<b>founder</b> and CEO of <b>GoCardless</b> and has built the company into a global operation worth over $2billion with offices in London, Paris, New&nbsp;...",
+      "formattedUrl": "https://gocardless.com/resources/authors/hiroki/",
+      "htmlFormattedUrl": "https://<b>gocardless</b>.com/resources/authors/hiroki/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnRBDYIzzkWa-xJAFh2qd5Oixj9olpSW_tNxdLj1LYC1jm3Ey7wGehs69P&s",
+            "width": "299",
+            "height": "169"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://gocardless.com/content-platform/static/816e9048c2a134da3e79b8677556ad0f/f8482/og-full.png",
+            "theme-color": "#f1f252",
+            "twitter:title": "Top articles by Hiroki Takeuchi",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+            "twitter:description": "Read the latest news and resources by Hiroki Takeuchi",
+            "og:title": "Top articles by Hiroki Takeuchi",
+            "og:description": "Read the latest news and resources by Hiroki Takeuchi",
+            "twitter:creator": "GoCardless",
+            "twitter:image": "https://gocardless.com/content-platform/static/816e9048c2a134da3e79b8677556ad0f/f8482/og-full.png"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://gocardless.com/content-platform/static/816e9048c2a134da3e79b8677556ad0f/f8482/og-full.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "GoCardless CEO: 'I still feel like I'm the same person' | TechCrunch",
+      "htmlTitle": "<b>GoCardless</b> CEO: &#39;I still feel like I&#39;m the same person&#39; | TechCrunch",
+      "link": "https://techcrunch.com/2017/09/18/hiroki-interview/",
+      "displayLink": "techcrunch.com",
+      "snippet": "Sep 18, 2017 ... It has nearly been a year since GoCardless co-founder and CEO Hiroki Takeuchi was involved in a serious road accident that left him ...",
+      "htmlSnippet": "Sep 18, 2017 <b>...</b> It has nearly been a year since <b>GoCardless</b> co-<b>founder</b> and CEO Hiroki Takeuchi was involved in a serious road accident that left him&nbsp;...",
+      "formattedUrl": "https://techcrunch.com/2017/09/18/hiroki-interview/",
+      "htmlFormattedUrl": "https://techcrunch.com/2017/09/18/hiroki-interview/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6C9M9SeqdvSDaENzEHU_C_EO1jtJRWyH5aCVa9LWdM5Z3fH-0ILKow88&s",
+            "width": "274",
+            "height": "184"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://techcrunch.com/wp-content/uploads/2017/09/hiroki3.jpg?resize=1200,807",
+            "article:published_time": "2017-09-18T07:15:45+00:00",
+            "og:image:width": "1200",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "TechCrunch",
+            "sailthru.tags": ",gocardless,Startups",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "parsely-author": "Steve O'Hear",
+            "og:image:type": "image/jpeg",
+            "msapplication-tileimage": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=270",
+            "og:description": "It has nearly been a year since GoCardless co-founder and CEO Hiroki Takeuchi was involved in a serious road accident that left him paralysed below his chest, and unable to walk again. Based on multiple interviews, including with Takeuchi himself, we tell the story of his journey back to startup life and the many challenges faced along the way.",
+            "twitter:creator": "@TechCrunch",
+            "parsely-metadata": "{\"post_id\":1541950,\"is_brief\":false}",
+            "article:publisher": "https://www.facebook.com/techcrunch",
+            "twitter:data1": "Steve O'Hear",
+            "twitter:data2": "23 minutes",
+            "parsely-type": "post",
+            "twitter:site": "@TechCrunch",
+            "article:modified_time": "2017-09-30T17:27:18+00:00",
+            "parsely-link": "https://techcrunch.com/2017/09/18/hiroki-interview/",
+            "sailthru.title": "GoCardless CEO: ‘I still feel like I’m the same person’",
+            "parsely-image-url": "https://techcrunch.com/wp-content/uploads/2017/09/hiroki3.jpg?w=150",
+            "parsely-section": "Startups",
+            "sailthru.date": "2017-09-18 00:15:45",
+            "og:type": "article",
+            "author": "Steve O'Hear",
+            "og:title": "GoCardless CEO: ‘I still feel like I’m the same person’ | TechCrunch",
+            "og:image:height": "807",
+            "sailthru.image.thumb": "https://techcrunch.com/wp-content/uploads/2017/09/hiroki3.jpg?w=50",
+            "parsely-title": "GoCardless CEO: ‘I still feel like I’m the same person’",
+            "parsely-pub-date": "2017-09-18T07:15:45Z",
+            "sailthru.description": "It has nearly been a year since GoCardless co-founder and CEO Hiroki Takeuchi was involved in a serious road accident that left him paralysed below his chest, and unable to walk again. Based on multiple interviews, including with Takeuchi himself, we tell the story of his journey back to startup life and the many challenges faced along the way.",
+            "parsely-tags": "gocardless",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:locale": "en_US",
+            "og:url": "https://techcrunch.com/2017/09/18/hiroki-interview/",
+            "sailthru.author": "Steve O'Hear",
+            "sailthru.image.full": "https://techcrunch.com/wp-content/uploads/2017/09/hiroki3.jpg"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://techcrunch.com/wp-content/uploads/2017/09/hiroki3.jpg?resize=1200,807"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Hiroki Takeuchi: Founder Story | Notion",
+      "htmlTitle": "Hiroki Takeuchi: <b>Founder</b> Story | Notion",
+      "link": "https://www.notion.vc/resources/hiroki-takeuchi-founder-story",
+      "displayLink": "www.notion.vc",
+      "snippet": "Nov 27, 2018 ... There I met with Matt Robinson, one of my co-founders at GoCardless. And our first conversation was about starting a business and it felt ...",
+      "htmlSnippet": "Nov 27, 2018 <b>...</b> There I met with Matt Robinson, one of my co-<b>founders</b> at <b>GoCardless</b>. And our first conversation was about starting a business and it felt&nbsp;...",
+      "formattedUrl": "https://www.notion.vc/resources/hiroki-takeuchi-founder-story",
+      "htmlFormattedUrl": "https://www.notion.vc/resources/hiroki-takeuchi-founder-story",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXzsAnx-MI0NiN2hSifLGn67pQyugRxrfrKpGgINyV9gIoqmpJ6PEa0Zo&s",
+            "width": "275",
+            "height": "183"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://cdn.prod.website-files.com/613b85712c9672dcafb125ed/61f0092a8466836a6979e347_61e050b404ceb7984e23195c_Hiroki-Takeuchi1.jpeg",
+            "twitter:title": "Hiroki Takeuchi: Founder Story",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "Hiroki Takeuchi talks to Notion about his ambition to build a category-defining recurring payments business",
+            "og:title": "Hiroki Takeuchi: Founder Story",
+            "og:description": "Hiroki Takeuchi talks to Notion about his ambition to build a category-defining recurring payments business",
+            "twitter:image": "https://cdn.prod.website-files.com/613b85712c9672dcafb125ed/61f0092a8466836a6979e347_61e050b404ceb7984e23195c_Hiroki-Takeuchi1.jpeg"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.prod.website-files.com/613b85712c9672dcafb125ed/61f0092a8466836a6979e347_61e050b404ceb7984e23195c_Hiroki-Takeuchi1.jpeg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "GoCardless founders factory: Meet the 10 former employees-turned ...",
+      "htmlTitle": "<b>GoCardless founders</b> factory: Meet the 10 former employees-turned ...",
+      "link": "https://sifted.eu/articles/gocardless-founders-factory-meet-the-10-former-employees-turned-founders",
+      "displayLink": "sifted.eu",
+      "snippet": "Jul 30, 2024 ... Since its founding in 2011, London-based GoCardless — which makes its money by facilitating direct debit payments for businesses in exchange ...",
+      "htmlSnippet": "Jul 30, 2024 <b>...</b> Since its <b>founding</b> in 2011, London-based <b>GoCardless</b> — which makes its money by facilitating direct debit payments for businesses in exchange&nbsp;...",
+      "formattedUrl": "https://sifted.eu/.../gocardless-founders-factory-meet-the-10-former-employ...",
+      "htmlFormattedUrl": "https://sifted.eu/.../<b>gocardless</b>-<b>founders</b>-factory-meet-the-10-former-employ...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQquFDK5e2acrmYFW9qea_7xKWdv-VYfUbVaE4djJLXjXI5mawQQmVy07Rp&s",
+            "width": "262",
+            "height": "192"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://images.sifted.eu/wp-content/uploads/2019/11/06103405/GoCardless-CEO-Hiroki-Takeuchi.jpg?w=2048&h=1505&q=75&fit=crop&auto=compress,format",
+            "twitter:card": "summary_large_image",
+            "og:type": "article",
+            "og:image:width": "2048",
+            "og:site_name": "Sifted",
+            "og:title": "GoCardless founders factory: Meet the 10 former employees-turned-founders",
+            "og:image:height": "1505",
+            "og:image:type": "image/jpeg",
+            "og:description": "Payments fintech GoCardless is proving to be a vital training ground for Europe's next generation of founders.",
+            "article:author": "https://sifted.eu/author/tom-matsuda",
+            "article:tag": "Fintech",
+            "next-head-count": "27",
+            "twitter:site": "@siftedeu",
+            "article:modified_time": "2025-02-03T14:46:53+00:00",
+            "viewport": "width=device-width",
+            "og:locale": "en_GB",
+            "og:url": "/articles/gocardless-founders-factory-meet-the-10-former-employees-turned-founders/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://images.sifted.eu/wp-content/uploads/2019/11/06103405/GoCardless-CEO-Hiroki-Takeuchi.jpg?w=2048&h=1505&q=75&fit=crop&auto=compress,format"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Fintech GoCardless halves loss, targets full-year profit by 2026",
+      "htmlTitle": "Fintech <b>GoCardless</b> halves loss, targets full-year profit by 2026",
+      "link": "https://www.cnbc.com/2025/02/03/fintech-gocardless-halves-loss-targets-full-year-profit-by-2026.html",
+      "displayLink": "www.cnbc.com",
+      "snippet": "Feb 3, 2025 ... Hiroki Takeuchi, co-founder and CEO of GoCardless. Zed Jameson | Bloomberg | Getty Images. Financial technology unicorn GoCardless more than ...",
+      "htmlSnippet": "Feb 3, 2025 <b>...</b> Hiroki Takeuchi, co-<b>founder</b> and CEO of <b>GoCardless</b>. Zed Jameson | Bloomberg | Getty Images. Financial technology unicorn <b>GoCardless</b> more than&nbsp;...",
+      "formattedUrl": "https://www.cnbc.com/.../fintech-gocardless-halves-loss-targets-full-year-pr...",
+      "htmlFormattedUrl": "https://www.cnbc.com/.../fintech-<b>gocardless</b>-halves-loss-targets-full-year-pr...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtj8r_Yl4nUQynGMU54J46-FpUEDnSwv2B5XkbChDVfKyi8hZdvVs917Ln&s",
+            "width": "300",
+            "height": "168"
+          }
+        ],
+        "newsmediaorganization": [
+          {
+            "foundingdate": "'1989-04-17'",
+            "name": "CNBC",
+            "url": "https://www.cnbc.com"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://image.cnbcfm.com/api/v1/image/108064673-1731965189141-gettyimages-1782287185-PORTUGAL_WEB_SUMMIT.jpeg?v=1737743513&w=1920&h=1080",
+            "apple-itunes-app": "app-id=398018310",
+            "twitter:card": "summary_large_image",
+            "article:published_time": "2025-02-03T09:26:06+0000",
+            "og:site_name": "CNBC",
+            "twitter:url": "https://www.cnbc.com/2025/02/03/fintech-gocardless-halves-loss-targets-full-year-profit-by-2026.html",
+            "tp:preferredformats": "M3U,MPEG4",
+            "og:description": "GoCardless reported a net loss of £35.1 million in the full year ending June 2024, down 55% year-over-year.",
+            "twitter:creator": "@Ryan_Browne_",
+            "parsely-metadata": "{\"nodeid\":108091362,\"originalImage\":\"https://image.cnbcfm.com/api/v1/image/108064673-1731965189141-gettyimages-1782287185-PORTUGAL_WEB_SUMMIT.jpeg?v=1737743513\"}",
+            "twitter:image": "https://image.cnbcfm.com/api/v1/image/108064673-1731965189141-gettyimages-1782287185-PORTUGAL_WEB_SUMMIT.jpeg?v=1737743513&w=1920&h=1080",
+            "article:publisher": "https://www.facebook.com/cnbc",
+            "al:ios:app_store_id": "398018310",
+            "pagenodeid": "108091362",
+            "twitter:site": "@CNBC",
+            "article:modified_time": "2025-02-03T14:46:23+0000",
+            "news_keywords": "Earnings,Start-up,Venture capital,FinTech,Internet,Technology,Breaking News: Technology,business news",
+            "tp:preferredruntimes": "universal",
+            "tp:initialize": "false",
+            "assettype": "cnbcnewsstory",
+            "og:type": "article",
+            "twitter:title": "Alphabet-backed fintech GoCardless halves losses, targets first annual profit in 2026",
+            "article:section": "Technology",
+            "al:ios:app_name": "CNBC Business News and Finance",
+            "author": "Ryan Browne",
+            "og:title": "Alphabet-backed fintech GoCardless halves losses, targets first annual profit in 2026",
+            "article:author": "https://www.facebook.com/CNBC",
+            "twitter:image:src": "https://image.cnbcfm.com/api/v1/image/108064673-1731965189141-gettyimages-1782287185-PORTUGAL_WEB_SUMMIT.jpeg?v=1737743513&w=1920&h=1080",
+            "article:tag": "Earnings",
+            "viewport": "initial-scale=1.0, width=device-width",
+            "twitter:description": "GoCardless reported a net loss of £35.1 million in the full year ending June 2024, down 55% year-over-year.",
+            "og:url": "https://www.cnbc.com/2025/02/03/fintech-gocardless-halves-loss-targets-full-year-profit-by-2026.html",
+            "format-detection": "telephone=no",
+            "article:opinion": "false"
+          }
+        ],
+        "webpage": [
+          {
+            "image": "https://image.cnbcfm.com/api/v1/image/108064673-1731965189141-gettyimages-1782287185-PORTUGAL_WEB_SUMMIT.jpeg?v=1737743513&w=1920&h=1080",
+            "contentrating": "NR",
+            "specialty": "Earnings,Start-up,Venture capital,FinTech,Internet,Technology,Breaking News: Technology",
+            "primaryimageofpage": "https://image.cnbcfm.com/api/v1/image/108064673-1731965189141-gettyimages-1782287185-PORTUGAL_WEB_SUMMIT.jpeg?v=1737743513",
+            "datemodified": "2025-02-03T14:46:23+0000",
+            "inlanguage": "en-US",
+            "keywords": "Earnings,Start-up,Venture capital,FinTech,Internet,Technology,Breaking News: Technology,business news",
+            "lastreviewed": "2025-02-03T14:46:23+0000",
+            "name": "Fintech GoCardless halves loss, targets full-year profit by 2026",
+            "description": "GoCardless reported a net loss of £35.1 million in the full year ending June 2024, down 55% year-over-year.",
+            "datecreated": "2025-02-03T09:26:06+0000",
+            "datepublished": "2025-02-03T09:26:06+0000"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://image.cnbcfm.com/api/v1/image/108064673-1731965189141-gettyimages-1782287185-PORTUGAL_WEB_SUMMIT.jpeg?v=1737743513&w=1920&h=1080"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "'We need to get to profitability quickly' - GoCardless CEO Hiroki ...",
+      "htmlTitle": "&#39;We need to get to profitability quickly&#39; - <b>GoCardless</b> CEO Hiroki ...",
+      "link": "https://sifted.eu/articles/gocardless-ceo-interview-profit",
+      "displayLink": "sifted.eu",
+      "snippet": "May 14, 2024 ... Speaking to GoCardless CEO Hiroki Takeuchi in today's market comes with a note of urgency that might have been less obvious during the boom ...",
+      "htmlSnippet": "May 14, 2024 <b>...</b> Speaking to <b>GoCardless</b> CEO Hiroki Takeuchi in today&#39;s market comes with a note of urgency that might have been less obvious during the boom&nbsp;...",
+      "formattedUrl": "https://sifted.eu/articles/gocardless-ceo-interview-profit",
+      "htmlFormattedUrl": "https://sifted.eu/articles/<b>gocardless</b>-ceo-interview-profit",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQquFDK5e2acrmYFW9qea_7xKWdv-VYfUbVaE4djJLXjXI5mawQQmVy07Rp&s",
+            "width": "262",
+            "height": "192"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://images.sifted.eu/wp-content/uploads/2019/11/06103405/GoCardless-CEO-Hiroki-Takeuchi.jpg?w=2048&h=1505&q=75&fit=crop&auto=compress,format",
+            "twitter:card": "summary_large_image",
+            "og:type": "article",
+            "og:image:width": "2048",
+            "og:site_name": "Sifted",
+            "og:title": "'We need to get to profitability quickly' - GoCardless CEO Hiroki Takeuchi's new sense of urgency",
+            "og:image:height": "1505",
+            "og:image:type": "image/jpeg",
+            "og:description": "The payments fintech sees a future in open banking-powered payments amid a strive to reach profitability next year.",
+            "article:author": "https://sifted.eu/author/tom-matsuda",
+            "article:tag": "Fintech",
+            "next-head-count": "26",
+            "twitter:site": "@siftedeu",
+            "article:modified_time": "2025-02-03T14:46:59+00:00",
+            "viewport": "width=device-width",
+            "og:locale": "en_GB",
+            "og:url": "/articles/gocardless-ceo-interview-profit/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://images.sifted.eu/wp-content/uploads/2019/11/06103405/GoCardless-CEO-Hiroki-Takeuchi.jpg?w=2048&h=1505&q=75&fit=crop&auto=compress,format"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Gunderson Dettmer client GoCardless raises $75M | Gunderson ...",
+      "htmlTitle": "Gunderson Dettmer client <b>GoCardless</b> raises $75M | Gunderson ...",
+      "link": "https://www.gunder.com/en/news-insights/client-news/gunderson-dettmer-client-gocardless-raises-75m",
+      "displayLink": "www.gunder.com",
+      "snippet": "Feb 18, 2019 ... ... GoCardless now processes $10 billion in transactions for 40000 businesses a year. In the funding announcement GoCardless CEO Hiroki Takeuchi ...",
+      "htmlSnippet": "Feb 18, 2019 <b>...</b> ... <b>GoCardless</b> now processes $10 billion in transactions for 40000 businesses a year. In the funding announcement <b>GoCardless</b> CEO Hiroki Takeuchi&nbsp;...",
+      "formattedUrl": "https://www.gunder.com/.../gunderson-dettmer-client-gocardless-raises-75...",
+      "htmlFormattedUrl": "https://www.gunder.com/.../gunderson-dettmer-client-<b>gocardless</b>-raises-75...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-saGPmmvZh_X82LAy_Z7QCEBceAFPnAu6huxleIae_VL5XNd7cbMvx0YH&s",
+            "width": "318",
+            "height": "159"
+          }
+        ],
+        "metatags": [
+          {
+            "application-name": "Gunderson Dettmer Stough Villeneuve Franklin & Hachigian, LLP",
+            "msapplication-tilecolor": "#da532c",
+            "msapplication-config": "/images/build/browserconfig_f6573953.xml",
+            "og:image": "https://www.gunder.com/a/web/i4C3uicZy9PTi21z8V8diu/8XnLKP/opengraph-genericimage.jpg",
+            "theme-color": "#102744",
+            "twitter:card": "summary_large_image",
+            "og:type": "website",
+            "og:site_name": "Gunderson Dettmer - Gunderson Dettmer client GoCardless raises $75M",
+            "apple-mobile-web-app-title": "Gunderson Dettmer Stough Villeneuve Franklin & Hachigian, LLP",
+            "og:title": "Gunderson Dettmer",
+            "google": "notranslate",
+            "msapplication-tileimage": "/images/build/mstile-150x150_cf864784.png",
+            "og:description": "GoCardless, an online-payment platform network built for international recurring payments, has raised $75 million in Series E funding. The financing round was led by new investors Adams Street…",
+            "og:image:secure_url": "https://www.gunder.com/a/web/i4C3uicZy9PTi21z8V8diu/8XnLKP/opengraph-genericimage.jpg",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "og:url": "https://www.gunder.com/en/news-insights/client-news/gunderson-dettmer-client-gocardless-raises-75m"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.gunder.com/a/web/i4C3uicZy9PTi21z8V8diu/8XnLKP/opengraph-genericimage.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "GoCardless: We're building the world's bank payment network. | Y ...",
+      "htmlTitle": "<b>GoCardless</b>: We&#39;re building the world&#39;s bank payment network. | Y ...",
+      "link": "https://www.ycombinator.com/companies/gocardless",
+      "displayLink": "www.ycombinator.com",
+      "snippet": "Hiroki is co-founder and CEO of GoCardless, a global leader in direct bank payment solutions. Prior to founding GoCardless, he worked as a Business Analyst at ...",
+      "htmlSnippet": "Hiroki is co-<b>founder</b> and CEO of <b>GoCardless</b>, a global leader in direct bank payment solutions. Prior to <b>founding GoCardless</b>, he worked as a Business Analyst at&nbsp;...",
+      "formattedUrl": "https://www.ycombinator.com/companies/gocardless",
+      "htmlFormattedUrl": "https://www.ycombinator.com/companies/<b>gocardless</b>",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_jlx_ttcDqicgZBVs0DjrnlFIWkOUPYZ1SvaiGlEZzk4B6xRiqshYu3_C&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "image": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/da7ec9b22508d0e16b0a6cc0909f6a2df3edbcb0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAKAAB433L%2F20250802%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250802T052930Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIHJj3HkPQmMEWYn3A9wO9wLqVqcWjO3wVLJY8QAkKVkuAiEAkt7M2Zv3H6Y3VxjkoAiAMTmTqD7LFESL4WZJDGy39AYq7gMI%2Fv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDAobGjpevR6Ol7gGISrCA1Yl2FETai1IEpKARyRqxnhUZ%2Bp6CkXSXLgMnw8YqGvToIRBLq6tVN%2BOIGcC9tXT8HsGt4acrXM9%2FaKxX1DMiDzSovLaNW2Ui7kz6F%2BtnFVWRBoMfPxG22TyQZ1aE9iO1WVjpEIyrBPm3MpEsFpwuWrhG14B14qu%2BJTmmiXT%2BObki2IN0eRaBqrIZxuTQYK8lvm9UOGEeBUxSpNuRX6o9h8WvY7HWksqSrXb95iLWv9hMk1XwiNcTvqgMzEuFUWILkmeuEzJLsmWdoxLyaDcgf%2BI62eLIdKSxuoJRBnVL9ekMmafCzs%2BD9Hhuck2PMofaFpaCygih5dcxyDSTbpx9zVoA%2BEo7isf5U1Viqh%2FdDot%2FWjicai%2FTRIv5JV0R60WXDXlPL6twYKNgDctd4pov5twpnuDx59iZf6zDbheK%2BLoY4iPwxymPEQRjFskm7fIcsL6TJf%2F1xfYTbLVyc",
+            "og:image": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/da7ec9b22508d0e16b0a6cc0909f6a2df3edbcb0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAKAAB433L%2F20250802%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250802T052930Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIHJj3HkPQmMEWYn3A9wO9wLqVqcWjO3wVLJY8QAkKVkuAiEAkt7M2Zv3H6Y3VxjkoAiAMTmTqD7LFESL4WZJDGy39AYq7gMI%2Fv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDAobGjpevR6Ol7gGISrCA1Yl2FETai1IEpKARyRqxnhUZ%2Bp6CkXSXLgMnw8YqGvToIRBLq6tVN%2BOIGcC9tXT8HsGt4acrXM9%2FaKxX1DMiDzSovLaNW2Ui7kz6F%2BtnFVWRBoMfPxG22TyQZ1aE9iO1WVjpEIyrBPm3MpEsFpwuWrhG14B14qu%2BJTmmiXT%2BObki2IN0eRaBqrIZxuTQYK8lvm9UOGEeBUxSpNuRX6o9h8WvY7HWksqSrXb95iLWv9hMk1XwiNcTvqgMzEuFUWILkmeuEzJLsmWdoxLyaDcgf%2BI62eLIdKSxuoJRBnVL9ekMmafCzs%2BD9Hhuck2PMofaFpaCygih5dcxyDSTbpx9zVoA%2BEo7isf5U1Viqh%2FdDot%2FWjicai%2FTRIv5JV0R60WXDXlPL6twYKNgDctd4pov5twpnuDx59iZf6zDbheK%2BLoY4iPwxymPEQRjFskm7fIcsL6TJf%2F1xfYTbLVyc",
+            "twitter:card": "summary_large_image",
+            "og:type": "website",
+            "og:site_name": "Y Combinator",
+            "og:image:url": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/da7ec9b22508d0e16b0a6cc0909f6a2df3edbcb0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAKAAB433L%2F20250802%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250802T052930Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIHJj3HkPQmMEWYn3A9wO9wLqVqcWjO3wVLJY8QAkKVkuAiEAkt7M2Zv3H6Y3VxjkoAiAMTmTqD7LFESL4WZJDGy39AYq7gMI%2Fv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDAobGjpevR6Ol7gGISrCA1Yl2FETai1IEpKARyRqxnhUZ%2Bp6CkXSXLgMnw8YqGvToIRBLq6tVN%2BOIGcC9tXT8HsGt4acrXM9%2FaKxX1DMiDzSovLaNW2Ui7kz6F%2BtnFVWRBoMfPxG22TyQZ1aE9iO1WVjpEIyrBPm3MpEsFpwuWrhG14B14qu%2BJTmmiXT%2BObki2IN0eRaBqrIZxuTQYK8lvm9UOGEeBUxSpNuRX6o9h8WvY7HWksqSrXb95iLWv9hMk1XwiNcTvqgMzEuFUWILkmeuEzJLsmWdoxLyaDcgf%2BI62eLIdKSxuoJRBnVL9ekMmafCzs%2BD9Hhuck2PMofaFpaCygih5dcxyDSTbpx9zVoA%2BEo7isf5U1Viqh%2FdDot%2FWjicai%2FTRIv5JV0R60WXDXlPL6twYKNgDctd4pov5twpnuDx59iZf6zDbheK%2BLoY4iPwxymPEQRjFskm7fIcsL6TJf%2F1xfYTbLVyc",
+            "og:title": "GoCardless: We’re building the world’s bank payment network. | Y Combinator",
+            "csrf-param": "authenticity_token",
+            "title": "GoCardless: We’re building the world’s bank payment network.",
+            "og:description": "We’re building the world’s bank payment network. Founded in 2011 by Hiroki Takeuchi, GoCardless has 900 employees based in London, UK.",
+            "twitter:image": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/da7ec9b22508d0e16b0a6cc0909f6a2df3edbcb0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAKAAB433L%2F20250802%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250802T052930Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIHJj3HkPQmMEWYn3A9wO9wLqVqcWjO3wVLJY8QAkKVkuAiEAkt7M2Zv3H6Y3VxjkoAiAMTmTqD7LFESL4WZJDGy39AYq7gMI%2Fv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDAobGjpevR6Ol7gGISrCA1Yl2FETai1IEpKARyRqxnhUZ%2Bp6CkXSXLgMnw8YqGvToIRBLq6tVN%2BOIGcC9tXT8HsGt4acrXM9%2FaKxX1DMiDzSovLaNW2Ui7kz6F%2BtnFVWRBoMfPxG22TyQZ1aE9iO1WVjpEIyrBPm3MpEsFpwuWrhG14B14qu%2BJTmmiXT%2BObki2IN0eRaBqrIZxuTQYK8lvm9UOGEeBUxSpNuRX6o9h8WvY7HWksqSrXb95iLWv9hMk1XwiNcTvqgMzEuFUWILkmeuEzJLsmWdoxLyaDcgf%2BI62eLIdKSxuoJRBnVL9ekMmafCzs%2BD9Hhuck2PMofaFpaCygih5dcxyDSTbpx9zVoA%2BEo7isf5U1Viqh%2FdDot%2FWjicai%2FTRIv5JV0R60WXDXlPL6twYKNgDctd4pov5twpnuDx59iZf6zDbheK%2BLoY4iPwxymPEQRjFskm7fIcsL6TJf%2F1xfYTbLVyc",
+            "og:image:secure_url": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/da7ec9b22508d0e16b0a6cc0909f6a2df3edbcb0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAKAAB433L%2F20250802%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250802T052930Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIHJj3HkPQmMEWYn3A9wO9wLqVqcWjO3wVLJY8QAkKVkuAiEAkt7M2Zv3H6Y3VxjkoAiAMTmTqD7LFESL4WZJDGy39AYq7gMI%2Fv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDAobGjpevR6Ol7gGISrCA1Yl2FETai1IEpKARyRqxnhUZ%2Bp6CkXSXLgMnw8YqGvToIRBLq6tVN%2BOIGcC9tXT8HsGt4acrXM9%2FaKxX1DMiDzSovLaNW2Ui7kz6F%2BtnFVWRBoMfPxG22TyQZ1aE9iO1WVjpEIyrBPm3MpEsFpwuWrhG14B14qu%2BJTmmiXT%2BObki2IN0eRaBqrIZxuTQYK8lvm9UOGEeBUxSpNuRX6o9h8WvY7HWksqSrXb95iLWv9hMk1XwiNcTvqgMzEuFUWILkmeuEzJLsmWdoxLyaDcgf%2BI62eLIdKSxuoJRBnVL9ekMmafCzs%2BD9Hhuck2PMofaFpaCygih5dcxyDSTbpx9zVoA%2BEo7isf5U1Viqh%2FdDot%2FWjicai%2FTRIv5JV0R60WXDXlPL6twYKNgDctd4pov5twpnuDx59iZf6zDbheK%2BLoY4iPwxymPEQRjFskm7fIcsL6TJf%2F1xfYTbLVyc",
+            "twitter:site": "@ycombinator",
+            "viewport": "initial-scale=1, width=device-width, height=device-height",
+            "csrf-token": "EGGwVyNsCDs9Mw24hzxwaNu3bGjPnhr745tv4Ma6A1RiQZvNbHThsI1KfivmG-hpM6BrgiSKehrUAlbwyiEshw",
+            "og:locale": "en_US",
+            "og:url": "https://www.ycombinator.com/companies/gocardless"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "x-raw-image:///7481412385fe6d0f7d4a3339d90fe12309432ca41983e8d350b232301d5d8684"
+          }
+        ]
+      }
+    }
+  ]
+}

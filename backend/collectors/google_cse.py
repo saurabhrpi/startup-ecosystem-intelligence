@@ -3,38 +3,47 @@ import re
 import os
 import json
 import hashlib
+import asyncio
 from typing import List, Dict, Any, Optional
 from urllib.parse import urlparse
 from backend.config import settings
 
 NAME_TOKEN = r"[A-Z][a-z]+(?:[-'][A-Z][a-z]+)*"
 NAME_2_3 = re.compile(rf"\b{NAME_TOKEN}(?:\s{NAME_TOKEN}){{1,2}}\b")
-NEAR_FOUNDER_BEFORE = re.compile(rf"({NAME_TOKEN}(?:\s{NAME_TOKEN}){{1,2}})\s*.{{0,40}}\b(Co-?founder|Founder)\b", re.IGNORECASE)
 NEAR_FOUNDER_AFTER = re.compile(rf"\b(Co-?founder|Founder)\b\s*.{{0,40}}({NAME_TOKEN}(?:\s{NAME_TOKEN}){{1,2}})", re.IGNORECASE)
 
-# Token blacklist to filter generic words that are not person names
-MONTHS = {m.lower() for m in [
-    'Jan','January','Feb','February','Mar','March','Apr','April','May','Jun','June','Jul','July','Aug','August','Sep','Sept','September','Oct','October','Nov','November','Dec','December']}
-GENERIC_TOKENS = {w.lower() for w in [
-    'about','us','closing','opening','remarks','business','insider','press','news','careers','team','leadership',
-    'privacy','terms','contact','faq','help','docs','developer','platform','agenda','panel','speakers','webinar',
-    'quants','blog','events','jobs','apply','join','company','people','story','stories','mission','values']}
-
+# Minimal validation: title-cased 2–3 tokens with allowed characters
 
 def _is_valid_name(candidate: str) -> bool:
     n = (candidate or '').strip()
     if not n or not NAME_2_3.fullmatch(n):
         return False
-    tokens = n.split()
-    # Exclude tokens that are months or generic non-person words
-    for t in tokens:
-        tl = t.lower()
-        if tl in MONTHS or tl in GENERIC_TOKENS:
-            return False
-        # Exclude tokens with disallowed punctuation beyond hyphen/apostrophe
-        if re.search(r"[.,;:!?_$/\\\[\]{}()<>\"]", t):
-            return False
-    return True
+    toks = n.split()
+    return 1 < len(toks) <= 3 and all(re.fullmatch(NAME_TOKEN, t) for t in toks)
+
+# Lazy NER loader
+_ner_nlp = None
+
+def _extract_persons_ner(text: str) -> List[str]:
+    global _ner_nlp
+    try:
+        if _ner_nlp is None:
+            import spacy
+            try:
+                _ner_nlp = spacy.load("en_core_web_sm")
+            except Exception:
+                return []
+        doc = _ner_nlp(text or "")
+        names: List[str] = []
+        for ent in doc.ents:
+            if ent.label_ == "PERSON":
+                name = ent.text.strip()
+                if _is_valid_name(name):
+                    names.append(name)
+        # dedupe preserve order, cap 3
+        return list(dict.fromkeys(names))[:3]
+    except Exception:
+        return []
 
 
 class GoogleCSEClient:
@@ -51,6 +60,8 @@ class GoogleCSEClient:
         self.cache_dir = os.getenv('GOOGLE_CSE_CACHE_DIR', 'data/cache/google_cse')
         self.force_refresh = os.getenv('GOOGLE_CSE_FORCE_REFRESH', 'false').lower() == 'true'
         os.makedirs(self.cache_dir, exist_ok=True)
+        # QPS throttle (min delay between requests)
+        self.min_delay_sec = max(0.0, float(os.getenv('GOOGLE_CSE_MIN_DELAY_MS', '300')) / 1000.0)
 
     def _cache_path(self, q: str) -> str:
         slug = re.sub(r"[^a-z0-9]+", "-", (q or '').lower()).strip('-')[:64]
@@ -64,24 +75,52 @@ class GoogleCSEClient:
         if not self.force_refresh and os.path.exists(cache_path):
             try:
                 with open(cache_path, 'r', encoding='utf-8') as f:
-                    return json.load(f)
+                    data = json.load(f)
+                    print(f"[CSE] Cache hit for query: {q}")
+                    return data
             except Exception:
                 pass
         if self._used >= self.max_run:
             return {"items": []}
+
+        # Throttle QPS
+        if self.min_delay_sec > 0:
+            await asyncio.sleep(self.min_delay_sec)
+
         params = {"key": self.api_key, "cx": self.cx, "q": q, "num": min(max(num, 1), 10), "safe": "active"}
-        resp = await client.get(self.base_url, params=params)
-        self._used += 1
-        if resp.status_code != 200:
-            return {"items": []}
-        data = resp.json() or {"items": []}
-        # Persist to cache permanently
-        try:
-            with open(cache_path, 'w', encoding='utf-8') as f:
-                json.dump(data, f, ensure_ascii=False, indent=2)
-        except Exception:
-            pass
-        return data
+
+        # Retry with backoff on 429
+        attempts = 0
+        backoff = 1.0
+        max_attempts = 5
+        while attempts < max_attempts:
+            resp = await client.get(self.base_url, params=params)
+            self._used += 1
+            if resp.status_code == 200:
+                data = resp.json() or {"items": []}
+                # Persist to cache permanently
+                try:
+                    with open(cache_path, 'w', encoding='utf-8') as f:
+                        json.dump(data, f, ensure_ascii=False, indent=2)
+                    print(f"[CSE] Network call; cached to: {cache_path}")
+                except Exception:
+                    print("[CSE] Network call; failed to write cache")
+                return data
+            if resp.status_code == 429:
+                # Honor Retry-After if present, else exponential backoff
+                retry_after = resp.headers.get('Retry-After')
+                try:
+                    wait = float(retry_after) if retry_after else backoff
+                except Exception:
+                    wait = backoff
+                wait = min(max(wait, self.min_delay_sec), 10.0)
+                print(f"[CSE] 429 Too Many Requests. Waiting {wait:.2f}s before retry...")
+                await asyncio.sleep(wait)
+                attempts += 1
+                backoff = min(backoff * 2, 8.0)
+                continue
+            break
+        return {"items": []}
 
     def _extract_from_items(self, items: List[Dict[str, Any]], company_domain: Optional[str]) -> List[str]:
         out: List[str] = []
@@ -93,17 +132,20 @@ class GoogleCSEClient:
                 seen.add(name)
 
         for it in items or []:
-            # Only analyze the snippet for proximity to avoid title noise like "About Us"
-            text = it.get('snippet', '') or ''
-            if not text:
+            snippet = it.get('snippet', '') or ''
+            if not snippet:
                 continue
-
-            for m in NEAR_FOUNDER_BEFORE.finditer(text):
-                cand = m.group(1).strip()
-                add(cand)
-            for m in NEAR_FOUNDER_AFTER.finditer(text):
-                cand = m.group(2).strip()
-                add(cand)
+            # Primary: NER
+            ner_names = _extract_persons_ner(snippet)
+            for nm in ner_names:
+                add(nm)
+            if len(out) >= 3:
+                break
+            # Fallback: regex after "Founder"
+            for m in NEAR_FOUNDER_AFTER.finditer(snippet):
+                add(m.group(2).strip())
+                if len(out) >= 3:
+                    break
             if len(out) >= 3:
                 break
         return out[:3]
@@ -122,7 +164,6 @@ class GoogleCSEClient:
                     break
                 data = await self._query(client, q, num=10)
                 results.extend(self._extract_from_items(data.get("items", []), company_domain))
-                # Deduplicate while preserving order
                 results = list(dict.fromkeys(results))
                 if len(results) >= 3:
                     break

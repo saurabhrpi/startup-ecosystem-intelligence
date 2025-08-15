@@ -1,0 +1,1506 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - \"The Muse\" founders",
+        "totalResults": "476000",
+        "searchTerms": "\"The Muse\" founders",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - \"The Muse\" founders",
+        "totalResults": "476000",
+        "searchTerms": "\"The Muse\" founders",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ]
+  },
+  "context": {
+    "title": "startup-ecosystem-intelligence"
+  },
+  "searchInformation": {
+    "searchTime": 0.165684,
+    "formattedSearchTime": "0.17",
+    "totalResults": "476000",
+    "formattedTotalResults": "476,000"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "Kathryn Minshew - Entrepreneur, Author & Investor | LinkedIn",
+      "htmlTitle": "<b>Kathryn Minshew</b> - Entrepreneur, Author &amp; Investor | LinkedIn",
+      "link": "https://www.linkedin.com/in/kathryn-minshew",
+      "displayLink": "www.linkedin.com",
+      "snippet": "Professionally, I most recently spent twelve years focused on building a more human Future of Work, co-founding The Muse in 2011 and leading the business as CEO ...",
+      "htmlSnippet": "Professionally, I most recently spent twelve years focused on building a more human Future of Work, co-<b>founding The Muse</b> in 2011 and leading the business as CEO&nbsp;...",
+      "formattedUrl": "https://www.linkedin.com/in/kathryn-minshew",
+      "htmlFormattedUrl": "https://www.linkedin.com/in/kathryn-minshew",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReFVDgV6fBfFBPEqxKt22O9Mcaynt1XXTRxp8mgKZPvxphhx8Ehc9qpSI&s",
+            "width": "200",
+            "height": "200"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://media.licdn.com/dms/image/v2/D4E03AQGaFIFgjNVygw/profile-displayphoto-shrink_200_200/B4EZdDpvzHHgAY-/0/1749186707004?e=2147483647&v=beta&t=tCElCQdJCCDEb3jZo045JB3Vfc5SnF2Xco9wjuzQ3t4",
+            "twitter:card": "summary",
+            "linkedin:pagetag": "openToProvider",
+            "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+            "al:android:package": "com.linkedin.android",
+            "bingbot": "nocache",
+            "locale": "en_US",
+            "al:ios:url": "https://www.linkedin.com/in/kathryn-minshew",
+            "og:description": "Entrepreneur, Author &amp; Investor · I&#39;m an entrepreneur, author, public speaker, investor, Broadway co-producer, and lover of adventure travel.\n\nProfessionally, I most recently spent twelve years focused on building a more human Future of Work, co-founding The Muse in 2011 and leading the business as CEO from 2011-2023. During that time The Muse grew from 0 to 70+ million annual users, pioneered the concept of values-based job search and was named one of Fast Company&#39;s 50 Most Innovative Companies in the World. \n\nPersonally, I&#39;m a wildly passionate traveler -- 72 countries and counting -- proud NYC resident, and avid lover of snacks.\n\nI&#39;m also an active advisor, angel investor (88% in female founded companies), and an Operating Partner with XFactor Ventures, designed to be the “first check” in female founded startups. My first book, “The New Rules of Work” (Crown Business, April 2017), was a Wall Street Journal national bestseller. I&#39;ve spoken at MIT and Harvard, contributed to ",
+            "al:ios:app_store_id": "288429040",
+            "platform": "https://static.licdn.com/aero-v1/sc/h/50rhhil0lpchs3iqo4twn4tk9",
+            "twitter:image": "https://media.licdn.com/dms/image/v2/D4E03AQGaFIFgjNVygw/profile-displayphoto-shrink_200_200/B4EZdDpvzHHgAY-/0/1749186707004?e=2147483647&v=beta&t=tCElCQdJCCDEb3jZo045JB3Vfc5SnF2Xco9wjuzQ3t4",
+            "profile:last_name": "Minshew",
+            "twitter:site": "@Linkedin",
+            "litmsprofilename": "public-profile-frontend",
+            "profile:first_name": "Kathryn",
+            "og:type": "profile",
+            "twitter:title": "Kathryn Minshew - Entrepreneur, Author &amp; Investor | LinkedIn",
+            "al:ios:app_name": "LinkedIn",
+            "og:title": "Kathryn Minshew - Entrepreneur, Author &amp; Investor | LinkedIn",
+            "pagekey": "public_profile_v3_mobile",
+            "al:android:url": "https://www.linkedin.com/in/kathryn-minshew",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "twitter:description": "Entrepreneur, Author &amp; Investor · I&#39;m an entrepreneur, author, public speaker, investor, Broadway co-producer, and lover of adventure travel.\n\nProfessionally, I most recently spent twelve years focused on building a more human Future of Work, co-founding The Muse in 2011 and leading the business as CEO from 2011-2023. During that time The Muse grew from 0 to 70+ million annual users, pioneered the concept of values-based job search and was named one of Fast Company&#39;s 50 Most Innovative Companies in the World. \n\nPersonally, I&#39;m a wildly passionate traveler -- 72 countries and counting -- proud NYC resident, and avid lover of snacks.\n\nI&#39;m also an active advisor, angel investor (88% in female founded companies), and an Operating Partner with XFactor Ventures, designed to be the “first check” in female founded startups. My first book, “The New Rules of Work” (Crown Business, April 2017), was a Wall Street Journal national bestseller. I&#39;ve spoken at MIT and Harvard, contributed to ",
+            "ubba": "https://static.licdn.com/aero-v1/sc/h/41b802ccd3dg7q90ypctzxybx",
+            "og:url": "https://www.linkedin.com/in/kathryn-minshew",
+            "al:android:app_name": "LinkedIn"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://media.licdn.com/dms/image/v2/D4E03AQGaFIFgjNVygw/profile-displayphoto-shrink_200_200/B4EZdDpvzHHgAY-/0/1749186707004?e=2147483647&v=beta&t=tCElCQdJCCDEb3jZo045JB3Vfc5SnF2Xco9wjuzQ3t4"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Kathryn Minshew | The Muse | The Muse",
+      "htmlTitle": "<b>Kathryn Minshew</b> | <b>The Muse</b> | <b>The Muse</b>",
+      "link": "https://www.themuse.com/author/kathryn-minshew",
+      "displayLink": "www.themuse.com",
+      "snippet": "Kathryn Minshew is the Founder of The Muse and loves helping people find careers they actually enjoy. She has spoken at MIT and Harvard, appeared on The TODAY ...",
+      "htmlSnippet": "<b>Kathryn Minshew</b> is the <b>Founder</b> of <b>The Muse</b> and loves helping people find careers they actually enjoy. She has spoken at MIT and Harvard, appeared on The TODAY&nbsp;...",
+      "formattedUrl": "https://www.themuse.com/author/kathryn-minshew",
+      "htmlFormattedUrl": "https://www.<b>themuse</b>.com/author/kathryn-minshew",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN4l0jixIAnGDE0_9WNUbIDfpsLtddv29YHaNPQYK7oAOHwJDdtzINRAZL&s",
+            "width": "150",
+            "height": "150"
+          }
+        ],
+        "metatags": [
+          {
+            "application-name": "The Muse",
+            "x-mapped-hostname": "themuse.com",
+            "og:image": "https://cms-assets.themuse.com/media/writers/kathryn-minshew.jpg",
+            "creator": "The Muse",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "theme-color": "#9ADBF5",
+            "og:image:alt": "Kathryn Minshew headshot",
+            "twitter:title": "Kathryn Minshew | The Muse",
+            "og:site_name": "The Muse",
+            "x-tenant": "themuse",
+            "og:title": "Kathryn Minshew | The Muse",
+            "og:description": "<p>Kathryn Minshew is the Founder of The Muse and loves helping people find careers they actually enjoy. She has spoken at MIT and Harvard, appeared on The TODAY Show and CNN, and contributes on career and entrepreneurship topics to the Wall Street Journal and Harvard Business Review. Before founding The Muse, Kathryn worked on vaccine introduction in Rwanda and Malawi with the Clinton Health Access Initiative and was previously at the management consultancy McKinsey &amp; Company.</p>",
+            "x-original-host": "https://www.themuse.com",
+            "twitter:image": "https://cms-assets.themuse.com/media/writers/kathryn-minshew.jpg",
+            "x-brand-theme": "themuse",
+            "twitter:site": "@dailymuse",
+            "viewport": "width=device-width, height=device-height, initial-scale=1",
+            "x-theme-name": "themuse",
+            "twitter:description": "<p>Kathryn Minshew is the Founder of The Muse and loves helping people find careers they actually enjoy. She has spoken at MIT and Harvard, appeared on The TODAY Show and CNN, and contributes on career and entrepreneurship topics to the Wall Street Journal and Harvard Business Review. Before founding The Muse, Kathryn worked on vaccine introduction in Rwanda and Malawi with the Clinton Health Access Initiative and was previously at the management consultancy McKinsey &amp; Company.</p>",
+            "og:locale": "en_US",
+            "x-environment": "production",
+            "og:url": "https://themuse.com"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cms-assets.themuse.com/media/writers/kathryn-minshew.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Kathryn Minshew - Wikipedia",
+      "htmlTitle": "<b>Kathryn Minshew</b> - Wikipedia",
+      "link": "https://en.wikipedia.org/wiki/Kathryn_Minshew",
+      "displayLink": "en.wikipedia.org",
+      "snippet": "Kathryn Minshew is an American entrepreneur, the CEO and co-founder of The Muse, a career-development platform. Kathryn Minshew. Minshew in 2014.",
+      "htmlSnippet": "<b>Kathryn Minshew</b> is an American entrepreneur, the CEO and co-<b>founder</b> of <b>The Muse</b>, a career-development platform. <b>Kathryn Minshew</b>. <b>Minshew</b> in 2014.",
+      "formattedUrl": "https://en.wikipedia.org/wiki/Kathryn_Minshew",
+      "htmlFormattedUrl": "https://en.wikipedia.org/wiki/Kathryn_Minshew",
+      "pagemap": {
+        "hcard": [
+          {
+            "url_text": "themuse.com",
+            "role": "Entrepreneur author writer public speaker",
+            "fn": "Kathryn Minshew",
+            "url": "themuse.com"
+          }
+        ],
+        "person": [
+          {
+            "role": "Entrepreneur author writer public speaker"
+          }
+        ],
+        "metatags": [
+          {
+            "referrer": "origin",
+            "og:image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Kathryn_Minshew.jpg/1200px-Kathryn_Minshew.jpg",
+            "theme-color": "#eaecf0",
+            "og:image:width": "1200",
+            "og:type": "website",
+            "viewport": "width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0",
+            "og:title": "Kathryn Minshew - Wikipedia",
+            "og:image:height": "800",
+            "format-detection": "telephone=no"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Kathryn Minshew - Official Website",
+      "htmlTitle": "<b>Kathryn Minshew</b> - Official Website",
+      "link": "https://www.kminshew.com/",
+      "displayLink": "www.kminshew.com",
+      "snippet": "Kathryn co-founded The Muse in 2011 and pioneered the concept of values-based job search. She led the business as CEO from 2011-2023, and under her leadership ...",
+      "htmlSnippet": "<b>Kathryn</b> co-founded <b>The Muse</b> in 2011 and pioneered the concept of values-based job search. She led the business as CEO from 2011-2023, and under her leadership&nbsp;...",
+      "formattedUrl": "https://www.kminshew.com/",
+      "htmlFormattedUrl": "https://www.kminshew.com/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBTyICJuTq-Gftso42ABkJLwn4G37h8rYU3U41KSiKXgBqcL1AZfSaZ6o&s",
+            "width": "201",
+            "height": "251"
+          }
+        ],
+        "metatags": [
+          {
+            "og:type": "website",
+            "twitter:title": "Kathryn Minshew - Official Website",
+            "twitter:card": "summary",
+            "og:site_name": "Kathryn Minshew",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:url": "https://www.kminshew.com",
+            "twitter:description": "Official Website for celebrated entrepreneur, investor, speaker, and author Kathryn Minshew. Author of \"The New Rules of Work\" and Co-Founder of The Muse - one of Fast Company's 50 Most Innovative Companies in the World. Work and Live Inspired.",
+            "og:title": "Kathryn Minshew - Official Website",
+            "og:url": "https://www.kminshew.com",
+            "og:description": "Official Website for celebrated entrepreneur, investor, speaker, and author Kathryn Minshew. Author of \"The New Rules of Work\" and Co-Founder of The Muse - one of Fast Company's 50 Most Innovative Companies in the World. Work and Live Inspired."
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://images.squarespace-cdn.com/content/v1/64e8b66094bc54775d2c5077/887adeea-6f88-4c13-a75e-59ae605e663d/XFactor+Women+in+AI+-+logo+headshot.jpg?format=1000w"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Kathryn Minshew (@kmin) / X",
+      "htmlTitle": "<b>Kathryn Minshew</b> (@kmin) / X",
+      "link": "https://x.com/kmin?lang=en",
+      "displayLink": "x.com",
+      "snippet": "... for fundraising Comment “interested” and check out my v1 plans here: intro.co. Intro - Book with Kathryn Minshew. Founder & Former CEO, The Muse. 1. 4.",
+      "htmlSnippet": "... for fundraising Comment “interested” and check out my v1 plans here: intro.co. Intro - Book with <b>Kathryn Minshew</b>. <b>Founder</b> &amp; Former CEO, <b>The Muse</b>. 1. 4.",
+      "formattedUrl": "https://x.com/kmin?lang=en",
+      "htmlFormattedUrl": "https://x.com/kmin?lang=en",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfHUCkH03pAJSc4Co2Gk-N9Mzh1hKW8mXfFHcM6VVvn0pMaEisI-GBmj4&s",
+            "width": "200",
+            "height": "200"
+          }
+        ],
+        "imageobject": [
+          {
+            "contenturl": "https://pbs.twimg.com/media/GijBqCkXQAA489T.jpg",
+            "width": "1315",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/GijBqCkXQAA489T?format=jpg&name=thumb"
+          },
+          {
+            "contenturl": "https://pbs.twimg.com/media/GWu5XqHXYAA7YJ5.jpg",
+            "width": "1672",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/GWu5XqHXYAA7YJ5?format=jpg&name=thumb"
+          },
+          {
+            "contenturl": "https://pbs.twimg.com/media/GT7vlxZbwAAF70H.jpg",
+            "width": "1080",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/GT7vlxZbwAAF70H?format=jpg&name=thumb"
+          },
+          {
+            "contenturl": "https://pbs.twimg.com/media/GQUauwVXcAAUAJP.jpg",
+            "width": "1512",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/GQUauwVXcAAUAJP?format=jpg&name=thumb"
+          },
+          {
+            "contenturl": "https://pbs.twimg.com/media/GPF7272XAAE6sHy.jpg",
+            "width": "700",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/GPF7272XAAE6sHy?format=jpg&name=thumb"
+          },
+          {
+            "contenturl": "https://pbs.twimg.com/media/GOS4PI7WcAAdLcM.jpg",
+            "width": "1251",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/GOS4PI7WcAAdLcM?format=jpg&name=thumb"
+          },
+          {
+            "contenturl": "https://pbs.twimg.com/media/GOS4PI7WcAAdLcM.jpg",
+            "width": "1251",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/GOS4PI7WcAAdLcM?format=jpg&name=thumb"
+          }
+        ],
+        "person": [
+          {
+            "identifier": "212702867",
+            "givenname": "Kathryn Minshew",
+            "additionalname": "kmin"
+          },
+          {
+            "identifier": "212702867",
+            "givenname": "Kathryn Minshew",
+            "additionalname": "kmin"
+          },
+          {
+            "identifier": "212702867",
+            "givenname": "Kathryn Minshew",
+            "additionalname": "kmin"
+          },
+          {
+            "identifier": "212702867",
+            "givenname": "Kathryn Minshew",
+            "additionalname": "kmin"
+          },
+          {
+            "identifier": "1151859018526314496",
+            "givenname": "Dylan O'Sullivan",
+            "disambiguatingdescription": "Infinite Books",
+            "additionalname": "DylanoA4"
+          },
+          {
+            "identifier": "212702867",
+            "givenname": "Kathryn Minshew",
+            "additionalname": "kmin"
+          },
+          {
+            "identifier": "212702867",
+            "givenname": "Kathryn Minshew",
+            "additionalname": "kmin"
+          },
+          {
+            "identifier": "212702867",
+            "givenname": "Kathryn Minshew",
+            "additionalname": "kmin"
+          },
+          {
+            "identifier": "212702867",
+            "givenname": "Kathryn Minshew",
+            "additionalname": "kmin"
+          },
+          {
+            "identifier": "212702867",
+            "givenname": "Kathryn Minshew",
+            "additionalname": "kmin"
+          },
+          {
+            "identifier": "212702867",
+            "givenname": "Kathryn Minshew",
+            "additionalname": "kmin"
+          },
+          {
+            "identifier": "212702867",
+            "givenname": "Kathryn Minshew",
+            "additionalname": "kmin"
+          },
+          {
+            "identifier": "212702867",
+            "givenname": "Kathryn Minshew",
+            "additionalname": "kmin"
+          },
+          {
+            "identifier": "212702867",
+            "givenname": "Kathryn Minshew",
+            "additionalname": "kmin"
+          },
+          {
+            "identifier": "212702867",
+            "givenname": "Kathryn Minshew",
+            "additionalname": "kmin"
+          },
+          {
+            "identifier": "212702867",
+            "givenname": "Kathryn Minshew",
+            "additionalname": "kmin"
+          },
+          {
+            "identifier": "212702867",
+            "givenname": "Kathryn Minshew",
+            "additionalname": "kmin"
+          },
+          {
+            "identifier": "212702867",
+            "givenname": "Kathryn Minshew",
+            "additionalname": "kmin"
+          },
+          {
+            "identifier": "212702867",
+            "givenname": "Kathryn Minshew",
+            "additionalname": "kmin"
+          },
+          {
+            "identifier": "212702867",
+            "givenname": "Kathryn Minshew",
+            "additionalname": "kmin"
+          },
+          {
+            "identifier": "212702867",
+            "givenname": "Kathryn Minshew",
+            "additionalname": "kmin"
+          }
+        ],
+        "interactioncounter": [
+          {
+            "userinteractioncount": "20",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/kmin/status/1700161163017724153/likes"
+          },
+          {
+            "userinteractioncount": "3",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/kmin/status/1700161163017724153/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/kmin/status/1700161163017724153/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/kmin/status/1700161163017724153"
+          },
+          {
+            "userinteractioncount": "5994",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "5",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/kmin/status/1937191671147479053/likes"
+          },
+          {
+            "userinteractioncount": "2",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/kmin/status/1937191671147479053/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/kmin/status/1937191671147479053/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "2",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/kmin/status/1937191671147479053"
+          },
+          {
+            "userinteractioncount": "1072",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "9",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/kmin/status/1929705371394101710/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/kmin/status/1929705371394101710/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/kmin/status/1929705371394101710/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "4",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/kmin/status/1929705371394101710"
+          },
+          {
+            "userinteractioncount": "1067",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "12095",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/DylanoA4/status/1884969907236024710/likes"
+          },
+          {
+            "userinteractioncount": "1761",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/DylanoA4/status/1884969907236024710/retweets"
+          },
+          {
+            "userinteractioncount": "75",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/DylanoA4/status/1884969907236024710/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "51",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/DylanoA4/status/1884969907236024710"
+          },
+          {
+            "userinteractioncount": "528736",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "3",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/kmin/status/1864709385701687499/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/kmin/status/1864709385701687499/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/kmin/status/1864709385701687499/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/kmin/status/1864709385701687499"
+          },
+          {
+            "userinteractioncount": "500",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "4",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/kmin/status/1841209490256929169/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/kmin/status/1841209490256929169/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/kmin/status/1841209490256929169/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/kmin/status/1841209490256929169"
+          },
+          {
+            "userinteractioncount": "659",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "16",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/kmin/status/1831759075560096097/likes"
+          },
+          {
+            "userinteractioncount": "2",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/kmin/status/1831759075560096097/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/kmin/status/1831759075560096097/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "4",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/kmin/status/1831759075560096097"
+          },
+          {
+            "userinteractioncount": "2210",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "4",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/kmin/status/1831759078667984917/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/kmin/status/1831759078667984917/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/kmin/status/1831759078667984917/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/kmin/status/1831759078667984917"
+          },
+          {
+            "userinteractioncount": "578",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "2",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/kmin/status/1831761573410476490/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/kmin/status/1831761573410476490/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/kmin/status/1831761573410476490/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/kmin/status/1831761573410476490"
+          },
+          {
+            "userinteractioncount": "505",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "31",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/kmin/status/1829247502828105915/likes"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/kmin/status/1829247502828105915/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/kmin/status/1829247502828105915/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/kmin/status/1829247502828105915"
+          },
+          {
+            "userinteractioncount": "3009",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/kmin/status/1803084476479574056/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/kmin/status/1803084476479574056/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/kmin/status/1803084476479574056/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/kmin/status/1803084476479574056"
+          },
+          {
+            "userinteractioncount": "1150",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "7",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/kmin/status/1801746244068388951/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/kmin/status/1801746244068388951/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/kmin/status/1801746244068388951/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/kmin/status/1801746244068388951"
+          },
+          {
+            "userinteractioncount": "1383",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "11",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/kmin/status/1798715055275733240/likes"
+          },
+          {
+            "userinteractioncount": "2",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/kmin/status/1798715055275733240/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/kmin/status/1798715055275733240/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/kmin/status/1798715055275733240"
+          },
+          {
+            "userinteractioncount": "1135",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "3",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/kmin/status/1797877393610477902/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/kmin/status/1797877393610477902/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/kmin/status/1797877393610477902/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/kmin/status/1797877393610477902"
+          },
+          {
+            "userinteractioncount": "966",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "5",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/kmin/status/1797380814600081744/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/kmin/status/1797380814600081744/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/kmin/status/1797380814600081744/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/kmin/status/1797380814600081744"
+          },
+          {
+            "userinteractioncount": "1336",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "3",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/kmin/status/1797380546147832049/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/kmin/status/1797380546147832049/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/kmin/status/1797380546147832049/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/kmin/status/1797380546147832049"
+          },
+          {
+            "userinteractioncount": "609",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "5",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/kmin/status/1796275497657122892/likes"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/kmin/status/1796275497657122892/retweets"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/kmin/status/1796275497657122892/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/kmin/status/1796275497657122892"
+          },
+          {
+            "userinteractioncount": "2115",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/kmin/status/1794086001821770137/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/kmin/status/1794086001821770137/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/kmin/status/1794086001821770137/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/kmin/status/1794086001821770137"
+          },
+          {
+            "userinteractioncount": "715",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "4",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/kmin/status/1793766240609280144/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/kmin/status/1793766240609280144/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/kmin/status/1793766240609280144/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/kmin/status/1793766240609280144"
+          },
+          {
+            "userinteractioncount": "889",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "6",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/kmin/status/1790472420723183649/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/kmin/status/1790472420723183649/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/kmin/status/1790472420723183649/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/kmin/status/1790472420723183649"
+          },
+          {
+            "userinteractioncount": "1030",
+            "interactiontype": "https://schema.org/ViewAction"
+          }
+        ],
+        "metatags": [
+          {
+            "apple-itunes-app": "app-id=333903271",
+            "og:image": "https://pbs.twimg.com/profile_images/1628454039653347329/9OjI5aCn_200x200.jpg",
+            "theme-color": "#FFFFFF",
+            "og:type": "profile",
+            "og:site_name": "X (formerly Twitter)",
+            "al:ios:app_name": "X",
+            "apple-mobile-web-app-title": "Twitter",
+            "og:title": "Kathryn Minshew (@kmin) on X",
+            "al:android:package": "com.twitter.android",
+            "al:ios:url": "twitter://user?screen_name=kmin",
+            "title": "Kathryn Minshew (@kmin) on X",
+            "og:description": "Entrepreneur, investor & dangerous instigator. Travel & snack addict. Founder @TheMuse, Author @TheNewRules, Broadway Co-Producer?? I get things done.",
+            "al:ios:app_store_id": "333903271",
+            "facebook-domain-verification": "x6sdcc8b5ju3bh8nbm59eswogvg6t1",
+            "al:android:url": "twitter://user?screen_name=kmin",
+            "fb:app_id": "2231777543",
+            "apple-mobile-web-app-status-bar-style": "white",
+            "viewport": "width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover",
+            "mobile-web-app-capable": "yes",
+            "og:url": "https://x.com/kmin",
+            "al:android:app_name": "X"
+          }
+        ],
+        "videoobject": [
+          {
+            "duration": "PT0H0M27S",
+            "embedurl": "https://platform.twitter.com/embed/Tweet.html?dnt=false&embedId=twitter-widget-1&frame=false&hideCard=false&hideThread=false&lang=en&id=1697764634055360821",
+            "contenturl": "https://video.twimg.com/amplify_video/1697764571459588096/vid/1920x1080/t-t9cw5NsR9UXgfr.mp4?tag=16",
+            "uploaddate": "2023-09-02T00:13:26.000Z",
+            "name": "@LastCallCNBC's video Tweet",
+            "description": "Embedded video",
+            "caption": "Embedded video",
+            "thumbnailurl": "https://pbs.twimg.com/media/F4-r72NXEAEhpvS.jpg"
+          },
+          {
+            "duration": "PT0H0M17S",
+            "embedurl": "https://platform.twitter.com/embed/Tweet.html?dnt=false&embedId=twitter-widget-1&frame=false&hideCard=false&hideThread=false&lang=en&id=1789295854924317163",
+            "contenturl": "https://video.twimg.com/ext_tw_video/1789295776692060160/pu/vid/avc1/720x720/tNHYaJETzxV2FpZD.mp4?tag=12",
+            "uploaddate": "2024-05-11T14:05:49.000Z",
+            "name": "@TheTonyAwards's video Tweet",
+            "description": "Embedded video",
+            "caption": "Embedded video",
+            "thumbnailurl": "https://pbs.twimg.com/ext_tw_video_thumb/1789295776692060160/pu/img/PnDBW3iTHgdL_ve1.jpg"
+          }
+        ],
+        "collection": [
+          {
+            "name": "Profile posts"
+          }
+        ],
+        "creativework": [
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/zhflL6Clrr"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/qbrw78rDXH"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/yImKklLoB2"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/60qQQbpbgw"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/l2R3otLCGV"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/FClvPh8cfG"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/ELWRnA8eOs"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/BcxpjJQnho"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://pbs.twimg.com/profile_images/1628454039653347329/9OjI5aCn_200x200.jpg"
+          }
+        ],
+        "socialmediaposting": [
+          {
+            "identifier": "1700161163017724153",
+            "commentcount": "0",
+            "articlebody": "Fun clip from my @CNBC @LastCallCNBC appearance last week! And I got to rep some of @TheMuse @fairygodboss data on #remote / #hybrid work - not in this clip tho",
+            "position": "1",
+            "datecreated": "2023-09-08T14:56:23.000Z",
+            "isbasedon": "https://twitter.com/LastCallCNBC/status/1697764634055360821",
+            "datepublished": "2023-09-08T14:56:23.000Z",
+            "url": "https://twitter.com/kmin/status/1700161163017724153"
+          },
+          {
+            "identifier": "1937191671147479053",
+            "commentcount": "2",
+            "articlebody": "Love love love this piece (and investing alongside @AndreaCoravos 🔥) - read on below to learn more about investing in the arts!",
+            "position": "2",
+            "datecreated": "2025-06-23T16:51:00.000Z",
+            "isbasedon": "https://twitter.com/AndreaCoravos/status/1934638325689970836",
+            "datepublished": "2025-06-23T16:51:00.000Z",
+            "url": "https://twitter.com/kmin/status/1937191671147479053"
+          },
+          {
+            "identifier": "1929705371394101710",
+            "commentcount": "4",
+            "articlebody": "Wild how few people that I know are still active here... anyone? anyone? beuller?",
+            "position": "3",
+            "datecreated": "2025-06-03T01:03:07.000Z",
+            "datepublished": "2025-06-03T01:03:07.000Z",
+            "url": "https://twitter.com/kmin/status/1929705371394101710"
+          },
+          {
+            "identifier": "1887359448152158501",
+            "position": "4",
+            "datecreated": "2025-02-06T04:35:32.000Z",
+            "datepublished": "2025-02-06T04:35:32.000Z"
+          },
+          {
+            "identifier": "1884969907236024710",
+            "commentcount": "51",
+            "articlebody": "Nietzsche can hype you up",
+            "datecreated": "2025-01-30T14:20:21.000Z",
+            "datepublished": "2025-01-30T14:20:21.000Z",
+            "url": "https://twitter.com/DylanoA4/status/1884969907236024710"
+          },
+          {
+            "identifier": "1864709385701687499",
+            "commentcount": "0",
+            "articlebody": "Join me - webinar with @SurePeople on \"Human Touch in a Digital World: Crafting a Culture that Stands out in the Age of AI\" -- happening now!",
+            "position": "5",
+            "datecreated": "2024-12-05T16:32:16.000Z",
+            "datepublished": "2024-12-05T16:32:16.000Z",
+            "url": "https://twitter.com/kmin/status/1864709385701687499"
+          },
+          {
+            "identifier": "1841209490256929169",
+            "commentcount": "0",
+            "articlebody": "Been a hot minute but I'm popping in to share this fun interview I did with @davepolitis for his \"Not Another CEO podcast\" -- we got pretty real! Spotify: https://open.spotify.com/show/1NQ9oAB2XKlg...",
+            "position": "6",
+            "datecreated": "2024-10-01T20:12:05.000Z",
+            "datepublished": "2024-10-01T20:12:05.000Z",
+            "url": "https://twitter.com/kmin/status/1841209490256929169"
+          },
+          {
+            "identifier": "1831759075560096097",
+            "commentcount": "4",
+            "articlebody": "Fun news - this fall I'm starting to advise startups directly through @useintro. Why am I doing this? It allows startups to work with me for as long (or short) as they need, and it removes...",
+            "position": "7",
+            "datecreated": "2024-09-05T18:19:30.000Z",
+            "datepublished": "2024-09-05T18:19:30.000Z",
+            "url": "https://twitter.com/kmin/status/1831759075560096097"
+          },
+          {
+            "identifier": "1831759078667984917",
+            "commentcount": "1",
+            "articlebody": "- How to use content strategies to drive growth - My go-to plan and help for fundraising Comment “interested” and check out my v1 plans here:",
+            "ispartof": "https://twitter.com/kmin/status/1831759077074202835",
+            "position": "8",
+            "datecreated": "2024-09-05T18:19:31.000Z",
+            "datepublished": "2024-09-05T18:19:31.000Z",
+            "url": "https://twitter.com/kmin/status/1831759078667984917"
+          },
+          {
+            "identifier": "1831761573410476490",
+            "commentcount": "0",
+            "articlebody": "And it's live! 🤩 Thanks Intro!",
+            "ispartof": "https://twitter.com/kmin/status/1831759078667984917",
+            "position": "9",
+            "datecreated": "2024-09-05T18:29:26.000Z",
+            "datepublished": "2024-09-05T18:29:26.000Z",
+            "url": "https://twitter.com/kmin/status/1831761573410476490"
+          },
+          {
+            "identifier": "1829247502828105915",
+            "commentcount": "1",
+            "articlebody": "Thrilled to be on @useintro ! I’ve absolutely loved meeting new people and trying to share some of my (very hard won 😅) learnings and lessons. Check me out at http://intro.co/KathrynMinshew",
+            "position": "10",
+            "datecreated": "2024-08-29T19:59:25.000Z",
+            "isbasedon": "https://twitter.com/useintro/status/1829202358926225574",
+            "datepublished": "2024-08-29T19:59:25.000Z",
+            "url": "https://twitter.com/kmin/status/1829247502828105915"
+          },
+          {
+            "identifier": "1803084476479574056",
+            "commentcount": "0",
+            "articlebody": "🙌❤️",
+            "position": "11",
+            "datecreated": "2024-06-18T15:16:53.000Z",
+            "isbasedon": "https://twitter.com/ScottCoulterA/status/1802876621172425147",
+            "datepublished": "2024-06-18T15:16:53.000Z",
+            "url": "https://twitter.com/kmin/status/1803084476479574056"
+          },
+          {
+            "identifier": "1801746244068388951",
+            "commentcount": "1",
+            "articlebody": "Great idea - sharing below for anyone in my network looking for a co-founder They're starting with second+ time founders, but hopefully will expand over time.",
+            "position": "12",
+            "datecreated": "2024-06-14T22:39:14.000Z",
+            "isbasedon": "https://twitter.com/BorisBerenberg/status/1801295896568619062",
+            "datepublished": "2024-06-14T22:39:14.000Z",
+            "url": "https://twitter.com/kmin/status/1801746244068388951"
+          },
+          {
+            "identifier": "1798715055275733240",
+            "commentcount": "1",
+            "articlebody": "Congratulations @JonathanJarvis @getcartwheel!! This is amazing --> Cartwheel generates 3D animations from scratch to power up creators https://techcrunch.com/2024/06/05/cartwheel-generates-3d-anim...",
+            "position": "13",
+            "datecreated": "2024-06-06T13:54:22.000Z",
+            "datepublished": "2024-06-06T13:54:22.000Z",
+            "url": "https://twitter.com/kmin/status/1798715055275733240"
+          },
+          {
+            "identifier": "1797877393610477902",
+            "commentcount": "0",
+            "articlebody": "It Crunchy! (Not literally but he would so rock this!) HT @acav for most of my best content here 😂",
+            "position": "14",
+            "datecreated": "2024-06-04T06:25:48.000Z",
+            "isbasedon": "https://twitter.com/PostsOfCats/status/1797353912439070832",
+            "datepublished": "2024-06-04T06:25:48.000Z",
+            "url": "https://twitter.com/kmin/status/1797877393610477902"
+          },
+          {
+            "identifier": "1797380814600081744",
+            "commentcount": "0",
+            "articlebody": "Wildly excited for this - the brilliant @nayeema drops a new pod! Mixed Signals, a look inside modern media \"from people inside the machine\" 😜 Check it out, trust me -->",
+            "position": "15",
+            "datecreated": "2024-06-02T21:32:34.000Z",
+            "isbasedon": "https://twitter.com/nayeema/status/1793761132316074264",
+            "datepublished": "2024-06-02T21:32:34.000Z",
+            "url": "https://twitter.com/kmin/status/1797380814600081744"
+          },
+          {
+            "identifier": "1797380546147832049",
+            "commentcount": "0",
+            "articlebody": "Thanks to Kristina Libby & @thewiesuite for interviewing me for this fun article on \"Advice for Non-Conformists from Non-Conformists\" -- read it here!",
+            "position": "16",
+            "datecreated": "2024-06-02T21:31:30.000Z",
+            "datepublished": "2024-06-02T21:31:30.000Z",
+            "url": "https://twitter.com/kmin/status/1797380546147832049"
+          },
+          {
+            "identifier": "1796275497657122892",
+            "commentcount": "0",
+            "articlebody": "Congratulations @chazard @flybridge - love this! Friends - see below for a new public market index that tracks AI companies... 👀",
+            "position": "17",
+            "datecreated": "2024-05-30T20:20:26.000Z",
+            "isbasedon": "https://twitter.com/chazard/status/1793265301741527381",
+            "datepublished": "2024-05-30T20:20:26.000Z",
+            "url": "https://twitter.com/kmin/status/1796275497657122892"
+          },
+          {
+            "identifier": "1794086001821770137",
+            "commentcount": "0",
+            "articlebody": "🙌",
+            "position": "18",
+            "datecreated": "2024-05-24T19:20:09.000Z",
+            "isbasedon": "https://twitter.com/KTmBoyle/status/1794017182973558843",
+            "datepublished": "2024-05-24T19:20:09.000Z",
+            "url": "https://twitter.com/kmin/status/1794086001821770137"
+          },
+          {
+            "identifier": "1793766240609280144",
+            "commentcount": "0",
+            "articlebody": "SO excited for @nayeema & @semaforben on Mixed Signals - this is the podcast we need!!",
+            "position": "19",
+            "datecreated": "2024-05-23T22:09:32.000Z",
+            "isbasedon": "https://twitter.com/nayeema/status/1793761132316074264",
+            "datepublished": "2024-05-23T22:09:32.000Z",
+            "url": "https://twitter.com/kmin/status/1793766240609280144"
+          },
+          {
+            "identifier": "1790472420723183649",
+            "commentcount": "1",
+            "articlebody": "Oh hey @SuffsMusical @W4Emusical 😍",
+            "position": "20",
+            "datecreated": "2024-05-14T20:01:05.000Z",
+            "isbasedon": "https://twitter.com/TheTonyAwards/status/1789295854924317163",
+            "datepublished": "2024-05-14T20:01:05.000Z",
+            "url": "https://twitter.com/kmin/status/1790472420723183649"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Meet Kathryn Minshew: The Career Matchmaker & CEO of The Muse",
+      "htmlTitle": "Meet <b>Kathryn Minshew</b>: The Career Matchmaker &amp; CEO of <b>The Muse</b>",
+      "link": "https://mdash.mmlafleur.com/career-matchmaker-kathryn-minshew-muse/",
+      "displayLink": "mdash.mmlafleur.com",
+      "snippet": "Jul 9, 2016 ... After struggling with her own career path, career matchmaker Kathryn Minshew co-founded The Muse to help match users to open positions at ...",
+      "htmlSnippet": "Jul 9, 2016 <b>...</b> After struggling with her own career path, career matchmaker <b>Kathryn Minshew</b> co-founded <b>The Muse</b> to help match users to open positions at&nbsp;...",
+      "formattedUrl": "https://mdash.mmlafleur.com/career-matchmaker-kathryn-minshew-muse/",
+      "htmlFormattedUrl": "https://mdash.mmlafleur.com/career-matchmaker-kathryn-minshew-muse/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjxShyEz0DnkLSjxPAG5382BYtgUaijNhn4MAvV9UzoTkisigCwC6WASQ&s",
+            "width": "355",
+            "height": "142"
+          }
+        ],
+        "metatags": [
+          {
+            "p:domain_verify": "7d47cbb36d8a429292d3f2476ff5db35",
+            "msapplication-tilecolor": "#FFFFFF",
+            "og:image": "https://mdash.mmlafleur.com/wp-content/uploads/2016/07/07.08.16_3-1.jpg",
+            "og:type": "article",
+            "article:published_time": "2016-07-09T17:04:38+00:00",
+            "og:image:width": "2500",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "mDash",
+            "og:title": "Meet Kathryn Minshew: The Career Matchmaker & CEO of The Muse",
+            "og:image:height": "1000",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "msapplication-tileimage": "https://mdash.mmlafleur.com/wp-content/themes/mmlafleur/favicon-144.png",
+            "og:description": "After struggling with her own career path, career matchmaker Kathryn Minshew co-founded The Muse to help match users to open positions at great companies.",
+            "twitter:data1": "Charlotte Cowles",
+            "twitter:data2": "6 minutes",
+            "article:modified_time": "2018-02-24T16:58:54+00:00",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "og:locale": "en_US",
+            "og:url": "https://mdash.mmlafleur.com/career-matchmaker-kathryn-minshew-muse/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://mdash.mmlafleur.com/wp-content/uploads/2016/07/07.08.16_3-1.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Kathryn Minshew - Co-Founder & CEO of The Muse - The Kara ...",
+      "htmlTitle": "<b>Kathryn Minshew</b> - Co-<b>Founder</b> &amp; CEO of <b>The Muse</b> - The Kara ...",
+      "link": "https://karagoldin.com/podcasts/kathryn-minshew/",
+      "displayLink": "karagoldin.com",
+      "snippet": "Kathryn Minshew, Co-Founder and CEO of The Muse, shares her lessons in building her company that has helped more than 75 million people find incredible jobs.",
+      "htmlSnippet": "<b>Kathryn Minshew</b>, Co-<b>Founder</b> and CEO of <b>The Muse</b>, shares her lessons in building her company that has helped more than 75 million people find incredible jobs.",
+      "formattedUrl": "https://karagoldin.com/podcasts/kathryn-minshew/",
+      "htmlFormattedUrl": "https://karagoldin.com/podcasts/kathryn-minshew/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4ZgKVqKARz-fI_84UsaZePcUy4Dlenf2X_Mpj3SO7AVmWOlgIn_1KH0vO&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://karagoldin.com/wp-content/uploads/2022/02/KathrynMinshewWebsite.png",
+            "og:type": "article",
+            "og:image:width": "2500",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Kara Goldin",
+            "og:title": "Kathryn Minshew - Co-Founder & CEO of The Muse",
+            "og:image:height": "2500",
+            "twitter:label1": "Est. reading time",
+            "og:image:type": "image/png",
+            "msapplication-tileimage": "https://karagoldin.com/wp-content/uploads/2019/12/kg_favicon.png",
+            "og:description": "Listen as Kathryn Minshew, Co-Founder and CEO of The Muse, shares her lessons in building her company that has helped more than 75 million people find incredible jobs, companies and careers! This episode is packed with tons of lessons and loads of wisdom on #TheKaraGoldinShow",
+            "twitter:data1": "1 minute",
+            "article:modified_time": "2024-09-25T20:28:08+00:00",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:locale": "en_US",
+            "og:url": "https://karagoldin.com/podcasts/kathryn-minshew/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://karagoldin.com/wp-content/uploads/2022/02/KathrynMinshewWebsite.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Medical humanities and the arts, Stanford's Medicine and the Muse ...",
+      "htmlTitle": "Medical humanities and the arts, Stanford&#39;s Medicine and <b>the Muse</b> ...",
+      "link": "https://stanmed.stanford.edu/medical-humanities-and-the-arts-stanfords-medicine-and-the-muse-founder-audrey-shafer/",
+      "displayLink": "stanmed.stanford.edu",
+      "snippet": "Feb 21, 2017 ... Audrey Shafer, MD, is a Stanford professor of anesthesiology, perioperative and pain medicine, the director of the Medicine and the Muse program ...",
+      "htmlSnippet": "Feb 21, 2017 <b>...</b> Audrey Shafer, MD, is a Stanford professor of anesthesiology, perioperative and pain medicine, the director of the Medicine and <b>the Muse</b> program&nbsp;...",
+      "formattedUrl": "https://stanmed.stanford.edu/medical-humanities-and-the-arts-stanfords-me...",
+      "htmlFormattedUrl": "https://stanmed.stanford.edu/medical-humanities-and-the-arts-stanfords-me...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgx2vVhv5By4G03kbUA-hlQaHaatKLt5xFquc98fccZPM8b5fM5QqdX6E&s",
+            "width": "293",
+            "height": "172"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://stanmed.stanford.edu/wp-content/uploads/2017/03/healing_arts_landscape.jpg",
+            "og:type": "article",
+            "article:published_time": "2017-02-21T07:00:00+00:00",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Medical humanities and the arts, Stanford's Medicine and the Muse founder Audrey Shafer",
+            "og:site_name": "Stanford Medicine Magazine",
+            "author": "Audrey Shafer, MD",
+            "og:title": "Medical humanities and the arts, Stanford's Medicine and the Muse founder Audrey Shafer",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "msapplication-tileimage": "https://stanmed.stanford.edu/wp-content/uploads/2022/08/cropped-stanmed-logo-270x270.png",
+            "og:description": "The synergy of medicine and the humanities",
+            "twitter:image": "https://stanmed.stanford.edu/wp-content/uploads/2017/03/healing_arts_landscape.jpg",
+            "twitter:data1": "Audrey Shafer, MD",
+            "twitter:data2": "6 minutes",
+            "article:modified_time": "2024-01-05T21:51:19+00:00",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "The synergy of medicine and the humanities",
+            "og:locale": "en_US",
+            "publishdate": "2017-02-21T00:00:00-07:00",
+            "og:url": "https://stanmed.stanford.edu/medical-humanities-and-the-arts-stanfords-medicine-and-the-muse-founder-audrey-shafer/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://stanmed.stanford.edu/wp-content/uploads/2017/03/healing_arts_landscape.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Founder & President of The Muse, Alexandra Cavoulacos, talks ...",
+      "htmlTitle": "<b>Founder</b> &amp; President of <b>The Muse</b>, Alexandra Cavoulacos, talks ...",
+      "link": "https://medium.com/@Pocket/founder-president-of-the-muse-alexandra-cavoulacos-talks-starting-a-company-career-advice-and-914b92d926a7",
+      "displayLink": "medium.com",
+      "snippet": "Aug 28, 2018 ... So, along with now CEO of The Muse, Kathryn Minshew, she set out to create a go-to resource for job seekers and professionals to craft ...",
+      "htmlSnippet": "Aug 28, 2018 <b>...</b> So, along with now CEO of <b>The Muse</b>, <b>Kathryn</b> Minshew, she set out to create a go-to resource for job seekers and professionals to craft&nbsp;...",
+      "formattedUrl": "https://medium.com/.../founder-president-of-the-muse-alexandra-cavoulaco...",
+      "htmlFormattedUrl": "https://medium.com/.../founder-president-of-<b>the-muse</b>-alexandra-cavoulaco...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMKweGFlooUkr3rD4l8ovGjfsn0ctH4BgirMfNRCX05v9IYvpCs8-Wzm9T&s",
+            "width": "213",
+            "height": "237"
+          }
+        ],
+        "metatags": [
+          {
+            "apple-itunes-app": "app-id=828256236, app-argument=/@Pocket/founder-president-of-the-muse-alexandra-cavoulacos-talks-starting-a-company-career-advice-and-914b92d926a7, affiliate-data=pt=698524&ct=smart_app_banner&mt=8",
+            "og:image": "https://miro.medium.com/v2/resize:fit:494/1*2SoJvp87aFyHvo4Ekv7ypg.png",
+            "twitter:app:url:iphone": "medium://p/914b92d926a7",
+            "theme-color": "#000000",
+            "article:published_time": "2018-08-28T11:01:01.605Z",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Medium",
+            "al:android:package": "com.medium.reader",
+            "twitter:label1": "Reading time",
+            "twitter:app:id:iphone": "828256236",
+            "title": "Founder & President of The Muse, Alexandra Cavoulacos, talks starting a company, career advice, and bringing your whole self to work. | by Pocket | Medium",
+            "al:ios:url": "medium://p/914b92d926a7",
+            "og:description": "A series of interesting conversations with interesting people by Pocket.",
+            "twitter:creator": "@Pocket",
+            "al:ios:app_store_id": "828256236",
+            "twitter:data1": "6 min read",
+            "twitter:site": "@Medium",
+            "og:type": "article",
+            "twitter:title": "Founder & President of The Muse, Alexandra Cavoulacos, talks starting a company, career advice, and…",
+            "al:ios:app_name": "Medium",
+            "author": "Pocket",
+            "og:title": "Founder & President of The Muse, Alexandra Cavoulacos, talks starting a company, career advice, and…",
+            "al:web:url": "https://medium.com/@Pocket/founder-president-of-the-muse-alexandra-cavoulacos-talks-starting-a-company-career-advice-and-914b92d926a7",
+            "article:author": "https://medium.com/@Pocket",
+            "twitter:image:src": "https://miro.medium.com/v2/resize:fit:494/1*2SoJvp87aFyHvo4Ekv7ypg.png",
+            "al:android:url": "medium://p/914b92d926a7",
+            "referrer": "unsafe-url",
+            "fb:app_id": "542599432471018",
+            "viewport": "width=device-width,minimum-scale=1,initial-scale=1,maximum-scale=1",
+            "twitter:description": "A series of interesting conversations with interesting people by Pocket.",
+            "og:url": "https://medium.com/@Pocket/founder-president-of-the-muse-alexandra-cavoulacos-talks-starting-a-company-career-advice-and-914b92d926a7",
+            "twitter:app:name:iphone": "Medium",
+            "al:android:app_name": "Medium"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://miro.medium.com/v2/resize:fit:494/1*2SoJvp87aFyHvo4Ekv7ypg.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "The Muse's Kathryn Minshew Has Career Advice For You | Into The ...",
+      "htmlTitle": "<b>The Muse&#39;s Kathryn</b> Minshew Has Career Advice For You | Into The ...",
+      "link": "https://intothegloss.com/2017/03/kathryn-minshew/",
+      "displayLink": "intothegloss.com",
+      "snippet": "Oct 11, 2016 ... The former consultant and now CEO of career site The Muse shares how she changed her frustrating job search into a whole new job—and what ...",
+      "htmlSnippet": "Oct 11, 2016 <b>...</b> The former consultant and now CEO of career site <b>The Muse</b> shares how she changed her frustrating job search into a whole new job—and what&nbsp;...",
+      "formattedUrl": "https://intothegloss.com/2017/03/kathryn-minshew/",
+      "htmlFormattedUrl": "https://intothegloss.com/2017/03/kathryn-minshew/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg2-GIOe3zBWEYHd_nsY0ctPidIX074NUTSTh3odJblCVGWfhSyEtQcyY&s",
+            "width": "275",
+            "height": "183"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://images.ctfassets.net/g8qtv9gzg47d/6DQ3hQk5TaGsWoWweymiWs/008d71c3365db36e70097d4ce012f256/kathryn-minshew-12.jpg",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "The Muse's Kathryn Minshew Has Career Advice For You",
+            "og:site_name": "Into The Gloss",
+            "baggage": "sentry-environment=production,sentry-release=c2604b9527f03b23edd993b77f191eaf18f1be73,sentry-public_key=6ebae0469f71f1590f252a17aa7fb7a3,sentry-trace_id=171bf11fb53fe242dba162f3bebeada0",
+            "sentry-trace": "171bf11fb53fe242dba162f3bebeada0-c7a8d636c1557e94",
+            "og:title": "The Muse's Kathryn Minshew Has Career Advice For You",
+            "og:description": "The former consultant and now CEO of career site The Muse shares how she changed her frustrating job search into a whole new job—and what you can learn from her.",
+            "twitter:image": "https://images.ctfassets.net/g8qtv9gzg47d/6DQ3hQk5TaGsWoWweymiWs/008d71c3365db36e70097d4ce012f256/kathryn-minshew-12.jpg",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "The former consultant and now CEO of career site The Muse shares how she changed her frustrating job search into a whole new job—and what you can learn from her.",
+            "og:locale": "en-US",
+            "og:url": "https://intothegloss.com/2017/03/kathryn-minshew/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://images.ctfassets.net/g8qtv9gzg47d/6DQ3hQk5TaGsWoWweymiWs/008d71c3365db36e70097d4ce012f256/kathryn-minshew-12.jpg"
+          }
+        ]
+      }
+    }
+  ]
+}

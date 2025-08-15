@@ -1,0 +1,478 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - \"Screenleap\" founders",
+        "totalResults": "468",
+        "searchTerms": "\"Screenleap\" founders",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - \"Screenleap\" founders",
+        "totalResults": "468",
+        "searchTerms": "\"Screenleap\" founders",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ]
+  },
+  "context": {
+    "title": "startup-ecosystem-intelligence"
+  },
+  "searchInformation": {
+    "searchTime": 0.121104,
+    "formattedSearchTime": "0.12",
+    "totalResults": "468",
+    "formattedTotalResults": "468"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "Press | Screenleap",
+      "htmlTitle": "Press | <b>Screenleap</b>",
+      "link": "https://www.screenleap.com/news",
+      "displayLink": "www.screenleap.com",
+      "snippet": "Here Are The 10 Startups Taking The Spotlight Today At Founders Den: Screenleap, AnyPerk, And More. The Valley Girl Show - August 15th, 2012 ...",
+      "htmlSnippet": "Here Are The 10 Startups Taking The Spotlight Today At <b>Founders</b> Den: <b>Screenleap</b>, AnyPerk, And More. The Valley Girl Show - August 15th, 2012&nbsp;...",
+      "formattedUrl": "https://www.screenleap.com/news",
+      "htmlFormattedUrl": "https://www.<b>screenleap</b>.com/news",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREsQVX0PJUwVOqjjPPB-Y1rJ_esbbrb3e1zLjS6YHbXxXJUG-eWLm-rQ&s",
+            "width": "100",
+            "height": "100"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://www.screenleap.com/img/facebook_thumbnail.png",
+            "og:site_name": "Screenleap"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.screenleap.com/img/facebook_thumbnail.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "How Screenleap, Inc. hit $297.5K revenue with a 2 person team in...",
+      "htmlTitle": "How <b>Screenleap</b>, Inc. hit $297.5K revenue with a 2 person team in...",
+      "link": "https://getlatka.com/companies/screenleap-inc",
+      "displayLink": "getlatka.com",
+      "snippet": "Screenleap, Inc. CEO Tuyen Truong shares how Screenleap, Inc. grew to $297.5K over the past 13 years. Screenleap, Inc. has raised $392K and hit a $892.6K...",
+      "htmlSnippet": "<b>Screenleap</b>, Inc. CEO Tuyen Truong shares how <b>Screenleap</b>, Inc. grew to $297.5K over the past 13 years. <b>Screenleap</b>, Inc. has raised $392K and hit a $892.6K...",
+      "formattedUrl": "https://getlatka.com/companies/screenleap-inc",
+      "htmlFormattedUrl": "https://getlatka.com/companies/<b>screenleap</b>-inc",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk_D03u5ywLIkTGyj2DLbQfWT9FimQ80_uBMWF_wLhg56EZihX1P-yYg&s",
+            "width": "40",
+            "height": "40"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://storage.getlatka.com/images/latka-logo.svg",
+            "twitter:title": "How Screenleap, Inc. hit $297.5K revenue with a 2 person team in...",
+            "theme-color": "#3395ff",
+            "og:type": "website",
+            "og:site_name": "Latka",
+            "og:title": "How Screenleap, Inc. hit $297.5K revenue with a 2 person team in...",
+            "twitter:img:src": "https://storage.getlatka.com/images/latka-logo.svg",
+            "og:description": "Screenleap, Inc. CEO Tuyen Truong shares how Screenleap, Inc. grew to $297.5K over the past 13 years. Screenleap, Inc. has raised $392K and hit a $892.6K...",
+            "facebook-domain-verification": "xbdwf66q2qingwwm3dlvi47hptl9mx",
+            "next-head-count": "12",
+            "viewport": "width=device-width",
+            "twitter:description": "Screenleap, Inc. CEO Tuyen Truong shares how Screenleap, Inc. grew to $297.5K over the past 13 years. Screenleap, Inc. has raised $392K and hit a $892.6K...",
+            "og:locale": "en_US",
+            "og:url": "https://getlatka.com/companies/screenleap-inc"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://storage.getlatka.com/images/latka-logo.svg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Screenleap: One-click screen sharing with installation-free viewing ...",
+      "htmlTitle": "<b>Screenleap</b>: One-click screen sharing with installation-free viewing ...",
+      "link": "https://www.ycombinator.com/companies/screenleap-inc",
+      "displayLink": "www.ycombinator.com",
+      "snippet": "Screenleap allows you to share your screen and view it from any web-enabled device without installing any software.",
+      "htmlSnippet": "<b>Screenleap</b> allows you to share your screen and view it from any web-enabled device without installing any software.",
+      "formattedUrl": "https://www.ycombinator.com/companies/screenleap-inc",
+      "htmlFormattedUrl": "https://www.ycombinator.com/companies/<b>screenleap</b>-inc",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1PReMItnmjhUinBHug__tDYq3bnYT6cmKf3V1xCq5hhWHAISub5A5lUsJ&s",
+            "width": "150",
+            "height": "150"
+          }
+        ],
+        "metatags": [
+          {
+            "image": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/526783110d111dee31bc190fe79c56676c1a6b6c.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAPALJSSEH%2F20250815%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250815T003054Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAYaCXVzLXdlc3QtMiJGMEQCIERa5QxKFayZIUc9RLaCD5doOakq%2B8vI3eVgGX%2BQXEE3AiBcBSTmMD7LylfZdZfTWs2jiUotgd4O7ArCQfUsJG58LyrlAwhOEAAaDDAwNjIwMTgxMTA3MiIM7iKVO0JNrVjqCVylKsID64G3xS1B8TZl0ba6DdcHwTUrDvWqtIEGNVq%2FqKkk%2BdjkRFb19ZN1h0hbXQrLpJi4R06dpitj1BJ3j2MHpEcxzDv50H6VjLKYaQM5sPG4rZR3m2LwSNJVjq566q9L7LX8%2FsHUzXnoUMYif%2FdAKgn2P%2F1Kpogz%2F%2Br8JZMCmzxmXvx5sYQIiQTU0YVPBxs0e8c0oUYSe5PbJRK%2FmYNDzXMjtGLg%2BOx0HsG4WGsaofb6nA%2FWfCeoCK5dp6zoESllKOZlj4c81Fkq79Kucs9B6s29PRLvt%2BT9sUk2Ki7Uw8v2%2FUWjc6te9HcxwY35Dr7r5%2FsMBSLU3E%2BwaoZsatFIAU7T9kB7oAjFEl6i4LoeeFGChRIlh5pBjLFslWvQ3VEB64HcigCjgFgI%2FnjqRaVanzh6%2BQThDjlVCM40iPzlxURLNLY57aZ%2BQwsln96lDURUibIw3ecxVeOPMoNA0SRFrvXfxCV1HauA6ui%2FmNAs7Q8CRFXmEKNXeREWCHPQVBpjspJe88f6TlMJ",
+            "og:image": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/526783110d111dee31bc190fe79c56676c1a6b6c.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAPALJSSEH%2F20250815%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250815T003054Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAYaCXVzLXdlc3QtMiJGMEQCIERa5QxKFayZIUc9RLaCD5doOakq%2B8vI3eVgGX%2BQXEE3AiBcBSTmMD7LylfZdZfTWs2jiUotgd4O7ArCQfUsJG58LyrlAwhOEAAaDDAwNjIwMTgxMTA3MiIM7iKVO0JNrVjqCVylKsID64G3xS1B8TZl0ba6DdcHwTUrDvWqtIEGNVq%2FqKkk%2BdjkRFb19ZN1h0hbXQrLpJi4R06dpitj1BJ3j2MHpEcxzDv50H6VjLKYaQM5sPG4rZR3m2LwSNJVjq566q9L7LX8%2FsHUzXnoUMYif%2FdAKgn2P%2F1Kpogz%2F%2Br8JZMCmzxmXvx5sYQIiQTU0YVPBxs0e8c0oUYSe5PbJRK%2FmYNDzXMjtGLg%2BOx0HsG4WGsaofb6nA%2FWfCeoCK5dp6zoESllKOZlj4c81Fkq79Kucs9B6s29PRLvt%2BT9sUk2Ki7Uw8v2%2FUWjc6te9HcxwY35Dr7r5%2FsMBSLU3E%2BwaoZsatFIAU7T9kB7oAjFEl6i4LoeeFGChRIlh5pBjLFslWvQ3VEB64HcigCjgFgI%2FnjqRaVanzh6%2BQThDjlVCM40iPzlxURLNLY57aZ%2BQwsln96lDURUibIw3ecxVeOPMoNA0SRFrvXfxCV1HauA6ui%2FmNAs7Q8CRFXmEKNXeREWCHPQVBpjspJe88f6TlMJ",
+            "twitter:card": "summary_large_image",
+            "og:type": "website",
+            "og:site_name": "Y Combinator",
+            "og:image:url": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/526783110d111dee31bc190fe79c56676c1a6b6c.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAPALJSSEH%2F20250815%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250815T003054Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAYaCXVzLXdlc3QtMiJGMEQCIERa5QxKFayZIUc9RLaCD5doOakq%2B8vI3eVgGX%2BQXEE3AiBcBSTmMD7LylfZdZfTWs2jiUotgd4O7ArCQfUsJG58LyrlAwhOEAAaDDAwNjIwMTgxMTA3MiIM7iKVO0JNrVjqCVylKsID64G3xS1B8TZl0ba6DdcHwTUrDvWqtIEGNVq%2FqKkk%2BdjkRFb19ZN1h0hbXQrLpJi4R06dpitj1BJ3j2MHpEcxzDv50H6VjLKYaQM5sPG4rZR3m2LwSNJVjq566q9L7LX8%2FsHUzXnoUMYif%2FdAKgn2P%2F1Kpogz%2F%2Br8JZMCmzxmXvx5sYQIiQTU0YVPBxs0e8c0oUYSe5PbJRK%2FmYNDzXMjtGLg%2BOx0HsG4WGsaofb6nA%2FWfCeoCK5dp6zoESllKOZlj4c81Fkq79Kucs9B6s29PRLvt%2BT9sUk2Ki7Uw8v2%2FUWjc6te9HcxwY35Dr7r5%2FsMBSLU3E%2BwaoZsatFIAU7T9kB7oAjFEl6i4LoeeFGChRIlh5pBjLFslWvQ3VEB64HcigCjgFgI%2FnjqRaVanzh6%2BQThDjlVCM40iPzlxURLNLY57aZ%2BQwsln96lDURUibIw3ecxVeOPMoNA0SRFrvXfxCV1HauA6ui%2FmNAs7Q8CRFXmEKNXeREWCHPQVBpjspJe88f6TlMJ",
+            "og:title": "Screenleap: One-click screen sharing with installation-free viewing on all devices | Y Combinator",
+            "csrf-param": "authenticity_token",
+            "title": "Screenleap: One-click screen sharing with installation-free viewing on all devices",
+            "og:description": "One-click screen sharing with installation-free viewing on all devices. Founded in 2011 by Tuyen Truong, Screenleap has 4 employees based in San Carlos, CA, USA.",
+            "twitter:image": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/526783110d111dee31bc190fe79c56676c1a6b6c.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAPALJSSEH%2F20250815%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250815T003054Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAYaCXVzLXdlc3QtMiJGMEQCIERa5QxKFayZIUc9RLaCD5doOakq%2B8vI3eVgGX%2BQXEE3AiBcBSTmMD7LylfZdZfTWs2jiUotgd4O7ArCQfUsJG58LyrlAwhOEAAaDDAwNjIwMTgxMTA3MiIM7iKVO0JNrVjqCVylKsID64G3xS1B8TZl0ba6DdcHwTUrDvWqtIEGNVq%2FqKkk%2BdjkRFb19ZN1h0hbXQrLpJi4R06dpitj1BJ3j2MHpEcxzDv50H6VjLKYaQM5sPG4rZR3m2LwSNJVjq566q9L7LX8%2FsHUzXnoUMYif%2FdAKgn2P%2F1Kpogz%2F%2Br8JZMCmzxmXvx5sYQIiQTU0YVPBxs0e8c0oUYSe5PbJRK%2FmYNDzXMjtGLg%2BOx0HsG4WGsaofb6nA%2FWfCeoCK5dp6zoESllKOZlj4c81Fkq79Kucs9B6s29PRLvt%2BT9sUk2Ki7Uw8v2%2FUWjc6te9HcxwY35Dr7r5%2FsMBSLU3E%2BwaoZsatFIAU7T9kB7oAjFEl6i4LoeeFGChRIlh5pBjLFslWvQ3VEB64HcigCjgFgI%2FnjqRaVanzh6%2BQThDjlVCM40iPzlxURLNLY57aZ%2BQwsln96lDURUibIw3ecxVeOPMoNA0SRFrvXfxCV1HauA6ui%2FmNAs7Q8CRFXmEKNXeREWCHPQVBpjspJe88f6TlMJ",
+            "og:image:secure_url": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/526783110d111dee31bc190fe79c56676c1a6b6c.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAPALJSSEH%2F20250815%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250815T003054Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAYaCXVzLXdlc3QtMiJGMEQCIERa5QxKFayZIUc9RLaCD5doOakq%2B8vI3eVgGX%2BQXEE3AiBcBSTmMD7LylfZdZfTWs2jiUotgd4O7ArCQfUsJG58LyrlAwhOEAAaDDAwNjIwMTgxMTA3MiIM7iKVO0JNrVjqCVylKsID64G3xS1B8TZl0ba6DdcHwTUrDvWqtIEGNVq%2FqKkk%2BdjkRFb19ZN1h0hbXQrLpJi4R06dpitj1BJ3j2MHpEcxzDv50H6VjLKYaQM5sPG4rZR3m2LwSNJVjq566q9L7LX8%2FsHUzXnoUMYif%2FdAKgn2P%2F1Kpogz%2F%2Br8JZMCmzxmXvx5sYQIiQTU0YVPBxs0e8c0oUYSe5PbJRK%2FmYNDzXMjtGLg%2BOx0HsG4WGsaofb6nA%2FWfCeoCK5dp6zoESllKOZlj4c81Fkq79Kucs9B6s29PRLvt%2BT9sUk2Ki7Uw8v2%2FUWjc6te9HcxwY35Dr7r5%2FsMBSLU3E%2BwaoZsatFIAU7T9kB7oAjFEl6i4LoeeFGChRIlh5pBjLFslWvQ3VEB64HcigCjgFgI%2FnjqRaVanzh6%2BQThDjlVCM40iPzlxURLNLY57aZ%2BQwsln96lDURUibIw3ecxVeOPMoNA0SRFrvXfxCV1HauA6ui%2FmNAs7Q8CRFXmEKNXeREWCHPQVBpjspJe88f6TlMJ",
+            "twitter:site": "@ycombinator",
+            "viewport": "initial-scale=1, width=device-width, height=device-height",
+            "csrf-token": "PYJIUDyynDMebEv6s5BtK8egZrIfmOhgF7wx0ZfBIZFbVUUL0xmcDhKRPqrhInv24QbdcehkLxd6oNCa1bvUMg",
+            "og:locale": "en_US",
+            "og:url": "https://www.ycombinator.com/companies/screenleap-inc"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://bookface-images.s3.amazonaws.com/small_logos/79779ac47319c6ca49e9f79206097e891803eafa.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Screen Sharing | Screenleap Blog | Page 2",
+      "htmlTitle": "Screen Sharing | <b>Screenleap</b> Blog | Page 2",
+      "link": "https://blog.screenleap.com/tag/screen-sharing/page/2/",
+      "displayLink": "blog.screenleap.com",
+      "snippet": "Feb 11, 2012 ... Prior to founding Screenleap, our team members made frequent use of screen sharing services such as WebEx and GoToMeeting. Unfortunately ...",
+      "htmlSnippet": "Feb 11, 2012 <b>...</b> Prior to <b>founding Screenleap</b>, our team members made frequent use of screen sharing services such as WebEx and GoToMeeting. Unfortunately&nbsp;...",
+      "formattedUrl": "https://blog.screenleap.com/tag/screen-sharing/page/2/",
+      "htmlFormattedUrl": "https://blog.<b>screenleap</b>.com/tag/screen-sharing/page/2/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQjZpsrq7MuNLvhNfICy_JRXKRU_D6MM81bVmIqenZoQS7VPBIBVwZ1Jo&s",
+            "width": "421",
+            "height": "120"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://blog.screenleap.com/wp-content/uploads/2012/02/screen_sharing_05b.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Founders with Kids - Priceonomics",
+      "htmlTitle": "<b>Founders</b> with Kids - Priceonomics",
+      "link": "https://priceonomics.com/founders-with-kids/",
+      "displayLink": "priceonomics.com",
+      "snippet": "Apr 30, 2014 ... And I want to make her proud. a person and a child smiling. Tuyen Truong, Screenleap. Founders always hear that doing a startup is an emotional ...",
+      "htmlSnippet": "Apr 30, 2014 <b>...</b> And I want to make her proud. a person and a child smiling. Tuyen Truong, <b>Screenleap</b>. <b>Founders</b> always hear that doing a startup is an emotional&nbsp;...",
+      "formattedUrl": "https://priceonomics.com/founders-with-kids/",
+      "htmlFormattedUrl": "https://priceonomics.com/<b>founders</b>-with-kids/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYFAKV-z3zeGO1tkYqewpIlFzw0oPEu0jOIebkt-m7rp5XJSHlvykdtO8&s",
+            "width": "263",
+            "height": "192"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://etzq49yfnmd.exactdn.com/wp-content/uploads/2022/03/MarcelSalatheVouchpop.jpg?strip=all&lossy=1&ssl=1",
+            "og:type": "article",
+            "article:published_time": "2014-04-30T15:42:21+00:00",
+            "og:image:width": "1200",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Priceonomics",
+            "author": "Priceonomics",
+            "og:title": "Founders with Kids - Priceonomics",
+            "og:image:height": "876",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "og:image:type": "image/jpeg",
+            "msapplication-tileimage": "https://etzq49yfnmd.exactdn.com/wp-content/uploads/2022/03/cropped-priceonomics.png?strip=all&lossy=1&resize=270%2C270&ssl=1",
+            "og:description": "What is it like to be a founder of a startup and have kids?",
+            "twitter:creator": "@priceonomics",
+            "article:publisher": "https://www.facebook.com/priceonomics",
+            "twitter:data1": "Priceonomics",
+            "twitter:data2": "6 minutes",
+            "twitter:site": "@priceonomics",
+            "article:modified_time": "2022-03-20T00:44:39+00:00",
+            "viewport": "initial-scale=1.0, width=device-width",
+            "og:locale": "en_US",
+            "og:url": "https://priceonomics.com/founders-with-kids/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://etzq49yfnmd.exactdn.com/wp-content/uploads/2022/03/MarcelSalatheVouchpop.jpg?strip=all&lossy=1&ssl=1"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Screenleap | Screenleap Blog | Page 14",
+      "htmlTitle": "<b>Screenleap</b> | <b>Screenleap</b> Blog | Page 14",
+      "link": "https://blog.screenleap.com/author/admin/page/14/",
+      "displayLink": "blog.screenleap.com",
+      "snippet": "Apr 27, 2012 ... Prior to founding Screenleap, our team members made frequent use of screen sharing services such as WebEx and GoToMeeting. Unfortunately ...",
+      "htmlSnippet": "Apr 27, 2012 <b>...</b> Prior to <b>founding Screenleap</b>, our team members made frequent use of screen sharing services such as WebEx and GoToMeeting. Unfortunately&nbsp;...",
+      "formattedUrl": "https://blog.screenleap.com/author/admin/page/14/",
+      "htmlFormattedUrl": "https://blog.<b>screenleap</b>.com/author/admin/page/14/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSupQsUCmiHUGIxV22npHcABC8JdyZkHkYT1Tda3J8i_kQASoyJ_zZQyE&s",
+            "width": "261",
+            "height": "193"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://blog.screenleap.com/wp-content/uploads/2012/04/01_new_account2.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "YC-Funded ScreenLeap: Because Screen-Sharing Doesn't Need To ...",
+      "htmlTitle": "YC-Funded <b>ScreenLeap</b>: Because Screen-Sharing Doesn&#39;t Need To ...",
+      "link": "https://techcrunch.com/2012/02/21/yc-funded-screenleap-because-screen-sharing-doesnt-need-to-make-you-crazy/",
+      "displayLink": "techcrunch.com",
+      "snippet": "Feb 21, 2012 ... Finally, one interesting anecdote. ScreenLeap's four founders are Tuyen Truong, Lawrence Gentilello, Steven Liu, and Allison Huynh, and two of ...",
+      "htmlSnippet": "Feb 21, 2012 <b>...</b> Finally, one interesting anecdote. <b>ScreenLeap&#39;s</b> four <b>founders</b> are Tuyen Truong, Lawrence Gentilello, Steven Liu, and Allison Huynh, and two of&nbsp;...",
+      "formattedUrl": "https://techcrunch.com/.../yc-funded-screenleap-because-screen-sharing-do...",
+      "htmlFormattedUrl": "https://techcrunch.com/.../yc-funded-<b>screenleap</b>-because-screen-sharing-do...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVLJXsIvXxjxpE1lR5HYRtwHrR8jtbz2faGghuWyXfRw_ExidbD_fgMg&s",
+            "width": "193",
+            "height": "59"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://techcrunch.com/wp-content/uploads/2012/02/screenleaplogo.png",
+            "article:published_time": "2012-02-22T00:54:41+00:00",
+            "og:image:width": "193",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "TechCrunch",
+            "sailthru.tags": ",screenleap,Media & Entertainment",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "parsely-author": "Jason Kincaid",
+            "og:image:type": "image/png",
+            "msapplication-tileimage": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=270",
+            "og:description": "With stories of Terminator-esque Google glasses making headlines these days, you'd think a basic task like screen sharing would be something that'd be pretty well solved by now. But while there are many different ways to share your desktop (or some portion thereof) with your friends or coworkers, more often than not the process isn't something you'd call easy.  It's bad enough that many people (including me) often find themselves steering their peers around computers the old-fashioned way: voice instructions over the phone (\"Okay, now look in the Dock, do you see the Settings button? The one with metal gears, right. Click that...\")  ScreenLeap, a new startup out of the latest Y Combinator batch, wants to make this process a lot less painful, so that next time you're confronted with an issue that could be better dealt with via screen-share, you actually take advantage of it.",
+            "twitter:creator": "@TechCrunch",
+            "parsely-metadata": "{\"post_id\":505522,\"is_brief\":false}",
+            "article:publisher": "https://www.facebook.com/techcrunch",
+            "twitter:data1": "Jason Kincaid",
+            "twitter:data2": "4 minutes",
+            "parsely-type": "post",
+            "twitter:site": "@TechCrunch",
+            "article:modified_time": "2012-02-22T01:52:36+00:00",
+            "parsely-link": "https://techcrunch.com/2012/02/21/yc-funded-screenleap-because-screen-sharing-doesnt-need-to-make-you-crazy/",
+            "sailthru.title": "YC-Funded ScreenLeap: Because Screen-Sharing Doesn’t Need To Make You Crazy",
+            "parsely-image-url": "https://techcrunch.com/wp-content/uploads/2012/02/screenleaplogo.png?w=150",
+            "parsely-section": "Media & Entertainment",
+            "sailthru.date": "2012-02-21 16:54:41",
+            "og:type": "article",
+            "author": "Jason Kincaid",
+            "og:title": "YC-Funded ScreenLeap: Because Screen-Sharing Doesn't Need To Make You Crazy | TechCrunch",
+            "og:image:height": "59",
+            "sailthru.image.thumb": "https://techcrunch.com/wp-content/uploads/2012/02/screenleaplogo.png?w=50",
+            "parsely-title": "YC-Funded ScreenLeap: Because Screen-Sharing Doesn’t Need To Make You Crazy",
+            "parsely-pub-date": "2012-02-22T00:54:41Z",
+            "sailthru.description": "With stories of Terminator-esque Google glasses making headlines these days, you'd think a basic task like screen sharing would be something that'd be pretty well solved by now. But while there are many different ways to share your desktop (or some portion thereof) with your friends or coworkers, more often than not the process isn't something you'd call <em>easy.</em>\r\n\r\nIt's bad enough that many people (including me) often find themselves steering their peers around computers the old-fashioned way: voice instructions over the phone (\"Okay, now look in the Dock, do you see the Settings button? The one with metal gears, right. Click that...\")\r\n\r\n<a href=\"http://www.screenleap.com\">ScreenLeap</a>, a new startup out of the latest <a href=\"http://www.ycombinator.com\">Y Combinator</a> batch, wants to make this process a lot less painful, so that next time you're confronted with an issue that could be better dealt with via screen-share, you actually take advantage of it.",
+            "parsely-tags": "screenleap",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:locale": "en_US",
+            "og:url": "https://techcrunch.com/2012/02/21/yc-funded-screenleap-because-screen-sharing-doesnt-need-to-make-you-crazy/",
+            "sailthru.author": "Jason Kincaid",
+            "sailthru.image.full": "https://techcrunch.com/wp-content/uploads/2012/02/screenleaplogo.png"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://techcrunch.com/wp-content/uploads/2012/02/screenleaplogo.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Allison Huynh - Founder, CTO @ Screenleap - Crunchbase Person ...",
+      "htmlTitle": "Allison Huynh - <b>Founder</b>, CTO @ <b>Screenleap</b> - Crunchbase Person ...",
+      "link": "https://www.crunchbase.com/person/allison-huynh",
+      "displayLink": "www.crunchbase.com",
+      "snippet": "Allison Huynh has 2 current jobs as Founder, CTO at Screenleap and President and Chief Executive Officer at MyDreamVR.",
+      "htmlSnippet": "<b>Allison Huynh</b> has 2 current jobs as <b>Founder</b>, CTO at <b>Screenleap</b> and President and Chief Executive Officer at MyDreamVR.",
+      "formattedUrl": "https://www.crunchbase.com/person/allison-huynh",
+      "htmlFormattedUrl": "https://www.crunchbase.com/person/allison-huynh",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJSRo_scL8lsgH_aSEg_ZILvMupoxpjfsL1L2F9m78BK55YAvhtJ9LTlZH&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "WebPage": [
+          {}
+        ],
+        "metatags": [
+          {
+            "og:image": "https://images.crunchbase.com/image/upload/c_thumb,h_256,w_256,f_auto,g_face,z_0.7,q_auto:eco,dpr_1/v1397181295/dd2f0aa1a42d9a9ecb9c29214cb921ba.jpg",
+            "og:type": "website",
+            "og:image:alt": "Allison Huynh - Founder, CTO @ Screenleap",
+            "og:image:width": "256",
+            "og:site_name": "Crunchbase",
+            "viewport": "width=device-width, minimum-scale=1.0, initial-scale=1.0",
+            "og:title": "Allison Huynh - Founder, CTO @ Screenleap - Crunchbase Person Profile",
+            "og:image:height": "256",
+            "og:url": "https://www.crunchbase.com/person/allison-huynh",
+            "og:description": "Allison is our CEO and one of our founders. She landed in the Bay Area a few decades ago to attend Stanford and fell in love with the innova...",
+            "og:image:secure_url": "https://images.crunchbase.com/image/upload/c_thumb,h_256,w_256,f_auto,g_face,z_0.7,q_auto:eco,dpr_1/v1397181295/dd2f0aa1a42d9a9ecb9c29214cb921ba.jpg"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://images.crunchbase.com/image/upload/c_thumb,h_256,w_256,f_auto,g_face,z_0.7,q_auto:eco,dpr_1/v1397181295/dd2f0aa1a42d9a9ecb9c29214cb921ba.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Tuyen Truong - Screenleap, Inc. | LinkedIn",
+      "htmlTitle": "Tuyen Truong - <b>Screenleap</b>, Inc. | LinkedIn",
+      "link": "https://www.linkedin.com/in/tuyentruong",
+      "displayLink": "www.linkedin.com",
+      "snippet": "Experience: Screenleap, Inc. · Education: Stanford University · Location: San Carlos · 500+ connections on LinkedIn. View Tuyen Truong's profile on LinkedIn ...",
+      "htmlSnippet": "Experience: <b>Screenleap</b>, Inc. · Education: Stanford University · Location: San Carlos · 500+ connections on LinkedIn. View Tuyen Truong&#39;s profile on LinkedIn&nbsp;...",
+      "formattedUrl": "https://www.linkedin.com/in/tuyentruong",
+      "htmlFormattedUrl": "https://www.linkedin.com/in/tuyentruong",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsSbeUKzFEwjlajW-NX4p45-FQ6w54F7BIaM4kqzY0gPL1drml8Fz8&s",
+            "width": "123",
+            "height": "123"
+          }
+        ],
+        "ProfilePage": [
+          {}
+        ],
+        "metatags": [
+          {
+            "og:image": "https://media.licdn.com/dms/image/v2/C4E03AQFhJflntVcGEA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516156847935?e=2147483647&v=beta&t=gTmwtOZlx62MXQYYrBTqaQ3wtGdj6CqdmKj9t_ApVZw",
+            "twitter:card": "summary",
+            "linkedin:pagetag": "openToProvider",
+            "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+            "al:android:package": "com.linkedin.android",
+            "bingbot": "nocache",
+            "locale": "en_US",
+            "al:ios:url": "https://www.linkedin.com/in/tuyentruong",
+            "og:description": "Experience: Screenleap, Inc. · Education: Stanford University · Location: San Carlos · 500+ connections on LinkedIn. View Tuyen Truong’s profile on LinkedIn, a professional community of 1 billion members.",
+            "al:ios:app_store_id": "288429040",
+            "platform": "https://static.licdn.com/aero-v1/sc/h/50rhhil0lpchs3iqo4twn4tk9",
+            "twitter:image": "https://media.licdn.com/dms/image/v2/C4E03AQFhJflntVcGEA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516156847935?e=2147483647&v=beta&t=gTmwtOZlx62MXQYYrBTqaQ3wtGdj6CqdmKj9t_ApVZw",
+            "profile:last_name": "Truong",
+            "twitter:site": "@Linkedin",
+            "litmsprofilename": "public-profile-frontend",
+            "profile:first_name": "Tuyen",
+            "og:type": "profile",
+            "twitter:title": "Tuyen Truong - Screenleap, Inc. | LinkedIn",
+            "al:ios:app_name": "LinkedIn",
+            "og:title": "Tuyen Truong - Screenleap, Inc. | LinkedIn",
+            "pagekey": "public_profile_v3_mobile",
+            "al:android:url": "https://www.linkedin.com/in/tuyentruong",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "twitter:description": "Experience: Screenleap, Inc. · Education: Stanford University · Location: San Carlos · 500+ connections on LinkedIn. View Tuyen Truong’s profile on LinkedIn, a professional community of 1 billion members.",
+            "ubba": "https://static.licdn.com/aero-v1/sc/h/41b802ccd3dg7q90ypctzxybx",
+            "og:url": "https://www.linkedin.com/in/tuyentruong",
+            "al:android:app_name": "LinkedIn"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://media.licdn.com/dms/image/v2/C4E03AQFhJflntVcGEA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516156847935?e=2147483647&v=beta&t=gTmwtOZlx62MXQYYrBTqaQ3wtGdj6CqdmKj9t_ApVZw"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Screenleap - Crunchbase Company Profile & Funding",
+      "htmlTitle": "<b>Screenleap</b> - Crunchbase Company Profile &amp; Funding",
+      "link": "https://www.crunchbase.com/organization/screenleap",
+      "displayLink": "www.crunchbase.com",
+      "snippet": "Legal Name Screenleap, Inc. ; Operating Status Active ; Company Type For Profit ; Founders Allison Huynh, Julie Edwards, Lawrence Gentilello, Steven Liu, Tuyen ...",
+      "htmlSnippet": "Legal Name <b>Screenleap</b>, Inc. ; Operating Status Active ; Company Type For Profit ; <b>Founders</b> Allison Huynh, Julie Edwards, Lawrence Gentilello, Steven Liu, Tuyen&nbsp;...",
+      "formattedUrl": "https://www.crunchbase.com/organization/screenleap",
+      "htmlFormattedUrl": "https://www.crunchbase.com/organization/<b>screenleap</b>",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLztyuz-I3EdOBOyfpVh_Qq8kjuQAKNXKRu8wgPM7yLAHgxXqKDB1EwibB&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1397189372/bcd9bc16c3b52ccd178a2f24c2423ae9.png",
+            "og:type": "website",
+            "og:image:alt": "Screenleap",
+            "og:image:width": "256",
+            "og:site_name": "Crunchbase",
+            "viewport": "width=device-width, minimum-scale=1.0, initial-scale=1.0",
+            "og:title": "Screenleap - Crunchbase Company Profile & Funding",
+            "og:image:height": "256",
+            "og:url": "https://www.crunchbase.com/organization/screenleap",
+            "og:description": "Screenleap allows you to share your screen and view it from any web-enabled device without installing any software.",
+            "og:image:secure_url": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1397189372/bcd9bc16c3b52ccd178a2f24c2423ae9.png"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1397189372/bcd9bc16c3b52ccd178a2f24c2423ae9.png"
+          }
+        ]
+      }
+    }
+  ]
+}

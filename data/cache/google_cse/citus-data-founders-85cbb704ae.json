@@ -1,0 +1,550 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - \"Citus Data\" founders",
+        "totalResults": "2740",
+        "searchTerms": "\"Citus Data\" founders",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - \"Citus Data\" founders",
+        "totalResults": "2740",
+        "searchTerms": "\"Citus Data\" founders",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ]
+  },
+  "context": {
+    "title": "startup-ecosystem-intelligence"
+  },
+  "searchInformation": {
+    "searchTime": 0.168639,
+    "formattedSearchTime": "0.17",
+    "totalResults": "2740",
+    "formattedTotalResults": "2,740"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "Our Story | Citus Data, now part of Microsoft - Citus Data",
+      "htmlTitle": "Our Story | <b>Citus Data</b>, now part of Microsoft - <b>Citus Data</b>",
+      "link": "https://www.citusdata.com/about/our-story/",
+      "displayLink": "www.citusdata.com",
+      "snippet": "Our three co-founders Umur Cubukcu, Ozgun Erdogan, and Sumedh Pathak met at ... Founded Citus Data, moving to Istanbul from Seattle, Hyderabad, and San ...",
+      "htmlSnippet": "Our three co-<b>founders</b> Umur Cubukcu, Ozgun Erdogan, and Sumedh Pathak met at ... Founded <b>Citus Data</b>, moving to Istanbul from Seattle, Hyderabad, and San&nbsp;...",
+      "formattedUrl": "https://www.citusdata.com/about/our-story/",
+      "htmlFormattedUrl": "https://www.<b>citusdata</b>.com/about/our-story/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRImkcWASTpaYBvd8nLJJp3aQGr__RHuSYaL4GYN9FdB0J-V--TrgBwJK5&s",
+            "width": "310",
+            "height": "163"
+          }
+        ],
+        "thumbnail": [
+          {
+            "src": "https://cdn.citusdata.com/images/social/citus-og-image-mar2021-1200x630-default.png"
+          }
+        ],
+        "metatags": [
+          {
+            "msapplication-tilecolor": "#239f49",
+            "og:image": "https://cdn.citusdata.com/images/social/citus-og-image-mar2021-1200x630-default.png",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Our Story | Citus Data, now part of Microsoft",
+            "og:type": "website",
+            "thumbnail": "https://cdn.citusdata.com/images/social/citus-og-image-mar2021-1200x630-default.png",
+            "theme-color": "#239f49",
+            "og:site_name": "Citus Data",
+            "og:title": "Our Story | Citus Data, now part of Microsoft",
+            "og:description": "Citus brings you PostgreSQL at any scale. Our Citus team is now part of the Postgres team at Microsoft—and we are on a mission to create the world’s best Postgres experience, together. This is our story.",
+            "twitter:image": "https://cdn.citusdata.com/images/social/citus-og-image-mar2021-1200x630-default.png",
+            "twitter:site": "Citus Data",
+            "viewport": "width=device-width,initial-scale=1,shrink-to-fit=no",
+            "twitter:description": "Citus brings you PostgreSQL at any scale. Our Citus team is now part of the Postgres team at Microsoft—and we are on a mission to create the world’s best Postgres experience, together. This is our story.",
+            "og:locale": "en_US"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.citusdata.com/images/social/citus-og-image-mar2021-1200x630-default.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Microsoft acquires Citus Data, re-affirming its commitment to Open ...",
+      "htmlTitle": "Microsoft acquires <b>Citus Data</b>, re-affirming its commitment to Open ...",
+      "link": "https://blogs.microsoft.com/blog/2019/01/24/microsoft-acquires-citus-data-re-affirming-its-commitment-to-open-source-and-accelerating-azure-postgresql-performance-and-scale/",
+      "displayLink": "blogs.microsoft.com",
+      "snippet": "Jan 24, 2019 ... ... Founder, Citus Data, Sumedh Pathak, VP of Engineering and Co-Founder, Citus Data, Rohan Kumar, Corporate Vice President, Microsoft Azure Data.",
+      "htmlSnippet": "Jan 24, 2019 <b>...</b> ... <b>Founder</b>, <b>Citus Data</b>, Sumedh Pathak, VP of Engineering and Co-<b>Founder</b>, <b>Citus Data</b>, Rohan Kumar, Corporate Vice President, Microsoft Azure Data.",
+      "formattedUrl": "https://blogs.microsoft.com/.../microsoft-acquires-citus-data-re-affirming-its...",
+      "htmlFormattedUrl": "https://blogs.microsoft.com/.../microsoft-acquires-<b>citus-data</b>-re-affirming-its...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRtEjC1h5S5hfTy1KqnHSzo14AQuKio5GPas_QL_K6TcIo3oKKiT3bZDPz&s",
+            "width": "275",
+            "height": "183"
+          }
+        ],
+        "organization": [
+          {
+            "name": "Microsoft",
+            "logo": "https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png",
+            "url": "Microsoft"
+          },
+          {
+            "sameas": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fblogs.microsoft.com%2Fblog%2F2019%2F01%2F24%2Fmicrosoft-acquires-citus-data-re-affirming-its-commitment-to-open-source-and-accelerating-azure-postgresql-performance-and-scale%2F"
+          },
+          {
+            "sameas": "Check us out on RSS"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://blogs.microsoft.com/wp-content/uploads/prod/2019/01/Citus_OMB-1024x684.jpg",
+            "article:published_time": "2019-01-24T17:00:16+00:00",
+            "og:image:width": "1024",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "The Official Microsoft Blog",
+            "twitter:label1": "Written by",
+            "ms.lang": "en",
+            "twitter:label2": "Est. reading time",
+            "og:image:type": "image/jpeg",
+            "msapplication-tileimage": "https://blogs.microsoft.com/wp-content/uploads/2017/08/favicon.jpg",
+            "og:description": "Data and analytics are increasingly at the center of digital transformation, with the most leading-edge enterprises leveraging data to drive customer acquisition and satisfaction, long-term strategic planning, and expansion into net new markets. This digital revolution is placing an incredible demand on technology solutions to be more open, flexible, and scalable to meet the demands...",
+            "twitter:creator": "@microsoft",
+            "ms.env": "prod",
+            "article:publisher": "https://www.facebook.com/Microsoft/",
+            "twitter:data1": "Rohan Kumar",
+            "twitter:data2": "2 minutes",
+            "ms.sitever": "1.0",
+            "ms.loc": "us",
+            "twitter:site": "@microsoft",
+            "article:modified_time": "2019-02-05T19:12:11+00:00",
+            "og:type": "article",
+            "author": "Rohan Kumar",
+            "og:title": "Microsoft acquires Citus Data, re-affirming its commitment to Open Source and accelerating Azure PostgreSQL performance and scale - The Official Microsoft Blog",
+            "og:image:height": "684",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:locale": "en_US",
+            "og:url": "https://blogs.microsoft.com/blog/2019/01/24/microsoft-acquires-citus-data-re-affirming-its-commitment-to-open-source-and-accelerating-azure-postgresql-performance-and-scale/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://blogs.microsoft.com/wp-content/uploads/prod/2019/01/Citus_OMB-1024x684.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Microsoft Acquires Citus Data: Creating the World's Best Postgres ...",
+      "htmlTitle": "Microsoft Acquires <b>Citus Data</b>: Creating the World&#39;s Best Postgres ...",
+      "link": "https://www.citusdata.com/blog/2019/01/24/microsoft-acquires-citus-data/",
+      "displayLink": "www.citusdata.com",
+      "snippet": "Jan 24, 2019 ... Perspective on Microsoft's acquisition of Citus Data from the co-founders of Citus Data: Umur Cubukcu, Ozgun Erdogan, & Sumedh Pathak.",
+      "htmlSnippet": "Jan 24, 2019 <b>...</b> Perspective on Microsoft&#39;s acquisition of <b>Citus Data</b> from the co-<b>founders</b> of <b>Citus Data</b>: Umur Cubukcu, Ozgun Erdogan, &amp; Sumedh Pathak.",
+      "formattedUrl": "https://www.citusdata.com/blog/2019/01/24/microsoft-acquires-citus-data/",
+      "htmlFormattedUrl": "https://www.<b>citusdata</b>.com/blog/2019/01/24/microsoft-acquires-<b>citus-data</b>/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2cRlSgSfg-G1CASv90Aq4dlbicVX83i-P8lGBiqGzbZm9aYq8599Zq2k&s",
+            "width": "310",
+            "height": "163"
+          }
+        ],
+        "thumbnail": [
+          {
+            "src": "https://cdn.citusdata.com/images/social/1200x630-OGImage-BigNews.png"
+          }
+        ],
+        "metatags": [
+          {
+            "msapplication-tilecolor": "#239f49",
+            "og:image": "https://cdn.citusdata.com/images/social/1200x630-OGImage-BigNews.png",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Microsoft Acquires Citus Data: Creating the World’s Best Postgres Experience Together",
+            "og:type": "website",
+            "thumbnail": "https://cdn.citusdata.com/images/social/1200x630-OGImage-BigNews.png",
+            "theme-color": "#239f49",
+            "og:site_name": "Citus Data",
+            "og:title": "Microsoft Acquires Citus Data: Creating the World’s Best Postgres Experience Together",
+            "og:description": "Perspective on Microsoft’s acquisition of Citus Data from the co-founders of Citus Data: Umur Cubukcu, Ozgun Erdogan, & Sumedh Pathak. A look back what the Citus database team has accomplished and a look forward into what’s next for the Citus extension to Postgres, now as part of Microsoft.",
+            "twitter:image": "https://cdn.citusdata.com/images/social/1200x630-OGImage-BigNews.png",
+            "twitter:site": "Citus Data",
+            "viewport": "width=device-width,initial-scale=1,shrink-to-fit=no",
+            "twitter:description": "Perspective on Microsoft’s acquisition of Citus Data from the co-founders of Citus Data: Umur Cubukcu, Ozgun Erdogan, & Sumedh Pathak. A look back what the Citus database team has accomplished and a look forward into what’s next for the Citus extension to Postgres, now as part of Microsoft.",
+            "og:locale": "en_US"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.citusdata.com/images/social/1200x630-OGImage-BigNews.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Microsoft acquires Citus Data, creators of a cloud-friendly version of ...",
+      "htmlTitle": "Microsoft acquires <b>Citus Data</b>, creators of a cloud-friendly version of ...",
+      "link": "https://www.geekwire.com/2019/microsoft-acquires-citus-data-creators-cloud-friendly-version-postgresql-database/",
+      "displayLink": "www.geekwire.com",
+      "snippet": "Jan 24, 2019 ... (L to Ri:) Sudhakar Sannakkayala, General Manager Open Source Relational Databases, Microsoft; Ozgun Erdogan, CTO and Co-Founder, Citus Data ...",
+      "htmlSnippet": "Jan 24, 2019 <b>...</b> (L to Ri:) Sudhakar Sannakkayala, General Manager Open Source Relational Databases, Microsoft; Ozgun Erdogan, CTO and Co-<b>Founder</b>, <b>Citus Data</b>&nbsp;...",
+      "formattedUrl": "https://www.geekwire.com/.../microsoft-acquires-citus-data-creators-cloud-f...",
+      "htmlFormattedUrl": "https://www.geekwire.com/.../microsoft-acquires-<b>citus-data</b>-creators-cloud-f...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZtIL-SdJd8DoWzuvyzYJzvPBG06wX0OcMQFQw8HxgEcBemkogfocU0xM&s",
+            "width": "275",
+            "height": "183"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://cdn.geekwire.com/wp-content/uploads/2019/01/Citus_OMB.jpg",
+            "article:published_time": "2019-01-24T18:35:28+00:00",
+            "og:image:width": "1498",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "GeekWire",
+            "tec-api-origin": "https://www.geekwire.com",
+            "apple-mobile-web-app-title": "GeekWire",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "og:image:type": "image/jpeg",
+            "og:description": "Databases continue to be one of the most competitive areas of cloud computing, and Microsoft strengthened its database story Thursday with the acquisition",
+            "twitter:creator": "@tomkrazit",
+            "article:publisher": "https://www.facebook.com/geekwire",
+            "twitter:data1": "Tom Krazit",
+            "twitter:data2": "2 minutes",
+            "twitter:site": "@geekwire",
+            "google-adsense-platform-account": "ca-host-pub-2644536267352236",
+            "tec-api-version": "v1",
+            "og:see_also": "https://www.geekwire.com/2024/ex-microsoft-manager-raises-4m-for-new-data-governance-startup-codified/",
+            "application-name": "GeekWire",
+            "og:type": "article",
+            "twitter:title": "Microsoft acquires Citus Data, creators of a cloud-friendly version of the PostgreSQL database",
+            "author": "Tom Krazit",
+            "og:title": "Microsoft acquires Citus Data, creators of a cloud-friendly version of the PostgreSQL database",
+            "og:image:height": "1000",
+            "article:author": "https://www.facebook.com/tomkrazit",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:locale": "en_US",
+            "google-adsense-platform-domain": "sitekit.withgoogle.com",
+            "og:url": "https://www.geekwire.com/2019/microsoft-acquires-citus-data-creators-cloud-friendly-version-postgresql-database/",
+            "twitter:widgets:link-color": "#be4825"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.geekwire.com/wp-content/uploads/2019/01/Citus_OMB.jpg"
+          }
+        ],
+        "hatomfeed": [
+          {}
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Citus Data | Distributed Postgres. At any scale. - Citus Data",
+      "htmlTitle": "<b>Citus Data</b> | Distributed Postgres. At any scale. - <b>Citus Data</b>",
+      "link": "https://www.citusdata.com/",
+      "displayLink": "www.citusdata.com",
+      "snippet": "Citus Data is now part of Microsoft logo. Privacy Statement | Consumer Health Privacy ©2025 Citus Data, a Microsoft Company. All rights reserved. This site ...",
+      "htmlSnippet": "<b>Citus Data</b> is now part of Microsoft logo. Privacy Statement | Consumer Health Privacy ©2025 <b>Citus Data</b>, a Microsoft Company. All rights reserved. This site&nbsp;...",
+      "formattedUrl": "https://www.citusdata.com/",
+      "htmlFormattedUrl": "https://www.<b>citusdata</b>.com/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRImkcWASTpaYBvd8nLJJp3aQGr__RHuSYaL4GYN9FdB0J-V--TrgBwJK5&s",
+            "width": "310",
+            "height": "163"
+          }
+        ],
+        "thumbnail": [
+          {
+            "src": "https://cdn.citusdata.com/images/social/citus-og-image-mar2021-1200x630-default.png"
+          }
+        ],
+        "metatags": [
+          {
+            "msapplication-tilecolor": "#239f49",
+            "og:image": "https://cdn.citusdata.com/images/social/citus-og-image-mar2021-1200x630-default.png",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Citus Data | Distributed Postgres. At any scale.",
+            "og:type": "website",
+            "thumbnail": "https://cdn.citusdata.com/images/social/citus-og-image-mar2021-1200x630-default.png",
+            "theme-color": "#239f49",
+            "og:site_name": "Citus Data",
+            "og:title": "Citus Data | Distributed Postgres. At any scale.",
+            "og:description": "Citus gives you all the greatness of Postgres plus the superpowers of distributed tables. By distributing your data and queries, your application gets high performance—at any scale. The Citus database is available as open source and as a managed service with Azure Cosmos DB for PostgreSQL.",
+            "twitter:image": "https://cdn.citusdata.com/images/social/citus-og-image-mar2021-1200x630-default.png",
+            "twitter:site": "Citus Data",
+            "viewport": "width=device-width,initial-scale=1,shrink-to-fit=no",
+            "twitter:description": "Citus gives you all the greatness of Postgres plus the superpowers of distributed tables. By distributing your data and queries, your application gets high performance—at any scale. The Citus database is available as open source and as a managed service with Azure Cosmos DB for PostgreSQL.",
+            "og:locale": "en_US"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.citusdata.com/images/social/citus-og-image-mar2021-1200x630-default.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Citus Data: Real-time. Big data. PostgreSQL | Y Combinator",
+      "htmlTitle": "<b>Citus Data</b>: Real-time. Big data. PostgreSQL | Y Combinator",
+      "link": "https://www.ycombinator.com/companies/citus-data",
+      "displayLink": "www.ycombinator.com",
+      "snippet": "Active Founders. Sumedh Pathak. Founder/Engineer. Founder at Citus Data, Acquired by Microsoft. https://blogs.microsoft.com/blog/2019/01/24 ...",
+      "htmlSnippet": "Active <b>Founders</b>. Sumedh Pathak. <b>Founder</b>/Engineer. <b>Founder</b> at <b>Citus Data</b>, Acquired by Microsoft. https://blogs.microsoft.com/blog/2019/01/24&nbsp;...",
+      "formattedUrl": "https://www.ycombinator.com/companies/citus-data",
+      "htmlFormattedUrl": "https://www.ycombinator.com/companies/<b>citus-data</b>",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_jlx_ttcDqicgZBVs0DjrnlFIWkOUPYZ1SvaiGlEZzk4B6xRiqshYu3_C&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "image": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/4c67052965acf295ce71164f0727f245a4c3faeb.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAE7KP4Z6N%2F20250731%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250731T123356Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEH5wG%2FV%2BmWfufgp9kFmOPCBu6fIUIT6hjGk6CoQcaNdAiEAuAcn2CEz1g5uui1Qcy%2BalQvKvQjb0nOKqhB74e0RAnQq7gMI1P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDB9hz0Dsio27cO5FVirCAzydTWBHKUg9C3wDh2oQwYDO8Pat8%2BsjUj3oL5uk7so5Silo67U9q5%2FQ4mjttAV1jvVcZUYjwyD5JWFTqsFA6pt2qtoqTXha%2FWhcJaQZXlpqy9dKSfPnvZwSjo39xdB%2Bx%2BX0%2BWzX3v47vzFIEo1AoDwJ6DPETJSXLi0oS%2BeY452Fdfcy6cWSAdOKUYrapox30ouJl4Nz%2BymCSGThwgLU1NsXusztKaiUdEthnmpQ6VVDsdk1ZYwBGElRRPF95qu9se4CXdKiFjRuvxGghr3Cf5zUcLcPRmIBMP%2BFtGSfCaiiIQCc1mHIi8UDOGDfY22oIe1Z64FRpEzjPoxDueXKjnFfDiCPDKQIKqkGtyET6M%2FVythTCglYgj9CpQjRu0elD6GAkcktRgua79qaRz7jq%2FN%2BAXS0I7XPbouPO4LIR%2FBTCF4ulvtjd3O3r0bmU%2FUNc16mS%2BpeYPXe",
+            "og:image": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/4c67052965acf295ce71164f0727f245a4c3faeb.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAE7KP4Z6N%2F20250731%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250731T123356Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEH5wG%2FV%2BmWfufgp9kFmOPCBu6fIUIT6hjGk6CoQcaNdAiEAuAcn2CEz1g5uui1Qcy%2BalQvKvQjb0nOKqhB74e0RAnQq7gMI1P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDB9hz0Dsio27cO5FVirCAzydTWBHKUg9C3wDh2oQwYDO8Pat8%2BsjUj3oL5uk7so5Silo67U9q5%2FQ4mjttAV1jvVcZUYjwyD5JWFTqsFA6pt2qtoqTXha%2FWhcJaQZXlpqy9dKSfPnvZwSjo39xdB%2Bx%2BX0%2BWzX3v47vzFIEo1AoDwJ6DPETJSXLi0oS%2BeY452Fdfcy6cWSAdOKUYrapox30ouJl4Nz%2BymCSGThwgLU1NsXusztKaiUdEthnmpQ6VVDsdk1ZYwBGElRRPF95qu9se4CXdKiFjRuvxGghr3Cf5zUcLcPRmIBMP%2BFtGSfCaiiIQCc1mHIi8UDOGDfY22oIe1Z64FRpEzjPoxDueXKjnFfDiCPDKQIKqkGtyET6M%2FVythTCglYgj9CpQjRu0elD6GAkcktRgua79qaRz7jq%2FN%2BAXS0I7XPbouPO4LIR%2FBTCF4ulvtjd3O3r0bmU%2FUNc16mS%2BpeYPXe",
+            "twitter:card": "summary_large_image",
+            "og:type": "website",
+            "og:site_name": "Y Combinator",
+            "og:image:url": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/4c67052965acf295ce71164f0727f245a4c3faeb.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAE7KP4Z6N%2F20250731%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250731T123356Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEH5wG%2FV%2BmWfufgp9kFmOPCBu6fIUIT6hjGk6CoQcaNdAiEAuAcn2CEz1g5uui1Qcy%2BalQvKvQjb0nOKqhB74e0RAnQq7gMI1P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDB9hz0Dsio27cO5FVirCAzydTWBHKUg9C3wDh2oQwYDO8Pat8%2BsjUj3oL5uk7so5Silo67U9q5%2FQ4mjttAV1jvVcZUYjwyD5JWFTqsFA6pt2qtoqTXha%2FWhcJaQZXlpqy9dKSfPnvZwSjo39xdB%2Bx%2BX0%2BWzX3v47vzFIEo1AoDwJ6DPETJSXLi0oS%2BeY452Fdfcy6cWSAdOKUYrapox30ouJl4Nz%2BymCSGThwgLU1NsXusztKaiUdEthnmpQ6VVDsdk1ZYwBGElRRPF95qu9se4CXdKiFjRuvxGghr3Cf5zUcLcPRmIBMP%2BFtGSfCaiiIQCc1mHIi8UDOGDfY22oIe1Z64FRpEzjPoxDueXKjnFfDiCPDKQIKqkGtyET6M%2FVythTCglYgj9CpQjRu0elD6GAkcktRgua79qaRz7jq%2FN%2BAXS0I7XPbouPO4LIR%2FBTCF4ulvtjd3O3r0bmU%2FUNc16mS%2BpeYPXe",
+            "og:title": "Citus Data: Real-time. Big data. PostgreSQL | Y Combinator",
+            "csrf-param": "authenticity_token",
+            "title": "Citus Data: Real-time. Big data. PostgreSQL",
+            "og:description": "Real-time. Big data. PostgreSQL. Founded in  by Sumedh Pathak, Citus Data has 45 employees based in San Francisco, CA, USA.",
+            "twitter:image": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/4c67052965acf295ce71164f0727f245a4c3faeb.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAE7KP4Z6N%2F20250731%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250731T123356Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEH5wG%2FV%2BmWfufgp9kFmOPCBu6fIUIT6hjGk6CoQcaNdAiEAuAcn2CEz1g5uui1Qcy%2BalQvKvQjb0nOKqhB74e0RAnQq7gMI1P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDB9hz0Dsio27cO5FVirCAzydTWBHKUg9C3wDh2oQwYDO8Pat8%2BsjUj3oL5uk7so5Silo67U9q5%2FQ4mjttAV1jvVcZUYjwyD5JWFTqsFA6pt2qtoqTXha%2FWhcJaQZXlpqy9dKSfPnvZwSjo39xdB%2Bx%2BX0%2BWzX3v47vzFIEo1AoDwJ6DPETJSXLi0oS%2BeY452Fdfcy6cWSAdOKUYrapox30ouJl4Nz%2BymCSGThwgLU1NsXusztKaiUdEthnmpQ6VVDsdk1ZYwBGElRRPF95qu9se4CXdKiFjRuvxGghr3Cf5zUcLcPRmIBMP%2BFtGSfCaiiIQCc1mHIi8UDOGDfY22oIe1Z64FRpEzjPoxDueXKjnFfDiCPDKQIKqkGtyET6M%2FVythTCglYgj9CpQjRu0elD6GAkcktRgua79qaRz7jq%2FN%2BAXS0I7XPbouPO4LIR%2FBTCF4ulvtjd3O3r0bmU%2FUNc16mS%2BpeYPXe",
+            "og:image:secure_url": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/4c67052965acf295ce71164f0727f245a4c3faeb.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAE7KP4Z6N%2F20250731%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250731T123356Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEH5wG%2FV%2BmWfufgp9kFmOPCBu6fIUIT6hjGk6CoQcaNdAiEAuAcn2CEz1g5uui1Qcy%2BalQvKvQjb0nOKqhB74e0RAnQq7gMI1P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDB9hz0Dsio27cO5FVirCAzydTWBHKUg9C3wDh2oQwYDO8Pat8%2BsjUj3oL5uk7so5Silo67U9q5%2FQ4mjttAV1jvVcZUYjwyD5JWFTqsFA6pt2qtoqTXha%2FWhcJaQZXlpqy9dKSfPnvZwSjo39xdB%2Bx%2BX0%2BWzX3v47vzFIEo1AoDwJ6DPETJSXLi0oS%2BeY452Fdfcy6cWSAdOKUYrapox30ouJl4Nz%2BymCSGThwgLU1NsXusztKaiUdEthnmpQ6VVDsdk1ZYwBGElRRPF95qu9se4CXdKiFjRuvxGghr3Cf5zUcLcPRmIBMP%2BFtGSfCaiiIQCc1mHIi8UDOGDfY22oIe1Z64FRpEzjPoxDueXKjnFfDiCPDKQIKqkGtyET6M%2FVythTCglYgj9CpQjRu0elD6GAkcktRgua79qaRz7jq%2FN%2BAXS0I7XPbouPO4LIR%2FBTCF4ulvtjd3O3r0bmU%2FUNc16mS%2BpeYPXe",
+            "twitter:site": "@ycombinator",
+            "viewport": "initial-scale=1, width=device-width, height=device-height",
+            "csrf-token": "yhQZZ8MLQ5tF14T12V2WkjN-hhbRheqs_BrDpxzkoHK9rYQU6FICl_1NzVKPe8ytLd2nEnDL97nqIbUSeYOkGg",
+            "og:locale": "en_US",
+            "og:url": "https://www.ycombinator.com/companies/citus-data"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "x-raw-image:///7481412385fe6d0f7d4a3339d90fe12309432ca41983e8d350b232301d5d8684"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Citus Data | LinkedIn",
+      "htmlTitle": "<b>Citus Data</b> | LinkedIn",
+      "link": "https://www.linkedin.com/company/citus-data",
+      "displayLink": "www.linkedin.com",
+      "snippet": "Feb 1, 2018 ... Citus Data | 2043 followers on LinkedIn. Builders of Worry-Free ... founders: https://www.citusdata.com/blog/2019/01/24/microsoft ...",
+      "htmlSnippet": "Feb 1, 2018 <b>...</b> <b>Citus Data</b> | 2043 followers on LinkedIn. Builders of Worry-Free ... <b>founders</b>: https://www.citusdata.com/blog/2019/01/24/microsoft&nbsp;...",
+      "formattedUrl": "https://www.linkedin.com/company/citus-data",
+      "htmlFormattedUrl": "https://www.linkedin.com/company/<b>citus-data</b>",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXf0hQbzd5eM07qans1vDNTf3Wh7Mg5lyePYkFnrr0_oCdxrP9Ky1uvAo&s",
+            "width": "200",
+            "height": "200"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://media.licdn.com/dms/image/v2/C4E0BAQFQgKOL_GLOyg/company-logo_200_200/company-logo_200_200/0/1631362033659/citus_data_logo?e=2147483647&v=beta&t=_ss_djN3DLs0lLikYCpTuVlauui2g886d9FsX7Ag8BU",
+            "og:type": "article",
+            "twitter:card": "summary",
+            "twitter:title": "Citus Data | LinkedIn",
+            "clientsideingraphs": "1",
+            "al:ios:app_name": "LinkedIn",
+            "linkedin:pagetag": "noncanonical_subdomain=control",
+            "og:title": "Citus Data | LinkedIn",
+            "al:android:package": "com.linkedin.android",
+            "pagekey": "p_org_guest_company_overview",
+            "bingbot": "nocache",
+            "locale": "en_US",
+            "al:ios:url": "https://www.linkedin.com/company/citus-data",
+            "og:description": "Citus Data | 2,043 followers on LinkedIn. Builders of Worry-Free Postgres. Built to Scale Out. Now part of Microsoft. | The amount of time businesses spend on their databases is altogether too much time. The Citus Data team is fixing this problem.\n\nCitus is worry-free Postgres.",
+            "al:ios:app_store_id": "288429040",
+            "twitter:image": "https://media.licdn.com/dms/image/v2/C4E0BAQFQgKOL_GLOyg/company-logo_200_200/company-logo_200_200/0/1631362033659/citus_data_logo?e=2147483647&v=beta&t=_ss_djN3DLs0lLikYCpTuVlauui2g886d9FsX7Ag8BU",
+            "al:android:url": "https://www.linkedin.com/company/citus-data",
+            "twitter:site": "@linkedin",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "twitter:description": "Citus Data | 2,043 followers on LinkedIn. Builders of Worry-Free Postgres. Built to Scale Out. Now part of Microsoft. | The amount of time businesses spend on their databases is altogether too much time. The Citus Data team is fixing this problem.\n\nCitus is worry-free Postgres.",
+            "og:url": "https://www.linkedin.com/company/citus-data",
+            "al:android:app_name": "LinkedIn"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://media.licdn.com/dms/image/v2/C4E0BAQFQgKOL_GLOyg/company-logo_200_200/company-logo_200_200/0/1631362033659/citus_data_logo?e=2147483647&v=beta&t=_ss_djN3DLs0lLikYCpTuVlauui2g886d9FsX7Ag8BU"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "CitusData | Heavybit",
+      "htmlTitle": "CitusData | Heavybit",
+      "link": "https://www.heavybit.com/portfolio/spotlights/citus-data",
+      "displayLink": "www.heavybit.com",
+      "snippet": "People in the business of delivering SaaS apps really do want to forget about their database.” Says Umur Cubukcu, Co-Founder and CEO at Citus Data. The ...",
+      "htmlSnippet": "People in the business of delivering SaaS apps really do want to forget about their database.” Says Umur Cubukcu, Co-<b>Founder</b> and <b>CEO</b> at <b>Citus Data</b>. The&nbsp;...",
+      "formattedUrl": "https://www.heavybit.com/portfolio/spotlights/citus-data",
+      "htmlFormattedUrl": "https://www.heavybit.com/portfolio/spotlights/<b>citus-data</b>",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTRIiwB1Yx18set_ikxQI1CiA0GXFEYbEnrPkw537dN0ro3OqSddvuuHg&s",
+            "width": "300",
+            "height": "168"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://cdn.sanity.io/images/50q6fr1p/production/c39e96980a0a9b21b9ce40e5c4241e4bc8c3b7f7-1920x1080.jpg?auto=format",
+            "theme-color": "#061D22",
+            "twitter:title": "CitusData | Heavybit",
+            "twitter:card": "summary_large_image",
+            "apple-mobile-web-app-status-bar-style": "#061D22",
+            "og:site_name": "Heavybit",
+            "twitter:site": "@heavybit",
+            "viewport": "width=device-width,initial-scale=1",
+            "og:title": "CitusData | Heavybit",
+            "og:url": "https://www.heavybit.com/portfolio/spotlights/citus-data",
+            "og:description": "Heavybit is the leading fund for developer and enterprise startups. From pre-Seed to Series A companies, we help teams achieve breakout commercial success.",
+            "twitter:creator": "@heavybit"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.sanity.io/images/50q6fr1p/production/c39e96980a0a9b21b9ce40e5c4241e4bc8c3b7f7-1920x1080.jpg?auto=format"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Citus Data - Crunchbase Company Profile & Funding",
+      "htmlTitle": "<b>Citus Data</b> - Crunchbase Company Profile &amp; Funding",
+      "link": "https://www.crunchbase.com/organization/citus-data",
+      "displayLink": "www.crunchbase.com",
+      "snippet": "Legal Name Citus Data, Inc. ; Operating Status Active ; Company Type For Profit ; Founders Ozgun Erdogan, Sumedh Pathak, Umur Cubukcu.",
+      "htmlSnippet": "Legal Name <b>Citus Data</b>, Inc. ; Operating Status Active ; Company Type For Profit ; <b>Founders</b> Ozgun Erdogan, Sumedh Pathak, Umur Cubukcu.",
+      "formattedUrl": "https://www.crunchbase.com/organization/citus-data",
+      "htmlFormattedUrl": "https://www.crunchbase.com/organization/<b>citus-data</b>",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyjMY_XyDGBqaIdQzHYON5tMWayeYzwSeioeC1Q0Znla9ULQe9Fu1-dA7-&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1445443448/da1rzwalwgdoedc1i1pd.png",
+            "og:type": "website",
+            "og:image:alt": "Citus Data",
+            "og:image:width": "256",
+            "og:site_name": "Crunchbase",
+            "viewport": "width=device-width, minimum-scale=1.0, initial-scale=1.0",
+            "og:title": "Citus Data - Crunchbase Company Profile & Funding",
+            "og:image:height": "256",
+            "og:url": "https://www.crunchbase.com/organization/citus-data",
+            "og:description": "Citus Data horizontally scales PostgreSQL, taking relational power further for real-time data.",
+            "og:image:secure_url": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1445443448/da1rzwalwgdoedc1i1pd.png"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1445443448/da1rzwalwgdoedc1i1pd.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "The Citus Data founders Ozgun Erdogan, Sumedh Pathak, and ...",
+      "htmlTitle": "The <b>Citus Data founders</b> Ozgun Erdogan, Sumedh Pathak, and ...",
+      "link": "https://www.facebook.com/citusdata/posts/the-citus-data-foundersozgun-erdogan-sumedh-pathak-and-umur-cubukcu/1868945646751847/",
+      "displayLink": "www.facebook.com",
+      "snippet": "Dec 14, 2017 ... The Citus Data founders Ozgun Erdogan, Sumedh Pathak, and Umur Cubukcu.",
+      "htmlSnippet": "Dec 14, 2017 <b>...</b> The <b>Citus Data founders</b> Ozgun Erdogan, Sumedh Pathak, and Umur Cubukcu.",
+      "formattedUrl": "https://www.facebook.com/citusdata/...citus-data-foundersozgun.../1868945...",
+      "htmlFormattedUrl": "https://www.facebook.com/<b>citusdata</b>/...<b>citus-data</b>-<b>founders</b>ozgun.../1868945...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS-sStVOqXXbSaknbxsny3L347VDO0ONoCVP2C5F5TYohAbCUD9qp45Y0&s",
+            "width": "275",
+            "height": "183"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1868944986751913",
+            "theme-color": "#FFFFFF",
+            "og:type": "video.other",
+            "og:image:alt": "Citus Data",
+            "twitter:card": "summary",
+            "twitter:title": "Citus Data",
+            "og:title": "Citus Data",
+            "google": "notranslate",
+            "og:description": "The Citus Data founders\n\nOzgun Erdogan, Sumedh Pathak, and Umur Cubukcu",
+            "twitter:image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1868944986751913",
+            "referrer": "origin-when-crossorigin",
+            "twitter:image:alt": "Citus Data",
+            "twitter:site": "@facebookapp",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "The Citus Data founders\n\nOzgun Erdogan, Sumedh Pathak, and Umur Cubukcu",
+            "og:locale": "en_US",
+            "fb-version": "473.0.0.0.58:2891",
+            "og:url": "https://www.facebook.com/citusdata/posts/the-citus-data-foundersozgun-erdogan-sumedh-pathak-and-umur-cubukcu/1868945646751847/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1868944986751913"
+          }
+        ]
+      }
+    }
+  ]
+}

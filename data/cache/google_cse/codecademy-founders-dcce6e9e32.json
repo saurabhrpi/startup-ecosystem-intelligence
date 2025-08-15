@@ -1,0 +1,1609 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - \"Codecademy\" founders",
+        "totalResults": "90800",
+        "searchTerms": "\"Codecademy\" founders",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - \"Codecademy\" founders",
+        "totalResults": "90800",
+        "searchTerms": "\"Codecademy\" founders",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ]
+  },
+  "context": {
+    "title": "startup-ecosystem-intelligence"
+  },
+  "searchInformation": {
+    "searchTime": 0.156502,
+    "formattedSearchTime": "0.16",
+    "totalResults": "90800",
+    "formattedTotalResults": "90,800"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "Codecademy's Zach Sims: The 2000s Internet That Inspired Me",
+      "htmlTitle": "<b>Codecademy&#39;s</b> Zach Sims: The 2000s Internet That Inspired Me",
+      "link": "https://www.codecademy.com/resources/blog/how-2000s-websites-and-software-influenced-codecademy-founder-ceo",
+      "displayLink": "www.codecademy.com",
+      "snippet": "Aug 10, 2022 ... Here, Codecademy Co-Founder & CEO Zach Sims reminisces on the ... founders, just to name a few. Our world is far more global and ...",
+      "htmlSnippet": "Aug 10, 2022 <b>...</b> Here, <b>Codecademy</b> Co-<b>Founder</b> &amp; CEO Zach Sims reminisces on the ... <b>founders</b>, just to name a few. Our world is far more global and&nbsp;...",
+      "formattedUrl": "https://www.codecademy.com/.../how-2000s-websites-and-software-influen...",
+      "htmlFormattedUrl": "https://www.<b>codecademy</b>.com/.../how-2000s-websites-and-software-influen...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv4nzGcTYngRc4lFs5DgUOY7ZWjyCgl9a2b3Dd3hW6dqGjWu1Bv6vhTdY&s",
+            "width": "329",
+            "height": "153"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://www.codecademy.com/resources/blog/wp-content/uploads/2022/12/zach_thumbail.png",
+            "og:type": "article",
+            "article:published_time": "2022-08-10T17:06:00+00:00",
+            "og:image:width": "1201",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Codecademy Blog",
+            "author": "Zach Sims",
+            "og:title": "Codecademy's Zach Sims: The 2000s Internet That Inspired Me",
+            "og:image:height": "559",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "og:image:type": "image/png",
+            "msapplication-tileimage": "https://www.codecademy.com/resources/blog/wp-content/uploads/2023/01/favicon.png?w=270",
+            "og:description": "In honor of Codecademy's 11th anniversary, we're looking back at the 2000s websites and software that inspired a generation to learn to code.",
+            "twitter:data1": "Zach Sims",
+            "twitter:data2": "4 minutes",
+            "article:modified_time": "2023-09-11T14:47:32+00:00",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:locale": "en_US",
+            "og:url": "https://www.codecademy.com/resources/blog/how-2000s-websites-and-software-influenced-codecademy-founder-ceo"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.codecademy.com/resources/blog/wp-content/uploads/2022/12/zach_thumbail.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "After 12 years leading Codecademy from inception to a company ...",
+      "htmlTitle": "After 12 years leading <b>Codecademy</b> from inception to a company ...",
+      "link": "https://www.linkedin.com/posts/zacharysims_after-12-years-leading-codecademy-from-inception-activity-7070490717134979074-fct_",
+      "displayLink": "www.linkedin.com",
+      "snippet": "Jun 2, 2023 ... Zach Sims' Post ... After 12 years leading Codecademy from inception to a company with more than 50 million learners around the world, tens of ...",
+      "htmlSnippet": "Jun 2, 2023 <b>...</b> Zach Sims&#39; Post ... After 12 years leading <b>Codecademy</b> from inception to a company with more than 50 million learners around the world, tens of&nbsp;...",
+      "formattedUrl": "https://www.linkedin.com/.../zacharysims_after-12-years-leading-codecade...",
+      "htmlFormattedUrl": "https://www.linkedin.com/.../zacharysims_after-12-years-leading-<b>codecade</b>...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShROVPUwm1iCvoB3BcmKd-5oW1QjGvOyHJybRgCh7lLezdQjjW09Uql34&s",
+            "width": "275",
+            "height": "183"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://media.licdn.com/dms/image/v2/D5622AQHjneknonRS-g/feedshare-shrink_800/feedshare-shrink_800/0/1685736349268?e=2147483647&v=beta&t=SYQuqUgmSSnAoIg9iuvb5QEGQ3tCVfCb7nhpVeRfPrE",
+            "twitter:title": "After 12 years leading Codecademy from inception to a company with more than 50 million learners around the world, tens of millions of dollars of revenue, and an exit last year for more than $525m… | Zach Sims | 231 comments",
+            "twitter:card": "summary_large_image",
+            "og:type": "article",
+            "al:ios:app_name": "LinkedIn",
+            "twitter:url": "https://www.linkedin.com/posts/zacharysims_after-12-years-leading-codecademy-from-inception-activity-7070490717134979074-fct_",
+            "og:title": "After 12 years leading Codecademy from inception to a company with more than 50 million learners around the world, tens of millions of dollars of revenue, and an exit last year for more than $525m… | Zach Sims | 231 comments",
+            "al:android:package": "com.linkedin.android",
+            "pagekey": "p_public_post",
+            "locale": "en_US",
+            "al:ios:url": "https://www.linkedin.com/posts/zacharysims_after-12-years-leading-codecademy-from-inception-activity-7070490717134979074-fct_",
+            "og:description": "After 12 years leading Codecademy from inception to a company with more than 50 million learners around the world, tens of millions of dollars of revenue, and an exit last year for more than $525m, I’m stepping back from my role as CEO. Leading Codecademy has been the best job I’ve ever had (which is easy to say, because it’s the only job I ever had!). \n\nWhen we started Codecademy, Ryan and I thought we were building the easiest way to code. We thought we’d be lucky to get a few hundred people on Columbia University’s campus to use what we’d built. One of the most fulfilling parts about what we’ve built is seeing itss impact both inside the company and outside. At Codecademy, many of our new hires got their start on the same product they now get to work on. I taught at Stanford a few weeks ago and a few of the students thanked Codecademy for getting them into Computer Science (when they were 8! We’re old…). The best part about each day at Codecademy is waking up to a new story from one of ou",
+            "al:ios:app_store_id": "288429040",
+            "twitter:image": "https://media.licdn.com/dms/image/v2/D5622AQHjneknonRS-g/feedshare-shrink_800/feedshare-shrink_800/0/1685736349268?e=2147483647&v=beta&t=SYQuqUgmSSnAoIg9iuvb5QEGQ3tCVfCb7nhpVeRfPrE",
+            "al:android:url": "https://www.linkedin.com/posts/zacharysims_after-12-years-leading-codecademy-from-inception-activity-7070490717134979074-fct_",
+            "lnkd:url": "https://www.linkedin.com/feed/update/urn:li:activity:7070490717134979074",
+            "twitter:site": "@linkedin",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "twitter:description": "After 12 years leading Codecademy from inception to a company with more than 50 million learners around the world, tens of millions of dollars of revenue, and an exit last year for more than $525m, I’m stepping back from my role as CEO. Leading Codecademy has been the best job I’ve ever had (which is easy to say, because it’s the only job I ever had!). \n\nWhen we started Codecademy, Ryan and I thought we were building the easiest way to code. We thought we’d be lucky to get a few hundred people on Columbia University’s campus to use what we’d built. One of the most fulfilling parts about what we’ve built is seeing itss impact both inside the company and outside. At Codecademy, many of our new hires got their start on the same product they now get to work on. I taught at Stanford a few weeks ago and a few of the students thanked Codecademy for getting them into Computer Science (when they were 8! We’re old…). The best part about each day at Codecademy is waking up to a new story from one of ou",
+            "og:url": "https://www.linkedin.com/posts/zacharysims_after-12-years-leading-codecademy-from-inception-activity-7070490717134979074-fct_",
+            "al:android:app_name": "LinkedIn"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://media.licdn.com/dms/image/v2/D5622AQHjneknonRS-g/feedshare-shrink_800/feedshare-shrink_800/0/1685736349268?e=2147483647&v=beta&t=SYQuqUgmSSnAoIg9iuvb5QEGQ3tCVfCb7nhpVeRfPrE"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "A decade of learning with our CEO, Zach Sims",
+      "htmlTitle": "A decade of learning with our CEO, Zach Sims",
+      "link": "https://www.codecademy.com/resources/blog/a-decade-of-learning-with-our-ceo-zach-sims",
+      "displayLink": "www.codecademy.com",
+      "snippet": "Aug 18, 2021 ... Lessons from our learners. In a lot of ways, my personal journey with Codecademy is the same as any one of our learners. I've hit walls, gotten ...",
+      "htmlSnippet": "Aug 18, 2021 <b>...</b> Lessons from our learners. In a lot of ways, my personal journey with <b>Codecademy</b> is the same as any one of our learners. I&#39;ve hit walls, gotten&nbsp;...",
+      "formattedUrl": "https://www.codecademy.com/.../a-decade-of-learning-with-our-ceo-zach-si...",
+      "htmlFormattedUrl": "https://www.<b>codecademy</b>.com/.../a-decade-of-learning-with-our-ceo-zach-si...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNzZkb2QlgeTtNIfoTLrFOdI_TsfjRPnCeTGdvOLPwfbWSEVjq23T7QaHL&s",
+            "width": "329",
+            "height": "153"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://www.codecademy.com/resources/blog/wp-content/uploads/2022/12/A-decade-of-learning-with-our-CEO--Zach-Sims-2.png",
+            "og:type": "article",
+            "article:published_time": "2021-08-18T13:00:58+00:00",
+            "og:image:width": "2400",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Codecademy Blog",
+            "author": "Zach Sims",
+            "og:title": "A decade of learning with our CEO, Zach Sims",
+            "og:image:height": "1116",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "og:image:type": "image/png",
+            "msapplication-tileimage": "https://www.codecademy.com/resources/blog/wp-content/uploads/2023/01/favicon.png?w=270",
+            "og:description": "It’s August 18th, 2011. I’m glued to my computer, exhausted yet full of nervous energy. My cofounder, Ryan, is sitting […]",
+            "twitter:data1": "Zach Sims",
+            "twitter:data2": "5 minutes",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:locale": "en_US",
+            "og:url": "https://www.codecademy.com/resources/blog/a-decade-of-learning-with-our-ceo-zach-sims"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.codecademy.com/resources/blog/wp-content/uploads/2022/12/A-decade-of-learning-with-our-CEO--Zach-Sims-2.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "I'm Zach Sims, CEO of Codecademy. We teach people the skills they ...",
+      "htmlTitle": "I&#39;m Zach Sims, CEO of <b>Codecademy</b>. We teach people the skills they ...",
+      "link": "https://www.reddit.com/r/learnprogramming/comments/38ks3q/im_zach_sims_ceo_of_codecademy_we_teach_people/",
+      "displayLink": "www.reddit.com",
+      "snippet": "Jun 4, 2015 ... I am Zach Sims, the cofounder and CEO of Codecademy. Almost four years ago, Ryan Bubinski and I started Codecademy in a teensy apartment in Sunnyvale, ...",
+      "htmlSnippet": "Jun 4, 2015 <b>...</b> I am <b>Zach Sims</b>, the cofounder and CEO of <b>Codecademy</b>. Almost four years ago, Ryan Bubinski and I started <b>Codecademy</b> in a teensy apartment in Sunnyvale,&nbsp;...",
+      "formattedUrl": "https://www.reddit.com/.../im_zach_sims_ceo_of_codecademy_we_teach_p...",
+      "htmlFormattedUrl": "https://www.reddit.com/.../im_zach_sims_ceo_of_<b>codecademy</b>_we_teach_p...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6PGoRBD3D1-huCDq-0tnHiVvE8OBntevWyofwBEfO8u0kwnazxSZt3Lo&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://share.redd.it/preview/post/38ks3q",
+            "theme-color": "#000000",
+            "og:image:width": "1200",
+            "og:type": "website",
+            "og:image:alt": "An image containing a preview of the post",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "r/learnprogramming on Reddit: I'm Zach Sims, CEO of Codecademy. We teach people the skills they need to find jobs.",
+            "og:site_name": "Reddit",
+            "og:title": "r/learnprogramming on Reddit: I'm Zach Sims, CEO of Codecademy. We teach people the skills they need to find jobs.",
+            "og:image:height": "630",
+            "msapplication-navbutton-color": "#000000",
+            "og:description": "Posted by u/zach_sims - 1,190 votes and 257 comments",
+            "twitter:image": "https://share.redd.it/preview/post/38ks3q",
+            "apple-mobile-web-app-status-bar-style": "black",
+            "twitter:site": "@reddit",
+            "viewport": "width=device-width, initial-scale=1, viewport-fit=cover",
+            "apple-mobile-web-app-capable": "yes",
+            "og:ttl": "600",
+            "og:url": "https://www.reddit.com/r/learnprogramming/comments/38ks3q/im_zach_sims_ceo_of_codecademy_we_teach_people/?seeker-session=true"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.redditstatic.com/avatars/defaults/v2/avatar_default_6.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Codecademy - Wikipedia",
+      "htmlTitle": "<b>Codecademy</b> - Wikipedia",
+      "link": "https://en.wikipedia.org/wiki/Codecademy",
+      "displayLink": "en.wikipedia.org",
+      "snippet": "Codecademy ; 2011 · New York City. ,. United States · Worldwide · Zach Sims, Ryan Bubinski · Internet.",
+      "htmlSnippet": "<b>Codecademy</b> ; 2011 &middot; New York City. ,. United States &middot; Worldwide &middot; Zach Sims, Ryan Bubinski &middot; Internet.",
+      "formattedUrl": "https://en.wikipedia.org/wiki/Codecademy",
+      "htmlFormattedUrl": "https://en.wikipedia.org/wiki/<b>Codecademy</b>",
+      "pagemap": {
+        "hcard": [
+          {
+            "url_text": "www.codecademy.com",
+            "fn": "Codecademy",
+            "category": "Subsidiary",
+            "url": "www.codecademy.com"
+          }
+        ],
+        "metatags": [
+          {
+            "referrer": "origin",
+            "og:image": "https://upload.wikimedia.org/wikipedia/en/d/d7/Codecademy-home.png",
+            "theme-color": "#eaecf0",
+            "og:image:width": "1200",
+            "og:type": "website",
+            "viewport": "width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0",
+            "og:title": "Codecademy - Wikipedia",
+            "og:image:height": "776",
+            "format-detection": "telephone=no"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Founders Who Fundraise - Zach Sims (Codecademy) | Bowery Capital",
+      "htmlTitle": "<b>Founders</b> Who Fundraise - Zach Sims (<b>Codecademy</b>) | Bowery Capital",
+      "link": "https://bowerycap.com/blog/portfolio/founders-who-fundraise-zach-sims-codecademy",
+      "displayLink": "bowerycap.com",
+      "snippet": "Mar 30, 2023 ... Codecademy is a platform used by millions to learn to code. In this interview, we sit down with Zach Sims, the Co-Founder, and CEO of Codecademy ...",
+      "htmlSnippet": "Mar 30, 2023 <b>...</b> <b>Codecademy</b> is a platform used by millions to learn to code. In this interview, we sit down with Zach Sims, the Co-<b>Founder</b>, and CEO of <b>Codecademy</b>&nbsp;...",
+      "formattedUrl": "https://bowerycap.com/.../founders-who-fundraise-zach-sims-codecademy",
+      "htmlFormattedUrl": "https://bowerycap.com/.../<b>founders</b>-who-fundraise-zach-sims-<b>codecademy</b>",
+      "pagemap": {
+        "metatags": [
+          {
+            "og:see_also": "https://www.instagram.com/bowerycapital/",
+            "og:image": "https://craft-bowerycap.transforms.svdcdn.com/production/Portfolio-Blog-Series-Zach-Sims.jpg?w=1200&h=630&q=82&auto=format&fit=crop&dm=1726265474&s=e4e681d23dc05b48bf8c2ae1744fe740",
+            "og:type": "website",
+            "og:image:width": "1200",
+            "og:image:alt": "Founders Who Fundraise - Zach Sims (Codecademy)",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Founders Who Fundraise - Zach Sims (Codecademy)",
+            "og:site_name": "Bowery Capital",
+            "og:title": "Founders Who Fundraise - Zach Sims (Codecademy)",
+            "og:image:height": "630",
+            "twitter:image:height": "418",
+            "og:description": "The Bowery Capital Team highlights founders in the portfolio and their origin stories. This series shares stories from the founder’s POV and provides…",
+            "twitter:creator": "@bowerycapital",
+            "twitter:image": "https://craft-bowerycap.transforms.svdcdn.com/production/Portfolio-Blog-Series-Zach-Sims.jpg?w=800&h=418&q=82&auto=format&fit=crop&dm=1726265474&s=67624ee82fbdee952a8f10583fcceffc",
+            "referrer": "origin-when-cross-origin",
+            "twitter:image:alt": "Founders Who Fundraise - Zach Sims (Codecademy)",
+            "twitter:site": "@bowerycapital",
+            "twitter:image:width": "800",
+            "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover",
+            "twitter:description": "The Bowery Capital Team highlights founders in the portfolio and their origin stories. This series shares stories from the founder’s POV and provides…",
+            "og:locale": "en_US",
+            "og:url": "https://bowerycap.com/blog/portfolio/founders-who-fundraise-zach-sims-codecademy"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://craft-bowerycap.transforms.svdcdn.com/production/Portfolio-Blog-Series-Zach-Sims.jpg?w=1200&h=630&q=82&auto=format&fit=crop&dm=1726265474&s=e4e681d23dc05b48bf8c2ae1744fe740"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Zach Sims - Wikipedia",
+      "htmlTitle": "Zach Sims - Wikipedia",
+      "link": "https://en.wikipedia.org/wiki/Zach_Sims",
+      "displayLink": "en.wikipedia.org",
+      "snippet": "Sims served as the CEO of Codecademy, overseeing the platform's growth and development into one of the leading online resources for learning to code. Biography.",
+      "htmlSnippet": "Sims served as the CEO of <b>Codecademy</b>, overseeing the platform&#39;s growth and development into one of the leading online resources for learning to code. Biography.",
+      "formattedUrl": "https://en.wikipedia.org/wiki/Zach_Sims",
+      "htmlFormattedUrl": "https://en.wikipedia.org/wiki/Zach_Sims",
+      "pagemap": {
+        "hcard": [
+          {
+            "role": "Businessman",
+            "fn": "Zach Sims",
+            "category": "American"
+          }
+        ],
+        "person": [
+          {
+            "role": "Businessman"
+          }
+        ],
+        "metatags": [
+          {
+            "referrer": "origin",
+            "og:image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Zach_Sims%2C_Co-Founder%2C_Codecademy_%26_Bobbie_Johnson%2C_European_Correspondent%2C_GigaOM_%40_LeWeb_London_2012_Central_Hall_Westminster-0672_%28cropped%29.jpg/1200px-Zach_Sims%2C_Co-Founder%2C_Codecademy_%26_Bobbie_Johnson%2C_European_Correspondent%2C_GigaOM_%40_LeWeb_London_2012_Central_Hall_Westminster-0672_%28cropped%29.jpg",
+            "theme-color": "#eaecf0",
+            "og:image:width": "1200",
+            "og:type": "website",
+            "viewport": "width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0",
+            "og:title": "Zach Sims - Wikipedia",
+            "og:image:height": "1393",
+            "format-detection": "telephone=no"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "zach sims (@zsims) / X",
+      "htmlTitle": "zach sims (@zsims) / X",
+      "link": "https://x.com/zsims?lang=en",
+      "displayLink": "x.com",
+      "snippet": "exploring what's next. angel investor. former co-founder and ceo of @codecademy the easiest way to learn to code.",
+      "htmlSnippet": "exploring what&#39;s next. angel investor. former co-<b>founder</b> and ceo of @<b>codecademy</b> the easiest way to learn to code.",
+      "formattedUrl": "https://x.com/zsims?lang=en",
+      "htmlFormattedUrl": "https://x.com/zsims?lang=en",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReawhvzeKVbd-KLCCVg8JXY2SaUVEc741Abne1549aGNYpr9A5-QxhDrc&s",
+            "width": "200",
+            "height": "200"
+          }
+        ],
+        "imageobject": [
+          {
+            "contenturl": "https://pbs.twimg.com/media/Fxok6DsWAAEssee.jpg",
+            "width": "2000",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/Fxok6DsWAAEssee?format=jpg&name=thumb"
+          },
+          {
+            "contenturl": "https://pbs.twimg.com/media/GpE53kqbwAAeiGL.jpg",
+            "width": "1080",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/GpE53kqbwAAeiGL?format=jpg&name=thumb"
+          },
+          {
+            "contenturl": "https://pbs.twimg.com/media/Fxok6DsWAAEssee.jpg",
+            "width": "2000",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/Fxok6DsWAAEssee?format=jpg&name=thumb"
+          }
+        ],
+        "person": [
+          {
+            "identifier": "785691",
+            "givenname": "zach sims",
+            "additionalname": "zsims"
+          },
+          {
+            "identifier": "785691",
+            "givenname": "zach sims",
+            "additionalname": "zsims"
+          },
+          {
+            "identifier": "785691",
+            "givenname": "zach sims",
+            "additionalname": "zsims"
+          },
+          {
+            "identifier": "785691",
+            "givenname": "zach sims",
+            "additionalname": "zsims"
+          },
+          {
+            "identifier": "785691",
+            "givenname": "zach sims",
+            "additionalname": "zsims"
+          },
+          {
+            "identifier": "785691",
+            "givenname": "zach sims",
+            "additionalname": "zsims"
+          },
+          {
+            "identifier": "785691",
+            "givenname": "zach sims",
+            "additionalname": "zsims"
+          },
+          {
+            "identifier": "785691",
+            "givenname": "zach sims",
+            "additionalname": "zsims"
+          },
+          {
+            "identifier": "785691",
+            "givenname": "zach sims",
+            "additionalname": "zsims"
+          },
+          {
+            "identifier": "785691",
+            "givenname": "zach sims",
+            "additionalname": "zsims"
+          },
+          {
+            "identifier": "785691",
+            "givenname": "zach sims",
+            "additionalname": "zsims"
+          },
+          {
+            "identifier": "785691",
+            "givenname": "zach sims",
+            "additionalname": "zsims"
+          },
+          {
+            "identifier": "785691",
+            "givenname": "zach sims",
+            "additionalname": "zsims"
+          },
+          {
+            "identifier": "785691",
+            "givenname": "zach sims",
+            "additionalname": "zsims"
+          },
+          {
+            "identifier": "785691",
+            "givenname": "zach sims",
+            "additionalname": "zsims"
+          },
+          {
+            "identifier": "785691",
+            "givenname": "zach sims",
+            "additionalname": "zsims"
+          },
+          {
+            "identifier": "528239425",
+            "givenname": "Chris Frantz",
+            "disambiguatingdescription": "Loops.so",
+            "additionalname": "frantzfries"
+          },
+          {
+            "identifier": "785691",
+            "givenname": "zach sims",
+            "additionalname": "zsims"
+          },
+          {
+            "identifier": "785691",
+            "givenname": "zach sims",
+            "additionalname": "zsims"
+          },
+          {
+            "identifier": "785691",
+            "givenname": "zach sims",
+            "additionalname": "zsims"
+          }
+        ],
+        "interactioncounter": [
+          {
+            "userinteractioncount": "1317",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/zsims/status/1664690884829491200/likes"
+          },
+          {
+            "userinteractioncount": "105",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/zsims/status/1664690884829491200/retweets"
+          },
+          {
+            "userinteractioncount": "34",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/zsims/status/1664690884829491200/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "110",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/zsims/status/1664690884829491200"
+          },
+          {
+            "userinteractioncount": "358636",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "2",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/zsims/status/1935007396226564134/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/zsims/status/1935007396226564134/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/zsims/status/1935007396226564134/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/zsims/status/1935007396226564134"
+          },
+          {
+            "userinteractioncount": "795",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "9",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/zsims/status/1914379922493333738/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/zsims/status/1914379922493333738/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/zsims/status/1914379922493333738/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "2",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/zsims/status/1914379922493333738"
+          },
+          {
+            "userinteractioncount": "1366",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "14",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/zsims/status/1898179469783040147/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/zsims/status/1898179469783040147/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/zsims/status/1898179469783040147/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "5",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/zsims/status/1898179469783040147"
+          },
+          {
+            "userinteractioncount": "1564",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "16",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/zsims/status/1882582125897306444/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/zsims/status/1882582125897306444/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/zsims/status/1882582125897306444/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/zsims/status/1882582125897306444"
+          },
+          {
+            "userinteractioncount": "1676",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "21",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/zsims/status/1879625219016696036/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/zsims/status/1879625219016696036/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/zsims/status/1879625219016696036/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "3",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/zsims/status/1879625219016696036"
+          },
+          {
+            "userinteractioncount": "1166",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "13",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/zsims/status/1879625220446990636/likes"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/zsims/status/1879625220446990636/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/zsims/status/1879625220446990636/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/zsims/status/1879625220446990636"
+          },
+          {
+            "userinteractioncount": "787",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "17",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/zsims/status/1878905020655251495/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/zsims/status/1878905020655251495/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/zsims/status/1878905020655251495/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "11",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/zsims/status/1878905020655251495"
+          },
+          {
+            "userinteractioncount": "1911",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "25",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/zsims/status/1877483820800242145/likes"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/zsims/status/1877483820800242145/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/zsims/status/1877483820800242145/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "3",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/zsims/status/1877483820800242145"
+          },
+          {
+            "userinteractioncount": "3559",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "137",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/zsims/status/1877401370703102017/likes"
+          },
+          {
+            "userinteractioncount": "6",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/zsims/status/1877401370703102017/retweets"
+          },
+          {
+            "userinteractioncount": "9",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/zsims/status/1877401370703102017/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "13",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/zsims/status/1877401370703102017"
+          },
+          {
+            "userinteractioncount": "29571",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "14",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/zsims/status/1877401384599040278/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/zsims/status/1877401384599040278/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/zsims/status/1877401384599040278/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/zsims/status/1877401384599040278"
+          },
+          {
+            "userinteractioncount": "1243",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "5",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/zsims/status/1877407474577285529/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/zsims/status/1877407474577285529/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/zsims/status/1877407474577285529/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/zsims/status/1877407474577285529"
+          },
+          {
+            "userinteractioncount": "1017",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "21",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/zsims/status/1755747394505859380/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/zsims/status/1755747394505859380/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/zsims/status/1755747394505859380/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "2",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/zsims/status/1755747394505859380"
+          },
+          {
+            "userinteractioncount": "3946",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "531",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/zsims/status/1726157041490866638/likes"
+          },
+          {
+            "userinteractioncount": "22",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/zsims/status/1726157041490866638/retweets"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/zsims/status/1726157041490866638/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "10",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/zsims/status/1726157041490866638"
+          },
+          {
+            "userinteractioncount": "62789",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "36",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/zsims/status/1711562573425090850/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/zsims/status/1711562573425090850/retweets"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/zsims/status/1711562573425090850/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "4",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/zsims/status/1711562573425090850"
+          },
+          {
+            "userinteractioncount": "4693",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "639",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/frantzfries/status/1699316932493955300/likes"
+          },
+          {
+            "userinteractioncount": "34",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/frantzfries/status/1699316932493955300/retweets"
+          },
+          {
+            "userinteractioncount": "18",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/frantzfries/status/1699316932493955300/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "106",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/frantzfries/status/1699316932493955300"
+          },
+          {
+            "userinteractioncount": "189225",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "1317",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/zsims/status/1664690884829491200/likes"
+          },
+          {
+            "userinteractioncount": "105",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/zsims/status/1664690884829491200/retweets"
+          },
+          {
+            "userinteractioncount": "34",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/zsims/status/1664690884829491200/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "110",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/zsims/status/1664690884829491200"
+          },
+          {
+            "userinteractioncount": "358636",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "42",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/zsims/status/1664690906883330049/likes"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/zsims/status/1664690906883330049/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/zsims/status/1664690906883330049/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "11",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/zsims/status/1664690906883330049"
+          },
+          {
+            "userinteractioncount": "7293",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "28",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/zsims/status/1664834426168066049/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/zsims/status/1664834426168066049/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/zsims/status/1664834426168066049/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "5",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/zsims/status/1664834426168066049"
+          },
+          {
+            "userinteractioncount": "4528",
+            "interactiontype": "https://schema.org/ViewAction"
+          }
+        ],
+        "metatags": [
+          {
+            "apple-itunes-app": "app-id=333903271",
+            "og:image": "https://pbs.twimg.com/profile_images/1877142871675121665/zqLUPc_c_200x200.jpg",
+            "theme-color": "#FFFFFF",
+            "og:type": "profile",
+            "og:site_name": "X (formerly Twitter)",
+            "al:ios:app_name": "X",
+            "apple-mobile-web-app-title": "Twitter",
+            "og:title": "zach sims (@zsims) on X",
+            "al:android:package": "com.twitter.android",
+            "al:ios:url": "twitter://user?screen_name=zsims",
+            "title": "zach sims (@zsims) on X",
+            "og:description": "exploring what's next. angel investor. former co-founder and ceo of @codecademy the easiest way to learn to code.",
+            "al:ios:app_store_id": "333903271",
+            "facebook-domain-verification": "x6sdcc8b5ju3bh8nbm59eswogvg6t1",
+            "al:android:url": "twitter://user?screen_name=zsims",
+            "fb:app_id": "2231777543",
+            "apple-mobile-web-app-status-bar-style": "white",
+            "viewport": "width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover",
+            "mobile-web-app-capable": "yes",
+            "og:url": "https://x.com/zsims",
+            "al:android:app_name": "X"
+          }
+        ],
+        "videoobject": [
+          {
+            "duration": "PT0H0M7S",
+            "embedurl": "https://platform.twitter.com/embed/Tweet.html?dnt=false&embedId=twitter-widget-1&frame=false&hideCard=false&hideThread=false&lang=en&id=1934997551649828936",
+            "contenturl": "https://video.twimg.com/amplify_video/1934997171532931072/vid/avc1/1280x720/Ydw_7hkpv4c3Y3oB.mp4?tag=21",
+            "uploaddate": "2025-06-17T15:32:21.000Z",
+            "name": "@crosbylegal's video Tweet",
+            "description": "Embedded video",
+            "caption": "Embedded video",
+            "thumbnailurl": "https://pbs.twimg.com/amplify_video_thumb/1934997171532931072/img/e2mFeQG9iDbYYYMC.jpg"
+          },
+          {
+            "duration": "PT0H0M15S",
+            "embedurl": "https://platform.twitter.com/embed/Tweet.html?dnt=false&embedId=twitter-widget-1&frame=false&hideCard=false&hideThread=false&lang=en&id=1882490505080303750",
+            "contenturl": "https://video.twimg.com/amplify_video/1882490439552704512/vid/avc1/886x468/KEA9gwOntSNFlEyq.mp4?tag=16",
+            "uploaddate": "2025-01-23T18:08:06.000Z",
+            "name": "@AutismCapital's video Tweet",
+            "description": "Embedded video",
+            "caption": "Embedded video",
+            "thumbnailurl": "https://pbs.twimg.com/amplify_video_thumb/1882490439552704512/img/n4wK2g_katQyfhjl.jpg"
+          },
+          {
+            "duration": "PT1H0M33S",
+            "embedurl": "https://platform.twitter.com/embed/Tweet.html?dnt=false&embedId=twitter-widget-1&frame=false&hideCard=false&hideThread=false&lang=en&id=1877399897382797541",
+            "contenturl": "https://video.twimg.com/amplify_video/1877386194759176192/vid/avc1/1280x720/qpzsGCupdFeqG-H_.mp4?tag=14",
+            "uploaddate": "2025-01-09T16:59:50.000Z",
+            "name": "@dwarkesh_sp's video Tweet",
+            "description": "Embedded video",
+            "caption": "Embedded video",
+            "thumbnailurl": "https://pbs.twimg.com/media/Gg3egVoaMAAZfH1.jpg"
+          },
+          {
+            "duration": "PT0H0M45S",
+            "embedurl": "https://platform.twitter.com/embed/Tweet.html?dnt=false&embedId=twitter-widget-1&frame=false&hideCard=false&hideThread=false&lang=en&id=1755577484874330550",
+            "contenturl": "https://video.twimg.com/ext_tw_video/1755563970126356480/pu/vid/avc1/592x1280/pMAp5_xHJ7YxmPrq.mp4?tag=12",
+            "uploaddate": "2024-02-08T13:01:04.000Z",
+            "name": "@JackK's video Tweet",
+            "description": "Embedded video",
+            "caption": "Embedded video",
+            "thumbnailurl": "https://pbs.twimg.com/ext_tw_video_thumb/1755563970126356480/pu/img/3ocWBml2WAxlZGw9.jpg"
+          },
+          {
+            "duration": "PT0H0M48S",
+            "embedurl": "https://platform.twitter.com/embed/Tweet.html?dnt=false&embedId=twitter-widget-1&frame=false&hideCard=false&hideThread=false&lang=en&id=1699316932493955300",
+            "contenturl": "https://video.twimg.com/ext_tw_video/1699234509152043008/pu/vid/avc1/1280x720/Ny3yyatHvK2Ayg4E.mp4?tag=12",
+            "uploaddate": "2023-09-06T07:01:43.000Z",
+            "name": "@frantzfries's video Tweet",
+            "description": "Embedded video",
+            "caption": "Embedded video",
+            "thumbnailurl": "https://pbs.twimg.com/ext_tw_video_thumb/1699234509152043008/pu/img/Uxvy9Sc3Xd0ZakPq.jpg"
+          }
+        ],
+        "collection": [
+          {
+            "name": "Profile posts"
+          }
+        ],
+        "creativework": [
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/QJ8y8ky18Z"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/ghBwHdPHpt"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/F8A35aICwq"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/W7Q33LGoO9"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/QJ8y8ky18Z"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://pbs.twimg.com/profile_images/1877142871675121665/zqLUPc_c_200x200.jpg"
+          }
+        ],
+        "socialmediaposting": [
+          {
+            "identifier": "1664690884829491200",
+            "commentcount": "110",
+            "articlebody": "Today is my last day leading @Codecademy after 12 years. @ryanbubinski and I went from a prototype we hacked together in 3 weeks… To a business with more than 50m users that we sold for $500m+....",
+            "position": "1",
+            "datecreated": "2023-06-02T17:50:10.000Z",
+            "datepublished": "2023-06-02T17:50:10.000Z",
+            "url": "https://twitter.com/zsims/status/1664690884829491200"
+          },
+          {
+            "identifier": "1935007396226564134",
+            "commentcount": "1",
+            "articlebody": "pumped for @Ryanjdaniels and team @CrosbyLegal!",
+            "position": "2",
+            "datecreated": "2025-06-17T16:11:28.000Z",
+            "isbasedon": "https://twitter.com/crosbylegal/status/1934997551649828936",
+            "datepublished": "2025-06-17T16:11:28.000Z",
+            "url": "https://twitter.com/zsims/status/1935007396226564134"
+          },
+          {
+            "identifier": "1914379922493333738",
+            "commentcount": "2",
+            "articlebody": "excited for @maddiehalla and team @living_carbon!",
+            "position": "3",
+            "datecreated": "2025-04-21T18:05:15.000Z",
+            "isbasedon": "https://twitter.com/maddiehalla/status/1914378666475446697",
+            "datepublished": "2025-04-21T18:05:15.000Z",
+            "url": "https://twitter.com/zsims/status/1914379922493333738"
+          },
+          {
+            "identifier": "1898179469783040147",
+            "commentcount": "5",
+            "articlebody": "we have magical intelligence in the sky and magical internet from satellites and yet we cannot have reliable personal hotspots from our iPhones",
+            "position": "4",
+            "datecreated": "2025-03-08T01:10:26.000Z",
+            "datepublished": "2025-03-08T01:10:26.000Z",
+            "url": "https://twitter.com/zsims/status/1898179469783040147"
+          },
+          {
+            "identifier": "1882582125897306444",
+            "commentcount": "1",
+            "articlebody": "AI founder going back to their lead investor when the competitive term sheets hit",
+            "position": "5",
+            "datecreated": "2025-01-24T00:12:10.000Z",
+            "isbasedon": "https://twitter.com/AutismCapital/status/1882490505080303750",
+            "datepublished": "2025-01-24T00:12:10.000Z",
+            "url": "https://twitter.com/zsims/status/1882582125897306444"
+          },
+          {
+            "identifier": "1879625219016696036",
+            "commentcount": "3",
+            "articlebody": "tweeting as a founder used to be a negative signal. now going direct is table stakes. in a world where anyone can build software in plain english and the cost of execution is being driven down...",
+            "position": "6",
+            "datecreated": "2025-01-15T20:22:28.000Z",
+            "datepublished": "2025-01-15T20:22:28.000Z",
+            "url": "https://twitter.com/zsims/status/1879625219016696036"
+          },
+          {
+            "identifier": "1879625220446990636",
+            "commentcount": "1",
+            "articlebody": "i wrote more about this here:",
+            "ispartof": "https://twitter.com/zsims/status/1879625219016696036",
+            "position": "7",
+            "datecreated": "2025-01-15T20:22:28.000Z",
+            "datepublished": "2025-01-15T20:22:28.000Z",
+            "url": "https://twitter.com/zsims/status/1879625220446990636"
+          },
+          {
+            "identifier": "1878905020655251495",
+            "commentcount": "11",
+            "articlebody": "AI makes software development ~2x faster. yet our products aren't evolving 2x as fast. updates aren't arriving 2x as often. where is all this productivity going?",
+            "position": "8",
+            "datecreated": "2025-01-13T20:40:39.000Z",
+            "datepublished": "2025-01-13T20:40:39.000Z",
+            "url": "https://twitter.com/zsims/status/1878905020655251495"
+          },
+          {
+            "identifier": "1877483820800242145",
+            "commentcount": "3",
+            "articlebody": "the contrast between a dwarkesh pod (<1 hour, information dense, incisive) and nearly every other popular podcaster (>3.5 hours, meandering, overly flattering) is insane.",
+            "position": "9",
+            "datecreated": "2025-01-09T22:33:19.000Z",
+            "isbasedon": "https://twitter.com/dwarkesh_sp/status/1877399897382797541",
+            "datepublished": "2025-01-09T22:33:19.000Z",
+            "url": "https://twitter.com/zsims/status/1877483820800242145"
+          },
+          {
+            "identifier": "1877401370703102017",
+            "commentcount": "13",
+            "articlebody": "it's time to build (a new personal website) learn about me like you learned on codecademy: by doing (and by coding!) think i missed something? run contactMe() or edit the code yourself and...",
+            "position": "10",
+            "datecreated": "2025-01-09T17:05:41.000Z",
+            "datepublished": "2025-01-09T17:05:41.000Z",
+            "url": "https://twitter.com/zsims/status/1877401370703102017"
+          },
+          {
+            "identifier": "1877401384599040278",
+            "commentcount": "1",
+            "articlebody": "thanks to @alanaagoyal for some cool homepage inspo, and @brettberson, @Max, @marissa, @maddiehalla, @adamkaz, @harris, @_shahedk, @ankurnagpal, @shl, @JackK, @kunal_ahuja1510, @strandby, @jaredhec...",
+            "ispartof": "https://twitter.com/zsims/status/1877401378319909326",
+            "position": "11",
+            "datecreated": "2025-01-09T17:05:45.000Z",
+            "datepublished": "2025-01-09T17:05:45.000Z",
+            "url": "https://twitter.com/zsims/status/1877401384599040278"
+          },
+          {
+            "identifier": "1877407474577285529",
+            "commentcount": "0",
+            "articlebody": "i should mention it’s best on desktop!",
+            "ispartof": "https://twitter.com/zsims/status/1877401384599040278",
+            "position": "12",
+            "datecreated": "2025-01-09T17:29:57.000Z",
+            "datepublished": "2025-01-09T17:29:57.000Z",
+            "url": "https://twitter.com/zsims/status/1877407474577285529"
+          },
+          {
+            "identifier": "1755747394505859380",
+            "commentcount": "2",
+            "articlebody": "congrats @JackK and team! i’ve used gemini the past few months and it’s awesome.",
+            "position": "13",
+            "datecreated": "2024-02-09T00:16:13.000Z",
+            "isbasedon": "https://twitter.com/JackK/status/1755577484874330550",
+            "datepublished": "2024-02-09T00:16:13.000Z",
+            "url": "https://twitter.com/zsims/status/1755747394505859380"
+          },
+          {
+            "identifier": "1726157041490866638",
+            "commentcount": "10",
+            "articlebody": ".@sama was the first person to invest in and believe in us at @Codecademy. he’s been an inspiration and driving force behind many founders since then and went on to change the world with...",
+            "position": "14",
+            "datecreated": "2023-11-19T08:34:43.000Z",
+            "datepublished": "2023-11-19T08:34:43.000Z",
+            "url": "https://twitter.com/zsims/status/1726157041490866638"
+          },
+          {
+            "identifier": "1711562573425090850",
+            "commentcount": "4",
+            "articlebody": "I stand with Israel in the fight against terrorism and the slaughter of innocent civilians. Hamas’ terrible terrorist attack on innocent civilians is despicable and gut wrenching.",
+            "position": "15",
+            "datecreated": "2023-10-10T02:01:31.000Z",
+            "datepublished": "2023-10-10T02:01:31.000Z",
+            "url": "https://twitter.com/zsims/status/1711562573425090850"
+          },
+          {
+            "identifier": "1699457374447161583",
+            "position": "16",
+            "datecreated": "2023-09-06T16:19:47.000Z",
+            "datepublished": "2023-09-06T16:19:47.000Z"
+          },
+          {
+            "identifier": "1699316932493955300",
+            "commentcount": "106",
+            "articlebody": "Loops is live on Product Hunt today! Power your marketing and transactional email in one simple interface. We love building this product, and we hope you love using it just as much. https://product...",
+            "datecreated": "2023-09-06T07:01:43.000Z",
+            "datepublished": "2023-09-06T07:01:43.000Z",
+            "url": "https://twitter.com/frantzfries/status/1699316932493955300"
+          },
+          {
+            "identifier": "1664690884829491200",
+            "commentcount": "110",
+            "articlebody": "Today is my last day leading @Codecademy after 12 years. @ryanbubinski and I went from a prototype we hacked together in 3 weeks… To a business with more than 50m users that we sold for $500m+....",
+            "position": "17",
+            "datecreated": "2023-06-02T17:50:10.000Z",
+            "datepublished": "2023-06-02T17:50:10.000Z",
+            "url": "https://twitter.com/zsims/status/1664690884829491200"
+          },
+          {
+            "identifier": "1664690906883330049",
+            "commentcount": "11",
+            "articlebody": "Most of all, thanks to our amazing learners for trusting us with your future. It's been the honor of a lifetime to help many of you go from nothing to living your dream career. If you have...",
+            "ispartof": "https://twitter.com/zsims/status/1664690904609816578",
+            "position": "18",
+            "datecreated": "2023-06-02T17:50:15.000Z",
+            "datepublished": "2023-06-02T17:50:15.000Z",
+            "url": "https://twitter.com/zsims/status/1664690906883330049"
+          },
+          {
+            "identifier": "1664834426168066049",
+            "commentcount": "5",
+            "articlebody": "a massive thanks as well a few folks who were believers in me and @Codecademy even before day one — @sama, @alexisohanian, @garrytan, @yurimilner_, @jaredhecht, and @smart. thank you!",
+            "ispartof": "https://twitter.com/zsims/status/1664690906883330049",
+            "position": "19",
+            "datecreated": "2023-06-03T03:20:32.000Z",
+            "datepublished": "2023-06-03T03:20:32.000Z",
+            "url": "https://twitter.com/zsims/status/1664834426168066049"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "How codecademy helped me build a website from scratch! - Careers ...",
+      "htmlTitle": "How <b>codecademy</b> helped me build a website from scratch! - Careers ...",
+      "link": "https://discuss.codecademy.com/t/how-codecademy-helped-me-build-a-website-from-scratch/8787",
+      "displayLink": "discuss.codecademy.com",
+      "snippet": "Nov 5, 2015 ... Hi, I am Jaskaran Rana, a long time codecademy user and the founder of EDM Hunters, a music discovery website for electronic dance music and ...",
+      "htmlSnippet": "Nov 5, 2015 <b>...</b> Hi, I am Jaskaran Rana, a long time <b>codecademy</b> user and the <b>founder</b> of EDM Hunters, a music discovery website for electronic dance music and&nbsp;...",
+      "formattedUrl": "https://discuss.codecademy.com/t/how-codecademy-helped-me.../8787",
+      "htmlFormattedUrl": "https://discuss.<b>codecademy</b>.com/t/how-<b>codecademy</b>-helped-me.../8787",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdMVHZacJkKDRISIeCIdpmDLloB4o_lJwQlMKMzXpgoT6aLZKnxjWBRDA&s",
+            "width": "224",
+            "height": "224"
+          }
+        ],
+        "imageobject": [
+          {
+            "url": "https://global.discourse-cdn.com/codecademy/original/5X/8/2/e/1/82e1c9b48b35030df14f600f853ff7f6ff9d2db3.png"
+          }
+        ],
+        "person": [
+          {
+            "name": "jaskaran27",
+            "url": "jaskaran27"
+          },
+          {
+            "name": "sidman01",
+            "url": "sidman01"
+          },
+          {
+            "name": "jaskaran27",
+            "url": "jaskaran27"
+          },
+          {
+            "name": "amanuel2",
+            "url": "amanuel2"
+          },
+          {
+            "name": "jaskaran27",
+            "url": "jaskaran27"
+          },
+          {
+            "name": "samm212",
+            "url": "samm212"
+          }
+        ],
+        "organization": [
+          {
+            "name": "Codecademy"
+          }
+        ],
+        "interactioncounter": [
+          {
+            "userinteractioncount": "17",
+            "interactiontype": "http://schema.org/LikeAction"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "http://schema.org/LikeAction"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "http://schema.org/LikeAction"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "http://schema.org/LikeAction"
+          },
+          {
+            "userinteractioncount": "3",
+            "interactiontype": "http://schema.org/LikeAction"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "http://schema.org/LikeAction"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://global.discourse-cdn.com/codecademy/original/5X/a/7/1/f/a71f5780c534b8953e8040398dd90f53205d826a.jpeg",
+            "theme-color": "#ffffff",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "How codecademy helped me build a website from scratch!",
+            "article:published_time": "2015-11-05T21:05:54+00:00",
+            "og:site_name": "Codecademy Forums",
+            "twitter:url": "https://discuss.codecademy.com/t/how-codecademy-helped-me-build-a-website-from-scratch/8787",
+            "og:title": "How codecademy helped me build a website from scratch!",
+            "color-scheme": "light",
+            "og:description": "Hi,  I am Jaskaran Rana, a long time codecademy user and the founder of EDM Hunters, a music discovery website for electronic dance music and I’d love to give you a highlight of my story.  Past -   Studied Computer Science in Manipal Institute of Technology, India from 2010-2014 Didn’t know how to code up until my final year, had a 5.0 GPA (we have GPA on a scale of 10 in India) and was barely passing my exams. The way the course was taught, I just couldn’t learn or pay attention in class. Start...",
+            "twitter:image": "https://global.discourse-cdn.com/codecademy/original/5X/a/7/1/f/a71f5780c534b8953e8040398dd90f53205d826a.jpeg",
+            "og:ignore_canonical": "true",
+            "viewport": "width=device-width, initial-scale=1.0, minimum-scale=1.0, viewport-fit=cover",
+            "twitter:description": "Hi,  I am Jaskaran Rana, a long time codecademy user and the founder of EDM Hunters, a music discovery website for electronic dance music and I’d love to give you a highlight of my story.  Past -   Studied Computer Science in Manipal Institute of Technology, India from 2010-2014 Didn’t know how to code up until my final year, had a 5.0 GPA (we have GPA on a scale of 10 in India) and was barely passing my exams. The way the course was taught, I just couldn’t learn or pay attention in class. Start...",
+            "og:article:section": "Community",
+            "og:url": "https://discuss.codecademy.com/t/how-codecademy-helped-me-build-a-website-from-scratch/8787",
+            "og:article:section:color": "4FE0B0"
+          }
+        ],
+        "discussionforumposting": [
+          {
+            "datemodified": "2018-09-20T20:56:14Z",
+            "articlesection": "Careers, Journeys, and Stories",
+            "position": "1",
+            "text": "Hi, I am Jaskaran Rana, a long time codecademy user and the founder of EDM Hunters, a music discovery website for electronic dance music and I’d love to give you a highlight of my story....",
+            "headline": "How codecademy helped me build a website from scratch!",
+            "url": "https://discuss.codecademy.com/t/how-codecademy-helped-me-build-a-website-from-scratch/8787",
+            "datepublished": "2015-11-05T21:05:54Z",
+            "mainentityofpage": "https://discuss.codecademy.com/t/how-codecademy-helped-me-build-a-website-from-scratch/8787"
+          }
+        ],
+        "comment": [
+          {
+            "datemodified": "2015-11-13T17:43:28Z",
+            "position": "2",
+            "text": "you had to work really hard to make this amazing website !!!",
+            "datepublished": "2015-11-13T17:43:28Z"
+          },
+          {
+            "datemodified": "2015-12-29T16:22:11Z",
+            "position": "4",
+            "text": "How and why did you get started with coding? I was always fascinated by the concept of being able to build stuff on your own, so I was always inclined towards learning how to code and being...",
+            "datepublished": "2015-12-29T16:22:11Z"
+          },
+          {
+            "datemodified": "2015-12-29T16:23:42Z",
+            "position": "5",
+            "text": "Wow what an awesome journey, must have felt very good! , At the end i mean… May i know your stack account? I have one two listed in my profile",
+            "datepublished": "2015-12-29T16:23:42Z"
+          },
+          {
+            "image": "https://global.discourse-cdn.com/codecademy/original/5X/e/9/d/9/e9d9e693fc9fab293d00c9916c4e8a8bfb1c6017.jpeg",
+            "datemodified": "2021-04-23T00:40:03Z",
+            "position": "6",
+            "text": "1152×768 244 KB 1436×708 271 KB 1440×710 232 KB",
+            "datepublished": "2015-12-29T17:26:55Z"
+          },
+          {
+            "datemodified": "2016-01-13T03:34:27Z",
+            "position": "7",
+            "text": "Congratulations!! Hard work pays off.",
+            "datepublished": "2016-01-13T03:34:27Z"
+          }
+        ],
+        "itemlist": [
+          {
+            "itemlistorder": "http://schema.org/ItemListOrderDescending"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://global.discourse-cdn.com/codecademy/original/5X/a/7/1/f/a71f5780c534b8953e8040398dd90f53205d826a.jpeg"
+          }
+        ],
+        "sitenavigationelement": [
+          {
+            "name": "Home",
+            "url": "Home"
+          },
+          {
+            "name": "Categories",
+            "url": "Categories"
+          },
+          {
+            "name": "Guidelines",
+            "url": "Guidelines"
+          },
+          {
+            "name": "Terms of Service",
+            "url": "Terms of Service"
+          },
+          {
+            "name": "Privacy Policy",
+            "url": "Privacy Policy"
+          }
+        ],
+        "listitem": [
+          {
+            "item": "Community",
+            "name": "Community",
+            "position": "1"
+          },
+          {
+            "item": "Careers, Journeys, and Stories",
+            "name": "Careers, Journeys, and Stories",
+            "position": "2"
+          },
+          {
+            "position": "2",
+            "url": "About this category + our top stories"
+          },
+          {
+            "position": "1",
+            "url": "Codecademy is the starting point of an exciting journey"
+          },
+          {
+            "position": "2",
+            "url": "From working in Telesales in the UK to being a Web & Digital Developer for Citi in New York in 18 months"
+          },
+          {
+            "position": "3",
+            "url": "About this category + our top stories"
+          },
+          {
+            "position": "4",
+            "url": "Codecademy got me started"
+          },
+          {
+            "position": "5",
+            "url": "Web Developer and Aspiring Data Scientist at 13. Thank you Codecademy"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "BWP Ep. 1: Codecademy w/ Zach Sims | by Meagan Loyst | Building ...",
+      "htmlTitle": "BWP Ep. 1: <b>Codecademy</b> w/ Zach Sims | by Meagan Loyst | Building ...",
+      "link": "https://medium.com/building-with-purpose/bwp-ep-1-codecademy-w-zach-sims-e923107a4ae1",
+      "displayLink": "medium.com",
+      "snippet": "Oct 20, 2020 ... NYC founders. Education enthusiasts. This one's for you! Press ... A Conversation with Zach Sims: CEO/Co-Founder of Codecademy. First ...",
+      "htmlSnippet": "Oct 20, 2020 <b>...</b> NYC <b>founders</b>. Education enthusiasts. This one&#39;s for you! Press ... A Conversation with Zach Sims: CEO/Co-<b>Founder</b> of <b>Codecademy</b>. First&nbsp;...",
+      "formattedUrl": "https://medium.com/.../bwp-ep-1-codecademy-w-zach-sims-e923107a4ae1",
+      "htmlFormattedUrl": "https://medium.com/.../bwp-ep-1-<b>codecademy</b>-w-zach-sims-e923107a4ae1",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA5LcNZkdpdFyu2eVErh-NYy0XvovKMLZSx172P_oWcMbO14YzhLqc4Sc&s",
+            "width": "364",
+            "height": "138"
+          }
+        ],
+        "metatags": [
+          {
+            "apple-itunes-app": "app-id=828256236, app-argument=/building-with-purpose/bwp-ep-1-codecademy-w-zach-sims-e923107a4ae1, affiliate-data=pt=698524&ct=smart_app_banner&mt=8",
+            "og:image": "https://miro.medium.com/v2/resize:fit:1200/1*RN7iv6WcdjdtgC8jmzhnYQ.png",
+            "twitter:app:url:iphone": "medium://p/e923107a4ae1",
+            "theme-color": "#000000",
+            "article:published_time": "2020-10-20T16:14:17.327Z",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Medium",
+            "al:android:package": "com.medium.reader",
+            "twitter:label1": "Reading time",
+            "twitter:app:id:iphone": "828256236",
+            "title": "BWP Ep. 1: Codecademy w/ Zach Sims | by Meagan Loyst | Building with Purpose | Medium",
+            "al:ios:url": "medium://p/e923107a4ae1",
+            "og:description": "by Meagan Loyst, Early Stage VC at Lerer Hippeau",
+            "al:ios:app_store_id": "828256236",
+            "twitter:data1": "9 min read",
+            "twitter:site": "@meaganloyst",
+            "og:type": "article",
+            "twitter:title": "BWP Ep. 1: Codecademy w/ Zach Sims",
+            "al:ios:app_name": "Medium",
+            "author": "Meagan Loyst",
+            "og:title": "BWP Ep. 1: Codecademy w/ Zach Sims",
+            "al:web:url": "https://medium.com/building-with-purpose/bwp-ep-1-codecademy-w-zach-sims-e923107a4ae1",
+            "article:author": "https://meaganloyst.medium.com",
+            "twitter:image:src": "https://miro.medium.com/v2/resize:fit:1200/1*RN7iv6WcdjdtgC8jmzhnYQ.png",
+            "al:android:url": "medium://p/e923107a4ae1",
+            "referrer": "unsafe-url",
+            "fb:app_id": "542599432471018",
+            "viewport": "width=device-width,minimum-scale=1,initial-scale=1,maximum-scale=1",
+            "twitter:description": "by Meagan Loyst, Early Stage VC at Lerer Hippeau",
+            "og:url": "https://medium.com/building-with-purpose/bwp-ep-1-codecademy-w-zach-sims-e923107a4ae1",
+            "twitter:app:name:iphone": "Medium",
+            "al:android:app_name": "Medium"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://miro.medium.com/v2/resize:fit:1200/1*RN7iv6WcdjdtgC8jmzhnYQ.png"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,2670 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - \"HackerRank\" founders",
+        "totalResults": "252000",
+        "searchTerms": "\"HackerRank\" founders",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - \"HackerRank\" founders",
+        "totalResults": "252000",
+        "searchTerms": "\"HackerRank\" founders",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ]
+  },
+  "context": {
+    "title": "startup-ecosystem-intelligence"
+  },
+  "searchInformation": {
+    "searchTime": 0.133563,
+    "formattedSearchTime": "0.13",
+    "totalResults": "252000",
+    "formattedTotalResults": "252,000"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "I'm Vivek, founder/CEO of HackerRank. I was a developer myself ...",
+      "htmlTitle": "I&#39;m Vivek, <b>founder</b>/CEO of <b>HackerRank</b>. I was a developer myself ...",
+      "link": "https://www.reddit.com/r/cscareerquestions/comments/6x1urp/im_vivek_founderceo_of_hackerrank_i_was_a/",
+      "displayLink": "www.reddit.com",
+      "snippet": "Aug 30, 2017 ... I'm Vivek, founder/CEO of HackerRank. I was a developer myself and wanted to build a product that can match developers to the right jobs. Happy ...",
+      "htmlSnippet": "Aug 30, 2017 <b>...</b> I&#39;m Vivek, <b>founder</b>/CEO of <b>HackerRank</b>. I was a developer myself and wanted to build a product that can match developers to the right jobs. Happy&nbsp;...",
+      "formattedUrl": "https://www.reddit.com/r/.../im_vivek_founderceo_of_hackerrank_i_was_a...",
+      "htmlFormattedUrl": "https://www.reddit.com/r/.../im_vivek_founderceo_of_<b>hackerrank</b>_i_was_a...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUtZWhRm8uWnlvgEHl5A_ZRti5S_ob8BcmEez6WPajWVxN03joOQke2Rc&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://share.redd.it/preview/post/6x1urp",
+            "theme-color": "#000000",
+            "og:image:width": "1200",
+            "og:type": "website",
+            "og:image:alt": "An image containing a preview of the post",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "r/cscareerquestions on Reddit: I'm Vivek, founder/CEO of HackerRank. I was a developer myself and wanted to build a product that can match developers to the right jobs. Happy to answer any questions on HackerRank",
+            "og:site_name": "Reddit",
+            "og:title": "r/cscareerquestions on Reddit: I'm Vivek, founder/CEO of HackerRank. I was a developer myself and wanted to build a product that can match developers to the right jobs. Happy to answer any questions on HackerRank",
+            "og:image:height": "630",
+            "msapplication-navbutton-color": "#000000",
+            "og:description": "Posted by u/rvivek - 618 votes and 195 comments",
+            "twitter:image": "https://share.redd.it/preview/post/6x1urp",
+            "apple-mobile-web-app-status-bar-style": "black",
+            "twitter:site": "@reddit",
+            "viewport": "width=device-width, initial-scale=1, viewport-fit=cover",
+            "apple-mobile-web-app-capable": "yes",
+            "og:ttl": "600",
+            "og:url": "https://www.reddit.com/r/cscareerquestions/comments/6x1urp/im_vivek_founderceo_of_hackerrank_i_was_a/?seeker-session=true"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.redditstatic.com/avatars/defaults/v2/avatar_default_0.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Vivek Ravisankar - HackerRank | LinkedIn",
+      "htmlTitle": "Vivek Ravisankar - <b>HackerRank</b> | LinkedIn",
+      "link": "https://www.linkedin.com/in/vivekravisankar",
+      "displayLink": "www.linkedin.com",
+      "snippet": "Co-founder & CEO of HackerRank. · Experience: HackerRank · Education: National Institute of Technology, Tiruchirappalli · Location: Mountain View · 500+ ...",
+      "htmlSnippet": "Co-<b>founder</b> &amp; CEO of <b>HackerRank</b>. · Experience: <b>HackerRank</b> · Education: National Institute of Technology, Tiruchirappalli · Location: Mountain View · 500+&nbsp;...",
+      "formattedUrl": "https://www.linkedin.com/in/vivekravisankar",
+      "htmlFormattedUrl": "https://www.linkedin.com/in/vivekravisankar",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBbZqIAMFPlPJUIAHQsAAhF3PnRTGi5vSOKvouCq8SWSO-x5Jjm_92VYV8&s",
+            "width": "200",
+            "height": "200"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://media.licdn.com/dms/image/v2/D5603AQH-LE0xwiCgUw/profile-displayphoto-scale_200_200/B56ZhdKLtZH0AY-/0/1753909608091?e=2147483647&v=beta&t=b2SYmRK_XkvYlMqHKp6cBUnBCn9XpHeL84fwOuukKws",
+            "twitter:card": "summary",
+            "linkedin:pagetag": "openToProvider",
+            "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+            "al:android:package": "com.linkedin.android",
+            "bingbot": "nocache",
+            "locale": "en_US",
+            "al:ios:url": "https://www.linkedin.com/in/vivekravisankar",
+            "og:description": "Co-founder &amp; CEO of HackerRank. · Experience: HackerRank · Education: National Institute of Technology, Tiruchirappalli · Location: Mountain View · 500+ connections on LinkedIn. View Vivek Ravisankar’s profile on LinkedIn, a professional community of 1 billion members.",
+            "al:ios:app_store_id": "288429040",
+            "platform": "https://static.licdn.com/aero-v1/sc/h/4nm9pu95jzy03fx73wtc0vlru",
+            "twitter:image": "https://media.licdn.com/dms/image/v2/D5603AQH-LE0xwiCgUw/profile-displayphoto-scale_200_200/B56ZhdKLtZH0AY-/0/1753909608091?e=2147483647&v=beta&t=b2SYmRK_XkvYlMqHKp6cBUnBCn9XpHeL84fwOuukKws",
+            "profile:last_name": "Ravisankar",
+            "twitter:site": "@Linkedin",
+            "litmsprofilename": "public-profile-frontend",
+            "profile:first_name": "Vivek",
+            "og:type": "profile",
+            "twitter:title": "Vivek Ravisankar - HackerRank | LinkedIn",
+            "al:ios:app_name": "LinkedIn",
+            "og:title": "Vivek Ravisankar - HackerRank | LinkedIn",
+            "pagekey": "public_profile_v3_mobile",
+            "al:android:url": "https://www.linkedin.com/in/vivekravisankar",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "twitter:description": "Co-founder &amp; CEO of HackerRank. · Experience: HackerRank · Education: National Institute of Technology, Tiruchirappalli · Location: Mountain View · 500+ connections on LinkedIn. View Vivek Ravisankar’s profile on LinkedIn, a professional community of 1 billion members.",
+            "ubba": "https://static.licdn.com/aero-v1/sc/h/6314rx53vzqnwyjpjmgri18gg",
+            "og:url": "https://www.linkedin.com/in/vivekravisankar",
+            "al:android:app_name": "LinkedIn"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://media.licdn.com/dms/image/v2/D5603AQH-LE0xwiCgUw/profile-displayphoto-scale_200_200/B56ZhdKLtZH0AY-/0/1753909608091?e=2147483647&v=beta&t=b2SYmRK_XkvYlMqHKp6cBUnBCn9XpHeL84fwOuukKws"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Our Team",
+      "htmlTitle": "Our Team",
+      "link": "https://www.hackerrank.com/about-us/our-team",
+      "displayLink": "www.hackerrank.com",
+      "snippet": "Co-founder & CEO · Harishankaran Karunanidhi. Co-founder and CTO · Preeti Negi. Vice ... © HackerRank 2025 All Rights Reserved. Privacy PolicyTerms of Service. ‍",
+      "htmlSnippet": "Co-<b>founder</b> &amp; CEO &middot; Harishankaran Karunanidhi. Co-<b>founder</b> and CTO &middot; Preeti Negi. Vice ... © <b>HackerRank</b> 2025 All Rights Reserved. Privacy PolicyTerms of Service. ‍",
+      "formattedUrl": "https://www.hackerrank.com/about-us/our-team",
+      "htmlFormattedUrl": "https://www.<b>hackerrank</b>.com/about-us/our-team",
+      "pagemap": {
+        "metatags": [
+          {
+            "twitter:title": "Our Team",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:title": "Our Team"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "HackerRank - Wikipedia",
+      "htmlTitle": "<b>HackerRank</b> - Wikipedia",
+      "link": "https://en.wikipedia.org/wiki/HackerRank",
+      "displayLink": "en.wikipedia.org",
+      "snippet": "HackerRank · Vivek Ravisankar · Harishankaran Karunanidhi.",
+      "htmlSnippet": "<b>HackerRank</b> &middot; Vivek Ravisankar &middot; Harishankaran Karunanidhi.",
+      "formattedUrl": "https://en.wikipedia.org/wiki/HackerRank",
+      "htmlFormattedUrl": "https://en.wikipedia.org/wiki/<b>HackerRank</b>",
+      "pagemap": {
+        "hcard": [
+          {
+            "url_text": "www.hackerrank.com",
+            "fn": "HackerRank",
+            "nickname": "Interview Street, Inc.",
+            "url": "www.hackerrank.com"
+          }
+        ],
+        "metatags": [
+          {
+            "referrer": "origin",
+            "og:image": "https://upload.wikimedia.org/wikipedia/commons/4/40/HackerRank_Icon-1000px.png",
+            "theme-color": "#eaecf0",
+            "og:image:width": "1200",
+            "og:type": "website",
+            "viewport": "width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0",
+            "og:title": "HackerRank - Wikipedia",
+            "og:image:height": "1200",
+            "format-detection": "telephone=no"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "AMA with Hari, CTO at HackerRank : r/developersIndia",
+      "htmlTitle": "AMA with Hari, CTO at <b>HackerRank</b> : r/developersIndia",
+      "link": "https://www.reddit.com/r/developersIndia/comments/15i06es/ama_with_hari_cto_at_hackerrank/",
+      "displayLink": "www.reddit.com",
+      "snippet": "Aug 4, 2023 ... I'm Harishankaran K (prefer Hari), Co-founder and CTO at HackerRank. Writing code has been my passion from the very beginning, and it's incredibly fulfilling.",
+      "htmlSnippet": "Aug 4, 2023 <b>...</b> I&#39;m <b>Harishankaran K (prefer Hari)</b>, Co-<b>founder</b> and CTO at <b>HackerRank</b>. Writing code has been my passion from the very beginning, and it&#39;s incredibly fulfilling.",
+      "formattedUrl": "https://www.reddit.com/r/.../comments/.../ama_with_hari_cto_at_hackerran...",
+      "htmlFormattedUrl": "https://www.reddit.com/r/.../comments/.../ama_with_hari_cto_at_<b>hackerran</b>...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQJ0mh0vEMtU0q-k68Q3MsPXTghMd71HX11Z0QKmp9v1yrGUDDMy2uHJ8&s",
+            "width": "194",
+            "height": "259"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://share.redd.it/preview/post/15i06es",
+            "theme-color": "#000000",
+            "og:image:width": "1200",
+            "og:type": "website",
+            "og:image:alt": "An image containing a preview of the post",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "r/developersIndia on Reddit: AMA with Hari, CTO at HackerRank",
+            "og:site_name": "Reddit",
+            "og:title": "r/developersIndia on Reddit: AMA with Hari, CTO at HackerRank",
+            "og:image:height": "630",
+            "msapplication-navbutton-color": "#000000",
+            "og:description": "Posted by u/sp2hari - 411 votes and 124 comments",
+            "twitter:image": "https://share.redd.it/preview/post/15i06es",
+            "apple-mobile-web-app-status-bar-style": "black",
+            "twitter:site": "@reddit",
+            "viewport": "width=device-width, initial-scale=1, viewport-fit=cover",
+            "apple-mobile-web-app-capable": "yes",
+            "og:ttl": "600",
+            "og:url": "https://www.reddit.com/r/developersIndia/comments/15i06es/ama_with_hari_cto_at_hackerrank/?seeker-session=true"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://preview.redd.it/ama-with-hari-cto-at-hackerrank-v0-1nofc26ni3gb1.jpg?width=3024&format=pjpg&auto=webp&s=6a1cea289b7655b515d91892c15e715990174ba3"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Harishankaran (@sp2hari) / X",
+      "htmlTitle": "Harishankaran (@sp2hari) / X",
+      "link": "https://x.com/sp2hari?lang=en",
+      "displayLink": "x.com",
+      "snippet": "Mar 30, 2024 ... Co-founder & CTO @ HackerRank https://t.co/e91x9Ub9nM.",
+      "htmlSnippet": "Mar 30, 2024 <b>...</b> Co-<b>founder</b> &amp; CTO @ <b>HackerRank</b> https://t.co/e91x9Ub9nM.",
+      "formattedUrl": "https://x.com/sp2hari?lang=en",
+      "htmlFormattedUrl": "https://x.com/sp2hari?lang=en",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4P8ThFIKaH_tEx2QlwcK9jLuuXQMCLh9EYcDk0TvFwXVqrb4lQQEyNMw&s",
+            "width": "200",
+            "height": "200"
+          }
+        ],
+        "imageobject": [
+          {
+            "contenturl": "https://pbs.twimg.com/media/GkNUB6qXcAACPgY.jpg",
+            "width": "1536",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/GkNUB6qXcAACPgY?format=jpg&name=thumb"
+          },
+          {
+            "contenturl": "https://pbs.twimg.com/media/F90-bXEaAAAJd7k.jpg",
+            "width": "3240",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/F90-bXEaAAAJd7k?format=jpg&name=thumb"
+          },
+          {
+            "contenturl": "https://pbs.twimg.com/media/F2qzmjjbUAALBoj.jpg",
+            "width": "2523",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/F2qzmjjbUAALBoj?format=jpg&name=thumb"
+          },
+          {
+            "contenturl": "https://pbs.twimg.com/media/F2Hl7dFbIAAm_0n.jpg",
+            "width": "1080",
+            "caption": "Join HackerRank's CTO Harishankaran K: An AMA on Tech, Software Engineering, Startups & More - August 4, 7:00 pm IST!",
+            "thumbnailurl": "https://pbs.twimg.com/media/F2Hl7dFbIAAm_0n?format=jpg&name=thumb"
+          },
+          {
+            "contenturl": "https://pbs.twimg.com/media/F0bplZ3aIAECCtp.jpg",
+            "width": "4032",
+            "caption": "Ishan presenting",
+            "thumbnailurl": "https://pbs.twimg.com/media/F0bplZ3aIAECCtp?format=jpg&name=thumb"
+          },
+          {
+            "contenturl": "https://pbs.twimg.com/media/FrQyV8FagAIbab7.jpg",
+            "width": "1108",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/FrQyV8FagAIbab7?format=jpg&name=thumb"
+          },
+          {
+            "contenturl": "https://pbs.twimg.com/media/FnzTiulaYAc7dkt.jpg",
+            "width": "1152",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/FnzTiulaYAc7dkt?format=jpg&name=thumb"
+          },
+          {
+            "contenturl": "https://pbs.twimg.com/media/FndY2QQXoAE9NBa.jpg",
+            "width": "2016",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/FndY2QQXoAE9NBa?format=jpg&name=thumb"
+          },
+          {
+            "contenturl": "https://pbs.twimg.com/media/FnJR2z0acAArol6.jpg",
+            "width": "1080",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/FnJR2z0acAArol6?format=jpg&name=thumb"
+          },
+          {
+            "contenturl": "https://pbs.twimg.com/media/FnJRwHCaAAA4lN2.jpg",
+            "width": "1536",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/FnJRwHCaAAA4lN2?format=jpg&name=thumb"
+          },
+          {
+            "contenturl": "https://pbs.twimg.com/media/FnJRwHAacAIKWG1.jpg",
+            "width": "1536",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/FnJRwHAacAIKWG1?format=jpg&name=thumb"
+          },
+          {
+            "contenturl": "https://pbs.twimg.com/media/FnJRwHWagAcfz0a.jpg",
+            "width": "1536",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/FnJRwHWagAcfz0a?format=jpg&name=thumb"
+          },
+          {
+            "contenturl": "https://pbs.twimg.com/media/FnJRwHAaAAEWiAn.jpg",
+            "width": "2048",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/FnJRwHAaAAEWiAn?format=jpg&name=thumb"
+          },
+          {
+            "contenturl": "https://pbs.twimg.com/media/FkR8S_NaMAEVtyh.png",
+            "width": "700",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/FkR8S_NaMAEVtyh?format=jpg&name=thumb"
+          }
+        ],
+        "person": [
+          {
+            "identifier": "4496621",
+            "givenname": "Harishankaran",
+            "additionalname": "sp2hari"
+          },
+          {
+            "identifier": "4496621",
+            "givenname": "Harishankaran",
+            "additionalname": "sp2hari"
+          },
+          {
+            "identifier": "1151420731747524608",
+            "givenname": "Adyasha",
+            "additionalname": "Adyasha8105"
+          },
+          {
+            "identifier": "4496621",
+            "givenname": "Harishankaran",
+            "additionalname": "sp2hari"
+          },
+          {
+            "identifier": "598157131",
+            "givenname": "HackerRank",
+            "additionalname": "hackerrank"
+          },
+          {
+            "identifier": "4496621",
+            "givenname": "Harishankaran",
+            "additionalname": "sp2hari"
+          },
+          {
+            "identifier": "598157131",
+            "givenname": "HackerRank",
+            "additionalname": "hackerrank"
+          },
+          {
+            "identifier": "4496621",
+            "givenname": "Harishankaran",
+            "additionalname": "sp2hari"
+          },
+          {
+            "identifier": "598157131",
+            "givenname": "HackerRank",
+            "additionalname": "hackerrank"
+          },
+          {
+            "identifier": "4496621",
+            "givenname": "Harishankaran",
+            "additionalname": "sp2hari"
+          },
+          {
+            "identifier": "4496621",
+            "givenname": "Harishankaran",
+            "additionalname": "sp2hari"
+          },
+          {
+            "identifier": "598157131",
+            "givenname": "HackerRank",
+            "additionalname": "hackerrank"
+          },
+          {
+            "identifier": "4496621",
+            "givenname": "Harishankaran",
+            "additionalname": "sp2hari"
+          },
+          {
+            "identifier": "1484834915971928065",
+            "givenname": "The developersIndia Community",
+            "additionalname": "devsinindia"
+          },
+          {
+            "identifier": "4496621",
+            "givenname": "Harishankaran",
+            "additionalname": "sp2hari"
+          },
+          {
+            "identifier": "90151483",
+            "givenname": "Tejas Kumar",
+            "additionalname": "TejasKumar_"
+          },
+          {
+            "identifier": "4496621",
+            "givenname": "Harishankaran",
+            "additionalname": "sp2hari"
+          },
+          {
+            "identifier": "4496621",
+            "givenname": "Harishankaran",
+            "additionalname": "sp2hari"
+          },
+          {
+            "identifier": "4496621",
+            "givenname": "Harishankaran",
+            "additionalname": "sp2hari"
+          },
+          {
+            "identifier": "4496621",
+            "givenname": "Harishankaran",
+            "additionalname": "sp2hari"
+          },
+          {
+            "identifier": "4496621",
+            "givenname": "Harishankaran",
+            "additionalname": "sp2hari"
+          },
+          {
+            "identifier": "4496621",
+            "givenname": "Harishankaran",
+            "additionalname": "sp2hari"
+          },
+          {
+            "identifier": "4496621",
+            "givenname": "Harishankaran",
+            "additionalname": "sp2hari"
+          },
+          {
+            "identifier": "1417895145584824324",
+            "givenname": "Shloka Shah",
+            "additionalname": "shlokashah0603"
+          },
+          {
+            "identifier": "4496621",
+            "givenname": "Harishankaran",
+            "additionalname": "sp2hari"
+          },
+          {
+            "identifier": "13715242",
+            "givenname": "Aadil Bandukwala",
+            "additionalname": "aadil"
+          },
+          {
+            "identifier": "4496621",
+            "givenname": "Harishankaran",
+            "additionalname": "sp2hari"
+          },
+          {
+            "identifier": "13715242",
+            "givenname": "Aadil Bandukwala",
+            "additionalname": "aadil"
+          },
+          {
+            "identifier": "4496621",
+            "givenname": "Harishankaran",
+            "additionalname": "sp2hari"
+          },
+          {
+            "identifier": "4496621",
+            "givenname": "Harishankaran",
+            "additionalname": "sp2hari"
+          },
+          {
+            "identifier": "598157131",
+            "givenname": "HackerRank",
+            "additionalname": "hackerrank"
+          }
+        ],
+        "interactioncounter": [
+          {
+            "userinteractioncount": "59",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/sp2hari/status/1892448669930078584/likes"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/sp2hari/status/1892448669930078584/retweets"
+          },
+          {
+            "userinteractioncount": "4",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/sp2hari/status/1892448669930078584/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "2",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/sp2hari/status/1892448669930078584"
+          },
+          {
+            "userinteractioncount": "8740",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "7",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/Adyasha8105/status/1816905573675511825/likes"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/Adyasha8105/status/1816905573675511825/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/Adyasha8105/status/1816905573675511825/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/Adyasha8105/status/1816905573675511825"
+          },
+          {
+            "userinteractioncount": "1170",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "16",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/hackerrank/status/1773955025653620765/likes"
+          },
+          {
+            "userinteractioncount": "2",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/hackerrank/status/1773955025653620765/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/hackerrank/status/1773955025653620765/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "2",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/hackerrank/status/1773955025653620765"
+          },
+          {
+            "userinteractioncount": "3081",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "12",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/hackerrank/status/1762407504049267106/likes"
+          },
+          {
+            "userinteractioncount": "4",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/hackerrank/status/1762407504049267106/retweets"
+          },
+          {
+            "userinteractioncount": "3",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/hackerrank/status/1762407504049267106/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/hackerrank/status/1762407504049267106"
+          },
+          {
+            "userinteractioncount": "7126",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "6",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/hackerrank/status/1719603665470882053/likes"
+          },
+          {
+            "userinteractioncount": "2",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/hackerrank/status/1719603665470882053/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/hackerrank/status/1719603665470882053/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/hackerrank/status/1719603665470882053"
+          },
+          {
+            "userinteractioncount": "3887",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "46",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/sp2hari/status/1687456387838697472/likes"
+          },
+          {
+            "userinteractioncount": "6",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/sp2hari/status/1687456387838697472/retweets"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/sp2hari/status/1687456387838697472/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "3",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/sp2hari/status/1687456387838697472"
+          },
+          {
+            "userinteractioncount": "6941",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "30",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/hackerrank/status/1687358536219766784/likes"
+          },
+          {
+            "userinteractioncount": "6",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/hackerrank/status/1687358536219766784/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/hackerrank/status/1687358536219766784/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/hackerrank/status/1687358536219766784"
+          },
+          {
+            "userinteractioncount": "4550",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "34",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/devsinindia/status/1684886334706794496/likes"
+          },
+          {
+            "userinteractioncount": "11",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/devsinindia/status/1684886334706794496/retweets"
+          },
+          {
+            "userinteractioncount": "2",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/devsinindia/status/1684886334706794496/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "2",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/devsinindia/status/1684886334706794496"
+          },
+          {
+            "userinteractioncount": "3262",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "32",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/TejasKumar_/status/1677284761268817920/likes"
+          },
+          {
+            "userinteractioncount": "4",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/TejasKumar_/status/1677284761268817920/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/TejasKumar_/status/1677284761268817920/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/TejasKumar_/status/1677284761268817920"
+          },
+          {
+            "userinteractioncount": "3347",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "21",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/sp2hari/status/1673229852676337664/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/sp2hari/status/1673229852676337664/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/sp2hari/status/1673229852676337664/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "3",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/sp2hari/status/1673229852676337664"
+          },
+          {
+            "userinteractioncount": "2233",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "4",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/sp2hari/status/1671781881308942337/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/sp2hari/status/1671781881308942337/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/sp2hari/status/1671781881308942337/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/sp2hari/status/1671781881308942337"
+          },
+          {
+            "userinteractioncount": "932",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "6",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/sp2hari/status/1639194928466247681/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/sp2hari/status/1639194928466247681/retweets"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/sp2hari/status/1639194928466247681/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/sp2hari/status/1639194928466247681"
+          },
+          {
+            "userinteractioncount": "718",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/sp2hari/status/1635988151146782720/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/sp2hari/status/1635988151146782720/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/sp2hari/status/1635988151146782720/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/sp2hari/status/1635988151146782720"
+          },
+          {
+            "userinteractioncount": "710",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "32",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/sp2hari/status/1620402572325699584/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/sp2hari/status/1620402572325699584/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/sp2hari/status/1620402572325699584/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "2",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/sp2hari/status/1620402572325699584"
+          },
+          {
+            "userinteractioncount": "2851",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "42",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/sp2hari/status/1618860297556566018/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/sp2hari/status/1618860297556566018/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/sp2hari/status/1618860297556566018/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "6",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/sp2hari/status/1618860297556566018"
+          },
+          {
+            "userinteractioncount": "4140",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "4",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/shlokashah0603/status/1618499316703985667/likes"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/shlokashah0603/status/1618499316703985667/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/shlokashah0603/status/1618499316703985667/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/shlokashah0603/status/1618499316703985667"
+          },
+          {
+            "userinteractioncount": "778",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "3",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/aadil/status/1617445228419616768/likes"
+          },
+          {
+            "userinteractioncount": "2",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/aadil/status/1617445228419616768/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/aadil/status/1617445228419616768/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/aadil/status/1617445228419616768"
+          },
+          {
+            "userinteractioncount": "1084",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "33",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/aadil/status/1617445211780820992/likes"
+          },
+          {
+            "userinteractioncount": "4",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/aadil/status/1617445211780820992/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/aadil/status/1617445211780820992/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/aadil/status/1617445211780820992"
+          },
+          {
+            "userinteractioncount": "5356",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "3",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/sp2hari/status/1605232819684265984/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/sp2hari/status/1605232819684265984/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/sp2hari/status/1605232819684265984/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/sp2hari/status/1605232819684265984"
+          },
+          {
+            "userinteractioncount": "527",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "365",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/hackerrank/status/1604544326801166338/likes"
+          },
+          {
+            "userinteractioncount": "68",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/hackerrank/status/1604544326801166338/retweets"
+          },
+          {
+            "userinteractioncount": "5",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/hackerrank/status/1604544326801166338/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "5",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/hackerrank/status/1604544326801166338"
+          },
+          {
+            "userinteractioncount": "22165",
+            "interactiontype": "https://schema.org/ViewAction"
+          }
+        ],
+        "metatags": [
+          {
+            "apple-itunes-app": "app-id=333903271",
+            "og:image": "https://pbs.twimg.com/profile_images/2368300202/ope4mho47ds88vc0ywtd_200x200.jpeg",
+            "theme-color": "#FFFFFF",
+            "og:type": "profile",
+            "og:site_name": "X (formerly Twitter)",
+            "al:ios:app_name": "X",
+            "apple-mobile-web-app-title": "Twitter",
+            "og:title": "Harishankaran (@sp2hari) on X",
+            "al:android:package": "com.twitter.android",
+            "al:ios:url": "twitter://user?screen_name=sp2hari",
+            "title": "Harishankaran (@sp2hari) on X",
+            "og:description": "Co-founder & CTO @ HackerRank https://t.co/e91x9Ub9nM.",
+            "al:ios:app_store_id": "333903271",
+            "facebook-domain-verification": "x6sdcc8b5ju3bh8nbm59eswogvg6t1",
+            "al:android:url": "twitter://user?screen_name=sp2hari",
+            "fb:app_id": "2231777543",
+            "apple-mobile-web-app-status-bar-style": "white",
+            "viewport": "width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover",
+            "mobile-web-app-capable": "yes",
+            "og:url": "https://x.com/sp2hari",
+            "al:android:app_name": "X"
+          }
+        ],
+        "videoobject": [
+          {
+            "duration": "PT0H0M11S",
+            "embedurl": "https://platform.twitter.com/embed/Tweet.html?dnt=false&embedId=twitter-widget-1&frame=false&hideCard=false&hideThread=false&lang=en&id=1773955025653620765",
+            "contenturl": "https://video.twimg.com/ext_tw_video/1773954975523303424/pu/vid/avc1/1280x720/XHUvixyUqfHZ3Tyb.mp4?tag=12",
+            "uploaddate": "2024-03-30T06:06:51.000Z",
+            "name": "@hackerrank's video Tweet",
+            "description": "Embedded video",
+            "caption": "Embedded video",
+            "thumbnailurl": "https://pbs.twimg.com/ext_tw_video_thumb/1773954975523303424/pu/img/8YC4JKCj8-yJ2w-G.jpg"
+          },
+          {
+            "duration": "PT0H1M11S",
+            "embedurl": "https://platform.twitter.com/embed/Tweet.html?dnt=false&embedId=twitter-widget-1&frame=false&hideCard=false&hideThread=false&lang=en&id=1762407504049267106",
+            "contenturl": "https://video.twimg.com/ext_tw_video/1762405650309484544/pu/vid/avc1/1280x720/5bxO5StwdJK84sZG.mp4?tag=12",
+            "uploaddate": "2024-02-27T09:21:07.000Z",
+            "name": "@hackerrank's video Tweet",
+            "description": "Embedded video",
+            "caption": "Embedded video",
+            "thumbnailurl": "https://pbs.twimg.com/ext_tw_video_thumb/1762405650309484544/pu/img/BhqZXMUWSCsoOlfX.jpg"
+          }
+        ],
+        "collection": [
+          {
+            "name": "Profile posts"
+          }
+        ],
+        "creativework": [
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/kmHcwpz3pO"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/GiiYH18LmE"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/EgGx3q6AnG"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/uMzm1cPxXr"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/qhnJozPAOF"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/g7xE9uAtjg"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/7ItSb75v8Q"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/QREUrlKCoO"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/4By5uBkFaB"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/zFOAfSI47v"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/rF5qXVl2Yv"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/8BFZi5wT9n"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/IafIzjZrjg"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/n1pZpkeE56"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/Qu7F9H7JuQ"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/NkwdpIxcH4"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/ZmI2Uj7Vf5"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/5aYMHD0B4Y"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://pbs.twimg.com/profile_images/2368300202/ope4mho47ds88vc0ywtd_200x200.jpeg"
+          }
+        ],
+        "socialmediaposting": [
+          {
+            "identifier": "1892448669930078584",
+            "commentcount": "2",
+            "articlebody": "One year of hard work and the first customer paying $27 gets you this :) Super excited for the future.",
+            "position": "1",
+            "datecreated": "2025-02-20T05:38:17.000Z",
+            "datepublished": "2025-02-20T05:38:17.000Z",
+            "url": "https://twitter.com/sp2hari/status/1892448669930078584"
+          },
+          {
+            "identifier": "1817088547654152298",
+            "position": "2",
+            "datecreated": "2024-07-27T06:44:04.000Z",
+            "datepublished": "2024-07-27T06:44:04.000Z"
+          },
+          {
+            "identifier": "1816905573675511825",
+            "commentcount": "0",
+            "articlebody": "Use Fridays as a self development day :)",
+            "datecreated": "2024-07-26T18:36:59.000Z",
+            "datepublished": "2024-07-26T18:36:59.000Z",
+            "url": "https://twitter.com/Adyasha8105/status/1816905573675511825"
+          },
+          {
+            "identifier": "1773993057987563858",
+            "position": "3",
+            "datecreated": "2024-03-30T08:37:58.000Z",
+            "datepublished": "2024-03-30T08:37:58.000Z"
+          },
+          {
+            "identifier": "1773955025653620765",
+            "commentcount": "2",
+            "articlebody": "🚀 Celebrating Innovation 🚀 At HackerRank, our passion extends beyond accolades and certificates—it’s our interns who truly capture our hearts. ✨ Dive into the world of innovation...",
+            "datecreated": "2024-03-30T06:06:51.000Z",
+            "datepublished": "2024-03-30T06:06:51.000Z",
+            "url": "https://twitter.com/hackerrank/status/1773955025653620765"
+          },
+          {
+            "identifier": "1767923257100153127",
+            "position": "4",
+            "datecreated": "2024-03-13T14:38:45.000Z",
+            "datepublished": "2024-03-13T14:38:45.000Z"
+          },
+          {
+            "identifier": "1762407504049267106",
+            "commentcount": "0",
+            "articlebody": "Mark your calendars for March 14th! Join Ada at #HackerRankAIDay2024! Featuring industry giants like @Josh_Bersin, @vkhosla, and @beyang. Gain insights from our Co-founder and CEO @rvivek....",
+            "datecreated": "2024-02-27T09:21:07.000Z",
+            "datepublished": "2024-02-27T09:21:07.000Z",
+            "url": "https://twitter.com/hackerrank/status/1762407504049267106"
+          },
+          {
+            "identifier": "1719633322647937350",
+            "position": "5",
+            "datecreated": "2023-11-01T08:31:48.000Z",
+            "datepublished": "2023-11-01T08:31:48.000Z"
+          },
+          {
+            "identifier": "1719603665470882053",
+            "commentcount": "1",
+            "articlebody": "A thread of our newest feature updates 👇🏻 (1/5)",
+            "datecreated": "2023-11-01T06:33:57.000Z",
+            "datepublished": "2023-11-01T06:33:57.000Z",
+            "url": "https://twitter.com/hackerrank/status/1719603665470882053"
+          },
+          {
+            "identifier": "1687456387838697472",
+            "commentcount": "3",
+            "articlebody": "I just posted \"AMA with Hari, CTO at HackerRank\" on Reddit",
+            "position": "6",
+            "datecreated": "2023-08-04T13:32:08.000Z",
+            "datepublished": "2023-08-04T13:32:08.000Z",
+            "url": "https://twitter.com/sp2hari/status/1687456387838697472"
+          },
+          {
+            "identifier": "1687399828354174976",
+            "position": "7",
+            "datecreated": "2023-08-04T09:47:24.000Z",
+            "datepublished": "2023-08-04T09:47:24.000Z"
+          },
+          {
+            "identifier": "1687358536219766784",
+            "commentcount": "1",
+            "articlebody": "Our Co-founder and CTO, @sp2hari, is hosting an AMA on the subreddit r/developersindia (@devsinindia) today at 7 PM IST. See you there! 👋🏻 https://lnkd.in/d22k5qzw",
+            "datecreated": "2023-08-04T07:03:19.000Z",
+            "datepublished": "2023-08-04T07:03:19.000Z",
+            "url": "https://twitter.com/hackerrank/status/1687358536219766784"
+          },
+          {
+            "identifier": "1685124950867533824",
+            "position": "8",
+            "datecreated": "2023-07-29T03:07:51.000Z",
+            "datepublished": "2023-07-29T03:07:51.000Z"
+          },
+          {
+            "identifier": "1684886334706794496",
+            "commentcount": "2",
+            "articlebody": "We are all set for an exclusive AMA with @sp2hari Co-founder and CTO, @hackerrank on Aug 4, 2023 - 7PM IST 🎙️ Join in for conversations on Tech, Software Engineering, Startups & More 🔥...",
+            "datecreated": "2023-07-28T11:19:40.000Z",
+            "datepublished": "2023-07-28T11:19:40.000Z",
+            "url": "https://twitter.com/devsinindia/status/1684886334706794496"
+          },
+          {
+            "identifier": "1677584524316905472",
+            "position": "9",
+            "datecreated": "2023-07-08T07:44:53.000Z",
+            "datepublished": "2023-07-08T07:44:53.000Z"
+          },
+          {
+            "identifier": "1677284761268817920",
+            "commentcount": "1",
+            "articlebody": "The best slides I’ve seen at this conference, and a close contender with slides at other conferences too—this talk by @ishandeveloper is *so polished* and the dude is IN COLLEGE GRADUATING...",
+            "ispartof": "https://twitter.com/TejasKumar_/status/1677273348978651136",
+            "datecreated": "2023-07-07T11:53:44.000Z",
+            "datepublished": "2023-07-07T11:53:44.000Z",
+            "url": "https://twitter.com/TejasKumar_/status/1677284761268817920"
+          },
+          {
+            "identifier": "1673229852676337664",
+            "commentcount": "3",
+            "articlebody": "Running a small entrepreneurial Labs team within a company (not even a big company) is like pushing a mountain. Somedays, it is so much fun!! Somedays, you are drowning in processes!! So far,...",
+            "position": "10",
+            "datecreated": "2023-06-26T07:20:58.000Z",
+            "datepublished": "2023-06-26T07:20:58.000Z",
+            "url": "https://twitter.com/sp2hari/status/1673229852676337664"
+          },
+          {
+            "identifier": "1671781881308942337",
+            "commentcount": "0",
+            "position": "11",
+            "datecreated": "2023-06-22T07:27:15.000Z",
+            "datepublished": "2023-06-22T07:27:15.000Z",
+            "url": "https://twitter.com/sp2hari/status/1671781881308942337"
+          },
+          {
+            "identifier": "1639194928466247681",
+            "commentcount": "0",
+            "articlebody": "One of the nicest podcast I listened to in the recent past! Be nice, be passionate!",
+            "position": "12",
+            "datecreated": "2023-03-24T09:18:20.000Z",
+            "datepublished": "2023-03-24T09:18:20.000Z",
+            "url": "https://twitter.com/sp2hari/status/1639194928466247681"
+          },
+          {
+            "identifier": "1635988151146782720",
+            "commentcount": "1",
+            "articlebody": "https://dribbble.com/shots/20911858-Icon-animation-concept-in-Figma… To animate or not?",
+            "position": "13",
+            "datecreated": "2023-03-15T12:55:45.000Z",
+            "datepublished": "2023-03-15T12:55:45.000Z",
+            "url": "https://twitter.com/sp2hari/status/1635988151146782720"
+          },
+          {
+            "identifier": "1620402572325699584",
+            "commentcount": "2",
+            "articlebody": "Even my watch is not happy when I attend a relative’s wedding",
+            "position": "14",
+            "datecreated": "2023-01-31T12:44:13.000Z",
+            "datepublished": "2023-01-31T12:44:13.000Z",
+            "url": "https://twitter.com/sp2hari/status/1620402572325699584"
+          },
+          {
+            "identifier": "1618860297556566018",
+            "commentcount": "6",
+            "articlebody": "Source of inspiration:) Right at my desk!",
+            "position": "15",
+            "datecreated": "2023-01-27T06:35:46.000Z",
+            "datepublished": "2023-01-27T06:35:46.000Z",
+            "url": "https://twitter.com/sp2hari/status/1618860297556566018"
+          },
+          {
+            "identifier": "1618508708023259136",
+            "position": "16",
+            "datecreated": "2023-01-26T07:18:41.000Z",
+            "datepublished": "2023-01-26T07:18:41.000Z"
+          },
+          {
+            "identifier": "1618499316703985667",
+            "commentcount": "0",
+            "articlebody": "Hello Everyone, I gave my first Tech Talk this week at the Ruby on Rails Summit by @GeekleOfficial & It has been an amazing experience. In this Blog Post, I will share all the behind the scenes...",
+            "datecreated": "2023-01-26T06:41:22.000Z",
+            "datepublished": "2023-01-26T06:41:22.000Z",
+            "url": "https://twitter.com/shlokashah0603/status/1618499316703985667"
+          },
+          {
+            "identifier": "1617519030331637767",
+            "position": "17",
+            "datecreated": "2023-01-23T13:46:03.000Z",
+            "datepublished": "2023-01-23T13:46:03.000Z"
+          },
+          {
+            "identifier": "1617445228419616768",
+            "commentcount": "1",
+            "articlebody": "We also held our APAC GTM Kickoff where we talked about all things goto market, customers, product, tech and growth. 💪",
+            "ispartof": "https://twitter.com/aadil/status/1617445211780820992",
+            "datecreated": "2023-01-23T08:52:47.000Z",
+            "datepublished": "2023-01-23T08:52:47.000Z",
+            "url": "https://twitter.com/aadil/status/1617445228419616768"
+          },
+          {
+            "identifier": "1617519016431734785",
+            "position": "18",
+            "datecreated": "2023-01-23T13:46:00.000Z",
+            "datepublished": "2023-01-23T13:46:00.000Z"
+          },
+          {
+            "identifier": "1617445211780820992",
+            "commentcount": "1",
+            "articlebody": "Last week was such an energy rush at @HackerRank, Bangalore! 🖖 Our Co-Founder & CEO @rvivek was here to interact with our APAC teams and share his vision for 2023 and beyond. Our Co-Founder...",
+            "datecreated": "2023-01-23T08:52:43.000Z",
+            "datepublished": "2023-01-23T08:52:43.000Z",
+            "url": "https://twitter.com/aadil/status/1617445211780820992"
+          },
+          {
+            "identifier": "1605232819684265984",
+            "commentcount": "0",
+            "articlebody": "The common sense behind design alignment by Radhika Balaji",
+            "position": "19",
+            "datecreated": "2022-12-20T16:05:02.000Z",
+            "datepublished": "2022-12-20T16:05:02.000Z",
+            "url": "https://twitter.com/sp2hari/status/1605232819684265984"
+          },
+          {
+            "identifier": "1604544663762788352",
+            "position": "20",
+            "datecreated": "2022-12-18T18:30:33.000Z",
+            "datepublished": "2022-12-18T18:30:33.000Z"
+          },
+          {
+            "identifier": "1604544326801166338",
+            "commentcount": "5",
+            "articlebody": "This piece of code is definitely not throwing any errors",
+            "datecreated": "2022-12-18T18:29:13.000Z",
+            "datepublished": "2022-12-18T18:29:13.000Z",
+            "url": "https://twitter.com/hackerrank/status/1604544326801166338"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "How We Increased Sales Nearly 100% In One Quarter | SaaStr",
+      "htmlTitle": "How We Increased Sales Nearly 100% In One Quarter | SaaStr",
+      "link": "https://www.saastr.com/how-we-increased-sales-nearly-100-in-one-quarter/",
+      "displayLink": "www.saastr.com",
+      "snippet": "... HackerRank, and their founder Vivek Ravisankar, whom I met through a mutual friend. I thought Vivek was one of the smartest young founders in Silicon Valley.",
+      "htmlSnippet": "... <b>HackerRank</b>, and their <b>founder</b> Vivek Ravisankar, whom I met through a mutual friend. I thought Vivek was one of the smartest young <b>founders</b> in Silicon Valley.",
+      "formattedUrl": "https://www.saastr.com/how-we-increased-sales-nearly-100-in-one-quarter/",
+      "htmlFormattedUrl": "https://www.saastr.com/how-we-increased-sales-nearly-100-in-one-quarter/",
+      "pagemap": {
+        "hcard": [
+          {
+            "fn": "Brendon Cassidy"
+          }
+        ],
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdwSpFUK56Y7bWKw0QuZC3nhsdtcMo55g4BuYxbHLR3FVtD9uNJzU1kDw&s",
+            "width": "266",
+            "height": "189"
+          }
+        ],
+        "person": [
+          {
+            "image": "https://secure.gravatar.com/avatar/1aca4fb1513994bca082823ce305110114cfabeda46388e47028d54251839b16?s=100&d=mm&r=g"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://i0.wp.com/www.saastr.com/wp-content/uploads/2018/06/Screen-Shot-2016-01-14-at-1.04.27-PM-1.jpg?fit=1000%2C713&quality=70&ssl=1",
+            "og:type": "article",
+            "article:published_time": "2021-06-09T12:20:52+00:00",
+            "og:image:width": "1000",
+            "og:image:alt": "B2B SaaS Blog - How We Increased Sales Nearly 100% In One Quarter",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "SaaStr",
+            "og:title": "How We Increased Sales Nearly 100% In One Quarter",
+            "og:image:height": "713",
+            "msapplication-tileimage": "https://i0.wp.com/www.saastr.com/wp-content/uploads/2020/10/cropped-SaaStr-Favicon.png?fit=270%2C270&quality=70&ssl=1",
+            "og:description": "A ways back, I asked Brendon Cassidy, VP of Sales at LinkedIn, Adobe Sign / EchoSign, and Talkdesk to put together his playbook for double sales.  I thought it was a great checklist for all of us t…",
+            "twitter:image": "https://i0.wp.com/www.saastr.com/wp-content/uploads/2018/06/Screen-Shot-2016-01-14-at-1.04.27-PM-1.jpg?fit=1000%2C713&quality=70&ssl=1&w=640",
+            "twitter:text:title": "How We Increased Sales Nearly 100% In One Quarter",
+            "ahrefs-site-verification": "23a03fd37416fcad28c552ddf8e0f20b4899ffef5cce266bd479b17031df11b4",
+            "twitter:image:alt": "B2B SaaS Blog - How We Increased Sales Nearly 100% In One Quarter",
+            "article:modified_time": "2021-06-09T16:16:51+00:00",
+            "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0",
+            "og:locale": "en_US",
+            "og:url": "https://www.saastr.com/how-we-increased-sales-nearly-100-in-one-quarter/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://i0.wp.com/www.saastr.com/wp-content/uploads/2018/06/Screen-Shot-2016-01-14-at-1.04.27-PM-1.jpg?fit=1000%2C713&quality=70&ssl=1"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "rvivek (@rvivek) / X",
+      "htmlTitle": "rvivek (@rvivek) / X",
+      "link": "https://x.com/rvivek?lang=en",
+      "displayLink": "x.com",
+      "snippet": "Co-founder & CEO @hackerrank.",
+      "htmlSnippet": "Co-<b>founder</b> &amp; CEO @<b>hackerrank</b>.",
+      "formattedUrl": "https://x.com/rvivek?lang=en",
+      "htmlFormattedUrl": "https://x.com/rvivek?lang=en",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgkt2tpVP5gVgZn2Ayy5t3ocYbhmxFJ7vrlM8aH8-t_MKd6ejdn6RxJl8&s",
+            "width": "200",
+            "height": "200"
+          }
+        ],
+        "imageobject": [
+          {
+            "contenturl": "https://pbs.twimg.com/media/GyNAYuyaEAQ8ZxO.jpg",
+            "width": "2400",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/GyNAYuyaEAQ8ZxO?format=jpg&name=thumb"
+          },
+          {
+            "contenturl": "https://pbs.twimg.com/media/GyH9xFlaEAAqD-Y.jpg",
+            "width": "910",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/GyH9xFlaEAAqD-Y?format=jpg&name=thumb"
+          },
+          {
+            "contenturl": "https://pbs.twimg.com/media/GyFGGrBaUAEW691.jpg",
+            "width": "4284",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/GyFGGrBaUAEW691?format=jpg&name=thumb"
+          },
+          {
+            "contenturl": "https://pbs.twimg.com/media/Gx9vbAObcAAnxBq.jpg",
+            "width": "1128",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/Gx9vbAObcAAnxBq?format=jpg&name=thumb"
+          },
+          {
+            "contenturl": "https://pbs.twimg.com/media/Gx8dBH8bcAAQr59.jpg",
+            "width": "1170",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/Gx8dBH8bcAAQr59?format=jpg&name=thumb"
+          },
+          {
+            "contenturl": "https://pbs.twimg.com/media/GxzaYo3a4AALPc4.jpg",
+            "width": "1170",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/GxzaYo3a4AALPc4?format=jpg&name=thumb"
+          },
+          {
+            "contenturl": "https://pbs.twimg.com/media/GxzM436awAAsEaQ.jpg",
+            "width": "1346",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/GxzM436awAAsEaQ?format=jpg&name=thumb"
+          },
+          {
+            "contenturl": "https://pbs.twimg.com/media/GxwtfVSbMAA2eIE.png",
+            "width": "1326",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/GxwtfVSbMAA2eIE?format=jpg&name=thumb"
+          },
+          {
+            "contenturl": "https://pbs.twimg.com/media/GxuIpYXawAEnSK8.png",
+            "width": "2826",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/GxuIpYXawAEnSK8?format=jpg&name=thumb"
+          },
+          {
+            "contenturl": "https://pbs.twimg.com/media/GxauAbTbMAAyy3u.png",
+            "width": "783",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/GxauAbTbMAAyy3u?format=jpg&name=thumb"
+          },
+          {
+            "contenturl": "https://pbs.twimg.com/media/Gxd10hfa0AALhlw.jpg",
+            "width": "1170",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/Gxd10hfa0AALhlw?format=jpg&name=thumb"
+          },
+          {
+            "contenturl": "https://pbs.twimg.com/media/GxcozXnagAAbcp1.jpg",
+            "width": "1094",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/GxcozXnagAAbcp1?format=jpg&name=thumb"
+          }
+        ],
+        "person": [
+          {
+            "identifier": "14566429",
+            "givenname": "rvivek",
+            "additionalname": "rvivek"
+          },
+          {
+            "identifier": "14566429",
+            "givenname": "rvivek",
+            "additionalname": "rvivek"
+          },
+          {
+            "identifier": "14566429",
+            "givenname": "rvivek",
+            "additionalname": "rvivek"
+          },
+          {
+            "identifier": "14566429",
+            "givenname": "rvivek",
+            "additionalname": "rvivek"
+          },
+          {
+            "identifier": "14566429",
+            "givenname": "rvivek",
+            "additionalname": "rvivek"
+          },
+          {
+            "identifier": "14566429",
+            "givenname": "rvivek",
+            "additionalname": "rvivek"
+          },
+          {
+            "identifier": "14566429",
+            "givenname": "rvivek",
+            "additionalname": "rvivek"
+          },
+          {
+            "identifier": "14566429",
+            "givenname": "rvivek",
+            "additionalname": "rvivek"
+          },
+          {
+            "identifier": "14566429",
+            "givenname": "rvivek",
+            "additionalname": "rvivek"
+          },
+          {
+            "identifier": "14566429",
+            "givenname": "rvivek",
+            "additionalname": "rvivek"
+          },
+          {
+            "identifier": "14566429",
+            "givenname": "rvivek",
+            "additionalname": "rvivek"
+          },
+          {
+            "identifier": "14566429",
+            "givenname": "rvivek",
+            "additionalname": "rvivek"
+          },
+          {
+            "identifier": "14566429",
+            "givenname": "rvivek",
+            "additionalname": "rvivek"
+          },
+          {
+            "identifier": "14566429",
+            "givenname": "rvivek",
+            "additionalname": "rvivek"
+          },
+          {
+            "identifier": "14566429",
+            "givenname": "rvivek",
+            "additionalname": "rvivek"
+          },
+          {
+            "identifier": "14566429",
+            "givenname": "rvivek",
+            "additionalname": "rvivek"
+          },
+          {
+            "identifier": "14566429",
+            "givenname": "rvivek",
+            "additionalname": "rvivek"
+          },
+          {
+            "identifier": "14566429",
+            "givenname": "rvivek",
+            "additionalname": "rvivek"
+          },
+          {
+            "identifier": "14566429",
+            "givenname": "rvivek",
+            "additionalname": "rvivek"
+          },
+          {
+            "identifier": "14566429",
+            "givenname": "rvivek",
+            "additionalname": "rvivek"
+          }
+        ],
+        "interactioncounter": [
+          {
+            "userinteractioncount": "3",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/rvivek/status/1955477818827214964/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/rvivek/status/1955477818827214964/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/rvivek/status/1955477818827214964/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/rvivek/status/1955477818827214964"
+          },
+          {
+            "userinteractioncount": "149",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/rvivek/status/1955122838731624924/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/rvivek/status/1955122838731624924/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/rvivek/status/1955122838731624924/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/rvivek/status/1955122838731624924"
+          },
+          {
+            "userinteractioncount": "224",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/rvivek/status/1954920810361303082/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/rvivek/status/1954920810361303082/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/rvivek/status/1954920810361303082/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/rvivek/status/1954920810361303082"
+          },
+          {
+            "userinteractioncount": "158",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/rvivek/status/1954403276339753112/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/rvivek/status/1954403276339753112/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/rvivek/status/1954403276339753112/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/rvivek/status/1954403276339753112"
+          },
+          {
+            "userinteractioncount": "428",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/rvivek/status/1954312671828062291/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/rvivek/status/1954312671828062291/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/rvivek/status/1954312671828062291/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/rvivek/status/1954312671828062291"
+          },
+          {
+            "userinteractioncount": "211",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/rvivek/status/1953958057891037397/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/rvivek/status/1953958057891037397/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/rvivek/status/1953958057891037397/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "5",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/rvivek/status/1953958057891037397"
+          },
+          {
+            "userinteractioncount": "441",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/rvivek/status/1953957182510444557/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/rvivek/status/1953957182510444557/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/rvivek/status/1953957182510444557/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/rvivek/status/1953957182510444557"
+          },
+          {
+            "userinteractioncount": "240",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/rvivek/status/1953957877921751082/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/rvivek/status/1953957877921751082/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/rvivek/status/1953957877921751082/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/rvivek/status/1953957877921751082"
+          },
+          {
+            "userinteractioncount": "113",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/rvivek/status/1953676460507672900/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/rvivek/status/1953676460507672900/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/rvivek/status/1953676460507672900/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/rvivek/status/1953676460507672900"
+          },
+          {
+            "userinteractioncount": "260",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/rvivek/status/1953661841542111601/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/rvivek/status/1953661841542111601/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/rvivek/status/1953661841542111601/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/rvivek/status/1953661841542111601"
+          },
+          {
+            "userinteractioncount": "186",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/rvivek/status/1953486357852311834/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/rvivek/status/1953486357852311834/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/rvivek/status/1953486357852311834/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/rvivek/status/1953486357852311834"
+          },
+          {
+            "userinteractioncount": "162",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/rvivek/status/1953486370720346167/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/rvivek/status/1953486370720346167/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/rvivek/status/1953486370720346167/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/rvivek/status/1953486370720346167"
+          },
+          {
+            "userinteractioncount": "72",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "3",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/rvivek/status/1953305111515820092/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/rvivek/status/1953305111515820092/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/rvivek/status/1953305111515820092/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/rvivek/status/1953305111515820092"
+          },
+          {
+            "userinteractioncount": "217",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/rvivek/status/1953140999733297380/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/rvivek/status/1953140999733297380/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/rvivek/status/1953140999733297380/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/rvivek/status/1953140999733297380"
+          },
+          {
+            "userinteractioncount": "298",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "2",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/rvivek/status/1952923272070513145/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/rvivek/status/1952923272070513145/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/rvivek/status/1952923272070513145/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/rvivek/status/1952923272070513145"
+          },
+          {
+            "userinteractioncount": "217",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/rvivek/status/1952489116010213442/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/rvivek/status/1952489116010213442/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/rvivek/status/1952489116010213442/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/rvivek/status/1952489116010213442"
+          },
+          {
+            "userinteractioncount": "435",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/rvivek/status/1952472543014859125/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/rvivek/status/1952472543014859125/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/rvivek/status/1952472543014859125/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/rvivek/status/1952472543014859125"
+          },
+          {
+            "userinteractioncount": "194",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/rvivek/status/1952158512035086624/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/rvivek/status/1952158512035086624/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/rvivek/status/1952158512035086624/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/rvivek/status/1952158512035086624"
+          },
+          {
+            "userinteractioncount": "229",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/rvivek/status/1952114009253224922/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/rvivek/status/1952114009253224922/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/rvivek/status/1952114009253224922/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/rvivek/status/1952114009253224922"
+          },
+          {
+            "userinteractioncount": "214",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/rvivek/status/1952073996796915946/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/rvivek/status/1952073996796915946/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/rvivek/status/1952073996796915946/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/rvivek/status/1952073996796915946"
+          },
+          {
+            "userinteractioncount": "176",
+            "interactiontype": "https://schema.org/ViewAction"
+          }
+        ],
+        "metatags": [
+          {
+            "apple-itunes-app": "app-id=333903271",
+            "og:image": "https://pbs.twimg.com/profile_images/1945164525260443652/nYbNEEXy_200x200.jpg",
+            "theme-color": "#FFFFFF",
+            "og:type": "profile",
+            "og:site_name": "X (formerly Twitter)",
+            "al:ios:app_name": "X",
+            "apple-mobile-web-app-title": "Twitter",
+            "og:title": "rvivek (@rvivek) on X",
+            "al:android:package": "com.twitter.android",
+            "al:ios:url": "twitter://user?screen_name=rvivek",
+            "title": "rvivek (@rvivek) on X",
+            "og:description": "Co-founder & CEO @hackerrank",
+            "al:ios:app_store_id": "333903271",
+            "facebook-domain-verification": "x6sdcc8b5ju3bh8nbm59eswogvg6t1",
+            "al:android:url": "twitter://user?screen_name=rvivek",
+            "fb:app_id": "2231777543",
+            "apple-mobile-web-app-status-bar-style": "white",
+            "viewport": "width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover",
+            "mobile-web-app-capable": "yes",
+            "og:url": "https://x.com/rvivek",
+            "al:android:app_name": "X"
+          }
+        ],
+        "videoobject": [
+          {
+            "duration": "PT0H0M8S",
+            "embedurl": "https://platform.twitter.com/embed/Tweet.html?dnt=false&embedId=twitter-widget-1&frame=false&hideCard=false&hideThread=false&lang=en&id=1953957182510444557",
+            "contenturl": "https://video.twimg.com/amplify_video/1953957081003982849/vid/avc1/1280x720/MWlfhtQZRxJzRIiv.mp4?tag=21",
+            "uploaddate": "2025-08-08T23:11:09.000Z",
+            "name": "@rvivek's video Tweet",
+            "description": "Embedded video",
+            "caption": "Embedded video",
+            "thumbnailurl": "https://pbs.twimg.com/amplify_video_thumb/1953957081003982849/img/fzE8RDAVkj9T1c-C.jpg"
+          },
+          {
+            "duration": "PT0H0M6S",
+            "embedurl": "https://platform.twitter.com/embed/Tweet.html?dnt=false&embedId=twitter-widget-1&frame=false&hideCard=false&hideThread=false&lang=en&id=1952923272070513145",
+            "contenturl": "https://video.twimg.com/amplify_video/1952923264436883456/vid/avc1/672x464/fTO0b4Qa9Udy-40R.mp4?tag=14",
+            "uploaddate": "2025-08-06T02:42:46.000Z",
+            "name": "@rvivek's video Tweet",
+            "description": "Embedded video",
+            "caption": "Embedded video",
+            "thumbnailurl": "https://pbs.twimg.com/amplify_video_thumb/1952923264436883456/img/x_1G0AJxDRf64W9i.jpg"
+          }
+        ],
+        "collection": [
+          {
+            "name": "Profile posts"
+          }
+        ],
+        "creativework": [
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/MdwdalocY6"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/OcXb5LW3hn"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/0877e2Pxqi"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/Id2By99RjH"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/OeTMUg0UPK"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/KdSUZMSdEa"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/NL0WBbh4oN"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/ErwlySC7BG"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/7nKHipbfID"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/1nt5YJBdYy"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/6KEGNQFLhE"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/E251S7TZ5E"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/OE7ksrGJXp"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/Q42aIlD64j"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://pbs.twimg.com/profile_images/1945164525260443652/nYbNEEXy_200x200.jpg"
+          }
+        ],
+        "socialmediaposting": [
+          {
+            "identifier": "1955477818827214964",
+            "commentcount": "0",
+            "articlebody": "Trendline of cricket test matches that had a win/loss result over the years. It shows how the game has changed, with teams/captains now playing to win rather than avoid losing.",
+            "position": "1",
+            "datecreated": "2025-08-13T03:53:37.000Z",
+            "datepublished": "2025-08-13T03:53:37.000Z",
+            "url": "https://twitter.com/rvivek/status/1955477818827214964"
+          },
+          {
+            "identifier": "1955122838731624924",
+            "commentcount": "1",
+            "articlebody": "More than the 27k, I'm wondering how did I send 218 messages in one week?!",
+            "position": "2",
+            "datecreated": "2025-08-12T04:23:03.000Z",
+            "datepublished": "2025-08-12T04:23:03.000Z",
+            "url": "https://twitter.com/rvivek/status/1955122838731624924"
+          },
+          {
+            "identifier": "1954920810361303082",
+            "commentcount": "1",
+            "articlebody": "Nice way to say that you are going to increase the price by ~50% at renewal!",
+            "position": "3",
+            "datecreated": "2025-08-11T15:00:16.000Z",
+            "datepublished": "2025-08-11T15:00:16.000Z",
+            "url": "https://twitter.com/rvivek/status/1954920810361303082"
+          },
+          {
+            "identifier": "1954403276339753112",
+            "commentcount": "1",
+            "articlebody": "Is this true? This seems such a steep decline for 1000+ @elonmusk @nikitabier",
+            "position": "4",
+            "datecreated": "2025-08-10T04:43:46.000Z",
+            "datepublished": "2025-08-10T04:43:46.000Z",
+            "url": "https://twitter.com/rvivek/status/1954403276339753112"
+          },
+          {
+            "identifier": "1954312671828062291",
+            "commentcount": "1",
+            "articlebody": "This is insane growth for @dwarkesh_sp podcast. Based on the going rate per thousand views, his channel likely earns between $3-4m/year (aka 50% of joining bonus for an AI researcher 🙂)",
+            "position": "5",
+            "datecreated": "2025-08-09T22:43:44.000Z",
+            "datepublished": "2025-08-09T22:43:44.000Z",
+            "url": "https://twitter.com/rvivek/status/1954312671828062291"
+          },
+          {
+            "identifier": "1953958057891037397",
+            "commentcount": "5",
+            "articlebody": "Every product has an AI summary feature but has there been any situation where an AI summary of text has been helpful?",
+            "position": "6",
+            "datecreated": "2025-08-08T23:14:38.000Z",
+            "datepublished": "2025-08-08T23:14:38.000Z",
+            "url": "https://twitter.com/rvivek/status/1953958057891037397"
+          },
+          {
+            "identifier": "1953957182510444557",
+            "commentcount": "1",
+            "articlebody": "Wow. Veo3 has come a looong way.",
+            "position": "7",
+            "datecreated": "2025-08-08T23:11:09.000Z",
+            "datepublished": "2025-08-08T23:11:09.000Z",
+            "url": "https://twitter.com/rvivek/status/1953957182510444557"
+          },
+          {
+            "identifier": "1953957877921751082",
+            "commentcount": "0",
+            "articlebody": "Prompt inspiration taken from another X account, which I'm finding it hard to find. If you do know the person, please tag him/her for credit.",
+            "ispartof": "https://twitter.com/rvivek/status/1953957182510444557",
+            "position": "8",
+            "datecreated": "2025-08-08T23:13:55.000Z",
+            "datepublished": "2025-08-08T23:13:55.000Z",
+            "url": "https://twitter.com/rvivek/status/1953957877921751082"
+          },
+          {
+            "identifier": "1953676460507672900",
+            "commentcount": "0",
+            "articlebody": "Excited to try!",
+            "position": "9",
+            "datecreated": "2025-08-08T04:35:40.000Z",
+            "datepublished": "2025-08-08T04:35:40.000Z",
+            "url": "https://twitter.com/rvivek/status/1953676460507672900"
+          },
+          {
+            "identifier": "1953661841542111601",
+            "commentcount": "1",
+            "articlebody": "\"Margins on all code-gen products are either neutral or negative. They are absolutely abysmal\" This is crazy, if true. I certainly expected them to burn money, but thought they would be gross...",
+            "position": "10",
+            "datecreated": "2025-08-08T03:37:34.000Z",
+            "datepublished": "2025-08-08T03:37:34.000Z",
+            "url": "https://twitter.com/rvivek/status/1953661841542111601"
+          },
+          {
+            "identifier": "1953486357852311834",
+            "commentcount": "1",
+            "articlebody": "Using AI increases demand for software engineers. This may be self-serving coming from LinkedIn (and me), but nevertheless interesting.",
+            "position": "11",
+            "datecreated": "2025-08-07T16:00:16.000Z",
+            "datepublished": "2025-08-07T16:00:16.000Z",
+            "url": "https://twitter.com/rvivek/status/1953486357852311834"
+          },
+          {
+            "identifier": "1953486370720346167",
+            "commentcount": "0",
+            "articlebody": "Src:",
+            "ispartof": "https://twitter.com/rvivek/status/1953486357852311834",
+            "position": "12",
+            "datecreated": "2025-08-07T16:00:19.000Z",
+            "datepublished": "2025-08-07T16:00:19.000Z",
+            "url": "https://twitter.com/rvivek/status/1953486370720346167"
+          },
+          {
+            "identifier": "1953305111515820092",
+            "commentcount": "0",
+            "articlebody": "I installed gpt-oss:20b on my local machine. It's very cool to run a SOTA model locally, but this is a softball question. Cmon GPT!",
+            "position": "13",
+            "datecreated": "2025-08-07T04:00:03.000Z",
+            "datepublished": "2025-08-07T04:00:03.000Z",
+            "url": "https://twitter.com/rvivek/status/1953305111515820092"
+          },
+          {
+            "identifier": "1953140999733297380",
+            "commentcount": "1",
+            "articlebody": "When do you think we will reach a point where we talk to AI more than humans?",
+            "position": "14",
+            "datecreated": "2025-08-06T17:07:56.000Z",
+            "datepublished": "2025-08-06T17:07:56.000Z",
+            "url": "https://twitter.com/rvivek/status/1953140999733297380"
+          },
+          {
+            "identifier": "1952923272070513145",
+            "commentcount": "1",
+            "articlebody": "My dad's graduation pic, now in a video format. Thanks to @grok @elonmusk",
+            "position": "15",
+            "datecreated": "2025-08-06T02:42:46.000Z",
+            "datepublished": "2025-08-06T02:42:46.000Z",
+            "url": "https://twitter.com/rvivek/status/1952923272070513145"
+          },
+          {
+            "identifier": "1952489116010213442",
+            "commentcount": "0",
+            "articlebody": "Here's my guess on the story: The story is based on cryonics -- freezing human bodies to later be resurrected. Rajinikanth & Sathyaraj are part of a Coolie union led by Nagarjuna with Soubin...",
+            "position": "16",
+            "datecreated": "2025-08-04T21:57:35.000Z",
+            "isbasedon": "https://twitter.com/Dir_Lokesh/status/1951638732853199290",
+            "datepublished": "2025-08-04T21:57:35.000Z",
+            "url": "https://twitter.com/rvivek/status/1952489116010213442"
+          },
+          {
+            "identifier": "1952472543014859125",
+            "commentcount": "0",
+            "articlebody": "Really good thoughts. 10 is a round number but here are two addendums: * Humans will get good at identifying artifacts that have a heavy AI composition and will start to value them less. *...",
+            "position": "17",
+            "datecreated": "2025-08-04T20:51:44.000Z",
+            "isbasedon": "https://twitter.com/balajis/status/1951938860880994486",
+            "datepublished": "2025-08-04T20:51:44.000Z",
+            "url": "https://twitter.com/rvivek/status/1952472543014859125"
+          },
+          {
+            "identifier": "1952158512035086624",
+            "commentcount": "0",
+            "articlebody": ".@elonmusk @xai please fix the way citations are shown in results. It could easily just be numerical with a reference at the bottom. It’s super distracting to read and I bet < 5% of the searches...",
+            "position": "18",
+            "datecreated": "2025-08-04T00:03:53.000Z",
+            "datepublished": "2025-08-04T00:03:53.000Z",
+            "url": "https://twitter.com/rvivek/status/1952158512035086624"
+          },
+          {
+            "identifier": "1952114009253224922",
+            "commentcount": "1",
+            "articlebody": "Wish they focused on how great of a product/company he built",
+            "position": "19",
+            "datecreated": "2025-08-03T21:07:02.000Z",
+            "isbasedon": "https://twitter.com/CNBC/status/1951980061311008869",
+            "datepublished": "2025-08-03T21:07:02.000Z",
+            "url": "https://twitter.com/rvivek/status/1952114009253224922"
+          },
+          {
+            "identifier": "1952073996796915946",
+            "commentcount": "0",
+            "articlebody": "This was the most addictive screen on the internet at one point in time",
+            "position": "20",
+            "datecreated": "2025-08-03T18:28:03.000Z",
+            "datepublished": "2025-08-03T18:28:03.000Z",
+            "url": "https://twitter.com/rvivek/status/1952073996796915946"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Harishankaran K - HackerRank | LinkedIn",
+      "htmlTitle": "Harishankaran K - <b>HackerRank</b> | LinkedIn",
+      "link": "https://in.linkedin.com/in/sp2hari",
+      "displayLink": "in.linkedin.com",
+      "snippet": "Co-founder and CTO at HackerRank. Scaled the product from 0 users to thousands of users… · Experience: HackerRank · Education: National Institute of ...",
+      "htmlSnippet": "Co-<b>founder</b> and CTO at <b>HackerRank</b>. Scaled the product from 0 users to thousands of users… · Experience: <b>HackerRank</b> · Education: National Institute of&nbsp;...",
+      "formattedUrl": "https://in.linkedin.com/in/sp2hari",
+      "htmlFormattedUrl": "https://in.linkedin.com/in/sp2hari",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR45Fzzmo3rD-qkhABB_-8igRDqgLGfuPK7nnsFoopl_d0qyxhtLhOLZFkn&s",
+            "width": "200",
+            "height": "200"
+          }
+        ],
+        "ProfilePage": [
+          {}
+        ],
+        "metatags": [
+          {
+            "og:image": "https://media.licdn.com/dms/image/v2/C5603AQFaH7A0e9wMHw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517757675830?e=2147483647&v=beta&t=H8mZ-mGtp2rEnbpEr1i3RzpBRKaQ7UvDklD9WbM1OOM",
+            "twitter:card": "summary",
+            "linkedin:pagetag": "openToProvider",
+            "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+            "al:android:package": "com.linkedin.android",
+            "bingbot": "nocache",
+            "locale": "en_US",
+            "al:ios:url": "https://in.linkedin.com/in/sp2hari",
+            "og:description": "Co-founder and CTO at HackerRank. Scaled the product from 0 users to thousands of users… · Experience: HackerRank · Education: National Institute of Technology, Tiruchirappalli · Location: Bengaluru · 500+ connections on LinkedIn. View Harishankaran K’s profile on LinkedIn, a professional community of 1 billion members.",
+            "al:ios:app_store_id": "288429040",
+            "platform": "https://static.licdn.com/aero-v1/sc/h/4nm9pu95jzy03fx73wtc0vlru",
+            "twitter:image": "https://media.licdn.com/dms/image/v2/C5603AQFaH7A0e9wMHw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517757675830?e=2147483647&v=beta&t=H8mZ-mGtp2rEnbpEr1i3RzpBRKaQ7UvDklD9WbM1OOM",
+            "profile:last_name": "K",
+            "twitter:site": "@Linkedin",
+            "litmsprofilename": "public-profile-frontend",
+            "profile:first_name": "Harishankaran",
+            "og:type": "profile",
+            "twitter:title": "Harishankaran K - HackerRank | LinkedIn",
+            "al:ios:app_name": "LinkedIn",
+            "og:title": "Harishankaran K - HackerRank | LinkedIn",
+            "pagekey": "public_profile_v3_mobile",
+            "al:android:url": "https://in.linkedin.com/in/sp2hari",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "twitter:description": "Co-founder and CTO at HackerRank. Scaled the product from 0 users to thousands of users… · Experience: HackerRank · Education: National Institute of Technology, Tiruchirappalli · Location: Bengaluru · 500+ connections on LinkedIn. View Harishankaran K’s profile on LinkedIn, a professional community of 1 billion members.",
+            "ubba": "https://static.licdn.com/aero-v1/sc/h/6314rx53vzqnwyjpjmgri18gg",
+            "og:url": "https://in.linkedin.com/in/sp2hari",
+            "al:android:app_name": "LinkedIn"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://media.licdn.com/dms/image/v2/C5603AQFaH7A0e9wMHw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517757675830?e=2147483647&v=beta&t=H8mZ-mGtp2rEnbpEr1i3RzpBRKaQ7UvDklD9WbM1OOM"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "How HackerRank took off by helping companies hire great ...",
+      "htmlTitle": "How <b>HackerRank</b> took off by helping companies hire great ...",
+      "link": "https://mixergy.com/interviews/vivek-ravisankar-hackerrank-interview/",
+      "displayLink": "mixergy.com",
+      "snippet": "Nov 19, 2014 ... Vivek Ravisankar is the founder of HackerRank, a platform that helps hackers hone their skills and helps companies hire great programmers. And ...",
+      "htmlSnippet": "Nov 19, 2014 <b>...</b> Vivek Ravisankar is the <b>founder</b> of <b>HackerRank</b>, a platform that helps hackers hone their skills and helps companies hire great programmers. And&nbsp;...",
+      "formattedUrl": "https://mixergy.com/interviews/vivek-ravisankar-hackerrank-interview/",
+      "htmlFormattedUrl": "https://mixergy.com/interviews/vivek-ravisankar-<b>hackerrank</b>-interview/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTGYzCm7pQzZ9EdBp7FOUD0KgFSmMd8IZY_8YzwYsZHZeHrbWkLsMKdfWz&s",
+            "width": "310",
+            "height": "163"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://mixergy.com/interviews/vivek-ravisankar-hackerrank-interview/?get-twitter-card=true&v=14&time=1418655442",
+            "apple-itunes-app": "app-id=348690336, affiliate-data=at=11laQQ&ct=mixergy-smartbanner",
+            "og:type": "article",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Mixergy",
+            "og:site_name": "Business Podcast for Startups",
+            "og:title": "How HackerRank took off by helping companies hire great programmers - with Vivek Ravisankar - Business Podcast for Startups",
+            "twitter:label1": "Est. reading time",
+            "page_created_date": "Tue, 05 Aug 2025 00:36:30 +0000",
+            "og:description": "Vivek Ravisankar's was down to his last 15 bucks, and then he...",
+            "twitter:image": "https://mixergy.com/interviews/vivek-ravisankar-hackerrank-interview/?get-twitter-card=true&v=14&time=1418655442",
+            "twitter:data1": "48 minutes",
+            "twitter:site": "@Mixergy",
+            "article:modified_time": "2014-12-15T22:57:22+00:00",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "twitter:description": "Business tips for startups by proven entrepreneurs",
+            "og:locale": "en_US",
+            "og:url": "https://mixergy.com/interviews/vivek-ravisankar-hackerrank-interview/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://mixergy.com/interviews/vivek-ravisankar-hackerrank-interview/?get-twitter-card=true&v=14&time=1418655442"
+          }
+        ]
+      }
+    }
+  ]
+}

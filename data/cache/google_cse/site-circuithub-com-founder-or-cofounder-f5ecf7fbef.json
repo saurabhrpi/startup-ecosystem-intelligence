@@ -1,0 +1,357 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - site:circuithub.com (founder OR cofounder)",
+        "totalResults": "11",
+        "searchTerms": "site:circuithub.com (founder OR cofounder)",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ]
+  },
+  "context": {
+    "title": "startup-ecosystem-intelligence"
+  },
+  "searchInformation": {
+    "searchTime": 0.081928,
+    "formattedSearchTime": "0.08",
+    "totalResults": "11",
+    "formattedTotalResults": "11"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "Ep. 79: Navigating the Environmental Impact of ... - CircuitHub",
+      "htmlTitle": "Ep. 79: Navigating the Environmental Impact of ... - CircuitHub",
+      "link": "https://circuithub.com/post/ep-79-navigating-the-environmental-impact-of-electronics-w-component-sense-founder-kenny-mcgee",
+      "displayLink": "circuithub.com",
+      "snippet": "In this episode, Chris and Melissa continue their conversation with Kenny McGee, founder of Component Sense. We explore the environmental impact of ...",
+      "htmlSnippet": "In this episode, Chris and Melissa continue their conversation with Kenny McGee, <b>founder</b> of Component Sense. We explore the environmental impact of&nbsp;...",
+      "formattedUrl": "https://circuithub.com/.../ep-79-navigating-the-environmental-impact-of-ele...",
+      "htmlFormattedUrl": "https://circuithub.com/.../ep-79-navigating-the-environmental-impact-of-ele...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw1U8scyhQ6IoZm6OE-EwNDqxOD-g2w0cGcXlEmZWHlUzyzrqjhRInuwo&s",
+            "width": "300",
+            "height": "168"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://cdn.prod.website-files.com/5e4f3506e94717243b3bdc56/6716ac6023b42d24b3f600f5_Navigating%20the%20Environmental%20Impact%20of%20Electronics.jpg",
+            "twitter:title": "CircuitHub - Ep. 79: Navigating the Environmental Impact of Electronics w/ Component Sense Founder, Kenny McGee",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "In this episode, Chris and Melissa continue their conversation with Kenny McGee, founder of Component Sense. We explore the environmental impact of electronics manufacturing and discuss how companies like Component Sense work to redistribute unused parts, reducing waste in the industry.",
+            "og:title": "CircuitHub - Ep. 79: Navigating the Environmental Impact of Electronics w/ Component Sense Founder, Kenny McGee",
+            "og:description": "In this episode, Chris and Melissa continue their conversation with Kenny McGee, founder of Component Sense. We explore the environmental impact of electronics manufacturing and discuss how companies like Component Sense work to redistribute unused parts, reducing waste in the industry.",
+            "twitter:image": "https://cdn.prod.website-files.com/5e4f3506e94717243b3bdc56/6716ac6023b42d24b3f600f5_Navigating%20the%20Environmental%20Impact%20of%20Electronics.jpg"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.prod.website-files.com/5e4f3506e94717243b3bdc56/6716ac6023b42d24b3f600f5_Navigating%20the%20Environmental%20Impact%20of%20Electronics.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "CircuitHub",
+      "htmlTitle": "CircuitHub",
+      "link": "https://circuithub.com/category/podcast",
+      "displayLink": "circuithub.com",
+      "snippet": "In this episode Chris and Melissa sit down with Kenny McGee, founder of Component Sense, to dive int… Podcast. The RGB LED Dilemma in Manufacturing. In this ...",
+      "htmlSnippet": "In this episode Chris and Melissa sit down with Kenny McGee, <b>founder</b> of Component Sense, to dive int… Podcast. The RGB LED Dilemma in Manufacturing. In this&nbsp;...",
+      "formattedUrl": "https://circuithub.com/category/podcast",
+      "htmlFormattedUrl": "https://circuithub.com/category/podcast",
+      "pagemap": {
+        "metatags": [
+          {
+            "viewport": "width=device-width, initial-scale=1"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Ep. 78: How Component Sense helps components fulfill ... - CircuitHub",
+      "htmlTitle": "Ep. 78: How Component Sense helps components fulfill ... - CircuitHub",
+      "link": "https://circuithub.com/post/ep-78-how-component-sense-helps-components-fulfill-their-destiny-w-kenny-mcgee",
+      "displayLink": "circuithub.com",
+      "snippet": "In this episode Chris and Melissa sit down with Kenny McGee, founder of Component Sense, to dive into the intricacies of the electronics supply chain.",
+      "htmlSnippet": "In this episode Chris and Melissa sit down with Kenny McGee, <b>founder</b> of Component Sense, to dive into the intricacies of the electronics supply chain.",
+      "formattedUrl": "https://circuithub.com/.../ep-78-how-component-sense-helps-components-f...",
+      "htmlFormattedUrl": "https://circuithub.com/.../ep-78-how-component-sense-helps-components-f...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrljJ26wEyAHkdOZUjjtGB61PIWDpR1w6yqTNTLcWFeFAd-Z7NaPDlJak&s",
+            "width": "300",
+            "height": "168"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://cdn.prod.website-files.com/5e4f3506e94717243b3bdc56/6716ac13269019bc3be13b35_How%20Component%20Sense%20helps%20components%20fulfill%20their%20destiny%20.jpg",
+            "twitter:title": "CircuitHub - Ep. 78: How Component Sense helps components fulfill their destiny w/ Kenny McGee",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "In this episode Chris and Melissa sit down with Kenny McGee, founder of Component Sense, to dive into the intricacies of the electronics supply chain.",
+            "og:title": "CircuitHub - Ep. 78: How Component Sense helps components fulfill their destiny w/ Kenny McGee",
+            "og:description": "In this episode Chris and Melissa sit down with Kenny McGee, founder of Component Sense, to dive into the intricacies of the electronics supply chain.",
+            "twitter:image": "https://cdn.prod.website-files.com/5e4f3506e94717243b3bdc56/6716ac13269019bc3be13b35_How%20Component%20Sense%20helps%20components%20fulfill%20their%20destiny%20.jpg"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.prod.website-files.com/5e4f3506e94717243b3bdc56/6716ac13269019bc3be13b35_How%20Component%20Sense%20helps%20components%20fulfill%20their%20destiny%20.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "PCB Assembly Blog - CircuitHub",
+      "htmlTitle": "PCB Assembly Blog - CircuitHub",
+      "link": "https://circuithub.com/blog",
+      "displayLink": "circuithub.com",
+      "snippet": "On CircuitHub you can upload your EDA design files, get a live interactive quote, and order fully assembled circuit boards.",
+      "htmlSnippet": "On CircuitHub you can upload your EDA design files, get a live interactive quote, and order fully assembled circuit boards.",
+      "formattedUrl": "https://circuithub.com/blog",
+      "htmlFormattedUrl": "https://circuithub.com/blog",
+      "pagemap": {
+        "metatags": [
+          {
+            "twitter:title": "CircuitHub - PCB Assembly Blog",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "Discover updates on CircuitHub's service, PCB design tips and tricks, and features from the electronics community.",
+            "og:title": "CircuitHub - PCB Assembly Blog",
+            "og:description": "Discover updates on CircuitHub's service, PCB design tips and tricks, and features from the electronics community."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "CircuitHub - On-demand circuit board assembly",
+      "htmlTitle": "CircuitHub - On-demand circuit board assembly",
+      "link": "https://circuithub.com/",
+      "displayLink": "circuithub.com",
+      "snippet": "Rapid, low-cost manufacturing for fast-moving robotics companies.",
+      "htmlSnippet": "Rapid, low-cost manufacturing for fast-moving robotics companies.",
+      "formattedUrl": "https://circuithub.com/",
+      "htmlFormattedUrl": "https://circuithub.com/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCEdE_YCQj7iEIAiKXluk3AMI5O-DmbYARyjSYQuouNR4tjHbRC24Dzys&s",
+            "width": "310",
+            "height": "163"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://cdn.prod.website-files.com/5e4f3506e94717077b3bdc54/667426b7b6dab12db7278c24_ch_og.webp",
+            "twitter:title": "CircuitHub - On-demand circuit board assembly",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "Rapid, low-cost manufacturing for fast-moving robotics companies.",
+            "og:title": "CircuitHub - On-demand circuit board assembly",
+            "og:description": "Rapid, low-cost manufacturing for fast-moving robotics companies.",
+            "twitter:image": "https://cdn.prod.website-files.com/5e4f3506e94717077b3bdc54/667426b7b6dab12db7278c24_ch_og.webp"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.prod.website-files.com/5e4f3506e94717077b3bdc54/667426b7b6dab12db7278c24_ch_og.webp"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "CircuitHub Helps Hardware Startups Scale From ... - CircuitHub",
+      "htmlTitle": "CircuitHub Helps Hardware Startups Scale From ... - CircuitHub",
+      "link": "https://circuithub.com/press-releases/circuithub-helps-hardware-startups-scale-from-prototype-to-production",
+      "displayLink": "circuithub.com",
+      "snippet": "Co-founder, Andrew Seddon started CircuitHub after becoming frustrated with the process of getting consumer products manufactured. “I was working on ...",
+      "htmlSnippet": "Co-<b>founder</b>, Andrew Seddon started CircuitHub after becoming frustrated with the process of getting consumer products manufactured. “I was working on&nbsp;...",
+      "formattedUrl": "https://circuithub.com/.../circuithub-helps-hardware-startups-scale-from-pro...",
+      "htmlFormattedUrl": "https://circuithub.com/.../circuithub-helps-hardware-startups-scale-from-pro...",
+      "pagemap": {
+        "metatags": [
+          {
+            "viewport": "width=device-width, initial-scale=1"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Worthington Assembly Partnership - CircuitHub",
+      "htmlTitle": "Worthington Assembly Partnership - CircuitHub",
+      "link": "https://circuithub.com/post/worthington-assembly-partnership",
+      "displayLink": "circuithub.com",
+      "snippet": "Co-founder, Andrew Seddon with some of the Worthington Assembly teamWe're very excited about our partnership with Worthington Assembly, a Next Generation ...",
+      "htmlSnippet": "Co-<b>founder</b>, Andrew Seddon with some of the Worthington Assembly teamWe&#39;re very excited about our partnership with Worthington Assembly, a Next Generation&nbsp;...",
+      "formattedUrl": "https://circuithub.com/post/worthington-assembly-partnership",
+      "htmlFormattedUrl": "https://circuithub.com/post/worthington-assembly-partnership",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu7c_Lr-CTh0vdGrqUhgFdpLHV1vVPA_sRL27ZdDmKX6NJpu_Ch262mfaA&s",
+            "width": "259",
+            "height": "194"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://cdn.prod.website-files.com/5e4f3506e94717243b3bdc56/5e4f3506e94717d7203bdc69_2014-03-14%2017.09.10.webp",
+            "twitter:title": "CircuitHub - Worthington Assembly Partnership",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "We're very excited about our partnership with Worthington Assembly, a Next Generation Manufacturer based in Massachusetts, known for their high level of customer service and eagerness to work with each customer on a personal level.",
+            "og:title": "CircuitHub - Worthington Assembly Partnership",
+            "og:description": "We're very excited about our partnership with Worthington Assembly, a Next Generation Manufacturer based in Massachusetts, known for their high level of customer service and eagerness to work with each customer on a personal level.",
+            "twitter:image": "https://cdn.prod.website-files.com/5e4f3506e94717243b3bdc56/5e4f3506e94717d7203bdc69_2014-03-14%2017.09.10.webp"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.prod.website-files.com/5e4f3506e94717243b3bdc56/5e4f3506e94717d7203bdc69_2014-03-14%2017.09.10.webp"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "About Us - CircuitHub",
+      "htmlTitle": "About Us - CircuitHub",
+      "link": "https://circuithub.com/company/about-us",
+      "displayLink": "circuithub.com",
+      "snippet": "We help hardware companies producing self driving cars, satellites, 3D printers, robotics, & more to rapidly prototype electronics and get to market faster.",
+      "htmlSnippet": "We help hardware companies producing self driving cars, satellites, 3D printers, robotics, &amp; more to rapidly prototype electronics and get to market faster.",
+      "formattedUrl": "https://circuithub.com/company/about-us",
+      "htmlFormattedUrl": "https://circuithub.com/company/about-us",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgbNJmi_xlpuJXK9Bf4NMEydtIbjmxK56Q-iC5gOfFmlvjvpb9p6nzqsr8&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "twitter:title": "CircuitHub - About Us",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "Manufacturing needs software. CircuitHub is on a mission to fix rapid electronics manufacturing.",
+            "og:title": "CircuitHub - About Us",
+            "og:description": "Manufacturing needs software. CircuitHub is on a mission to fix rapid electronics manufacturing."
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.prod.website-files.com/5e4f3506e94717077b3bdc54/5e4f3506e947172c363bdd92_Asset%2044.svg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Case Studies",
+      "htmlTitle": "Case Studies",
+      "link": "https://circuithub.com/case-studies",
+      "displayLink": "circuithub.com",
+      "snippet": "Discover updates on CircuitHub's service, PCB design tips and tricks, and features from the electronics community.",
+      "htmlSnippet": "Discover updates on CircuitHub&#39;s service, PCB design tips and tricks, and features from the electronics community.",
+      "formattedUrl": "https://circuithub.com/case-studies",
+      "htmlFormattedUrl": "https://circuithub.com/case-studies",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvK8ynGU1A6QblurBrkgiyDw8fNnZzKkFE_JlwwgVM0PjOwbEDxl8v9IU&s",
+            "width": "310",
+            "height": "163"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://cdn.prod.website-files.com/5e4f3506e94717077b3bdc54/66953d47ebfeee8530e11cc2_ch_og-case-studies.webp",
+            "twitter:title": "Case Studies",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "Discover updates on CircuitHub's service, PCB design tips and tricks, and features from the electronics community.",
+            "og:title": "Case Studies",
+            "og:description": "Discover updates on CircuitHub's service, PCB design tips and tricks, and features from the electronics community.",
+            "twitter:image": "https://cdn.prod.website-files.com/5e4f3506e94717077b3bdc54/66953d47ebfeee8530e11cc2_ch_og-case-studies.webp"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.prod.website-files.com/5e4f3506e94717077b3bdc54/66953d47ebfeee8530e11cc2_ch_og-case-studies.webp"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "platform",
+      "htmlTitle": "platform",
+      "link": "https://circuithub.com/platform",
+      "displayLink": "circuithub.com",
+      "snippet": "Software-driven electronics manufacturing. Affordable quick-turn PCBA prototyping and low volume production. Get a comprehensive quote in minutes!",
+      "htmlSnippet": "Software-driven electronics manufacturing. Affordable quick-turn PCBA prototyping and low volume production. Get a comprehensive quote in minutes!",
+      "formattedUrl": "https://circuithub.com/platform",
+      "htmlFormattedUrl": "https://circuithub.com/platform",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCEdE_YCQj7iEIAiKXluk3AMI5O-DmbYARyjSYQuouNR4tjHbRC24Dzys&s",
+            "width": "310",
+            "height": "163"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://cdn.prod.website-files.com/5e4f3506e94717077b3bdc54/667426b7b6dab12db7278c24_ch_og.webp",
+            "twitter:title": "platform",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "Software-driven electronics manufacturing. Affordable quick-turn PCBA prototyping and low volume production. Get a comprehensive quote in minutes!",
+            "og:title": "platform",
+            "og:description": "Software-driven electronics manufacturing. Affordable quick-turn PCBA prototyping and low volume production. Get a comprehensive quote in minutes!",
+            "twitter:image": "https://cdn.prod.website-files.com/5e4f3506e94717077b3bdc54/667426b7b6dab12db7278c24_ch_og.webp"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.prod.website-files.com/5e4f3506e94717077b3bdc54/667426b7b6dab12db7278c24_ch_og.webp"
+          }
+        ]
+      }
+    }
+  ]
+}

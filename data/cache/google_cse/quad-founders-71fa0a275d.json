@@ -1,0 +1,470 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - \"Quad\" founders",
+        "totalResults": "5510000",
+        "searchTerms": "\"Quad\" founders",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - \"Quad\" founders",
+        "totalResults": "5510000",
+        "searchTerms": "\"Quad\" founders",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ]
+  },
+  "context": {
+    "title": "startup-ecosystem-intelligence"
+  },
+  "searchInformation": {
+    "searchTime": 0.18814,
+    "formattedSearchTime": "0.19",
+    "totalResults": "5510000",
+    "formattedTotalResults": "5,510,000"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "Large Meeting / Banquet Rooms | Events and Conferences SJU",
+      "htmlTitle": "Large Meeting / Banquet Rooms | Events and Conferences SJU",
+      "link": "https://www.csbsju.edu/sju-events-and-conferences/banquet-rooms/",
+      "displayLink": "www.csbsju.edu",
+      "snippet": "The Quad offers several large meeting rooms as well as a variety of smaller classrooms for breakout sessions. Founders Room (Quad 170). Lecture capacity of ...",
+      "htmlSnippet": "The <b>Quad</b> offers several large meeting rooms as well as a variety of smaller classrooms for breakout sessions. <b>Founders</b> Room (<b>Quad</b> 170). Lecture capacity of&nbsp;...",
+      "formattedUrl": "https://www.csbsju.edu/sju-events-and-conferences/banquet-rooms/",
+      "htmlFormattedUrl": "https://www.csbsju.edu/sju-events-and-conferences/banquet-rooms/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg2VP8li6PxRftrq-3c4B5_5pMaKACWMFSUf-15vM8_d18RCErRJ-dGUxX&s",
+            "width": "259",
+            "height": "194"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://www.csbsju.edu/sju-events-and-conferences/wp-content/uploads/sites/117/2024/05/W-Q170-Dinner.jpg",
+            "og:type": "article",
+            "og:image:width": "672",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Events and Conferences SJU",
+            "og:title": "Large Meeting / Banquet Rooms | Events and Conferences SJU",
+            "og:image:height": "504",
+            "twitter:label1": "Est. reading time",
+            "og:image:type": "image/jpeg",
+            "msapplication-tileimage": "https://www.csbsju.edu/sju-events-and-conferences/wp-content/uploads/2024/11/cropped-csbsju-solid-favicon-270x270.png",
+            "og:description": "Large Meeting / Banquet Rooms. Our two colleges work passionately to create individual learning experiences that meet the goals of each student.",
+            "article:publisher": "https://www.facebook.com/csbsju",
+            "twitter:data1": "2 minutes",
+            "twitter:site": "@CSBSJU",
+            "article:modified_time": "2024-05-13T02:31:14+00:00",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:locale": "en_US",
+            "og:url": "https://www.csbsju.edu/sju-events-and-conferences/banquet-rooms/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.csbsju.edu/sju-events-and-conferences/wp-content/uploads/sites/117/2024/05/W-Q170-Dinner.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Camino and Founders Halls - Residential Life - University of San ...",
+      "htmlTitle": "Camino and <b>Founders</b> Halls - Residential Life - University of San ...",
+      "link": "https://www.sandiego.edu/residential-life/student-housing/camino-founders.php",
+      "displayLink": "www.sandiego.edu",
+      "snippet": "Camino & Founders traditionally have doubles (limited), triple and quad rooms. Both halls have several shared bathrooms within each building.",
+      "htmlSnippet": "Camino &amp; <b>Founders</b> traditionally have doubles (limited), triple and <b>quad</b> rooms. Both halls have several shared bathrooms within each building.",
+      "formattedUrl": "https://www.sandiego.edu/residential-life/student.../camino-founders.php",
+      "htmlFormattedUrl": "https://www.sandiego.edu/residential-life/student.../camino-<b>founders</b>.php",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcem81yYDzHNmt1_tXOITkHsHW3izZeiFpipAMkBwE5wDk4g_UV_r8FCk&s",
+            "width": "200",
+            "height": "200"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://www.sandiego.edu/assets/global/images/logos/logo-200x200.png",
+            "viewport": "width=device-width, initial-scale=1"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.sandiego.edu/assets/global/images/logos/logo-200x200.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Founders Hall and Innovation Hall: A hub for STEM in the Innovation ...",
+      "htmlTitle": "<b>Founders</b> Hall and Innovation Hall: A hub for STEM in the Innovation ...",
+      "link": "https://www.elon.edu/u/news/2022/08/24/founders-hall-and-innovation-hall-a-hub-for-stem-in-the-innovation-quad/",
+      "displayLink": "www.elon.edu",
+      "snippet": "Aug 24, 2022 ... The addition of two new buildings to Elon's Innovation Quad creates new homes for the Engineering and Physics departments as well as spaces ...",
+      "htmlSnippet": "Aug 24, 2022 <b>...</b> The addition of two new buildings to Elon&#39;s Innovation <b>Quad</b> creates new homes for the Engineering and Physics departments as well as spaces&nbsp;...",
+      "formattedUrl": "https://www.elon.edu/.../founders-hall-and-innovation-hall-a-hub-for-stem-...",
+      "htmlFormattedUrl": "https://www.elon.edu/.../<b>founders</b>-hall-and-innovation-hall-a-hub-for-stem-...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAX10uaOm2IV1nBFQ5sYWxAjPFpKXvXeBDDDGkmdfTPehzbrfXwO9ZqIA&s",
+            "width": "271",
+            "height": "186"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://eloncdn.blob.core.windows.net/eu3/sites/74/2022/08/08_17_2022_Campus-Scenery-003.jpg",
+            "theme-color": "#ffffff",
+            "og:image:width": "5806",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Today at Elon",
+            "elon:share_email_body": "The start of a new academic year at Elon University comes with the introduction of two new critical components in the Innovation Quad — Founders Hall and Innovation Hall. With a combined 65,000...",
+            "og:article:modified_time": "2022-08-24 14:35:00",
+            "og:image:type": "image/jpeg",
+            "msapplication-tileimage": "https://www.elon.edu/u/news/wp-content/themes/ElonUniversity-Base/assets/img/favicons/ms-icon-144x144.png",
+            "og:description": "The addition of two new buildings to Elon's Innovation Quad creates new homes for the Engineering and Physics departments as well as spaces for multidisciplinary collaboration.",
+            "be:norm_url": "https%3A%2F%2Fwww.elon.edu%2Fu%2Fnews%2F2022%2F08%2F24%2Ffounders-hall-and-innovation-hall-a-hub-for-stem-in-the-innovation-quad%2F",
+            "twitter:site": "@elonuniversity",
+            "be:capsule_url": "https%3A%2F%2Fixfd1-api.bc0a.com%2Fapi%2Fixf%2F1.0.0%2Fget_capsule%2Ff00000000297652%2F01588722939",
+            "be:timer": "82ms",
+            "be:diag": "bBsoYyqDxcPvAOt2CVLzl6wVnaqyam+Rono40IKKMN7k1UInQe8gnij4L+CL/kDNkX+sfHW0HaDsDrM4auNts44Utq7H2FRpmuFTxnhXdCdjXQZM6lbA5CDDASj6pejaCf5Da/IofeBHWVWPzZfExX0/Gv8tTA6X1hFr9ILsOWHVgFqdxYNikALRurpqdUUSwUiLynDMC1GhtzZTfUHm6eDtFOg1er11Oxwl0BoK/mjrhyPggUEeCgstOG1/v8dotlmgPTaziLHHf2iDeD7GPunDUMwZmLBWBzfqFOteR4okxn248aGRP3pID7c72Uv5b0i2Sy56+nUkoF+8Z6xwrPIQnKrGJ2O31j08w+758IdIGtE5l6DACReZP8R/zzuEKAAulcd2bTKVxD7lDzZO7NrpAlCiA5tfD+1mCw3+CSiwDtE7P0IoCVS/fVRtDrG1kc2WtcXsFoXW0wh1c68S9z4k4oYRN7bTGcIKSDvqgnTQ2HFR8UO+r4EK0JqNxIdzUKZGRslabzWm1CCwjSLeS/iiinq01qm+yF6tlQh8m/PfuHq1446xZ69YUp3soLbgrYqgc3DM8wqMyFap9u09q28ADxuNQ9HBnemHjaHDkfmKRt7XsVCmY6uhaeFUNaZGl6s/Tv34VQkUp5WcZoJixOzxUjTEeqmkb3Y4G0xyCSFXj+JsfCijYjTm9J2iTs46ZSkbHcJwcGOL9b5iZN7Vs0Mw2k5UXlRvQ/P73Do5xb1FHl+FghxnJdlebeAgkKXg67ZKtO0kPrXg8G5Q7ceJ3wM730mHuKWa7g5aGR1xQkU6n7qgX7NQXWzVNqbO+RshtR6nJTz0DvTnBY/DKXftkQs8PY4ysPCFiLacVb5krrGHiEq6SXkcUGrWreOPWIJSL4BudiYLQdyuJOjKm1k0hr0AbuWIgJ4xLwc3slPyh6Ifo9i5xZC5qw6fx0xqYOhoc0UL6wi+CqfyMPb9sVauAkyCUWwupyUibq3njFBfvWuyCEMBRxiVcmew/n3wvl0d",
+            "og:article:author": "Owen Covington",
+            "be:messages": "false",
+            "msapplication-tilecolor": "#ffffff",
+            "og:type": "article",
+            "twitter:title": "Founders Hall and Innovation Hall: A hub for STEM in the Innovation Quad",
+            "be:sdk": "php_sdk_1.5.8",
+            "og:title": "Founders Hall and Innovation Hall: A hub for STEM in the Innovation Quad",
+            "og:image:height": "4000",
+            "elon:share_email_subject": "Founders Hall and Innovation Hall: A hub for STEM in the Innovation Quad",
+            "og:article:published_time": "2022-08-24 14:35:00",
+            "facebook-domain-verification": "mran33yqcbsnbq2117b2kqkjoj1kcy",
+            "viewport": "width=device-width,initial-scale=1",
+            "twitter:description": "The start of a new academic year at Elon University comes with the introduction of two new critical components in the Innovation Quad — Founders Hall and Innovation Hall. With a combined 65,000...",
+            "og:locale": "en_US",
+            "be:api_dt": "py_2023;pm_07;pd_28;ph_14;pmh_03;p_epoch:1690567433960",
+            "be:mod_dt": "py_2023;pm_07;pd_28;ph_14;pmh_03;p_epoch:1690567433960",
+            "og:url": "https://www.elon.edu/u/news/2022/08/24/founders-hall-and-innovation-hall-a-hub-for-stem-in-the-innovation-quad/",
+            "be:orig_url": "https%3A%2F%2Fwww.elon.edu%2Fu%2Fnews%2F2022%2F08%2F24%2Ffounders-hall-and-innovation-hall-a-hub-for-stem-in-the-innovation-quad%2F"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://eloncdn.blob.core.windows.net/eu3/sites/74/2022/08/08_17_2022_Campus-Scenery-003.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Founder's Gala | The Quad Prep School",
+      "htmlTitle": "<b>Founder&#39;s</b> Gala | The <b>Quad</b> Prep School",
+      "link": "https://www.quadprep.org/founders-gala",
+      "displayLink": "www.quadprep.org",
+      "snippet": "At the Quad Prep Founder's Gala, sponsors, guests, and community members come together to ignite meaningful opportunities for learning for neurodiverse, ...",
+      "htmlSnippet": "At the <b>Quad</b> Prep <b>Founder&#39;s</b> Gala, sponsors, guests, and community members come together to ignite meaningful opportunities for learning for neurodiverse,&nbsp;...",
+      "formattedUrl": "https://www.quadprep.org/founders-gala",
+      "htmlFormattedUrl": "https://www.<b>quad</b>prep.org/<b>founders</b>-gala",
+      "pagemap": {
+        "metatags": [
+          {
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Founder's Gala | The Quad Prep School",
+            "og:site_name": "The Quad Prep School",
+            "skype_toolbar": "skype_toolbar_parser_compatible",
+            "viewport": "width=320, user-scalable=yes",
+            "twitter:description": "At the Quad Prep Founder’s Gala, sponsors, guests, and community members come together to ignite meaningful opportunities for learning for neurodiverse, twice-exceptional children. There are many opportunities to get involved and lend your support as we transform the experience of education for gifted, neurodiverse students.",
+            "og:title": "Founder's Gala | The Quad Prep School",
+            "og:url": "https://www.quadprep.org/founders-gala",
+            "og:description": "At the Quad Prep Founder’s Gala, sponsors, guests, and community members come together to ignite meaningful opportunities for learning for neurodiverse, twice-exceptional children. There are many opportunities to get involved and lend your support as we transform the experience of education for gifted, neurodiverse students.",
+            "format-detection": "telephone=no"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Mercy College - Founders Hall Quad Virtual Tour",
+      "htmlTitle": "Mercy College - <b>Founders</b> Hall <b>Quad</b> Virtual Tour",
+      "link": "https://www.tours.vividmediany.com/3d-model/founders-hall-quad/",
+      "displayLink": "www.tours.vividmediany.com",
+      "snippet": "Take a interactive virtual tour of Founders Hall Quad apartment at Mercy College located in Dobbs Ferry New York.",
+      "htmlSnippet": "Take a interactive virtual tour of <b>Founders</b> Hall <b>Quad</b> apartment at Mercy College located in Dobbs Ferry New York.",
+      "formattedUrl": "https://www.tours.vividmediany.com/3d-model/founders-hall-quad/",
+      "htmlFormattedUrl": "https://www.tours.vividmediany.com/3d-model/<b>founders</b>-hall-<b>quad</b>/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGAMH8FxNJOs8-EEc36vt9BKQ_FHl2hZDEfJn15ZiSDq98xONVZ72lQpk&s",
+            "width": "300",
+            "height": "168"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://www.tours.vividmediany.com/wp-content/uploads/2020/11/09.05.2020_00.05.52.jpg",
+            "og:type": "article",
+            "og:image:width": "1920",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Vivid Media Virtual Tours",
+            "og:title": "Founders Hall Quad",
+            "og:image:height": "1080",
+            "twitter:label1": "Est. reading time",
+            "og:image:type": "image/jpeg",
+            "msapplication-tileimage": "https://www.tours.vividmediany.com/wp-content/uploads/2020/08/cropped-Circle-Logo-300x300.png",
+            "og:description": "Take a interactive virtual tour of Founders Hall Quad apartment at Mercy College located in Dobbs Ferry New York.",
+            "twitter:data1": "1 minute",
+            "article:modified_time": "2024-06-19T15:12:17+00:00",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:locale": "en_US",
+            "og:url": "https://www.tours.vividmediany.com/3d-model/founders-hall-quad/fullscreen/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.tours.vividmediany.com/wp-content/uploads/2020/11/09.05.2020_00.05.52.jpg"
+          }
+        ],
+        "mediaobject": [
+          {
+            "embedurl": "https://mpembed.com/show/?m=MEJdjqPPSSD&play=1&wh=0&vr=0&nozoom=1&title=2&tourcta=1&vrcoll=0&dh=1&mt=1&details=1&copyright=Vivid+Media+LLC&mt=1&mpu=26",
+            "uploaddate": "2018-06-16T19:44:20.437562Z",
+            "name": "Founders Hall Quad",
+            "thumbnailurl": "https://my.matterport.com/api/v1/player/models/MEJdjqPPSSD/thumb"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Founders Quad Ranks 7th at Nationals",
+      "htmlTitle": "<b>Founders Quad</b> Ranks 7th at Nationals",
+      "link": "https://www.foundersrowing.org/single-post/founders-quad-ranks-7th-at-nationals",
+      "displayLink": "www.foundersrowing.org",
+      "snippet": "Jun 14, 2022 ... Founders Varsity Quad, rowed by seniors Ashley Hall and Camille Egger, along with Juniors Maile Nelson and Sophia Rhodes finished 1st in the B final.",
+      "htmlSnippet": "Jun 14, 2022 <b>...</b> <b>Founders</b> Varsity <b>Quad</b>, rowed by seniors Ashley Hall and Camille Egger, along with Juniors Maile Nelson and Sophia Rhodes finished 1st in the B final.",
+      "formattedUrl": "https://www.foundersrowing.org/.../founders-quad-ranks-7th-at-nationals",
+      "htmlFormattedUrl": "https://www.<b>founders</b>rowing.org/.../<b>founders</b>-<b>quad</b>-ranks-7th-at-nationals",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMoM2wstGmaOVpc9aySIGXCaE3ySkznwmola3mZpmPwQzcbdwEzAypnlE&s",
+            "width": "372",
+            "height": "135"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://static.wixstatic.com/media/5fb321_e227ebfd1cbe435fad4a082c381627fd~mv2.jpeg/v1/fill/w_1000,h_364,al_c,q_85,usm_0.66_1.00_0.01/5fb321_e227ebfd1cbe435fad4a082c381627fd~mv2.jpeg",
+            "og:image:width": "4224",
+            "og:type": "article",
+            "article:published_time": "2022-06-14T23:04:20.950Z",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Founders Quad Ranks 7th at Nationals",
+            "og:site_name": "foundersrowing",
+            "skype_toolbar": "skype_toolbar_parser_compatible",
+            "og:title": "Founders Quad Ranks 7th at Nationals",
+            "og:image:height": "1536",
+            "og:description": "Sarasota, Florida - June 11, 2022This week Founders Rowing Club sent 3 boats, including 8 of our 12 athletes to the US Rowing Youth National Championships in Sarasota, Florida. We had a short season leading up to Nationals, including only the Texas State Championship and the US Rowing Central Youth Regionals in Oklahoma City. In fact, our team did not have the opportunity to race in any side-by-side sprint races this year, as weather prevented anything beyond time trials to be conducted at eithe",
+            "article:author": "aligirlnorton",
+            "twitter:image": "https://static.wixstatic.com/media/5fb321_e227ebfd1cbe435fad4a082c381627fd~mv2.jpeg/v1/fill/w_1000,h_364,al_c,q_85,usm_0.66_1.00_0.01/5fb321_e227ebfd1cbe435fad4a082c381627fd~mv2.jpeg",
+            "article:modified_time": "2022-06-14T23:04:20.950Z",
+            "viewport": "width=320, user-scalable=yes",
+            "twitter:description": "Sarasota, Florida - June 11, 2022This week Founders Rowing Club sent 3 boats, including 8 of our 12 athletes to the US Rowing Youth National Championships in Sarasota, Florida. We had a short season leading up to Nationals, including only the Texas State Championship and the US Rowing Central Youth Regionals in Oklahoma City. In fact, our team did not have the opportunity to race in any side-by-side sprint races this year, as weather prevented anything beyond time trials to be conducted at eithe",
+            "og:url": "https://www.foundersrowing.org/single-post/founders-quad-ranks-7th-at-nationals",
+            "format-detection": "telephone=no"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://static.wixstatic.com/media/5fb321_e227ebfd1cbe435fad4a082c381627fd~mv2.jpeg/v1/fill/w_1000,h_364,al_c,q_85,usm_0.66_1.00_0.01/5fb321_e227ebfd1cbe435fad4a082c381627fd~mv2.jpeg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Housing Rates | Housing | University of Arkansas",
+      "htmlTitle": "Housing Rates | Housing | University of Arkansas",
+      "link": "https://housing.uark.edu/live-here/housing-rates.php",
+      "displayLink": "housing.uark.edu",
+      "snippet": "Residence Hall Rates by Semester ; Adohi Hall Semi-suites, $5,724 $6,923 — Single Room Cost ; Clark Hall — Northwest Quad, $5,750 — Single Rooms Only ; Founders ...",
+      "htmlSnippet": "Residence Hall Rates by Semester ; Adohi Hall Semi-suites, $5,724 $6,923 — Single Room Cost ; Clark Hall — Northwest <b>Quad</b>, $5,750 — Single Rooms Only ; <b>Founders</b>&nbsp;...",
+      "formattedUrl": "https://housing.uark.edu/live-here/housing-rates.php",
+      "htmlFormattedUrl": "https://housing.uark.edu/live-here/housing-rates.php",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ-v4CrTM2uJIRlAfXcpcWaFHOmhCnRcZf0MKIAloI-eE25PgpHZGpqYA&s",
+            "width": "331",
+            "height": "152"
+          }
+        ],
+        "metatags": [
+          {
+            "application-name": "UARK",
+            "og:type": "website",
+            "theme-color": "#fff",
+            "og:site_name": "Housing",
+            "apple-mobile-web-app-status-bar-style": "black-translucent",
+            "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+            "apple-mobile-web-app-capable": "yes",
+            "og:title": "Housing Rates",
+            "apple-mobile-web-app-title": "UARK",
+            "mobile-web-app-capable": "yes",
+            "og:url": "https://housing.uark.edu/",
+            "searchcrawler:sectiontype": "UARK"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://housing.uark.edu/_resources/images/live-here/housing-rates/inside-residence-hall-compressor.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "NORTH QUAD",
+      "htmlTitle": "NORTH <b>QUAD</b>",
+      "link": "https://www.si.umich.edu/sites/default/files/inline-files/Getting%20to%20the%20School%20of%20Information%208-19%20%281%29.pdf",
+      "displayLink": "www.si.umich.edu",
+      "snippet": "School of Information at North Quad. UMSI offices and labs, Founders Room, Office of the Dean. GETTING TO THE. 1. Enter from the plaza at Thayer and Washington ...",
+      "htmlSnippet": "School of Information at North <b>Quad</b>. UMSI offices and labs, <b>Founders</b> Room, Office of the Dean. GETTING TO THE. 1. Enter from the plaza at Thayer and Washington&nbsp;...",
+      "formattedUrl": "https://www.si.umich.edu/.../Getting%20to%20the%20School%20of%20Inf...",
+      "htmlFormattedUrl": "https://www.si.umich.edu/.../Getting%20to%20the%20School%20of%20Inf...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWpNT7rjrBXiLAqj4Bg5i8CrF6Z-QjR0_miig6cVWdMSjgCpl7R0HmvQo&s",
+            "width": "291",
+            "height": "173"
+          }
+        ],
+        "metatags": [
+          {
+            "moddate": "D:20190819151914-04'00'",
+            "creationdate": "D:20190819151911-04'00'",
+            "creator": "Adobe InDesign 14.0 (Macintosh)",
+            "producer": "Adobe PDF Library 15.0"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "x-raw-image:///8c706abe809b97fd557cd7350620ad4da2dc5665dbd3f397e48345dbeb7a46bf"
+          }
+        ]
+      },
+      "mime": "application/pdf",
+      "fileFormat": "PDF/Adobe Acrobat"
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Quad-C Management Successfully Exits InterWrap Investment with ...",
+      "htmlTitle": "<b>Quad</b>-C Management Successfully Exits InterWrap Investment with ...",
+      "link": "https://www.quadcmanagement.com/quad-c-management-successfully-exits-interwrap-investment-with-sale-to-owens-corning/",
+      "displayLink": "www.quadcmanagement.com",
+      "snippet": "May 17, 2016 ... Quad-C made its initial investment in InterWrap in November 2013, partnering with the company's founders and management team to execute on a ...",
+      "htmlSnippet": "May 17, 2016 <b>...</b> <b>Quad</b>-C made its initial investment in InterWrap in November 2013, partnering with the company&#39;s <b>founders</b> and management team to execute on a&nbsp;...",
+      "formattedUrl": "https://www.quadcmanagement.com/quad-c-management-successfully-exits...",
+      "htmlFormattedUrl": "https://www.<b>quad</b>cmanagement.com/<b>quad</b>-c-management-successfully-exits...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFeCLfBzLDDnLBdXZ_huHfXLE3hP-g4amMCcEYdKsb0qMDdlRGkGCgsSA&s",
+            "width": "342",
+            "height": "77"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://www.quadcmanagement.com/wp-content/uploads/2024/12/quadc_logo-.webp",
+            "og:type": "article",
+            "og:image:width": "342",
+            "og:image:alt": "Quad-C Logo",
+            "article:published_time": "2016-05-17T22:40:00+00:00",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Quad-C Management Successfully Exits InterWrap Investment with Sale to Owens Corning",
+            "og:site_name": "Quad-C | Private Equity Partner",
+            "og:title": "Quad-C Management Successfully Exits InterWrap Investment with Sale to Owens Corning",
+            "og:image:height": "77",
+            "msapplication-tileimage": "https://www.quadcmanagement.com/wp-content/uploads/2024/12/cropped-favicon-270x270.webp",
+            "og:description": "Charlottesville, VA. May 17, 2016 – Quad-C Management, a leading middle market private equity firm, today announced that its previously disclosed sale of InterWrap, a leading manufacturer of synthetic…",
+            "twitter:image": "https://www.quadcmanagement.com/wp-content/uploads/2024/12/quadc_logo-.webp",
+            "twitter:image:alt": "Quad-C Logo",
+            "article:modified_time": "2024-12-31T23:41:13+00:00",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "Charlottesville, VA. May 17, 2016 – Quad-C Management, a leading middle market private equity firm, today announced that its previously disclosed sale of InterWrap, a leading manufacturer of synthetic…",
+            "og:locale": "en_US",
+            "og:url": "https://www.quadcmanagement.com/quad-c-management-successfully-exits-interwrap-investment-with-sale-to-owens-corning/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.quadcmanagement.com/wp-content/uploads/2024/12/quadc_logo-.webp"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Quad (company) - Wikipedia",
+      "htmlTitle": "<b>Quad</b> (company) - Wikipedia",
+      "link": "https://en.wikipedia.org/wiki/Quad_(company)",
+      "displayLink": "en.wikipedia.org",
+      "snippet": "Harry V. Quadracci founded Quad on July 13, 1971, as a privately owned printing company. In 2023, Quad had more than 13,000 employees around the world. They ...",
+      "htmlSnippet": "Harry V. Quadracci founded <b>Quad</b> on July 13, 1971, as a privately owned printing company. In 2023, <b>Quad</b> had more than 13,000 employees around the world. They&nbsp;...",
+      "formattedUrl": "https://en.wikipedia.org/wiki/Quad_(company)",
+      "htmlFormattedUrl": "https://en.wikipedia.org/wiki/<b>Quad</b>_(company)",
+      "pagemap": {
+        "hcard": [
+          {
+            "url_text": "quad.com",
+            "fn": "Quad",
+            "label": "Sussex, Wisconsin, United States",
+            "category": "Public",
+            "url": "quad.com"
+          }
+        ],
+        "metatags": [
+          {
+            "referrer": "origin",
+            "theme-color": "#eaecf0",
+            "og:type": "website",
+            "viewport": "width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0",
+            "og:title": "Quad (company) - Wikipedia",
+            "format-detection": "telephone=no"
+          }
+        ]
+      }
+    }
+  ]
+}

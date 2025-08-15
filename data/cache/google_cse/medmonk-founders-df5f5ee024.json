@@ -1,0 +1,479 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - \"Medmonk\" founders",
+        "totalResults": "105",
+        "searchTerms": "\"Medmonk\" founders",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - \"Medmonk\" founders",
+        "totalResults": "105",
+        "searchTerms": "\"Medmonk\" founders",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ]
+  },
+  "context": {
+    "title": "startup-ecosystem-intelligence"
+  },
+  "searchInformation": {
+    "searchTime": 0.113023,
+    "formattedSearchTime": "0.11",
+    "totalResults": "105",
+    "formattedTotalResults": "105"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "Untitled",
+      "htmlTitle": "Untitled",
+      "link": "https://medmonk.com/AboutUs",
+      "displayLink": "medmonk.com",
+      "snippet": "Medmonk's story began in 2009 when co-founder Somaira Punjwani, an HIV specialty pharmacist, developed a unique process to help patients struggling with their ...",
+      "htmlSnippet": "<b>Medmonk&#39;s</b> story began in 2009 when co-<b>founder</b> Somaira Punjwani, an HIV specialty pharmacist, developed a unique process to help patients struggling with their&nbsp;...",
+      "formattedUrl": "https://medmonk.com/AboutUs",
+      "htmlFormattedUrl": "https://<b>medmonk</b>.com/AboutUs",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStxamJw-PezGtkCtzTKg4YO704C65KtnPDcdSsz8l2XUugl2M_Z_YXZssF&s",
+            "width": "199",
+            "height": "253"
+          }
+        ],
+        "metatags": [
+          {
+            "next-head-count": "2",
+            "viewport": "width=device-width"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://medmonk.com/_next/image?url=%2Fassets%2FAccreditedBy-New.png&w=3840&q=75"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Female Founder Stories: Somaira Punjwani, Founder of Medmonk ...",
+      "htmlTitle": "Female <b>Founder</b> Stories: Somaira Punjwani, <b>Founder</b> of <b>Medmonk</b> ...",
+      "link": "https://www.ycombinator.com/blog/female-founder-stories-somaira-punjwani-founder-of-medmonk-yc-w12",
+      "displayLink": "www.ycombinator.com",
+      "snippet": "Feb 8, 2015 ... Medmonk [http://www.medmonk.com/] lets pharmacists provide co-pay assistance to patients who cannot afford their out-of-pocket medication ...",
+      "htmlSnippet": "Feb 8, 2015 <b>...</b> <b>Medmonk</b> [http://www.<b>medmonk</b>.com/] lets pharmacists provide co-pay assistance to patients who cannot afford their out-of-pocket medication&nbsp;...",
+      "formattedUrl": "https://www.ycombinator.com/.../female-founder-stories-somaira-punjwani-...",
+      "htmlFormattedUrl": "https://www.ycombinator.com/.../female-founder-stories-somaira-punjwani-...",
+      "pagemap": {
+        "metatags": [
+          {
+            "twitter:card": "summary_large_image",
+            "og:type": "website",
+            "twitter:site": "@ycombinator",
+            "og:site_name": "Y Combinator",
+            "viewport": "initial-scale=1, width=device-width, height=device-height",
+            "csrf-token": "aCbknYx4Kd-NNpixGDMl1SI2s8-ORgILVvuKxo63c5CYOiH7flpHK9LloGcTtWmXwlRgDawTUjV3GrdBM53kjw",
+            "og:title": "Female Founder Stories: Somaira Punjwani, Founder of Medmonk (YC W12) | Y Combinator",
+            "og:locale": "en_US",
+            "csrf-param": "authenticity_token",
+            "og:url": "https://www.ycombinator.com/blog/female-founder-stories-somaira-punjwani-founder-of-medmonk-yc-w12",
+            "og:description": "Medmonk [http://www.medmonk.com/] lets pharmacists provide co-pay assistance to\npatients who cannot afford their out-of-pocket medication costs.\n\n\n\nQ: Tell us about your background prior to starting your startup.\nPrior to starting my startup, I was a pharmacist-in-charge (PIC) at a Walgreens\nin Miami, FL. Most of my patients were extremely sick and were battling\nconditions such as HIV, hepatitis c, rheumatoid arthritis, and cancer, to name a\nfew. I chose the pharmacy profession because I wanted"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Vivek Reddy - Founder - The MedMonk® - Helping doctors build ...",
+      "htmlTitle": "Vivek Reddy - <b>Founder</b> - The <b>MedMonk</b>® - Helping doctors build ...",
+      "link": "https://www.linkedin.com/in/vivek-reddy-b4203a206",
+      "displayLink": "www.linkedin.com",
+      "snippet": "Vivek Reddy · Founder - The MedMonk® - Helping doctors build their career | Doctor | Entrepreneur | Medical Educator · View mutual connections with Vivek · Welcome ...",
+      "htmlSnippet": "Vivek Reddy &middot; <b>Founder</b> - The <b>MedMonk</b>® - Helping doctors build their career | Doctor | Entrepreneur | Medical Educator &middot; View mutual connections with Vivek &middot; Welcome&nbsp;...",
+      "formattedUrl": "https://www.linkedin.com/in/vivek-reddy-b4203a206",
+      "htmlFormattedUrl": "https://www.linkedin.com/in/vivek-reddy-b4203a206",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7oUV1EvoBV9Kuetrr8fhdj4SE6yQiEyTj2hwt7ee0plus1-5f3ubq7Zs&s",
+            "width": "200",
+            "height": "200"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://media.licdn.com/dms/image/v2/D5603AQGFeUCdZS7z5g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1684468016074?e=2147483647&v=beta&t=EOehsOT2aU_QWJH8hSe1gmha2bbOl8xQJb0henE8Ceo",
+            "twitter:card": "summary",
+            "linkedin:pagetag": "openToProvider",
+            "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+            "al:android:package": "com.linkedin.android",
+            "bingbot": "nocache",
+            "locale": "en_US",
+            "al:ios:url": "https://in.linkedin.com/in/vivek-reddy-b4203a206",
+            "og:description": "Founder - The MedMonk® - Helping doctors build their career | Doctor | Entrepreneur | Medical Educator · Experience: The MedMonk · Location: Hyderabad · 77 connections on LinkedIn. View Vivek Reddy’s profile on LinkedIn, a professional community of 1 billion members.",
+            "al:ios:app_store_id": "288429040",
+            "platform": "https://static.licdn.com/aero-v1/sc/h/50rhhil0lpchs3iqo4twn4tk9",
+            "twitter:image": "https://media.licdn.com/dms/image/v2/D5603AQGFeUCdZS7z5g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1684468016074?e=2147483647&v=beta&t=EOehsOT2aU_QWJH8hSe1gmha2bbOl8xQJb0henE8Ceo",
+            "profile:last_name": "Reddy",
+            "twitter:site": "@Linkedin",
+            "litmsprofilename": "public-profile-frontend",
+            "profile:first_name": "Vivek",
+            "og:type": "profile",
+            "twitter:title": "Vivek Reddy - Founder - The MedMonk® - Helping doctors build their career | Doctor | Entrepreneur | Medical Educator | LinkedIn",
+            "al:ios:app_name": "LinkedIn",
+            "og:title": "Vivek Reddy - Founder - The MedMonk® - Helping doctors build their career | Doctor | Entrepreneur | Medical Educator | LinkedIn",
+            "pagekey": "public_profile_v3_mobile",
+            "al:android:url": "https://in.linkedin.com/in/vivek-reddy-b4203a206",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "twitter:description": "Founder - The MedMonk® - Helping doctors build their career | Doctor | Entrepreneur | Medical Educator · Experience: The MedMonk · Location: Hyderabad · 77 connections on LinkedIn. View Vivek Reddy’s profile on LinkedIn, a professional community of 1 billion members.",
+            "ubba": "https://static.licdn.com/aero-v1/sc/h/41b802ccd3dg7q90ypctzxybx",
+            "og:url": "https://in.linkedin.com/in/vivek-reddy-b4203a206",
+            "al:android:app_name": "LinkedIn"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://media.licdn.com/dms/image/v2/D5603AQGFeUCdZS7z5g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1684468016074?e=2147483647&v=beta&t=EOehsOT2aU_QWJH8hSe1gmha2bbOl8xQJb0henE8Ceo"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Medmonk - 2025 Company Profile, Team, Funding & Competitors ...",
+      "htmlTitle": "<b>Medmonk</b> - 2025 Company Profile, Team, Funding &amp; Competitors ...",
+      "link": "https://tracxn.com/d/companies/medmonk/__k7tJt02cDH268qJBYQPCOaWJ5of_ojuS4QrIJTDpB8s",
+      "displayLink": "tracxn.com",
+      "snippet": "Jun 12, 2025 ... The founders of Medmonk is Abbas Mehdi. Here are the details of Medmonk's key team members: Abbas Mehdi: Founder & CEO of Medmonk. Contact Info: ...",
+      "htmlSnippet": "Jun 12, 2025 <b>...</b> The <b>founders</b> of <b>Medmonk</b> is Abbas Mehdi. Here are the details of <b>Medmonk&#39;s</b> key team members: Abbas Mehdi: <b>Founder</b> &amp; CEO of <b>Medmonk</b>. Contact Info:&nbsp;...",
+      "formattedUrl": "https://tracxn.com/.../medmonk/__k7tJt02cDH268qJBYQPCOaWJ5of_ojuS...",
+      "htmlFormattedUrl": "https://tracxn.com/.../<b>medmonk</b>/__k7tJt02cDH268qJBYQPCOaWJ5of_ojuS...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSig7WQiJy0NIfEIso0OFlQg_nayDcZhVsO-ACl6TAmoHbrNuL0CdaodG4&s",
+            "width": "310",
+            "height": "163"
+          }
+        ],
+        "metatags": [
+          {
+            "image": "https://cdn.tracxn.com/images/seo/social/companies/medmonk-overview-1708892904711.webp",
+            "og:image": "https://cdn.tracxn.com/images/seo/social/companies/medmonk-overview-1708892904711.webp",
+            "og:type": "article",
+            "og:image:width": "1200",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Medmonk - 2025 Company Profile & Team - Tracxn",
+            "theme-color": "#ffffff",
+            "og:title": "Medmonk - 2025 Company Profile & Team - Tracxn",
+            "og:image:height": "630",
+            "og:description": "Medmonk - Provider of medication adherence solutions for patients. Raised a total funding of $120K over 2 rounds from 2 investors.",
+            "twitter:image": "https://cdn.tracxn.com/images/seo/social/companies/medmonk-overview-1708892904711.webp",
+            "referrer": "no-referrer-when-downgrade",
+            "astro-view-transitions-fallback": "animate",
+            "apple-mobile-web-app-status-bar-style": "default",
+            "viewport": "width=device-width",
+            "astro-view-transitions-enabled": "true",
+            "twitter:description": "Medmonk - Provider of medication adherence solutions for patients. Raised a total funding of $120K over 2 rounds from 2 investors.",
+            "apple-mobile-web-app-capable": "yes",
+            "mobile-web-app-capable": "yes",
+            "og:url": "https://tracxn.com/d/companies/medmonk/__k7tJt02cDH268qJBYQPCOaWJ5of_ojuS4QrIJTDpB8s"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.tracxn.com/images/seo/social/companies/medmonk-overview-1708892904711.webp"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Somaira Punjwani - Co-Founder at Medmonk | LinkedIn",
+      "htmlTitle": "Somaira Punjwani - Co-<b>Founder</b> at <b>Medmonk</b> | LinkedIn",
+      "link": "https://www.linkedin.com/in/somaira-punjwani-53352b238",
+      "displayLink": "www.linkedin.com",
+      "snippet": "Co-Founder at Medmonk · With over 15 years of pharmacy experience and a Doctorate in Pharmaceutical Sciences, Somaira Punjwani is dedicated to improving ...",
+      "htmlSnippet": "Co-<b>Founder</b> at <b>Medmonk</b> · With over 15 years of pharmacy experience and a Doctorate in Pharmaceutical Sciences, Somaira Punjwani is dedicated to improving&nbsp;...",
+      "formattedUrl": "https://www.linkedin.com/in/somaira-punjwani-53352b238",
+      "htmlFormattedUrl": "https://www.linkedin.com/in/somaira-punjwani-53352b238",
+      "pagemap": {
+        "metatags": [
+          {
+            "og:image": "https://media.licdn.com/dms/image/v2/D5603AQG9Z4pW6YfXvw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1718235347726?e=2147483647&v=beta&t=iQ9Q-CCxUpXLXYShYRgzWyMDN2n-Nzfcbmz65EFCUQU",
+            "twitter:card": "summary",
+            "linkedin:pagetag": "openToProvider",
+            "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+            "al:android:package": "com.linkedin.android",
+            "bingbot": "nocache",
+            "locale": "en_US",
+            "al:ios:url": "https://www.linkedin.com/in/somaira-punjwani-53352b238",
+            "og:description": "Co-Founder at Medmonk · With over 15 years of pharmacy experience and a Doctorate in Pharmaceutical Sciences, Somaira Punjwani is dedicated to improving patient access to care. Formerly a lead pharmacist at Walgreens, she specialized in HIV, Oncology, Rheumatoid Arthritis, and Hepatitis therapies. \n\nAt Walgreens, Somaira developed a co-pay assistance process, which was later adopted nationwide. This innovation led her to co-found Medmonk, a technology-driven platform offering comprehensive support for complex chronic rare diseases.\n\nSomaira&#39;s expertise and dedication to patient care are instrumental in driving the creation of solutions that enhance patient and provider experiences. Her strong leadership ensures that patients receive the necessary support for life-saving treatments, further underscoring her commitment to improving patient access to care. · Experience: Medmonk · Location: Greater Sacramento · 8 connections on LinkedIn. View Somaira Punjwani’s profile on LinkedIn, a professional commun",
+            "al:ios:app_store_id": "288429040",
+            "platform": "https://static.licdn.com/aero-v1/sc/h/50rhhil0lpchs3iqo4twn4tk9",
+            "twitter:image": "https://media.licdn.com/dms/image/v2/D5603AQG9Z4pW6YfXvw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1718235347726?e=2147483647&v=beta&t=iQ9Q-CCxUpXLXYShYRgzWyMDN2n-Nzfcbmz65EFCUQU",
+            "profile:last_name": "Punjwani",
+            "twitter:site": "@Linkedin",
+            "litmsprofilename": "public-profile-frontend",
+            "profile:first_name": "Somaira",
+            "og:type": "profile",
+            "twitter:title": "Somaira Punjwani - Co-Founder at Medmonk | LinkedIn",
+            "al:ios:app_name": "LinkedIn",
+            "og:title": "Somaira Punjwani - Co-Founder at Medmonk | LinkedIn",
+            "pagekey": "public_profile_v3_mobile",
+            "al:android:url": "https://www.linkedin.com/in/somaira-punjwani-53352b238",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "twitter:description": "Co-Founder at Medmonk · With over 15 years of pharmacy experience and a Doctorate in Pharmaceutical Sciences, Somaira Punjwani is dedicated to improving patient access to care. Formerly a lead pharmacist at Walgreens, she specialized in HIV, Oncology, Rheumatoid Arthritis, and Hepatitis therapies. \n\nAt Walgreens, Somaira developed a co-pay assistance process, which was later adopted nationwide. This innovation led her to co-found Medmonk, a technology-driven platform offering comprehensive support for complex chronic rare diseases.\n\nSomaira&#39;s expertise and dedication to patient care are instrumental in driving the creation of solutions that enhance patient and provider experiences. Her strong leadership ensures that patients receive the necessary support for life-saving treatments, further underscoring her commitment to improving patient access to care. · Experience: Medmonk · Location: Greater Sacramento · 8 connections on LinkedIn. View Somaira Punjwani’s profile on LinkedIn, a professional commun",
+            "ubba": "https://static.licdn.com/aero-v1/sc/h/41b802ccd3dg7q90ypctzxybx",
+            "og:url": "https://www.linkedin.com/in/somaira-punjwani-53352b238",
+            "al:android:app_name": "LinkedIn"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Ashar Hasan Email & Phone Number | Medmonk Chief Executive ...",
+      "htmlTitle": "Ashar Hasan Email &amp; Phone Number | <b>Medmonk</b> Chief Executive ...",
+      "link": "https://rocketreach.co/ashar-hasan-email_9665652",
+      "displayLink": "rocketreach.co",
+      "snippet": "2024 - now Chief Executive Officer @ Medmonk · 2013 - 2024 Chief Business Development Officer @ Medmonk · 2017 - 2020 Founder and CEO @ Premier Specialty Infusion.",
+      "htmlSnippet": "2024 - now Chief Executive Officer @ <b>Medmonk</b> &middot; 2013 - 2024 Chief Business Development Officer @ <b>Medmonk</b> &middot; 2017 - 2020 <b>Founder</b> and CEO @ Premier Specialty Infusion.",
+      "formattedUrl": "https://rocketreach.co/ashar-hasan-email_9665652",
+      "htmlFormattedUrl": "https://rocketreach.co/ashar-hasan-email_9665652",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcrElF8hD1h5G9l4iTOp9FPqkKBSFnISLrN6QMuuJc49bvw07-xT6F5KNx&s",
+            "width": "200",
+            "height": "200"
+          }
+        ],
+        "metatags": [
+          {
+            "msapplication-tilecolor": "#03a9f4",
+            "og:image": "https://d2gjqh9j26unp0.cloudfront.net/profilepic/d2339886ba87ab6d113f8ec6f4395080",
+            "msapplication-config": "//static.rocketreach.co/images/favicons/browserconfig.xml",
+            "og:type": "website",
+            "og:image:alt": "Profile",
+            "og:image:width": "500",
+            "twitter:card": "summary",
+            "twitter:title": "Ashar Hasan Email & Phone Number | Medmonk Chief Executive Officer Contact Information",
+            "theme-color": "#03a9f4",
+            "og:site_name": "RocketReach",
+            "og:title": "Ashar Hasan Email & Phone Number | Medmonk Chief Executive Officer Contact Information",
+            "og:image:height": "500",
+            "og:image:type": "image/png",
+            "title": "Ashar Hasan Email & Phone Number | Medmonk Chief Executive Officer Contact Information",
+            "msapplication-tileimage": "//static.rocketreach.co/images/favicons/ms-icon-144x144.png?v=2020120",
+            "og:description": "Get Ashar Hasan's email address (a******@hotmail.com) and phone number (917-647-....) at RocketReach. Get 5 free searches.",
+            "twitter:creator": "@rocketreachco",
+            "twitter:image": "https://static.rocketreach.co/images/logo/logoWhiteRocketBlueHaloWhiteText.png",
+            "twitter:site": "@rocketreachco",
+            "viewport": "width=device-width, initial-scale=1.0, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover",
+            "twitter:description": "Get Ashar Hasan's email address (a******@hotmail.com) and phone number (917-647-....) at RocketReach. Get 5 free searches.",
+            "og:url": "https://rocketreach.co/ashar-hasan-email_9665652"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://d2gjqh9j26unp0.cloudfront.net/profilepic/d2339886ba87ab6d113f8ec6f4395080"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Medmonk - Crunchbase Company Profile & Funding",
+      "htmlTitle": "<b>Medmonk</b> - Crunchbase Company Profile &amp; Funding",
+      "link": "https://www.crunchbase.com/organization/medmonk",
+      "displayLink": "www.crunchbase.com",
+      "snippet": "Legal Name Medmonk, Inc. ; Operating Status Active ; Company Type For Profit ; Founders Abbas Mehdi, Somaira Punjwani.",
+      "htmlSnippet": "Legal Name <b>Medmonk</b>, Inc. ; Operating Status Active ; Company Type For Profit ; <b>Founders</b> Abbas Mehdi, Somaira Punjwani.",
+      "formattedUrl": "https://www.crunchbase.com/organization/medmonk",
+      "htmlFormattedUrl": "https://www.crunchbase.com/organization/<b>medmonk</b>",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPj3aU-gIfSSj_9lXhhhOcXchWVyfK6XfZTMg5ElOvY0QyM-99cNPi-JjB&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1397198784/e030ca7067cbf8977ca51183b209be61.jpg",
+            "og:type": "website",
+            "og:image:alt": "Medmonk",
+            "og:image:width": "256",
+            "og:site_name": "Crunchbase",
+            "viewport": "width=device-width, minimum-scale=1.0, initial-scale=1.0",
+            "og:title": "Medmonk - Crunchbase Company Profile & Funding",
+            "og:image:height": "256",
+            "og:url": "https://www.crunchbase.com/organization/medmonk",
+            "og:description": "Helps pharmacists obtain funding for patients who cannot afford their out-of-pocket pharmaceutical expenses.",
+            "og:image:secure_url": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1397198784/e030ca7067cbf8977ca51183b209be61.jpg"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1397198784/e030ca7067cbf8977ca51183b209be61.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Abbas Mehdi Email & Phone Number | Medmonk Co-founder ...",
+      "htmlTitle": "Abbas Mehdi Email &amp; Phone Number | <b>Medmonk</b> Co-<b>founder</b> ...",
+      "link": "https://rocketreach.co/abbas-mehdi-email_74328444",
+      "displayLink": "rocketreach.co",
+      "snippet": "Abbas Mehdi, based in Granite Bay, CA, US, is currently a Co-founder at Medmonk. Abbas Mehdi brings experience from previous roles at iolo technologies, LLC ...",
+      "htmlSnippet": "Abbas Mehdi, based in Granite Bay, CA, US, is currently a Co-<b>founder</b> at <b>Medmonk</b>. Abbas Mehdi brings experience from previous roles at iolo technologies, LLC&nbsp;...",
+      "formattedUrl": "https://rocketreach.co/abbas-mehdi-email_74328444",
+      "htmlFormattedUrl": "https://rocketreach.co/abbas-mehdi-email_74328444",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfkVsnjG8Smh3m98ZcGVH-8hLDhOWykTb1LYmGpw2hhw7srhCOEqrmh88&s",
+            "width": "200",
+            "height": "200"
+          }
+        ],
+        "metatags": [
+          {
+            "msapplication-tilecolor": "#03a9f4",
+            "og:image": "https://d2gjqh9j26unp0.cloudfront.net/profilepic/46e89e3f47d182c4d45e43be220d68ad",
+            "msapplication-config": "//static.rocketreach.co/images/favicons/browserconfig.xml",
+            "og:type": "website",
+            "og:image:alt": "Profile",
+            "og:image:width": "500",
+            "twitter:card": "summary",
+            "twitter:title": "Abbas Mehdi Email & Phone Number | Medmonk Co-founder Contact Information",
+            "theme-color": "#03a9f4",
+            "og:site_name": "RocketReach",
+            "og:title": "Abbas Mehdi Email & Phone Number | Medmonk Co-founder Contact Information",
+            "og:image:height": "500",
+            "og:image:type": "image/png",
+            "title": "Abbas Mehdi Email & Phone Number | Medmonk Co-founder Contact Information",
+            "msapplication-tileimage": "//static.rocketreach.co/images/favicons/ms-icon-144x144.png?v=2020120",
+            "og:description": "Get Abbas Mehdi's email address (a******@medmonk.com) and phone number (904-514-....) at RocketReach. Get 5 free searches.",
+            "twitter:creator": "@rocketreachco",
+            "twitter:image": "https://static.rocketreach.co/images/logo/logoWhiteRocketBlueHaloWhiteText.png",
+            "twitter:site": "@rocketreachco",
+            "viewport": "width=device-width, initial-scale=1.0, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover",
+            "twitter:description": "Get Abbas Mehdi's email address (a******@medmonk.com) and phone number (904-514-....) at RocketReach. Get 5 free searches.",
+            "og:url": "https://rocketreach.co/abbas-mehdi-email_74328444"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://d2gjqh9j26unp0.cloudfront.net/profilepic/46e89e3f47d182c4d45e43be220d68ad"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Medmonk - Overview, News & Similar companies | ZoomInfo.com",
+      "htmlTitle": "<b>Medmonk</b> - Overview, News &amp; Similar companies | ZoomInfo.com",
+      "link": "https://www.zoominfo.com/c/medmonk-inc/415936414",
+      "displayLink": "www.zoominfo.com",
+      "snippet": "CEO at Medmonk. Ashar Hasan, Chief Executive Officer at Medmonk. United States flag for contact location. Ashar Hasan.",
+      "htmlSnippet": "CEO at <b>Medmonk</b>. Ashar Hasan, Chief Executive Officer at <b>Medmonk</b>. United States flag for contact location. Ashar Hasan.",
+      "formattedUrl": "https://www.zoominfo.com/c/medmonk-inc/415936414",
+      "htmlFormattedUrl": "https://www.zoominfo.com/c/<b>medmonk</b>-inc/415936414",
+      "pagemap": {
+        "organization": [
+          {
+            "name": "ZoomInfo",
+            "description": "ZoomInfo gives you high-quality B2B data and sales intelligence on in-market buyers across companies of all sizes, powered by AI-driven automation with integrated outreach tools to help your...",
+            "url": "https://www.zoominfo.com/"
+          }
+        ],
+        "metatags": [
+          {
+            "og:site_name": "ZoomInfo",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:title": "Medmonk - Overview, News & Similar companies | ZoomInfo.com",
+            "og:keywords": "medmonk Inc,Medmonk, ZoomInfo, Zoom Information, Zoom, web summary, professional summary, professional background, employment history, board memberships, education, biography, web references",
+            "og:url": "https://www.zoominfo.com/c/medmonk-inc/415936414",
+            "og:description": "View Medmonk (www.medmonk.com) location in California, United States , revenue, industry and description. Find related and similar companies as well as employees by title and much more.",
+            "format-detection": "telephone=no",
+            "facebook-domain-verification": "ye2dbqqt9ur3qsgtusivqwpinwjgm7"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "The MedMonk® | LinkedIn",
+      "htmlTitle": "The <b>MedMonk</b>® | LinkedIn",
+      "link": "https://in.linkedin.com/company/themedmonk",
+      "displayLink": "in.linkedin.com",
+      "snippet": "Click here to view Vivek Reddy's profile. Vivek Reddy. Founder - The MedMonk® - Helping… · Click here to view Harika Jasmine's profile. Harika Jasmine. Manager ...",
+      "htmlSnippet": "Click here to view Vivek Reddy&#39;s profile. Vivek Reddy. <b>Founder</b> - The <b>MedMonk</b>® - Helping… &middot; Click here to view Harika Jasmine&#39;s profile. Harika Jasmine. Manager&nbsp;...",
+      "formattedUrl": "https://in.linkedin.com/company/themedmonk",
+      "htmlFormattedUrl": "https://in.linkedin.com/company/the<b>medmonk</b>",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkImy22iKDLuZVrd9kE-nX2RHbE8gXnE2HSZScZzEV_wxeXgP_HSD-8Pc&s",
+            "width": "200",
+            "height": "200"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://media.licdn.com/dms/image/v2/D4E0BAQGxi7gZNHFYAg/company-logo_200_200/company-logo_200_200/0/1664790107481/themedmonk_logo?e=2147483647&v=beta&t=mvlxHfchcRexkld_NLutrOQb93d5gZaQVVx4IW1gaIo",
+            "og:type": "article",
+            "twitter:card": "summary",
+            "twitter:title": "The MedMonk® | LinkedIn",
+            "clientsideingraphs": "1",
+            "al:ios:app_name": "LinkedIn",
+            "linkedin:pagetag": "noncanonical_subdomain=control",
+            "og:title": "The MedMonk® | LinkedIn",
+            "al:android:package": "com.linkedin.android",
+            "pagekey": "p_org_guest_company_overview",
+            "bingbot": "nocache",
+            "locale": "en_US",
+            "al:ios:url": "https://in.linkedin.com/company/themedmonk",
+            "og:description": "The MedMonk® | 190 followers on LinkedIn. Where Success Meets Passion | A team of passionate doctors working towards enhancing medical education by encouraging medical students in field of learning. \nMBBS | USMLE | FMGE | PLAB | NEXT",
+            "al:ios:app_store_id": "288429040",
+            "twitter:image": "https://media.licdn.com/dms/image/v2/D4E0BAQGxi7gZNHFYAg/company-logo_200_200/company-logo_200_200/0/1664790107481/themedmonk_logo?e=2147483647&v=beta&t=mvlxHfchcRexkld_NLutrOQb93d5gZaQVVx4IW1gaIo",
+            "al:android:url": "https://in.linkedin.com/company/themedmonk",
+            "twitter:site": "@linkedin",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "twitter:description": "The MedMonk® | 190 followers on LinkedIn. Where Success Meets Passion | A team of passionate doctors working towards enhancing medical education by encouraging medical students in field of learning. \nMBBS | USMLE | FMGE | PLAB | NEXT",
+            "og:url": "https://in.linkedin.com/company/themedmonk",
+            "al:android:app_name": "LinkedIn"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://media.licdn.com/dms/image/v2/D4E0BAQGxi7gZNHFYAg/company-logo_200_200/company-logo_200_200/0/1664790107481/themedmonk_logo?e=2147483647&v=beta&t=mvlxHfchcRexkld_NLutrOQb93d5gZaQVVx4IW1gaIo"
+          }
+        ]
+      }
+    }
+  ]
+}

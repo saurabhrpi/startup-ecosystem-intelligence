@@ -1,0 +1,472 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - \"Matterport\" founders",
+        "totalResults": "142000",
+        "searchTerms": "\"Matterport\" founders",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - \"Matterport\" founders",
+        "totalResults": "142000",
+        "searchTerms": "\"Matterport\" founders",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ]
+  },
+  "context": {
+    "title": "startup-ecosystem-intelligence"
+  },
+  "searchInformation": {
+    "searchTime": 0.12418,
+    "formattedSearchTime": "0.12",
+    "totalResults": "142000",
+    "formattedTotalResults": "142,000"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "Matterport - Wikipedia",
+      "htmlTitle": "<b>Matterport</b> - Wikipedia",
+      "link": "https://en.wikipedia.org/wiki/Matterport",
+      "displayLink": "en.wikipedia.org",
+      "snippet": "Matterport ; Founders. Matthew Bell; David Gausebeck; Mike Beebe ; Number of locations. 6 offices ; Key people. R.J. Pittman (CEO); James D. Fay (CFO); David ...",
+      "htmlSnippet": "<b>Matterport</b> ; <b>Founders</b>. Matthew Bell; David Gausebeck; Mike Beebe ; Number of locations. 6 offices ; Key people. R.J. Pittman (CEO); James D. Fay (CFO); David&nbsp;...",
+      "formattedUrl": "https://en.wikipedia.org/wiki/Matterport",
+      "htmlFormattedUrl": "https://en.wikipedia.org/wiki/<b>Matterport</b>",
+      "pagemap": {
+        "hcard": [
+          {
+            "url_text": "matterport.com",
+            "bday": "2011",
+            "fn": "Matterport LLC",
+            "nickname": "Matterport, Inc. (2011–2025)",
+            "category": "Subsidiary",
+            "url": "matterport.com"
+          }
+        ],
+        "metatags": [
+          {
+            "referrer": "origin",
+            "theme-color": "#eaecf0",
+            "og:type": "website",
+            "viewport": "width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0",
+            "og:title": "Matterport - Wikipedia",
+            "format-detection": "telephone=no"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "About Us | Matterport",
+      "htmlTitle": "About Us | <b>Matterport</b>",
+      "link": "https://matterport.com/about-us",
+      "displayLink": "matterport.com",
+      "snippet": "2011. The year Matterport was founded to explore the intersection of hardware, AI, and the built world.",
+      "htmlSnippet": "2011. The year <b>Matterport</b> was founded to explore the intersection of hardware, AI, and the built world.",
+      "formattedUrl": "https://matterport.com/about-us",
+      "htmlFormattedUrl": "https://<b>matterport</b>.com/about-us",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTtIE3Nw2zNmieTl0SBgr16CJ1HYdKg2CZcut3xp25_0AtkM305PX2AdBx&s",
+            "width": "300",
+            "height": "168"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://images.ctfassets.net/icnj41gkyohw/67mLL6CjL8paRGaSaYxqCV/a9103a26dacd41fcbba7c276da2ddef2/MTTR_Share_Image_-_1600x900.png",
+            "next-head-count": "33",
+            "apple-itunes-app": "app-id=701086043",
+            "twitter:card": "summary_large_image",
+            "og:type": "article",
+            "twitter:site": "@matterport",
+            "og:site_name": "Matterport",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "og:title": "About Us",
+            "og:url": "https://matterport.com/about-us",
+            "og:description": "Matterport is the leading spatial data company focused on digitizing and indexing the built world."
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://images.ctfassets.net/icnj41gkyohw/67mLL6CjL8paRGaSaYxqCV/a9103a26dacd41fcbba7c276da2ddef2/MTTR_Share_Image_-_1600x900.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Q&A with Dave Gausebeck, Cofounder of Matterport | Y Combinator",
+      "htmlTitle": "Q&amp;A with Dave Gausebeck, Cofounder of <b>Matterport</b> | Y Combinator",
+      "link": "https://www.ycombinator.com/blog/qa-with-dave-gausebeck-cofounder-of-matterport/",
+      "displayLink": "www.ycombinator.com",
+      "snippet": "Oct 17, 2018 ... Matterport has two founders: Dave Gausebeck and Matt Bell. What is your most impressive recent product milestone? This year Matterport ...",
+      "htmlSnippet": "Oct 17, 2018 <b>...</b> <b>Matterport</b> has two <b>founders</b>: Dave Gausebeck and Matt Bell. What is your most impressive recent product milestone? This year <b>Matterport</b>&nbsp;...",
+      "formattedUrl": "https://www.ycombinator.com/.../qa-with-dave-gausebeck-cofounder-of-m...",
+      "htmlFormattedUrl": "https://www.ycombinator.com/.../qa-with-dave-gausebeck-cofounder-of-<b>m</b>...",
+      "pagemap": {
+        "metatags": [
+          {
+            "twitter:card": "summary_large_image",
+            "og:type": "website",
+            "twitter:site": "@ycombinator",
+            "og:site_name": "Y Combinator",
+            "viewport": "initial-scale=1, width=device-width, height=device-height",
+            "csrf-token": "kdr02FisJq8W1dsruneZ8KruGG4POIbQSx3Z9tGSJWWmTTo8rh89EqCPYJhXRi_-n5odLabmACZN0LU1mYh2Iw",
+            "og:title": "Q&A with Dave Gausebeck, Cofounder of Matterport | Y Combinator",
+            "og:locale": "en_US",
+            "csrf-param": "authenticity_token",
+            "og:url": "https://www.ycombinator.com/blog/qa-with-dave-gausebeck-cofounder-of-matterport",
+            "og:description": "We put together a list of the top YC companies by valuation as of October 2018.\nYou can see that list at https://ycombinator.com/topcompanies.\n\nHere’s a Q&A with Dave Gausebeck, Cofounder of Matterport, one of the companies\nfeatured on the list.\n\n\n--------------------------------------------------------------------------------\n\nWhat does Matterport make/do?\n\nMatterport is an immersive media technology company. We make it easy and cost\neffective to create digital models of the real world in 3D an"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Matterport Chairman and CEO RJ Pittman Named Inman 2024 ...",
+      "htmlTitle": "<b>Matterport</b> Chairman and CEO RJ Pittman Named Inman 2024 ...",
+      "link": "https://matterport.com/news/matterport-chairman-and-ceo-rj-pittman-named-inman-2024-power-player",
+      "displayLink": "matterport.com",
+      "snippet": "Feb 27, 2024 ... RJ Pittman, CEO and Chairman of Matterport, Inc. (Nasdaq: MTTR) was named to Inman's Power Players class for the second consecutive year.",
+      "htmlSnippet": "Feb 27, 2024 <b>...</b> RJ Pittman, CEO and Chairman of <b>Matterport</b>, Inc. (Nasdaq: MTTR) was named to Inman&#39;s Power Players class for the second consecutive year.",
+      "formattedUrl": "https://matterport.com/.../matterport-chairman-and-ceo-rj-pittman-named-in...",
+      "htmlFormattedUrl": "https://<b>matterport</b>.com/.../<b>matterport</b>-chairman-and-ceo-rj-pittman-named-in...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTtIE3Nw2zNmieTl0SBgr16CJ1HYdKg2CZcut3xp25_0AtkM305PX2AdBx&s",
+            "width": "300",
+            "height": "168"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://images.ctfassets.net/icnj41gkyohw/67mLL6CjL8paRGaSaYxqCV/a9103a26dacd41fcbba7c276da2ddef2/MTTR_Share_Image_-_1600x900.png",
+            "next-head-count": "30",
+            "apple-itunes-app": "app-id=701086043",
+            "twitter:card": "summary_large_image",
+            "og:type": "article",
+            "twitter:site": "@matterport",
+            "og:site_name": "Matterport",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "og:title": "Matterport Chairman and CEO RJ Pittman Named Inman 2024 Power Player Underscoring The Transformative Impact Of Digital Twins On Real Estate",
+            "og:url": "https://matterport.com/news/matterport-chairman-and-ceo-rj-pittman-named-inman-2024-power-player",
+            "og:description": "Recognizing outstanding accomplishments across the residential real estate industry, the 2024 Inman Power Players list highlights leaders, executives,"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://images.ctfassets.net/icnj41gkyohw/67mLL6CjL8paRGaSaYxqCV/a9103a26dacd41fcbba7c276da2ddef2/MTTR_Share_Image_-_1600x900.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "RJ Pittman - Matterport | LinkedIn",
+      "htmlTitle": "RJ Pittman - <b>Matterport</b> | LinkedIn",
+      "link": "https://www.linkedin.com/in/rjpittman",
+      "displayLink": "www.linkedin.com",
+      "snippet": "I am the Chairman and CEO of Matterport (NASDAQ:MTTR). Previously, I have held senior… · Experience: Matterport · Location: San Francisco · 500+ connections ...",
+      "htmlSnippet": "I am the Chairman and CEO of <b>Matterport</b> (NASDAQ:MTTR). Previously, I have held senior… · Experience: <b>Matterport</b> · Location: San Francisco · 500+ connections&nbsp;...",
+      "formattedUrl": "https://www.linkedin.com/in/rjpittman",
+      "htmlFormattedUrl": "https://www.linkedin.com/in/rjpittman",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpEnMCOR-ytx0ZXHO2rgJlezc4CfXm5iHZMEjL8fSfOciDiTG4CU0Uc8QO&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://static.licdn.com/aero-v1/sc/h/1c5u578iilxfi4m4dvc4q810q",
+            "twitter:card": "summary",
+            "linkedin:pagetag": "openToProvider",
+            "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+            "al:android:package": "com.linkedin.android",
+            "bingbot": "nocache",
+            "locale": "en_US",
+            "al:ios:url": "https://www.linkedin.com/in/rjpittman",
+            "og:description": "I am the Chairman and CEO of Matterport (NASDAQ:MTTR). Previously, I have held senior… · Experience: Matterport · Location: San Francisco · 500+ connections on LinkedIn. View RJ Pittman’s profile on LinkedIn, a professional community of 1 billion members.",
+            "al:ios:app_store_id": "288429040",
+            "platform": "https://static.licdn.com/aero-v1/sc/h/50rhhil0lpchs3iqo4twn4tk9",
+            "twitter:image": "https://static.licdn.com/aero-v1/sc/h/1c5u578iilxfi4m4dvc4q810q",
+            "profile:last_name": "Pittman",
+            "twitter:site": "@Linkedin",
+            "litmsprofilename": "public-profile-frontend",
+            "profile:first_name": "RJ",
+            "og:type": "profile",
+            "twitter:title": "RJ Pittman - Matterport | LinkedIn",
+            "al:ios:app_name": "LinkedIn",
+            "og:title": "RJ Pittman - Matterport | LinkedIn",
+            "pagekey": "public_profile_v3_mobile",
+            "al:android:url": "https://www.linkedin.com/in/rjpittman",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "twitter:description": "I am the Chairman and CEO of Matterport (NASDAQ:MTTR). Previously, I have held senior… · Experience: Matterport · Location: San Francisco · 500+ connections on LinkedIn. View RJ Pittman’s profile on LinkedIn, a professional community of 1 billion members.",
+            "ubba": "https://static.licdn.com/aero-v1/sc/h/41b802ccd3dg7q90ypctzxybx",
+            "og:url": "https://www.linkedin.com/in/rjpittman",
+            "al:android:app_name": "LinkedIn"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://static.licdn.com/aero-v1/sc/h/1c5u578iilxfi4m4dvc4q810q"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Matterport Is Going Public to Digitize the Built World",
+      "htmlTitle": "<b>Matterport</b> Is Going Public to Digitize the Built World",
+      "link": "https://www.luxcapital.com/news/matterport-is-going-public-to-digitize-the-built-world",
+      "displayLink": "www.luxcapital.com",
+      "snippet": "Feb 8, 2021 ... We're excited to be on this exciting journey with CEO RJ Pittman and the team at Matterport. With less than 0.01% of the built world digitized, ...",
+      "htmlSnippet": "Feb 8, 2021 <b>...</b> We&#39;re excited to be on this exciting journey with CEO RJ Pittman and the team at <b>Matterport</b>. With less than 0.01% of the built world digitized,&nbsp;...",
+      "formattedUrl": "https://www.luxcapital.com/.../matterport-is-going-public-to-digitize-the-bu...",
+      "htmlFormattedUrl": "https://www.luxcapital.com/.../<b>matterport</b>-is-going-public-to-digitize-the-bu...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK28P44ZInF-H0dhSUquqQPixzrL9LVArJGd9HtPqjwlzxf8S9cPtxbq8&s",
+            "width": "304",
+            "height": "166"
+          }
+        ],
+        "metatags": [
+          {
+            "twitter:title": "Matterport Is Going Public to Digitize the Built World",
+            "viewport": "width=device-width, initial-scale=1",
+            "author": "Peter Hébert",
+            "og:title": "Matterport Is Going Public to Digitize the Built World",
+            "collection": "news",
+            "title": "Matterport Is Going Public to Digitize the Built World"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.prod.website-files.com/62cdfd11dfb27b1bb670e0d6/65a1a634c069755f200d2cf3_1*mve_ocJyqaRQclcP6BGWeQ.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "1756 Founders Hill S - Williamsburg, VA Virtual Tour",
+      "htmlTitle": "1756 <b>Founders</b> Hill S - Williamsburg, VA Virtual Tour",
+      "link": "https://discover.matterport.com/space/xaGztjcvaRd",
+      "displayLink": "discover.matterport.com",
+      "snippet": "Address: 1756 Founders Hill S, Williamsburg, VA,, US. Captured with: Matterport Pro3. Collections: Shared by: Liz Moore Associates.",
+      "htmlSnippet": "Address: 1756 <b>Founders</b> Hill S, Williamsburg, VA,, US. Captured with: <b>Matterport</b> Pro3. Collections: Shared by: Liz Moore Associates.",
+      "formattedUrl": "https://discover.matterport.com/space/xaGztjcvaRd",
+      "htmlFormattedUrl": "https://discover.<b>matterport</b>.com/space/xaGztjcvaRd",
+      "pagemap": {
+        "metatags": [
+          {
+            "og:image": "https://my.matterport.com/api/v1/player/models/xaGztjcvaRd/thumb?disable=upscale&frame=1&width=1200&height=630&fit=crop",
+            "theme-color": "#000000",
+            "twitter:card": "summary_large_image",
+            "og:type": "website",
+            "twitter:title": "1756 Founders Hill S - Williamsburg, VA Virtual Tour",
+            "og:site_name": "Matterport Discover",
+            "apple-mobile-web-app-title": "Discover",
+            "og:title": "1756 Founders Hill S - Williamsburg, VA Virtual Tour",
+            "og:image:type": "image/webp",
+            "twitter:image": "https://my.matterport.com/api/v1/player/models/xaGztjcvaRd/thumb?disable=upscale&frame=1&width=1200&height=630&fit=crop",
+            "twitter:site": "@matterport",
+            "viewport": "width=device-width,initial-scale=1,viewport-fit=cover",
+            "og:url": "https://discover.matterport.com/space/xaGztjcvaRd"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://my.matterport.com/api/v1/player/models/xaGztjcvaRd/thumb?disable=upscale&frame=1&width=1200&height=630&fit=crop"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Matterport CEO Discusses CoStar Acquisition",
+      "htmlTitle": "<b>Matterport</b> CEO Discusses CoStar Acquisition",
+      "link": "https://therealdeal.com/san-francisco/2025/05/25/matterport-ceo-discusses-costar-acquisition/",
+      "displayLink": "therealdeal.com",
+      "snippet": "May 25, 2025 ... Matterport CEO RJ Pittman discussed the $1.6 billion acquisition by CoStar, highlighting the use of Matterport's AI and visualization ...",
+      "htmlSnippet": "May 25, 2025 <b>...</b> <b>Matterport</b> CEO RJ Pittman discussed the $1.6 billion acquisition by CoStar, highlighting the use of <b>Matterport&#39;s</b> AI and visualization&nbsp;...",
+      "formattedUrl": "https://therealdeal.com/san.../matterport-ceo-discusses-costar-acquisition/",
+      "htmlFormattedUrl": "https://therealdeal.com/san.../<b>matterport</b>-ceo-discusses-costar-acquisition/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL88wLOarJVNIRGLjwAOJ3vQn1dNhCnQnHFO-uutXmw4C0GkhE4tf9DmhI&s",
+            "width": "267",
+            "height": "189"
+          }
+        ],
+        "metatags": [
+          {
+            "date": "2025-05-25",
+            "og:image": "https://static.therealdeal.com/wp-content/uploads/2025/05/Matterport-CEO-Discusses-CoStar-Acquisition-f.jpg",
+            "article:published_time": "2025-05-25T18:00:00+00:00",
+            "og:image:width": "1200",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "The Real Deal",
+            "sailthru.tags": "San Francisco,Tech,CoStar,Douglas Wilson,Matterport,RJ Pittman,Apartments,Distress,Parkmerced,TRD This Week",
+            "baggage": "sentry-environment=prod,sentry-release=trd-news-front-end%4025.07.18.205.1,sentry-public_key=e9a9b75c636c4a698c97f9cca670d23f,sentry-trace_id=bfb329a305fee263bfaa700be936b0a6,sentry-sampled=false,sentry-sample_rand=0.02198902668528624,sentry-sample_rate=0.0001",
+            "sentry-trace": "bfb329a305fee263bfaa700be936b0a6-e5c34c058ba89da6-0",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "parsely-author": "Emily Landes",
+            "og:image:type": "image/jpeg",
+            "og:description": "RJ Pittman reveals details of the $1.6B deal, plus management changes at Parkmerced, a historic Sausalito home for sale and more Bay Area real estate news.",
+            "twitter:creator": "@trdny",
+            "article:publisher": "https://www.facebook.com/therealdealmedia/",
+            "twitter:data1": "Ilya Hourie",
+            "twitter:data2": "7 minutes",
+            "parsely-type": "post",
+            "twitter:site": "@trdny",
+            "news_keywords": "Matterport CoStar acquisition",
+            "parsely-link": "https://therealdeal.com/san-francisco/2025/05/25/matterport-ceo-discusses-costar-acquisition/",
+            "sailthru.title": "Matterport CEO on CoStar’s $1.6B acquisition",
+            "parsely-image-url": "https://static.therealdeal.com/wp-content/uploads/2025/05/Matterport-CEO-Discusses-CoStar-Acquisition-f-300x213.jpg",
+            "parsely-section": "San Francisco",
+            "sailthru.date": "2025-05-25",
+            "og:type": "article",
+            "article:section": "San Francisco",
+            "author": "Emily Landes",
+            "og:title": "Matterport CEO on CoStar’s $1.6B acquisition",
+            "og:image:height": "850",
+            "sailthru.image.thumb": "https://static.therealdeal.com/wp-content/uploads/2025/05/Matterport-CEO-Discusses-CoStar-Acquisition-f-50x35.jpg",
+            "parsely-title": "Matterport CEO on CoStar’s $1.6B acquisition",
+            "article:tag": "San Francisco,Tech,CoStar,Douglas Wilson,Matterport,RJ Pittman,Apartments,Distress,Parkmerced,TRD This Week",
+            "parsely-pub-date": "2025-05-25T14:00:00-04:00",
+            "parsely-tags": "San Francisco,Tech,CoStar,Douglas Wilson,Matterport,RJ Pittman,Apartments,Distress,Parkmerced,TRD This Week",
+            "viewport": "width=device-width",
+            "twitter:description": "Matterport CEO RJ Pittman’s inside look into the 3D modeling company’s $1.6 billion acquisition by CoStar was among the top Bay Area real estate news stories this week. The deal, which was finalized at the end of February, started when Pittman and CoStar Founder and CEO Andy Florance got together to talk about “how we could really push CoStar into the 21st century” using Matterport’s visualization and AI features. The pair ended up having “inspiring conversations” that led to the acquisition negotiations, Pittman said.  “If there was a chance of doing a one plus one equals five or 10, a […]",
+            "og:locale": "en_US",
+            "og:url": "https://therealdeal.com/san-francisco/2025/05/25/matterport-ceo-discusses-costar-acquisition/",
+            "region": "San Francisco",
+            "sailthru.image.full": "https://static.therealdeal.com/wp-content/uploads/2025/05/Matterport-CEO-Discusses-CoStar-Acquisition-f-700x496.jpg",
+            "sailthru.author": "Emily Landes"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://static.therealdeal.com/wp-content/uploads/2025/05/Matterport-CEO-Discusses-CoStar-Acquisition-f.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "CoStar CEO on Matterport deal: Virtual tours, real advantage",
+      "htmlTitle": "CoStar CEO on <b>Matterport</b> deal: Virtual tours, real advantage",
+      "link": "https://www.realestatenews.com/2024/05/04/costar-ceo-on-matterport-deal-virtual-tours-real-advantage",
+      "displayLink": "www.realestatenews.com",
+      "snippet": "May 4, 2024 ... ... CEO and Founder, CoStar; Matterport room mapping image Illustration by Lanette Behiry/Adobe Stock; Matterport. Tech. CoStar CEO on ...",
+      "htmlSnippet": "May 4, 2024 <b>...</b> ... CEO and <b>Founder</b>, CoStar; <b>Matterport</b> room mapping image Illustration by Lanette Behiry/Adobe Stock; <b>Matterport</b>. Tech. CoStar CEO on&nbsp;...",
+      "formattedUrl": "https://www.realestatenews.com/.../costar-ceo-on-matterport-deal-virtual-to...",
+      "htmlFormattedUrl": "https://www.realestatenews.com/.../costar-ceo-on-<b>matterport</b>-deal-virtual-to...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRwIU6oYKnltlMf0sXoCmzR-Uvbg4KH7S36j4jH3Z67_3VQ4zBqw0HdAM&s",
+            "width": "310",
+            "height": "163"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://images.ctfassets.net/hzfwsdcegxo2/3aI6AM9uyiliqmXEGTTrRt/18fd3486dfbb044a6ede52322c46e0b7/Florance_on_Matterport.jpeg?w=1200&h=630&fit=fill",
+            "og:type": "article",
+            "twitter:card": "summary_large_image",
+            "article:published_time": "2024-05-04T14:00:02.271Z",
+            "og:site_name": "RealEstateNews.com",
+            "og:title": "CoStar CEO on Matterport deal: Virtual tours, real advantage",
+            "og:description": "Andy Florance discusses the “transformative technology” and his plans to rapidly expand the company while rolling out generative AI features later this year.",
+            "facebook-domain-verification": "ssaje0hvclinrm4x9ehhs1sgan8wnl",
+            "article:tag": "premium",
+            "next-head-count": "18",
+            "twitter:site": "@realestatenews",
+            "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover",
+            "og:locale": "en_US",
+            "og:url": "https://www.realestatenews.com/2024/05/04/costar-ceo-on-matterport-deal-virtual-tours-real-advantage"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://images.ctfassets.net/hzfwsdcegxo2/3aI6AM9uyiliqmXEGTTrRt/18fd3486dfbb044a6ede52322c46e0b7/Florance_on_Matterport.jpeg?w=1200&h=630&fit=fill"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "YOUnion @ Fayetteville - Virtual Tour",
+      "htmlTitle": "YOUnion @ Fayetteville - Virtual Tour",
+      "link": "https://discover.matterport.com/space/2Zs68Yv24M6",
+      "displayLink": "discover.matterport.com",
+      "snippet": "Matterport Pro. Collections: Shared by: Poetic. Tags: #arkansas · #campus ... 2C - Founders · 2B - Founders · Poetic · 2B - Founders · 1D - Founders.",
+      "htmlSnippet": "<b>Matterport</b> Pro. Collections: Shared by: Poetic. Tags: #arkansas &middot; #campus ... 2C - <b>Founders</b> &middot; 2B - <b>Founders</b> &middot; Poetic &middot; 2B - <b>Founders</b> &middot; 1D - <b>Founders</b>.",
+      "formattedUrl": "https://discover.matterport.com/space/2Zs68Yv24M6",
+      "htmlFormattedUrl": "https://discover.<b>matterport</b>.com/space/2Zs68Yv24M6",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ-zJ9BCEfyLSYsYVc7tC90n3197WY9oXRIygjm7SkdJIrhrXfQ2HPHn6f&s",
+            "width": "310",
+            "height": "163"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://my.matterport.com/api/v1/player/models/2Zs68Yv24M6/thumb?disable=upscale&frame=1&width=1200&height=630&fit=crop",
+            "theme-color": "#000000",
+            "twitter:card": "summary_large_image",
+            "og:type": "website",
+            "twitter:title": "YOUnion @ Fayetteville -  Virtual Tour",
+            "og:site_name": "Matterport Discover",
+            "apple-mobile-web-app-title": "Discover",
+            "og:title": "YOUnion @ Fayetteville -  Virtual Tour",
+            "og:image:type": "image/webp",
+            "og:description": "Fayetteville's only luxury student living catered to you just steps away from the #UARK campus.",
+            "twitter:image": "https://my.matterport.com/api/v1/player/models/2Zs68Yv24M6/thumb?disable=upscale&frame=1&width=1200&height=630&fit=crop",
+            "twitter:site": "@matterport",
+            "viewport": "width=device-width,initial-scale=1,viewport-fit=cover",
+            "twitter:description": "Fayetteville's only luxury student living catered to you just steps away from the #UARK campus.",
+            "og:url": "https://discover.matterport.com/space/2Zs68Yv24M6"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://my.matterport.com/api/v1/player/models/2Zs68Yv24M6/thumb?disable=upscale&frame=1&width=1200&height=630&fit=crop"
+          }
+        ]
+      }
+    }
+  ]
+}

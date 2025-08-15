@@ -1,0 +1,371 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - \"Zipio\" founders",
+        "totalResults": "27",
+        "searchTerms": "\"Zipio\" founders",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - \"Zipio\" founders",
+        "totalResults": "27",
+        "searchTerms": "\"Zipio\" founders",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ]
+  },
+  "context": {
+    "title": "startup-ecosystem-intelligence"
+  },
+  "searchInformation": {
+    "searchTime": 0.111443,
+    "formattedSearchTime": "0.11",
+    "totalResults": "27",
+    "formattedTotalResults": "27"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "Zipio: Deal search service | Y Combinator",
+      "htmlTitle": "<b>Zipio</b>: Deal search service | Y Combinator",
+      "link": "https://www.ycombinator.com/companies/zipio",
+      "displayLink": "www.ycombinator.com",
+      "snippet": "Zipio. Batch:Winter 2012. Status: Inactive. Former Founders. Sanjay Mavinkurve. Founder. Founder. Vijay Boyapati. Founder ...",
+      "htmlSnippet": "<b>Zipio</b>. Batch:Winter 2012. Status: Inactive. Former <b>Founders</b>. Sanjay Mavinkurve. <b>Founder</b>. <b>Founder</b>. Vijay Boyapati. <b>Founder</b>&nbsp;...",
+      "formattedUrl": "https://www.ycombinator.com/companies/zipio",
+      "htmlFormattedUrl": "https://www.ycombinator.com/companies/<b>zipio</b>",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_jlx_ttcDqicgZBVs0DjrnlFIWkOUPYZ1SvaiGlEZzk4B6xRiqshYu3_C&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "image": "/logos/medium/missing.png",
+            "og:image": "/logos/medium/missing.png",
+            "twitter:card": "summary_large_image",
+            "og:type": "website",
+            "og:site_name": "Y Combinator",
+            "og:image:url": "/logos/medium/missing.png",
+            "og:title": "Zipio: Deal search service | Y Combinator",
+            "csrf-param": "authenticity_token",
+            "title": "Zipio: Deal search service",
+            "og:description": "Deal search service. Founded in  by , Zipio has 0 employees based in .",
+            "twitter:image": "/logos/medium/missing.png",
+            "og:image:secure_url": "/logos/medium/missing.png",
+            "twitter:site": "@ycombinator",
+            "viewport": "initial-scale=1, width=device-width, height=device-height",
+            "csrf-token": "LzBYkRHgvaN_IGTaHMjYFjEYm2kLL_-lJmQ5a8iu4Jf1fbrSRicBKN4fpSXCG4zpnPv6FBBBFPpj_da2-xdE9A",
+            "og:locale": "en_US",
+            "og:url": "https://www.ycombinator.com/companies/zipio"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "x-raw-image:///7481412385fe6d0f7d4a3339d90fe12309432ca41983e8d350b232301d5d8684"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Pilgat 30mg Tablet – Scab Pharmacy Limited",
+      "htmlTitle": "Pilgat 30mg Tablet – Scab Pharmacy Limited",
+      "link": "https://www.scabpharmacy.com/product/pilgat-30mg-tablet/",
+      "displayLink": "www.scabpharmacy.com",
+      "snippet": "Zipio 30 MG Tablet ​. Manufacturer/Marketer. Meldin Pharma ​. Country of Origin ... About Us About Our CEO Founder's Foreword FAQ Insurances Blog. Shop.",
+      "htmlSnippet": "<b>Zipio</b> 30 MG Tablet ​. Manufacturer/Marketer. Meldin Pharma ​. Country of Origin ... About Us About Our CEO <b>Founder&#39;s</b> Foreword FAQ Insurances Blog. Shop.",
+      "formattedUrl": "https://www.scabpharmacy.com/product/pilgat-30mg-tablet/",
+      "htmlFormattedUrl": "https://www.scabpharmacy.com/product/pilgat-30mg-tablet/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUySQGcW5Zib_hPj2byLHRIU-AlN5TW2jQzTRjUW8UY5Cz_rLZvrI5sNo&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "viewport": "width=device-width, initial-scale=1",
+            "msapplication-tileimage": "https://www.scabpharmacy.com/wp-content/uploads/2024/12/SP-Fav-Icon-300x300.png"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.scabpharmacy.com/wp-content/uploads/2025/04/pilgat-30-300x300.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "The YC Startup Directory | Y Combinator",
+      "htmlTitle": "The YC Startup Directory | Y Combinator",
+      "link": "https://www.ycombinator.com/companies/?query=Search",
+      "displayLink": "www.ycombinator.com",
+      "snippet": "Acquired by Google in Feb 2010. Winter 2009B2BProductivity · Zipio. Deal search ... Co-Founder Matching. Company. YC Blog · Contact · Press · People · Careers ...",
+      "htmlSnippet": "Acquired by Google in Feb 2010. Winter 2009B2BProductivity &middot; <b>Zipio</b>. Deal search ... Co-<b>Founder</b> Matching. Company. YC Blog &middot; Contact &middot; Press &middot; People &middot; Careers&nbsp;...",
+      "formattedUrl": "https://www.ycombinator.com/companies/?query=Search",
+      "htmlFormattedUrl": "https://www.ycombinator.com/companies/?query=Search",
+      "pagemap": {
+        "metatags": [
+          {
+            "image": "/assets/ycdc/companies/yc-startup-directory.png",
+            "og:image": "/assets/ycdc/companies/yc-startup-directory.png",
+            "twitter:card": "summary_large_image",
+            "og:type": "website",
+            "og:image:width": "887",
+            "og:site_name": "Y Combinator",
+            "og:image:url": "/assets/ycdc/companies/yc-startup-directory.png",
+            "og:title": "The YC Startup Directory | Y Combinator",
+            "og:image:height": "419",
+            "image_width": "887",
+            "csrf-param": "authenticity_token",
+            "title": "The YC Startup Directory",
+            "og:description": "A list of companies YC has funded across many verticals including hardware, edtech, biotech, healthcare, developer tools, consumer and enterprise, to name a few.",
+            "twitter:image": "/assets/ycdc/companies/yc-startup-directory.png",
+            "og:image:secure_url": "/assets/ycdc/companies/yc-startup-directory.png",
+            "twitter:site": "@ycombinator",
+            "image_height": "419",
+            "viewport": "initial-scale=1, width=device-width, height=device-height",
+            "csrf-token": "IbRdFZRbhYojVAEtAKVzLP8pJCRKEcfWASHqfndsvcJPW6RoCa39MDNCyHpdvSVZC1opoCyUtRYnRnd1Fj5Y2A",
+            "og:locale": "en_US",
+            "og:url": "https://www.ycombinator.com/companies"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "/assets/ycdc/companies/yc-startup-directory.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Volungėlė",
+      "htmlTitle": "Volungėlė",
+      "link": "https://www.volungele.lt/",
+      "displayLink": "www.volungele.lt",
+      "snippet": "Zipio draugai logo Lietuva. 58711. Logotipas. Paieška. Mus jau aplankė. Articles View Hits: 1100406. Naujienos. PROJEKTAS „MATEMATIKA GAMTOJE“. 2025-06-17.",
+      "htmlSnippet": "<b>Zipio</b> draugai logo Lietuva. 58711. Logotipas. Paieška. Mus jau aplankė. Articles View Hits: 1100406. Naujienos. PROJEKTAS „MATEMATIKA GAMTOJE“. 2025-06-17.",
+      "formattedUrl": "https://www.volungele.lt/",
+      "htmlFormattedUrl": "https://www.volungele.lt/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQScAh31gJEnUhm019kRg0NUKDPmuXu1SLHmdD3mL8j1sjy0y-oEg_xUYM&s",
+            "width": "378",
+            "height": "133"
+          }
+        ],
+        "metatags": [
+          {
+            "author": "Super User"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.volungele.lt/images/banner.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Second Audit Report | F-Droid - Free and Open Source Android App ...",
+      "htmlTitle": "Second Audit Report | F-Droid - Free and Open Source Android App ...",
+      "link": "https://f-droid.org/docs/Second_Audit_Report/",
+      "displayLink": "f-droid.org",
+      "snippet": "In zipio/ZipOutput.java, output file is unconditionally deleted if it exists ... of Computer Science from the VU, who is also the co-founder/CEO of Radically Open ...",
+      "htmlSnippet": "In <b>zipio</b>/ZipOutput.java, output file is unconditionally deleted if it exists ... of Computer Science from the VU, who is also the co-<b>founder</b>/CEO of Radically Open&nbsp;...",
+      "formattedUrl": "https://f-droid.org/docs/Second_Audit_Report/",
+      "htmlFormattedUrl": "https://f-droid.org/docs/Second_Audit_Report/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1TlTcVAqJOGQ5jU8OFMElCYBm98S55M_q9Gzj5AcosusBkmr5Pq29Has&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "xfn": [
+          {}
+        ],
+        "metatags": [
+          {
+            "msapplication-tilecolor": "#ffffff",
+            "og:image": "https://f-droid.org/assets/fdroid-logo_bfHl7nsLHOUQxzdU8-rGIhn4bAgl6z7k2mA3fWoCyT4=.png",
+            "msapplication-config": "/assets/browserconfig_sI0d7L-NQ2rondQpLn2DRSqXxvj7iPI0-WPzXn-uLZA=.xml",
+            "theme-color": "#ffffff",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:title": "Second Audit Report | F-Droid - Free and Open Source Android App Repository",
+            "og:url": "https://f-droid.org/docs/Second_Audit_Report/",
+            "og:description": "ClientOpen Tech FundTitlePenetration Test ReportTargetsF-droid ClientF-droid Privileged ExtensionF-droid RepomakerF-droid ServerF-droid WebsiteVersion1.0Pent..."
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://f-droid.org/assets/fdroid-logo_bfHl7nsLHOUQxzdU8-rGIhn4bAgl6z7k2mA3fWoCyT4=.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Padėkos",
+      "htmlTitle": "Padėkos",
+      "link": "https://www.volungele.lt/index.php/home/padekos",
+      "displayLink": "www.volungele.lt",
+      "snippet": "Zipio draugai logo Lietuva · 58711 · Logotipas. Paieška. Mus jau aplankė. Articles View Hits: 1100053. Padėkos. 2025 m. Padėka už konkurso „Kengūra 2025“ ...",
+      "htmlSnippet": "<b>Zipio</b> draugai logo Lietuva &middot; 58711 &middot; Logotipas. Paieška. Mus jau aplankė. Articles View Hits: 1100053. Padėkos. 2025 m. Padėka už konkurso „Kengūra 2025“&nbsp;...",
+      "formattedUrl": "https://www.volungele.lt/index.php/home/padekos",
+      "htmlFormattedUrl": "https://www.volungele.lt/index.php/home/padekos",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQScAh31gJEnUhm019kRg0NUKDPmuXu1SLHmdD3mL8j1sjy0y-oEg_xUYM&s",
+            "width": "378",
+            "height": "133"
+          }
+        ],
+        "metatags": [
+          {
+            "author": "Super User"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.volungele.lt/images/banner.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Untitled",
+      "htmlTitle": "Untitled",
+      "link": "https://www.fdcindia.com/pdf/AnnualReports/FINAL_ANNUAL_REPORT_10082017_.pdf",
+      "displayLink": "www.fdcindia.com",
+      "snippet": "CEO / appropriate Board Director? 5. Does the Company have a specified ... (b) Ziglim & Zipio, an Anti-Diabetes Drug. (c) Zifi & Zathrin, an Antibiotic ...",
+      "htmlSnippet": "CEO / appropriate Board Director? 5. Does the Company have a specified ... (b) Ziglim &amp; <b>Zipio</b>, an Anti-Diabetes Drug. (c) Zifi &amp; Zathrin, an Antibiotic&nbsp;...",
+      "formattedUrl": "https://www.fdcindia.com/pdf/.../FINAL_ANNUAL_REPORT_10082017_....",
+      "htmlFormattedUrl": "https://www.fdcindia.com/pdf/.../FINAL_ANNUAL_REPORT_10082017_....",
+      "pagemap": {
+        "metatags": [
+          {
+            "moddate": "D:20170810121252+05'30'",
+            "creationdate": "D:20170810121252+05'30'",
+            "producer": "ilovepdf.com"
+          }
+        ]
+      },
+      "mime": "application/pdf",
+      "fileFormat": "PDF/Adobe Acrobat"
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Is it necessary to read Leo Tolstoy in Russian or is English OK? How ...",
+      "htmlTitle": "Is it necessary to read Leo Tolstoy in Russian or is English OK? How ...",
+      "link": "https://www.quora.com/Is-it-necessary-to-read-Leo-Tolstoy-in-Russian-or-is-English-OK-How-much-is-lost-by-reading-Tolstoy-Dostoevsky-in-English-vs-the-original-Russian",
+      "displayLink": "www.quora.com",
+      "snippet": "CEO Ken's College of Arcane Knowledge (2016–present) · Author has 26.4K ... Profile photo for Semeon Zipio · Semeon Zipio · 8y. If we speak about Dostoevsky ...",
+      "htmlSnippet": "CEO Ken&#39;s College of Arcane Knowledge (2016–present) · Author has 26.4K ... Profile photo for Semeon <b>Zipio</b> &middot; Semeon <b>Zipio</b> &middot; 8y. If we speak about Dostoevsky&nbsp;...",
+      "formattedUrl": "https://www.quora.com/Is-it-necessary-to-read-Leo-Tolstoy-in-Russian-or-i...",
+      "htmlFormattedUrl": "https://www.quora.com/Is-it-necessary-to-read-Leo-Tolstoy-in-Russian-or-i...",
+      "pagemap": {
+        "metatags": [
+          {
+            "al:android:url": "intent://www.quora.com/Is-it-necessary-to-read-Leo-Tolstoy-in-Russian-or-is-English-OK-How-much-is-lost-by-reading-Tolstoy-Dostoevsky-in-English-vs-the-original-Russian#Intent;scheme=qhttp;package=com.quora.android;S.market_referrer=launch_url=https%3A%2F%2Fwww.quora.com%2FIs-it-necessary-to-read-Leo-Tolstoy-in-Russian-or-is-English-OK-How-much-is-lost-by-reading-Tolstoy-Dostoevsky-in-English-vs-the-original-Russian&logging_data=uid%3DNone;end",
+            "theme-color": "#b92b27",
+            "viewport": "initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width, minimum-scale=1, viewport-fit=cover",
+            "al:android:package": "com.quora.android",
+            "fb:pages": "255232486973",
+            "twitter:widgets:theme": "light"
+          }
+        ],
+        "QAPage": [
+          {}
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "LEONARDO'S PORTRAIT OF MONA LISA DEL GIOCONDO",
+      "htmlTitle": "LEONARDO&#39;S PORTRAIT OF MONA LISA DEL GIOCONDO",
+      "link": "https://archiv.ub.uni-heidelberg.de/artdok/4207/1/Zoellner_Leonardos_portrait_of_Mona_Lisa_1993.pdf",
+      "displayLink": "archiv.ub.uni-heidelberg.de",
+      "snippet": "1505-1506, the imagery on the back of the panel alludes to the importance of birth for the founding of a family and stresses also the wish ... zipio di dota ...",
+      "htmlSnippet": "1505-1506, the imagery on the back of the panel alludes to the importance of birth for the <b>founding</b> of a family and stresses also the wish ... <b>zipio</b> di dota&nbsp;...",
+      "formattedUrl": "https://archiv.ub.uni-heidelberg.de/.../Zoellner_Leonardos_portrait_of_Mo...",
+      "htmlFormattedUrl": "https://archiv.ub.uni-heidelberg.de/.../Zoellner_Leonardos_portrait_of_Mo...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_cl_0MJPZUSNUQHvbNNocRNSzbQujx4is4qhCKLZYr_agmW0fB0UB-cFl&s",
+            "width": "218",
+            "height": "231"
+          }
+        ],
+        "metatags": [
+          {
+            "moddate": "D:20160707142744Z",
+            "creationdate": "D:20120710120441Z",
+            "creator": "ABBYY FineReader Engine 11"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "x-raw-image:///d5d2db0174563a72837444f0ed8cc5107200f3fae8912fe5a7f7c09a5a661651"
+          }
+        ]
+      },
+      "mime": "application/pdf",
+      "fileFormat": "PDF/Adobe Acrobat"
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "What cool item can you buy in Russia that you can't buy in Western ...",
+      "htmlTitle": "What cool item can you buy in Russia that you can&#39;t buy in Western ...",
+      "link": "https://www.quora.com/What-cool-item-can-you-buy-in-Russia-that-you-cant-buy-in-Western-countries",
+      "displayLink": "www.quora.com",
+      "snippet": "Sep 2, 2013 ... Profile photo for Semeon Zipio. Semeon Zipio · 8y. You need to speak ... Mark Anderson is the co-founder of Bright Choice Lighting, a ...",
+      "htmlSnippet": "Sep 2, 2013 <b>...</b> Profile photo for Semeon <b>Zipio</b>. Semeon <b>Zipio</b> &middot; 8y. You need to speak ... Mark Anderson is the co-<b>founder</b> of Bright Choice Lighting, a&nbsp;...",
+      "formattedUrl": "https://www.quora.com/What-cool-item-can-you-buy-in-Russia-that-you-ca...",
+      "htmlFormattedUrl": "https://www.quora.com/What-cool-item-can-you-buy-in-Russia-that-you-ca...",
+      "pagemap": {
+        "metatags": [
+          {
+            "al:android:url": "intent://www.quora.com/What-cool-item-can-you-buy-in-Russia-that-you-cant-buy-in-Western-countries#Intent;scheme=qhttp;package=com.quora.android;S.market_referrer=launch_url=https%3A%2F%2Fwww.quora.com%2FWhat-cool-item-can-you-buy-in-Russia-that-you-cant-buy-in-Western-countries&logging_data=uid%3DNone;end",
+            "theme-color": "#b92b27",
+            "viewport": "initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width, minimum-scale=1, viewport-fit=cover",
+            "al:android:package": "com.quora.android",
+            "fb:pages": "255232486973",
+            "twitter:widgets:theme": "light"
+          }
+        ]
+      }
+    }
+  ]
+}

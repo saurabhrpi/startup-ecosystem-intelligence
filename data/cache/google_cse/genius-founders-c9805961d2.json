@@ -1,0 +1,559 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - \"Genius\" founders",
+        "totalResults": "31400000",
+        "searchTerms": "\"Genius\" founders",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - \"Genius\" founders",
+        "totalResults": "31400000",
+        "searchTerms": "\"Genius\" founders",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ]
+  },
+  "context": {
+    "title": "startup-ecosystem-intelligence"
+  },
+  "searchInformation": {
+    "searchTime": 0.169182,
+    "formattedSearchTime": "0.17",
+    "totalResults": "31400000",
+    "formattedTotalResults": "31,400,000"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "Mahbod Moghadam - Wikipedia",
+      "htmlTitle": "Mahbod Moghadam - Wikipedia",
+      "link": "https://en.wikipedia.org/wiki/Mahbod_Moghadam",
+      "displayLink": "en.wikipedia.org",
+      "snippet": "Mahbod Moghadam · Co-founder of Everipedia · Co-founder of Genius ...",
+      "htmlSnippet": "Mahbod Moghadam &middot; Co-<b>founder</b> of Everipedia &middot; Co-<b>founder</b> of <b>Genius</b>&nbsp;...",
+      "formattedUrl": "https://en.wikipedia.org/wiki/Mahbod_Moghadam",
+      "htmlFormattedUrl": "https://en.wikipedia.org/wiki/Mahbod_Moghadam",
+      "pagemap": {
+        "hcard": [
+          {
+            "role": "Internet entrepreneur",
+            "bday": "1982-11-17",
+            "fn": "Mahbod Moghadam",
+            "category": "American"
+          }
+        ],
+        "person": [
+          {
+            "role": "Internet entrepreneur",
+            "org": "Everipedia (2015–2019) Genius (2009–2014)"
+          }
+        ],
+        "metatags": [
+          {
+            "referrer": "origin",
+            "og:image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Mahbod_Moghadam_of_Rap_Genius_speaks_onstage_at_TechCrunch_Disrupt_NY_2013.jpg/1200px-Mahbod_Moghadam_of_Rap_Genius_speaks_onstage_at_TechCrunch_Disrupt_NY_2013.jpg",
+            "theme-color": "#eaecf0",
+            "og:image:width": "1200",
+            "og:type": "website",
+            "viewport": "width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0",
+            "og:title": "Mahbod Moghadam - Wikipedia",
+            "og:image:height": "1800",
+            "format-detection": "telephone=no"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Genius co-founder, Mahbod Moghadam, has died : r/hiphopheads",
+      "htmlTitle": "<b>Genius</b> co-<b>founder</b>, Mahbod Moghadam, has died : r/hiphopheads",
+      "link": "https://www.reddit.com/r/hiphopheads/comments/1bxviuu/genius_cofounder_mahbod_moghadam_has_died/",
+      "displayLink": "www.reddit.com",
+      "snippet": "Apr 7, 2024 ... The people that don't like genius make the point that it's corny and destroys the mystique of art when everything is only allowed to have 1 ...",
+      "htmlSnippet": "Apr 7, 2024 <b>...</b> The people that don&#39;t like <b>genius</b> make the point that it&#39;s corny and destroys the mystique of art when everything is only allowed to have 1&nbsp;...",
+      "formattedUrl": "https://www.reddit.com/.../genius_cofounder_mahbod_moghadam_has_die...",
+      "htmlFormattedUrl": "https://www.reddit.com/.../<b>genius</b>_cofounder_mahbod_moghadam_has_die...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRngEUsB3l4ozw4xLptXN_Hg5w5PLlLPWdx9ctF_I69EpRks1LO44xjh7g&s",
+            "width": "275",
+            "height": "183"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://external-preview.redd.it/genius-co-founder-mahbod-moghadam-has-died-v0-hk92lmByxRyn2xfKEpkDJxovIRvBNRxXVY6TxE4o1OM.jpg?auto=webp&s=b6a13bacc84aa5d6afad8d757e85722e5a088388",
+            "theme-color": "#000000",
+            "og:image:width": "1024",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "r/hiphopheads on Reddit: Genius co-founder, Mahbod Moghadam, has died",
+            "og:site_name": "Reddit",
+            "og:title": "r/hiphopheads on Reddit: Genius co-founder, Mahbod Moghadam, has died",
+            "og:image:height": "683",
+            "msapplication-navbutton-color": "#000000",
+            "og:description": "Posted by u/trackmay - 1,885 votes and 211 comments",
+            "twitter:image": "https://external-preview.redd.it/genius-co-founder-mahbod-moghadam-has-died-v0-hk92lmByxRyn2xfKEpkDJxovIRvBNRxXVY6TxE4o1OM.jpg?auto=webp&s=b6a13bacc84aa5d6afad8d757e85722e5a088388",
+            "apple-mobile-web-app-status-bar-style": "black",
+            "twitter:site": "@reddit",
+            "viewport": "width=device-width, initial-scale=1, viewport-fit=cover",
+            "apple-mobile-web-app-capable": "yes",
+            "og:ttl": "600",
+            "og:url": "https://www.reddit.com/r/hiphopheads/comments/1bxviuu/genius_cofounder_mahbod_moghadam_has_died/?seeker-session=true"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://external-preview.redd.it/genius-co-founder-mahbod-moghadam-has-died-v0-hk92lmByxRyn2xfKEpkDJxovIRvBNRxXVY6TxE4o1OM.jpg?auto=webp&s=b6a13bacc84aa5d6afad8d757e85722e5a088388"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Genius (company) - Wikipedia",
+      "htmlTitle": "<b>Genius</b> (company) - Wikipedia",
+      "link": "https://en.wikipedia.org/wiki/Genius_(company)",
+      "displayLink": "en.wikipedia.org",
+      "snippet": "Genius is an American digital media company founded on August 27, 2009, by Tom Lehman, Ilan Zechory, and Mahbod Moghadam. The company is known for its ...",
+      "htmlSnippet": "<b>Genius</b> is an American digital media company founded on August 27, 2009, by Tom Lehman, Ilan Zechory, and Mahbod Moghadam. The company is known for its&nbsp;...",
+      "formattedUrl": "https://en.wikipedia.org/wiki/Genius_(company)",
+      "htmlFormattedUrl": "https://en.wikipedia.org/wiki/<b>Genius</b>_(company)",
+      "pagemap": {
+        "hcard": [
+          {
+            "url_text": "genius.com",
+            "bday": "2009-10-20",
+            "fn": "Genius",
+            "label": "Brooklyn, New York City[1], U.S.",
+            "category": "Private",
+            "url": "genius.com"
+          }
+        ],
+        "metatags": [
+          {
+            "referrer": "origin",
+            "og:image": "https://upload.wikimedia.org/wikipedia/en/3/33/Genius_screenshot.png",
+            "theme-color": "#eaecf0",
+            "og:image:width": "1200",
+            "og:type": "website",
+            "viewport": "width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0",
+            "og:title": "Genius (company) - Wikipedia",
+            "og:image:height": "1604",
+            "format-detection": "telephone=no"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Genius Founders | Genius",
+      "htmlTitle": "<b>Genius Founders</b> | Genius",
+      "link": "https://genius.com/GeniusFounders",
+      "displayLink": "genius.com",
+      "snippet": "... offline. Back. Genius Founders 4,015. @GeniusFounders | Contributor. Top Accomplishment: #2 on Genius Founders. Show all songs Genius Founders appears on.",
+      "htmlSnippet": "... offline. Back. <b>Genius Founders</b> 4,015. @GeniusFounders | Contributor. Top Accomplishment: #2 on <b>Genius Founders</b>. Show all songs <b>Genius Founders</b> appears on.",
+      "formattedUrl": "https://genius.com/GeniusFounders",
+      "htmlFormattedUrl": "https://<b>genius</b>.com/<b>GeniusFounders</b>",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1Vsk9XZ2M4ExVO78QMHclpuMpQJ5Sg9ZF_q878DtgrPnUZWR37jmwc7A&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "og:see_also": "https://genius.com/artists/Genius-founders",
+            "apple-itunes-app": "app-id=709482991",
+            "og:image": "http://assets.genius.com/images/sharing_fallback.png?1752779999",
+            "twitter:see_also": "https://genius.com/artists/Genius-founders",
+            "twitter:app:url:iphone": "genius://users/359531",
+            "twitter:title": "Genius Founders",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Genius",
+            "twitter:url": "https://genius.com/GeniusFounders",
+            "og:title": "Genius Founders",
+            "y_key": "f63347d284f184b0",
+            "twitter:app:id:iphone": "709482991",
+            "fb:pages": "308252472676410",
+            "og:description": "GeniusFounders is keeping quiet for now",
+            "twitter:image": "https://images.rapgenius.com/avatars/medium/968794e4343883723cfe817ee07c6735",
+            "fb:app_id": "265539304824",
+            "twitter:site": "@Genius",
+            "viewport": "width=device-width,initial-scale=1",
+            "twitter:description": "GeniusFounders is keeping quiet for now",
+            "og:url": "https://genius.com/GeniusFounders",
+            "twitter:app:name:iphone": "Genius"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "http://assets.genius.com/images/sharing_fallback.png?1752779999"
+          }
+        ],
+        "listitem": [
+          {
+            "item": "Home",
+            "name": "Home",
+            "position": "1"
+          },
+          {
+            "item": "G",
+            "name": "G",
+            "position": "2"
+          },
+          {
+            "item": "Genius Founders",
+            "name": "Genius Founders",
+            "position": "3"
+          },
+          {
+            "item": "⇽ Back to List of Artists",
+            "name": "⇽ Back to List of Artists",
+            "position": "1"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Anger Management: Why the Genius Founders Turned to Couples ...",
+      "htmlTitle": "Anger Management: Why the <b>Genius Founders</b> Turned to Couples ...",
+      "link": "https://www.nytimes.com/2015/04/19/fashion/anger-management-why-the-genius-founders-turned-to-couples-therapy.html",
+      "displayLink": "www.nytimes.com",
+      "snippet": "Apr 17, 2015 ... Zechory and Mr. Lehman, both 31, are the founders of Genius.com, an ambitious Brooklyn-based start-up that allows its users to annotate song ...",
+      "htmlSnippet": "Apr 17, 2015 <b>...</b> Zechory and Mr. Lehman, both 31, are the <b>founders</b> of <b>Genius</b>.com, an ambitious Brooklyn-based start-up that allows its users to annotate song&nbsp;...",
+      "formattedUrl": "https://www.nytimes.com/.../anger-management-why-the-genius-founders-t...",
+      "htmlFormattedUrl": "https://www.nytimes.com/.../anger-management-why-the-<b>genius</b>-<b>founders</b>-t...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0GqWDAKwgKz-r3cqq9FDIGH73Pyv9eqJd5x-Ox8mPK9_kvwfPolAeZBA&s",
+            "width": "310",
+            "height": "162"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://static01.nyt.com/images/2015/04/19/fashion/19GENIUS/19GENIUS-facebookJumbo-v2.jpg?year=2015&h=550&w=1050&s=08d921b945afe3cc432708a4a87f271d51349a407d3844820fb84d8e9de230e1&k=ZQJBKqZ0VN",
+            "nyt_uri": "nyt://article/62221ec2-0168-5b2e-b6d1-a71611638ba8",
+            "twitter:app:id:googleplay": "com.nytimes.android",
+            "twitter:card": "summary_large_image",
+            "article:published_time": "2015-04-17T22:11:25.000Z",
+            "pt": "article",
+            "twitter:url": "https://www.nytimes.com/2015/04/19/fashion/anger-management-why-the-genius-founders-turned-to-couples-therapy.html",
+            "pdate": "20150417",
+            "articleid": "100000003629843",
+            "al:android:package": "com.nytimes.android",
+            "al:ipad:app_store_id": "357066198",
+            "twitter:app:name:googleplay": "NYTimes",
+            "og:description": "Trying to keep their business partnership from imploding, Ilan Zechory and Tom Lehman decided they had to submit to couples therapy.",
+            "twitter:image": "https://static01.nyt.com/images/2015/04/19/fashion/19GENIUS/19GENIUS-videoSixteenByNine3000.jpg?year=2015&h=1689&w=3000&s=0dab9b6c66452442ff02c9e2969615b9b58534f794e672c9667860ca8ddb0440&k=ZQJBKqZ0VN&tw=1",
+            "pst": "News",
+            "twitter:image:alt": "Ilan Zechory, left, and Tom Lehman, two founders of Genius­.com, started therapy last year. They met as freshmen at Yale, and now work together, go to yoga together, and sometimes vacation together. And they fight together.",
+            "al:iphone:app_name": "NYTimes",
+            "article:modified_time": "2015-04-17T22:11:22.000Z",
+            "news_keywords": "Genius.com,Tom Lehman,Ilan Zechory,Entrepreneurship,Therapy,Music",
+            "article:content_tier": "metered",
+            "msapplication-starturl": "https://www.nytimes.com",
+            "image": "https://static01.nyt.com/images/2015/04/19/fashion/19GENIUS/19GENIUS-facebookJumbo-v2.jpg?year=2015&h=550&w=1050&s=08d921b945afe3cc432708a4a87f271d51349a407d3844820fb84d8e9de230e1&k=ZQJBKqZ0VN",
+            "twitter:title": "Anger Management: Why the Genius Founders Turned to Couples Therapy (Published 2015)",
+            "og:type": "article",
+            "og:image:alt": "Ilan Zechory, left, and Tom Lehman, two founders of Genius­.com, started therapy last year. They met as freshmen at Yale, and now work together, go to yoga together, and sometimes vacation together. And they fight together.",
+            "article:section": "Fashion",
+            "cg": "fashion",
+            "pubp_event_id": "pubp://event/86315524da6f4aa5844b63f40379db5b",
+            "og:title": "Anger Management: Why the Genius Founders Turned to Couples Therapy (Published 2015)",
+            "article:author": "http://www.nytimes.com/by/laura-m-holson",
+            "url": "https://www.nytimes.com/2015/04/19/fashion/anger-management-why-the-genius-founders-turned-to-couples-therapy.html",
+            "article:tag": "Genius Media Group Inc",
+            "al:iphone:url": "nytimes://www.nytimes.com/2015/04/19/fashion/anger-management-why-the-genius-founders-turned-to-couples-therapy.html",
+            "al:android:url": "nyt://article/62221ec2-0168-5b2e-b6d1-a71611638ba8",
+            "twitter:app:url:googleplay": "nyt://article/62221ec2-0168-5b2e-b6d1-a71611638ba8",
+            "al:ipad:url": "nytimes://www.nytimes.com/2015/04/19/fashion/anger-management-why-the-genius-founders-turned-to-couples-therapy.html",
+            "byl": "By Laura M. Holson",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "Trying to keep their business partnership from imploding, Ilan Zechory and Tom Lehman decided they had to submit to couples therapy.",
+            "al:iphone:app_store_id": "284862083",
+            "al:ipad:app_name": "NYTimes",
+            "og:url": "https://www.nytimes.com/2015/04/19/fashion/anger-management-why-the-genius-founders-turned-to-couples-therapy.html",
+            "al:android:app_name": "NYTimes",
+            "article:opinion": "false"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://static01.nyt.com/images/2015/04/19/fashion/19GENIUS/19GENIUS-facebookJumbo-v2.jpg?year=2015&h=550&w=1050&s=08d921b945afe3cc432708a4a87f271d51349a407d3844820fb84d8e9de230e1&k=ZQJBKqZ0VN"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Moghadam Family – Mahbod Moghadam: An Obituary | Genius",
+      "htmlTitle": "Moghadam Family – Mahbod Moghadam: An Obituary | <b>Genius</b>",
+      "link": "https://genius.com/Moghadam-family-mahbod-moghadam-an-obituary-annotated",
+      "displayLink": "genius.com",
+      "snippet": "Mar 4, 2024 ... Mahbod Moghadam, the brilliant and unconventional co-founder of Genius and Everipedia, passed away in March at age 41, resulting from complications from a ...",
+      "htmlSnippet": "Mar 4, 2024 <b>...</b> <b>Mahbod Moghadam</b>, the brilliant and unconventional co-<b>founder</b> of <b>Genius</b> and Everipedia, passed away in March at age 41, resulting from complications from a&nbsp;...",
+      "formattedUrl": "https://genius.com/Moghadam-family-mahbod-moghadam-an-obituary-ann...",
+      "htmlFormattedUrl": "https://<b>genius</b>.com/Moghadam-family-mahbod-moghadam-an-obituary-ann...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtVyq-mhg10gA-1Sqm3Jg_uo2ZnLyGiOC6hH0UXZLQkXd0bTKPzsq6f7g&s",
+            "width": "267",
+            "height": "189"
+          }
+        ],
+        "metatags": [
+          {
+            "apple-itunes-app": "app-id=709482991",
+            "og:image": "https://images.genius.com/3cd9ac8e0467513e5da6b92fe85d451d.1000x708x1.jpg",
+            "twitter:app:url:iphone": "genius://songs/10248832",
+            "og:type": "rap_genius:text",
+            "twitter:title": "Moghadam Family – Mahbod Moghadam: An Obituary",
+            "twitter:card": "summary_large_image",
+            "theme-color": "#d7783d",
+            "og:site_name": "Genius",
+            "twitter:url": "https://genius.com/Moghadam-family-mahbod-moghadam-an-obituary-annotated",
+            "og:title": "Moghadam Family – Mahbod Moghadam: An Obituary",
+            "y_key": "f63347d284f184b0",
+            "twitter:app:id:iphone": "709482991",
+            "fb:pages": "308252472676410",
+            "twitter:image": "https://images.genius.com/3cd9ac8e0467513e5da6b92fe85d451d.1000x708x1.jpg",
+            "fb:app_id": "265539304824",
+            "twitter:site": "@Genius",
+            "viewport": "width=device-width,initial-scale=1",
+            "og:url": "https://genius.com/Moghadam-family-mahbod-moghadam-an-obituary-annotated",
+            "twitter:type": "rap_genius:text",
+            "twitter:app:name:iphone": "Genius"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://images.genius.com/3cd9ac8e0467513e5da6b92fe85d451d.1000x708x1.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "#178 Jony Ive: The Genius Behind Apple's Greatest Products ...",
+      "htmlTitle": "#178 Jony Ive: The <b>Genius</b> Behind Apple&#39;s Greatest Products ...",
+      "link": "https://open.spotify.com/episode/3DIzXdJPnzywaD4vVloG2o",
+      "displayLink": "open.spotify.com",
+      "snippet": "May 3, 2021 ... Listen to this episode from Founders on Spotify. What I learned from reading Jony Ive: The Genius Behind Apple's Greatest Products by ...",
+      "htmlSnippet": "May 3, 2021 <b>...</b> Listen to this episode from <b>Founders</b> on Spotify. What I learned from reading Jony Ive: The <b>Genius</b> Behind Apple&#39;s Greatest Products by&nbsp;...",
+      "formattedUrl": "https://open.spotify.com/episode/3DIzXdJPnzywaD4vVloG2o",
+      "htmlFormattedUrl": "https://open.spotify.com/episode/3DIzXdJPnzywaD4vVloG2o",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcmc-rcbiBQX0xs-mJm9CRaHimCcx1hTQWECNyAYHnYB3NJpGlQhprwj8&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "og:type": "music.song",
+            "og:site_name": "Spotify",
+            "al:ios:app_name": "Spotify",
+            "og:title": "#178 Jony Ive: The Genius Behind Apple's Greatest Products",
+            "al:android:package": "com.spotify.music",
+            "google": "notranslate",
+            "al:ios:url": "spotify://episode/3DIzXdJPnzywaD4vVloG2o",
+            "og:description": "Founders · Episode",
+            "al:ios:app_store_id": "324684580",
+            "al:android:url": "spotify://episode/3DIzXdJPnzywaD4vVloG2o",
+            "fb:app_id": "174829003346",
+            "viewport": "width=device-width, initial-scale=1",
+            "music:release_date": "2021-05-03T06:00:00Z",
+            "og:url": "https://open.spotify.com/episode/3DIzXdJPnzywaD4vVloG2o",
+            "music:duration": "4894",
+            "al:android:app_name": "Spotify",
+            "og:restrictions:country:allowed": "AD"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://i.scdn.co/image/ab67656300005f1f8c4407bc88ad838d44134979"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Religious Liberty and the Genius of the American Founding - Imprimis",
+      "htmlTitle": "Religious Liberty and the <b>Genius</b> of the American <b>Founding</b> - Imprimis",
+      "link": "https://imprimis.hillsdale.edu/religious-liberty-and-the-genius-of-the-american-founding/",
+      "displayLink": "imprimis.hillsdale.edu",
+      "snippet": "... , Issue 12. Religious Liberty and the Genius of the American Founding. Glenn Ellmers. Author, The Soul of Politics: Harry V. Jaffa and the Fight for America.",
+      "htmlSnippet": "... , Issue 12. Religious Liberty and the <b>Genius</b> of the American <b>Founding</b>. Glenn Ellmers. Author, The Soul of Politics: Harry V. Jaffa and the Fight for America.",
+      "formattedUrl": "https://imprimis.hillsdale.edu/religious-liberty-and-the-genius-of-the-americ...",
+      "htmlFormattedUrl": "https://imprimis.hillsdale.edu/religious-liberty-and-the-<b>genius</b>-of-the-americ...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7sHrl67Ge1L70NqevtWbsDK2xIsjFus3wF9Vi1hunz6FKMKE2NEvD41lZ&s",
+            "width": "280",
+            "height": "180"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://imprimis.hillsdale.edu/wp-content/uploads/2025/01/1117px-Scene_at_the_Signing_of_the_Constitution_of_the_United_States.jpg",
+            "og:type": "article",
+            "article:published_time": "2024-12-30T15:33:05+00:00",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Religious Liberty and the Genius of the American Founding",
+            "og:site_name": "Imprimis",
+            "author": "Glenn Ellmers",
+            "og:title": "Religious Liberty and the Genius of the American Founding",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "msapplication-tileimage": "https://imprimis.hillsdale.edu/wp-content/uploads/2022/11/cropped-ChargerLogoH_RGB-270x270.png",
+            "og:description": "We are in danger of losing the precious gift of religious liberty, which took almost 2,000 years for the Christian West to put into practice.",
+            "twitter:creator": "@hcimprimis",
+            "og:image:secure_url": "https://imprimis.hillsdale.edu/wp-content/uploads/2025/01/1117px-Scene_at_the_Signing_of_the_Constitution_of_the_United_States.jpg",
+            "twitter:image": "https://imprimis.hillsdale.edu/wp-content/uploads/2025/01/1117px-Scene_at_the_Signing_of_the_Constitution_of_the_United_States.jpg",
+            "article:publisher": "https://www.facebook.com/hillsdalecollegeimprimis",
+            "twitter:data1": "Glenn Ellmers",
+            "twitter:data2": "12 minutes",
+            "twitter:site": "@hcimprimis",
+            "article:modified_time": "2025-02-27T16:25:52+00:00",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "We are in danger of losing the precious gift of religious liberty, which took almost 2,000 years for the Christian West to put into practice.",
+            "og:locale": "en_US",
+            "og:url": "https://imprimis.hillsdale.edu/religious-liberty-and-the-genius-of-the-american-founding/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://imprimis.hillsdale.edu/wp-content/uploads/2025/01/1117px-Scene_at_the_Signing_of_the_Constitution_of_the_United_States.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Genius Founders – Introducing Genius.com | Genius",
+      "htmlTitle": "<b>Genius Founders</b> – Introducing Genius.com | Genius",
+      "link": "https://genius.com/Genius-founders-introducing-geniuscom-annotated",
+      "displayLink": "genius.com",
+      "snippet": "Jul 12, 2014 ... Today we take a crucial step forward in the mission to annotate the world: Introducing Genius.com, the new home of this great knowledge ...",
+      "htmlSnippet": "Jul 12, 2014 <b>...</b> Today we take a crucial step forward in the mission to annotate the world: Introducing <b>Genius</b>.com, the new home of this great knowledge&nbsp;...",
+      "formattedUrl": "https://genius.com/Genius-founders-introducing-geniuscom-annotated",
+      "htmlFormattedUrl": "https://<b>genius</b>.com/<b>Genius</b>-<b>founders</b>-introducing-<b>genius</b>com-annotated",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoRM-wFstjQmYamvWxRC2wxEvULpbnh3kpOFsus7y6rS0JAdzyeFfcHNs4&s",
+            "width": "275",
+            "height": "183"
+          }
+        ],
+        "metatags": [
+          {
+            "apple-itunes-app": "app-id=709482991",
+            "og:image": "https://images.genius.com/0288e7f4ba8f2b6e05f46f3f763f4e23.1000x667x1.jpg",
+            "twitter:app:url:iphone": "genius://songs/474144",
+            "og:type": "rap_genius:text",
+            "twitter:title": "Genius Founders – Introducing Genius.com",
+            "twitter:card": "summary_large_image",
+            "theme-color": "#f3cb3a",
+            "og:site_name": "Genius",
+            "twitter:url": "https://genius.com/Genius-founders-introducing-geniuscom-annotated",
+            "og:title": "Genius Founders – Introducing Genius.com",
+            "y_key": "f63347d284f184b0",
+            "twitter:app:id:iphone": "709482991",
+            "fb:pages": "308252472676410",
+            "og:description": "Introducing Genius.com!",
+            "twitter:image": "https://images.genius.com/0288e7f4ba8f2b6e05f46f3f763f4e23.1000x667x1.jpg",
+            "fb:app_id": "265539304824",
+            "twitter:site": "@Genius",
+            "viewport": "width=device-width,initial-scale=1",
+            "twitter:description": "Introducing Genius.com!",
+            "og:url": "https://genius.com/Genius-founders-introducing-geniuscom-annotated",
+            "twitter:type": "rap_genius:text",
+            "twitter:app:name:iphone": "Genius"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://images.genius.com/0288e7f4ba8f2b6e05f46f3f763f4e23.1000x667x1.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "#372: Amancio Ortega: The Genius Behind the Inditex Group ...",
+      "htmlTitle": "#372: Amancio Ortega: The <b>Genius</b> Behind the Inditex Group ...",
+      "link": "https://open.spotify.com/episode/5t1X9mJ6KgTBIpTeyACF8L",
+      "displayLink": "open.spotify.com",
+      "snippet": "#372: Amancio Ortega: The Genius Behind the Inditex Group. Founders. Nov 29, 2024. 49 min. Amancio Ortega is one of the wealthiest people in the world.",
+      "htmlSnippet": "#372: Amancio Ortega: The <b>Genius</b> Behind the Inditex Group. <b>Founders</b>. Nov 29, 2024. 49 min. Amancio Ortega is one of the wealthiest people in the world.",
+      "formattedUrl": "https://open.spotify.com/episode/5t1X9mJ6KgTBIpTeyACF8L",
+      "htmlFormattedUrl": "https://open.spotify.com/episode/5t1X9mJ6KgTBIpTeyACF8L",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrPWkqaAN6IpMpC6FEYeWMsuLwuEpFRfb2y0JJS2Bu61nz_XAqhTHJgg&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "og:type": "music.song",
+            "og:site_name": "Spotify",
+            "al:ios:app_name": "Spotify",
+            "og:title": "#372: Amancio Ortega: The Genius Behind the Inditex Group",
+            "al:android:package": "com.spotify.music",
+            "google": "notranslate",
+            "al:ios:url": "spotify://episode/5t1X9mJ6KgTBIpTeyACF8L",
+            "og:description": "Founders · Episode",
+            "al:ios:app_store_id": "324684580",
+            "al:android:url": "spotify://episode/5t1X9mJ6KgTBIpTeyACF8L",
+            "fb:app_id": "174829003346",
+            "viewport": "width=device-width, initial-scale=1",
+            "music:release_date": "2024-11-29T23:19:00Z",
+            "og:url": "https://open.spotify.com/episode/5t1X9mJ6KgTBIpTeyACF8L",
+            "music:duration": "2957",
+            "al:android:app_name": "Spotify",
+            "og:restrictions:country:allowed": "AD"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://i.scdn.co/image/ab67656300005f1fa6db7104b56437d9bde89674"
+          }
+        ]
+      }
+    }
+  ]
+}

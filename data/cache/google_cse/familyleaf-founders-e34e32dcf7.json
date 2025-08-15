@@ -1,0 +1,603 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - \"FamilyLeaf\" founders",
+        "totalResults": "83",
+        "searchTerms": "\"FamilyLeaf\" founders",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - \"FamilyLeaf\" founders",
+        "totalResults": "83",
+        "searchTerms": "\"FamilyLeaf\" founders",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ]
+  },
+  "context": {
+    "title": "startup-ecosystem-intelligence"
+  },
+  "searchInformation": {
+    "searchTime": 0.138091,
+    "formattedSearchTime": "0.14",
+    "totalResults": "83",
+    "formattedTotalResults": "83"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "FamilyLeaf: Help families stay in touch | Y Combinator",
+      "htmlTitle": "<b>FamilyLeaf</b>: Help families stay in touch | Y Combinator",
+      "link": "https://www.ycombinator.com/companies/familyleaf",
+      "displayLink": "www.ycombinator.com",
+      "snippet": "Help families stay in touch. Founded in 2012 by , FamilyLeaf has 2 employees based in San Francisco, CA, USA ... Former Founders. Ajay Mehta.",
+      "htmlSnippet": "Help families stay in touch. Founded in 2012 by , <b>FamilyLeaf</b> has 2 employees based in San Francisco, CA, USA ... Former <b>Founders</b>. Ajay Mehta.",
+      "formattedUrl": "https://www.ycombinator.com/companies/familyleaf",
+      "htmlFormattedUrl": "https://www.ycombinator.com/companies/<b>familyleaf</b>",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_jlx_ttcDqicgZBVs0DjrnlFIWkOUPYZ1SvaiGlEZzk4B6xRiqshYu3_C&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "image": "/logos/medium/missing.png",
+            "og:image": "/logos/medium/missing.png",
+            "twitter:card": "summary_large_image",
+            "og:type": "website",
+            "og:site_name": "Y Combinator",
+            "og:image:url": "/logos/medium/missing.png",
+            "og:title": "FamilyLeaf: Help families stay in touch | Y Combinator",
+            "csrf-param": "authenticity_token",
+            "title": "FamilyLeaf: Help families stay in touch",
+            "og:description": "Help families stay in touch. Founded in 2012 by , FamilyLeaf has 2 employees based in San Francisco, CA, USA.",
+            "twitter:image": "/logos/medium/missing.png",
+            "og:image:secure_url": "/logos/medium/missing.png",
+            "twitter:site": "@ycombinator",
+            "viewport": "initial-scale=1, width=device-width, height=device-height",
+            "csrf-token": "AWNza0ZfjDH5a198THfMA7DV5HAc28L8OCxeQ2aD13fsu_NAUMrxPbbvpxRYJYNow6oNwwKdCp-Ec4K-0llqeg",
+            "og:locale": "en_US",
+            "og:url": "https://www.ycombinator.com/companies/familyleaf"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "x-raw-image:///7481412385fe6d0f7d4a3339d90fe12309432ca41983e8d350b232301d5d8684"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "FamilyLeaf - 2025 Company Profile, Team, Funding & Competitors ...",
+      "htmlTitle": "<b>FamilyLeaf</b> - 2025 Company Profile, Team, Funding &amp; Competitors ...",
+      "link": "https://tracxn.com/d/companies/familyleaf/__xcIpLcDdAyqIOq-nx3Wv-Gkhm1NVCms0kLQMBc6PLfI",
+      "displayLink": "tracxn.com",
+      "snippet": "Jun 15, 2025 ... FamilyLeaf's founders and board of directors · Ajay Mehta: Co-founder of FamilyLeaf. They are also an angel investor in 5 startups and serve on ...",
+      "htmlSnippet": "Jun 15, 2025 <b>...</b> <b>FamilyLeaf&#39;s founders</b> and board of directors &middot; Ajay Mehta: Co-founder of FamilyLeaf. They are also an angel investor in 5 startups and serve on&nbsp;...",
+      "formattedUrl": "https://tracxn.com/.../familyleaf/__xcIpLcDdAyqIOq-nx3Wv-Gkhm1NVC...",
+      "htmlFormattedUrl": "https://tracxn.com/.../<b>familyleaf</b>/__xcIpLcDdAyqIOq-nx3Wv-Gkhm1NVC...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjFnCHfJpx3-QC3VSvZYhAHgXSRnmzPffI_ao__GfBCPHMd-dmj5HOSjFO&s",
+            "width": "310",
+            "height": "163"
+          }
+        ],
+        "metatags": [
+          {
+            "image": "https://cdn.tracxn.com/images/seo/social/companies/familyleaf-overview-1708218021553.webp",
+            "og:image": "https://cdn.tracxn.com/images/seo/social/companies/familyleaf-overview-1708218021553.webp",
+            "og:type": "article",
+            "og:image:width": "1200",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "FamilyLeaf - 2025 Company Profile & Team - Tracxn",
+            "theme-color": "#ffffff",
+            "og:title": "FamilyLeaf - 2025 Company Profile & Team - Tracxn",
+            "og:image:height": "630",
+            "og:description": "FamilyLeaf - Private social network for families. Raised a total funding of $177K over 2 rounds from 4 investors.",
+            "twitter:image": "https://cdn.tracxn.com/images/seo/social/companies/familyleaf-overview-1708218021553.webp",
+            "referrer": "no-referrer-when-downgrade",
+            "astro-view-transitions-fallback": "animate",
+            "apple-mobile-web-app-status-bar-style": "default",
+            "viewport": "width=device-width",
+            "astro-view-transitions-enabled": "true",
+            "twitter:description": "FamilyLeaf - Private social network for families. Raised a total funding of $177K over 2 rounds from 4 investors.",
+            "apple-mobile-web-app-capable": "yes",
+            "mobile-web-app-capable": "yes",
+            "og:url": "https://tracxn.com/d/companies/familyleaf/__xcIpLcDdAyqIOq-nx3Wv-Gkhm1NVCms0kLQMBc6PLfI"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.tracxn.com/images/seo/social/companies/familyleaf-overview-1708218021553.webp"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Origami Labs Acquires FamilyLeaf, A Competing Private Social ...",
+      "htmlTitle": "Origami Labs Acquires <b>FamilyLeaf</b>, A Competing Private Social ...",
+      "link": "https://techcrunch.com/2013/07/01/origami-labs-acquires-familyleaf-a-competing-private-social-network-for-families/",
+      "displayLink": "techcrunch.com",
+      "snippet": "Jul 1, 2013 ... According to Origami founder Vibhu Norby, teams from both companies worked together to create an import functionality that will allow FamilyLeaf ...",
+      "htmlSnippet": "Jul 1, 2013 <b>...</b> According to Origami <b>founder</b> Vibhu Norby, teams from both companies worked together to create an import functionality that will allow <b>FamilyLeaf</b>&nbsp;...",
+      "formattedUrl": "https://techcrunch.com/.../origami-labs-acquires-familyleaf-a-competing-pri...",
+      "htmlFormattedUrl": "https://techcrunch.com/.../origami-labs-acquires-<b>familyleaf</b>-a-competing-pri...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWVWSyFJk9k0l7rAKRF2ATgAanbKxMa4frjApuUegXXnqJuAte2gir8aY&s",
+            "width": "348",
+            "height": "145"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://techcrunch.com/wp-content/uploads/2013/07/origami-familyleaf4.jpg?w=600",
+            "article:published_time": "2013-07-01T18:21:15+00:00",
+            "og:image:width": "600",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "TechCrunch",
+            "sailthru.tags": ",families,familyleaf,private social network,parents,origami,children,kids,social networks,social media,Startups,Media & Entertainment",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "parsely-author": "Sarah Perez",
+            "og:image:type": "image/jpeg",
+            "msapplication-tileimage": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=270",
+            "og:description": "Origami, the Y Combinator-backed social network for families which just launched to the public this month, has acquired competing service FamilyLeaf, another YC company. Financial terms of the deal are not being revealed, and for at least the next couple of months, FamilyLeaf is not shutting down. However, it will no longer be supported.",
+            "twitter:creator": "@TechCrunch",
+            "parsely-metadata": "{\"post_id\":840958,\"is_brief\":false}",
+            "article:publisher": "https://www.facebook.com/techcrunch",
+            "twitter:data1": "Sarah Perez",
+            "twitter:data2": "3 minutes",
+            "parsely-type": "post",
+            "twitter:site": "@TechCrunch",
+            "article:modified_time": "2013-07-02T13:47:57+00:00",
+            "parsely-link": "https://techcrunch.com/2013/07/01/origami-labs-acquires-familyleaf-a-competing-private-social-network-for-families/",
+            "sailthru.title": "Origami Labs Acquires FamilyLeaf, A Competing Private Social Network For Families",
+            "parsely-image-url": "https://techcrunch.com/wp-content/uploads/2013/07/origami-familyleaf4.jpg?w=150",
+            "parsely-section": "Startups",
+            "sailthru.date": "2013-07-01 11:21:15",
+            "og:type": "article",
+            "author": "Sarah Perez",
+            "og:title": "Origami Labs Acquires FamilyLeaf, A Competing Private Social Network For Families  | TechCrunch",
+            "og:image:height": "250",
+            "fediverse:creator": "@Sarahp@mastodon.social",
+            "sailthru.image.thumb": "https://techcrunch.com/wp-content/uploads/2013/07/origami-familyleaf4.jpg?w=50",
+            "parsely-title": "Origami Labs Acquires FamilyLeaf, A Competing Private Social Network For Families",
+            "parsely-pub-date": "2013-07-01T18:21:15Z",
+            "sailthru.description": "<a target=\"_blank\" href=\"http://www.origami.com/\">Origami</a>, the Y Combinator-backed social network for families which <a href=\"https://techcrunch.com/2013/06/21/from-the-makers-of-everyme-origami-launches-its-private-sharing-service-for-families/\">just launched to the public this month</a>, has acquired competing service <a target=\"_blank\" href=\"http://www.familyleaf.com/\">FamilyLeaf</a>, another YC company. Financial terms of the deal are not being revealed, and for at least the next couple of months, FamilyLeaf is not shutting down. However, it will no longer be supported.",
+            "parsely-tags": "social media,social networks,kids,children,origami,families,parents,private social network,familyleaf",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:locale": "en_US",
+            "og:url": "https://techcrunch.com/2013/07/01/origami-labs-acquires-familyleaf-a-competing-private-social-network-for-families/",
+            "sailthru.author": "Sarah Perez",
+            "sailthru.image.full": "https://techcrunch.com/wp-content/uploads/2013/07/origami-familyleaf4.jpg"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://techcrunch.com/wp-content/uploads/2013/07/origami-familyleaf4.jpg?w=600"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "AthleteNet (FamilyLeaf)'s Y Combinator Application",
+      "htmlTitle": "AthleteNet (<b>FamilyLeaf</b>)&#39;s Y Combinator Application",
+      "link": "https://getintoyc.com/company/athletenet-familyleaf/",
+      "displayLink": "getintoyc.com",
+      "snippet": "AthleteNet (FamilyLeaf). A website builder for sports teams/leagues. Batch: 2012 Winter. Status: Successful. CompanyFoundersProgressIdeaEquityLegalOthers.",
+      "htmlSnippet": "AthleteNet (<b>FamilyLeaf</b>). A website builder for sports teams/leagues. Batch: 2012 Winter. Status: Successful. Company<b>Founders</b>ProgressIdeaEquityLegalOthers.",
+      "formattedUrl": "https://getintoyc.com/company/athletenet-familyleaf/",
+      "htmlFormattedUrl": "https://getintoyc.com/company/athletenet-<b>familyleaf</b>/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYprcBd5fbcDm2JIbWeKfLPbL9YTXM3T_hFOLysBM2NS0m25I6GL2NJb4&s",
+            "width": "310",
+            "height": "163"
+          }
+        ],
+        "metatags": [
+          {
+            "msapplication-tilecolor": "#da532c",
+            "og:image": "https://getintoyc.com/wp-content/uploads/2021/11/get-into-y-combinator-2social2x.png",
+            "msapplication-config": "/wp-content/uploads/fbrfg/browserconfig.xml",
+            "og:type": "article",
+            "og:image:width": "2400",
+            "twitter:card": "summary_large_image",
+            "theme-color": "#111111",
+            "og:site_name": "Get into YC",
+            "og:title": "AthleteNet (FamilyLeaf)'s Y Combinator Application",
+            "og:image:height": "1260",
+            "og:description": "Find out how AthleteNet (FamilyLeaf) applied to Y Combinator. Learn from more than 50 other Y Combinator applications.",
+            "twitter:site": "@GetIntoYC",
+            "article:modified_time": "2021-11-11T13:40:56+00:00",
+            "viewport": "width=device-width",
+            "og:locale": "en_US",
+            "og:url": "https://getintoyc.com/company/athletenet-familyleaf/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://getintoyc.com/wp-content/uploads/2021/11/get-into-y-combinator-2social2x.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "New social network a family affair for young Bellevue co-founder ...",
+      "htmlTitle": "New social network a family affair for young Bellevue co-<b>founder</b> ...",
+      "link": "https://www.seattletimes.com/business/technology/new-social-network-a-family-affair-for-young-bellevue-co-founder/",
+      "displayLink": "www.seattletimes.com",
+      "snippet": "Dec 1, 2012 ... When they started work on FamilyLeaf this year, Ajay and Wesley, who are now in San Francisco, shared a house in Palo Alto, Calif. Yup, that's ...",
+      "htmlSnippet": "Dec 1, 2012 <b>...</b> When they started work on <b>FamilyLeaf</b> this year, Ajay and Wesley, who are now in San Francisco, shared a house in Palo Alto, Calif. Yup, that&#39;s&nbsp;...",
+      "formattedUrl": "https://www.seattletimes.com/.../new-social-network-a-family-affair-for-you...",
+      "htmlFormattedUrl": "https://www.seattletimes.com/.../new-social-network-a-family-affair-for-you...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTWwmSZobg0sC9Nz929VYtda9DwkE6018NBLVyFVo1DgbjGUNIb8vGO8j6&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "imageobject": [
+          {
+            "url": "https://www.seattletimes.com/wp-content/themes/st_refresh/img/st-meta-facebook.png"
+          }
+        ],
+        "person": [
+          {
+            "name": "Monica Guzman",
+            "url": "Monica Guzman"
+          }
+        ],
+        "organization": [
+          {
+            "name": "The Seattle Times"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://www.seattletimes.com/wp-content/themes/st_refresh/img/st-meta-facebook.png",
+            "theme-color": "#ffffff",
+            "twitter:card": "summary_large_image",
+            "og:image:width": "1200",
+            "article:published_time": "2012-12-01T19:06:35-08:00",
+            "og:site_name": "The Seattle Times",
+            "twitter:creator": "@moniguzman",
+            "og:description": "It took hours for Atin Kothari to convince his parents-in-law that they should be glad their grandson was leaving college. Degree or no degree, Ajay Mehta was on a roll. He had taught himself front-end Web...",
+            "mrf:tags": "contentType:story;internalTags:not-set;section_tier1:business;section_tier2:technology;sections_all:seattle-news|technology;articleID:9464194;source:not-set;imageCount:0;videoCount:0;template:standard;galleryType:not-set;age:4636;credit:not-set;paragraphCount:25;wordcount:958;graphicCount:0;hasTeaserImage:no;",
+            "twitter:image": "https://www.seattletimes.com/wp-content/themes/st_refresh/img/st-meta-twitter.png",
+            "twitter:site": "@seattletimes",
+            "article:modified_time": "2012-12-01T22:35:56-08:00",
+            "fb:admins": "2737159",
+            "mrf:canonical": "https://www.seattletimes.com/business/technology/new-social-network-a-family-affair-for-young-bellevue-co-founder/",
+            "msapplication-tilecolor": "#2b5797",
+            "twitter:title": "New social network a family affair for young Bellevue co-founder",
+            "og:type": "article",
+            "msvalidate.01": "A8C10DCF8621D573190E61A9BB5E1782",
+            "og:title": "New social network a family affair for young Bellevue co-founder",
+            "og:image:height": "1200",
+            "fb:pages": "38472826214",
+            "twitter:widgets:autoload": "off",
+            "fb:app_id": "2618768518177469",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "twitter:description": "It took hours for Atin Kothari to convince his parents-in-law that they should be glad their grandson was leaving college. Degree or no degree, Ajay Mehta was on a roll. He had taught himself front-end Web...",
+            "og:url": "https://www.seattletimes.com/business/technology/new-social-network-a-family-affair-for-young-bellevue-co-founder/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.seattletimes.com/wp-content/themes/st_refresh/img/st-meta-facebook.png"
+          }
+        ],
+        "hatomfeed": [
+          {}
+        ],
+        "newsarticle": [
+          {
+            "image": "https://www.seattletimes.com/wp-content/themes/st_refresh/img/st-meta-google.png",
+            "datemodified": "2012-12-01T22:35:56-08:00",
+            "articlesection": "Technology",
+            "name": "New social network a family affair for young Bellevue co-founder",
+            "description": "It took hours for Atin Kothari to convince his parents-in-law that they should be glad their grandson was leaving college. Degree or no degree, Ajay Mehta...",
+            "headline": "New social network a family affair for young Bellevue co-founder",
+            "datepublished": "2012-12-01T19:06:35-08:00"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Meet Ajay Mehta, another outstanding GS graduate! Ajay took an ...",
+      "htmlTitle": "Meet Ajay Mehta, another outstanding GS graduate! Ajay took an ...",
+      "link": "https://www.facebook.com/ColumbiaGS/posts/meet-ajay-mehta-another-outstanding-gs-graduate-ajay-took-an-extended-leave-of-a/10156330659401164/",
+      "displayLink": "www.facebook.com",
+      "snippet": "May 14, 2017 ... Meet Ajay Mehta, another outstanding GS graduate! Ajay took an extended leave of absence from college, founding technology startup FamilyLeaf in",
+      "htmlSnippet": "May 14, 2017 <b>...</b> Meet Ajay Mehta, another outstanding GS graduate! Ajay took an extended leave of absence from college, <b>founding</b> technology startup <b>FamilyLeaf</b> in",
+      "formattedUrl": "https://www.facebook.com/ColumbiaGS/.../10156330659401164/",
+      "htmlFormattedUrl": "https://www.facebook.com/ColumbiaGS/.../10156330659401164/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0mNVFStPVPE_0RvROggfTBHfYq-KAIE9sYOOqOhEbYoHV1QG09kbqHoOi&s",
+            "width": "183",
+            "height": "275"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=10156330659401164",
+            "theme-color": "#FFFFFF",
+            "og:type": "video.other",
+            "og:image:alt": "Columbia University School of General Studies",
+            "twitter:card": "summary",
+            "twitter:title": "Columbia University School of General Studies",
+            "og:title": "Columbia University School of General Studies",
+            "google": "notranslate",
+            "og:description": "Meet Ajay Mehta, another outstanding GS graduate! \n\nAjay took an extended leave of absence from college, founding technology startup FamilyLeaf in 2012 during this leave. The company was accepted...",
+            "twitter:image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=10156330659401164",
+            "referrer": "origin-when-crossorigin",
+            "twitter:image:alt": "Columbia University School of General Studies",
+            "twitter:site": "@facebookapp",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "Meet Ajay Mehta, another outstanding GS graduate! \n\nAjay took an extended leave of absence from college, founding technology startup FamilyLeaf in 2012 during this leave. The company was accepted...",
+            "og:locale": "en_US",
+            "fb-version": "471.0.0.0.9:2883",
+            "og:url": "https://www.facebook.com/ColumbiaGS/posts/meet-ajay-mehta-another-outstanding-gs-graduate-ajay-took-an-extended-leave-of-a/10156330659401164/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=10156330659401164"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Ajay Mehta",
+      "htmlTitle": "Ajay Mehta",
+      "link": "https://www.ajaym.com/",
+      "displayLink": "www.ajaym.com",
+      "snippet": "I'm the founder/CEO of Birthdate Co. We've sold over ... And before that, I co-founded a startup called FamilyLeaf with seed investment from Y Combinator.",
+      "htmlSnippet": "I&#39;m the <b>founder</b>/CEO of Birthdate Co. We&#39;ve sold over ... And before that, I co-founded a startup called <b>FamilyLeaf</b> with seed investment from Y Combinator.",
+      "formattedUrl": "https://www.ajaym.com/",
+      "htmlFormattedUrl": "https://www.ajaym.com/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqBzuGM8DGuvgdlQOXr4NCb64Fzpk52G35lS3_ASGTEJ9VrYntUnwUS-WE&s",
+            "width": "200",
+            "height": "200"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://s3.amazonaws.com/uploads.striking.ly/page/images/custom/vvkG0apOQFuj7nPexJgw_ajay.png",
+            "theme-color": "#ffffff",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Ajay Mehta",
+            "og:site_name": "Ajay Mehta",
+            "asset-url": "https://static-assets.strikinglycdn.com",
+            "og:title": "Ajay Mehta",
+            "og:description": "homepage for ajay u mehta.",
+            "twitter:image": "https://s3.amazonaws.com/uploads.striking.ly/page/images/custom/vvkG0apOQFuj7nPexJgw_ajay.png",
+            "viewport": "width=device-width,initial-scale=1.0,user-scalable=yes,minimum-scale=1.0,maximum-scale=3.0",
+            "twitter:description": "homepage for ajay u mehta.",
+            "support-helper": "{\"permalink\":\"aum\",\"id\":11996}",
+            "og:url": "https://www.ajaym.com/"
+          }
+        ],
+        "webpage": [
+          {
+            "image": "https://s3.amazonaws.com/uploads.striking.ly/page/images/custom/vvkG0apOQFuj7nPexJgw_ajay.png",
+            "name": "Ajay Mehta",
+            "description": "homepage for ajay u mehta."
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://s3.amazonaws.com/uploads.striking.ly/page/images/custom/vvkG0apOQFuj7nPexJgw_ajay.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "The Ultimate Guide List for Startups applying to Y Combinator | by ...",
+      "htmlTitle": "The Ultimate Guide List for Startups applying to Y Combinator | by ...",
+      "link": "https://medium.com/@kevinwilliamdavid/the-ultimate-guide-list-for-startups-applying-to-y-combinator-b97e766199d1",
+      "displayLink": "medium.com",
+      "snippet": "Oct 14, 2014 ... FamilyLeaf Yc application · SeeingInteractive application(Ownlocal) ... Panorama's (YC S13) advice for first time founders and YC applicants ...",
+      "htmlSnippet": "Oct 14, 2014 <b>...</b> <b>FamilyLeaf</b> Yc application &middot; SeeingInteractive application(Ownlocal) ... Panorama&#39;s (YC S13) advice for first time <b>founders</b> and YC applicants&nbsp;...",
+      "formattedUrl": "https://medium.com/.../the-ultimate-guide-list-for-startups-applying-to-y-co...",
+      "htmlFormattedUrl": "https://medium.com/.../the-ultimate-guide-list-for-startups-applying-to-y-co...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzt-CDRRQrq_3GORTSkVfKz38_FVLkzaxoHTxFATkiaVlekL8TYfGNSKdC&s",
+            "width": "304",
+            "height": "166"
+          }
+        ],
+        "metatags": [
+          {
+            "apple-itunes-app": "app-id=828256236, app-argument=/@kevinwilliamdavid/the-ultimate-guide-list-for-startups-applying-to-y-combinator-b97e766199d1, affiliate-data=pt=698524&ct=smart_app_banner&mt=8",
+            "og:image": "https://miro.medium.com/v2/resize:fit:750/1*K8mTqAUUCbJeJRr-RDfB7w.jpeg",
+            "twitter:app:url:iphone": "medium://p/b97e766199d1",
+            "theme-color": "#000000",
+            "article:published_time": "2016-11-02T09:52:45.526Z",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Medium",
+            "al:android:package": "com.medium.reader",
+            "twitter:label1": "Reading time",
+            "twitter:app:id:iphone": "828256236",
+            "title": "The Ultimate Guide List for Startups applying to Y Combinator | by Kevin William David | Medium",
+            "al:ios:url": "medium://p/b97e766199d1",
+            "og:description": "Recently was helping a friend of mine who was applying for Y Combinator to fill up his application.We were selected for Y Combinator Final Interview few batches ago. So ended up reading a lot of…",
+            "twitter:creator": "@kevinwdavid",
+            "al:ios:app_store_id": "828256236",
+            "twitter:data1": "3 min read",
+            "twitter:site": "@Medium",
+            "og:type": "article",
+            "twitter:title": "The Ultimate Guide List for Startups applying to Y Combinator",
+            "al:ios:app_name": "Medium",
+            "author": "Kevin William David",
+            "og:title": "The Ultimate Guide List for Startups applying to Y Combinator",
+            "al:web:url": "https://medium.com/@kevinwilliamdavid/the-ultimate-guide-list-for-startups-applying-to-y-combinator-b97e766199d1",
+            "article:author": "https://medium.com/@kevinwilliamdavid",
+            "twitter:image:src": "https://miro.medium.com/v2/resize:fit:750/1*K8mTqAUUCbJeJRr-RDfB7w.jpeg",
+            "al:android:url": "medium://p/b97e766199d1",
+            "referrer": "unsafe-url",
+            "fb:app_id": "542599432471018",
+            "viewport": "width=device-width,minimum-scale=1,initial-scale=1,maximum-scale=1",
+            "twitter:description": "Recently was helping a friend of mine who was applying for Y Combinator to fill up his application.We were selected for Y Combinator Final Interview few batches ago. So ended up reading a lot of…",
+            "og:url": "https://medium.com/@kevinwilliamdavid/the-ultimate-guide-list-for-startups-applying-to-y-combinator-b97e766199d1",
+            "twitter:app:name:iphone": "Medium",
+            "al:android:app_name": "Medium"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://miro.medium.com/v2/resize:fit:750/1*K8mTqAUUCbJeJRr-RDfB7w.jpeg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Ajay Mehta - Founder and CEO @ Birthdate candle - Crunchbase ...",
+      "htmlTitle": "Ajay Mehta - <b>Founder</b> and CEO @ Birthdate candle - Crunchbase ...",
+      "link": "https://www.crunchbase.com/person/ajay-mehta",
+      "displayLink": "www.crunchbase.com",
+      "snippet": "Ajay Mehta is the Founder and CEO at Birthdate candle. Additionally, Ajay Mehta has had 1 past job as the Co-founder at FamilyLeaf.",
+      "htmlSnippet": "Ajay Mehta is the <b>Founder</b> and CEO at Birthdate candle. Additionally, Ajay Mehta has had 1 past job as the Co-<b>founder</b> at <b>FamilyLeaf</b>.",
+      "formattedUrl": "https://www.crunchbase.com/person/ajay-mehta",
+      "htmlFormattedUrl": "https://www.crunchbase.com/person/ajay-mehta",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgXRw77m6JUhqns9Y0S-4dk5aPbgsPuW4RFl88lDfUoP6e8B8_LY3UzBjT&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://images.crunchbase.com/image/upload/c_thumb,h_256,w_256,f_auto,g_face,z_0.7,q_auto:eco,dpr_1/v1397181523/a336164f57ee0de1a18f6c4f6cde891f.png",
+            "og:type": "website",
+            "og:image:alt": "Ajay Mehta - Founder and CEO @ Birthdate candle",
+            "og:image:width": "256",
+            "og:site_name": "Crunchbase",
+            "viewport": "width=device-width, minimum-scale=1.0, initial-scale=1.0",
+            "og:title": "Ajay Mehta - Founder and CEO @ Birthdate candle - Crunchbase Person Profile",
+            "og:image:height": "256",
+            "og:url": "https://www.crunchbase.com/person/ajay-mehta",
+            "og:description": "Ajay Mehta is the Founder and CEO at Birthday.co.",
+            "og:image:secure_url": "https://images.crunchbase.com/image/upload/c_thumb,h_256,w_256,f_auto,g_face,z_0.7,q_auto:eco,dpr_1/v1397181523/a336164f57ee0de1a18f6c4f6cde891f.png"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://images.crunchbase.com/image/upload/c_thumb,h_256,w_256,f_auto,g_face,z_0.7,q_auto:eco,dpr_1/v1397181523/a336164f57ee0de1a18f6c4f6cde891f.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Poker pro Phil Gordon lands cash for online gaming tourneys, nabs ...",
+      "htmlTitle": "Poker pro Phil Gordon lands cash for online gaming tourneys, nabs ...",
+      "link": "https://www.geekwire.com/2012/poker-pro-phil-gordon-lands-cash-online-gaming-tourneys-nabs-zynga-netscape-execs/",
+      "displayLink": "www.geekwire.com",
+      "snippet": "Mar 26, 2012 ... FamilyLeaf's 19-year-old founders branch out with a social network for the family · Next Story. No Comcast bandwidth cap for on-demand Xbox ...",
+      "htmlSnippet": "Mar 26, 2012 <b>...</b> <b>FamilyLeaf&#39;s</b> 19-year-old <b>founders</b> branch out with a social network for the family &middot; Next Story. No Comcast bandwidth cap for on-demand Xbox&nbsp;...",
+      "formattedUrl": "https://www.geekwire.com/.../poker-pro-phil-gordon-lands-cash-online-ga...",
+      "htmlFormattedUrl": "https://www.geekwire.com/.../poker-pro-phil-gordon-lands-cash-online-ga...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfeJrXlPXEedeywvvI5kKrn5ckFkSWelfDSTSzA4iDkJZ-eSnD56Ixl3g&s",
+            "width": "150",
+            "height": "195"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://cdn.geekwire.com/wp-content/uploads/2012/02/gordon-phil-small22.jpg",
+            "article:published_time": "2012-03-26T21:06:32+00:00",
+            "og:image:width": "150",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "GeekWire",
+            "tec-api-origin": "https://www.geekwire.com",
+            "apple-mobile-web-app-title": "GeekWire",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "og:image:type": "image/jpeg",
+            "og:description": "As a professional poker player with career winnings of $3.5 million, Phil Gordon usually is the guy making big bets. But the 41-year-old Gordon -- a",
+            "twitter:creator": "@johnhcook",
+            "article:publisher": "https://www.facebook.com/geekwire",
+            "twitter:data1": "John Cook",
+            "twitter:data2": "2 minutes",
+            "twitter:site": "@geekwire",
+            "article:modified_time": "2012-03-26T21:06:33+00:00",
+            "google-adsense-platform-account": "ca-host-pub-2644536267352236",
+            "tec-api-version": "v1",
+            "og:see_also": "https://www.geekwire.com/2024/more-than-85m-in-zulily-inventory-and-fulfillment-center-assets-will-be-sold-in-auctions/",
+            "application-name": "GeekWire",
+            "og:type": "article",
+            "twitter:title": "Poker pro Phil Gordon lands cash for online gaming tourneys, nabs former Zynga and Netscape execs",
+            "author": "John Cook",
+            "og:title": "Poker pro Phil Gordon lands cash for online gaming tourneys, nabs former Zynga and Netscape execs",
+            "og:image:height": "195",
+            "article:author": "https://www.facebook.com/johnhcook",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:locale": "en_US",
+            "google-adsense-platform-domain": "sitekit.withgoogle.com",
+            "og:url": "https://www.geekwire.com/2012/poker-pro-phil-gordon-lands-cash-online-gaming-tourneys-nabs-zynga-netscape-execs/",
+            "twitter:widgets:link-color": "#be4825"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.geekwire.com/wp-content/uploads/2012/02/gordon-phil-small22.jpg"
+          }
+        ],
+        "hatomfeed": [
+          {}
+        ]
+      }
+    }
+  ]
+}

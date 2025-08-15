@@ -1,0 +1,63 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - site:clutch.io (founder OR cofounder)",
+        "totalResults": "1",
+        "searchTerms": "site:clutch.io (founder OR cofounder)",
+        "count": 1,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ]
+  },
+  "context": {
+    "title": "startup-ecosystem-intelligence"
+  },
+  "searchInformation": {
+    "searchTime": 0.075669,
+    "formattedSearchTime": "0.08",
+    "totalResults": "1",
+    "formattedTotalResults": "1"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "Clutch | The Next-Generation Visual Builder for WordPress",
+      "htmlTitle": "Clutch | The Next-Generation Visual Builder for WordPress",
+      "link": "https://clutch.io/",
+      "displayLink": "clutch.io",
+      "snippet": "@thekevingearyFounder of Etch. \"Clutch is what Oxygen Builder should have been.\" @ainaopeyemi339Apr 11, 2025. \"Oh man I love ch, lh, etc, takes so much ...",
+      "htmlSnippet": "@thekevingeary<b>Founder</b> of Etch. &quot;Clutch is what Oxygen Builder should have been.&quot; @ainaopeyemi339Apr 11, 2025. &quot;Oh man I love ch, lh, etc, takes so much&nbsp;...",
+      "formattedUrl": "https://clutch.io/",
+      "htmlFormattedUrl": "https://clutch.io/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_hfTz1L9E7BCxYLbjf7kJVY7ifYdxB8fVB7LX9hFwKQM8AWfMkVinXwM&s",
+            "width": "128",
+            "height": "128"
+          }
+        ],
+        "metatags": [
+          {
+            "viewport": "width=device-width, initial-scale=1"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://clutch.io/icon-logo-big.svg?fh=081dc30a1b01bf739602fc6c773884f6eb6ce57dcb935e38ec3974ed82237c35"
+          }
+        ]
+      }
+    }
+  ]
+}

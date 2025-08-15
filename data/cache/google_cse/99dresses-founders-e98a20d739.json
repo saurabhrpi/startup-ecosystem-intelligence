@@ -1,0 +1,633 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - \"99dresses\" founders",
+        "totalResults": "365",
+        "searchTerms": "\"99dresses\" founders",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - \"99dresses\" founders",
+        "totalResults": "365",
+        "searchTerms": "\"99dresses\" founders",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ]
+  },
+  "context": {
+    "title": "startup-ecosystem-intelligence"
+  },
+  "searchInformation": {
+    "searchTime": 0.101644,
+    "formattedSearchTime": "0.10",
+    "totalResults": "365",
+    "formattedTotalResults": "365"
+  },
+  "spelling": {
+    "correctedQuery": "\"99 dresses\" founders",
+    "htmlCorrectedQuery": "&quot;<b><i>99 dresses</i></b>&quot; founders"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "My startup failed, and this is what it feels like… | by Nikki Durkin ...",
+      "htmlTitle": "My startup failed, and this is what it feels like… | by Nikki Durkin ...",
+      "link": "https://nikkidurkin.medium.com/my-startup-failed-and-this-is-what-it-feels-like-c5d64b3ae96b",
+      "displayLink": "nikkidurkin.medium.com",
+      "snippet": "Jun 23, 2014 ... I thought I'd end this post by publicly thanking everyone who has been a part of the 99dresses journey. To my co-founder, Marcin — there is no ...",
+      "htmlSnippet": "Jun 23, 2014 <b>...</b> I thought I&#39;d end this post by publicly thanking everyone who has been a part of the <b>99dresses</b> journey. To my co-<b>founder</b>, Marcin — there is no&nbsp;...",
+      "formattedUrl": "https://nikkidurkin.medium.com/my-startup-failed-and-this-is-what-it-feels-...",
+      "htmlFormattedUrl": "https://nikkidurkin.medium.com/my-startup-failed-and-this-is-what-it-feels-...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ0xkTo5KROn8HfYTtjnL9gx1eqEzzK7n0chUl8Nktns83-7hCZk5O9nQ&s",
+            "width": "275",
+            "height": "183"
+          }
+        ],
+        "metatags": [
+          {
+            "apple-itunes-app": "app-id=828256236, app-argument=/my-startup-failed-and-this-is-what-it-feels-like-c5d64b3ae96b, affiliate-data=pt=698524&ct=smart_app_banner&mt=8",
+            "og:image": "https://miro.medium.com/v2/resize:fit:1200/1*zDIcMHGCvFn2rZqJB62LAw.jpeg",
+            "twitter:app:url:iphone": "medium://p/c5d64b3ae96b",
+            "theme-color": "#000000",
+            "article:published_time": "2020-11-19T15:36:38.391Z",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Medium",
+            "al:android:package": "com.medium.reader",
+            "twitter:label1": "Reading time",
+            "twitter:app:id:iphone": "828256236",
+            "title": "My startup failed, and this is what it feels like… | by Nikki Durkin | Medium",
+            "al:ios:url": "medium://p/c5d64b3ae96b",
+            "og:description": "We had users and traction, then we fell off a cliff. My 4 year emotional rollercoaster just came to an end.",
+            "twitter:creator": "@heynikkidurkin",
+            "al:ios:app_store_id": "828256236",
+            "twitter:data1": "23 min read",
+            "twitter:site": "@Medium",
+            "og:type": "article",
+            "twitter:title": "My startup failed, and this is what it feels like…",
+            "al:ios:app_name": "Medium",
+            "author": "Nikki Durkin",
+            "og:title": "My startup failed, and this is what it feels like…",
+            "al:web:url": "https://nikkidurkin.medium.com/my-startup-failed-and-this-is-what-it-feels-like-c5d64b3ae96b",
+            "article:author": "https://nikkidurkin.medium.com",
+            "twitter:image:src": "https://miro.medium.com/v2/resize:fit:1200/1*zDIcMHGCvFn2rZqJB62LAw.jpeg",
+            "al:android:url": "medium://p/c5d64b3ae96b",
+            "referrer": "unsafe-url",
+            "fb:app_id": "542599432471018",
+            "viewport": "width=device-width,minimum-scale=1,initial-scale=1,maximum-scale=1",
+            "twitter:description": "We had users and traction, then we fell off a cliff. My 4 year emotional rollercoaster just came to an end.",
+            "og:url": "https://nikkidurkin.medium.com/my-startup-failed-and-this-is-what-it-feels-like-c5d64b3ae96b",
+            "twitter:app:name:iphone": "Medium",
+            "al:android:app_name": "Medium"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://miro.medium.com/v2/resize:fit:1200/1*zDIcMHGCvFn2rZqJB62LAw.jpeg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "How 99dresses failed (with three cofounders, funding, and a mentor ...",
+      "htmlTitle": "How <b>99dresses</b> failed (with three cofounders, funding, and a mentor ...",
+      "link": "https://mixergy.com/interviews/nikki-durkin-99dresses-interview/",
+      "displayLink": "mixergy.com",
+      "snippet": "Jun 27, 2014 ... Nikki Durkin is the founder of 99dresses, a company that allowed women to trade fashion items with other users. roll-angle. Full Interview ...",
+      "htmlSnippet": "Jun 27, 2014 <b>...</b> Nikki Durkin is the <b>founder</b> of <b>99dresses</b>, a company that allowed women to trade fashion items with other users. roll-angle. Full Interview&nbsp;...",
+      "formattedUrl": "https://mixergy.com/interviews/nikki-durkin-99dresses-interview/",
+      "htmlFormattedUrl": "https://mixergy.com/interviews/nikki-durkin-<b>99dresses</b>-interview/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnydh7b4D-7QPh705HanC9nrNkNoQpnP6JtF7xRGFWSgOdxOqzao3iFF4&s",
+            "width": "310",
+            "height": "163"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://mixergy.com/interviews/nikki-durkin-99dresses-interview/?get-twitter-card=true&v=14&time=1413565866",
+            "apple-itunes-app": "app-id=348690336, affiliate-data=at=11laQQ&ct=mixergy-smartbanner",
+            "og:type": "article",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Mixergy",
+            "og:site_name": "Business Podcast for Startups",
+            "og:title": "How 99dresses failed (with three cofounders, funding, and a mentor) - with Nikki Durkin - Business Podcast for Startups",
+            "twitter:label1": "Est. reading time",
+            "page_created_date": "Thu, 31 Jul 2025 09:31:28 +0000",
+            "og:description": "One of the things that I'm proudest of as an interviewer is that entrepreneurs feel comfortable coming here to talk not just about their successes, but about their failures...",
+            "twitter:image": "https://mixergy.com/interviews/nikki-durkin-99dresses-interview/?get-twitter-card=true&v=14&time=1413565866",
+            "twitter:data1": "60 minutes",
+            "twitter:site": "@Mixergy",
+            "article:modified_time": "2014-10-17T21:11:06+00:00",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "twitter:description": "Business tips for startups by proven entrepreneurs",
+            "og:locale": "en_US",
+            "og:url": "https://mixergy.com/interviews/nikki-durkin-99dresses-interview/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://mixergy.com/interviews/nikki-durkin-99dresses-interview/?get-twitter-card=true&v=14&time=1413565866"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Closet queen: 99dresses founder on business plans, accelerators ...",
+      "htmlTitle": "Closet queen: <b>99dresses founder</b> on business plans, accelerators ...",
+      "link": "https://www.wework.com/ideas/community-stories/member-spotlight/nikki-durkin",
+      "displayLink": "www.wework.com",
+      "snippet": "Apr 18, 2014 ... Durkin founded 99dresses – an online platform that helps shopaholics on a budget refresh their closets by giving their unwanted clothes a new home and ...",
+      "htmlSnippet": "Apr 18, 2014 <b>...</b> Durkin founded <b>99dresses</b> – an online platform that helps shopaholics on a budget refresh their closets by giving their unwanted clothes a new home and&nbsp;...",
+      "formattedUrl": "https://www.wework.com/ideas/community-stories/member.../nikki-durkin",
+      "htmlFormattedUrl": "https://www.wework.com/ideas/community-stories/member.../nikki-durkin",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxdnqOK3JmLAXO6iJ-2w5gLISv7Ahpc5c2MoDMQSZZjLlBZE93q3sM5UY&s",
+            "width": "275",
+            "height": "183"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://www.wework.com/ideas/wp-content/uploads/sites/4/2014/04/20140409-Nikki-Durkin-99-Dresses-3.jpg?fit=1280%2C853",
+            "og:type": "article",
+            "article:published_time": "2014-04-18T18:00:00+00:00",
+            "og:image:width": "1280",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Ideas",
+            "author": "Christina Choi",
+            "og:title": "Closet queen: 99dresses founder on business plans, accelerators, and fashion startups",
+            "og:image:height": "853",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "og:image:type": "image/jpeg",
+            "og:description": "Nikki Durkin, 22, loves to shop. So it’s not surprising that she found herself in a situation that countless women find themselves in: She was spending …",
+            "twitter:data1": "Christina Choi",
+            "twitter:data2": "4 minutes",
+            "article:modified_time": "2020-03-30T23:07:42+00:00",
+            "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+            "og:locale": "en_US",
+            "og:url": "https://www.wework.com/ideas/community-stories/member-spotlight/nikki-durkin"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.wework.com/ideas/wp-content/uploads/sites/4/2014/04/20140409-Nikki-Durkin-99-Dresses-3.jpg?fit=1280%2C853"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "99dresses founder Nikki Durkin announces closure after 4 years ...",
+      "htmlTitle": "<b>99dresses founder</b> Nikki Durkin announces closure after 4 years ...",
+      "link": "https://www.startupdaily.net/topic/99dresses-founder-nikki-durkin-announces-closure-4-years/",
+      "displayLink": "www.startupdaily.net",
+      "snippet": "Jun 24, 2014 ... Australian entrepreneur Nikki Durkin announced that she was shutting down the venture she had been working on for the last 4 years 99dresses.",
+      "htmlSnippet": "Jun 24, 2014 <b>...</b> Australian entrepreneur Nikki Durkin announced that she was shutting down the venture she had been working on for the last 4 years <b>99dresses</b>.",
+      "formattedUrl": "https://www.startupdaily.net/.../99dresses-founder-nikki-durkin-announces-...",
+      "htmlFormattedUrl": "https://www.startupdaily.net/.../<b>99dresses</b>-founder-nikki-durkin-announces-...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeEz3hfICoEmKEvVkebIw1YPCfvPiBSN1FwMlabc7A9P7EgdesrApFW8_n&s",
+            "width": "300",
+            "height": "168"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://www.startupdaily.net/wp-content/uploads/2014/06/nikki-durkin.jpg",
+            "og:type": "article",
+            "article:published_time": "2014-06-23T18:23:53+00:00",
+            "og:image:width": "1157",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Startup Daily",
+            "author": "Mat Beeche",
+            "og:title": "99dresses founder Nikki Durkin announces closure after 4 years",
+            "og:image:height": "650",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "og:image:type": "image/jpeg",
+            "msapplication-tileimage": "https://www.startupdaily.net/wp-content/uploads/2025/06/cropped-SDFavicon-270x270.png",
+            "og:description": "Today Australian entrepreneur Nikki Durkin announced that she was shutting down the venture she had been working on for the last 4 years 99dresses.",
+            "twitter:creator": "@https://twitter.com/matbeeche",
+            "article:publisher": "https://www.facebook.com/StartupDailyOnline",
+            "article:author": "https://www.facebook.com/mathew.beeche",
+            "twitter:data1": "Mat Beeche",
+            "twitter:data2": "3 minutes",
+            "twitter:site": "@startupdailyanz",
+            "article:modified_time": "2022-05-21T03:36:52+00:00",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "og:locale": "en_US",
+            "og:url": "https://www.startupdaily.net/topic/99dresses-founder-nikki-durkin-announces-closure-4-years/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.startupdaily.net/wp-content/uploads/2014/06/nikki-durkin.jpg"
+          }
+        ],
+        "blogposting": [
+          {
+            "text": "Today Australian entrepreneur Nikki Durkin announced that she was shutting down the venture she had been working on for the last 4 years 99dresses. She made the announcement via her Medium...",
+            "headline": "99dresses founder Nikki Durkin announces closure after 4 years"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "What Happened to 99dresses, Sydney's Virtual Closet?",
+      "htmlTitle": "What Happened to <b>99dresses</b>, Sydney&#39;s Virtual Closet?",
+      "link": "https://www.failory.com/cemetery/99dresses",
+      "displayLink": "www.failory.com",
+      "snippet": "99dresses was a fashion app that offered trades of second-hand designer dresses between users ... Join 40,000+ founders. Thank you! Your submission has ...",
+      "htmlSnippet": "<b>99dresses</b> was a fashion app that offered trades of second-hand designer dresses between users ... Join 40,000+ <b>founders</b>. Thank you! Your submission has&nbsp;...",
+      "formattedUrl": "https://www.failory.com/cemetery/99dresses",
+      "htmlFormattedUrl": "https://www.failory.com/cemetery/<b>99dresses</b>",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl6rRRrZDRNjHS4IZ9owFacVRMt0nBfBhuGfJ4q6F5OF-4hESLNgm7X-k&s",
+            "width": "318",
+            "height": "159"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://cdn.prod.website-files.com/5fadb14c46b287ad224b60b9/6053591c425aacafad0efd4f_6032e15dc5cf67509e00a47d_webflow-457c7eebb8c4b42580b29db7b3acf276-bmz6jamh.webp",
+            "twitter:title": "What Happened to 99dresses, Sydney's Virtual Closet?",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "99dresses was a fashion app that offered trades of second-hand designer dresses between users. It operated for a year but had to shut it down in 2014.",
+            "og:title": "What Happened to 99dresses, Sydney's Virtual Closet?",
+            "og:description": "99dresses was a fashion app that offered trades of second-hand designer dresses between users. It operated for a year but had to shut it down in 2014.",
+            "twitter:image": "https://cdn.prod.website-files.com/5fadb14c46b287ad224b60b9/6053591c425aacafad0efd4f_6032e15dc5cf67509e00a47d_webflow-457c7eebb8c4b42580b29db7b3acf276-bmz6jamh.webp"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.prod.website-files.com/5fadb14c46b287ad224b60b9/6053591c425aacafad0efd4f_6032e15dc5cf67509e00a47d_webflow-457c7eebb8c4b42580b29db7b3acf276-bmz6jamh.webp"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "99dresses - Crunchbase Company Profile & Funding",
+      "htmlTitle": "<b>99dresses</b> - Crunchbase Company Profile &amp; Funding",
+      "link": "https://www.crunchbase.com/organization/99dresses",
+      "displayLink": "www.crunchbase.com",
+      "snippet": "99dresses allows users to trade the fashion items with other users. The site started as a post-HSC project for the founder, Nikki Durkin, in a collaboration ...",
+      "htmlSnippet": "<b>99dresses</b> allows users to trade the fashion items with other users. The site started as a post-HSC project for the <b>founder</b>, Nikki Durkin, in a collaboration&nbsp;...",
+      "formattedUrl": "https://www.crunchbase.com/organization/99dresses",
+      "htmlFormattedUrl": "https://www.crunchbase.com/organization/<b>99dresses</b>",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEP0nzm9ZJwVeU_Z_yfdgni0GieXgEdot_rgoXKZCoQdvnhj4lXx3LufVm&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1397196844/5ff540c906cff2a77d988bde2b0f4e55.png",
+            "og:type": "website",
+            "og:image:alt": "99dresses",
+            "og:image:width": "256",
+            "og:site_name": "Crunchbase",
+            "viewport": "width=device-width, minimum-scale=1.0, initial-scale=1.0",
+            "og:title": "99dresses - Crunchbase Company Profile & Funding",
+            "og:image:height": "256",
+            "og:url": "https://www.crunchbase.com/organization/99dresses",
+            "og:description": "99dresses is a virtual closet that allows users to trade fashion items with other users.",
+            "og:image:secure_url": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1397196844/5ff540c906cff2a77d988bde2b0f4e55.png"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1397196844/5ff540c906cff2a77d988bde2b0f4e55.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "What Happened to 99dresses & Why Did It Fail?",
+      "htmlTitle": "What Happened to <b>99dresses</b> &amp; Why Did It Fail?",
+      "link": "https://www.sunsethq.com/blog/why-did-99dresses-fail",
+      "displayLink": "www.sunsethq.com",
+      "snippet": "Jan 25, 2025 ... 99dresses officially shut down in June 2014, as detailed in a personal narrative by founder Nikki Durkin. The decision came after a series of insurmountable ...",
+      "htmlSnippet": "Jan 25, 2025 <b>...</b> <b>99dresses</b> officially shut down in June 2014, as detailed in a personal narrative by <b>founder</b> Nikki Durkin. The decision came after a series of insurmountable&nbsp;...",
+      "formattedUrl": "https://www.sunsethq.com/blog/why-did-99dresses-fail",
+      "htmlFormattedUrl": "https://www.sunsethq.com/blog/why-did-<b>99dresses</b>-fail",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4ZK0lwRVdTv47yQvYeSopyHE0zCCZZCgONDvaYOJJa8acGJ_dpjTE5jfs&s",
+            "width": "275",
+            "height": "183"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://cdn.prod.website-files.com/650c094ae8bd004fd2002a94/66ee675fe1d6ac12005f92af_photo-1579546929662-711aa81148cf.jpeg",
+            "twitter:title": "What Happened to 99dresses & Why Did It Fail?",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "Explore the rise and fall of 99dresses, uncovering key lessons in innovation, strategy, and business sustainability.",
+            "og:title": "What Happened to 99dresses & Why Did It Fail?",
+            "og:description": "Explore the rise and fall of 99dresses, uncovering key lessons in innovation, strategy, and business sustainability.",
+            "twitter:image": "https://cdn.prod.website-files.com/650c094ae8bd004fd2002a94/66ee675fe1d6ac12005f92af_photo-1579546929662-711aa81148cf.jpeg"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.prod.website-files.com/650c094ae8bd004fd2002a94/66ee675fe1d6ac12005f92af_photo-1579546929662-711aa81148cf.jpeg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "My startup failed, and this is what it feels like… - SmartCompany",
+      "htmlTitle": "My startup failed, and this is what it feels like… - SmartCompany",
+      "link": "https://www.smartcompany.com.au/finance/my-startup-failed-and-this-is-what-it-feels-like/",
+      "displayLink": "www.smartcompany.com.au",
+      "snippet": "Jun 24, 2014 ... ... founders, and why their startups didn't work out. As things ... Nikki Durkan is the Founder & CEO of 99dresses. This post originally ...",
+      "htmlSnippet": "Jun 24, 2014 <b>...</b> ... <b>founders</b>, and why their startups didn&#39;t work out. As things ... Nikki Durkan is the <b>Founder</b> &amp; CEO of <b>99dresses</b>. This post originally&nbsp;...",
+      "formattedUrl": "https://www.smartcompany.com.au/.../my-startup-failed-and-this-is-what-it-...",
+      "htmlFormattedUrl": "https://www.smartcompany.com.au/.../my-startup-failed-and-this-is-what-it-...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9Fi0GfIhr6lqmkHtE73cBQn5c6hyHTyuOuObpz2srcW1Q1snv0m_vGMo&s",
+            "width": "312",
+            "height": "162"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://www.smartcompany.com.au/wp-content/uploads/sites/4/2016/03/laptop.jpg",
+            "article:published_time": "2014-06-23T15:02:09+00:00",
+            "og:image:width": "641",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "SmartCompany",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "og:image:type": "image/jpeg",
+            "msapplication-tileimage": "https://www.smartcompany.com.au/wp-content/uploads/sites/4/2022/01/cropped-android-chrome-512x512-1.png?fit=270%2C270",
+            "og:description": "By Nikki Durkin Over 90% of tech startups fail, but I never thought my baby, 99dresses, would be one of them. If there is one thing that doing a startup has taught me, its that I am much more resilient than I could have ever imagined. Looking back, when I started 99dresses fresh out of […]",
+            "twitter:creator": "@smartcompany",
+            "article:publisher": "https://www.facebook.com/SmartCompany",
+            "twitter:data1": "SmartCompany",
+            "twitter:data2": "30 minutes",
+            "twitter:site": "@smartcompany",
+            "article:modified_time": "2018-08-16T04:55:59+00:00",
+            "categories": "Finance",
+            "og:type": "article",
+            "article:section": "Finance",
+            "author": "SmartCompany",
+            "topics": "99dresses|nikki durkin",
+            "og:title": "My startup failed, and this is what it feels like…",
+            "og:image:height": "333",
+            "article:author": "https://www.smartcompany.com.au/author/smartcompany/",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:locale": "en_AU",
+            "og:url": "https://www.smartcompany.com.au/finance/my-startup-failed-and-this-is-what-it-feels-like/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.smartcompany.com.au/wp-content/uploads/sites/4/2016/03/laptop.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "99dresses: We're creating every women's fantasy by combining the ...",
+      "htmlTitle": "<b>99dresses</b>: We&#39;re creating every women&#39;s fantasy by combining the ...",
+      "link": "https://www.ycombinator.com/companies/99dresses",
+      "displayLink": "www.ycombinator.com",
+      "snippet": "99dresses allows women all across the U.S. to buy, sell & trade fashion with thousands of shopaholics. Nikki Durkin, the founder of 99dresses, was sick of ...",
+      "htmlSnippet": "<b>99dresses</b> allows women all across the U.S. to buy, sell &amp; trade fashion with thousands of shopaholics. Nikki Durkin, the <b>founder</b> of <b>99dresses</b>, was sick of&nbsp;...",
+      "formattedUrl": "https://www.ycombinator.com/companies/99dresses",
+      "htmlFormattedUrl": "https://www.ycombinator.com/companies/<b>99dresses</b>",
+      "pagemap": {
+        "metatags": [
+          {
+            "image": "/logos/medium/missing.png",
+            "og:image": "/logos/medium/missing.png",
+            "twitter:card": "summary_large_image",
+            "og:type": "website",
+            "og:site_name": "Y Combinator",
+            "og:image:url": "/logos/medium/missing.png",
+            "og:title": "99dresses: We're creating every women's fantasy by combining the unwanted… | Y Combinator",
+            "csrf-param": "authenticity_token",
+            "title": "99dresses: We're creating every women's fantasy by combining the unwanted…",
+            "og:description": "We're creating every women's fantasy by combining the unwanted…. Founded in  by , 99dresses has 2 employees based in New York, NY, USA.",
+            "twitter:image": "/logos/medium/missing.png",
+            "og:image:secure_url": "/logos/medium/missing.png",
+            "twitter:site": "@ycombinator",
+            "viewport": "initial-scale=1, width=device-width, height=device-height",
+            "csrf-token": "T-iolUanZ8yrH_H3BB43-kXtt2_svpCgH0hZH9vp_mUcN5F7v_g1DmewUqRAUSseYsrzPqudnVwV-h_gH3akQw",
+            "og:locale": "en_US",
+            "og:url": "https://www.ycombinator.com/companies/99dresses"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "/logos/medium/missing.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "The 25 Hot SF Startups You Need to Watch - Business Insider",
+      "htmlTitle": "The 25 Hot SF Startups You Need to Watch - Business Insider",
+      "link": "https://www.businessinsider.com/the-25-hot-sf-startups-you-need-to-watch-2012-3",
+      "displayLink": "www.businessinsider.com",
+      "snippet": "Mar 28, 2012 ... 99Dresses lets women use virtual currency to trade clothing and accessories. Nikki Durkin. Youtube video of 99Dresses. Startup: 99Dresses. Date ...",
+      "htmlSnippet": "Mar 28, 2012 <b>...</b> <b>99Dresses</b> lets women use virtual currency to trade clothing and accessories. Nikki Durkin. Youtube video of <b>99Dresses</b>. Startup: <b>99Dresses</b>. Date&nbsp;...",
+      "formattedUrl": "https://www.businessinsider.com/the-25-hot-sf-startups-you-need-to-watch-...",
+      "htmlFormattedUrl": "https://www.businessinsider.com/the-25-hot-sf-startups-you-need-to-watch-...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9xnK8KvJL1IKdc5kkdEvJyWC9YKW0KGWt-eK1G3cmhGkHh9ZoI2hHLnc&s",
+            "width": "310",
+            "height": "163"
+          }
+        ],
+        "imageobject": [
+          {
+            "contenturl": "https://i.insider.com/4f7378426bb3f75b55000001",
+            "credittext": "Youtube video of 99Dresses"
+          },
+          {
+            "contenturl": "https://i.insider.com/4f7347186bb3f72202000000",
+            "credittext": "Karma"
+          },
+          {
+            "contenturl": "https://i.insider.com/4f7378426bb3f75b55000001",
+            "credittext": "Youtube video of 99Dresses"
+          },
+          {
+            "contenturl": "https://i.insider.com/4f26ef48eab8ea6367000016",
+            "credittext": "LinkedIn"
+          },
+          {
+            "contenturl": "https://i.insider.com/4f70cf18ecad049b5e0000a2",
+            "credittext": "Sean Duffy"
+          },
+          {
+            "contenturl": "https://i.insider.com/4f724165ecad042b5b000084",
+            "credittext": "Screenshot of a SocialCam video"
+          },
+          {
+            "contenturl": "https://i.insider.com/4f412b0feab8eada35000030",
+            "credittext": "Boonsri Dickinson, Business Insider"
+          },
+          {
+            "contenturl": "https://i.insider.com/4f737981eab8ea515e000006",
+            "credittext": "Crunchbase photo"
+          },
+          {
+            "contenturl": "https://i.insider.com/4ee8cd8869bedd305d00005f",
+            "credittext": "AP"
+          },
+          {
+            "contenturl": "https://i.insider.com/4f4eca96ecad04823c000041",
+            "credittext": "Ben Parr"
+          },
+          {
+            "contenturl": "https://i.insider.com/4ea03b8beab8eaaf76000020"
+          },
+          {
+            "contenturl": "https://i.insider.com/4f70e98aeab8ea5673000059",
+            "credittext": "LAUNCH"
+          },
+          {
+            "contenturl": "https://i.insider.com/4f4eb63becad04321c000015",
+            "credittext": "Boonsri Dickinson, Business Insider"
+          },
+          {
+            "contenturl": "https://i.insider.com/4f7383a1ecad04291b000033"
+          },
+          {
+            "contenturl": "https://i.insider.com/4f4e893b69bedd8f3200004c",
+            "credittext": "Nick O'Neill"
+          },
+          {
+            "contenturl": "https://i.insider.com/4f7399b9ecad041b4200000a"
+          },
+          {
+            "contenturl": "https://i.insider.com/4f70e84f69bedd004a000008",
+            "credittext": "Matt Schlicht"
+          },
+          {
+            "contenturl": "https://i.insider.com/4f4c0e43eab8ea907c00004d",
+            "credittext": "Boonsri Dickinson, Business Insider"
+          },
+          {
+            "contenturl": "https://i.insider.com/4f4583766bb3f7894200000e",
+            "credittext": "Jason Putorti"
+          },
+          {
+            "contenturl": "https://i.insider.com/4f70e6cd6bb3f7d245000049",
+            "credittext": "Crunchbase"
+          },
+          {
+            "contenturl": "https://i.insider.com/4de7b468ccd1d5771f000000",
+            "credittext": "Kiip"
+          },
+          {
+            "contenturl": "https://i.insider.com/4f73847269beddc85c00002a"
+          },
+          {
+            "contenturl": "https://i.insider.com/4f73b2a469bedd834000002b",
+            "credittext": "Blake Pierson"
+          },
+          {
+            "contenturl": "https://i.insider.com/4f73fc51eab8ea0755000007"
+          },
+          {
+            "contenturl": "https://i.insider.com/4f735c5a69beddf30b000030",
+            "credittext": "AngelList"
+          },
+          {
+            "contenturl": "https://i.insider.com/4f24062becad04e407000006",
+            "credittext": "David E. Weekly, Twitter"
+          },
+          {
+            "contenturl": "https://i.insider.com/4ded3cefcadcbbc47e240000"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://www.businessinsider.com/public/assets/logos/og-image-logo-social.png?v=2023-11",
+            "apple-itunes-app": "app-id=554260576",
+            "msapplication-config": "/public/assets/BI/US/favicons/browserconfig.xml?v=2025-05",
+            "og:type": "article",
+            "twitter:card": "summary_large_image",
+            "theme-color": "#fff",
+            "og:site_name": "Business Insider",
+            "author": "Boonsri Dickinson",
+            "tbi-vertical": "Tech",
+            "og:title": "The 25 Hot Silicon Valley Startups You Need To Watch",
+            "apple-mobile-web-app-title": "Business Insider",
+            "title": "The 25 Hot Silicon Valley Startups You Need To Watch",
+            "og:description": "Discover the 25 hottest San Francisco startups to watch, showcasing innovation and entrepreneurial spirit.",
+            "fb:pages": "20446254070",
+            "article:publisher": "businessinsider",
+            "mrf:tags": "Page Type:slideshow",
+            "linkedin:owner": "mid:1d5f7b",
+            "datemodified": "2012-03-29T12:44:51Z",
+            "viewport": "width=device-width, initial-scale=1",
+            "news_keywords": "Tech, Startups, Technology, Venture Capital, San Francisco",
+            "mrf:sections": "Tech",
+            "og:url": "https://www.businessinsider.com/the-25-hot-sf-startups-you-need-to-watch-2012-3",
+            "datepublished": "2012-03-28T23:35:00Z"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.businessinsider.com/public/assets/logos/og-image-logo-social.png?v=2023-11"
+          }
+        ]
+      }
+    }
+  ]
+}

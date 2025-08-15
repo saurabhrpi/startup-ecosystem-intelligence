@@ -1,0 +1,420 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - site:streak.com (founder OR cofounder)",
+        "totalResults": "93",
+        "searchTerms": "site:streak.com (founder OR cofounder)",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - site:streak.com (founder OR cofounder)",
+        "totalResults": "93",
+        "searchTerms": "site:streak.com (founder OR cofounder)",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ]
+  },
+  "context": {
+    "title": "startup-ecosystem-intelligence"
+  },
+  "searchInformation": {
+    "searchTime": 0.116092,
+    "formattedSearchTime": "0.12",
+    "totalResults": "93",
+    "formattedTotalResults": "93"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "Founder advice from Aleem Mawani's Reddit AMA: Bootstrapping ...",
+      "htmlTitle": "<b>Founder</b> advice from Aleem Mawani&#39;s Reddit AMA: Bootstrapping ...",
+      "link": "https://www.streak.com/post/founder-reddit-ama-recap",
+      "displayLink": "www.streak.com",
+      "snippet": "Streak founder Aleem Mawani shares unfiltered advice from his Reddit AMA on bootstrapping, startup growth, buying back investor equity, and building a ...",
+      "htmlSnippet": "Streak <b>founder</b> Aleem Mawani shares unfiltered advice from his Reddit AMA on bootstrapping, startup growth, buying back investor equity, and building a&nbsp;...",
+      "formattedUrl": "https://www.streak.com/post/founder-reddit-ama-recap",
+      "htmlFormattedUrl": "https://www.streak.com/post/<b>founder</b>-reddit-ama-recap",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcM8a0wWXfgnR17mb9gKQpFgDKJpdb2UFYwWi162Ve-U4Df6-0I5HKhsM&s",
+            "width": "326",
+            "height": "155"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://cdn.prod.website-files.com/5b7f24cc900973de13d7beb4/686c0be19ed1517ec38b0214_blog%20image-reddit%20ama.svg",
+            "twitter:title": "Founder advice from Aleem Mawani’s Reddit AMA: Bootstrapping, growth, and building Streak - Streak",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "og:image:width": "1200",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "Streak founder Aleem Mawani shares unfiltered advice from his Reddit AMA on bootstrapping, startup growth, buying back investor equity, and building a profitable business after YCombinator.",
+            "og:title": "Founder advice from Aleem Mawani’s Reddit AMA: Bootstrapping, growth, and building Streak - Streak",
+            "og:image:height": "630",
+            "og:description": "Streak founder Aleem Mawani shares unfiltered advice from his Reddit AMA on bootstrapping, startup growth, buying back investor equity, and building a profitable business after YCombinator.",
+            "twitter:image": "https://cdn.prod.website-files.com/5b7f24cc900973de13d7beb4/686c0be19ed1517ec38b0214_blog%20image-reddit%20ama.svg",
+            "facebook-domain-verification": "xom8x83o4edzzgv2dn1u3fyic6yumu"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.prod.website-files.com/5b7f24cc900973de13d7beb4/686c0be19ed1517ec38b0214_blog%20image-reddit%20ama.svg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Product & Design | Streak",
+      "htmlTitle": "Product &amp; Design | Streak",
+      "link": "https://www.streak.com/teams/product-and-design",
+      "displayLink": "www.streak.com",
+      "snippet": "Aleem Mawani. CEO & Founder. Prior to Streak, Aleem was a PM at Google. He ... CEO & Founder. Yuhao Wang. Designer. All open positions. Product & Design. We ...",
+      "htmlSnippet": "Aleem Mawani. CEO &amp; <b>Founder</b>. Prior to Streak, Aleem was a PM at Google. He ... CEO &amp; <b>Founder</b>. Yuhao Wang. Designer. All open positions. Product &amp; Design. We&nbsp;...",
+      "formattedUrl": "https://www.streak.com/teams/product-and-design",
+      "htmlFormattedUrl": "https://www.streak.com/teams/product-and-design",
+      "pagemap": {
+        "metatags": [
+          {
+            "twitter:title": "Product & Design | Streak",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "Work with great people, solve hard problems, & delight users.",
+            "og:title": "Product & Design | Streak",
+            "og:description": "Work with great people, solve hard problems, & delight users.",
+            "facebook-domain-verification": "xom8x83o4edzzgv2dn1u3fyic6yumu"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Meet the Streaker: Aleem - Streak",
+      "htmlTitle": "Meet the Streaker: Aleem - Streak",
+      "link": "https://www.streak.com/post/meet-the-streaker-aleem",
+      "displayLink": "www.streak.com",
+      "snippet": "Feb 10, 2022 ... Role at Streak: Founder and CEO. Remote location: San Francisco, CA. What's your morning beverage of choice? Any special way to prepare it? A Gibraltar at Blue ...",
+      "htmlSnippet": "Feb 10, 2022 <b>...</b> Role at Streak: <b>Founder</b> and CEO. Remote location: San Francisco, CA. What&#39;s your morning beverage of choice? Any special way to prepare it? A Gibraltar at Blue&nbsp;...",
+      "formattedUrl": "https://www.streak.com/post/meet-the-streaker-aleem",
+      "htmlFormattedUrl": "https://www.streak.com/post/meet-the-streaker-aleem",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUzdxjmMY3uSIER2imqZPfndoRF0NIhsCqc7WcJ6SS2vxsdjmxKerwN9Q&s",
+            "width": "327",
+            "height": "154"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://cdn.prod.website-files.com/5b7f24cc900973de13d7beb4/620c036438bd237f4acd9723_meet-the-team-aleem.png",
+            "twitter:title": "Meet the Streaker: Aleem - Streak",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "og:image:width": "1200",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "Meet our founder and CEO, Aleem!",
+            "og:title": "Meet the Streaker: Aleem - Streak",
+            "og:image:height": "630",
+            "og:description": "Meet our founder and CEO, Aleem!",
+            "twitter:image": "https://cdn.prod.website-files.com/5b7f24cc900973de13d7beb4/620c036438bd237f4acd9723_meet-the-team-aleem.png",
+            "facebook-domain-verification": "xom8x83o4edzzgv2dn1u3fyic6yumu"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.prod.website-files.com/5b7f24cc900973de13d7beb4/620c036438bd237f4acd9723_meet-the-team-aleem.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Meet the Streaker: Killian - Streak",
+      "htmlTitle": "Meet the Streaker: Killian - Streak",
+      "link": "https://www.streak.com/post/meet-the-streaker-killian",
+      "displayLink": "www.streak.com",
+      "snippet": "Feb 24, 2022 ... Role at Streak: Customer Success Associate. Remote location: Toronto, Canada. What's your morning beverage of choice?",
+      "htmlSnippet": "Feb 24, 2022 <b>...</b> Role at Streak: Customer Success Associate. Remote location: Toronto, Canada. What&#39;s your morning beverage of choice?",
+      "formattedUrl": "https://www.streak.com/post/meet-the-streaker-killian",
+      "htmlFormattedUrl": "https://www.streak.com/post/meet-the-streaker-killian",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgdweg_n_ZwG6LZjMbduLOtZtxrz3pAp1-iKeRFlfS8hvVhEX9MY7cRb4&s",
+            "width": "327",
+            "height": "154"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://cdn.prod.website-files.com/5b7f24cc900973de13d7beb4/6216699180e242271b8db3ea_meet-the-team-killian.png",
+            "twitter:title": "Meet the Streaker: Killian - Streak",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "og:image:width": "1200",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "Meet one of our Customer Success Associates, Killian!",
+            "og:title": "Meet the Streaker: Killian - Streak",
+            "og:image:height": "630",
+            "og:description": "Meet one of our Customer Success Associates, Killian!",
+            "twitter:image": "https://cdn.prod.website-files.com/5b7f24cc900973de13d7beb4/6216699180e242271b8db3ea_meet-the-team-killian.png",
+            "facebook-domain-verification": "xom8x83o4edzzgv2dn1u3fyic6yumu"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.prod.website-files.com/5b7f24cc900973de13d7beb4/6216699180e242271b8db3ea_meet-the-team-killian.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "CRM for Gmail - Streak",
+      "htmlTitle": "CRM for Gmail - Streak",
+      "link": "https://www.streak.com/blog-tag/streak-updates",
+      "displayLink": "www.streak.com",
+      "snippet": "Streak founder Aleem Mawani shares unfiltered advice from his Reddit AMA on bootstrapping, startup growth, buying back investor equity, and building a ...",
+      "htmlSnippet": "Streak <b>founder</b> Aleem Mawani shares unfiltered advice from his Reddit AMA on bootstrapping, startup growth, buying back investor equity, and building a&nbsp;...",
+      "formattedUrl": "https://www.streak.com/blog-tag/streak-updates",
+      "htmlFormattedUrl": "https://www.streak.com/blog-tag/streak-updates",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROHnkrnk2dHuydvSuvbNJBuf8Ysyt5tO77L_yTKKRoC82IisZ34mzgDPw&s",
+            "width": "326",
+            "height": "155"
+          }
+        ],
+        "metatags": [
+          {
+            "viewport": "width=device-width, initial-scale=1",
+            "facebook-domain-verification": "xom8x83o4edzzgv2dn1u3fyic6yumu"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.prod.website-files.com/5b7f24cc900973de13d7beb4/6893efe0766893f2fa193894_blog%20image-cooldown.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Blog | Streak",
+      "htmlTitle": "Blog | Streak",
+      "link": "https://www.streak.com/blog",
+      "displayLink": "www.streak.com",
+      "snippet": "Streak founder Aleem Mawani shares unfiltered advice from his Reddit AMA on bootstrapping, startup growth, buying back investor equity, and building a ...",
+      "htmlSnippet": "Streak <b>founder</b> Aleem Mawani shares unfiltered advice from his Reddit AMA on bootstrapping, startup growth, buying back investor equity, and building a&nbsp;...",
+      "formattedUrl": "https://www.streak.com/blog",
+      "htmlFormattedUrl": "https://www.streak.com/blog",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROHnkrnk2dHuydvSuvbNJBuf8Ysyt5tO77L_yTKKRoC82IisZ34mzgDPw&s",
+            "width": "326",
+            "height": "155"
+          }
+        ],
+        "metatags": [
+          {
+            "twitter:title": "Blog | Streak",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:title": "Blog | Streak",
+            "facebook-domain-verification": "xom8x83o4edzzgv2dn1u3fyic6yumu"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.prod.website-files.com/5b7f24cc900973de13d7beb4/6893efe0766893f2fa193894_blog%20image-cooldown.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Decision makers: 5 different types and how to find, identify, and sell ...",
+      "htmlTitle": "Decision makers: 5 different types and how to find, identify, and sell ...",
+      "link": "https://www.streak.com/post/decision-makers",
+      "displayLink": "www.streak.com",
+      "snippet": "Jul 18, 2024 ... 5 types of business decision-makers. The ultimate decision maker at any organization is usually a founder or the CEO. However, most companies ...",
+      "htmlSnippet": "Jul 18, 2024 <b>...</b> 5 types of business decision-makers. The ultimate decision maker at any organization is usually a <b>founder</b> or the CEO. However, most companies&nbsp;...",
+      "formattedUrl": "https://www.streak.com/post/decision-makers",
+      "htmlFormattedUrl": "https://www.streak.com/post/decision-makers",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPMw-lolDlomrX3ytOZtxadqhroJTJlT7w83zFL0OePibPTwZWFP9msP4&s",
+            "width": "327",
+            "height": "154"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://cdn.prod.website-files.com/5b7f24cc900973de13d7beb4/665952c9a55f31c49a557328_Decision%20makers%201.png",
+            "twitter:title": "Decision makers: 5 different types and how to find, identify, and sell to them - Streak",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "og:image:width": "1200",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "Connecting with decision makers during deal cycles is easier said than done. Learn to streamline your sales processes by finding decision makers early and selling to them.",
+            "og:title": "Decision makers: 5 different types and how to find, identify, and sell to them - Streak",
+            "og:image:height": "630",
+            "og:description": "Connecting with decision makers during deal cycles is easier said than done. Learn to streamline your sales processes by finding decision makers early and selling to them.",
+            "twitter:image": "https://cdn.prod.website-files.com/5b7f24cc900973de13d7beb4/665952c9a55f31c49a557328_Decision%20makers%201.png",
+            "facebook-domain-verification": "xom8x83o4edzzgv2dn1u3fyic6yumu"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.prod.website-files.com/5b7f24cc900973de13d7beb4/665952c9a55f31c49a557328_Decision%20makers%201.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "New video lesson: Snippets - Streak",
+      "htmlTitle": "New video lesson: Snippets - Streak",
+      "link": "https://www.streak.com/post/new-video-lesson-snippets",
+      "displayLink": "www.streak.com",
+      "snippet": "Snippets are saved email templates that you can use to fill in a subject line and email body. They save us from needing to type out repetitive or common emails ...",
+      "htmlSnippet": "Snippets are saved email templates that you can use to fill in a subject line and email body. They save us from needing to type out repetitive or common emails&nbsp;...",
+      "formattedUrl": "https://www.streak.com/post/new-video-lesson-snippets",
+      "htmlFormattedUrl": "https://www.streak.com/post/new-video-lesson-snippets",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvxE6dmmMvlgMGiNwh-00KcOyizPXSKTlAm_UQR-9aoo1BIbEEkX5n4CU&s",
+            "width": "300",
+            "height": "168"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://cdn.prod.website-files.com/5b7f24cc900973de13d7beb4/6160831bd10369326a8d7062_1_UdqCoUAXZ23SkR4FxPSSOA.png",
+            "twitter:title": "New video lesson: Snippets - Streak",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "og:image:width": "1200",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "Find yourself typing the same emails and responses over and over again? It’s time to get back minutes (hours!?) of your day with snippets.",
+            "og:title": "New video lesson: Snippets - Streak",
+            "og:image:height": "630",
+            "og:description": "Find yourself typing the same emails and responses over and over again? It’s time to get back minutes (hours!?) of your day with snippets.",
+            "twitter:image": "https://cdn.prod.website-files.com/5b7f24cc900973de13d7beb4/6160831bd10369326a8d7062_1_UdqCoUAXZ23SkR4FxPSSOA.png",
+            "facebook-domain-verification": "xom8x83o4edzzgv2dn1u3fyic6yumu"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.prod.website-files.com/5b7f24cc900973de13d7beb4/6160831bd10369326a8d7062_1_UdqCoUAXZ23SkR4FxPSSOA.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "How to write a cold email to investors (sample emails + template ...",
+      "htmlTitle": "How to write a cold email to investors (sample emails + template ...",
+      "link": "https://www.streak.com/post/how-to-write-a-cold-email-to-an-investor-and-grab-their-attention",
+      "displayLink": "www.streak.com",
+      "snippet": "Mark Cuban (probably every founder's dream VC); Craig Newmark (the guy who started Craigslist); Biz Stone (one of Twitter's co-founders). So, yes, cold emails ...",
+      "htmlSnippet": "Mark Cuban (probably every <b>founder&#39;s</b> dream VC); Craig Newmark (the guy who started Craigslist); Biz Stone (one of Twitter&#39;s co-founders). So, yes, cold emails&nbsp;...",
+      "formattedUrl": "https://www.streak.com/.../how-to-write-a-cold-email-to-an-investor-and-gr...",
+      "htmlFormattedUrl": "https://www.streak.com/.../how-to-write-a-cold-email-to-an-investor-and-gr...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzbBCkiQS18GJiEVCneFLO3TDKhFL1rtOP2mfBS9sY09v1iiOiSTSCS48&s",
+            "width": "327",
+            "height": "154"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://cdn.prod.website-files.com/5b7f24cc900973de13d7beb4/632c87e3416a3417120d23ef_cold-emails-to-investors.svg",
+            "twitter:title": "How to write a cold email to investors (sample emails + template included) - Streak",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "og:image:width": "1200",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "Learn why cold emails are still a safe bet and discover how to write a cold email to an investor to discuss funding opportunities.",
+            "og:title": "How to write a cold email to investors (sample emails + template included) - Streak",
+            "og:image:height": "630",
+            "og:description": "Learn why cold emails are still a safe bet and discover how to write a cold email to an investor to discuss funding opportunities.",
+            "twitter:image": "https://cdn.prod.website-files.com/5b7f24cc900973de13d7beb4/632c87e3416a3417120d23ef_cold-emails-to-investors.svg",
+            "facebook-domain-verification": "xom8x83o4edzzgv2dn1u3fyic6yumu"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.prod.website-files.com/5b7f24cc900973de13d7beb4/632c87e3416a3417120d23ef_cold-emails-to-investors.svg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "About | Streak - CRM for Gmail",
+      "htmlTitle": "About | Streak - CRM for Gmail",
+      "link": "https://www.streak.com/about",
+      "displayLink": "www.streak.com",
+      "snippet": "Meet the team · Jeremy Frazer · Meagan Mastropietro · Yuhao Wang · Pablo Navarro Castillo · Steve Redshaw · Jordan Robers · Rebecca Alvarez · Zachary Chamberlain.",
+      "htmlSnippet": "Meet the team &middot; Jeremy Frazer &middot; Meagan Mastropietro &middot; Yuhao Wang &middot; Pablo Navarro Castillo &middot; Steve Redshaw &middot; Jordan Robers &middot; Rebecca Alvarez &middot; Zachary Chamberlain.",
+      "formattedUrl": "https://www.streak.com/about",
+      "htmlFormattedUrl": "https://www.streak.com/about",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-U9e2jBCV9m79hWPlIhHNeDzB8iNbQQuwJHQMjhf3XrdejZ4XPnqh05s&s",
+            "width": "318",
+            "height": "159"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://cdn.prod.website-files.com/5b7f24cc9009731774d7be8e/5b969a427794eca72077ab35_streak-og.png",
+            "twitter:title": "About | Streak - CRM for Gmail",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "Streak was born out of the frustration of constantly switching between our inbox (where we do our work) and external systems. Our goal is to make it simple to manage your everyday processes so you can close more deals, resolve more support tickets, and get things done.",
+            "og:title": "About | Streak - CRM for Gmail",
+            "og:description": "Streak was born out of the frustration of constantly switching between our inbox (where we do our work) and external systems. Our goal is to make it simple to manage your everyday processes so you can close more deals, resolve more support tickets, and get things done.",
+            "twitter:image": "https://cdn.prod.website-files.com/5b7f24cc9009731774d7be8e/5b969a427794eca72077ab35_streak-og.png",
+            "facebook-domain-verification": "xom8x83o4edzzgv2dn1u3fyic6yumu"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.prod.website-files.com/5b7f24cc9009731774d7be8e/5b969a427794eca72077ab35_streak-og.png"
+          }
+        ]
+      }
+    }
+  ]
+}

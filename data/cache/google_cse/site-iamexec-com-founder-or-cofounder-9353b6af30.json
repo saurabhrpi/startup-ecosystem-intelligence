@@ -1,0 +1,211 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - site:iamexec.com (founder OR cofounder)",
+        "totalResults": "4",
+        "searchTerms": "site:iamexec.com (founder OR cofounder)",
+        "count": 4,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ]
+  },
+  "context": {
+    "title": "startup-ecosystem-intelligence"
+  },
+  "searchInformation": {
+    "searchTime": 0.078735,
+    "formattedSearchTime": "0.08",
+    "totalResults": "4",
+    "formattedTotalResults": "4"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "About Us - Handy",
+      "htmlTitle": "About Us - Handy",
+      "link": "https://www.iamexec.com/about",
+      "displayLink": "www.iamexec.com",
+      "snippet": "Oisin Hanrahan is the Co-Founder and CEO of Handy. Prior to founding Handy, Oisin founded MiCandidate, a service that provided real time political content ...",
+      "htmlSnippet": "Oisin Hanrahan is the Co-<b>Founder</b> and CEO of Handy. Prior to founding Handy, Oisin founded MiCandidate, a service that provided real time political content&nbsp;...",
+      "formattedUrl": "https://www.iamexec.com/about",
+      "htmlFormattedUrl": "https://www.iamexec.com/about",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAxW3R-0jjvKSM9iG4HuT-zl5Xd7j7Bgewp7KZzl4lQYtoL3e6S6gtejM&s",
+            "width": "311",
+            "height": "162"
+          }
+        ],
+        "metatags": [
+          {
+            "msapplication-tilecolor": "#2d89ef",
+            "image": "https://cache.hbfiles.com/assets/open-graph/og-image-1fc721c4787b73c5c13d04648df3c401e4cf5f45ff44ba93095d723e7e94c6be.jpg",
+            "og:image": "https://cache.hbfiles.com/assets/open-graph/og-image-1fc721c4787b73c5c13d04648df3c401e4cf5f45ff44ba93095d723e7e94c6be.jpg",
+            "apple-itunes-app": "app-id=604419063",
+            "twitter:card": "summary",
+            "twitter:title": "Handy | About Us",
+            "og:site_name": "Handy",
+            "handheldfriendly": "True",
+            "author": "Handy",
+            "stripe-key": "pk_live_S11YUr7x6AxvE7QHPTRhCUQY",
+            "msapplication-tileimage": "/mstile-144x144.png",
+            "csrf-param": "authenticity_token",
+            "twitter:image": "https://cache.hbfiles.com/assets/open-graph/og-image-1fc721c4787b73c5c13d04648df3c401e4cf5f45ff44ba93095d723e7e94c6be.jpg",
+            "apple-mobile-web-app-status-bar-style": "black",
+            "twitter:site": "@Handy",
+            "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+            "apple-mobile-web-app-capable": "yes",
+            "csrf-token": "p7W1kQ4I72FSqhqDFJDwIlUClXFQHMknbKGSlDPKoOfrb6TxPJVZa/jv3Lw1za191BWFaavKCy2Wc4RUEEFX3A==",
+            "format-detection": "telephone=no"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cache.hbfiles.com/assets/open-graph/og-image-1fc721c4787b73c5c13d04648df3c401e4cf5f45ff44ba93095d723e7e94c6be.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "News & Media | Handy",
+      "htmlTitle": "News &amp; Media | Handy",
+      "link": "https://www.iamexec.com/press?page=2",
+      "displayLink": "www.iamexec.com",
+      "snippet": "How Handy's founder Oisin Hanrahan is scaling his startup into an on-demand powerhouse. 11/7/2015 - \"When it comes to on-demand cleaning and handyman ...",
+      "htmlSnippet": "How Handy&#39;s <b>founder</b> Oisin Hanrahan is scaling his startup into an on-demand powerhouse. 11/7/2015 - &quot;When it comes to on-demand cleaning and handyman&nbsp;...",
+      "formattedUrl": "https://www.iamexec.com/press?page=2",
+      "htmlFormattedUrl": "https://www.iamexec.com/press?page=2",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAxW3R-0jjvKSM9iG4HuT-zl5Xd7j7Bgewp7KZzl4lQYtoL3e6S6gtejM&s",
+            "width": "311",
+            "height": "162"
+          }
+        ],
+        "metatags": [
+          {
+            "msapplication-tilecolor": "#2d89ef",
+            "image": "https://cache.hbfiles.com/assets/open-graph/og-image-1fc721c4787b73c5c13d04648df3c401e4cf5f45ff44ba93095d723e7e94c6be.jpg",
+            "og:image": "https://cache.hbfiles.com/assets/open-graph/og-image-1fc721c4787b73c5c13d04648df3c401e4cf5f45ff44ba93095d723e7e94c6be.jpg",
+            "apple-itunes-app": "app-id=604419063",
+            "twitter:card": "summary",
+            "twitter:title": "News & Media | Handy",
+            "og:site_name": "Handy",
+            "handheldfriendly": "True",
+            "author": "Handy",
+            "stripe-key": "pk_live_S11YUr7x6AxvE7QHPTRhCUQY",
+            "msapplication-tileimage": "/mstile-144x144.png",
+            "csrf-param": "authenticity_token",
+            "twitter:image": "https://cache.hbfiles.com/assets/open-graph/og-image-1fc721c4787b73c5c13d04648df3c401e4cf5f45ff44ba93095d723e7e94c6be.jpg",
+            "apple-mobile-web-app-status-bar-style": "black",
+            "twitter:site": "@Handy",
+            "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+            "apple-mobile-web-app-capable": "yes",
+            "csrf-token": "Mdc9KqiKxqdd2OC2csNNCcZrVd/Vzus+whYkJpkQ2ebHpmVQKXzyN0OAq5GLQlYm66taZNpz4VA0c/oFL3Ccmw==",
+            "format-detection": "telephone=no"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cache.hbfiles.com/assets/open-graph/og-image-1fc721c4787b73c5c13d04648df3c401e4cf5f45ff44ba93095d723e7e94c6be.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Facebook Marketplace & Handy | The Handy Home Blog",
+      "htmlTitle": "Facebook Marketplace &amp; Handy | The Handy Home Blog",
+      "link": "https://kube.iamexec.com/blog/press/facebook-marketplace",
+      "displayLink": "kube.iamexec.com",
+      "snippet": "... founder, of Handy. “By empowering the Facebook community to support local service professionals directly through Marketplace, Facebook is providing its ...",
+      "htmlSnippet": "... <b>founder</b>, of Handy. “By empowering the Facebook community to support local service professionals directly through Marketplace, Facebook is providing its&nbsp;...",
+      "formattedUrl": "https://kube.iamexec.com/blog/press/facebook-marketplace",
+      "htmlFormattedUrl": "https://kube.iamexec.com/blog/press/facebook-marketplace",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFORg3cTXHzbMPuL0IUEq5Xh-ZuGBzYel6DRcoV4b3Lq_7vkmVdmTGCXk&s",
+            "width": "300",
+            "height": "168"
+          }
+        ],
+        "metatags": [
+          {
+            "og:site_name": "Handy for Pros is Now Angi Services",
+            "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+            "author": "Handy for Pros is Now Angi Services",
+            "csrf-token": "lErSshVqUEKO70tbQiCbVPgFWurhN6T+AlNdYV57OGUXeolWei5Bf3t6rt+JL/xGWy1KSumlc24pcgELb/3Szg==",
+            "csrf-param": "authenticity_token"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cache-landingpages-images.services.handy.com/2018/10/18/15/29/18/a949f8f4-8eaa-4e3f-8689-bb009e71ebe9/social-networking-concept-picture-id913588226.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "News & Media | Handy",
+      "htmlTitle": "News &amp; Media | Handy",
+      "link": "https://kube.iamexec.com/press?page=5",
+      "displayLink": "kube.iamexec.com",
+      "snippet": "Oisin Hanrahan, the founder of Handy, a kind of Hailo for handymen and women, used his earnings from selling corrugated cardboard boxes to set up a property ...",
+      "htmlSnippet": "Oisin Hanrahan, the <b>founder</b> of Handy, a kind of Hailo for handymen and women, used his earnings from selling corrugated cardboard boxes to set up a property&nbsp;...",
+      "formattedUrl": "https://kube.iamexec.com/press?page=5",
+      "htmlFormattedUrl": "https://kube.iamexec.com/press?page=5",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAxW3R-0jjvKSM9iG4HuT-zl5Xd7j7Bgewp7KZzl4lQYtoL3e6S6gtejM&s",
+            "width": "311",
+            "height": "162"
+          }
+        ],
+        "metatags": [
+          {
+            "msapplication-tilecolor": "#2d89ef",
+            "image": "https://cache.hbfiles.com/assets/open-graph/og-image-1fc721c4787b73c5c13d04648df3c401e4cf5f45ff44ba93095d723e7e94c6be.jpg",
+            "og:image": "https://cache.hbfiles.com/assets/open-graph/og-image-1fc721c4787b73c5c13d04648df3c401e4cf5f45ff44ba93095d723e7e94c6be.jpg",
+            "apple-itunes-app": "app-id=604419063",
+            "twitter:card": "summary",
+            "twitter:title": "News & Media | Handy",
+            "og:site_name": "Handy",
+            "handheldfriendly": "True",
+            "author": "Handy",
+            "stripe-key": "pk_live_S11YUr7x6AxvE7QHPTRhCUQY",
+            "msapplication-tileimage": "/mstile-144x144.png",
+            "csrf-param": "authenticity_token",
+            "twitter:image": "https://cache.hbfiles.com/assets/open-graph/og-image-1fc721c4787b73c5c13d04648df3c401e4cf5f45ff44ba93095d723e7e94c6be.jpg",
+            "apple-mobile-web-app-status-bar-style": "black",
+            "twitter:site": "@Handy",
+            "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+            "apple-mobile-web-app-capable": "yes",
+            "csrf-token": "hknjAjJUqCabhVyZqB9Ejv813A3kpkTVB2Pe4GuE6ZrOUz0gta8Oo3VEKfNPbNaOdy7GwuLQvJC6nqwvScG/0w==",
+            "format-detection": "telephone=no"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cache.hbfiles.com/assets/open-graph/og-image-1fc721c4787b73c5c13d04648df3c401e4cf5f45ff44ba93095d723e7e94c6be.jpg"
+          }
+        ]
+      }
+    }
+  ]
+}

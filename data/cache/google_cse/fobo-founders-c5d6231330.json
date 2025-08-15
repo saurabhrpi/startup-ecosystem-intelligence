@@ -1,0 +1,613 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - \"Fobo\" founders",
+        "totalResults": "11900",
+        "searchTerms": "\"Fobo\" founders",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - \"Fobo\" founders",
+        "totalResults": "11900",
+        "searchTerms": "\"Fobo\" founders",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ]
+  },
+  "context": {
+    "title": "startup-ecosystem-intelligence"
+  },
+  "searchInformation": {
+    "searchTime": 0.174734,
+    "formattedSearchTime": "0.17",
+    "totalResults": "11900",
+    "formattedTotalResults": "11,900"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "Nim || (Vgen) on X: \"Town of Fobo founders (2024 references ...",
+      "htmlTitle": "Nim || (Vgen) on X: &quot;Town of <b>Fobo founders</b> (2024 references ...",
+      "link": "https://x.com/piecanl/status/1754240005419999555",
+      "displayLink": "x.com",
+      "snippet": "Town of Fobo founders (2024 references) #tubbofanart #foolishfanart. Image. 8:26 PM · Feb 4, 2024. ·. 10.7K. Views. 4.",
+      "htmlSnippet": "Town of <b>Fobo founders</b> (2024 references) #tubbofanart #foolishfanart. Image. 8:26 PM · Feb 4, 2024. ·. 10.7K. Views. 4.",
+      "formattedUrl": "https://x.com/piecanl/status/1754240005419999555",
+      "htmlFormattedUrl": "https://x.com/piecanl/status/1754240005419999555",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlns9aekwLm47fVtCdfOkOjwIImv5TrrKnFXiW2a9_J_gxeGWGNyI_7eI&s",
+            "width": "181",
+            "height": "279"
+          }
+        ],
+        "imageobject": [
+          {
+            "contenturl": "https://pbs.twimg.com/media/GFhPqSZXwAAaSUg.jpg",
+            "width": "2660",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/GFhPqSZXwAAaSUg?format=jpg&name=thumb"
+          }
+        ],
+        "person": [
+          {
+            "identifier": "1456541517661806613",
+            "givenname": "Nim || (Vgen)",
+            "additionalname": "piecanl"
+          }
+        ],
+        "interactioncounter": [
+          {
+            "userinteractioncount": "1633",
+            "interactiontype": "https://schema.org/FollowAction",
+            "name": "Likes"
+          },
+          {
+            "userinteractioncount": "2013",
+            "interactiontype": "https://schema.org/SubscribeAction",
+            "name": "Retweets"
+          },
+          {
+            "userinteractioncount": "47330",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Quotes"
+          },
+          {
+            "userinteractioncount": "871",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/piecanl/status/1754240005419999555/likes"
+          },
+          {
+            "userinteractioncount": "108",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/piecanl/status/1754240005419999555/retweets"
+          },
+          {
+            "userinteractioncount": "2",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/piecanl/status/1754240005419999555/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "4",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/piecanl/status/1754240005419999555"
+          },
+          {
+            "userinteractioncount": "10797",
+            "interactiontype": "https://schema.org/ViewAction"
+          }
+        ],
+        "metatags": [
+          {
+            "apple-itunes-app": "app-id=333903271",
+            "og:image": "https://pbs.twimg.com/media/GFhPqSZXwAAaSUg.jpg:large",
+            "theme-color": "#FFFFFF",
+            "og:type": "article",
+            "og:site_name": "X (formerly Twitter)",
+            "al:ios:app_name": "X",
+            "apple-mobile-web-app-title": "Twitter",
+            "og:title": "Nim || (Vgen) (@piecanl) on X",
+            "al:android:package": "com.twitter.android",
+            "al:ios:url": "twitter://status?id=1754240005419999555",
+            "title": "Nim || (Vgen) (@piecanl) on X",
+            "og:description": "Town of Fobo founders (2024 references)\n\n#tubbofanart #foolishfanart",
+            "al:ios:app_store_id": "333903271",
+            "facebook-domain-verification": "x6sdcc8b5ju3bh8nbm59eswogvg6t1",
+            "al:android:url": "twitter://status?id=1754240005419999555",
+            "fb:app_id": "2231777543",
+            "apple-mobile-web-app-status-bar-style": "white",
+            "viewport": "width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover",
+            "mobile-web-app-capable": "yes",
+            "og:url": "https://x.com/piecanl/status/1754240005419999555",
+            "al:android:app_name": "X"
+          }
+        ],
+        "collection": [
+          {
+            "name": "Post with replies"
+          }
+        ],
+        "creativework": [
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/M4Kj08y5Pd"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://pbs.twimg.com/media/GFhPqSZXwAAaSUg.jpg:large"
+          }
+        ],
+        "socialmediaposting": [
+          {
+            "identifier": "1754240005419999555",
+            "commentcount": "4",
+            "articlebody": "Town of Fobo founders (2024 references) #tubbofanart #foolishfanart",
+            "position": "1",
+            "datecreated": "2024-02-04T20:26:24.000Z",
+            "datepublished": "2024-02-04T20:26:24.000Z",
+            "url": "https://twitter.com/piecanl/status/1754240005419999555",
+            "mainentityofpage": "https://twitter.com/piecanl/status/1754240005419999555"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "FOBO vs. FOMO: The Startup Dilemma That Could Make or Break ...",
+      "htmlTitle": "<b>FOBO</b> vs. FOMO: The Startup Dilemma That Could Make or Break ...",
+      "link": "https://www.linkedin.com/pulse/fobo-vs-fomo-startup-dilemma-could-make-break-your-business-roy-h3slf",
+      "displayLink": "www.linkedin.com",
+      "snippet": "Mar 20, 2025 ... ... founders and entrepreneurs into costly traps. FOBO causes hesitation and decision paralysis, while FOMO pushes founders into rash ...",
+      "htmlSnippet": "Mar 20, 2025 <b>...</b> ... <b>founders</b> and entrepreneurs into costly traps. <b>FOBO</b> causes hesitation and decision paralysis, while FOMO pushes <b>founders</b> into rash&nbsp;...",
+      "formattedUrl": "https://www.linkedin.com/.../fobo-vs-fomo-startup-dilemma-could-make-br...",
+      "htmlFormattedUrl": "https://www.linkedin.com/.../<b>fobo</b>-vs-fomo-startup-dilemma-could-make-br...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkltwSFQAdz7548cZCey5NvXDzg4TnZUgEjUcKRxb4N9LdnEkIjCNhDvI&s",
+            "width": "300",
+            "height": "168"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://media.licdn.com/dms/image/v2/D4D12AQF2-bscMFIUGg/article-cover_image-shrink_600_2000/B4DZWzv299HkAU-/0/1742477424812?e=2147483647&v=beta&t=QEsVu3DXAlL00RdP0sPjFUbmo2cRyYVvE62iXJvVEqU",
+            "twitter:card": "summary_large_image",
+            "clientsideingraphs": "1",
+            "al:android:package": "com.linkedin.android",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Reading time",
+            "bingbot": "nocache",
+            "locale": "en_US",
+            "al:ios:url": "https://www.linkedin.com/pulse/fobo-vs-fomo-startup-dilemma-could-make-break-your-business-roy-h3slf",
+            "og:description": "Introduction In the fast-paced world of startups, decision-making is everything. However, two psychological biases—FOBO (Fear of Better Options) and FOMO (Fear of Missing Out)—often lead founders and entrepreneurs into costly traps.",
+            "al:ios:app_store_id": "288429040",
+            "twitter:image": "https://media.licdn.com/dms/image/v2/D4D12AQF2-bscMFIUGg/article-cover_image-shrink_600_2000/B4DZWzv299HkAU-/0/1742477424812?e=2147483647&v=beta&t=QEsVu3DXAlL00RdP0sPjFUbmo2cRyYVvE62iXJvVEqU",
+            "twitter:data1": "Niladri Roy",
+            "twitter:data2": "3 min read",
+            "twitter:site": "@LinkedInEditors",
+            "og:type": "article",
+            "twitter:title": "FOBO vs. FOMO: The Startup Dilemma That Could Make or Break Your Business",
+            "al:ios:app_name": "LinkedIn",
+            "og:title": "FOBO vs. FOMO: The Startup Dilemma That Could Make or Break Your Business",
+            "pagekey": "p_flagship2_pulse_read",
+            "al:android:url": "https://www.linkedin.com/pulse/fobo-vs-fomo-startup-dilemma-could-make-break-your-business-roy-h3slf",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "twitter:description": "Introduction In the fast-paced world of startups, decision-making is everything. However, two psychological biases—FOBO (Fear of Better Options) and FOMO (Fear of Missing Out)—often lead founders and entrepreneurs into costly traps.",
+            "og:url": "https://www.linkedin.com/pulse/fobo-vs-fomo-startup-dilemma-could-make-break-your-business-roy-h3slf",
+            "al:android:app_name": "LinkedIn"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://media.licdn.com/dms/image/v2/D4D12AQF2-bscMFIUGg/article-cover_image-shrink_600_2000/B4DZWzv299HkAU-/0/1742477424812?e=2147483647&v=beta&t=QEsVu3DXAlL00RdP0sPjFUbmo2cRyYVvE62iXJvVEqU"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Davos: AI 'FOBO' and How a CEO Ditched the Meeting Room for the ...",
+      "htmlTitle": "Davos: AI &#39;<b>FOBO</b>&#39; and How a CEO Ditched the Meeting Room for the ...",
+      "link": "https://www.businessinsider.com/davos-world-economic-forum-ai-donald-trump-economy-2025-1",
+      "displayLink": "www.businessinsider.com",
+      "snippet": "Jan 24, 2025 ... BI's takeaways and memorable moments from Davos, including 'FOBO' — fear of becoming obsolete — and how a CEO traded the meeting room for ...",
+      "htmlSnippet": "Jan 24, 2025 <b>...</b> BI&#39;s takeaways and memorable moments from Davos, including &#39;<b>FOBO</b>&#39; — fear of becoming obsolete — and how a CEO traded the meeting room for&nbsp;...",
+      "formattedUrl": "https://www.businessinsider.com/davos-world-economic-forum-ai-donald-t...",
+      "htmlFormattedUrl": "https://www.businessinsider.com/davos-world-economic-forum-ai-donald-t...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlKJENZyIdgL97QH9YC_5BDk6uyRZI9u1dc3uDfpCwBODjwcQK7JzldpM&s",
+            "width": "318",
+            "height": "159"
+          }
+        ],
+        "imageobject": [
+          {
+            "contenturl": "https://i.insider.com/67937d9510c98eace913c45f?width=700",
+            "credittext": "Jamie Heller/Business Insider"
+          },
+          {
+            "contenturl": "https://i.insider.com/6793c01a10c98eace913ce0a",
+            "credittext": "World Economic Forum"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://i.insider.com/67937dcc10c98eace913c469?width=1200&format=jpeg",
+            "apple-itunes-app": "app-id=554260576",
+            "msapplication-config": "/public/assets/BI/US/favicons/browserconfig.xml?v=2025-05",
+            "og:image:width": "1200",
+            "twitter:card": "summary_large_image",
+            "theme-color": "#fff",
+            "og:site_name": "Business Insider",
+            "apple-mobile-web-app-title": "Business Insider",
+            "og:image:type": "image/jpeg",
+            "title": "A CEO did business on the ski slope instead of the meeting room. These are our biggest takeaways from a week at Davos.",
+            "og:description": "BI's takeaways and memorable moments from Davos, including 'FOBO' — fear of becoming obsolete — and how a CEO traded the meeting room for the ski slope.",
+            "article:publisher": "businessinsider",
+            "mrf:tags": "sub-section:Economy;sub-section:Politics;",
+            "datemodified": "2025-01-24T16:31:24Z",
+            "news_keywords": "Tech, Economy, Politics, World Economic Forum, AI, Donald Trump",
+            "mrf:sections": "Tech",
+            "datepublished": "2025-01-24T15:08:33Z",
+            "og:type": "article",
+            "author": "Jamie Heller, Hugh Langley, Dan DeFrancesco, Spriha Srivastava",
+            "tbi-vertical": "Tech",
+            "og:title": "A CEO did business on the ski slope instead of the meeting room. These are our biggest takeaways from a week at Davos.",
+            "og:image:height": "600",
+            "fb:pages": "20446254070",
+            "linkedin:owner": "mid:1d5f7b",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:url": "https://www.businessinsider.com/davos-world-economic-forum-ai-donald-trump-economy-2025-1"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://i.insider.com/67937dcc10c98eace913c469?width=1200&format=jpeg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "fobo - 2025 Company Profile, Team & Competitors - Tracxn",
+      "htmlTitle": "<b>fobo</b> - 2025 Company Profile, Team &amp; Competitors - Tracxn",
+      "link": "https://tracxn.com/d/companies/fobo/__w-9O4_WAbOEBw0bL8uhkjCkPdPeL-mC1xZk7fjfFDb8",
+      "displayLink": "tracxn.com",
+      "snippet": "The founders of fobo is Terry Cullen. Terry Cullen is the CEO of fobo. Here are the details of fobo's key team members: Terry Cullen: Founder & CEO ...",
+      "htmlSnippet": "The <b>founders</b> of <b>fobo</b> is Terry Cullen. Terry Cullen is the CEO of <b>fobo</b>. Here are the details of <b>fobo&#39;s</b> key team members: Terry Cullen: <b>Founder</b> &amp; CEO&nbsp;...",
+      "formattedUrl": "https://tracxn.com/.../fobo/__w-9O4_WAbOEBw0bL8uhkjCkPdPeL-mC1x...",
+      "htmlFormattedUrl": "https://tracxn.com/.../<b>fobo</b>/__w-9O4_WAbOEBw0bL8uhkjCkPdPeL-mC1x...",
+      "pagemap": {
+        "metatags": [
+          {
+            "image": "https://cdn.tracxn.com/images/seo/social/companies/fobo-overview-1710420621108.webp",
+            "og:image": "https://cdn.tracxn.com/images/seo/social/companies/fobo-overview-1710420621108.webp",
+            "og:type": "article",
+            "og:image:width": "1200",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "fobo - 2025 Company Profile & Team - Tracxn",
+            "theme-color": "#ffffff",
+            "og:title": "fobo - 2025 Company Profile & Team - Tracxn",
+            "og:image:height": "630",
+            "og:description": "fobo - Mobile-based dating app. This company is not active anymore.",
+            "twitter:image": "https://cdn.tracxn.com/images/seo/social/companies/fobo-overview-1710420621108.webp",
+            "referrer": "no-referrer-when-downgrade",
+            "astro-view-transitions-fallback": "animate",
+            "apple-mobile-web-app-status-bar-style": "default",
+            "viewport": "width=device-width",
+            "astro-view-transitions-enabled": "true",
+            "twitter:description": "fobo - Mobile-based dating app. This company is not active anymore.",
+            "apple-mobile-web-app-capable": "yes",
+            "mobile-web-app-capable": "yes",
+            "og:url": "https://tracxn.com/d/companies/fobo/__w-9O4_WAbOEBw0bL8uhkjCkPdPeL-mC1xZk7fjfFDb8"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.tracxn.com/images/seo/social/companies/fobo-overview-1710420621108.webp"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Town of Fobo | QSMP Wiki | Fandom",
+      "htmlTitle": "Town of <b>Fobo</b> | QSMP Wiki | Fandom",
+      "link": "https://qsmp.fandom.com/wiki/Town_of_Fobo",
+      "displayLink": "qsmp.fandom.com",
+      "snippet": "Town of Fobo is a city located to the right of the New Spawn of Quesadilla Island. It was founded by Foolish and Tubbo on February 3rd, 2024, with Sunny and ...",
+      "htmlSnippet": "Town of <b>Fobo</b> is a city located to the right of the New Spawn of Quesadilla Island. It was founded by Foolish and Tubbo on February 3rd, 2024, with Sunny and&nbsp;...",
+      "formattedUrl": "https://qsmp.fandom.com/wiki/Town_of_Fobo",
+      "htmlFormattedUrl": "https://qsmp.fandom.com/wiki/Town_of_<b>Fobo</b>",
+      "pagemap": {
+        "metatags": [
+          {
+            "og:image": "https://static.wikia.nocookie.net/qsmp/images/3/35/1st_Home_o%27_Fobo.jpeg/revision/latest/scale-to-width-down/1200?cb=20240204050327",
+            "twitter:card": "summary",
+            "twitter:title": "Town of Fobo | QSMP Wiki | Fandom",
+            "theme-color": "#eaecf0",
+            "og:type": "article",
+            "og:site_name": "QSMP Wiki",
+            "twitter:url": "https://qsmp.fandom.com/wiki/Town_of_Fobo",
+            "og:title": "Town of Fobo",
+            "og:description": "Town of Fobo is a city located to the right of the New Spawn of Quesadilla Island. It was founded by Foolish and Tubbo on February 3rd, 2024, with Sunny and Leo being the first residents. The name \"Fobo\" is a combination of Foolish and Tubbo's own names; the collaboration was conceptualized on January 22nd, 2024, becoming official upon the opening of QSMP 2024. The Town of Fobo is set to evolve into a \"central hub\", driven by a well-connected train system and a flourishing economy. Currently...",
+            "fb:app_id": "112328095453510",
+            "twitter:site": "@getfandom",
+            "viewport": "width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0",
+            "twitter:description": "Town of Fobo is a city located to the right of the New Spawn of Quesadilla Island. It was founded by Foolish and Tubbo on February 3rd, 2024, with Sunny and Leo being the first residents. The name...",
+            "og:url": "https://qsmp.fandom.com/wiki/Town_of_Fobo",
+            "format-detection": "telephone=no"
+          }
+        ],
+        "videoobject": [
+          {
+            "duration": "PT08M22S",
+            "contenturl": "https://cdn.jwplayer.com/videos/xOhZzFN3-cSpmBcaY.mp4",
+            "uploaddate": "2025-08-08T18:32:04+00:00",
+            "name": "Dafne Keen, Sophie Nélisse on Upcoming Horror Film Whistle, Cursed Objects in Their Home",
+            "description": "At San Diego Comic-Con 2025, Dafne Keen and Sophie Nélisse shared about what drew them to Corin Hardy's film Whistle, being scaredy cats, and the potential cursed objects in their own homes.",
+            "thumbnailurl": "https://cdn.jwplayer.com/v2/media/xOhZzFN3/poster.jpg?width=720"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Richard Fobo - Founder and Managing Director @ cureVision ...",
+      "htmlTitle": "Richard <b>Fobo</b> - <b>Founder</b> and Managing Director @ cureVision ...",
+      "link": "https://www.crunchbase.com/person/richard-fobo",
+      "displayLink": "www.crunchbase.com",
+      "snippet": "Richard Fobo is the Founder and Managing Director at cureVision.",
+      "htmlSnippet": "Richard <b>Fobo</b> is the <b>Founder</b> and Managing Director at cureVision.",
+      "formattedUrl": "https://www.crunchbase.com/person/richard-fobo",
+      "htmlFormattedUrl": "https://www.crunchbase.com/person/richard-<b>fobo</b>",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdCOp8Z6pQGjwDMoVd4VQWRl5D5bB9ZYn8_Q_P7eXbntk4OvAO9qQPGcw&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://images.crunchbase.com/image/upload/c_thumb,h_256,w_256,f_auto,g_face,z_0.7,q_auto:eco,dpr_1/ingtvjmifia3arhmsnuw",
+            "og:type": "website",
+            "og:image:alt": "Richard Fobo - Founder and Managing Director @ cureVision",
+            "og:image:width": "256",
+            "og:site_name": "Crunchbase",
+            "viewport": "width=device-width, minimum-scale=1.0, initial-scale=1.0",
+            "og:title": "Richard Fobo - Founder and Managing Director @ cureVision - Crunchbase Person Profile",
+            "og:image:height": "256",
+            "og:url": "https://www.crunchbase.com/person/richard-fobo",
+            "og:description": "Richard Fobo is the Founder and Managing Director at cureVision.",
+            "og:image:secure_url": "https://images.crunchbase.com/image/upload/c_thumb,h_256,w_256,f_auto,g_face,z_0.7,q_auto:eco,dpr_1/ingtvjmifia3arhmsnuw"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://images.crunchbase.com/image/upload/c_thumb,h_256,w_256,f_auto,g_face,z_0.7,q_auto:eco,dpr_1/ingtvjmifia3arhmsnuw"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Richard Fobo - Founder & Managing Partner, Software ...",
+      "htmlTitle": "Richard <b>Fobo</b> - <b>Founder</b> &amp; Managing Partner, Software ...",
+      "link": "https://theorg.com/org/curevision/org-chart/richard-fobo",
+      "displayLink": "theorg.com",
+      "snippet": "Richard Fobo is the founder and managing partner of Software Development, Sales at cureVision. Richard has over 20 years of experience in the software ...",
+      "htmlSnippet": "Richard <b>Fobo</b> is the <b>founder</b> and managing partner of Software Development, Sales at cureVision. Richard has over 20 years of experience in the software&nbsp;...",
+      "formattedUrl": "https://theorg.com/org/curevision/org-chart/richard-fobo",
+      "htmlFormattedUrl": "https://theorg.com/org/curevision/org-chart/richard-<b>fobo</b>",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSYejzIPPBXBmp9h6h15FB-YgeiODhGSHvKmvGDg_74EcvHmnjSG_EO54&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "thumbnail": [
+          {
+            "src": "https://cdn.theorg.com/a0a17cb7-7960-454d-9eec-3d06295ffef1_medium.jpg"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://cdn.theorg.com/og/position?name=Richard+Fobo&image=https%3A%2F%2Fcdn.theorg.com%2Fa0a17cb7-7960-454d-9eec-3d06295ffef1_thumb.jpg&position=Founder+%26+Managing+Partner%2C+Software+Development%2C+Sales&company=cureVision&logo=https%3A%2F%2Fcdn.theorg.com%2Fc9fcd415-b340-4cfa-8796-77f049f28f11_thumb.jpg&description=Richard+Fobo+is+the+founder+and+managing+partner+of+Software+Development%2C+Sales+at+cureVision.",
+            "thumbnail": "https://cdn.theorg.com/a0a17cb7-7960-454d-9eec-3d06295ffef1_medium.jpg",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Richard Fobo - Founder & Managing Partner, Software Development, Sales at cureVision | The Org",
+            "og:type": "website",
+            "og:image:width": "2048",
+            "og:site_name": "THE ORG",
+            "twitter:url": "https://theorg.com/org/curevision/org-chart/richard-fobo",
+            "og:title": "Richard Fobo - Founder & Managing Partner, Software Development, Sales at cureVision | The Org",
+            "og:image:height": "1200",
+            "twitter:creator": "@theorghq",
+            "og:description": "Richard Fobo is the founder and managing partner of Software Development, Sales at cureVision.",
+            "twitter:image": "https://cdn.theorg.com/og/position?name=Richard+Fobo&image=https%3A%2F%2Fcdn.theorg.com%2Fa0a17cb7-7960-454d-9eec-3d06295ffef1_thumb.jpg&position=Founder+%26+Managing+Partner%2C+Software+Development%2C+Sales&company=cureVision&logo=https%3A%2F%2Fcdn.theorg.com%2Fc9fcd415-b340-4cfa-8796-77f049f28f11_thumb.jpg&description=Richard+Fobo+is+the+founder+and+managing+partner+of+Software+Development%2C+Sales+at+cureVision.",
+            "next-head-count": "37",
+            "fb:app_id": "330925187371615",
+            "apple-mobile-web-app-status-bar-style": "default",
+            "twitter:site": "@theorghq",
+            "viewport": "width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no",
+            "apple-mobile-web-app-capable": "yes",
+            "twitter:description": "Richard Fobo is the founder and managing partner of Software Development, Sales at cureVision.",
+            "mobile-web-app-capable": "yes",
+            "og:url": "https://theorg.com/org/curevision/org-chart/richard-fobo"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.theorg.com/a0a17cb7-7960-454d-9eec-3d06295ffef1_medium.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Fobo: Sell to people nearby. | Y Combinator",
+      "htmlTitle": "<b>Fobo</b>: Sell to people nearby. | Y Combinator",
+      "link": "https://www.ycombinator.com/companies/fobo",
+      "displayLink": "www.ycombinator.com",
+      "snippet": "Built consumer marketplaces Yardsale and FOBO (YC S11), both of which had users and sales within 2 months. Ed McManus. Founder/CTO ...",
+      "htmlSnippet": "Built consumer marketplaces Yardsale and <b>FOBO</b> (YC S11), both of which had users and sales within 2 months. Ed McManus. <b>Founder</b>/CTO&nbsp;...",
+      "formattedUrl": "https://www.ycombinator.com/companies/fobo",
+      "htmlFormattedUrl": "https://www.ycombinator.com/companies/<b>fobo</b>",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_jlx_ttcDqicgZBVs0DjrnlFIWkOUPYZ1SvaiGlEZzk4B6xRiqshYu3_C&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "image": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/7f842612ded3c3f12a06fa7d3a68ccc55f028a89.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAFVD23AEO%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T020337Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECkaCXVzLXdlc3QtMiJIMEYCIQD7cKFb76s8HDrPedfr2SVTNpSTzXk5F6ucn4QMVVM93AIhAJQ85%2BNS09MPSAjT4pqW%2BgWbY%2BWgwChBuRBQqkV8CicqKuUDCFIQABoMMDA2MjAxODExMDcyIgwmY%2Bta%2BLt9Twj1EmkqwgM%2FNyNEH%2FumCSAzkDq3cAOCjNZJ4yQFFxBq3Nb8gg63Tb1XZkM168z6l5agqntLSLH3LFtST2nfuKw8LrxHEVh%2FLVBf5arqy84j0UIC3rE9dGaq%2BCMOfK3IQiWFr9kbIBbCrO8pJIYtQSHR6HF8CmAvHTEpUzkmqPfRj67iTxcpWYBAAgCrVJRpJ4Yt3qa3oU7NgOWj54c96eEx5522%2FWujYRYOGuFmI%2Fmt%2FvJZYaBp5VnFj1lXX7SRGx%2FiWYHO3oxhpHZ0lGytF5thZjjOoXWfyXS3MMFcV4zPekjPsVRFq8kgeUZAHzG4Q1Ne4yoiZZMLlzILkwZCQlYtFo1I1wUE4%2BMPsNKJjPbu9WKzhdCeJJ7c4JQQumBukfzCwHbwpUicYlTFohBMTFeRGBTOOo2GLb%2F7c2nTDem3zZUy06cDPZeMLacDL2DeJQ0PGvhMRJ7c9Y1efdOiIJzV5GZX90OBqA4N24eTD7KWexRJtiL5y3Ik5qIb%2Bt7xjADwvZRJvJrc5PsOgnifQyA7",
+            "og:image": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/7f842612ded3c3f12a06fa7d3a68ccc55f028a89.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAFVD23AEO%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T020337Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECkaCXVzLXdlc3QtMiJIMEYCIQD7cKFb76s8HDrPedfr2SVTNpSTzXk5F6ucn4QMVVM93AIhAJQ85%2BNS09MPSAjT4pqW%2BgWbY%2BWgwChBuRBQqkV8CicqKuUDCFIQABoMMDA2MjAxODExMDcyIgwmY%2Bta%2BLt9Twj1EmkqwgM%2FNyNEH%2FumCSAzkDq3cAOCjNZJ4yQFFxBq3Nb8gg63Tb1XZkM168z6l5agqntLSLH3LFtST2nfuKw8LrxHEVh%2FLVBf5arqy84j0UIC3rE9dGaq%2BCMOfK3IQiWFr9kbIBbCrO8pJIYtQSHR6HF8CmAvHTEpUzkmqPfRj67iTxcpWYBAAgCrVJRpJ4Yt3qa3oU7NgOWj54c96eEx5522%2FWujYRYOGuFmI%2Fmt%2FvJZYaBp5VnFj1lXX7SRGx%2FiWYHO3oxhpHZ0lGytF5thZjjOoXWfyXS3MMFcV4zPekjPsVRFq8kgeUZAHzG4Q1Ne4yoiZZMLlzILkwZCQlYtFo1I1wUE4%2BMPsNKJjPbu9WKzhdCeJJ7c4JQQumBukfzCwHbwpUicYlTFohBMTFeRGBTOOo2GLb%2F7c2nTDem3zZUy06cDPZeMLacDL2DeJQ0PGvhMRJ7c9Y1efdOiIJzV5GZX90OBqA4N24eTD7KWexRJtiL5y3Ik5qIb%2Bt7xjADwvZRJvJrc5PsOgnifQyA7",
+            "twitter:card": "summary_large_image",
+            "og:type": "website",
+            "og:site_name": "Y Combinator",
+            "og:image:url": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/7f842612ded3c3f12a06fa7d3a68ccc55f028a89.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAFVD23AEO%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T020337Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECkaCXVzLXdlc3QtMiJIMEYCIQD7cKFb76s8HDrPedfr2SVTNpSTzXk5F6ucn4QMVVM93AIhAJQ85%2BNS09MPSAjT4pqW%2BgWbY%2BWgwChBuRBQqkV8CicqKuUDCFIQABoMMDA2MjAxODExMDcyIgwmY%2Bta%2BLt9Twj1EmkqwgM%2FNyNEH%2FumCSAzkDq3cAOCjNZJ4yQFFxBq3Nb8gg63Tb1XZkM168z6l5agqntLSLH3LFtST2nfuKw8LrxHEVh%2FLVBf5arqy84j0UIC3rE9dGaq%2BCMOfK3IQiWFr9kbIBbCrO8pJIYtQSHR6HF8CmAvHTEpUzkmqPfRj67iTxcpWYBAAgCrVJRpJ4Yt3qa3oU7NgOWj54c96eEx5522%2FWujYRYOGuFmI%2Fmt%2FvJZYaBp5VnFj1lXX7SRGx%2FiWYHO3oxhpHZ0lGytF5thZjjOoXWfyXS3MMFcV4zPekjPsVRFq8kgeUZAHzG4Q1Ne4yoiZZMLlzILkwZCQlYtFo1I1wUE4%2BMPsNKJjPbu9WKzhdCeJJ7c4JQQumBukfzCwHbwpUicYlTFohBMTFeRGBTOOo2GLb%2F7c2nTDem3zZUy06cDPZeMLacDL2DeJQ0PGvhMRJ7c9Y1efdOiIJzV5GZX90OBqA4N24eTD7KWexRJtiL5y3Ik5qIb%2Bt7xjADwvZRJvJrc5PsOgnifQyA7",
+            "og:title": "Fobo: Sell to people nearby. | Y Combinator",
+            "csrf-param": "authenticity_token",
+            "title": "Fobo: Sell to people nearby.",
+            "og:description": "Sell to people nearby. Founded in  by , Fobo has 2 employees based in San Francisco, CA, USA.",
+            "twitter:image": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/7f842612ded3c3f12a06fa7d3a68ccc55f028a89.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAFVD23AEO%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T020337Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECkaCXVzLXdlc3QtMiJIMEYCIQD7cKFb76s8HDrPedfr2SVTNpSTzXk5F6ucn4QMVVM93AIhAJQ85%2BNS09MPSAjT4pqW%2BgWbY%2BWgwChBuRBQqkV8CicqKuUDCFIQABoMMDA2MjAxODExMDcyIgwmY%2Bta%2BLt9Twj1EmkqwgM%2FNyNEH%2FumCSAzkDq3cAOCjNZJ4yQFFxBq3Nb8gg63Tb1XZkM168z6l5agqntLSLH3LFtST2nfuKw8LrxHEVh%2FLVBf5arqy84j0UIC3rE9dGaq%2BCMOfK3IQiWFr9kbIBbCrO8pJIYtQSHR6HF8CmAvHTEpUzkmqPfRj67iTxcpWYBAAgCrVJRpJ4Yt3qa3oU7NgOWj54c96eEx5522%2FWujYRYOGuFmI%2Fmt%2FvJZYaBp5VnFj1lXX7SRGx%2FiWYHO3oxhpHZ0lGytF5thZjjOoXWfyXS3MMFcV4zPekjPsVRFq8kgeUZAHzG4Q1Ne4yoiZZMLlzILkwZCQlYtFo1I1wUE4%2BMPsNKJjPbu9WKzhdCeJJ7c4JQQumBukfzCwHbwpUicYlTFohBMTFeRGBTOOo2GLb%2F7c2nTDem3zZUy06cDPZeMLacDL2DeJQ0PGvhMRJ7c9Y1efdOiIJzV5GZX90OBqA4N24eTD7KWexRJtiL5y3Ik5qIb%2Bt7xjADwvZRJvJrc5PsOgnifQyA7",
+            "og:image:secure_url": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/7f842612ded3c3f12a06fa7d3a68ccc55f028a89.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAFVD23AEO%2F20250726%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250726T020337Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECkaCXVzLXdlc3QtMiJIMEYCIQD7cKFb76s8HDrPedfr2SVTNpSTzXk5F6ucn4QMVVM93AIhAJQ85%2BNS09MPSAjT4pqW%2BgWbY%2BWgwChBuRBQqkV8CicqKuUDCFIQABoMMDA2MjAxODExMDcyIgwmY%2Bta%2BLt9Twj1EmkqwgM%2FNyNEH%2FumCSAzkDq3cAOCjNZJ4yQFFxBq3Nb8gg63Tb1XZkM168z6l5agqntLSLH3LFtST2nfuKw8LrxHEVh%2FLVBf5arqy84j0UIC3rE9dGaq%2BCMOfK3IQiWFr9kbIBbCrO8pJIYtQSHR6HF8CmAvHTEpUzkmqPfRj67iTxcpWYBAAgCrVJRpJ4Yt3qa3oU7NgOWj54c96eEx5522%2FWujYRYOGuFmI%2Fmt%2FvJZYaBp5VnFj1lXX7SRGx%2FiWYHO3oxhpHZ0lGytF5thZjjOoXWfyXS3MMFcV4zPekjPsVRFq8kgeUZAHzG4Q1Ne4yoiZZMLlzILkwZCQlYtFo1I1wUE4%2BMPsNKJjPbu9WKzhdCeJJ7c4JQQumBukfzCwHbwpUicYlTFohBMTFeRGBTOOo2GLb%2F7c2nTDem3zZUy06cDPZeMLacDL2DeJQ0PGvhMRJ7c9Y1efdOiIJzV5GZX90OBqA4N24eTD7KWexRJtiL5y3Ik5qIb%2Bt7xjADwvZRJvJrc5PsOgnifQyA7",
+            "twitter:site": "@ycombinator",
+            "viewport": "initial-scale=1, width=device-width, height=device-height",
+            "csrf-token": "-lovE7H6Ci7K8nyyxBTZ3OZtjwghusNcEwXn4y8PnHEjSlf8ctn6NV7IyHKluZmugrTzMFnTzQE1-7cwpgqDQg",
+            "og:locale": "en_US",
+            "og:url": "https://www.ycombinator.com/companies/fobo"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "x-raw-image:///7481412385fe6d0f7d4a3339d90fe12309432ca41983e8d350b232301d5d8684"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Healthtech startup leverages AI to manage chronic wounds - Luminate",
+      "htmlTitle": "Healthtech startup leverages AI to manage chronic wounds - Luminate",
+      "link": "https://luminate.org/healthtech-startup-leverages-ai-to-manage-chronic-wounds/",
+      "displayLink": "luminate.org",
+      "snippet": "Jul 18, 2024 ... CureVision founders, from left, Kerstin von Diemar, Richard Fobo and Johannes Ruopp. ... Fobo, cureVision CEO. “It's intuitive to use, even ...",
+      "htmlSnippet": "Jul 18, 2024 <b>...</b> CureVision <b>founders</b>, from left, Kerstin von Diemar, Richard <b>Fobo</b> and Johannes Ruopp. ... <b>Fobo</b>, cureVision CEO. “It&#39;s intuitive to use, even&nbsp;...",
+      "formattedUrl": "https://luminate.org/healthtech-startup-leverages-ai-to-manage-chronic-wou...",
+      "htmlFormattedUrl": "https://luminate.org/healthtech-startup-leverages-ai-to-manage-chronic-wou...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8PFr3RxaV3SJg4ftHr86zjWFrcz0YU2m9HdBd-uILJnrkJPTWFxLqGGXI&s",
+            "width": "226",
+            "height": "223"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://luminate.org/wp-content/uploads/2024/08/DashboardDevice-300x295-1.png",
+            "og:type": "article",
+            "article:published_time": "2024-07-18T20:32:02+00:00",
+            "og:image:width": "300",
+            "og:site_name": "Luminate",
+            "msvalidate.01": "DEB2F07062D5C1AC1003C42EA41CCC02",
+            "author": "Morgan Adams",
+            "og:title": "Healthtech startup leverages AI to manage chronic wounds - Luminate",
+            "og:image:height": "295",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "og:image:type": "image/png",
+            "msapplication-tileimage": "https://luminate.org/wp-content/uploads/2019/07/cropped-favicon-270x270.jpg",
+            "og:description": "cureVision is revolutionizing the analysis, diagnosis, and treatment of chronic wounds with cutting-edge optical and imaging sensors.",
+            "twitter:data1": "Morgan Adams",
+            "twitter:data2": "3 minutes",
+            "article:modified_time": "2024-11-13T20:03:35+00:00",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:locale": "en_US",
+            "og:url": "https://luminate.org/healthtech-startup-leverages-ai-to-manage-chronic-wounds/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://luminate.org/wp-content/uploads/2024/08/DashboardDevice-300x295-1.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "cureVision - Crunchbase Company Profile & Funding",
+      "htmlTitle": "cureVision - Crunchbase Company Profile &amp; Funding",
+      "link": "https://www.crunchbase.com/organization/curevision",
+      "displayLink": "www.crunchbase.com",
+      "snippet": "Johannes Ruopp: Founder and Managing Partner. Photo of Richard Fobo. Richard Fobo: Founder and Managing Director. Details. Legal Name cureVision GmbH. Operating ...",
+      "htmlSnippet": "Johannes Ruopp: Founder and Managing Partner. Photo of Richard Fobo. Richard <b>Fobo</b>: <b>Founder</b> and Managing Director. Details. Legal Name cureVision GmbH. Operating&nbsp;...",
+      "formattedUrl": "https://www.crunchbase.com/organization/curevision",
+      "htmlFormattedUrl": "https://www.crunchbase.com/organization/curevision",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp6eWj50hbxa997KQuSdFxN7wxQF_SfzbUYr_rx2EMpBEMAex24ocDoCjJ&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/jxxxfoghgjbm9dglsiqb",
+            "og:type": "website",
+            "og:image:alt": "cureVision",
+            "og:image:width": "256",
+            "og:site_name": "Crunchbase",
+            "viewport": "width=device-width, minimum-scale=1.0, initial-scale=1.0",
+            "og:title": "cureVision - Crunchbase Company Profile & Funding",
+            "og:image:height": "256",
+            "og:url": "https://www.crunchbase.com/organization/curevision",
+            "og:description": "AI-based medical imaging and diagnostic solutions for vascular surgeons and care staff, specialist for chronic wounds",
+            "og:image:secure_url": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/jxxxfoghgjbm9dglsiqb"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/jxxxfoghgjbm9dglsiqb"
+          }
+        ]
+      }
+    }
+  ]
+}

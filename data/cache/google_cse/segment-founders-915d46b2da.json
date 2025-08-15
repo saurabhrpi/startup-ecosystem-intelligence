@@ -1,0 +1,526 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - \"Segment\" founders",
+        "totalResults": "35800000",
+        "searchTerms": "\"Segment\" founders",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - \"Segment\" founders",
+        "totalResults": "35800000",
+        "searchTerms": "\"Segment\" founders",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ]
+  },
+  "context": {
+    "title": "startup-ecosystem-intelligence"
+  },
+  "searchInformation": {
+    "searchTime": 0.197262,
+    "formattedSearchTime": "0.20",
+    "totalResults": "35800000",
+    "formattedTotalResults": "35,800,000"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "How MIT college kids founded multibillion-dollar company Segment",
+      "htmlTitle": "How MIT college kids founded multibillion-dollar company <b>Segment</b>",
+      "link": "https://www.cnbc.com/2020/11/03/segment-co-founder-and-ceo-this-is-how-we-built-a-multibillion-dollar-company-from-t.html",
+      "displayLink": "www.cnbc.com",
+      "snippet": "Nov 3, 2020 ... But less than a decade ago, Segment founders Peter Reinhardt, Calvin French-Owen and Ilya Volodarsky were college kids at Massachusetts ...",
+      "htmlSnippet": "Nov 3, 2020 <b>...</b> But less than a decade ago, <b>Segment founders</b> Peter Reinhardt, Calvin French-Owen and Ilya Volodarsky were college kids at Massachusetts&nbsp;...",
+      "formattedUrl": "https://www.cnbc.com/.../segment-co-founder-and-ceo-this-is-how-we-built...",
+      "htmlFormattedUrl": "https://www.cnbc.com/.../<b>segment</b>-co-founder-and-ceo-this-is-how-we-built...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMy-PnY-zzkzRFAq01cT8KCMjPGBgSFuuF0t5h-oibwmnh-OA1ezBNKOOh&s",
+            "width": "300",
+            "height": "168"
+          }
+        ],
+        "newsmediaorganization": [
+          {
+            "foundingdate": "'1989-04-17'",
+            "name": "CNBC",
+            "url": "https://www.cnbc.com"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://image.cnbcfm.com/api/v1/image/106756937-1603802768271-Segment_co_founders.jfif?v=1603803116&w=1920&h=1080",
+            "apple-itunes-app": "app-id=398018310",
+            "twitter:card": "summary_large_image",
+            "article:published_time": "2020-11-03T17:38:49+0000",
+            "og:site_name": "CNBC",
+            "twitter:url": "https://www.cnbc.com/2020/11/03/segment-co-founder-and-ceo-this-is-how-we-built-a-multibillion-dollar-company-from-t.html",
+            "tp:preferredformats": "M3U,MPEG4",
+            "og:description": "Today, Segment is a multibillion-dollar data infrastructure company. But a few years ago, its founders were at MIT students. Here's what they learned along the way.",
+            "twitter:creator": "@itstaylorlocke",
+            "parsely-metadata": "{\"nodeid\":106750382,\"originalImage\":\"https://image.cnbcfm.com/api/v1/image/106756937-1603802768271-Segment_co_founders.jfif?v=1603803116\"}",
+            "twitter:image": "https://image.cnbcfm.com/api/v1/image/106756937-1603802768271-Segment_co_founders.jfif?v=1603803116&w=1920&h=1080",
+            "article:publisher": "https://www.facebook.com/cnbc",
+            "al:ios:app_store_id": "398018310",
+            "pagenodeid": "106750382",
+            "twitter:site": "@CNBC",
+            "article:modified_time": "2020-11-03T18:59:45+0000",
+            "news_keywords": "Twilio Inc,Entrepreneurship",
+            "tp:preferredruntimes": "universal",
+            "tp:initialize": "false",
+            "assettype": "cnbcnewsstory",
+            "og:type": "article",
+            "twitter:title": "How MIT college kids founded multibillion-dollar company Segment",
+            "article:section": "Make It - Start-ups",
+            "al:ios:app_name": "CNBC Business News and Finance",
+            "author": "Taylor Locke",
+            "og:title": "How MIT college kids founded multibillion-dollar company Segment",
+            "article:author": "https://www.facebook.com/CNBC",
+            "twitter:image:src": "https://image.cnbcfm.com/api/v1/image/106756937-1603802768271-Segment_co_founders.jfif?v=1603803116&w=1920&h=1080",
+            "article:tag": "Twilio Inc",
+            "viewport": "initial-scale=1.0, width=device-width",
+            "twitter:description": "Today, Segment is a multibillion-dollar data infrastructure company. But a few years ago, its founders were at MIT students. Here's what they learned along the way.",
+            "og:url": "https://www.cnbc.com/2020/11/03/segment-co-founder-and-ceo-this-is-how-we-built-a-multibillion-dollar-company-from-t.html",
+            "format-detection": "telephone=no",
+            "article:opinion": "false"
+          }
+        ],
+        "webpage": [
+          {
+            "image": "https://image.cnbcfm.com/api/v1/image/106756937-1603802768271-Segment_co_founders.jfif?v=1603803116&w=1920&h=1080",
+            "contentrating": "NR",
+            "specialty": "Twilio Inc,Entrepreneurship",
+            "primaryimageofpage": "https://image.cnbcfm.com/api/v1/image/106756937-1603802768271-Segment_co_founders.jfif?v=1603803116",
+            "datemodified": "2020-11-03T18:59:45+0000",
+            "inlanguage": "en-US",
+            "keywords": "Twilio Inc,Entrepreneurship",
+            "lastreviewed": "2020-11-03T18:59:45+0000",
+            "name": "How MIT college kids founded multibillion-dollar company Segment",
+            "description": "Today, Segment is a multibillion-dollar data infrastructure company. But a few years ago, its founders were at MIT students. Here's what they learned along the way.",
+            "datecreated": "2020-11-03T17:38:49+0000",
+            "datepublished": "2020-11-03T17:38:49+0000"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://image.cnbcfm.com/api/v1/image/106756937-1603802768271-Segment_co_founders.jfif?v=1603803116&w=1600&h=900"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Peter Reinhardt - Charm Industrial | LinkedIn",
+      "htmlTitle": "Peter Reinhardt - Charm Industrial | LinkedIn",
+      "link": "https://www.linkedin.com/in/peterreinhardt",
+      "displayLink": "www.linkedin.com",
+      "snippet": "Massachusetts Institute of Technology. 2008 - 2011. Left to start Segment.",
+      "htmlSnippet": "Massachusetts Institute of Technology. 2008 - 2011. Left to start <b>Segment</b>.",
+      "formattedUrl": "https://www.linkedin.com/in/peterreinhardt",
+      "htmlFormattedUrl": "https://www.linkedin.com/in/peterreinhardt",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBJedbDJNUxPD7PsEhU2y-h6izYHxIqPHbVZap3VnWg5E9mY-bF4phV3xg&s",
+            "width": "200",
+            "height": "200"
+          }
+        ],
+        "ProfilePage": [
+          {}
+        ],
+        "metatags": [
+          {
+            "og:image": "https://media.licdn.com/dms/image/v2/D5603AQHe9MwkIkFPTg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1695960432935?e=2147483647&v=beta&t=3XttqWA3NgBiVBNl8dRfRIhQLsHum57X60QnzCXZ4e0",
+            "twitter:card": "summary",
+            "linkedin:pagetag": "openToProvider",
+            "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+            "al:android:package": "com.linkedin.android",
+            "bingbot": "nocache",
+            "locale": "en_US",
+            "al:ios:url": "https://www.linkedin.com/in/peterreinhardt",
+            "og:description": "At Charm we&#39;re working to return the atmosphere to 280 ppm CO₂, by putting oil back… · Experience: Charm Industrial · Education: Massachusetts Institute of Technology · Location: San Francisco · 500+ connections on LinkedIn. View Peter Reinhardt’s profile on LinkedIn, a professional community of 1 billion members.",
+            "al:ios:app_store_id": "288429040",
+            "platform": "https://static.licdn.com/aero-v1/sc/h/4nm9pu95jzy03fx73wtc0vlru",
+            "twitter:image": "https://media.licdn.com/dms/image/v2/D5603AQHe9MwkIkFPTg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1695960432935?e=2147483647&v=beta&t=3XttqWA3NgBiVBNl8dRfRIhQLsHum57X60QnzCXZ4e0",
+            "profile:last_name": "Reinhardt",
+            "twitter:site": "@Linkedin",
+            "litmsprofilename": "public-profile-frontend",
+            "profile:first_name": "Peter",
+            "og:type": "profile",
+            "twitter:title": "Peter Reinhardt - Charm Industrial | LinkedIn",
+            "al:ios:app_name": "LinkedIn",
+            "og:title": "Peter Reinhardt - Charm Industrial | LinkedIn",
+            "pagekey": "public_profile_v3_mobile",
+            "al:android:url": "https://www.linkedin.com/in/peterreinhardt",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "twitter:description": "At Charm we&#39;re working to return the atmosphere to 280 ppm CO₂, by putting oil back… · Experience: Charm Industrial · Education: Massachusetts Institute of Technology · Location: San Francisco · 500+ connections on LinkedIn. View Peter Reinhardt’s profile on LinkedIn, a professional community of 1 billion members.",
+            "ubba": "https://static.licdn.com/aero-v1/sc/h/6314rx53vzqnwyjpjmgri18gg",
+            "og:url": "https://www.linkedin.com/in/peterreinhardt",
+            "al:android:app_name": "LinkedIn"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://media.licdn.com/dms/image/v2/D5603AQHe9MwkIkFPTg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1695960432935?e=2147483647&v=beta&t=3XttqWA3NgBiVBNl8dRfRIhQLsHum57X60QnzCXZ4e0"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Segment: Software and APIs to collect, clean, and control customer ...",
+      "htmlTitle": "<b>Segment</b>: Software and APIs to collect, clean, and control customer ...",
+      "link": "https://www.ycombinator.com/companies/segment",
+      "displayLink": "www.ycombinator.com",
+      "snippet": "Software and APIs to collect, clean, and control customer data. Founded in 2011 by Calvin French-Owen and Ilya Volodarsky, Segment has 550 employees based ...",
+      "htmlSnippet": "Software and APIs to collect, clean, and control customer data. Founded in 2011 by Calvin French-Owen and Ilya Volodarsky, <b>Segment</b> has 550 employees based&nbsp;...",
+      "formattedUrl": "https://www.ycombinator.com/companies/segment",
+      "htmlFormattedUrl": "https://www.ycombinator.com/companies/<b>segment</b>",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_jlx_ttcDqicgZBVs0DjrnlFIWkOUPYZ1SvaiGlEZzk4B6xRiqshYu3_C&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "image": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/192b03cb1bd8027bbeddedbe24dd630239632c01.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECADMWX5AYV%2F20250801%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250801T144352Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCZ1n3zhEMacK5SSnwOUhYz73vBcvNHAI82ZIbT4Txm4gIhAIk9z8Dua4349D1BeazBxkzOEdD2tlIKZpFWi%2F%2FucA3%2BKu4DCPD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMDA2MjAxODExMDcyIgwIjPcDXGKmWoDZhkgqwgNvJfvdGRBacDwUkoK0JA1MTlaTTJ%2BZm9rIxMOtzHPFRrYYryAR8f59UaMlGbl8BVYv9kHj84SlAivAg1Wl26Sv9kQAbl1%2F%2BPg2RHUSOByNOg%2Fp%2BJesQ092eXx%2FNgg%2B4lQcOpgjYDTEvTcQ0jEwmzaCCPbrRpUIyI4jqlETujBkR0JErW9%2FPbvkAh7ndfXIGKPdbYTdPhPMfOemZSGoXX9sA8aj0%2FbKIcS6Z12V29ZSIlheuQKoB5gGVTrrUyEurGMCY3RFhWTH6%2BUZpH6DoNUnVlz35rRVuhQTx6VLiB9yS3aDWIJjB%2BopC45wEmvEvVpM%2F9ugpRcaDBSPQT%2BGJWdfsRvYcOn3nSCDv1bqdn21iGXIq%2FtqIGso8xx6TKSejCC65KFbo5qTkgRhyQOx0BrHyOqxbMSX4NPsC5WyjIG6xONvdFUy28bcFVNLzAyBj2d9sUGv5UIUkr",
+            "og:image": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/192b03cb1bd8027bbeddedbe24dd630239632c01.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECADMWX5AYV%2F20250801%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250801T144352Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCZ1n3zhEMacK5SSnwOUhYz73vBcvNHAI82ZIbT4Txm4gIhAIk9z8Dua4349D1BeazBxkzOEdD2tlIKZpFWi%2F%2FucA3%2BKu4DCPD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMDA2MjAxODExMDcyIgwIjPcDXGKmWoDZhkgqwgNvJfvdGRBacDwUkoK0JA1MTlaTTJ%2BZm9rIxMOtzHPFRrYYryAR8f59UaMlGbl8BVYv9kHj84SlAivAg1Wl26Sv9kQAbl1%2F%2BPg2RHUSOByNOg%2Fp%2BJesQ092eXx%2FNgg%2B4lQcOpgjYDTEvTcQ0jEwmzaCCPbrRpUIyI4jqlETujBkR0JErW9%2FPbvkAh7ndfXIGKPdbYTdPhPMfOemZSGoXX9sA8aj0%2FbKIcS6Z12V29ZSIlheuQKoB5gGVTrrUyEurGMCY3RFhWTH6%2BUZpH6DoNUnVlz35rRVuhQTx6VLiB9yS3aDWIJjB%2BopC45wEmvEvVpM%2F9ugpRcaDBSPQT%2BGJWdfsRvYcOn3nSCDv1bqdn21iGXIq%2FtqIGso8xx6TKSejCC65KFbo5qTkgRhyQOx0BrHyOqxbMSX4NPsC5WyjIG6xONvdFUy28bcFVNLzAyBj2d9sUGv5UIUkr",
+            "twitter:card": "summary_large_image",
+            "og:type": "website",
+            "og:site_name": "Y Combinator",
+            "og:image:url": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/192b03cb1bd8027bbeddedbe24dd630239632c01.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECADMWX5AYV%2F20250801%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250801T144352Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCZ1n3zhEMacK5SSnwOUhYz73vBcvNHAI82ZIbT4Txm4gIhAIk9z8Dua4349D1BeazBxkzOEdD2tlIKZpFWi%2F%2FucA3%2BKu4DCPD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMDA2MjAxODExMDcyIgwIjPcDXGKmWoDZhkgqwgNvJfvdGRBacDwUkoK0JA1MTlaTTJ%2BZm9rIxMOtzHPFRrYYryAR8f59UaMlGbl8BVYv9kHj84SlAivAg1Wl26Sv9kQAbl1%2F%2BPg2RHUSOByNOg%2Fp%2BJesQ092eXx%2FNgg%2B4lQcOpgjYDTEvTcQ0jEwmzaCCPbrRpUIyI4jqlETujBkR0JErW9%2FPbvkAh7ndfXIGKPdbYTdPhPMfOemZSGoXX9sA8aj0%2FbKIcS6Z12V29ZSIlheuQKoB5gGVTrrUyEurGMCY3RFhWTH6%2BUZpH6DoNUnVlz35rRVuhQTx6VLiB9yS3aDWIJjB%2BopC45wEmvEvVpM%2F9ugpRcaDBSPQT%2BGJWdfsRvYcOn3nSCDv1bqdn21iGXIq%2FtqIGso8xx6TKSejCC65KFbo5qTkgRhyQOx0BrHyOqxbMSX4NPsC5WyjIG6xONvdFUy28bcFVNLzAyBj2d9sUGv5UIUkr",
+            "og:title": "Segment: Software and APIs to collect, clean, and control customer data. | Y Combinator",
+            "csrf-param": "authenticity_token",
+            "title": "Segment: Software and APIs to collect, clean, and control customer data.",
+            "og:description": "Software and APIs to collect, clean, and control customer data. Founded in 2011 by Calvin French-Owen and Ilya Volodarsky, Segment has 550 employees based in San Francisco, CA, USA.",
+            "twitter:image": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/192b03cb1bd8027bbeddedbe24dd630239632c01.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECADMWX5AYV%2F20250801%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250801T144352Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCZ1n3zhEMacK5SSnwOUhYz73vBcvNHAI82ZIbT4Txm4gIhAIk9z8Dua4349D1BeazBxkzOEdD2tlIKZpFWi%2F%2FucA3%2BKu4DCPD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMDA2MjAxODExMDcyIgwIjPcDXGKmWoDZhkgqwgNvJfvdGRBacDwUkoK0JA1MTlaTTJ%2BZm9rIxMOtzHPFRrYYryAR8f59UaMlGbl8BVYv9kHj84SlAivAg1Wl26Sv9kQAbl1%2F%2BPg2RHUSOByNOg%2Fp%2BJesQ092eXx%2FNgg%2B4lQcOpgjYDTEvTcQ0jEwmzaCCPbrRpUIyI4jqlETujBkR0JErW9%2FPbvkAh7ndfXIGKPdbYTdPhPMfOemZSGoXX9sA8aj0%2FbKIcS6Z12V29ZSIlheuQKoB5gGVTrrUyEurGMCY3RFhWTH6%2BUZpH6DoNUnVlz35rRVuhQTx6VLiB9yS3aDWIJjB%2BopC45wEmvEvVpM%2F9ugpRcaDBSPQT%2BGJWdfsRvYcOn3nSCDv1bqdn21iGXIq%2FtqIGso8xx6TKSejCC65KFbo5qTkgRhyQOx0BrHyOqxbMSX4NPsC5WyjIG6xONvdFUy28bcFVNLzAyBj2d9sUGv5UIUkr",
+            "og:image:secure_url": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/192b03cb1bd8027bbeddedbe24dd630239632c01.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECADMWX5AYV%2F20250801%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250801T144352Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCZ1n3zhEMacK5SSnwOUhYz73vBcvNHAI82ZIbT4Txm4gIhAIk9z8Dua4349D1BeazBxkzOEdD2tlIKZpFWi%2F%2FucA3%2BKu4DCPD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMDA2MjAxODExMDcyIgwIjPcDXGKmWoDZhkgqwgNvJfvdGRBacDwUkoK0JA1MTlaTTJ%2BZm9rIxMOtzHPFRrYYryAR8f59UaMlGbl8BVYv9kHj84SlAivAg1Wl26Sv9kQAbl1%2F%2BPg2RHUSOByNOg%2Fp%2BJesQ092eXx%2FNgg%2B4lQcOpgjYDTEvTcQ0jEwmzaCCPbrRpUIyI4jqlETujBkR0JErW9%2FPbvkAh7ndfXIGKPdbYTdPhPMfOemZSGoXX9sA8aj0%2FbKIcS6Z12V29ZSIlheuQKoB5gGVTrrUyEurGMCY3RFhWTH6%2BUZpH6DoNUnVlz35rRVuhQTx6VLiB9yS3aDWIJjB%2BopC45wEmvEvVpM%2F9ugpRcaDBSPQT%2BGJWdfsRvYcOn3nSCDv1bqdn21iGXIq%2FtqIGso8xx6TKSejCC65KFbo5qTkgRhyQOx0BrHyOqxbMSX4NPsC5WyjIG6xONvdFUy28bcFVNLzAyBj2d9sUGv5UIUkr",
+            "twitter:site": "@ycombinator",
+            "viewport": "initial-scale=1, width=device-width, height=device-height",
+            "csrf-token": "0zeHlZ76zk6SbvIl-ixp-i_yCzgX9C3OshJhMSw4rs3pa87oS8K2P4XKjvmcMIzaGbjysJjolV5zOMq8MOQnbw",
+            "og:locale": "en_US",
+            "og:url": "https://www.ycombinator.com/companies/segment"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "x-raw-image:///7481412385fe6d0f7d4a3339d90fe12309432ca41983e8d350b232301d5d8684"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Calvin French-Owen",
+      "htmlTitle": "Calvin French-Owen",
+      "link": "https://calv.info/",
+      "displayLink": "calv.info",
+      "snippet": "Lessons for early stage founders. DEC 1, 2020. In Segment's early days, we hit countless problems as a founding team. And at the time, I thought those ...",
+      "htmlSnippet": "Lessons for early stage <b>founders</b>. DEC 1, 2020. In <b>Segment&#39;s</b> early days, we hit countless problems as a <b>founding</b> team. And at the time, I thought those&nbsp;...",
+      "formattedUrl": "https://calv.info/",
+      "htmlFormattedUrl": "https://calv.info/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0HB1EcKUivE-0MbGipOUmScjWUjQg5skKaUlvNpqBCCeO2kbSysdND3I&s",
+            "width": "310",
+            "height": "163"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://calv.info/api/og?title=",
+            "og:type": "website",
+            "og:image:width": "1200",
+            "twitter:card": "summary_large_image",
+            "viewport": "width=device-width",
+            "og:image:height": "630",
+            "twitter:image": "https://calv.info/api/og?title="
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://calv.info/api/og?title="
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Startup Finance for Founders — Part I, Accounting by Peter Reinhardt",
+      "htmlTitle": "Startup Finance for <b>Founders</b> — Part I, Accounting by Peter Reinhardt",
+      "link": "https://rein.pk/startup-finance-for-founders-part-i-accounting",
+      "displayLink": "rein.pk",
+      "snippet": "Jan 8, 2016 ... When we started Segment, we knew nothing about business finance. My background was in aerospace engineering, and my co-founders came from ...",
+      "htmlSnippet": "Jan 8, 2016 <b>...</b> When we started <b>Segment</b>, we knew nothing about business finance. My background was in aerospace engineering, and my co-<b>founders</b> came from&nbsp;...",
+      "formattedUrl": "https://rein.pk/startup-finance-for-founders-part-i-accounting",
+      "htmlFormattedUrl": "https://rein.pk/startup-finance-for-<b>founders</b>-part-i-accounting",
+      "pagemap": {
+        "metatags": [
+          {
+            "viewport": "initial-scale=1, maximum-scale=1",
+            "author": "Peter Reinhardt"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "High Performing Startups — Founding Values (Segment 2)",
+      "htmlTitle": "High Performing Startups — <b>Founding</b> Values (<b>Segment</b> 2)",
+      "link": "https://www.fermyon.com/blog/high-perf-startups-segment-2",
+      "displayLink": "www.fermyon.com",
+      "snippet": "Jan 26, 2024 ... In this Segment we talk about the most essential effort that must occur before you coalesce your founding team or hire your first person.",
+      "htmlSnippet": "Jan 26, 2024 <b>...</b> In this <b>Segment</b> we talk about the most essential effort that must occur before you coalesce your <b>founding</b> team or hire your first person.",
+      "formattedUrl": "https://www.fermyon.com/blog/high-perf-startups-segment-2",
+      "htmlFormattedUrl": "https://www.fermyon.com/blog/high-perf-startups-<b>segment</b>-2",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUfZXYEot6ZwH0j_BVTCkheTefM8E58DaovRe9u0SKEjVbjOpFaMO6NfLw&s",
+            "width": "312",
+            "height": "161"
+          }
+        ],
+        "metatags": [
+          {
+            "msapplication-tilecolor": "#0d203f",
+            "image": "https://www.fermyon.com/static/image/twc-high-perf-teams-2.jpg",
+            "twitter:title": "High Performing Startups — Founding Values (Segment 2)",
+            "twitter:card": "summary_large_image",
+            "article:section": "blog",
+            "article:published_time": "2024-01-26T12:00:00Z",
+            "theme-color": "#ffffff",
+            "twitter:url": "https://www.fermyon.com/blog/high-perf-startups-segment-2",
+            "author": "page.head.extra.author",
+            "type": "article",
+            "title": "High Performing Startups — Founding Values (Segment 2)",
+            "locale": "en_US",
+            "url": "https://www.fermyon.com/blog/high-perf-startups-segment-2",
+            "twitter:image": "https://www.fermyon.com/static/image/twc-high-perf-teams-2.jpg",
+            "site": "Fermyon • Experience the next wave of cloud computing.",
+            "article:modified_time": "2024-01-26T12:00:00Z",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "The most essential effort before you coalesce your founding team or hire your first person."
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.fermyon.com/static/image/twc-high-perf-teams-2.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "SaaStr Podcast #080: Peter Reinhardt, Founder @ Segment ...",
+      "htmlTitle": "SaaStr Podcast #080: Peter Reinhardt, <b>Founder</b> @ <b>Segment</b> ...",
+      "link": "https://www.saastr.com/saastr-podcast-080-peter-reinhardt-founder-segment-discusses-why-the-reality-distortion-field-damages-product-market-fit/",
+      "displayLink": "www.saastr.com",
+      "snippet": "Peter Reinhardt is the Founder and CEO of Segment, the startup that allows you to collect all of your customer data and send it anywhere.",
+      "htmlSnippet": "<b>Peter Reinhardt</b> is the <b>Founder</b> and CEO of <b>Segment</b>, the startup that allows you to collect all of your customer data and send it anywhere.",
+      "formattedUrl": "https://www.saastr.com/saastr-podcast-080-peter-reinhardt-founder-segment...",
+      "htmlFormattedUrl": "https://www.saastr.com/saastr-podcast-080-peter-reinhardt-founder-<b>segment</b>...",
+      "pagemap": {
+        "hcard": [
+          {
+            "fn": "Harry Stebbings"
+          }
+        ],
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXijacJ1nAbkpjMsgL2SZfIFz51ArK5nHqs2V-T0YZE1gO3MLFwctBKrO_&s",
+            "width": "275",
+            "height": "183"
+          }
+        ],
+        "person": [
+          {
+            "image": "https://www.saastr.com/wp-content/uploads/2018/06/SaaStr-Team-Harry-Stebbings.jpg"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://i0.wp.com/www.saastr.com/wp-content/uploads/2018/06/podcast-featured-80-Peter-Reinhardt%402x-e1484361719274.jpg?fit=600%2C400&quality=70&ssl=1",
+            "og:type": "article",
+            "article:published_time": "2016-12-09T16:15:52+00:00",
+            "og:image:width": "600",
+            "og:image:alt": "B2B SaaS Blog - SaaStr Podcast #080: Peter Reinhardt",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "SaaStr",
+            "og:title": "SaaStr Podcast #080: Peter Reinhardt, Founder @ Segment Discusses Why the Reality Distortion Field Damages Product-Market Fit",
+            "og:image:height": "400",
+            "msapplication-tileimage": "https://i0.wp.com/www.saastr.com/wp-content/uploads/2020/10/cropped-SaaStr-Favicon.png?fit=270%2C270&quality=70&ssl=1",
+            "og:description": "Welcome to Episode 80! Peter Reinhardt is the Founder and CEO of Segment, the startup that allows you to collect all of your customer data and send it anywhere, and they count some of the biggest a…",
+            "twitter:image": "https://i0.wp.com/www.saastr.com/wp-content/uploads/2018/06/podcast-featured-80-Peter-Reinhardt%402x-e1484361719274.jpg?fit=600%2C400&quality=70&ssl=1&w=640",
+            "twitter:text:title": "SaaStr Podcast #080: Peter Reinhardt, Founder @ Segment Discusses Why the Reality Distortion Field Damages Product-Market Fit",
+            "ahrefs-site-verification": "23a03fd37416fcad28c552ddf8e0f20b4899ffef5cce266bd479b17031df11b4",
+            "twitter:image:alt": "B2B SaaS Blog - SaaStr Podcast #080: Peter Reinhardt",
+            "article:modified_time": "2019-03-29T23:38:59+00:00",
+            "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0",
+            "og:locale": "en_US",
+            "og:url": "https://www.saastr.com/saastr-podcast-080-peter-reinhardt-founder-segment-discusses-why-the-reality-distortion-field-damages-product-market-fit/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://i0.wp.com/www.saastr.com/wp-content/uploads/2018/06/podcast-featured-80-Peter-Reinhardt%402x-e1484361719274.jpg?fit=600%2C400&quality=70&ssl=1"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Behind the $3.2B Acquisition of Segment - Startup Success #100",
+      "htmlTitle": "Behind the $3.2B Acquisition of <b>Segment</b> - Startup Success #100",
+      "link": "https://burklandassociates.com/podcasts/the-story-behind-the-3-2b-acquisition-of-segment-from-the-co-founders-cfos-perspective/",
+      "displayLink": "burklandassociates.com",
+      "snippet": "Sep 10, 2024 ... Go behind the scenes of Segment's $3.2B acquisition with co-founder Peter Reinhardt and CFO Jeff Burkland in this special 100th episode of ...",
+      "htmlSnippet": "Sep 10, 2024 <b>...</b> Go behind the scenes of <b>Segment&#39;s</b> $3.2B acquisition with co-<b>founder</b> Peter Reinhardt and CFO Jeff Burkland in this special 100th episode of&nbsp;...",
+      "formattedUrl": "https://burklandassociates.com/.../the-story-behind-the-3-2b-acquisition-of-...",
+      "htmlFormattedUrl": "https://burklandassociates.com/.../the-story-behind-the-3-2b-acquisition-of-...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_w_lplRPnOzHfSEWISQMHKmZ3V5yJz0AKpxEJj7SJL4P7wZKAPE4cNaXc&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "msapplication-tilecolor": "#333333",
+            "og:image": "https://burklandassociates.com/wp-content/uploads/2024/09/podcast-startup-success-100-fireworks-b.jpg",
+            "msapplication-config": "/wp-content/themes/splintercell-child/media/favicons/browserconfig.xml",
+            "og:type": "article",
+            "og:image:width": "500",
+            "twitter:card": "summary_large_image",
+            "theme-color": "#252525",
+            "og:site_name": "Burkland",
+            "og:title": "The Story Behind the $3.2B Acquisition of Segment - from the Co-Founder’s & CFO’s Perspective",
+            "og:image:height": "500",
+            "og:image:type": "image/jpeg",
+            "og:description": "Go behind the scenes of Segment's $3.2B acquisition with co-founder Peter Reinhardt and CFO Jeff Burkland in this special 100th episode of Startup Success.",
+            "article:publisher": "https://www.facebook.com/pages/Burkland-Associates/1421672081386500",
+            "twitter:site": "@burklandassoc",
+            "article:modified_time": "2024-11-06T14:34:18+00:00",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "og:locale": "en_US",
+            "og:url": "https://burklandassociates.com/podcasts/the-story-behind-the-3-2b-acquisition-of-segment-from-the-co-founders-cfos-perspective/",
+            "ff-nonce": "7bd6f00efb"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://burklandassociates.com/wp-content/uploads/2024/09/podcast-startup-success-100-fireworks-b.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Rocket Fizz founders Rob & Ryan filming a news segment | Rocket ...",
+      "htmlTitle": "Rocket Fizz <b>founders</b> Rob &amp; Ryan filming a news <b>segment</b> | Rocket ...",
+      "link": "https://rocketfizz.com/rocket-fizz-founders-rob-ryan-filming-a-news-segment/",
+      "displayLink": "rocketfizz.com",
+      "snippet": "Rocket Fizz founders Rob & Ryan filming a news segment | Soda Pop and Candy Shops.",
+      "htmlSnippet": "Rocket Fizz <b>founders</b> Rob &amp; Ryan filming a news <b>segment</b> | Soda Pop and Candy Shops.",
+      "formattedUrl": "https://rocketfizz.com/rocket-fizz-founders-rob-ryan-filming-a-news-segme...",
+      "htmlFormattedUrl": "https://rocketfizz.com/rocket-fizz-<b>founders</b>-rob-ryan-filming-a-news-<b>segme</b>...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNDfFilcV04QYc2DUdzQQbL7NxBpHeheGLfFFSIFM1KbIiabvAwCN58yJk&s",
+            "width": "259",
+            "height": "194"
+          }
+        ],
+        "metatags": [
+          {
+            "redi-version": "1.2.7",
+            "viewport": "width=device-width, initial-scale=1.0"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://rocketfizz.com/images/Fox%20Business%20News%20Maria%20Bartiromo%209-18-17.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Segment founder on future of customer data management and ...",
+      "htmlTitle": "<b>Segment founder</b> on future of customer data management and ...",
+      "link": "https://venturebeat.com/business/segment-founder-on-future-of-customer-data-management-and-acquisition-by-twilio/",
+      "displayLink": "venturebeat.com",
+      "snippet": "Apr 6, 2021 ... But Segment founder Peter Reinhardt told VentureBeat recently that there is much more to the deal, and he remains even more bullish about that ...",
+      "htmlSnippet": "Apr 6, 2021 <b>...</b> But <b>Segment founder</b> Peter Reinhardt told VentureBeat recently that there is much more to the deal, and he remains even more bullish about that&nbsp;...",
+      "formattedUrl": "https://venturebeat.com/.../segment-founder-on-future-of-customer-data-ma...",
+      "htmlFormattedUrl": "https://venturebeat.com/.../<b>segment</b>-founder-on-future-of-customer-data-ma...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_r2h3FUcPl-U15jXiJqGNIaYJig9ni5kC-IlZX2qPocydxY5tyd-HyCip&s",
+            "width": "318",
+            "height": "159"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://venturebeat.com/wp-content/uploads/2019/11/49099806486_1f1403e51c_k-e1617482751829.jpg?w=1024?w=1200&strip=all",
+            "og:type": "article",
+            "article:published_time": "2021-04-06T14:13:52+00:00",
+            "og:image:width": "1200",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Segment founder on future of customer data management and acquisition by Twilio",
+            "og:site_name": "VentureBeat",
+            "author": "Chris O'Brien",
+            "og:title": "Segment founder on future of customer data management and acquisition by Twilio",
+            "og:image:height": "600",
+            "og:image:type": "image/jpeg",
+            "og:description": "Following the acquisition by Twilio, Segment is focused on a building the next generation of customer data management tools.",
+            "twitter:creator": "@venturebeat",
+            "fb:pages": "7419689078",
+            "article:publisher": "https://www.facebook.com/venturebeat/",
+            "twitter:image": "https://venturebeat.com/wp-content/uploads/2019/11/49099806486_1f1403e51c_k-e1617482751829.jpg?w=1024?w=1200&strip=all",
+            "twitter:site": "@venturebeat",
+            "article:modified_time": "2021-04-06T08:51:14+00:00",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "og:locale": "en_US",
+            "og:url": "https://venturebeat.com/business/segment-founder-on-future-of-customer-data-management-and-acquisition-by-twilio/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://venturebeat.com/wp-content/uploads/2019/11/49099806486_1f1403e51c_k-e1617482751829.jpg?w=1024?w=1200&strip=all"
+          }
+        ]
+      }
+    }
+  ]
+}

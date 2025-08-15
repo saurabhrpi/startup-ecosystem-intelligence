@@ -1,0 +1,448 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - \"Dubjoy\" founders",
+        "totalResults": "37",
+        "searchTerms": "\"Dubjoy\" founders",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - \"Dubjoy\" founders",
+        "totalResults": "37",
+        "searchTerms": "\"Dubjoy\" founders",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ]
+  },
+  "context": {
+    "title": "startup-ecosystem-intelligence"
+  },
+  "searchInformation": {
+    "searchTime": 0.110906,
+    "formattedSearchTime": "0.11",
+    "totalResults": "37",
+    "formattedTotalResults": "37"
+  },
+  "spelling": {
+    "correctedQuery": "\"Dunzo\" founders",
+    "htmlCorrectedQuery": "&quot;<b><i>Dunzo</i></b>&quot; founders"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "Dubjoy: Dubjoy translates and voice-overs your video to any ...",
+      "htmlTitle": "<b>Dubjoy</b>: <b>Dubjoy</b> translates and voice-overs your video to any ...",
+      "link": "https://www.ycombinator.com/companies/dubjoy",
+      "displayLink": "www.ycombinator.com",
+      "snippet": "Dubjoy translates and voice-overs your video to any language. Founded in by ... San Francisco. Former Founders. Robert Farazin. Founder.",
+      "htmlSnippet": "<b>Dubjoy</b> translates and voice-overs your video to any language. Founded in by ... San Francisco. Former <b>Founders</b>. Robert Farazin. <b>Founder</b>.",
+      "formattedUrl": "https://www.ycombinator.com/companies/dubjoy",
+      "htmlFormattedUrl": "https://www.ycombinator.com/companies/<b>dubjoy</b>",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_jlx_ttcDqicgZBVs0DjrnlFIWkOUPYZ1SvaiGlEZzk4B6xRiqshYu3_C&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "image": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/18fb3500aa01f425bb6eff25e2c49c4ce68699ec.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAA2L633AS%2F20250813%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250813T064028Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEN7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIHhWw4pT4V30Mk%2FznOXezZgKXVzdE7yQdnVMXM3jupWWAiB6ZwPq5XDRG1SRNzCLu3tRygJNaoevLl6D4tich6SQWCrlAwgnEAAaDDAwNjIwMTgxMTA3MiIMzs7GjNYnOwfmuhGkKsIDQ6hvq4Xp%2FsfupBIe465%2Br%2Bsd%2B0XGxxqOSgBARgKbEQa4YDLq%2FtljHO2nGlatJ2R5ELnytOB0Oz4EhXKsWGyVcMvyMolubgSf10lhM3qGQeFTxmXXHbZPBaJV2WnsxJJicv3kaYOMi%2FMVn%2F%2B7pv3oMV25KblVhuAGAegLN4J%2BtGK5yI3r%2Bo5n81g2lW9jMsiyFCNdm48xfNbQ6bqWPYiE5%2B8%2FMEu2Dmi9d0wkk5Pi9E2HfgAub3BlikVVoXmx3TKfYMejzgxZti2PUeoe68NeVq5t4mLj3LZVxAIA%2FcddsOAVM8l%2FBlh5IvV3hX0bT1GcT%2FNyZ9R0m7iNfKCVSAm7khEB42o2EzGBDhKTxO8twEc%2Bf0mTWMdVTezsB9k8z6eVPixtJjTbPBTXLmY61XJ4cPEQtsZWYVVAPk6SIdW5j4j4U99zl%2FIvI1ThV0DMqWT7GISY3Z52yw3JRwfrzMGHJvLAxfRTiGXu07riAVfcEudn",
+            "og:image": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/18fb3500aa01f425bb6eff25e2c49c4ce68699ec.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAA2L633AS%2F20250813%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250813T064028Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEN7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIHhWw4pT4V30Mk%2FznOXezZgKXVzdE7yQdnVMXM3jupWWAiB6ZwPq5XDRG1SRNzCLu3tRygJNaoevLl6D4tich6SQWCrlAwgnEAAaDDAwNjIwMTgxMTA3MiIMzs7GjNYnOwfmuhGkKsIDQ6hvq4Xp%2FsfupBIe465%2Br%2Bsd%2B0XGxxqOSgBARgKbEQa4YDLq%2FtljHO2nGlatJ2R5ELnytOB0Oz4EhXKsWGyVcMvyMolubgSf10lhM3qGQeFTxmXXHbZPBaJV2WnsxJJicv3kaYOMi%2FMVn%2F%2B7pv3oMV25KblVhuAGAegLN4J%2BtGK5yI3r%2Bo5n81g2lW9jMsiyFCNdm48xfNbQ6bqWPYiE5%2B8%2FMEu2Dmi9d0wkk5Pi9E2HfgAub3BlikVVoXmx3TKfYMejzgxZti2PUeoe68NeVq5t4mLj3LZVxAIA%2FcddsOAVM8l%2FBlh5IvV3hX0bT1GcT%2FNyZ9R0m7iNfKCVSAm7khEB42o2EzGBDhKTxO8twEc%2Bf0mTWMdVTezsB9k8z6eVPixtJjTbPBTXLmY61XJ4cPEQtsZWYVVAPk6SIdW5j4j4U99zl%2FIvI1ThV0DMqWT7GISY3Z52yw3JRwfrzMGHJvLAxfRTiGXu07riAVfcEudn",
+            "twitter:card": "summary_large_image",
+            "og:type": "website",
+            "og:site_name": "Y Combinator",
+            "og:image:url": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/18fb3500aa01f425bb6eff25e2c49c4ce68699ec.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAA2L633AS%2F20250813%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250813T064028Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEN7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIHhWw4pT4V30Mk%2FznOXezZgKXVzdE7yQdnVMXM3jupWWAiB6ZwPq5XDRG1SRNzCLu3tRygJNaoevLl6D4tich6SQWCrlAwgnEAAaDDAwNjIwMTgxMTA3MiIMzs7GjNYnOwfmuhGkKsIDQ6hvq4Xp%2FsfupBIe465%2Br%2Bsd%2B0XGxxqOSgBARgKbEQa4YDLq%2FtljHO2nGlatJ2R5ELnytOB0Oz4EhXKsWGyVcMvyMolubgSf10lhM3qGQeFTxmXXHbZPBaJV2WnsxJJicv3kaYOMi%2FMVn%2F%2B7pv3oMV25KblVhuAGAegLN4J%2BtGK5yI3r%2Bo5n81g2lW9jMsiyFCNdm48xfNbQ6bqWPYiE5%2B8%2FMEu2Dmi9d0wkk5Pi9E2HfgAub3BlikVVoXmx3TKfYMejzgxZti2PUeoe68NeVq5t4mLj3LZVxAIA%2FcddsOAVM8l%2FBlh5IvV3hX0bT1GcT%2FNyZ9R0m7iNfKCVSAm7khEB42o2EzGBDhKTxO8twEc%2Bf0mTWMdVTezsB9k8z6eVPixtJjTbPBTXLmY61XJ4cPEQtsZWYVVAPk6SIdW5j4j4U99zl%2FIvI1ThV0DMqWT7GISY3Z52yw3JRwfrzMGHJvLAxfRTiGXu07riAVfcEudn",
+            "og:title": "Dubjoy: Dubjoy translates and voice-overs your video to any language | Y Combinator",
+            "csrf-param": "authenticity_token",
+            "title": "Dubjoy: Dubjoy translates and voice-overs your video to any language",
+            "og:description": "Dubjoy translates and voice-overs your video to any language. Founded in  by , Dubjoy has 2 employees based in San Francisco, CA, USA.",
+            "twitter:image": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/18fb3500aa01f425bb6eff25e2c49c4ce68699ec.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAA2L633AS%2F20250813%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250813T064028Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEN7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIHhWw4pT4V30Mk%2FznOXezZgKXVzdE7yQdnVMXM3jupWWAiB6ZwPq5XDRG1SRNzCLu3tRygJNaoevLl6D4tich6SQWCrlAwgnEAAaDDAwNjIwMTgxMTA3MiIMzs7GjNYnOwfmuhGkKsIDQ6hvq4Xp%2FsfupBIe465%2Br%2Bsd%2B0XGxxqOSgBARgKbEQa4YDLq%2FtljHO2nGlatJ2R5ELnytOB0Oz4EhXKsWGyVcMvyMolubgSf10lhM3qGQeFTxmXXHbZPBaJV2WnsxJJicv3kaYOMi%2FMVn%2F%2B7pv3oMV25KblVhuAGAegLN4J%2BtGK5yI3r%2Bo5n81g2lW9jMsiyFCNdm48xfNbQ6bqWPYiE5%2B8%2FMEu2Dmi9d0wkk5Pi9E2HfgAub3BlikVVoXmx3TKfYMejzgxZti2PUeoe68NeVq5t4mLj3LZVxAIA%2FcddsOAVM8l%2FBlh5IvV3hX0bT1GcT%2FNyZ9R0m7iNfKCVSAm7khEB42o2EzGBDhKTxO8twEc%2Bf0mTWMdVTezsB9k8z6eVPixtJjTbPBTXLmY61XJ4cPEQtsZWYVVAPk6SIdW5j4j4U99zl%2FIvI1ThV0DMqWT7GISY3Z52yw3JRwfrzMGHJvLAxfRTiGXu07riAVfcEudn",
+            "og:image:secure_url": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/18fb3500aa01f425bb6eff25e2c49c4ce68699ec.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAA2L633AS%2F20250813%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250813T064028Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEN7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIHhWw4pT4V30Mk%2FznOXezZgKXVzdE7yQdnVMXM3jupWWAiB6ZwPq5XDRG1SRNzCLu3tRygJNaoevLl6D4tich6SQWCrlAwgnEAAaDDAwNjIwMTgxMTA3MiIMzs7GjNYnOwfmuhGkKsIDQ6hvq4Xp%2FsfupBIe465%2Br%2Bsd%2B0XGxxqOSgBARgKbEQa4YDLq%2FtljHO2nGlatJ2R5ELnytOB0Oz4EhXKsWGyVcMvyMolubgSf10lhM3qGQeFTxmXXHbZPBaJV2WnsxJJicv3kaYOMi%2FMVn%2F%2B7pv3oMV25KblVhuAGAegLN4J%2BtGK5yI3r%2Bo5n81g2lW9jMsiyFCNdm48xfNbQ6bqWPYiE5%2B8%2FMEu2Dmi9d0wkk5Pi9E2HfgAub3BlikVVoXmx3TKfYMejzgxZti2PUeoe68NeVq5t4mLj3LZVxAIA%2FcddsOAVM8l%2FBlh5IvV3hX0bT1GcT%2FNyZ9R0m7iNfKCVSAm7khEB42o2EzGBDhKTxO8twEc%2Bf0mTWMdVTezsB9k8z6eVPixtJjTbPBTXLmY61XJ4cPEQtsZWYVVAPk6SIdW5j4j4U99zl%2FIvI1ThV0DMqWT7GISY3Z52yw3JRwfrzMGHJvLAxfRTiGXu07riAVfcEudn",
+            "twitter:site": "@ycombinator",
+            "viewport": "initial-scale=1, width=device-width, height=device-height",
+            "csrf-token": "2-J45w1MAzViF3ZKGCAuz6noxU6uM_Sibp0tgQULEIv6UbEx9-guHCcZQEePonsucSB85rU17bpmKt_L9_ZPXQ",
+            "og:locale": "en_US",
+            "og:url": "https://www.ycombinator.com/companies/dubjoy"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "x-raw-image:///7481412385fe6d0f7d4a3339d90fe12309432ca41983e8d350b232301d5d8684"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Rok Krulec - Crunchbase Person Profile",
+      "htmlTitle": "Rok Krulec - Crunchbase Person Profile",
+      "link": "https://www.crunchbase.com/person/rok-krulec",
+      "displayLink": "www.crunchbase.com",
+      "snippet": "Rok Krulec has had 5 past jobs including CEO and Co-founder at Dubjoy . ... founders chose to start or grow their companies in Silicon Valley - TNW Entrepreneur.",
+      "htmlSnippet": "Rok Krulec has had 5 past jobs including CEO and Co-<b>founder</b> at <b>Dubjoy</b> . ... <b>founders</b> chose to start or grow their companies in Silicon Valley - TNW Entrepreneur.",
+      "formattedUrl": "https://www.crunchbase.com/person/rok-krulec",
+      "htmlFormattedUrl": "https://www.crunchbase.com/person/rok-krulec",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsdzqjLwsaL0uEPtUPFDyrK1_W6DiuVfwf6s0ad9K8mJR_CV1RzCy3IiE&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "WebPage": [
+          {}
+        ],
+        "metatags": [
+          {
+            "og:image": "https://images.crunchbase.com/image/upload/c_thumb,h_256,w_256,f_auto,g_face,z_0.7,q_auto:eco,dpr_1/v1424612103/qlnubbhc3jwvrbjtjbgt.png",
+            "og:type": "website",
+            "og:image:alt": "Rok Krulec",
+            "og:image:width": "256",
+            "og:site_name": "Crunchbase",
+            "viewport": "width=device-width, minimum-scale=1.0, initial-scale=1.0",
+            "og:title": "Rok Krulec - Crunchbase Person Profile",
+            "og:image:height": "256",
+            "og:url": "https://www.crunchbase.com/person/rok-krulec",
+            "og:description": "Rok Krulec is a co-founder and Technology Officer at Gnowbe, leading San Francisco based dev team.\r\n\r\nIn the past he was founder of DoubleRe...",
+            "og:image:secure_url": "https://images.crunchbase.com/image/upload/c_thumb,h_256,w_256,f_auto,g_face,z_0.7,q_auto:eco,dpr_1/v1424612103/qlnubbhc3jwvrbjtjbgt.png"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://images.crunchbase.com/image/upload/c_thumb,h_256,w_256,f_auto,g_face,z_0.7,q_auto:eco,dpr_1/v1424612103/qlnubbhc3jwvrbjtjbgt.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "break the beat",
+      "htmlTitle": "break the beat",
+      "link": "https://breakthebeat.org/",
+      "displayLink": "breakthebeat.org",
+      "snippet": "... founding DoubleRecall and Dubjoy with Robert, Rok and Rok. Oh and then there's the Timekiwi episode. As I look back it's clear these were some of the best ...",
+      "htmlSnippet": "... <b>founding</b> DoubleRecall and <b>Dubjoy</b> with Robert, Rok and Rok. Oh and then there&#39;s the Timekiwi episode. As I look back it&#39;s clear these were some of the best&nbsp;...",
+      "formattedUrl": "https://breakthebeat.org/",
+      "htmlFormattedUrl": "https://breakthebeat.org/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzXqps-IGEhDS7b9SeCGf5ffrR_kNs5njtNUlMGmxWa_GRMDiMEWqvKB6N&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "http://assets.breakthebeat.org.s3.amazonaws.com/assets/images/logo_on_yellow.png",
+            "twitter:app:id:googleplay": "com.tumblr",
+            "twitter:app:url:iphone": "tumblr://x-callback-url/blog?blogName=breakthebeatorg&referrer=twitter-cards",
+            "og:type": "blog",
+            "twitter:card": "summary",
+            "twitter:title": "break the beat",
+            "og:site_name": "break the beat",
+            "og:title": "break the beat",
+            "twitter:app:url:ipad": "tumblr://x-callback-url/blog?blogName=breakthebeatorg&referrer=twitter-cards",
+            "twitter:app:id:ipad": "305343404",
+            "twitter:app:name:googleplay": "Tumblr",
+            "twitter:app:id:iphone": "305343404",
+            "og:description": "A place for design, photography, politics, music and food. A blog by Miha Rebernik.",
+            "twitter:creator": "breakthebeatorg",
+            "twitter:app:url:googleplay": "tumblr://x-callback-url/blog?blogName=breakthebeatorg&referrer=twitter-cards",
+            "twitter:site": "tumblr",
+            "twitter:app:name:ipad": "Tumblr",
+            "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+            "twitter:description": "A place for design, photography, politics, music and food. Written by Miha Rebernik",
+            "twitter:app:name:iphone": "Tumblr"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "http://assets.breakthebeat.org.s3.amazonaws.com/assets/images/logo_on_yellow.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Miha Rebernik - Crunchbase Person Profile",
+      "htmlTitle": "Miha Rebernik - Crunchbase Person Profile",
+      "link": "https://www.crunchbase.com/person/miha-rebernik",
+      "displayLink": "www.crunchbase.com",
+      "snippet": "Dubjoy Logo. Dubjoy. Co-founder and CTO, 2012, 2014. CodeArtists Logo. CodeArtists. Co-founder and Product Designer, 2011, 2014. DoubleRecall Logo. DoubleRecall.",
+      "htmlSnippet": "<b>Dubjoy</b> Logo. <b>Dubjoy</b>. Co-<b>founder</b> and CTO, 2012, 2014. CodeArtists Logo. CodeArtists. Co-<b>founder</b> and Product Designer, 2011, 2014. DoubleRecall Logo. DoubleRecall.",
+      "formattedUrl": "https://www.crunchbase.com/person/miha-rebernik",
+      "htmlFormattedUrl": "https://www.crunchbase.com/person/miha-rebernik",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj89X2alyoNvoKHtKQmTGUfH-EMEKoRgfPTY9-6aFdmTH7CU_TkCjVnpQf&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "WebPage": [
+          {}
+        ],
+        "metatags": [
+          {
+            "og:image": "https://images.crunchbase.com/image/upload/c_thumb,h_256,w_256,f_auto,g_face,z_0.7,q_auto:eco,dpr_1/v1397630399/0370f8a1bf7003fbc08bdfe7712b37aa.jpg",
+            "og:type": "website",
+            "og:image:alt": "Miha Rebernik",
+            "og:image:width": "256",
+            "og:site_name": "Crunchbase",
+            "viewport": "width=device-width, minimum-scale=1.0, initial-scale=1.0",
+            "og:title": "Miha Rebernik - Crunchbase Person Profile",
+            "og:image:height": "256",
+            "og:url": "https://www.crunchbase.com/person/miha-rebernik",
+            "og:description": "Co-founder of DoubleRecall and mmatcher.\r\n\r\nHe is devoted to the design and development of innovative web services and applications. He star...",
+            "og:image:secure_url": "https://images.crunchbase.com/image/upload/c_thumb,h_256,w_256,f_auto,g_face,z_0.7,q_auto:eco,dpr_1/v1397630399/0370f8a1bf7003fbc08bdfe7712b37aa.jpg"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://images.crunchbase.com/image/upload/c_thumb,h_256,w_256,f_auto,g_face,z_0.7,q_auto:eco,dpr_1/v1397630399/0370f8a1bf7003fbc08bdfe7712b37aa.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Jure Žove - Helping founders make better content. | LinkedIn",
+      "htmlTitle": "Jure Žove - Helping <b>founders</b> make better content. | LinkedIn",
+      "link": "https://si.linkedin.com/in/jurezove",
+      "displayLink": "si.linkedin.com",
+      "snippet": "Dubjoy. Oct 2013 - Jan 2014 4 months. Remote. Made the Dubjoy Subtitler app for the iPad. iOS Developer. iSpot. Nov 2011 - Oct 2013 2 years. Maribor. iOS App ...",
+      "htmlSnippet": "<b>Dubjoy</b>. Oct 2013 - Jan 2014 4 months. Remote. Made the <b>Dubjoy</b> Subtitler app for the iPad. iOS Developer. iSpot. Nov 2011 - Oct 2013 2 years. Maribor. iOS App&nbsp;...",
+      "formattedUrl": "https://si.linkedin.com/in/jurezove",
+      "htmlFormattedUrl": "https://si.linkedin.com/in/jurezove",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnJgAt74ZSI9SuLrWOs9IquieMvDL0bao8pkg0Isy-w8M4oBKi1JKgff4e&s",
+            "width": "200",
+            "height": "200"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://media.licdn.com/dms/image/v2/D5603AQE8xfasz10-pQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1721215832859?e=2147483647&v=beta&t=OgINJlWYOTYGMFXmHxHhhLSPSmwXhkJpll0VFs1hx08",
+            "twitter:card": "summary",
+            "linkedin:pagetag": "openToProvider",
+            "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+            "al:android:package": "com.linkedin.android",
+            "bingbot": "nocache",
+            "locale": "en_US",
+            "al:ios:url": "https://si.linkedin.com/in/jurezove",
+            "og:description": "Helping founders make better content. · I’ve been building software for 18+ years: shipping products, leading teams, and helping 8‑figure companies rethink how people interact with tech. My last job as a Software Engineer was at ConvertKit (now Kit), and I used to say it’d be my last. In 2023, I made that true.\n\nSince then, I’ve been working full-time with my wife to scale our e-commerce brand. We crossed €2M in revenue—not by running ads or chasing trends, but by creating content that actually connects.\n\nNow, with the relaunch of our agency Super Spicy Media, we’re helping founders do the same—build brands that grow through meaningful, strategic content.\n\nIf you’re building something worth caring about, let’s talk content that reflects that. · Experience: Super Spicy Media · Education: FERI · Location: Slovenia · 224 connections on LinkedIn. View Jure Žove’s profile on LinkedIn, a professional community of 1 billion members.",
+            "al:ios:app_store_id": "288429040",
+            "platform": "https://static.licdn.com/aero-v1/sc/h/50rhhil0lpchs3iqo4twn4tk9",
+            "twitter:image": "https://media.licdn.com/dms/image/v2/D5603AQE8xfasz10-pQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1721215832859?e=2147483647&v=beta&t=OgINJlWYOTYGMFXmHxHhhLSPSmwXhkJpll0VFs1hx08",
+            "profile:last_name": "Žove",
+            "twitter:site": "@Linkedin",
+            "litmsprofilename": "public-profile-frontend",
+            "profile:first_name": "Jure",
+            "og:type": "profile",
+            "twitter:title": "Jure Žove - Helping founders make better content. | LinkedIn",
+            "al:ios:app_name": "LinkedIn",
+            "og:title": "Jure Žove - Helping founders make better content. | LinkedIn",
+            "pagekey": "public_profile_v3_mobile",
+            "al:android:url": "https://si.linkedin.com/in/jurezove",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "twitter:description": "Helping founders make better content. · I’ve been building software for 18+ years: shipping products, leading teams, and helping 8‑figure companies rethink how people interact with tech. My last job as a Software Engineer was at ConvertKit (now Kit), and I used to say it’d be my last. In 2023, I made that true.\n\nSince then, I’ve been working full-time with my wife to scale our e-commerce brand. We crossed €2M in revenue—not by running ads or chasing trends, but by creating content that actually connects.\n\nNow, with the relaunch of our agency Super Spicy Media, we’re helping founders do the same—build brands that grow through meaningful, strategic content.\n\nIf you’re building something worth caring about, let’s talk content that reflects that. · Experience: Super Spicy Media · Education: FERI · Location: Slovenia · 224 connections on LinkedIn. View Jure Žove’s profile on LinkedIn, a professional community of 1 billion members.",
+            "ubba": "https://static.licdn.com/aero-v1/sc/h/41b802ccd3dg7q90ypctzxybx",
+            "og:url": "https://si.linkedin.com/in/jurezove",
+            "al:android:app_name": "LinkedIn"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://media.licdn.com/dms/image/v2/D5603AQE8xfasz10-pQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1721215832859?e=2147483647&v=beta&t=OgINJlWYOTYGMFXmHxHhhLSPSmwXhkJpll0VFs1hx08"
+          }
+        ],
+        "Person": [
+          {}
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "How do online translators work? - Quora",
+      "htmlTitle": "How do online translators work? - Quora",
+      "link": "https://www.quora.com/How-do-online-translators-work",
+      "displayLink": "www.quora.com",
+      "snippet": "Sep 8, 2011 ... Dubjoy has already been used to dub KhanAcademy videos. Disclosure: I'm a co-founder.",
+      "htmlSnippet": "Sep 8, 2011 <b>...</b> <b>Dubjoy</b> has already been used to dub KhanAcademy videos. Disclosure: I&#39;m a co-<b>founder</b>.",
+      "formattedUrl": "https://www.quora.com/How-do-online-translators-work",
+      "htmlFormattedUrl": "https://www.quora.com/How-do-online-translators-work",
+      "pagemap": {
+        "metatags": [
+          {
+            "al:android:url": "intent://www.quora.com/How-do-online-translators-work#Intent;scheme=qhttp;package=com.quora.android;S.market_referrer=launch_url=https%3A%2F%2Fwww.quora.com%2FHow-do-online-translators-work&logging_data=uid%3DNone;end",
+            "theme-color": "#b92b27",
+            "viewport": "initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width, minimum-scale=1, viewport-fit=cover",
+            "al:android:package": "com.quora.android",
+            "fb:pages": "255232486973",
+            "twitter:widgets:theme": "light"
+          }
+        ],
+        "QAPage": [
+          {}
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "The next episode — break the bit",
+      "htmlTitle": "The next episode — break the bit",
+      "link": "https://breakthebit.org/post/86381126283/the-next-episode",
+      "displayLink": "breakthebit.org",
+      "snippet": "May 20, 2014 ... ... founding DoubleRecall and Dubjoy with Robert, Rok and Rok. Oh and then there's the Timekiwi episode. As I look back it's clear these were ...",
+      "htmlSnippet": "May 20, 2014 <b>...</b> ... <b>founding</b> DoubleRecall and <b>Dubjoy</b> with Robert, Rok and Rok. Oh and then there&#39;s the Timekiwi episode. As I look back it&#39;s clear these were&nbsp;...",
+      "formattedUrl": "https://breakthebit.org/post/86381126283/the-next-episode",
+      "htmlFormattedUrl": "https://breakthebit.org/post/86381126283/the-next-episode",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8R6zamlT_XsR9KImsRO-gdxM3RcSXxZcNwhPFhFXjXPvIzqKrHEVji1cM&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "twitter:card": "summary",
+            "twitter:title": "The next episode",
+            "og:type": "article",
+            "og:site_name": "break the bit",
+            "twitter:url": "https://breakthebit.org/post/86381126283/the-next-episode",
+            "og:title": "The next episode",
+            "twitter:creator": "@mihar",
+            "og:description": "And it’s official: I’ve joined Coinbase full-time in sunny San Francisco.\n\n\n\n It’s been a hell of a ride so far, we’ve started many companies and projects — from OdpiralniCasi with David to joining Y Combinator and founding DoubleRecall and Dubjoy with Robert, Rok and Rok. Oh and then there’s the Timekiwi episode.\n\n\n\n As I look back it’s clear these were some of the best years so far and I’m very grateful to all the people I’ve met and for the experience I’ve gained.\n\n\n\n Now off to the next chapter, where I’ll help Coinbase with new products that will change the financial industry forever.\n\n\n\n Oh, and I’ll finally be able to fully live up to my tagline “I design, build and ship products.” as we deploy new stuff to millions of users worldwide.",
+            "twitter:image": "http://assets.breakthebit.org/assets/images/biglogo.png",
+            "twitter:site": "@breakthebitorg",
+            "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+            "twitter:description": "And it’s official: I’ve joined Coinbase full-time in sunny San Francisco.\n\n\n\n It’s been a hell of a ride so far, we’ve started many companies and projects — from OdpiralniCasi with David to joining Y Combinator and founding DoubleRecall and Dubjoy with Robert, Rok and Rok. Oh and then there’s the Timekiwi episode.\n\n\n\n As I look back it’s clear these were some of the best years so far and I’m very grateful to all the people I’ve met and for the experience I’ve gained.\n\n\n\n Now off to the next chapter, where I’ll help Coinbase with new products that will change the financial industry forever.\n\n\n\n Oh, and I’ll finally be able to fully live up to my tagline “I design, build and ship products.” as we deploy new stuff to millions of users worldwide.",
+            "og:url": "https://breakthebit.org/post/86381126283/the-next-episode"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "http://assets.breakthebit.org/assets/images/miha.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Is there a crowdsourcing platform for getting people to record voice ...",
+      "htmlTitle": "Is there a crowdsourcing platform for getting people to record voice ...",
+      "link": "https://www.quora.com/Is-there-a-crowdsourcing-platform-for-getting-people-to-record-voice-over-video",
+      "displayLink": "www.quora.com",
+      "snippet": "Aug 14, 2011 ... Dubjoy is an advanced platform for translating the videos. offering ... Founder, CEO crowdspring.com · Author has 82 answers and 174.7K ...",
+      "htmlSnippet": "Aug 14, 2011 <b>...</b> <b>Dubjoy</b> is an advanced platform for translating the videos. offering ... <b>Founder</b>, CEO crowdspring.com · Author has 82 answers and 174.7K&nbsp;...",
+      "formattedUrl": "https://www.quora.com/Is-there-a-crowdsourcing-platform-for-getting-peo...",
+      "htmlFormattedUrl": "https://www.quora.com/Is-there-a-crowdsourcing-platform-for-getting-peo...",
+      "pagemap": {
+        "metatags": [
+          {
+            "al:android:url": "intent://www.quora.com/Is-there-a-crowdsourcing-platform-for-getting-people-to-record-voice-over-video#Intent;scheme=qhttp;package=com.quora.android;S.market_referrer=launch_url=https%3A%2F%2Fwww.quora.com%2FIs-there-a-crowdsourcing-platform-for-getting-people-to-record-voice-over-video&logging_data=uid%3DNone;end",
+            "theme-color": "#b92b27",
+            "viewport": "initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width, minimum-scale=1, viewport-fit=cover",
+            "al:android:package": "com.quora.android",
+            "fb:pages": "255232486973",
+            "twitter:widgets:theme": "light"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Adrenaline Factory's Ashfaq Allgoo: “The energy of a Mauritius ...",
+      "htmlTitle": "Adrenaline Factory&#39;s Ashfaq Allgoo: “The energy of a Mauritius ...",
+      "link": "https://mixmag.net/feature/founder-and-director-of-adrenaline-factor-ashfaq-allgoo-im-passionate-about-music-in-all-its-forms-as-long-as-it-hits-me-as-an-eargasm",
+      "displayLink": "mixmag.net",
+      "snippet": "May 5, 2022 ... The others who learnt beside him - Big Papa, Dubjoy and Rain - are now tearing up the scene as professionals. Read this next: Major Lazer's ...",
+      "htmlSnippet": "May 5, 2022 <b>...</b> The others who learnt beside him - Big Papa, <b>Dubjoy</b> and Rain - are now tearing up the scene as professionals. Read this next: Major Lazer&#39;s&nbsp;...",
+      "formattedUrl": "https://mixmag.net/.../founder-and-director-of-adrenaline-factor-ashfaq-allg...",
+      "htmlFormattedUrl": "https://mixmag.net/.../founder-and-director-of-adrenaline-factor-ashfaq-allg...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjeUEToGjaupYlxoGz7rw9Dzc7f1lkrjhrDR5v18kFQ3MsP2StJJhzo1aV&s",
+            "width": "310",
+            "height": "163"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://cdn.craft.cloud/0bfe5635-ac77-4d17-9f4e-811b54bed2f3/assets/images/AshfaqCover.png?width=1200&height=630&quality=60&format=baseline-jpeg&fit=cover&s=yUX0HlgkykGZiwEuRY3Kelm_kHB1LXGBAFDevE6Pad8",
+            "og:type": "article",
+            "og:image:width": "1200",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Adrenaline Factory's Ashfaq Allgoo: “The energy of a Mauritius crowd is unmatched\"",
+            "og:site_name": "Mixmag.net",
+            "og:title": "Adrenaline Factory's Ashfaq Allgoo: “The energy of a Mauritius crowd is unmatched\"",
+            "og:image:height": "630",
+            "og:image:type": "image/jpeg",
+            "yandex-verification": "2b10b5f6e57590c2",
+            "fb:pages": "12120996025",
+            "og:description": "Meet the expert events strategist and savvy-entrepreneur who is putting the Indian Ocean clubbing scene on the map",
+            "article:publisher": "https://www.facebook.com/MixmagMagazine",
+            "twitter:image": "https://cdn.craft.cloud/0bfe5635-ac77-4d17-9f4e-811b54bed2f3/assets/images/AshfaqCover.png?width=1200&height=630&quality=60&format=baseline-jpeg&fit=cover&s=yUX0HlgkykGZiwEuRY3Kelm_kHB1LXGBAFDevE6Pad8",
+            "pocket-site-verification": "5c091b9641b020acfa16ef49eb6020",
+            "fb:app_id": "183012775792463",
+            "twitter:site": "@mixmag",
+            "viewport": "width=device-width",
+            "twitter:description": "Meet the expert events strategist and savvy-entrepreneur who is putting the Indian Ocean clubbing scene on the map",
+            "og:url": "https://mixmag.net/feature/founder-and-director-of-adrenaline-factor-ashfaq-allgoo-im-passionate-about-music-in-all-its-forms-as-long-as-it-hits-me-as-an-eargasm"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.craft.cloud/0bfe5635-ac77-4d17-9f4e-811b54bed2f3/assets/images/AshfaqCover.png?width=1200&height=630&quality=60&format=baseline-jpeg&fit=cover&s=yUX0HlgkykGZiwEuRY3Kelm_kHB1LXGBAFDevE6Pad8"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Spletne Urice | Bi-weekly gatherings of Slovenia's web folks",
+      "htmlTitle": "Spletne Urice | Bi-weekly gatherings of Slovenia&#39;s web folks",
+      "link": "http://urice.si/talks/",
+      "displayLink": "urice.si",
+      "snippet": "Dec 4, 2013 ... ... Dubjoy. Predava Miha Rebernik, Dubjoy founder & CTO. RSVP: Lanyrd · Facebook · Spletne urice #229: Predprocesiranje CSS – zakaj, kako in s čim ...",
+      "htmlSnippet": "Dec 4, 2013 <b>...</b> ... Dubjoy. Predava Miha Rebernik, <b>Dubjoy founder</b> &amp; CTO. RSVP: Lanyrd &middot; Facebook &middot; Spletne urice #229: Predprocesiranje CSS – zakaj, kako in s čim&nbsp;...",
+      "formattedUrl": "http://urice.si/talks/",
+      "htmlFormattedUrl": "http://urice.si/talks/",
+      "pagemap": {
+        "metatags": [
+          {
+            "viewport": "width=device-width"
+          }
+        ]
+      }
+    }
+  ]
+}

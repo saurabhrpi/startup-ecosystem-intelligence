@@ -1,0 +1,77 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - site:sendwave.com (founder OR cofounder)",
+        "totalResults": "1",
+        "searchTerms": "site:sendwave.com (founder OR cofounder)",
+        "count": 1,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ]
+  },
+  "context": {
+    "title": "startup-ecosystem-intelligence"
+  },
+  "searchInformation": {
+    "searchTime": 0.076746,
+    "formattedSearchTime": "0.08",
+    "totalResults": "1",
+    "formattedTotalResults": "1"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "Our Story",
+      "htmlTitle": "Our Story",
+      "link": "https://www.sendwave.com/en-ca/our-story",
+      "displayLink": "www.sendwave.com",
+      "snippet": "Send money with love. Since 2014, Sendwave has made sending money as easy as texting. We keep fees low and transfers fast. And now with wallet, ...",
+      "htmlSnippet": "Send money with love. Since 2014, Sendwave has made sending money as easy as texting. We keep fees low and transfers fast. And now with wallet,&nbsp;...",
+      "formattedUrl": "https://www.sendwave.com/en-ca/our-story",
+      "htmlFormattedUrl": "https://www.sendwave.com/en-ca/our-story",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimvSFce8RH5t5_o1jaT1YvryZtwKm9I-waepaGxvBOERKT0E8crwkOw&s",
+            "width": "181",
+            "height": "25"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://images.ctfassets.net/pqe6664kagrv/1dZzZQVGSTsOwmxCDwUNsf/d83e1361659b72c178b094b85ac348ee/Group.svg?w=500",
+            "theme-color": "#FFEC00",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Our Story",
+            "og:type": "website",
+            "og:site_name": "Sendwave",
+            "og:title": "Our Story",
+            "twitter:creator": "@sendwaveapp",
+            "og:description": "Our Story",
+            "twitter:image": "https://images.ctfassets.net/pqe6664kagrv/1dZzZQVGSTsOwmxCDwUNsf/d83e1361659b72c178b094b85ac348ee/Group.svg?w=500",
+            "next-head-count": "32",
+            "twitter:site": "@sendwaveapp",
+            "viewport": "initial-scale=1.0, width=device-width",
+            "twitter:description": "In just a few years, Sendwave has gone from a simple idea to becoming one of the world’s leading money senders to Africa & Asia. Read more about our story.",
+            "og:url": "https://www.sendwave.com/en-ca/our-story"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://images.ctfassets.net/pqe6664kagrv/1dZzZQVGSTsOwmxCDwUNsf/d83e1361659b72c178b094b85ac348ee/Group.svg?w=500"
+          }
+        ]
+      }
+    }
+  ]
+}

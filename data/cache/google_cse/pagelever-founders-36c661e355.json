@@ -1,0 +1,444 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - \"Pagelever\" founders",
+        "totalResults": "323",
+        "searchTerms": "\"Pagelever\" founders",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - \"Pagelever\" founders",
+        "totalResults": "323",
+        "searchTerms": "\"Pagelever\" founders",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ]
+  },
+  "context": {
+    "title": "startup-ecosystem-intelligence"
+  },
+  "searchInformation": {
+    "searchTime": 0.131946,
+    "formattedSearchTime": "0.13",
+    "totalResults": "323",
+    "formattedTotalResults": "323"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "Pagelever: Facebook analytics. Acquired by Unified in January 2013 ...",
+      "htmlTitle": "<b>Pagelever</b>: Facebook analytics. Acquired by Unified in January 2013 ...",
+      "link": "https://www.ycombinator.com/companies/pagelever",
+      "displayLink": "www.ycombinator.com",
+      "snippet": "PageLever is the leading analytics platform for measuring your brand's presence on Facebook. 4 of the top 10 Facebook pages rely on PageLever, ...",
+      "htmlSnippet": "<b>PageLever</b> is the leading analytics platform for measuring your brand&#39;s presence on Facebook. 4 of the top 10 Facebook pages rely on <b>PageLever</b>,&nbsp;...",
+      "formattedUrl": "https://www.ycombinator.com/companies/pagelever",
+      "htmlFormattedUrl": "https://www.ycombinator.com/companies/<b>pagelever</b>",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_jlx_ttcDqicgZBVs0DjrnlFIWkOUPYZ1SvaiGlEZzk4B6xRiqshYu3_C&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "image": "/logos/medium/missing.png",
+            "og:image": "/logos/medium/missing.png",
+            "twitter:card": "summary_large_image",
+            "og:type": "website",
+            "og:site_name": "Y Combinator",
+            "og:image:url": "/logos/medium/missing.png",
+            "og:title": "Pagelever: Facebook analytics. Acquired by Unified in January 2013. \r\n | Y Combinator",
+            "csrf-param": "authenticity_token",
+            "title": "Pagelever: Facebook analytics. Acquired by Unified in January 2013.",
+            "og:description": "Facebook analytics. Acquired by Unified in January 2013. \r\n. Founded in  by , Pagelever has 11 employees based in San Francisco, CA, USA.",
+            "twitter:image": "/logos/medium/missing.png",
+            "og:image:secure_url": "/logos/medium/missing.png",
+            "twitter:site": "@ycombinator",
+            "viewport": "initial-scale=1, width=device-width, height=device-height",
+            "csrf-token": "z1SUk-q47Y4zQeQSJ9fypZgQaczdLbPAwyiYzW6lF-f-NcuqJiALjXQhwrNxEvPRQ_6jCmWfB5bevC9KfUosdg",
+            "og:locale": "en_US",
+            "og:url": "https://www.ycombinator.com/companies/pagelever"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "x-raw-image:///7481412385fe6d0f7d4a3339d90fe12309432ca41983e8d350b232301d5d8684"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Jesse Channon | Management | The Cannabist Company",
+      "htmlTitle": "Jesse Channon | Management | The Cannabist Company",
+      "link": "https://investors.cannabistcompany.com/management/jesse-channon",
+      "displayLink": "investors.cannabistcompany.com",
+      "snippet": "A member of the founding team at PageLever, a Y Combinator-backed company, Mr. Channon oversaw all revenue and partnerships, working with companies such as ...",
+      "htmlSnippet": "A member of the <b>founding</b> team at <b>PageLever</b>, a Y Combinator-backed company, Mr. Channon oversaw all revenue and partnerships, working with companies such as&nbsp;...",
+      "formattedUrl": "https://investors.cannabistcompany.com/management/jesse-channon",
+      "htmlFormattedUrl": "https://investors.cannabistcompany.com/management/jesse-channon",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-YeTamoZ0-raCflcrGhC7mQQ6AmzODSmjniH-JwQDQfa8lz251SMtIg&s",
+            "width": "502",
+            "height": "100"
+          }
+        ],
+        "metatags": [
+          {
+            "og:type": "website",
+            "og:site_name": "The Cannabist Company",
+            "handheldfriendly": "true",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "og:title": "Jesse Channon | Management | The Cannabist Company",
+            "mobileoptimized": "width",
+            "og:url": "https://investors.cannabistcompany.com/management/jesse-channon",
+            "og:description": "The Investor Relations website contains information about The Cannabist Company's business for stockholders, potential investors, and financial analysts."
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://investors.cannabistcompany.com/sites/g/files/knoqqb87856/themes/site/nir_pid7710/dist/images/new-tcc-logo.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Jeff Widman",
+      "htmlTitle": "Jeff Widman",
+      "link": "http://www.jeffwidman.com/blog/",
+      "displayLink": "www.jeffwidman.com",
+      "snippet": "I recently interviewed Jeff Widman, the founder of PageLever. PageLever is a funded, Y-Combinator start-up that specializes in Facebook Analytics and Facebook ...",
+      "htmlSnippet": "I recently interviewed Jeff Widman, the <b>founder</b> of <b>PageLever</b>. <b>PageLever</b> is a funded, Y-Combinator start-up that specializes in Facebook Analytics and Facebook&nbsp;...",
+      "formattedUrl": "http://www.jeffwidman.com/blog/",
+      "htmlFormattedUrl": "http://www.jeffwidman.com/blog/",
+      "pagemap": {
+        "metatags": [
+          {
+            "viewport": "width=device-width, initial-scale=1, maximum-scale=1.5, minimum-scale=0.5"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Leadership | The Cannabist Company",
+      "htmlTitle": "Leadership | The Cannabist Company",
+      "link": "https://investors.cannabistcompany.com/corporate-governance/leadership",
+      "displayLink": "investors.cannabistcompany.com",
+      "snippet": "A member of the founding team at PageLever, a Y Combinator-backed company, Mr. ... founders of early stage start-ups. Derek Watson. Chief Financial Officer.",
+      "htmlSnippet": "A member of the <b>founding</b> team at <b>PageLever</b>, a Y Combinator-backed company, Mr. ... <b>founders</b> of early stage start-ups. Derek Watson. Chief Financial Officer.",
+      "formattedUrl": "https://investors.cannabistcompany.com/corporate-governance/leadership",
+      "htmlFormattedUrl": "https://investors.cannabistcompany.com/corporate-governance/leadership",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-YeTamoZ0-raCflcrGhC7mQQ6AmzODSmjniH-JwQDQfa8lz251SMtIg&s",
+            "width": "502",
+            "height": "100"
+          }
+        ],
+        "metatags": [
+          {
+            "referrer": "no-referrer",
+            "og:type": "website",
+            "og:site_name": "The Cannabist Company",
+            "handheldfriendly": "true",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "og:title": "Leadership | The Cannabist Company",
+            "mobileoptimized": "width",
+            "og:url": "https://investors.cannabistcompany.com/corporate-governance/leadership",
+            "og:description": "The Investor Relations website contains information about The Cannabist Company's business for stockholders, potential investors, and financial analysts."
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://investors.cannabistcompany.com/sites/g/files/knoqqb87856/themes/site/nir_pid7710/dist/images/new-tcc-logo.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "The Cannabist Co. Announces New CEO, President | Cannabis ...",
+      "htmlTitle": "The Cannabist Co. Announces New CEO, President | Cannabis ...",
+      "link": "https://www.cannabisbusinesstimes.com/business-issues-benchmarks/executive-leadership-team/news/15687037/the-cannabist-co-announces-new-ceo-president",
+      "displayLink": "www.cannabisbusinesstimes.com",
+      "snippet": "Jan 16, 2024 ... A member of the founding team at PageLever, a Y Combinator-backed company, Channon oversaw all revenue and partnerships, working with ...",
+      "htmlSnippet": "Jan 16, 2024 <b>...</b> A member of the <b>founding</b> team at <b>PageLever</b>, a Y Combinator-backed company, Channon oversaw all revenue and partnerships, working with&nbsp;...",
+      "formattedUrl": "https://www.cannabisbusinesstimes.com/.../the-cannabist-co-announces-new...",
+      "htmlFormattedUrl": "https://www.cannabisbusinesstimes.com/.../the-cannabist-co-announces-new...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCLuSPQNncdyeuiR7Oqd-9AlANwd8qPTN22MPjROR0tGG1Kn6kbilv_-oX&s",
+            "width": "254",
+            "height": "198"
+          }
+        ],
+        "metatags": [
+          {
+            "image": "https://img.cannabisbusinesstimes.com/files/base/transpire/all/image/2024/01/cbt.thecannabistco_newceo.jpg?auto=format%2Ccompress&fit=max&q=70&w=1200",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "The Cannabist Co. Announces New CEO, President",
+            "og:type": "article",
+            "article:published_time": "Jan 16th, 2024",
+            "og:site_name": "Cannabis Business Times",
+            "og:title": "The Cannabist Co. Announces New CEO, President",
+            "twitter:image": "https://img.cannabisbusinesstimes.com/files/base/transpire/all/image/2024/01/cbt.thecannabistco_newceo.jpg?auto=format%2Ccompress&fit=max&q=70&w=1200",
+            "article:modified_time": "Jan 16th, 2024",
+            "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+            "twitter:description": "Co-founder Nicholas Vita retired as CEO, a position he held since 2012, but he will continue to serve as a member of the company’s board of directors.",
+            "og:locale": "en",
+            "og:url": "https://www.cannabisbusinesstimes.com/business-issues-benchmarks/executive-leadership-team/news/15687037/the-cannabist-co-announces-new-ceo-president"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://mindful-org-transpire.imgix.net/workspaces/default/uploads/2025/06/bcc-ads-730x570.oxm29Zpz8T.jpg?auto=compress%2Cformat&q=70"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Jeff Widman | Wellfound",
+      "htmlTitle": "Jeff Widman | Wellfound",
+      "link": "https://wellfound.com/p/jeffwidman",
+      "displayLink": "wellfound.com",
+      "snippet": "RockClimbing.com. Owner ; Unified. Director of Research ; TechCrunch. Exit. TechCrunch. Intern ; Netskope. Software Engineer ; PageLever. Exit. PageLever. Founder ...",
+      "htmlSnippet": "RockClimbing.com. Owner ; Unified. Director of Research ; TechCrunch. Exit. TechCrunch. Intern ; Netskope. Software Engineer ; <b>PageLever</b>. Exit. <b>PageLever</b>. <b>Founder</b>&nbsp;...",
+      "formattedUrl": "https://wellfound.com/p/jeffwidman",
+      "htmlFormattedUrl": "https://wellfound.com/p/jeffwidman",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCylD9Qq5NXp2hjptgVMzSfmabl6n62tdy5fWKbO_mxcW3WBjOZSPF7rhy&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "xfn": [
+          {}
+        ],
+        "metatags": [
+          {
+            "image": "https://wellfound.com/assets/logo/og_image-36be61ceeb9edf7bb87dbe020fdc3a6428c127f06daf3692fc5e4e1856acc81a.png",
+            "og:image": "https://photos.wellfound.com/users/56091-large?1430818330",
+            "twitter:card": "summary",
+            "twitter:title": "Jeff Widman",
+            "og:site_name": "Wellfound",
+            "detectify-verification": "00bd751d25bdb494779b40bedece7089",
+            "og:title": "Jeff Widman",
+            "google": "notranslate",
+            "csrf-param": "authenticity_token",
+            "og:description": "View Jeff Widman's profile on Wellfound, the startup and tech network - Entrepreneur - Menlo Park - Owner, RockClimbing.com. Founded/exited: @pagelever & @brandglue. Infrastructure Software...",
+            "twitter:image": "https://photos.wellfound.com/users/56091-large?1430818330",
+            "twitter:site": "@wellfoundhq",
+            "viewport": "initial-scale=1.0,maximum-scale=2.0,width=device-width",
+            "twitter:description": "View Jeff Widman's profile on Wellfound, the startup and tech network - Entrepreneur - Menlo Park - Owner, RockClimbing.com. Founded/exited: @pagelever & @brandglue. Infrastructure Software...",
+            "csrf-token": "ZVSIiMdvIiDg/hTOHXPqF3GmR8Utn4mcLD55c1XtjeUsxD9l41+KSpuqxH0WFZKF+nNdrUdQpOCQoqtjcrSXDg==",
+            "og:url": "https://wellfound.com/p/jeffwidman"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://photos.wellfound.com/users/56091-large?1430818330"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Delivering My First Keynote Speech",
+      "htmlTitle": "Delivering My First Keynote Speech",
+      "link": "https://www.linkedin.com/pulse/delivering-my-first-keynote-speech-jason-shen",
+      "displayLink": "www.linkedin.com",
+      "snippet": "May 10, 2016 ... ... founders of Compose David Turner, cofounder of PageLever (acquired by Unified), all of whom were Summer of 2011 companies. We soon came to ...",
+      "htmlSnippet": "May 10, 2016 <b>...</b> ... <b>founders</b> of Compose David Turner, cofounder of <b>PageLever</b> (acquired by Unified), all of whom were Summer of 2011 companies. We soon came to&nbsp;...",
+      "formattedUrl": "https://www.linkedin.com/.../delivering-my-first-keynote-speech-jason-shen",
+      "htmlFormattedUrl": "https://www.linkedin.com/.../delivering-my-first-keynote-speech-jason-shen",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-nRIK3klccBFKJT0Lt_AaVZ3zGv4OsetJMkLKnB3aBkUUNl14lxEHpvA&s",
+            "width": "298",
+            "height": "169"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://media.licdn.com/dms/image/v2/C5612AQF1gGe7S8f0Yw/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1520086451738?e=2147483647&v=beta&t=n6YrwySMmDKwlI-B2eEGK8DSjAPUq1yCD7kAl0Okfm8",
+            "twitter:card": "summary_large_image",
+            "clientsideingraphs": "1",
+            "al:android:package": "com.linkedin.android",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Reading time",
+            "bingbot": "nocache",
+            "locale": "en_US",
+            "al:ios:url": "https://www.linkedin.com/pulse/delivering-my-first-keynote-speech-jason-shen",
+            "og:description": "This post was first published on my blog The Art of Ass-Kicking In September of 2015, I received a short email with an invitation: Hi Jason, I am part of a non-profit public relations association that is interested in having you speak at our annual conference. Are you currently accepting speaking en",
+            "al:ios:app_store_id": "288429040",
+            "twitter:image": "https://media.licdn.com/dms/image/v2/C5612AQF1gGe7S8f0Yw/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1520086451738?e=2147483647&v=beta&t=n6YrwySMmDKwlI-B2eEGK8DSjAPUq1yCD7kAl0Okfm8",
+            "twitter:data1": "Jason 🧠 Shen",
+            "twitter:data2": "7 min read",
+            "twitter:site": "@LinkedInEditors",
+            "og:type": "article",
+            "twitter:title": "Delivering My First Keynote Speech",
+            "al:ios:app_name": "LinkedIn",
+            "og:title": "Delivering My First Keynote Speech",
+            "pagekey": "p_flagship2_pulse_read",
+            "al:android:url": "https://www.linkedin.com/pulse/delivering-my-first-keynote-speech-jason-shen",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "twitter:description": "This post was first published on my blog The Art of Ass-Kicking In September of 2015, I received a short email with an invitation: Hi Jason, I am part of a non-profit public relations association that is interested in having you speak at our annual conference. Are you currently accepting speaking en",
+            "og:url": "https://www.linkedin.com/pulse/delivering-my-first-keynote-speech-jason-shen",
+            "al:android:app_name": "LinkedIn"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://media.licdn.com/dms/image/v2/C5612AQF1gGe7S8f0Yw/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1520086451738?e=2147483647&v=beta&t=n6YrwySMmDKwlI-B2eEGK8DSjAPUq1yCD7kAl0Okfm8"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "The Cannabist Company Appoints David Hart CEO | citybiz",
+      "htmlTitle": "The Cannabist Company Appoints David Hart CEO | citybiz",
+      "link": "https://www.citybiz.co/article/508203/the-cannabist-company-appoints-david-hart-ceo/",
+      "displayLink": "www.citybiz.co",
+      "snippet": "Jan 15, 2024 ... A member of the founding team at PageLever, a Y Combinator-backed company, Jesse oversaw all revenue and partnerships, working with ...",
+      "htmlSnippet": "Jan 15, 2024 <b>...</b> A member of the <b>founding</b> team at <b>PageLever</b>, a Y Combinator-backed company, Jesse oversaw all revenue and partnerships, working with&nbsp;...",
+      "formattedUrl": "https://www.citybiz.co/.../the-cannabist-company-appoints-david-hart-ceo/",
+      "htmlFormattedUrl": "https://www.citybiz.co/.../the-cannabist-company-appoints-david-hart-ceo/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzWUcv_MH_nZikG_TUekljuu5q89Kt3YGT8Eq5OP9QAuGgqvZQzzR7_ls&s",
+            "width": "300",
+            "height": "168"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://www.citybiz.co/wp-content/uploads/2024/01/David-Hart.jpg",
+            "og:type": "article",
+            "article:published_time": "2024-01-16T00:00:24+00:00",
+            "og:image:width": "500",
+            "og:site_name": "citybiz",
+            "author": "Kevin Parker",
+            "og:title": "The Cannabist Company Appoints David Hart CEO",
+            "og:image:height": "281",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "og:image:type": "image/jpeg",
+            "msapplication-tileimage": "https://www.citybiz.co/wp-content/uploads/2020/06/index.png",
+            "og:description": "NEW YORK–(BUSINESS WIRE)–The Cannabist Company Holdings Inc. (NEO: CBST) (OTCQX: CBSTF) (FSE: 3LP), one of the largest and most experienced... Read More",
+            "twitter:data1": "Kevin Parker",
+            "twitter:data2": "5 minutes",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:locale": "en_US",
+            "og:url": "https://www.citybiz.co/article/508203/the-cannabist-company-appoints-david-hart-ceo/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.citybiz.co/wp-content/uploads/2024/01/David-Hart.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Cannabist Company, Formerly Columbia Care, Finds New CEO ...",
+      "htmlTitle": "Cannabist Company, Formerly Columbia Care, Finds New CEO ...",
+      "link": "https://www.cannabisequipmentnews.com/news/news/22884041/cannabist-company-formerly-columbia-care-finds-new-ceo",
+      "displayLink": "www.cannabisequipmentnews.com",
+      "snippet": "Jan 15, 2024 ... A member of the founding team at PageLever, a Y Combinator-backed company, Channon oversaw all revenue and partnerships, working with ...",
+      "htmlSnippet": "Jan 15, 2024 <b>...</b> A member of the <b>founding</b> team at <b>PageLever</b>, a Y Combinator-backed company, Channon oversaw all revenue and partnerships, working with&nbsp;...",
+      "formattedUrl": "https://www.cannabisequipmentnews.com/.../cannabist-company-formerly-...",
+      "htmlFormattedUrl": "https://www.cannabisequipmentnews.com/.../cannabist-company-formerly-...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVSN4mOA7QrwjsPcBQQEKtOjwYXZ0Fo3PDGeNNXFQqvHZYxLu45FQ-_B0k&s",
+            "width": "280",
+            "height": "180"
+          }
+        ],
+        "metatags": [
+          {
+            "image": "https://img.cannabisequipmentnews.com/files/base/indm/multi/image/2024/01/TCC_Logo_Vert.65a59b5823693.png?auto=format%2Ccompress&fit=max&q=70&rect=43%2C0%2C1112%2C626&w=1200",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Cannabist Company, Formerly Columbia Care, Finds New CEO",
+            "og:type": "article",
+            "article:published_time": "Jan 15th, 2024",
+            "og:site_name": "Cannabis Equipment News",
+            "og:title": "Cannabist Company, Formerly Columbia Care, Finds New CEO",
+            "twitter:image": "https://img.cannabisequipmentnews.com/files/base/indm/multi/image/2024/01/TCC_Logo_Vert.65a59b5823693.png?auto=format%2Ccompress&fit=max&q=70&rect=43%2C0%2C1112%2C626&w=1200",
+            "article:modified_time": "Jan 15th, 2024",
+            "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+            "twitter:description": "Nicholas Vita will continue to serve as a director of the company.",
+            "og:locale": "en",
+            "og:url": "https://www.cannabisequipmentnews.com/news/news/22884041/cannabist-company-formerly-columbia-care-finds-new-ceo"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://img.cannabisequipmentnews.com/files/base/indm/all/site-logos/cen.svg?h=70&auto=format,compress"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "How do developers on Facebook and Twitter's APIs make money ...",
+      "htmlTitle": "How do developers on Facebook and Twitter&#39;s APIs make money ...",
+      "link": "https://www.quora.com/How-do-developers-on-Facebook-and-Twitters-APIs-make-money",
+      "displayLink": "www.quora.com",
+      "snippet": "Apr 25, 2011 ... Profile photo for David Turner. David Turner. Technical Co-Founder @ PageLever.com. · 14y. Both of these APIs have an amazing wealth of ...",
+      "htmlSnippet": "Apr 25, 2011 <b>...</b> Profile photo for David Turner. David Turner. Technical Co-<b>Founder</b> @ <b>PageLever</b>.com. · 14y. Both of these APIs have an amazing wealth of&nbsp;...",
+      "formattedUrl": "https://www.quora.com/How-do-developers-on-Facebook-and-Twitters-AP...",
+      "htmlFormattedUrl": "https://www.quora.com/How-do-developers-on-Facebook-and-Twitters-AP...",
+      "pagemap": {
+        "metatags": [
+          {
+            "al:android:url": "intent://www.quora.com/How-do-developers-on-Facebook-and-Twitters-APIs-make-money#Intent;scheme=qhttp;package=com.quora.android;S.market_referrer=launch_url=https%3A%2F%2Fwww.quora.com%2FHow-do-developers-on-Facebook-and-Twitters-APIs-make-money&logging_data=uid%3DNone;end",
+            "theme-color": "#b92b27",
+            "viewport": "initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width, minimum-scale=1, viewport-fit=cover",
+            "al:android:package": "com.quora.android",
+            "fb:pages": "255232486973",
+            "twitter:widgets:theme": "light"
+          }
+        ],
+        "QAPage": [
+          {}
+        ]
+      }
+    }
+  ]
+}

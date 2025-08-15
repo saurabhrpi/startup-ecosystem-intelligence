@@ -1,0 +1,519 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - site:plangrid.com (founder OR cofounder)",
+        "totalResults": "12",
+        "searchTerms": "site:plangrid.com (founder OR cofounder)",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - site:plangrid.com (founder OR cofounder)",
+        "totalResults": "12",
+        "searchTerms": "site:plangrid.com (founder OR cofounder)",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ]
+  },
+  "context": {
+    "title": "startup-ecosystem-intelligence"
+  },
+  "searchInformation": {
+    "searchTime": 0.121423,
+    "formattedSearchTime": "0.12",
+    "totalResults": "12",
+    "formattedTotalResults": "12"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "Digital Builder Ep. 19: 3 Takeaways on Augmented Reality (AR) and ...",
+      "htmlTitle": "Digital Builder Ep. 19: 3 Takeaways on Augmented Reality (AR) and ...",
+      "link": "https://blog.plangrid.com/2018/03/breaking-virtual-ground-how-ar-and-vr-in-construction-will-transform-jobsites/",
+      "displayLink": "blog.plangrid.com",
+      "snippet": "Sep 27, 2021 ... Mani Golparvar-Fard, CTO and Co-Founder of Reconstruct Inc., join the podcast to explain what's possible with AR and VR in construction. They ...",
+      "htmlSnippet": "Sep 27, 2021 <b>...</b> Mani Golparvar-Fard, CTO and Co-<b>Founder</b> of Reconstruct Inc., join the podcast to explain what&#39;s possible with AR and VR in construction. They&nbsp;...",
+      "formattedUrl": "https://blog.plangrid.com/.../breaking-virtual-ground-how-ar-and-vr-in-con...",
+      "htmlFormattedUrl": "https://blog.plangrid.com/.../breaking-virtual-ground-how-ar-and-vr-in-con...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4DCP3vN7nR6DMnPrIeY1TB52uhIMb_JiZv9zu88jgbUC2E_f0lqcLczg_&s",
+            "width": "300",
+            "height": "168"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://www.autodesk.com/blogs/construction/wp-content/uploads/2021/09/Autodesk_DigitalBuilder_H_QGraphics_EP19_AngelMani_v2_1920x1080-1.png",
+            "article:published_time": "2021-09-27T14:00:53+00:00",
+            "og:image:width": "450",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Digital Builder",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "og:image:type": "image/png",
+            "msapplication-tileimage": "https://www.autodesk.com/blogs/construction/wp-content/uploads/2022/02/favicon-32x32-1.png",
+            "og:description": "On episode 19 of the Digital Builder podcast, construction experts discuss the surpising accessibility and value of AR & VR to projects.",
+            "twitter:creator": "@builder_digital",
+            "article:publisher": "https://facebook.com/autodeskconstructioncloud",
+            "twitter:data1": "Eric Thomas",
+            "twitter:data2": "9 minutes",
+            "ahrefs-site-verification": "20423cd503083f9c046262b0503d2cec72c21989ec8e6092222f46ad8496c61c",
+            "twitter:site": "@adsk_construct",
+            "article:modified_time": "2025-05-20T01:48:07+00:00",
+            "twitter:player:stream": "https://podcasts.captivate.fm/media/c3b681e0-e96b-4c9f-ad94-c7f272f9b311/audio-190175-8374-18747-852a75ae-ad4f-46aa-abc6-b94a3e076dcd.mp3?played_on=player",
+            "adsk-search-crawler-pagename": "adsk:en:blogs:construction:digital-builder-podcast-ep-19-ar-vr",
+            "og:type": "article",
+            "author": "Eric Thomas",
+            "og:title": "Digital Builder Ep. 19: 3 Takeaways on Augmented Reality (AR) and Virtual Reality (VR) in Construction - Digital Builder",
+            "og:image:height": "253",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "og:locale": "en_US",
+            "og:url": "https://www.autodesk.com/blogs/construction/digital-builder-podcast-ep-19-ar-vr/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.autodesk.com/blogs/construction/wp-content/uploads/2021/09/Autodesk_DigitalBuilder_H_QGraphics_EP19_AngelMani_v2_1920x1080-1.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Autodesk Completes PlanGrid Acquisition - PlanGrid Construction ...",
+      "htmlTitle": "Autodesk Completes PlanGrid Acquisition - PlanGrid Construction ...",
+      "link": "https://blog.plangrid.com/2018/12/autodesk-closes-plangrid-acquisition/",
+      "displayLink": "blog.plangrid.com",
+      "snippet": "Dec 20, 2018 ... Tracy Young is the co-founder and CEO at PlanGrid, the leader in construction productivity software, where she oversees the corporate ...",
+      "htmlSnippet": "Dec 20, 2018 <b>...</b> Tracy Young is the co-<b>founder</b> and CEO at PlanGrid, the leader in construction productivity software, where she oversees the corporate&nbsp;...",
+      "formattedUrl": "https://blog.plangrid.com/2018/12/autodesk-closes-plangrid-acquisition/",
+      "htmlFormattedUrl": "https://blog.plangrid.com/2018/12/autodesk-closes-plangrid-acquisition/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRePpFpGk3Wt6rVffGiKbQXyKib7lcCqQfCTzVGLzGbM0KCD_SSX4TEB3M&s",
+            "width": "435",
+            "height": "116"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://blog.plangrid.com/wp-content/uploads/2018/12/PlanGrid-Autodesk-Aquisition-Close.jpg",
+            "og:type": "article",
+            "article:section": "Construction",
+            "article:published_time": "2018-12-20T06:00:15-08:00",
+            "og:image:width": "1500",
+            "twitter:card": "summary",
+            "twitter:title": "Autodesk Completes PlanGrid Acquisition - PlanGrid Construction Productivity Blog",
+            "og:site_name": "PlanGrid Construction Productivity Blog",
+            "og:title": "Autodesk Completes PlanGrid Acquisition - PlanGrid Construction Productivity Blog",
+            "og:image:height": "400",
+            "og:updated_time": "2018-12-20T09:23:55-08:00",
+            "og:description": "Autodesk's acquisition of PlanGrid is an important milestone, accelerating the companies joint vision of closing the construction labor productivity gap.",
+            "twitter:creator": "@PlanGrid",
+            "article:publisher": "https://www.facebook.com/PlanGrid/",
+            "twitter:image": "https://blog.plangrid.com/wp-content/uploads/2018/12/PlanGrid-Autodesk-Aquisition-Close.jpg",
+            "dc.date.issued": "2018-12-20T06:00:15-08:00",
+            "article:tag": "Built With Plangrid",
+            "twitter:site": "@PlanGrid",
+            "article:modified_time": "2018-12-20T09:23:55-08:00",
+            "viewport": "width=device-width,initial-scale=1.0",
+            "twitter:description": "Autodesk's acquisition of PlanGrid is an important milestone, accelerating the companies joint vision of closing the construction labor productivity gap.",
+            "og:locale": "en_US",
+            "og:url": "https://blog.plangrid.com/2018/12/autodesk-closes-plangrid-acquisition/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://blog.plangrid.com/wp-content/uploads/2018/12/PlanGrid-Autodesk-Aquisition-Close.jpg"
+          }
+        ],
+        "hatomfeed": [
+          {}
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Digital Foundations: Solving construction's productivity puzzle",
+      "htmlTitle": "Digital Foundations: Solving construction&#39;s productivity puzzle",
+      "link": "http://pg.plangrid.com/rs/572-JSV-775/images/Digital-Foundations-Solving-Constructions-Productivity-Puzzle-International.pdf",
+      "displayLink": "pg.plangrid.com",
+      "snippet": "CEO and Co-founder, PlanGrid. Construction is at the heart of life in the UK. The industry provides not only the places we live and work, but the buildings ...",
+      "htmlSnippet": "CEO and Co-<b>founder</b>, PlanGrid. Construction is at the heart of life in the UK. The industry provides not only the places we live and work, but the buildings&nbsp;...",
+      "formattedUrl": "http://pg.plangrid.com/.../Digital-Foundations-Solving-Constructions-Produ...",
+      "htmlFormattedUrl": "http://pg.plangrid.com/.../Digital-Foundations-Solving-Constructions-Produ...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg3l-NMTl16VxqwQzOJFr6qR04vSLoVaNhdKxQLgh5jjEgdXc0rHOfAH02&s",
+            "width": "236",
+            "height": "214"
+          }
+        ],
+        "metatags": [
+          {
+            "moddate": "D:20181102161120-07'00'",
+            "creationdate": "D:20181102161112-07'00'",
+            "creator": "Adobe InDesign CC 14.0 (Macintosh)",
+            "producer": "Adobe PDF Library 15.0"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "x-raw-image:///6fef52faa0e8dda3a4752518b65be8fbd3262fcf2041fc66700f0f2f8c9a39e2"
+          }
+        ]
+      },
+      "mime": "application/pdf",
+      "fileFormat": "PDF/Adobe Acrobat"
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "The Ultimate Guide to DOT Construction Technology",
+      "htmlTitle": "The Ultimate Guide to DOT Construction Technology",
+      "link": "http://pg.plangrid.com/rs/572-JSV-775/images/Ultimate_Guide_to_DOT_Construction_Tech.pdf",
+      "displayLink": "pg.plangrid.com",
+      "snippet": "At all levels of government, politicians have been promising fixes for years, only to see their plans founder. Some leaders balk at the cost of these.",
+      "htmlSnippet": "At all levels of government, politicians have been promising fixes for years, only to see their plans <b>founder</b>. Some leaders balk at the cost of these.",
+      "formattedUrl": "http://pg.plangrid.com/.../Ultimate_Guide_to_DOT_Construction_Tech.pdf",
+      "htmlFormattedUrl": "http://pg.plangrid.com/.../Ultimate_Guide_to_DOT_Construction_Tech.pdf",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUWXxuaduOhi23kT1FE-8AqBsNPiXFUbi6EvxY6zPx6zXt8716TZPiHsk&s",
+            "width": "197",
+            "height": "255"
+          }
+        ],
+        "metatags": [
+          {
+            "moddate": "D:20190111094835-08'00'",
+            "creationdate": "D:20190111094827-08'00'",
+            "creator": "Adobe InDesign CC 14.0 (Macintosh)",
+            "producer": "Adobe PDF Library 15.0"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "x-raw-image:///a5f4bd8dc037e9447ccd3e843240d85dd54fbd1226a72fabb4de0d363d009a7c"
+          }
+        ]
+      },
+      "mime": "application/pdf",
+      "fileFormat": "PDF/Adobe Acrobat"
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Getting Started with PlanGrid Submittals and Automatic Submittal Log",
+      "htmlTitle": "Getting Started with PlanGrid Submittals and Automatic Submittal Log",
+      "link": "http://pg.plangrid.com/rs/572-JSV-775/images/Getting_Started_With_PlanGrid_Submittals_and_Automatic_Submittal_Log.pdf",
+      "displayLink": "pg.plangrid.com",
+      "snippet": "Paul Stout, Founder and Director of. Education at Power Summit sums up the importance of submittals when he said, “The submittal process is a time- honored ...",
+      "htmlSnippet": "Paul Stout, <b>Founder</b> and Director of. Education at Power Summit sums up the importance of submittals when he said, “The submittal process is a time- honored&nbsp;...",
+      "formattedUrl": "http://pg.plangrid.com/.../Getting_Started_With_PlanGrid_Submittals_and_...",
+      "htmlFormattedUrl": "http://pg.plangrid.com/.../Getting_Started_With_PlanGrid_Submittals_and_...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShm1Oqus5jrmBErMbD1F3Mp4MCvcPhKVRFCQKrunfE05WqxHaXs57y2Fk&s",
+            "width": "255",
+            "height": "197"
+          }
+        ],
+        "metatags": [
+          {
+            "moddate": "D:20180723090003-07'00'",
+            "creationdate": "D:20180723085956-07'00'",
+            "creator": "Adobe InDesign CC 13.1 (Macintosh)",
+            "producer": "Adobe PDF Library 15.0"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "x-raw-image:///226f478d424ee9836af2ceaadaac76c87ab4c976ae363b89c2788b2a017e493a"
+          }
+        ]
+      },
+      "mime": "application/pdf",
+      "fileFormat": "PDF/Adobe Acrobat"
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Women in Construction: Bringing Grit to a Male Dominated Industry",
+      "htmlTitle": "Women in Construction: Bringing Grit to a Male Dominated Industry",
+      "link": "https://blog.plangrid.com/2019/03/resources-for-women-in-construction/",
+      "displayLink": "blog.plangrid.com",
+      "snippet": "Feb 14, 2025 ... Even technical roles can be tacitly geared towards fully able-bodied men. The founder of PlanGrid, Tracy Young, was inspired to set up the ...",
+      "htmlSnippet": "Feb 14, 2025 <b>...</b> Even technical roles can be tacitly geared towards fully able-bodied men. The <b>founder</b> of PlanGrid, Tracy Young, was inspired to set up the&nbsp;...",
+      "formattedUrl": "https://blog.plangrid.com/2019/03/resources-for-women-in-construction/",
+      "htmlFormattedUrl": "https://blog.plangrid.com/2019/03/resources-for-women-in-construction/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJG_VK4Qj3DjEOMDdRZCYYSxZJmMetVkllMmwAVzfD7uabNwoiP2SeAaA&s",
+            "width": "300",
+            "height": "168"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://www.autodesk.com/blogs/construction/wp-content/uploads/2020/10/Edited-Women-1.jpg",
+            "article:published_time": "2020-02-20T22:38:29+00:00",
+            "og:image:width": "1920",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Digital Builder",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "og:image:type": "image/jpeg",
+            "msapplication-tileimage": "https://www.autodesk.com/blogs/construction/wp-content/uploads/2022/02/favicon-32x32-1.png",
+            "og:description": "We spoke with many women in construction trades about how they are breaking down preconceptions and building incredible things.",
+            "twitter:creator": "@adsk_construct",
+            "article:publisher": "https://facebook.com/autodeskconstructioncloud",
+            "twitter:data1": "Grace Ellis",
+            "twitter:data2": "16 minutes",
+            "ahrefs-site-verification": "20423cd503083f9c046262b0503d2cec72c21989ec8e6092222f46ad8496c61c",
+            "twitter:site": "@adsk_construct",
+            "article:modified_time": "2025-02-14T22:15:03+00:00",
+            "adsk-search-crawler-pagename": "adsk:en:blogs:construction:women-in-trades",
+            "og:type": "article",
+            "author": "Grace Ellis",
+            "og:title": "Women in Construction: Bringing Grit to a Male Dominated Industry",
+            "og:image:height": "1080",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "og:locale": "en_US",
+            "og:url": "https://www.autodesk.com/blogs/construction/women-in-trades/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.autodesk.com/blogs/construction/wp-content/uploads/2020/10/Edited-Women-1.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "3 Megatrends Transforming the Future of Construction - Digital Builder",
+      "htmlTitle": "3 Megatrends Transforming the Future of Construction - Digital Builder",
+      "link": "https://blog.plangrid.com/2018/03/15-of-the-biggest-projects-in-the-world-still-under-construction-slideshare/",
+      "displayLink": "blog.plangrid.com",
+      "snippet": "Nov 8, 2022 ... According to Mallorie Brodie, CEO and Co-Founder at Bridgit, “Not all data is created equally. When it comes to innovation through tech, the ...",
+      "htmlSnippet": "Nov 8, 2022 <b>...</b> According to Mallorie Brodie, CEO and Co-<b>Founder</b> at Bridgit, “Not all data is created equally. When it comes to innovation through tech, the&nbsp;...",
+      "formattedUrl": "https://blog.plangrid.com/.../15-of-the-biggest-projects-in-the-world-still-un...",
+      "htmlFormattedUrl": "https://blog.plangrid.com/.../15-of-the-biggest-projects-in-the-world-still-un...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKzUKcBTlYLu-_hrygMiN9GwxJQb3L8kCpqhMdtNSNCmV0kVHEywxTNms&s",
+            "width": "300",
+            "height": "168"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://www.autodesk.com/blogs/construction/wp-content/uploads/2022/11/construction-megatrends.jpg",
+            "adsk-search-crawler-pagename": "adsk:en:blogs:construction:3-megatrends-construction",
+            "og:type": "article",
+            "article:published_time": "2022-11-08T16:00:43+00:00",
+            "og:image:width": "1920",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Digital Builder",
+            "author": "Grace Ellis",
+            "og:title": "3 Megatrends Transforming the Future of Construction - Digital Builder",
+            "og:image:height": "1080",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "og:image:type": "image/jpeg",
+            "msapplication-tileimage": "https://www.autodesk.com/blogs/construction/wp-content/uploads/2022/02/favicon-32x32-1.png",
+            "og:description": "Trends come and go, but megatrends can make a huge ripple effect that lasts. Learn what the next big Megatrends are coming in the future.",
+            "twitter:creator": "@adsk_construct",
+            "article:publisher": "https://facebook.com/autodeskconstructioncloud",
+            "twitter:data1": "Grace Ellis",
+            "twitter:data2": "6 minutes",
+            "ahrefs-site-verification": "20423cd503083f9c046262b0503d2cec72c21989ec8e6092222f46ad8496c61c",
+            "twitter:site": "@adsk_construct",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "og:locale": "en_US",
+            "og:url": "https://www.autodesk.com/blogs/construction/3-megatrends-construction/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.autodesk.com/blogs/construction/wp-content/uploads/2022/11/construction-megatrends.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "What is Lean Construction? - Digital Builder",
+      "htmlTitle": "What is Lean Construction? - Digital Builder",
+      "link": "https://blog.plangrid.com/2018/06/an-intro-to-the-last-planner-system/",
+      "displayLink": "blog.plangrid.com",
+      "snippet": "4 days ago ... In the 1930s, Kichiro Toyoda, the founder of Toyota, revisited Ford's thinking deeper and came up with simple innovations for continuity. In ...",
+      "htmlSnippet": "4 days ago <b>...</b> In the 1930s, Kichiro Toyoda, the <b>founder</b> of Toyota, revisited Ford&#39;s thinking deeper and came up with simple innovations for continuity. In&nbsp;...",
+      "formattedUrl": "https://blog.plangrid.com/2018/06/an-intro-to-the-last-planner-system/",
+      "htmlFormattedUrl": "https://blog.plangrid.com/2018/06/an-intro-to-the-last-planner-system/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdDfMY-62tbIEWbeHegm3d6-xwwIdTttBHkId9wKHVkZZWti4MMoDU_48&s",
+            "width": "300",
+            "height": "168"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://www.autodesk.com/blogs/construction/wp-content/uploads/2021/03/what-is-lean-construction.jpg",
+            "article:published_time": "2024-02-15T19:39:00+00:00",
+            "og:image:width": "1920",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Digital Builder",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "og:image:type": "image/jpeg",
+            "msapplication-tileimage": "https://www.autodesk.com/blogs/construction/wp-content/uploads/2022/02/favicon-32x32-1.png",
+            "og:description": "Lean Construction is defined as a respect- and relationship-oriented production management-based approach to project delivery. Learn more here.",
+            "twitter:creator": "@adsk_construct",
+            "article:publisher": "https://facebook.com/autodeskconstructioncloud",
+            "twitter:data1": "Grace Ellis",
+            "twitter:data2": "11 minutes",
+            "ahrefs-site-verification": "20423cd503083f9c046262b0503d2cec72c21989ec8e6092222f46ad8496c61c",
+            "twitter:site": "@adsk_construct",
+            "article:modified_time": "2025-08-11T23:09:15+00:00",
+            "adsk-search-crawler-pagename": "adsk:en:blogs:construction:what-is-lean-construction",
+            "og:type": "article",
+            "author": "Grace Ellis",
+            "og:title": "What is Lean Construction? - Digital Builder",
+            "og:image:height": "1080",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "og:locale": "en_US",
+            "og:url": "https://www.autodesk.com/blogs/construction/what-is-lean-construction/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.autodesk.com/blogs/construction/wp-content/uploads/2021/03/what-is-lean-construction.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "6 Ways Concrete Contractors Can Increase Profits - Digital Builder",
+      "htmlTitle": "6 Ways Concrete Contractors Can Increase Profits - Digital Builder",
+      "link": "https://blog.plangrid.com/2018/12/more-than-a-pour-6-ways-concrete-contractors-can-increase-profits/",
+      "displayLink": "blog.plangrid.com",
+      "snippet": "Feb 18, 2022 ... How can concrete contractors increase business outcomes and profits in a traditional low-margin field of work? Learn how in our blog.",
+      "htmlSnippet": "Feb 18, 2022 <b>...</b> How can concrete contractors increase business outcomes and profits in a traditional low-margin field of work? Learn how in our blog.",
+      "formattedUrl": "https://blog.plangrid.com/.../more-than-a-pour-6-ways-concrete-contractors...",
+      "htmlFormattedUrl": "https://blog.plangrid.com/.../more-than-a-pour-6-ways-concrete-contractors...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8gCRKCVLKJZvbJWo-xVUcb8USRu5lJChtAcwiziXYdgcVDa1tB8AC_Sl8&s",
+            "width": "300",
+            "height": "168"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://www.autodesk.com/blogs/construction/wp-content/uploads/2020/08/concrete-contractors-in-construction.jpg",
+            "article:published_time": "2020-08-18T15:00:58+00:00",
+            "og:image:width": "1920",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Digital Builder",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "og:image:type": "image/jpeg",
+            "msapplication-tileimage": "https://www.autodesk.com/blogs/construction/wp-content/uploads/2022/02/favicon-32x32-1.png",
+            "og:description": "How can concrete contractors increase business outcomes and profits in a traditional low-margin field of work? Learn how in our blog.",
+            "twitter:creator": "@adsk_construct",
+            "article:publisher": "https://facebook.com/autodeskconstructioncloud",
+            "twitter:data1": "Grace Ellis",
+            "twitter:data2": "8 minutes",
+            "ahrefs-site-verification": "20423cd503083f9c046262b0503d2cec72c21989ec8e6092222f46ad8496c61c",
+            "twitter:site": "@adsk_construct",
+            "article:modified_time": "2022-02-18T23:11:13+00:00",
+            "adsk-search-crawler-pagename": "adsk:en:blogs:construction:concrete-contractors-construction",
+            "og:type": "article",
+            "author": "Grace Ellis",
+            "og:title": "6 Ways Concrete Contractors Can Increase Profits - Digital Builder",
+            "og:image:height": "1080",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "og:locale": "en_US",
+            "og:url": "https://www.autodesk.com/blogs/construction/concrete-contractors-construction/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.autodesk.com/blogs/construction/wp-content/uploads/2020/08/concrete-contractors-in-construction.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Digital Builder - Autodesk's Construction Blog",
+      "htmlTitle": "Digital Builder - Autodesk&#39;s Construction Blog",
+      "link": "https://blog.plangrid.com/2018/12/40-under-40-construction-champions-of-2018/",
+      "displayLink": "blog.plangrid.com",
+      "snippet": "Ready to explore the future of construction? Digital Builder blog has must-read content & in-depth analysis of the industry's biggest trends.",
+      "htmlSnippet": "Ready to explore the future of construction? Digital Builder blog has must-read content &amp; in-depth analysis of the industry&#39;s biggest trends.",
+      "formattedUrl": "https://blog.plangrid.com/.../40-under-40-construction-champions-of-2018/",
+      "htmlFormattedUrl": "https://blog.plangrid.com/.../40-under-40-construction-champions-of-2018/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToQGhiiaVbZyMv_HPNqYjl2h5gG_cG_fZ3GhMLRPaWczz0cBKagjUuArjO&s",
+            "width": "300",
+            "height": "168"
+          }
+        ],
+        "metatags": [
+          {
+            "adsk-search-crawler-pagename": "adsk:en:blogs:construction",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Digital Builder",
+            "og:title": "Digital Builder - Autodesk's Construction Blog",
+            "msapplication-tileimage": "https://www.autodesk.com/blogs/construction/wp-content/uploads/2022/02/favicon-32x32-1.png",
+            "og:description": "Ready to explore the future of construction? Digital Builder blog has must-read content & in-depth analysis of the industry's biggest trends.",
+            "article:publisher": "https://facebook.com/autodeskconstructioncloud",
+            "ahrefs-site-verification": "20423cd503083f9c046262b0503d2cec72c21989ec8e6092222f46ad8496c61c",
+            "twitter:site": "@adsk_construct",
+            "article:modified_time": "2022-12-01T16:48:10+00:00",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "og:locale": "en_US",
+            "og:url": "https://www.autodesk.com/blogs/construction/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.autodesk.com/blogs/construction/wp-content/uploads/2025/08/data-center-construction-guide-768x432.jpg"
+          }
+        ]
+      }
+    }
+  ]
+}

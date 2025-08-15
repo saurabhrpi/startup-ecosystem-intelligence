@@ -1,0 +1,498 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - \"PlanGrid\" founders",
+        "totalResults": "10200",
+        "searchTerms": "\"PlanGrid\" founders",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - \"PlanGrid\" founders",
+        "totalResults": "10200",
+        "searchTerms": "\"PlanGrid\" founders",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ]
+  },
+  "context": {
+    "title": "startup-ecosystem-intelligence"
+  },
+  "searchInformation": {
+    "searchTime": 0.13823,
+    "formattedSearchTime": "0.14",
+    "totalResults": "10200",
+    "formattedTotalResults": "10,200"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "Founder Stories: Tracy Young of PlanGrid (YC W12) | Y Combinator",
+      "htmlTitle": "<b>Founder</b> Stories: Tracy Young of <b>PlanGrid</b> (YC W12) | Y Combinator",
+      "link": "https://www.ycombinator.com/blog/founder-stories-tracy-young-of-plangrid-yc-w12",
+      "displayLink": "www.ycombinator.com",
+      "snippet": "Sep 3, 2014 ... Tracy Young is the founder and CEO of PlanGrid, an app that lets construction companies store blueprints and documents on mobile devices.",
+      "htmlSnippet": "Sep 3, 2014 <b>...</b> <b>Tracy Young</b> is the <b>founder</b> and CEO of <b>PlanGrid</b>, an app that lets construction companies store blueprints and documents on mobile devices.",
+      "formattedUrl": "https://www.ycombinator.com/.../founder-stories-tracy-young-of-plangrid-...",
+      "htmlFormattedUrl": "https://www.ycombinator.com/.../founder-stories-tracy-young-of-<b>plangrid</b>-...",
+      "pagemap": {
+        "metatags": [
+          {
+            "twitter:card": "summary_large_image",
+            "og:type": "website",
+            "twitter:site": "@ycombinator",
+            "og:site_name": "Y Combinator",
+            "viewport": "initial-scale=1, width=device-width, height=device-height",
+            "csrf-token": "5ipHMli8HPRBlWYPyvUiVw-l5gigUr925TbUAcZTINjYdI0m06AlO_UWmvSz3eeViYiDGeWoyusmxHbevijt1w",
+            "og:title": "Founder Stories: Tracy Young of PlanGrid (YC W12) | Y Combinator",
+            "og:locale": "en_US",
+            "csrf-param": "authenticity_token",
+            "og:url": "https://www.ycombinator.com/blog/founder-stories-tracy-young-of-plangrid-yc-w12",
+            "og:description": "PlanGrid founders Tracy Young, Kenny Stone, Ryan Sutton-Gee and Ralph Gootee\n\nTracy Young is the founder and CEO ofPlanGrid [http://www.plangrid.com/en], an\napp that lets construction companies store blueprints and documents on mobile\ndevices. Since going through the YC’s Winter 2012 batch, PlanGrid has grown from\na team of 4 to 40 and now hosts over 9 million blueprints in their cloud.We\ntalked about what it’s like going from construction sites to a startup, losing a\nco-founder to canc"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Seven Questions with Tracy Young",
+      "htmlTitle": "Seven Questions with Tracy Young",
+      "link": "https://articles.sequoiacap.com/2018-08-08-tracy-young",
+      "displayLink": "articles.sequoiacap.com",
+      "snippet": "Aug 8, 2018 ... Tracy Young is co-founder and CEO of PlanGrid, one of the construction industry's most-used technology platforms with more than 100 million ...",
+      "htmlSnippet": "Aug 8, 2018 <b>...</b> Tracy Young is co-<b>founder</b> and CEO of <b>PlanGrid</b>, one of the construction industry&#39;s most-used technology platforms with more than 100 million&nbsp;...",
+      "formattedUrl": "https://articles.sequoiacap.com/2018-08-08-tracy-young",
+      "htmlFormattedUrl": "https://articles.sequoiacap.com/2018-08-08-tracy-young",
+      "pagemap": {
+        "metatags": [
+          {
+            "msapplication-tilecolor": "#ffffff",
+            "twitter:card": "summary",
+            "twitter:title": "Seven Questions with  Tracy Young",
+            "theme-color": "#ffffff",
+            "twitter:site": "@sequoia",
+            "og:site_name": "Sequoia Capital",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "PlanGrid co-founder and CEO Tracy Young shares hard-won advice on topics ranging from personal development to building companies in this edition of the Seven Questions newsletter.",
+            "og:title": "Seven Questions with  Tracy Young",
+            "msapplication-tileimage": "/img/ms-icon-144x144.png",
+            "og:description": "PlanGrid co-founder and CEO Tracy Young shares hard-won advice on topics ranging from personal development to building companies in this edition of the Seven Questions newsletter."
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Part II: The failure points from $5m to $100m in ARR - Tracy writes",
+      "htmlTitle": "Part II: The failure points from $5m to $100m in ARR - Tracy writes",
+      "link": "https://tracy.posthaven.com/part-ii-the-failure-points-from-$5m-to-$100m-in-arr",
+      "displayLink": "tracy.posthaven.com",
+      "snippet": "Jan 12, 2023 ... I had the privilege of leading PlanGrid to $100M in ARR before I stepped down as CEO and passed the baton to Autodesk Construction.",
+      "htmlSnippet": "Jan 12, 2023 <b>...</b> I had the privilege of leading <b>PlanGrid</b> to $100M in ARR before I stepped down as CEO and passed the baton to Autodesk Construction.",
+      "formattedUrl": "https://tracy.posthaven.com/part-ii-the-failure-points-from-$5m-to-$100m-i...",
+      "htmlFormattedUrl": "https://tracy.posthaven.com/part-ii-the-failure-points-from-$5m-to-$100m-i...",
+      "pagemap": {
+        "metatags": [
+          {
+            "og:image": "https://phaven-prod.s3.amazonaws.com/files/profile_pic/asset/2468479/LpTLMB42x3BNmUzT-5VIzd7HrRk/large_beaver.jpg",
+            "og:type": "article",
+            "og:image:width": "200",
+            "twitter:card": "summary",
+            "og:site_name": "Tracy writes",
+            "viewport": "width=device-width,initial-scale=1",
+            "og:title": "Part II: The failure points from $5m to $100m in ARR",
+            "og:image:height": "200",
+            "og:url": "https://tracy.posthaven.com/part-ii-the-failure-points-from-$5m-to-$100m-in-arr",
+            "og:description": "I had the privilege of leading PlanGrid to $100M in ARR before I stepped down as CEO and passed the baton to Autodesk Construction. I’ve had years to dissect the mistakes I have made in my first...",
+            "twitter:image": "https://phaven-prod.s3.amazonaws.com/files/profile_pic/asset/2468479/LpTLMB42x3BNmUzT-5VIzd7HrRk/large_beaver.jpg"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://phaven-prod.s3.amazonaws.com/files/profile_pic/asset/2468479/LpTLMB42x3BNmUzT-5VIzd7HrRk/large_beaver.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "how-i-became-a-female-ceo-in-construction-tracy-young-of-plangrid",
+      "htmlTitle": "how-i-became-a-female-ceo-in-construction-tracy-young-of-<b>plangrid</b>",
+      "link": "https://college.usatoday.com/2017/03/17/how-i-became-a-female-ceo-in-construction-tracy-young-of-plangrid/",
+      "displayLink": "college.usatoday.com",
+      "snippet": "Mar 17, 2017 ... In the center of an extraordinarily male-dominated industry sits Tracy Young, the co-founder and CEO of PlanGrid. Tracy Young. The product ...",
+      "htmlSnippet": "Mar 17, 2017 <b>...</b> In the center of an extraordinarily male-dominated industry sits Tracy Young, the co-<b>founder</b> and CEO of <b>PlanGrid</b>. Tracy Young. The product&nbsp;...",
+      "formattedUrl": "https://college.usatoday.com/.../how-i-became-a-female-ceo-in-construction...",
+      "htmlFormattedUrl": "https://college.usatoday.com/.../how-i-became-a-female-ceo-in-construction...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyKW0fEdIhTQE3PRgXYdIcIw0pF-3QKBUY4KmTXyhg0F3d6Ie8vsgw-lE&s",
+            "width": "300",
+            "height": "168"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://www.usatoday.com/gcdn/-mm-/a3d1f939dff013ba5e55d884eb889351d093904e/c=0-33-630-387/local/-/media/2018/08/15/USATODAY/usatsports/tracy-young-plangrid-e1489770640939.jpg?width=630&height=354&fit=crop&format=pjpg&auto=webp",
+            "apple-itunes-app": "app-id=504631398,app-argument=https://app.adjust.com/ivqo5xe",
+            "theme-color": "#0098FE",
+            "og:image:width": "630",
+            "og:type": "article",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "How I became a female CEO in construction: Tracy Young of PlanGrid",
+            "og:site_name": "USA TODAY",
+            "og:title": "How I became a female CEO in construction: Tracy Young of PlanGrid",
+            "og:image:height": "354",
+            "google": "notranslate",
+            "og:description": "Welcome to our series “How I Became a …,” where we’re digging into the stories of accomplished and influential people and finding out how they got to where they are in their careers. We’re finding out what their biggest challenges, their biggest...",
+            "fb:pages": "13652355666,48958576760,156345381090801,110471702456365,6566864515,137698179626815,315942225236045,927427260614748,183850168300771,1443524575938047,251228454889939,158095147555989,115535341805950,236655713446291,1621466394844549,250325640686,177037772444433,1972936962947967,2047091012096533,535551216797440",
+            "twitter:creator": "@usatoday",
+            "article:author": "Susannah Hutcheson",
+            "twitter:image": "https://www.usatoday.com/gcdn/-mm-/a3d1f939dff013ba5e55d884eb889351d093904e/c=0-33-630-387/local/-/media/2018/08/15/USATODAY/usatsports/tracy-young-plangrid-e1489770640939.jpg?width=630&height=315&fit=crop&format=pjpg&auto=webp",
+            "fb:app_id": "1279862243338849",
+            "twitter:site": "@usatoday",
+            "viewport": "width=device-width,initial-scale=1,minimum-scale=1",
+            "twitter:description": "Welcome to our series “How I Became a …,” where we’re digging into the stories of accomplished and influential people and finding out how they got to where they are in their careers. We’re finding out what their biggest challenges, their biggest...",
+            "article:content_tier": "metered",
+            "og:url": "https://www.usatoday.com/story/college/2017/03/17/how-i-became-a-female-ceo-in-construction-tracy-young-of-plangrid/37428977/",
+            "article:opinion": "false"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.usatoday.com/gcdn/-mm-/a3d1f939dff013ba5e55d884eb889351d093904e/c=0-33-630-387/local/-/media/2018/08/15/USATODAY/usatsports/tracy-young-plangrid-e1489770640939.jpg?width=630&height=354&fit=crop&format=pjpg&auto=webp"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "PlanGrid Milestone: Making Construction Planning Paperless ...",
+      "htmlTitle": "<b>PlanGrid</b> Milestone: Making Construction Planning Paperless ...",
+      "link": "https://www.sequoiacap.com/article/autodesk-acquires-plangrid/",
+      "displayLink": "www.sequoiacap.com",
+      "snippet": "Nov 20, 2018 ... Tracy and her co-founders launched PlanGrid in 2011 because they were frustrated that construction planning still happened on physical paper.",
+      "htmlSnippet": "Nov 20, 2018 <b>...</b> Tracy and her co-<b>founders</b> launched <b>PlanGrid</b> in 2011 because they were frustrated that construction planning still happened on physical paper.",
+      "formattedUrl": "https://www.sequoiacap.com/article/autodesk-acquires-plangrid/",
+      "htmlFormattedUrl": "https://www.sequoiacap.com/article/autodesk-acquires-<b>plangrid</b>/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQliYE-SqwL7fmqL5ljIZDRnXFTrwVWUvU0AVo9sGVwfXca-MLIZ3yS7bs&s",
+            "width": "341",
+            "height": "148"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://www.sequoiacap.com/wp-content/uploads/sites/6/2021/11/PlanGrid-News-Inline-1.jpg",
+            "og:type": "article",
+            "article:published_time": "2018-11-20T00:00:00+00:00",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Sequoia Capital",
+            "handheldfriendly": "True",
+            "author": "Doug Leone",
+            "og:title": "PlanGrid Milestone: Making Construction Planning Paperless",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "msapplication-tileimage": "https://www.sequoiacap.com/wp-content/uploads/sites/6/2021/11/cropped-cropped-android-chrome-512x512-1.png?w=270",
+            "twitter:data1": "Doug Leone",
+            "twitter:data2": "3 minutes",
+            "article:modified_time": "2024-02-08T01:27:45+00:00",
+            "viewport": "width=device-width, initial-scale=1",
+            "mobileoptimized": "320",
+            "og:locale": "en_US",
+            "og:url": "https://www.sequoiacap.com/article/autodesk-acquires-plangrid/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.sequoiacap.com/wp-content/uploads/sites/6/2021/11/PlanGrid-News-Inline-1.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "How a $1B Company made its First $1M in Revenue | by Ash Rust ...",
+      "htmlTitle": "How a $1B Company made its First $1M in Revenue | by Ash Rust ...",
+      "link": "https://ashrust.medium.com/how-a-1b-company-made-its-first-1m-in-revenue-86a56b37a9b6",
+      "displayLink": "ashrust.medium.com",
+      "snippet": "Oct 29, 2020 ... We'd buy an iPad, then put on a hoodie and go back in for another”, said Tracy Young, PlanGrid co-founder and CEO. Customer Satisfaction. Beta ...",
+      "htmlSnippet": "Oct 29, 2020 <b>...</b> We&#39;d buy an iPad, then put on a hoodie and go back in for another”, said Tracy Young, <b>PlanGrid</b> co-<b>founder</b> and CEO. Customer Satisfaction. Beta&nbsp;...",
+      "formattedUrl": "https://ashrust.medium.com/how-a-1b-company-made-its-first-1m-in-reven...",
+      "htmlFormattedUrl": "https://ashrust.medium.com/how-a-1b-company-made-its-first-1m-in-reven...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3N9T4lErq4034w6WiXOUl4SrQYMeYdHwadmXmGcBPCyDQ-ocWZSvMdKM&s",
+            "width": "315",
+            "height": "160"
+          }
+        ],
+        "metatags": [
+          {
+            "apple-itunes-app": "app-id=828256236, app-argument=/how-a-1b-company-made-its-first-1m-in-revenue-86a56b37a9b6, affiliate-data=pt=698524&ct=smart_app_banner&mt=8",
+            "og:image": "https://miro.medium.com/v2/resize:fit:1200/1*bxzt0KCEEalL2pKwUiQ6PA.jpeg",
+            "twitter:app:url:iphone": "medium://p/86a56b37a9b6",
+            "theme-color": "#000000",
+            "article:published_time": "2020-10-29T23:00:36.285Z",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Medium",
+            "al:android:package": "com.medium.reader",
+            "twitter:label1": "Reading time",
+            "twitter:app:id:iphone": "828256236",
+            "title": "How a $1B Company made its First $1M in Revenue | by Ash Rust | Medium",
+            "al:ios:url": "medium://p/86a56b37a9b6",
+            "og:description": "In November 2018, PlanGrid, a SaaS startup in Construction, announced they were acquired by Autodesk for $875M. When reading about this…",
+            "twitter:creator": "@AshRust",
+            "al:ios:app_store_id": "828256236",
+            "twitter:data1": "4 min read",
+            "twitter:site": "@Medium",
+            "og:type": "article",
+            "twitter:title": "How a $1B Company made its First $1M in Revenue",
+            "al:ios:app_name": "Medium",
+            "author": "Ash Rust",
+            "og:title": "How a $1B Company made its First $1M in Revenue",
+            "al:web:url": "https://ashrust.medium.com/how-a-1b-company-made-its-first-1m-in-revenue-86a56b37a9b6",
+            "article:author": "https://ashrust.medium.com",
+            "twitter:image:src": "https://miro.medium.com/v2/resize:fit:1200/1*bxzt0KCEEalL2pKwUiQ6PA.jpeg",
+            "al:android:url": "medium://p/86a56b37a9b6",
+            "referrer": "unsafe-url",
+            "fb:app_id": "542599432471018",
+            "viewport": "width=device-width,minimum-scale=1,initial-scale=1,maximum-scale=1",
+            "twitter:description": "In November 2018, PlanGrid, a SaaS startup in Construction, announced they were acquired by Autodesk for $875M. When reading about this…",
+            "og:url": "https://ashrust.medium.com/how-a-1b-company-made-its-first-1m-in-revenue-86a56b37a9b6",
+            "twitter:app:name:iphone": "Medium",
+            "al:android:app_name": "Medium"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://miro.medium.com/v2/resize:fit:1200/1*bxzt0KCEEalL2pKwUiQ6PA.jpeg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Tracy Young, Co-Founder & CEO of PlanGrid | Tracy Young",
+      "htmlTitle": "Tracy Young, Co-<b>Founder</b> &amp; CEO of <b>PlanGrid</b> | Tracy Young",
+      "link": "https://www.linkedin.com/posts/tracy-young-0a17441_tracy-young-co-founder-ceo-of-plangrid-activity-7051625263482212352-91Kr",
+      "displayLink": "www.linkedin.com",
+      "snippet": "Apr 11, 2023 ... Tracy Young, Co-Founder & CEO of PlanGrid.",
+      "htmlSnippet": "Apr 11, 2023 <b>...</b> Tracy Young, Co-<b>Founder</b> &amp; CEO of <b>PlanGrid</b>.",
+      "formattedUrl": "https://www.linkedin.com/.../tracy-young-0a17441_tracy-young-co-founde...",
+      "htmlFormattedUrl": "https://www.linkedin.com/.../tracy-young-0a17441_tracy-young-co-founde...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiVpsPR6eoKADRNEM1R4UFkTIiFqOUR4owFVhR3d9A33DO29yiWpEs2C8&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://media.licdn.com/dms/image/sync/v2/D4E27AQGzDTeHOjjr3Q/articleshare-shrink_800/articleshare-shrink_800/0/1718873980897?e=2147483647&v=beta&t=jII__8zD4UMgwz702p8pyTIXUD6OujXXiYUwrbHQzA4",
+            "twitter:title": "Tracy Young, Co-Founder &amp; CEO of PlanGrid | Tracy Young",
+            "twitter:card": "summary_large_image",
+            "og:type": "article",
+            "al:ios:app_name": "LinkedIn",
+            "twitter:url": "https://www.linkedin.com/posts/tracy-young-0a17441_tracy-young-co-founder-ceo-of-plangrid-activity-7051625263482212352-91Kr",
+            "og:title": "Tracy Young, Co-Founder &amp; CEO of PlanGrid | Tracy Young",
+            "al:android:package": "com.linkedin.android",
+            "pagekey": "p_public_post",
+            "locale": "en_US",
+            "al:ios:url": "https://www.linkedin.com/posts/tracy-young-0a17441_tracy-young-co-founder-ceo-of-plangrid-activity-7051625263482212352-91Kr",
+            "og:description": "Tracy Young, Co-Founder & CEO of PlanGrid",
+            "al:ios:app_store_id": "288429040",
+            "twitter:image": "https://media.licdn.com/dms/image/sync/v2/D4E27AQGzDTeHOjjr3Q/articleshare-shrink_800/articleshare-shrink_800/0/1718873980897?e=2147483647&v=beta&t=jII__8zD4UMgwz702p8pyTIXUD6OujXXiYUwrbHQzA4",
+            "al:android:url": "https://www.linkedin.com/posts/tracy-young-0a17441_tracy-young-co-founder-ceo-of-plangrid-activity-7051625263482212352-91Kr",
+            "lnkd:url": "https://www.linkedin.com/feed/update/urn:li:activity:7051625263482212352",
+            "twitter:site": "@linkedin",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "twitter:description": "Tracy Young, Co-Founder & CEO of PlanGrid",
+            "og:url": "https://www.linkedin.com/posts/tracy-young-0a17441_tracy-young-co-founder-ceo-of-plangrid-activity-7051625263482212352-91Kr",
+            "al:android:app_name": "LinkedIn"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://media.licdn.com/dms/image/sync/v2/D4E27AQGzDTeHOjjr3Q/articleshare-shrink_800/articleshare-shrink_800/0/1718873980897?e=2147483647&v=beta&t=jII__8zD4UMgwz702p8pyTIXUD6OujXXiYUwrbHQzA4"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "My journey with founder-led sales: lessons from Tracy Young - Pear ...",
+      "htmlTitle": "My journey with <b>founder</b>-led sales: lessons from Tracy Young - Pear ...",
+      "link": "https://pear.vc/my-journey-with-founder-led-sales-lessons-from-tracy-young/",
+      "displayLink": "pear.vc",
+      "snippet": "Oct 1, 2024 ... Tracy Young didn't start with a robust sales team or even a deep understanding of how to run one. Instead, her initial success at PlanGrid was ...",
+      "htmlSnippet": "Oct 1, 2024 <b>...</b> Tracy Young didn&#39;t start with a robust sales team or even a deep understanding of how to run one. Instead, her initial success at <b>PlanGrid</b> was&nbsp;...",
+      "formattedUrl": "https://pear.vc/my-journey-with-founder-led-sales-lessons-from-tracy-young/",
+      "htmlFormattedUrl": "https://pear.vc/my-journey-with-founder-led-sales-lessons-from-tracy-young/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrQs3XWPUdmUoWgujOZSqrebm2iOlxSWEYGRZjIPjeKzWKW0b1YOaZg_s&s",
+            "width": "310",
+            "height": "163"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://pear.vc/wp-content/uploads/2024/10/Copy-of-LinkedIn-Speakers-7.png",
+            "og:type": "article",
+            "article:published_time": "2024-10-01T22:34:48+00:00",
+            "og:image:width": "1200",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Pear VC",
+            "author": "jill",
+            "og:title": "My journey with founder-led sales: lessons from Tracy Young - Pear VC",
+            "og:image:height": "630",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "og:image:type": "image/png",
+            "msapplication-tileimage": "https://pear.vc/wp-content/uploads/2022/10/cropped-Pear-Favicon-270x270.png",
+            "og:description": "Sales—it’s a word that often sends shivers down the spine of many early-stage founders. With all the complexities involved in strategic sales, mastering sales can feel downright daunting. However, as Tracy Young’s journey with founder-led sales at PlanGrid demonstrates, effective sales techniques can be learned and applied, even if you’re starting with zero sales experience. […]",
+            "twitter:creator": "@pearvc",
+            "article:publisher": "https://www.facebook.com/pearvc",
+            "twitter:data1": "jill",
+            "twitter:data2": "4 minutes",
+            "twitter:site": "@pearvc",
+            "article:modified_time": "2024-10-02T17:55:48+00:00",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:locale": "en_US",
+            "og:url": "https://pear.vc/my-journey-with-founder-led-sales-lessons-from-tracy-young/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://pear.vc/wp-content/uploads/2024/10/Copy-of-LinkedIn-Speakers-7.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Sequoia Capital - Check out highlights from Doug Leone and ...",
+      "htmlTitle": "Sequoia Capital - Check out highlights from Doug Leone and ...",
+      "link": "https://www.facebook.com/photo.php?fbid=10155216216964287&id=5681349286&set=a.437295009286",
+      "displayLink": "www.facebook.com",
+      "snippet": "Apr 13, 2017 ... Check out highlights from Doug Leone and PlanGrid founder Tracy Young's #StanfordETL discussion: Doug: If you want to build a company, don't ...",
+      "htmlSnippet": "Apr 13, 2017 <b>...</b> Check out highlights from Doug Leone and <b>PlanGrid founder</b> Tracy Young&#39;s #StanfordETL discussion: Doug: If you want to build a company, don&#39;t&nbsp;...",
+      "formattedUrl": "https://www.facebook.com/photo.php?fbid=10155216216964287...a...",
+      "htmlFormattedUrl": "https://www.facebook.com/photo.php?fbid=10155216216964287...a...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5z-YeURJV3ZTzpc03wRFZ079DXKzBgmj1PxIafwlStFC0UwfDqkfQzDxg&s",
+            "width": "194",
+            "height": "259"
+          }
+        ],
+        "metatags": [
+          {
+            "apple-itunes-app": "app-id=284882215, app-argument=app-id=284882215",
+            "og:image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=10155216216964287",
+            "theme-color": "#FFFFFF",
+            "og:type": "article",
+            "twitter:card": "summary",
+            "twitter:title": "Sequoia Capital - Check out highlights from Doug Leone and PlanGrid...",
+            "al:ios:app_name": "Facebook",
+            "og:title": "Sequoia Capital - Check out highlights from Doug Leone and PlanGrid founder Tracy Young's #StanfordETL discussion: Doug: If you want to build a company, don’t intellectualize stuff you know nothing about. Solve your own problem like Airbnb and PlanGrid have. Tracy: As a startup, there are always problems coming your way. You have to make sure you’re solving the right problems. Doug: We help companies recruit world-class engineers early on. If you miss on your first two engineers, it’s very hard to recover. Tracy: We want to show the world how to build a company that takes care of its employees and provides undeniable value to its customers.  Doug: Write your values in pen, and your strategies and tactics in pencil. Tracy: Surround yourself with people you can learn from. Believe in yourself and dive into areas you don’t know. Grow. Doug: Should you pursue bright founders or a big market? That's a false choice. Great founders find their way to great markets. Doug: Look for a VC who is founder-focused, ",
+            "al:android:package": "com.facebook.katana",
+            "google": "notranslate",
+            "al:ios:url": "app-id=284882215",
+            "og:description": "Check out highlights from Doug Leone and PlanGrid founder Tracy Young's #StanfordETL discussion:\nDoug: If you want to build a company, don’t...",
+            "al:ios:app_store_id": "284882215",
+            "twitter:image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=10155216216964287",
+            "al:android:url": "app-id=284882215",
+            "referrer": "origin-when-crossorigin",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "Check out highlights from Doug Leone and PlanGrid founder Tracy Young's #StanfordETL discussion:\nDoug: If you want to build a company, don’t...",
+            "og:locale": "en_US",
+            "fb-version": "471.0.0.0.109:2884",
+            "og:url": "https://www.facebook.com/photo.php?fbid=10155216216964287&id=5681349286&set=a.437295009286",
+            "al:android:app_name": "Facebook"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=10155216216964287"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Here's Why Watching Animal Videos Will Make You a Better ...",
+      "htmlTitle": "Here&#39;s Why Watching Animal Videos Will Make You a Better ...",
+      "link": "https://www.startupgrind.com/blog/tracy-young-of-plangrid-why-watching-animal-videos-will-make-you-a-better-founder/",
+      "displayLink": "www.startupgrind.com",
+      "snippet": "Tracy Young, co-founder and CEO of PlanGrid, is something of a nonconformist: she's a female founder of a company serving the construction industry.",
+      "htmlSnippet": "Tracy Young, co-<b>founder</b> and CEO of <b>PlanGrid</b>, is something of a nonconformist: she&#39;s a female <b>founder</b> of a company serving the construction industry.",
+      "formattedUrl": "https://www.startupgrind.com/.../tracy-young-of-plangrid-why-watching-an...",
+      "htmlFormattedUrl": "https://www.startupgrind.com/.../tracy-young-of-<b>plangrid</b>-why-watching-an...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjtrae5lPt5BbWPy0lZpw_4uCxy9bpINLSzvtf9yfn0S9sSY875nmgcZ0&s",
+            "width": "318",
+            "height": "159"
+          }
+        ],
+        "metatags": [
+          {
+            "msapplication-tilecolor": "#ff2945",
+            "og:image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_540,q_100,w_1080/v1/gcs/platform-data-startupgrind/blog/Tracy%2520-%2520Plangrid%2520-%2520FFC.jpg",
+            "twitter:card": "summary",
+            "twitter:title": "Startup Grind",
+            "og:image:width": "1080",
+            "og:type": "website",
+            "theme-color": "#ff2945",
+            "og:site_name": "Startup Grind",
+            "zoom-domain-verification": "ZOOM_verify__3mCV68gSb6XEEMRDM9U_Q",
+            "og:title": "Here's Why Watching Animal Videos Will Make You a Better Founder, says Tracy Young of Plangrid | Startup Grind",
+            "og:image:height": "540",
+            "msapplication-tileimage": "/mstile-144x144.png",
+            "og:description": "Startup Grind is a startup community in 120 countries delivering education, connections, and opportunities to help startups and scaleups grow.",
+            "og:image:secure_url": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_540,q_100,w_1080/v1/gcs/platform-data-startupgrind/blog/Tracy%2520-%2520Plangrid%2520-%2520FFC.jpg",
+            "twitter:site": "@startupgrind",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "Startup Grind is a startup community in 120 countries delivering education, connections, and opportunities to help startups and scaleups grow.",
+            "og:locale": "en_US",
+            "og:ttl": "777600",
+            "og:url": "https://www.startupgrind.com/blog/tracy-young-of-plangrid-why-watching-animal-videos-will-make-you-a-better-founder/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_540,q_100,w_1080/v1/gcs/platform-data-startupgrind/blog/Tracy%2520-%2520Plangrid%2520-%2520FFC.jpg"
+          }
+        ]
+      }
+    }
+  ]
+}

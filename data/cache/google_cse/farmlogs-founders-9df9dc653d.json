@@ -1,0 +1,512 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - \"FarmLogs\" founders",
+        "totalResults": "1760",
+        "searchTerms": "\"FarmLogs\" founders",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - \"FarmLogs\" founders",
+        "totalResults": "1760",
+        "searchTerms": "\"FarmLogs\" founders",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ]
+  },
+  "context": {
+    "title": "startup-ecosystem-intelligence"
+  },
+  "searchInformation": {
+    "searchTime": 0.185532,
+    "formattedSearchTime": "0.19",
+    "totalResults": "1760",
+    "formattedTotalResults": "1,760"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "FarmLogs lands $10M Series B to help manage farms ...",
+      "htmlTitle": "<b>FarmLogs</b> lands $10M Series B to help manage farms ...",
+      "link": "https://agfundernews.com/farmlogs-lands-10m-series-b-help-manage-farms",
+      "displayLink": "agfundernews.com",
+      "snippet": "Dec 17, 2014 ... ... CEO and co-founder of FarmLogs. “I'm amazed at all the momentum we've been able to build and at how much value we can create for farms all ...",
+      "htmlSnippet": "Dec 17, 2014 <b>...</b> ... CEO and co-<b>founder</b> of <b>FarmLogs</b>. “I&#39;m amazed at all the momentum we&#39;ve been able to build and at how much value we can create for farms all&nbsp;...",
+      "formattedUrl": "https://agfundernews.com/farmlogs-lands-10m-series-b-help-manage-farms",
+      "htmlFormattedUrl": "https://agfundernews.com/<b>farmlogs</b>-lands-10m-series-b-help-manage-farms",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmN4i9I8SlDMb4P8W_At4xL6oi0yx2AHXZCSmplrlnePGCb5BhpXa3rqA&s",
+            "width": "294",
+            "height": "171"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://agfundernews.com/wp-content/uploads/2014/12/team-2013-e1418842807899.jpg",
+            "og:type": "article",
+            "article:published_time": "2014-12-17T19:23:28+00:00",
+            "og:image:width": "1200",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "AgFunderNews",
+            "author": "Rob Leclerc",
+            "og:title": "FarmLogs lands $10M Series B to help manage farms",
+            "og:image:height": "701",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "og:image:type": "image/jpeg",
+            "msapplication-tileimage": "https://agfundernews.com/wp-content/uploads/2025/02/cropped-agfundernews-logo-favicon-270x270.png",
+            "og:description": "FarmLogs has just announced that they've closed a $10 million Series B bringing total investment to over $15 million since 2012",
+            "twitter:creator": "@robleclerc",
+            "twitter:data1": "Rob Leclerc",
+            "twitter:data2": "2 minutes",
+            "twitter:site": "@agfunder",
+            "article:modified_time": "2019-09-06T09:52:42+00:00",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:locale": "en_US",
+            "og:url": "https://agfundernews.com/farmlogs-lands-10m-series-b-help-manage-farms"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://agfundernews.com/wp-content/uploads/2014/12/team-2013-e1418842807899.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Bushel® Inc. Acquires FarmLogs® - Bushel",
+      "htmlTitle": "Bushel® Inc. Acquires <b>FarmLogs</b>® - Bushel",
+      "link": "https://bushelpowered.com/blog/bushel-inc-acquires-farmlogs/",
+      "displayLink": "bushelpowered.com",
+      "snippet": "Jun 16, 2021 ... “FarmLogs is a pioneer in bringing approachable user experiences to the farm,” said Jake Joraanstad, CEO and Co-founder of Bushel. “By bringing ...",
+      "htmlSnippet": "Jun 16, 2021 <b>...</b> “<b>FarmLogs</b> is a pioneer in bringing approachable user experiences to the farm,” said Jake Joraanstad, CEO and Co-<b>founder</b> of Bushel. “By bringing&nbsp;...",
+      "formattedUrl": "https://bushelpowered.com/blog/bushel-inc-acquires-farmlogs/",
+      "htmlFormattedUrl": "https://bushelpowered.com/blog/bushel-inc-acquires-<b>farmlogs</b>/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB_izQ12QdSHPWyC-XRI5aJkq_zxW0wA_yPtyzGu4l_AeFIIEzdiW0lbkr&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://bushelpowered.com/wp-content/uploads/2024/05/BushelMediaKit_1-scaled.jpg",
+            "og:type": "article",
+            "article:published_time": "2021-06-16T15:40:00+00:00",
+            "og:image:width": "2560",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Bushel",
+            "author": "Team Bushel",
+            "og:title": "Bushel® Inc. Acquires FarmLogs® - Bushel",
+            "og:image:height": "2560",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "og:image:type": "image/jpeg",
+            "msapplication-tileimage": "https://bushelpowered.com/wp-content/uploads/2025/05/cropped-bushelpowered_favicon-270x270.png",
+            "og:description": "Acquisition accelerates digital infrastructure in agriculture supply chain FARGO, N.D., June 16, 2021 – Bushel, an independently-owned software technology company for growers, grain buyers, ag retailers, protein producers and food companies, today announced its acquisition of FarmLogs, a leading provider of technology farm management systems for U.S. row crop farms. The addition of FarmLogs’ technology […]",
+            "article:publisher": "https://www.facebook.com/getbushel/",
+            "twitter:data1": "Team Bushel",
+            "twitter:data2": "4 minutes",
+            "article:modified_time": "2024-10-15T16:49:37+00:00",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:locale": "en_US",
+            "og:url": "https://bushelpowered.com/blog/bushel-inc-acquires-farmlogs/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://bushelpowered.com/wp-content/uploads/2024/05/BushelMediaKit_1-scaled.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Bushel acquires FarmLogs to integrate farm-level and supply chain ...",
+      "htmlTitle": "Bushel acquires <b>FarmLogs</b> to integrate farm-level and supply chain ...",
+      "link": "https://agfundernews.com/bushel-acquires-farmlogs-to-integrate-farm-level-and-supply-chain-data",
+      "displayLink": "agfundernews.com",
+      "snippet": "Jun 16, 2021 ... Fargo, North Dakota-based Bushel launched in 2017, while Michigan's FarmLogs started in 2011. Back in 2017, FarmLogs co-founder Jesse ...",
+      "htmlSnippet": "Jun 16, 2021 <b>...</b> Fargo, North Dakota-based Bushel launched in 2017, while Michigan&#39;s <b>FarmLogs</b> started in 2011. Back in 2017, <b>FarmLogs</b> co-<b>founder</b> Jesse&nbsp;...",
+      "formattedUrl": "https://agfundernews.com/bushel-acquires-farmlogs-to-integrate-farm-level...",
+      "htmlFormattedUrl": "https://agfundernews.com/bushel-acquires-<b>farmlogs</b>-to-integrate-farm-level...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQskMC_dD4irML01hcz_TnLUGXBx1Kb4fXGqQpiH5OLyyJLS194AmIwFS2V&s",
+            "width": "275",
+            "height": "183"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://agfundernews.com/wp-content/uploads/2021/06/BushelMediaKit_3-e1623801117569.jpg",
+            "og:type": "article",
+            "article:published_time": "2021-06-16T14:00:57+00:00",
+            "og:image:width": "1000",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "AgFunderNews",
+            "author": "Lauren Manning",
+            "og:title": "Bushel acquires FarmLogs to integrate farm-level and supply chain data",
+            "og:image:height": "667",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "og:image:type": "image/jpeg",
+            "msapplication-tileimage": "https://agfundernews.com/wp-content/uploads/2025/02/cropped-agfundernews-logo-favicon-270x270.png",
+            "og:description": "Data can now flow back and forth between FarmLogs’ farm-level view of an operation, and Bushel’s post-farm gate appreciation of the supply chain.",
+            "twitter:creator": "@agfunder",
+            "twitter:data1": "Lauren Manning",
+            "twitter:data2": "3 minutes",
+            "twitter:site": "@agfunder",
+            "article:modified_time": "2025-01-14T20:49:39+00:00",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:locale": "en_US",
+            "og:url": "https://agfundernews.com/bushel-acquires-farmlogs-to-integrate-farm-level-and-supply-chain-data"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://agfundernews.com/wp-content/uploads/2021/06/BushelMediaKit_3-e1623801117569.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "FarmLogs is Now Bushel Farm",
+      "htmlTitle": "<b>FarmLogs</b> is Now Bushel Farm",
+      "link": "https://blog.bushelfarm.com/farmlogs-is-now-bushel-farm",
+      "displayLink": "blog.bushelfarm.com",
+      "snippet": "Mar 2, 2023 ... FarmLogs got its start in 2011 when its co-founders saw technology making things easier for the world, but not back home on the farm.",
+      "htmlSnippet": "Mar 2, 2023 <b>...</b> <b>FarmLogs</b> got its start in 2011 when its co-<b>founders</b> saw technology making things easier for the world, but not back home on the farm.",
+      "formattedUrl": "https://blog.bushelfarm.com/farmlogs-is-now-bushel-farm",
+      "htmlFormattedUrl": "https://blog.bushelfarm.com/<b>farmlogs</b>-is-now-bushel-farm",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfD4RBQDg-vBKYXd_Cl5Mhb1jy-0kulGgZw_Vz6JEibLgE6m-XaPUayY0&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://blog.bushelfarm.com/hubfs/Bushel%20Farm%20Feature%20Image-1.png",
+            "twitter:title": "FarmLogs is Now Bushel Farm",
+            "og:image:width": "500",
+            "twitter:card": "summary_large_image",
+            "og:type": "article",
+            "twitter:domain": "blog.bushelfarm.com",
+            "og:title": "FarmLogs is Now Bushel Farm",
+            "og:image:height": "500",
+            "og:description": "FarmLogs is now Bushel Farm!",
+            "twitter:image": "https://blog.bushelfarm.com/hubfs/Bushel%20Farm%20Feature%20Image-1.png",
+            "twitter:site": "@FarmLogs",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "FarmLogs is now Bushel Farm!",
+            "og:url": "https://blog.bushelfarm.com/farmlogs-is-now-bushel-farm"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://blog.bushelfarm.com/hubfs/Bushel%20Farm%20Feature%20Image-1.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Farming Goes High Tech With FarmLogs",
+      "htmlTitle": "Farming Goes High Tech With <b>FarmLogs</b>",
+      "link": "https://earth911.com/business-policy/farming-goes-high-tech-with-farmlogs/",
+      "displayLink": "earth911.com",
+      "snippet": "Apr 24, 2015 ... Farmlogs Founder Jesse Vollmer. Farmlogs Founder Jesse Vollmar. No, FarmLogs aren't campfire necessities for making s'mores. Far from it ...",
+      "htmlSnippet": "Apr 24, 2015 <b>...</b> <b>Farmlogs Founder</b> Jesse Vollmer. <b>Farmlogs Founder</b> Jesse Vollmar. No, FarmLogs aren&#39;t campfire necessities for making s&#39;mores. Far from it&nbsp;...",
+      "formattedUrl": "https://earth911.com/business.../farming-goes-high-tech-with-farmlogs/",
+      "htmlFormattedUrl": "https://earth911.com/business.../farming-goes-high-tech-with-<b>farmlogs</b>/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW0qw04_WVD_MWnQ5OJaoIvN7ZeQDhGfA5b67m6vTZzh5aUfotXwVINlQ&s",
+            "width": "302",
+            "height": "167"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://earth911.com/wp-content/uploads/2015/04/farmlogs-yield.png",
+            "og:type": "article",
+            "article:published_time": "2015-04-24T20:00:00+00:00",
+            "og:image:width": "2032",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Earth911",
+            "author": "Kimberly Button",
+            "og:title": "Farming Goes High Tech With FarmLogs",
+            "og:image:height": "1125",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "og:image:type": "image/png",
+            "msapplication-tileimage": "https://earth911.com/wp-content/uploads/2018/09/logo-p2-300x300.jpg",
+            "og:description": "FarmLogs is a data science company co-founded by 26-year-old Jesse Vollmar to help farmers become more efficient and profitable",
+            "twitter:creator": "@earth911",
+            "article:publisher": "https://www.facebook.com/Earth911",
+            "twitter:data1": "Kimberly Button",
+            "twitter:data2": "2 minutes",
+            "facebook-domain-verification": "u1ovugrtb3h5y6ck6rgxcg08cxd3l0",
+            "twitter:site": "@earth911",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:locale": "en_US",
+            "atdlayout": "ros",
+            "og:url": "https://earth911.com/business-policy/farming-goes-high-tech-with-farmlogs/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://earth911.com/wp-content/uploads/2015/04/farmlogs-yield.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "FarmLogs - Crunchbase Company Profile & Funding",
+      "htmlTitle": "<b>FarmLogs</b> - Crunchbase Company Profile &amp; Funding",
+      "link": "https://www.crunchbase.com/organization/farmlogs",
+      "displayLink": "www.crunchbase.com",
+      "snippet": "FarmLogs Logo FarmLogs. Section: Overview. Actions ... Founders Brad Koch. About the Company. Their mission is to help bring farmers the future of farming ...",
+      "htmlSnippet": "<b>FarmLogs</b> Logo <b>FarmLogs</b>. Section: Overview. Actions ... <b>Founders</b> Brad Koch. About the Company. Their mission is to help bring farmers the future of farming&nbsp;...",
+      "formattedUrl": "https://www.crunchbase.com/organization/farmlogs",
+      "htmlFormattedUrl": "https://www.crunchbase.com/organization/<b>farmlogs</b>",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN1H4IOuxnDkpZ0ZRqSY8sCTySrGU1GakKw-JizAblUbFcLhHib8G4auFF&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1418831003/mtqhaefyaa6nyjh8lohf.png",
+            "og:type": "website",
+            "og:image:alt": "FarmLogs",
+            "og:image:width": "256",
+            "og:site_name": "Crunchbase",
+            "viewport": "width=device-width, minimum-scale=1.0, initial-scale=1.0",
+            "og:title": "FarmLogs - Crunchbase Company Profile & Funding",
+            "og:image:height": "256",
+            "og:url": "https://www.crunchbase.com/organization/farmlogs",
+            "og:description": "FarmLogs' platform exposes critical operational data insights to more than 1 in 3 US row crop farmers.",
+            "og:image:secure_url": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1418831003/mtqhaefyaa6nyjh8lohf.png"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1418831003/mtqhaefyaa6nyjh8lohf.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "FarmLogs harvests a new VP of Engineering with help from MVCA ...",
+      "htmlTitle": "<b>FarmLogs</b> harvests a new VP of Engineering with help from MVCA ...",
+      "link": "https://michiganvca.org/farmlogs-harvests-a-new-vp-of-engineering-with-help-from-mvca-executive-attraction-program/",
+      "displayLink": "michiganvca.org",
+      "snippet": "Dec 2, 2015 ... FarmLogs began as a project at Silicon Valley seed accelerator Y Combinator. Co-founders Jesse Vollmar and Brad Koch moved the company back to ...",
+      "htmlSnippet": "Dec 2, 2015 <b>...</b> <b>FarmLogs</b> began as a project at Silicon Valley seed accelerator Y Combinator. Co-<b>founders</b> Jesse Vollmar and Brad Koch moved the company back to&nbsp;...",
+      "formattedUrl": "https://michiganvca.org/farmlogs-harvests-a-new-vp-of-engineering-with-h...",
+      "htmlFormattedUrl": "https://michiganvca.org/<b>farmlogs</b>-harvests-a-new-vp-of-engineering-with-h...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdIo4KMdFR2SGNzetw4rlOx1SGO8UbV6RpsP9c-PGuX-VqgGycLQ-0xA48&s",
+            "width": "224",
+            "height": "224"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://michiganvca.org/wp-content/uploads/2015/12/logo.png",
+            "og:type": "article",
+            "article:published_time": "2015-12-02T15:42:19+00:00",
+            "og:image:width": "520",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Michigan Venture Capital Association",
+            "author": "Ara Topouzian",
+            "og:title": "FarmLogs harvests a new VP of Engineering with help from MVCA Executive Attraction Program - Michigan Venture Capital Association",
+            "og:image:height": "520",
+            "og:image:type": "image/png",
+            "msapplication-tileimage": "https://michiganvca.org/wp-content/uploads/2022/07/cropped-favicon-32x32-1-270x270.png",
+            "og:description": "For Abdullah Haydar, continuing his career in computer engineering in Michigan after several stints out of state had become a priority.  After growing Amazon’s Detroit office to nearly 50 employees very quickly, it was clear to Haydar that the next step within Amazon would take him back to Seattle or elsewhere.  “I’d been out of Michigan […]",
+            "twitter:creator": "@MichiganVCA",
+            "article:publisher": "https://www.facebook.com/MichiganVCA/",
+            "twitter:site": "@MichiganVCA",
+            "article:modified_time": "2015-12-02T17:13:06+00:00",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:locale": "en_US",
+            "og:url": "https://michiganvca.org/farmlogs-harvests-a-new-vp-of-engineering-with-help-from-mvca-executive-attraction-program/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://michiganvca.org/wp-content/uploads/2015/12/logo.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "FarmLogs: Software that helps farmers operate more profitable ...",
+      "htmlTitle": "<b>FarmLogs</b>: Software that helps farmers operate more profitable ...",
+      "link": "https://www.ycombinator.com/companies/farmlogs",
+      "displayLink": "www.ycombinator.com",
+      "snippet": "Software that helps farmers operate more profitable businesses. Founded in 2011 by Brad Koch, FarmLogs has 5 employees based in Ann Arbor, MI, USA.",
+      "htmlSnippet": "Software that helps farmers operate more profitable businesses. Founded in 2011 by Brad Koch, <b>FarmLogs</b> has 5 employees based in Ann Arbor, MI, USA.",
+      "formattedUrl": "https://www.ycombinator.com/companies/farmlogs",
+      "htmlFormattedUrl": "https://www.ycombinator.com/companies/<b>farmlogs</b>",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_jlx_ttcDqicgZBVs0DjrnlFIWkOUPYZ1SvaiGlEZzk4B6xRiqshYu3_C&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "image": "/logos/medium/missing.png",
+            "og:image": "/logos/medium/missing.png",
+            "twitter:card": "summary_large_image",
+            "og:type": "website",
+            "og:site_name": "Y Combinator",
+            "og:image:url": "/logos/medium/missing.png",
+            "og:title": "FarmLogs: Software that helps farmers operate more profitable businesses. | Y Combinator",
+            "csrf-param": "authenticity_token",
+            "title": "FarmLogs: Software that helps farmers operate more profitable businesses.",
+            "og:description": "Software that helps farmers operate more profitable businesses. Founded in 2011 by Brad Koch, FarmLogs has 5 employees based in Ann Arbor, MI, USA.",
+            "twitter:image": "/logos/medium/missing.png",
+            "og:image:secure_url": "/logos/medium/missing.png",
+            "twitter:site": "@ycombinator",
+            "viewport": "initial-scale=1, width=device-width, height=device-height",
+            "csrf-token": "QzFHYcHE8XwjTx0Ri_5LYKRDCK16O-Lwwd8G_iFRGGFOOeFQjSCbZZD95UlC96ZLgvvqPw1btusdC0exRVaTsA",
+            "og:locale": "en_US",
+            "og:url": "https://www.ycombinator.com/companies/farmlogs"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "x-raw-image:///7481412385fe6d0f7d4a3339d90fe12309432ca41983e8d350b232301d5d8684"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "FarmLogs Official Brand Assets | Brandfolder",
+      "htmlTitle": "<b>FarmLogs</b> Official Brand Assets | Brandfolder",
+      "link": "https://brandfolder.com/farmlogs",
+      "displayLink": "brandfolder.com",
+      "snippet": "Press. 1 Asset. Jesse Vollmar, CEO and co-founder of the FarmLogs farm management app.",
+      "htmlSnippet": "Press. 1 Asset. Jesse Vollmar, CEO and co-<b>founder</b> of the <b>FarmLogs</b> farm management app.",
+      "formattedUrl": "https://brandfolder.com/farmlogs",
+      "htmlFormattedUrl": "https://brandfolder.com/<b>farmlogs</b>",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaWlqh05go5GO11nk_lpFTUouIx4rAr0KrQsZ2JYS5m7HjaBTRUKMZ_A&s",
+            "width": "402",
+            "height": "125"
+          }
+        ],
+        "organization": [
+          {
+            "logo": "https://brandfolder.com/farmlogs/logo/farmlogs-primary-logo.png",
+            "url": "FarmLogs"
+          }
+        ],
+        "metatags": [
+          {
+            "st:robots": "noindex",
+            "og:image": "https://thumbs.bfldr.com/at/4acet2xa/v/351397?expiry=1755324762&fit=bounds&height=400&sig=ODA0MzgyNGY5ZmVmZGVmZmFlNjAwZmVjMDEyZGJiZGE3ZDY1NzI2NA%3D%3D&width=550",
+            "og:type": "website",
+            "twitter:card": "https://thumbs.bfldr.com/at/4acet2xa/v/351397?expiry=1755324762&fit=bounds&height=400&sig=ODA0MzgyNGY5ZmVmZGVmZmFlNjAwZmVjMDEyZGJiZGE3ZDY1NzI2NA%3D%3D&width=550",
+            "twitter:title": "FarmLogs Brand Assets by Brandfolder",
+            "twitter:domain": "brandfolder.com",
+            "author": "Brandfolder",
+            "og:title": "FarmLogs Official Brand Assets | Brandfolder",
+            "env": "production",
+            "csrf-param": "authenticity_token",
+            "msapplication-tileimage": "https://static.brandfolder.com/assets/apple-touch-icon-144x144-ca87cd895ce5599c8a40ca2177b15fa8d415077f272f5026ab48185cdf03fef5.png",
+            "og:description": "Find FarmLogs official logos, images, and brand assets with usage guidelines on Brandfolder, the home for digital asset management.",
+            "og:image:secure_url": "https://thumbs.bfldr.com/at/4acet2xa/v/351397?expiry=1755324762&fit=bounds&height=400&sig=ODA0MzgyNGY5ZmVmZGVmZmFlNjAwZmVjMDEyZGJiZGE3ZDY1NzI2NA%3D%3D&width=550",
+            "twitter:image:src": "https://thumbs.bfldr.com/at/4acet2xa/v/351397?expiry=1755324762&fit=bounds&height=400&sig=ODA0MzgyNGY5ZmVmZGVmZmFlNjAwZmVjMDEyZGJiZGE3ZDY1NzI2NA%3D%3D&width=550",
+            "fragment": "!",
+            "twitter:site": "@Brandfolder",
+            "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0",
+            "twitter:description": "Find FarmLogs official logos, images, and brand assets with usage guidelines on Brandfolder, the home for digital asset management.",
+            "csrf-token": "w92oUWGuxzRnjduvaUr1Pk8e2VDOMVCkqdThF89j1AKFmgBnQ74qYjaeZHURElVp8VOGAQekVQepSLLs-0qh3Q",
+            "og:url": "https://brandfolder.com/farmlogs",
+            "twitter:type": "website"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://thumbs.bfldr.com/at/4acet2xa/v/351397?expiry=1755324762&fit=bounds&height=400&sig=ODA0MzgyNGY5ZmVmZGVmZmFlNjAwZmVjMDEyZGJiZGE3ZDY1NzI2NA%3D%3D&width=550"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Q&A with Jesse Vollmar, Cofounder & CEO of Farmlogs | Y ...",
+      "htmlTitle": "Q&amp;A with Jesse Vollmar, Cofounder &amp; CEO of <b>Farmlogs</b> | Y ...",
+      "link": "https://www.ycombinator.com/blog/qa-with-jesse-vollmar-cofounder-ceo-of-farmlogs/",
+      "displayLink": "www.ycombinator.com",
+      "snippet": "Oct 17, 2018 ... Q&A with Jesse Vollmar, Cofounder & CEO of Farmlogs · What does FarmLogs make/do? · How many employees does FarmLogs have? · How many founders?",
+      "htmlSnippet": "Oct 17, 2018 <b>...</b> Q&amp;A with Jesse Vollmar, Cofounder &amp; CEO of <b>Farmlogs</b> &middot; What does <b>FarmLogs</b> make/do? &middot; How many employees does <b>FarmLogs</b> have? &middot; How many <b>founders</b>?",
+      "formattedUrl": "https://www.ycombinator.com/.../qa-with-jesse-vollmar-cofounder-ceo-of-f...",
+      "htmlFormattedUrl": "https://www.ycombinator.com/.../qa-with-jesse-vollmar-cofounder-ceo-of-<b>f</b>...",
+      "pagemap": {
+        "metatags": [
+          {
+            "twitter:card": "summary_large_image",
+            "og:type": "website",
+            "twitter:site": "@ycombinator",
+            "og:site_name": "Y Combinator",
+            "viewport": "initial-scale=1, width=device-width, height=device-height",
+            "csrf-token": "6dVSpOcAhCuLUUdSvJplXsaCQ-pv2rTOvmdPEibIcNSJQIo41gljtOhj7UcltfNhWGd-fYaIxdv0pFxkjqIlsg",
+            "og:title": "Q&A with Jesse Vollmar, Cofounder & CEO of Farmlogs | Y Combinator",
+            "og:locale": "en_US",
+            "csrf-param": "authenticity_token",
+            "og:url": "https://www.ycombinator.com/blog/qa-with-jesse-vollmar-cofounder-ceo-of-farmlogs",
+            "og:description": "We put together a list of the top YC companies by valuation as of October 2018.\nYou can see that list at https://ycombinator.com/topcompanies.\n\nHere’s a Q&A with Jesse Vollmar, Cofounder & CEO of Farmlogs\n[https://farmlogs.com/], one of the companies featured on the list.\n\n\n--------------------------------------------------------------------------------\n\nWhat does FarmLogs make/do?\nWe’re creating a better future for farming by making software that helps growers\nrun more efficient and more profit"
+          }
+        ]
+      }
+    }
+  ]
+}

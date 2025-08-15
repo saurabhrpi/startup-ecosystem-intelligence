@@ -1,0 +1,153 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - site:scienceexchange.com (founder OR cofounder)",
+        "totalResults": "4",
+        "searchTerms": "site:scienceexchange.com (founder OR cofounder)",
+        "count": 4,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ]
+  },
+  "context": {
+    "title": "startup-ecosystem-intelligence"
+  },
+  "searchInformation": {
+    "searchTime": 0.116499,
+    "formattedSearchTime": "0.12",
+    "totalResults": "4",
+    "formattedTotalResults": "4"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "About: Supplier Orchestration | Science Exchange",
+      "htmlTitle": "About: Supplier Orchestration | Science Exchange",
+      "link": "https://www.scienceexchange.com/s/about",
+      "displayLink": "www.scienceexchange.com",
+      "snippet": "just getting started. Elizabeth Iorns, Ph.D. Co-Founder & CEO. Dan Knox.",
+      "htmlSnippet": "just getting started. Elizabeth Iorns, Ph.D. Co-<b>Founder</b> &amp; CEO. Dan Knox.",
+      "formattedUrl": "https://www.scienceexchange.com/s/about",
+      "htmlFormattedUrl": "https://www.scienceexchange.com/s/about",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD93-Bdc_b5Xjf2c-zkGpq6rp4yqq45s3AtjuxzSVLEfxsK97irwOuvmE&s",
+            "width": "330",
+            "height": "153"
+          }
+        ],
+        "metatags": [
+          {
+            "viewport": "initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0, minimal-ui"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.scienceexchange.com/resource/1706581122000/nav/nav/pill-pink.svg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Waud Capital Partners acquires Science Exchange to fuel ...",
+      "htmlTitle": "Waud Capital Partners acquires Science Exchange to fuel ...",
+      "link": "https://ww2.scienceexchange.com/s/flex-content/waud-capital-partners-acquires-science-exchange-to-fuel-MC5D4KUVLYNFEN7NMRDWVKDFIHOY",
+      "displayLink": "ww2.scienceexchange.com",
+      "snippet": "Sep 30, 2024 ... Elizabeth Iorns, Ph.D, CEO & Co-Founder, along with Dan Knox, COO & Co-Founder, and Tzlil Hadass, Chief Revenue Officer, will retain their ...",
+      "htmlSnippet": "Sep 30, 2024 <b>...</b> Elizabeth Iorns, Ph.D, CEO &amp; Co-<b>Founder</b>, along with Dan Knox, COO &amp; Co-<b>Founder</b>, and Tzlil Hadass, Chief Revenue Officer, will retain their&nbsp;...",
+      "formattedUrl": "https://ww2.scienceexchange.com/.../waud-capital-partners-acquires-science...",
+      "htmlFormattedUrl": "https://ww2.scienceexchange.com/.../waud-capital-partners-acquires-science...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8lM-WzbDjvGLoTwlQDnu5qJEAjOLo6dNN6a0U31C4mdVjR1jg0w-1T6w&s",
+            "width": "265",
+            "height": "190"
+          }
+        ],
+        "metatags": [
+          {
+            "viewport": "initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0, minimal-ui"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://ww2.scienceexchange.com/resource/1706581122000/nav/nav/navResourcesGraphic2.svg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Science Exchange acquires HappiLabs to expand scientific ...",
+      "htmlTitle": "Science Exchange acquires HappiLabs to expand scientific ...",
+      "link": "https://ww2.scienceexchange.com/s/flex-content/science-exchange-acquires-happilabs-to-expand-scientific-MCPXQN6ACJGJEWJLQWR6WLOEH6HI",
+      "displayLink": "ww2.scienceexchange.com",
+      "snippet": "Mar 31, 2025 ... Tom Ruginis, Founder & CEO of HappiLabs, will take on a senior leadership role at Science Exchange, focusing on expanding procurement solutions ...",
+      "htmlSnippet": "Mar 31, 2025 <b>...</b> Tom Ruginis, <b>Founder</b> &amp; CEO of HappiLabs, will take on a senior leadership role at Science Exchange, focusing on expanding procurement solutions&nbsp;...",
+      "formattedUrl": "https://ww2.scienceexchange.com/.../science-exchange-acquires-happilabs-t...",
+      "htmlFormattedUrl": "https://ww2.scienceexchange.com/.../science-exchange-acquires-happilabs-t...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRNotoKyrfFn9RQGl-FGnFRDC_MdH727LLUsR7L3ZMMtg_9dbNEMfcbFjJ&s",
+            "width": "281",
+            "height": "180"
+          }
+        ],
+        "metatags": [
+          {
+            "viewport": "initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0, minimal-ui"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://ww2.scienceexchange.com/resource/1706581123000/navSolutions/navSolutions/navIndustries.svg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "New! Supplier Orchestration Platform... | Science Exchange",
+      "htmlTitle": "New! Supplier Orchestration Platform... | Science Exchange",
+      "link": "https://www.scienceexchange.com/s/flex-content/science-exchange-unveils-supplier-orchestration-platform-for-life-sciences-MC6LXW2VY56VERJNRE6MEUA2ZASY",
+      "displayLink": "www.scienceexchange.com",
+      "snippet": "Jan 30, 2024 ... D., CEO, and Co-Founder of Science Exchange. \"Our supplier orchestration platform sits on top of P2P and ERP systems and includes a powerful ...",
+      "htmlSnippet": "Jan 30, 2024 <b>...</b> D., CEO, and Co-<b>Founder</b> of Science Exchange. &quot;Our supplier orchestration platform sits on top of P2P and ERP systems and includes a powerful&nbsp;...",
+      "formattedUrl": "https://www.scienceexchange.com/.../science-exchange-unveils-supplier-orc...",
+      "htmlFormattedUrl": "https://www.scienceexchange.com/.../science-exchange-unveils-supplier-orc...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_K0PWcCoHY9TL4w4npo9L_vCwgd1n6AztoW0ywc-I1zhL-F83o-1Uvgw&s",
+            "width": "265",
+            "height": "190"
+          }
+        ],
+        "metatags": [
+          {
+            "viewport": "initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0, minimal-ui"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.scienceexchange.com/resource/1706581122000/nav/nav/navResourcesGraphic2.svg"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - \"Apollo\" founders",
+        "totalResults": "12500000",
+        "searchTerms": "\"Apollo\" founders",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - \"Apollo\" founders",
+        "totalResults": "12500000",
+        "searchTerms": "\"Apollo\" founders",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ]
+  },
+  "context": {
+    "title": "startup-ecosystem-intelligence"
+  },
+  "searchInformation": {
+    "searchTime": 0.195952,
+    "formattedSearchTime": "0.20",
+    "totalResults": "12500000",
+    "formattedTotalResults": "12,500,000"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "Apollo Global Management - Wikipedia",
+      "htmlTitle": "<b>Apollo</b> Global Management - Wikipedia",
+      "link": "https://en.wikipedia.org/wiki/Apollo_Global_Management",
+      "displayLink": "en.wikipedia.org",
+      "snippet": "Apollo was founded in 1990 by Leon Black, Josh Harris, and Marc Rowan, former investment bankers at the defunct Drexel Burnham Lambert. The company is ...",
+      "htmlSnippet": "<b>Apollo</b> was founded in 1990 by Leon Black, Josh Harris, and Marc Rowan, former investment bankers at the defunct Drexel Burnham Lambert. The company is&nbsp;...",
+      "formattedUrl": "https://en.wikipedia.org/wiki/Apollo_Global_Management",
+      "htmlFormattedUrl": "https://en.wikipedia.org/wiki/<b>Apollo</b>_Global_Management",
+      "pagemap": {
+        "hcard": [
+          {
+            "url_text": "apollo.com",
+            "bday": "1990",
+            "fn": "Apollo Global Management, Inc.",
+            "logo": "Headquarters at the Solow Building in New York City",
+            "label": "Solow Building, New York, New York, U.S.",
+            "category": "Public",
+            "url": "apollo.com"
+          }
+        ],
+        "metatags": [
+          {
+            "referrer": "origin",
+            "og:image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Solow_Building_%2853872707559%29.jpg/1200px-Solow_Building_%2853872707559%29.jpg",
+            "theme-color": "#eaecf0",
+            "og:image:width": "1200",
+            "og:type": "website",
+            "viewport": "width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0",
+            "og:title": "Apollo Global Management - Wikipedia",
+            "og:image:height": "2134",
+            "format-detection": "telephone=no"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Leadership and People | Apollo Global Management",
+      "htmlTitle": "Leadership and People | <b>Apollo</b> Global Management",
+      "link": "https://www.apollo.com/aboutus/leadership-and-people",
+      "displayLink": "www.apollo.com",
+      "snippet": "Co-President, Apollo Asset Management. Jim Belardi. Co-Founder, Executive Chairman, & CIO of Athene; Partner, Apollo Global Management.",
+      "htmlSnippet": "Co-President, <b>Apollo</b> Asset Management. Jim Belardi. Co-<b>Founder</b>, Executive Chairman, &amp; CIO of Athene; Partner, <b>Apollo</b> Global Management.",
+      "formattedUrl": "https://www.apollo.com/aboutus/leadership-and-people",
+      "htmlFormattedUrl": "https://www.<b>apollo</b>.com/aboutus/leadership-and-people",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRffiL8WHxiTIUK_2KNPwF8eKk6y_YF52a1A9_M9ptAkpb65e0cLUOeq40&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "template": "page-content",
+            "og:image": "https://www.apollo.com/content/dam/apolloaem/apollo-default-page-share-image/apollo-og-image.png",
+            "twitter:title": "Leadership and People",
+            "twitter:card": "summary",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "Meet the people that power Apollo Global Management",
+            "og:title": "Leadership and People",
+            "og:url": "https://www.apollo.com/aboutus/leadership-and-people",
+            "og:description": "Meet the people that power Apollo Global Management",
+            "ap-role": "General Public",
+            "facebook-domain-verification": "dbscpf0iguzg3gabqvskjm4txzm8ie"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.apollo.com/content/dam/apolloaem/apollo-default-page-share-image/apollo-og-image.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Apollo.io for Founders | AI-Powered Sales Intelligence Platform",
+      "htmlTitle": "<b>Apollo</b>.io for <b>Founders</b> | AI-Powered Sales Intelligence Platform",
+      "link": "https://www.apollo.io/personas/founders",
+      "displayLink": "www.apollo.io",
+      "snippet": "Access Apollo.io's AI-driven sales platform to find qualified leads, automate outreach, and close more deals. Trusted by 500000+ companies with 270M+ ...",
+      "htmlSnippet": "Access <b>Apollo</b>.io&#39;s AI-driven sales platform to find qualified leads, automate outreach, and close more deals. Trusted by 500000+ companies with 270M+&nbsp;...",
+      "formattedUrl": "https://www.apollo.io/personas/founders",
+      "htmlFormattedUrl": "https://www.<b>apollo</b>.io/personas/<b>founders</b>",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKD2nvJxcFB7VDAn6oPOmiVJCeYNEBymL7x7ko_-4bYGS_HMdT9rawOlQS&s",
+            "width": "310",
+            "height": "163"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://www.apollo.io/opengraph-image.png?b807094cc490f440",
+            "og:image:width": "1200",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Apollo.io for Founders | AI-Powered Sales Intelligence Platform",
+            "twitter:image:type": "image/png",
+            "og:title": "Apollo.io for Founders | AI-Powered Sales Intelligence Platform",
+            "og:image:height": "630",
+            "twitter:image:height": "630",
+            "og:image:type": "image/png",
+            "og:description": "Access Apollo.io's AI-driven sales platform to find qualified leads, automate outreach, and close more deals. Trusted by 500,000+ companies with 270M+ contacts.",
+            "twitter:image": "https://www.apollo.io/opengraph-image.png?b807094cc490f440",
+            "twitter:image:width": "1200",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "Access Apollo.io's AI-driven sales platform to find qualified leads, automate outreach, and close more deals. Trusted by 500,000+ companies with 270M+ contacts."
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.apollo.io/opengraph-image.png?b807094cc490f440"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Marc Rowan | Apollo Global Management",
+      "htmlTitle": "Marc Rowan | <b>Apollo</b> Global Management",
+      "link": "https://www.apollo.com/aboutus/leadership-and-people/marc-rowan",
+      "displayLink": "www.apollo.com",
+      "snippet": "Mr. Rowan is a Co-Founder, CEO and Chair of the Board of Apollo Global Management, Inc. He also serves on the board of directors of Athene Holding Ltd.",
+      "htmlSnippet": "Mr. Rowan is a Co-<b>Founder</b>, CEO and Chair of the Board of <b>Apollo</b> Global Management, Inc. He also serves on the board of directors of Athene Holding Ltd.",
+      "formattedUrl": "https://www.apollo.com/aboutus/leadership-and-people/marc-rowan",
+      "htmlFormattedUrl": "https://www.<b>apollo</b>.com/aboutus/leadership-and-people/marc-rowan",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRffiL8WHxiTIUK_2KNPwF8eKk6y_YF52a1A9_M9ptAkpb65e0cLUOeq40&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "template": "marketing-bio-page-content",
+            "og:image": "https://www.apollo.com/content/dam/apolloaem/apollo-default-page-share-image/apollo-og-image.png",
+            "twitter:title": "Marc Rowan",
+            "twitter:card": "summary",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "Meet the people that power Apollo Global Management",
+            "og:title": "Marc Rowan",
+            "og:url": "https://www.apollo.com/aboutus/leadership-and-people/marc-rowan",
+            "og:description": "Meet the people that power Apollo Global Management",
+            "ap-role": "General Public",
+            "facebook-domain-verification": "dbscpf0iguzg3gabqvskjm4txzm8ie"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.apollo.com/content/dam/apolloaem/apollo-default-page-share-image/apollo-og-image.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Apollo (APO) Billionaire Founders Brawl, Shunting Aside Josh Harris",
+      "htmlTitle": "<b>Apollo</b> (APO) Billionaire <b>Founders</b> Brawl, Shunting Aside Josh Harris",
+      "link": "https://www.bloomberg.com/news/articles/2021-04-30/apollo-apo-billionaire-founders-brawl-shunting-aside-josh-harris",
+      "displayLink": "www.bloomberg.com",
+      "snippet": "Apr 29, 2021 ... The behind-the-scenes drama between Apollo Global Management Inc.'s billionaire co-founders keeps brewing, with ramifications for investors.",
+      "htmlSnippet": "Apr 29, 2021 <b>...</b> The behind-the-scenes drama between <b>Apollo</b> Global Management Inc.&#39;s billionaire co-<b>founders</b> keeps brewing, with ramifications for investors.",
+      "formattedUrl": "https://www.bloomberg.com/.../apollo-apo-billionaire-founders-brawl-shun...",
+      "htmlFormattedUrl": "https://www.bloomberg.com/.../<b>apollo</b>-apo-billionaire-<b>founders</b>-brawl-shun...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmL5Mv0IcDZukza6Jbp2cBz8TWvJNR1_6RKOvGhWQeYo4YEXh_V2r1jvA&s",
+            "width": "314",
+            "height": "161"
+          }
+        ],
+        "metatags": [
+          {
+            "apple-itunes-app": "app-id=281941097",
+            "og:image": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iAibUQ89xpsY/v0/1200x616.jpg",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Bloomberg.com",
+            "sailthru.tags": "Leon David Black,Marc Jeffrey Rowan,Private Equity,Jeff Epstein,Kewsong Lee,Wealth,Investing,Sports,Shopping,Florida,business",
+            "twitter:tile:template:testing": "2",
+            "al:android:package": "com.bloomberg.android.plus",
+            "parsely-author": "Sabrina Willmer",
+            "og:description": "Members of his team were heard humming their response: “Ding-Dong! The Witch is Dead” from “The Wizard of Oz.”",
+            "twitter:image": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iAibUQ89xpsY/v0/1200x616.jpg",
+            "next-head-count": "12",
+            "parsely-type": "post",
+            "twitter:site": "@business",
+            "parsely-link": "https://www.bloomberg.com/news/articles/2021-04-30/apollo-apo-billionaire-founders-brawl-shunting-aside-josh-harris",
+            "sailthru.title": "Apollo (APO) Billionaire Founders Brawl, Shunting Aside Josh Harris",
+            "parsely-image-url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iAibUQ89xpsY/v0/1200x616.jpg",
+            "parsely-section": "business",
+            "twitter:tile:image:alt": "A Brawl Between Billionaire Founders at Apollo Sidelines One of Its Own",
+            "sailthru.date": "2021-04-30T04:01:12.053Z",
+            "og:type": "article",
+            "twitter:title": "A Brawl Between Billionaire Founders at Apollo Sidelines One of Its Own",
+            "parsely-post-id": "QSCZ60T1UM0W01",
+            "og:title": "A Brawl Between Billionaire Founders at Apollo Sidelines One of Its Own",
+            "parsely-title": "Apollo (APO) Billionaire Founders Brawl, Shunting Aside Josh Harris",
+            "will-have-content-metadata": "true",
+            "parsely-pub-date": "2021-04-30T04:01:12.053Z",
+            "al:android:url": "bloomberg://www.bloomberg.com/news/articles/2021-04-30/apollo-apo-billionaire-founders-brawl-shunting-aside-josh-harris?utm_medium=applink&utm_source=facebook",
+            "sailthru.headline": "A Brawl Between Billionaire Founders at Apollo Sidelines One of Its Own",
+            "parsely-tags": "Leon David Black,Marc Jeffrey Rowan,Private Equity,Jeff Epstein,Kewsong Lee,Wealth,Investing,Sports,Shopping,Florida,Secondary Brand: business,Region: Global,Page: article",
+            "sailthru.description": "After urging Leon Black out, Harris is no longer running day-to-day operations",
+            "viewport": "width=device-width",
+            "twitter:description": "Members of the team were heard humming their response: “Ding-Dong! the Witch is Dead” from “The Wizard of Oz.”",
+            "twitter:tile:image": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iAibUQ89xpsY/v0/1200x616.jpg",
+            "og:url": "https://www.bloomberg.com/news/articles/2021-04-30/apollo-apo-billionaire-founders-brawl-shunting-aside-josh-harris",
+            "al:android:app_name": "Bloomberg",
+            "sailthru.author": "Sabrina Willmer,Heather Perlberg,Sridhar Natarajan",
+            "format-detection": "telephone=no"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iAibUQ89xpsY/v0/1200x616.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Tim Zheng - Apollo | LinkedIn",
+      "htmlTitle": "Tim Zheng - <b>Apollo</b> | LinkedIn",
+      "link": "https://www.linkedin.com/in/tim-zheng",
+      "displayLink": "www.linkedin.com",
+      "snippet": "CEO & Founder of Apollo · Experience: Apollo · Education: Y Combinator · Location: New York · 500+ connections on LinkedIn. View Tim Zheng's profile on ...",
+      "htmlSnippet": "CEO &amp; <b>Founder</b> of <b>Apollo</b> · Experience: <b>Apollo</b> · Education: Y Combinator · Location: New York · 500+ connections on LinkedIn. View Tim Zheng&#39;s profile on&nbsp;...",
+      "formattedUrl": "https://www.linkedin.com/in/tim-zheng",
+      "htmlFormattedUrl": "https://www.linkedin.com/in/tim-zheng",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpEnMCOR-ytx0ZXHO2rgJlezc4CfXm5iHZMEjL8fSfOciDiTG4CU0Uc8QO&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "ProfilePage": [
+          {}
+        ],
+        "metatags": [
+          {
+            "og:image": "https://static.licdn.com/aero-v1/sc/h/1c5u578iilxfi4m4dvc4q810q",
+            "twitter:card": "summary",
+            "linkedin:pagetag": "openToProvider",
+            "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+            "al:android:package": "com.linkedin.android",
+            "bingbot": "nocache",
+            "locale": "en_US",
+            "al:ios:url": "https://www.linkedin.com/in/tim-zheng",
+            "og:description": "CEO &amp; Founder of Apollo · Experience: Apollo · Education: Y Combinator · Location: New York · 500+ connections on LinkedIn. View Tim Zheng’s profile on LinkedIn, a professional community of 1 billion members.",
+            "al:ios:app_store_id": "288429040",
+            "platform": "https://static.licdn.com/aero-v1/sc/h/4nm9pu95jzy03fx73wtc0vlru",
+            "twitter:image": "https://static.licdn.com/aero-v1/sc/h/1c5u578iilxfi4m4dvc4q810q",
+            "profile:last_name": "Zheng",
+            "twitter:site": "@Linkedin",
+            "litmsprofilename": "public-profile-frontend",
+            "profile:first_name": "Tim",
+            "og:type": "profile",
+            "twitter:title": "Tim Zheng - Apollo | LinkedIn",
+            "al:ios:app_name": "LinkedIn",
+            "og:title": "Tim Zheng - Apollo | LinkedIn",
+            "pagekey": "public_profile_v3_mobile",
+            "al:android:url": "https://www.linkedin.com/in/tim-zheng",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "twitter:description": "CEO &amp; Founder of Apollo · Experience: Apollo · Education: Y Combinator · Location: New York · 500+ connections on LinkedIn. View Tim Zheng’s profile on LinkedIn, a professional community of 1 billion members.",
+            "ubba": "https://static.licdn.com/aero-v1/sc/h/6314rx53vzqnwyjpjmgri18gg",
+            "og:url": "https://www.linkedin.com/in/tim-zheng",
+            "al:android:app_name": "LinkedIn"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://static.licdn.com/aero-v1/sc/h/1c5u578iilxfi4m4dvc4q810q"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Best CRM for founder led sales? Does Apollo actually offer all in one ...",
+      "htmlTitle": "Best CRM for <b>founder</b> led sales? Does <b>Apollo</b> actually offer all in one ...",
+      "link": "https://www.reddit.com/r/CRM/comments/1k0vjbz/best_crm_for_founder_led_sales_does_apollo/",
+      "displayLink": "www.reddit.com",
+      "snippet": "Apr 16, 2025 ... I currently use Apollo it's great but wondering if there is anything else that helped other founders or solo founders on here! Upvote",
+      "htmlSnippet": "Apr 16, 2025 <b>...</b> I currently use <b>Apollo</b> it&#39;s great but wondering if there is anything else that helped other <b>founders</b> or solo <b>founders</b> on here! Upvote",
+      "formattedUrl": "https://www.reddit.com/r/.../best_crm_for_founder_led_sales_does_apollo/",
+      "htmlFormattedUrl": "https://www.reddit.com/r/.../best_crm_for_founder_led_sales_does_<b>apollo</b>/",
+      "pagemap": {
+        "metatags": [
+          {
+            "og:image": "https://share.redd.it/preview/post/1k0vjbz",
+            "theme-color": "#000000",
+            "og:image:width": "1200",
+            "og:type": "website",
+            "og:image:alt": "An image containing a preview of the post",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "r/CRM on Reddit: Best CRM for founder led sales? Does Apollo actually offer all in one solution?",
+            "og:site_name": "Reddit",
+            "og:title": "r/CRM on Reddit: Best CRM for founder led sales? Does Apollo actually offer all in one solution?",
+            "og:image:height": "630",
+            "msapplication-navbutton-color": "#000000",
+            "og:description": "Posted by u/No-Fisherman-8894 - 3 votes and 21 comments",
+            "twitter:image": "https://share.redd.it/preview/post/1k0vjbz",
+            "apple-mobile-web-app-status-bar-style": "black",
+            "twitter:site": "@reddit",
+            "viewport": "width=device-width, initial-scale=1, viewport-fit=cover",
+            "apple-mobile-web-app-capable": "yes",
+            "og:ttl": "600",
+            "og:url": "https://www.reddit.com/r/CRM/comments/1k0vjbz/best_crm_for_founder_led_sales_does_apollo/?seeker-session=true"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Apollo GraphQL Leadership Team",
+      "htmlTitle": "<b>Apollo</b> GraphQL Leadership Team",
+      "link": "https://www.apollographql.com/leadership",
+      "displayLink": "www.apollographql.com",
+      "snippet": "Certified Apollo GraphQL Developers. Board of Directors. Geoff Schmidt. Founder, Apollo GraphQL. Peter Levine. General Partner ...",
+      "htmlSnippet": "Certified <b>Apollo</b> GraphQL Developers. Board of Directors. Geoff Schmidt. <b>Founder</b>, <b>Apollo</b> GraphQL. Peter Levine. General Partner&nbsp;...",
+      "formattedUrl": "https://www.apollographql.com/leadership",
+      "htmlFormattedUrl": "https://www.<b>apollo</b>graphql.com/leadership",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj3HHJ3D9Qob6KrHThSvHcxtoZngnU5LAsaHjpjXbiajuK24D-aks8HPkP&s",
+            "width": "307",
+            "height": "164"
+          }
+        ],
+        "metatags": [
+          {
+            "msapplication-tilecolor": "#15252d",
+            "og:image": "https://www.apollographql.com/og.png",
+            "theme-color": "#15252d",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Apollo GraphQL Leadership Team",
+            "og:image:alt": "Apollo GraphQL Leadership Team",
+            "og:image:width": "1200",
+            "og:title": "Apollo GraphQL Leadership Team",
+            "og:image:height": "630",
+            "msapplication-tileimage": "/favicon/ms-icon-144x144.png",
+            "twitter:creator": "@apollographql",
+            "og:description": "Unlock microservices potential with Apollo GraphQL. Seamlessly integrate APIs, manage data, and enhance performance. Explore Apollo's innovative solutions.",
+            "twitter:image": "https://www.apollographql.com/og.png",
+            "next-head-count": "40",
+            "twitter:site": "@apollographql",
+            "viewport": "width=device-width, height=device-height, initial-scale=1, shrink-to-fit=no",
+            "twitter:description": "Unlock microservices potential with Apollo GraphQL. Seamlessly integrate APIs, manage data, and enhance performance. Explore Apollo's innovative solutions.",
+            "og:url": "https://www.apollographql.com/leadership"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.apollographql.com/og.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Exclusive | Dispute Between Apollo Co-Founders Black, Harris Boils ...",
+      "htmlTitle": "Exclusive | Dispute Between <b>Apollo</b> Co-<b>Founders</b> Black, Harris Boils ...",
+      "link": "https://www.wsj.com/business/dispute-between-apollo-co-founders-black-harris-boils-over-11643020207?gaa_at=eafs&gaa_n=ASWzDAjcK2OlfVFUdXjVB4MEnsFwCrSNDAga4BMqVOhOK0m6d9GB3q10uBU4&gaa_ts=689ec2e2&gaa_sig=U-RASHl_Z438xJq80Qyv3pec2rW8S5DaLetMNklDvIrs2hyntuzSWdtvRjlLB6jBEASzbDqDyAGAv_He_P6p4w%3D%3D",
+      "displayLink": "www.wsj.com",
+      "snippet": "Jan 24, 2022 ... Tension between Leon Black and his Apollo Global Management Inc. co-founder Josh Harris is boiling over, threatening to buffet the investment giant with fresh ...",
+      "htmlSnippet": "Jan 24, 2022 <b>...</b> Tension between Leon Black and his <b>Apollo</b> Global Management Inc. co-<b>founder</b> Josh Harris is boiling over, threatening to buffet the investment giant with fresh&nbsp;...",
+      "formattedUrl": "https://www.wsj.com/.../dispute-between-apollo-co-founders-black-harris-b...",
+      "htmlFormattedUrl": "https://www.wsj.com/.../dispute-between-<b>apollo</b>-co-<b>founders</b>-black-harris-b...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcZVtVK-G41vqY5v5TQwFin0_kIKI6dPB-q78af3953l9bZ5_f30-L8dov&s",
+            "width": "318",
+            "height": "159"
+          }
+        ],
+        "metatags": [
+          {
+            "article.origheadline": "Dispute Between Apollo Co-Founders Black, Harris Boils Over",
+            "og:image": "https://images.wsj.net/im-471718/social",
+            "article.publisher": "https://www.facebook.com/wsj",
+            "twitter:card": "summary_large_image",
+            "og:image:width": "1280",
+            "og:site_name": "WSJ",
+            "datelastpubbed": "2025-06-01T12:05:00Z",
+            "og:description": "Tension between Leon Black and his Apollo Global Management co-founder Josh Harris is threatening to buffet the investment giant with fresh controversy.",
+            "article.access": "paid",
+            "article:publisher": "https://www.facebook.com/wsj",
+            "twitter:image:alt": "Dispute Between Apollo Co-Founders Black, Harris Boils Over",
+            "article.section": "Markets",
+            "article.version": "3",
+            "page.content.format": "responsive",
+            "article:word_count": "1213",
+            "twitter:domain": "wsj.com",
+            "article.created": "2022-01-24T10:30:00Z",
+            "author": "Miriam Gottfried",
+            "article:video_count": "0",
+            "fb:pages": "8304333127",
+            "article:internal_link_count": "13",
+            "msnbot": "nocache, noarchive",
+            "og:locale": "en_US",
+            "page.content.type": "Article",
+            "article:image_count": "2",
+            "article.id": "SB10133856261083814410404588319181895451070",
+            "article.page": "Markets",
+            "twitter:image": "https://images.wsj.net/im-471718/social",
+            "article.updated": "2022-01-25T00:55:00Z",
+            "article:embed_count": "1",
+            "twitter:site": "@WSJ",
+            "page.section": "Article",
+            "article.type.display": "Finance",
+            "twitter:title": "WSJ News Exclusive | Dispute Between Apollo Co-Founders Black, Harris Boils Over",
+            "og:type": "article",
+            "article.summary": "Tension between Leon Black and his Apollo Global Management co-founder Josh Harris is threatening to buffet the investment giant with fresh controversy.",
+            "servo-context": "servo:prod:virginia:wsj-nextjs-app:article",
+            "og:title": "WSJ News Exclusive | Dispute Between Apollo Co-Founders Black, Harris Boils Over",
+            "og:image:height": "640",
+            "page.content.source": "WSJ Online",
+            "fb:app_id": "368513495882",
+            "article.published": "2022-01-24T10:30:00Z",
+            "viewport": "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0",
+            "twitter:description": "Tension between Leon Black and his Apollo Global Management co-founder Josh Harris is threatening to buffet the investment giant with fresh controversy.",
+            "article.headline": "Dispute Between Apollo Co-Founders Black, Harris Boils Over",
+            "branch:deeplink:target": "app",
+            "og:url": "https://www.wsj.com/business/dispute-between-apollo-co-founders-black-harris-boils-over-11643020207",
+            "google-signin-client_id": "61387583289.apps.googleusercontent.com",
+            "article.type": "Finance",
+            "article:external_link_count": "1"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://images.wsj.net/im-471718/social"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "The Founders — The Apollo Center",
+      "htmlTitle": "The <b>Founders</b> — The <b>Apollo</b> Center",
+      "link": "https://www.theapollocenter.com/the-founders-1",
+      "displayLink": "www.theapollocenter.com",
+      "snippet": "Apollo Arts was founded by Emmy & Travis Moon in the summer of 2011 with a little dream of providing an artistic outlet and community for artists.",
+      "htmlSnippet": "<b>Apollo</b> Arts was founded by Emmy &amp; Travis Moon in the summer of 2011 with a little dream of providing an artistic outlet and community for artists.",
+      "formattedUrl": "https://www.theapollocenter.com/the-founders-1",
+      "htmlFormattedUrl": "https://www.the<b>apollo</b>center.com/the-<b>founders</b>-1",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmfs3o_hi9reroGYVAWdOoq_iziW6d3_75N-Qud0OOXC7bzI4UXn3x_pk&s",
+            "width": "275",
+            "height": "183"
+          }
+        ],
+        "metatags": [
+          {
+            "og:type": "website",
+            "twitter:title": "The Founders — The Apollo Center",
+            "twitter:card": "summary",
+            "og:site_name": "The Apollo Center",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:url": "https://www.theapollocenter.com/the-founders-1",
+            "og:title": "The Founders — The Apollo Center",
+            "og:url": "https://www.theapollocenter.com/the-founders-1"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://images.squarespace-cdn.com/content/v1/5dc197fbcac59d5ece6b4bc2/1580488138036-RD98W2SJ8ZJCYBS9B6G6/LongLostRehearsal-232.jpg"
+          }
+        ]
+      }
+    }
+  ]
+}

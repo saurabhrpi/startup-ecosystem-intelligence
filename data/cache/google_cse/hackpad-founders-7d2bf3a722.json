@@ -1,0 +1,1664 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - \"HackPad\" founders",
+        "totalResults": "1320",
+        "searchTerms": "\"HackPad\" founders",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - \"HackPad\" founders",
+        "totalResults": "1320",
+        "searchTerms": "\"HackPad\" founders",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ]
+  },
+  "context": {
+    "title": "startup-ecosystem-intelligence"
+  },
+  "searchInformation": {
+    "searchTime": 0.119533,
+    "formattedSearchTime": "0.12",
+    "totalResults": "1320",
+    "formattedTotalResults": "1,320"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "HackPad: A realtime wiki for getting things done. | Y Combinator",
+      "htmlTitle": "<b>HackPad</b>: A realtime wiki for getting things done. | Y Combinator",
+      "link": "https://www.ycombinator.com/companies/hackpad",
+      "displayLink": "www.ycombinator.com",
+      "snippet": "A realtime wiki for getting things done. Founded in by Igor Kofman, HackPad has 2 employees based in San Francisco, CA, USA.",
+      "htmlSnippet": "A realtime wiki for getting things done. Founded in by Igor Kofman, <b>HackPad</b> has 2 employees based in San Francisco, CA, USA.",
+      "formattedUrl": "https://www.ycombinator.com/companies/hackpad",
+      "htmlFormattedUrl": "https://www.ycombinator.com/companies/<b>hackpad</b>",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_jlx_ttcDqicgZBVs0DjrnlFIWkOUPYZ1SvaiGlEZzk4B6xRiqshYu3_C&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "image": "/logos/medium/missing.png",
+            "og:image": "/logos/medium/missing.png",
+            "twitter:card": "summary_large_image",
+            "og:type": "website",
+            "og:site_name": "Y Combinator",
+            "og:image:url": "/logos/medium/missing.png",
+            "og:title": "HackPad: A realtime wiki for getting things done. | Y Combinator",
+            "csrf-param": "authenticity_token",
+            "title": "HackPad: A realtime wiki for getting things done.",
+            "og:description": "A realtime wiki for getting things done. Founded in  by Igor Kofman, HackPad has 2 employees based in San Francisco, CA, USA.",
+            "twitter:image": "/logos/medium/missing.png",
+            "og:image:secure_url": "/logos/medium/missing.png",
+            "twitter:site": "@ycombinator",
+            "viewport": "initial-scale=1, width=device-width, height=device-height",
+            "csrf-token": "Wc4i3KZGG057h0el9I0T27jKxXfcKMz_J-gXseE4kxSBptFbHPr65Rvw2KQmsu9DF_CDAajUDR2_nDo9eDZuxg",
+            "og:locale": "en_US",
+            "og:url": "https://www.ycombinator.com/companies/hackpad"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "x-raw-image:///7481412385fe6d0f7d4a3339d90fe12309432ca41983e8d350b232301d5d8684"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Dropbox Shutters Online Editing App Hackpad",
+      "htmlTitle": "Dropbox Shutters Online Editing App <b>Hackpad</b>",
+      "link": "https://www.channelfutures.com/cloud/dropbox-shutters-online-editing-app-hackpad",
+      "displayLink": "www.channelfutures.com",
+      "snippet": "According to Dropbox, since the company acquired Hackpad, it has been building on Hackpad to create Dropbox Paper. Hackpad founder Igor Kofman is the Dropbox ...",
+      "htmlSnippet": "According to Dropbox, since the company acquired Hackpad, it has been building on Hackpad to create Dropbox Paper. <b>Hackpad founder</b> Igor Kofman is the Dropbox&nbsp;...",
+      "formattedUrl": "https://www.channelfutures.com/.../dropbox-shutters-online-editing-app-ha...",
+      "htmlFormattedUrl": "https://www.channelfutures.com/.../dropbox-shutters-online-editing-app-<b>ha</b>...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMaUhNIrUL1Xhj3MXTIfgAhqtyqk58grze4RXLvmP0kzw9iJzwBEdUnqMm&s",
+            "width": "310",
+            "height": "162"
+          }
+        ],
+        "metatags": [
+          {
+            "oc:keywords": "Cloud Computing News & Updates, Connectivity",
+            "og:image": "https://eu-images.contentstack.com/v3/assets/blt10e444bce2d36aa8/blta17cd0e767dbc4c3/652630307370fc224bc3e716/thinkstockphotos-cloudmigration1_0.jpg?disable=upscale&width=1200&height=630&fit=crop",
+            "og:type": "article",
+            "twitter:card": "summary",
+            "viewport": "width=device-width,initial-scale=1",
+            "og:title": "Dropbox Shutters Online Editing App Hackpad",
+            "og:url": "https://www.channelfutures.com/cloud/dropbox-shutters-online-editing-app-hackpad",
+            "og:description": "Dropbox is shuttering Hackpad, a browser-based document editor that the company acquired in 2014."
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://eu-images.contentstack.com/v3/assets/blt10e444bce2d36aa8/blta17cd0e767dbc4c3/652630307370fc224bc3e716/thinkstockphotos-cloudmigration1_0.jpg?disable=upscale&width=1200&height=630&fit=crop"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Alex Graveley - Minion AI | LinkedIn",
+      "htmlTitle": "Alex Graveley - Minion AI | LinkedIn",
+      "link": "https://www.linkedin.com/in/alexgraveley",
+      "displayLink": "www.linkedin.com",
+      "snippet": "I'm Alex Graveley, creator of GitHub Copilot, Dropbox Paper, MobileCoin, and Hackpad ...",
+      "htmlSnippet": "I&#39;m Alex Graveley, creator of GitHub Copilot, Dropbox Paper, MobileCoin, and <b>Hackpad</b>&nbsp;...",
+      "formattedUrl": "https://www.linkedin.com/in/alexgraveley",
+      "htmlFormattedUrl": "https://www.linkedin.com/in/alexgraveley",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQemzRJfHa-hT8nOZPY3qMSnmzskz1FiVGR80e2S7sNqardNWf3vHT1m-GF&s",
+            "width": "200",
+            "height": "200"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://media.licdn.com/dms/image/v2/D5603AQHaB68AC5Osiw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1697335171053?e=2147483647&v=beta&t=rHL71MR8FH4yocCax8pOgsZSN7TqlHHsnhSvxKP4VlY",
+            "twitter:card": "summary",
+            "linkedin:pagetag": "openToProvider",
+            "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+            "al:android:package": "com.linkedin.android",
+            "bingbot": "nocache",
+            "locale": "en_US",
+            "al:ios:url": "https://www.linkedin.com/in/alexgraveley",
+            "og:description": "I’m Alex Graveley, creator of GitHub Copilot, Dropbox Paper, MobileCoin, and Hackpad… · Experience: Minion AI · Education: YCombinator · Location: San Francisco · 500+ connections on LinkedIn. View Alex Graveley’s profile on LinkedIn, a professional community of 1 billion members.",
+            "al:ios:app_store_id": "288429040",
+            "platform": "https://static.licdn.com/aero-v1/sc/h/50rhhil0lpchs3iqo4twn4tk9",
+            "twitter:image": "https://media.licdn.com/dms/image/v2/D5603AQHaB68AC5Osiw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1697335171053?e=2147483647&v=beta&t=rHL71MR8FH4yocCax8pOgsZSN7TqlHHsnhSvxKP4VlY",
+            "profile:last_name": "Graveley",
+            "twitter:site": "@Linkedin",
+            "litmsprofilename": "public-profile-frontend",
+            "profile:first_name": "Alex",
+            "og:type": "profile",
+            "twitter:title": "Alex Graveley - Minion AI | LinkedIn",
+            "al:ios:app_name": "LinkedIn",
+            "og:title": "Alex Graveley - Minion AI | LinkedIn",
+            "pagekey": "public_profile_v3_mobile",
+            "al:android:url": "https://www.linkedin.com/in/alexgraveley",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "twitter:description": "I’m Alex Graveley, creator of GitHub Copilot, Dropbox Paper, MobileCoin, and Hackpad… · Experience: Minion AI · Education: YCombinator · Location: San Francisco · 500+ connections on LinkedIn. View Alex Graveley’s profile on LinkedIn, a professional community of 1 billion members.",
+            "ubba": "https://static.licdn.com/aero-v1/sc/h/41b802ccd3dg7q90ypctzxybx",
+            "og:url": "https://www.linkedin.com/in/alexgraveley",
+            "al:android:app_name": "LinkedIn"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://media.licdn.com/dms/image/v2/D5603AQHaB68AC5Osiw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1697335171053?e=2147483647&v=beta&t=rHL71MR8FH4yocCax8pOgsZSN7TqlHHsnhSvxKP4VlY"
+          }
+        ],
+        "Person": [
+          {}
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Dropbox is killing Hackpad on July 19 and moving users' files to ...",
+      "htmlTitle": "Dropbox is killing <b>Hackpad</b> on July 19 and moving users&#39; files to ...",
+      "link": "https://venturebeat.com/business/dropbox-is-killing-hackpad-on-july-19-and-moving-users-files-to-paper/",
+      "displayLink": "venturebeat.com",
+      "snippet": "Apr 25, 2017 ... There's also an importing tool that Hackpad founder and Dropbox Paper lead Igor Kofman came up with that “helps convert your pads to Paper ...",
+      "htmlSnippet": "Apr 25, 2017 <b>...</b> There&#39;s also an importing tool that <b>Hackpad founder</b> and Dropbox Paper lead Igor Kofman came up with that “helps convert your pads to Paper&nbsp;...",
+      "formattedUrl": "https://venturebeat.com/.../dropbox-is-killing-hackpad-on-july-19-and-mov...",
+      "htmlFormattedUrl": "https://venturebeat.com/.../dropbox-is-killing-<b>hackpad</b>-on-july-19-and-mov...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdbK_pWWZ0cYeB5uYFrc10-eEJAl-vza9t9zvB83ydyQoxT-SMtQRTkQM&s",
+            "width": "323",
+            "height": "156"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://venturebeat.com/wp-content/uploads/2017/04/hackpad-screenshot.png?w=1024?w=1200&strip=all",
+            "og:type": "article",
+            "article:published_time": "2017-04-25T21:45:04+00:00",
+            "og:image:width": "3737",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Dropbox is killing Hackpad on July 19 and moving users’ files to Paper",
+            "og:site_name": "VentureBeat",
+            "author": "Jordan Novet",
+            "og:title": "Dropbox is killing Hackpad on July 19 and moving users’ files to Paper",
+            "og:image:height": "1805",
+            "og:image:type": "image/png",
+            "og:description": "Cloud file syncing and sharing service Dropbox announced on April 20 that it will shut down Hackpad, a collaboration-friendly application for taking notes and even maintaining wikis, on July 19. It started telling users to export their files a few weeks ago, a Dropbox spokesperson told VentureBeat in an email. Dropbox acquired Hackpad in 2014 […]",
+            "twitter:creator": "@venturebeat",
+            "fb:pages": "7419689078",
+            "article:publisher": "https://www.facebook.com/venturebeat/",
+            "twitter:image": "https://venturebeat.com/wp-content/uploads/2017/04/hackpad-screenshot.png?w=1024?w=1200&strip=all",
+            "twitter:site": "@venturebeat",
+            "article:modified_time": "2017-04-25T22:50:01+00:00",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "og:locale": "en_US",
+            "og:url": "https://venturebeat.com/business/dropbox-is-killing-hackpad-on-july-19-and-moving-users-files-to-paper/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://venturebeat.com/wp-content/uploads/2017/04/hackpad-screenshot.png?w=1024?w=1200&strip=all"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Re: Important information regarding your Hackpad account from ...",
+      "htmlTitle": "Re: Important information regarding your <b>Hackpad</b> account from ...",
+      "link": "https://lists.w3.org/Archives/Public/public-clreq-admin/2017AprJun/0001.html",
+      "displayLink": "lists.w3.org",
+      "snippet": "Apr 20, 2017 ... ... hackpad@dropbox.com. > > Igor Kofman, Hackpad founder and Dropbox Paper lead > > >. Received on Thursday, 20 April 2017 17:20:58 UTC. This ...",
+      "htmlSnippet": "Apr 20, 2017 <b>...</b> ... hackpad@dropbox.com. &gt; &gt; Igor Kofman, <b>Hackpad founder</b> and Dropbox Paper lead &gt; &gt; &gt;. Received on Thursday, 20 April 2017 17:20:58 UTC. This&nbsp;...",
+      "formattedUrl": "https://lists.w3.org/Archives/Public/public-clreq-admin/.../0001.html",
+      "htmlFormattedUrl": "https://lists.w3.org/Archives/Public/public-clreq-admin/.../0001.html",
+      "pagemap": {
+        "metatags": [
+          {
+            "date": "2017-04-20",
+            "viewport": "width=device-width, initial-scale=1",
+            "author": "董福興 (bobbytung@wanderer.tw)",
+            "subject": "Re: Important information regarding your Hackpad account"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Dropbox is shuttering Hackpad, the collaborative document service ...",
+      "htmlTitle": "Dropbox is shuttering <b>Hackpad</b>, the collaborative document service ...",
+      "link": "https://techcrunch.com/2017/04/26/dropbox-is-closing-down-hackpad/",
+      "displayLink": "techcrunch.com",
+      "snippet": "Apr 26, 2017 ... Cloud sharing giant Dropbox announced this week it will shutter document collaboration service Hackpad, which it acquired way back in 2014, ...",
+      "htmlSnippet": "Apr 26, 2017 <b>...</b> Cloud sharing giant Dropbox announced this week it will shutter document collaboration service <b>Hackpad</b>, which it acquired way back in 2014,&nbsp;...",
+      "formattedUrl": "https://techcrunch.com/2017/04/26/dropbox-is-closing-down-hackpad/",
+      "htmlFormattedUrl": "https://techcrunch.com/2017/04/26/dropbox-is-closing-down-<b>hackpad</b>/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZI2-Tg3wyqZDk5ZYKgdnA986wsi8hWBwURPf0uj23y_zdWVoiWaBrQaxU&s",
+            "width": "259",
+            "height": "194"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://techcrunch.com/wp-content/uploads/2015/01/dropbox-image.jpg",
+            "article:published_time": "2017-04-26T10:29:53+00:00",
+            "og:image:width": "1264",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "TechCrunch",
+            "sailthru.tags": ",Dropbox,note taking,hackpad,Igor Kofman,Media & Entertainment",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "parsely-author": "Jon Russell",
+            "og:image:type": "image/jpeg",
+            "msapplication-tileimage": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=270",
+            "og:description": "Cloud sharing giant Dropbox announced this week it will shutter document collaboration service Hackpad, which it acquired way back in 2014, next month.",
+            "twitter:creator": "@TechCrunch",
+            "parsely-metadata": "{\"post_id\":1481608,\"is_brief\":false}",
+            "article:publisher": "https://www.facebook.com/techcrunch",
+            "twitter:data1": "Jon Russell",
+            "twitter:data2": "1 minute",
+            "parsely-type": "post",
+            "twitter:site": "@TechCrunch",
+            "article:modified_time": "2017-04-26T13:04:20+00:00",
+            "parsely-link": "https://techcrunch.com/2017/04/26/dropbox-is-closing-down-hackpad/",
+            "sailthru.title": "Dropbox is shuttering Hackpad, the collaborative document service it bought in 2014",
+            "parsely-image-url": "https://techcrunch.com/wp-content/uploads/2015/01/dropbox-image.jpg?w=150",
+            "parsely-section": "Media & Entertainment",
+            "sailthru.date": "2017-04-26 03:29:53",
+            "og:type": "article",
+            "author": "Jon Russell",
+            "og:title": "Dropbox is shuttering Hackpad, the collaborative document service it bought in 2014 | TechCrunch",
+            "og:image:height": "948",
+            "sailthru.image.thumb": "https://techcrunch.com/wp-content/uploads/2015/01/dropbox-image.jpg?w=50",
+            "parsely-title": "Dropbox is shuttering Hackpad, the collaborative document service it bought in 2014",
+            "parsely-pub-date": "2017-04-26T10:29:53Z",
+            "sailthru.description": "Cloud sharing giant Dropbox announced this week it will shutter document collaboration service Hackpad, which it acquired way back in 2014, next month. Unlike the usual (and inevitable) demise of a promising software startup following a corporate acquisition — ahem Microsoft; on at least two occasions — Dropbox deserves credit for letting Hackpad live on. Not […]",
+            "parsely-tags": "dropbox,note taking,hackpad,igor kofman",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:locale": "en_US",
+            "og:url": "https://techcrunch.com/2017/04/26/dropbox-is-closing-down-hackpad/",
+            "sailthru.author": "Jon Russell",
+            "sailthru.image.full": "https://techcrunch.com/wp-content/uploads/2015/01/dropbox-image.jpg"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://techcrunch.com/wp-content/uploads/2015/01/dropbox-image.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Alex Graveley (@alexgraveley) / X",
+      "htmlTitle": "Alex Graveley (@alexgraveley) / X",
+      "link": "https://x.com/alexgraveley?lang=en",
+      "displayLink": "x.com",
+      "snippet": "Co-creator of GitHub Copilot, Dropbox Paper, AI Tinkerers, Hackpad, MobileCoin, Minion AI, etc. Working on @PerplexityComet. Survivor.",
+      "htmlSnippet": "Co-creator of GitHub Copilot, Dropbox Paper, AI Tinkerers, <b>Hackpad</b>, MobileCoin, Minion AI, etc. Working on @PerplexityComet. Survivor.",
+      "formattedUrl": "https://x.com/alexgraveley?lang=en",
+      "htmlFormattedUrl": "https://x.com/alexgraveley?lang=en",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXm__LAUsuluYuKvP4G1of7lGxptaYvYSnMu59hMCMXVlC66gnxwEkzV8&s",
+            "width": "200",
+            "height": "200"
+          }
+        ],
+        "imageobject": [
+          {
+            "contenturl": "https://pbs.twimg.com/media/GyMMoyzWsAAGHfi.jpg",
+            "width": "1024",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/GyMMoyzWsAAGHfi?format=jpg&name=thumb"
+          },
+          {
+            "contenturl": "https://pbs.twimg.com/media/GyMZGtAXUAAkaQS.jpg",
+            "width": "2124",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/GyMZGtAXUAAkaQS?format=jpg&name=thumb"
+          },
+          {
+            "contenturl": "https://pbs.twimg.com/media/GxwXf3dbkAAgwDO.jpg",
+            "width": "1546",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/GxwXf3dbkAAgwDO?format=jpg&name=thumb"
+          },
+          {
+            "contenturl": "https://pbs.twimg.com/media/GxrlG8BbUAAmwwm.jpg",
+            "width": "3024",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/GxrlG8BbUAAmwwm?format=jpg&name=thumb"
+          }
+        ],
+        "person": [
+          {
+            "identifier": "1546135402678992896",
+            "givenname": "Alex Graveley",
+            "disambiguatingdescription": "Perplexity",
+            "additionalname": "alexgraveley"
+          },
+          {
+            "identifier": "1546135402678992896",
+            "givenname": "Alex Graveley",
+            "disambiguatingdescription": "Perplexity",
+            "additionalname": "alexgraveley"
+          },
+          {
+            "identifier": "1546135402678992896",
+            "givenname": "Alex Graveley",
+            "additionalname": "alexgraveley"
+          },
+          {
+            "identifier": "1599587232175849472",
+            "givenname": "Perplexity",
+            "additionalname": "perplexity_ai"
+          },
+          {
+            "identifier": "1546135402678992896",
+            "givenname": "Alex Graveley",
+            "additionalname": "alexgraveley"
+          },
+          {
+            "identifier": "783098774130401280",
+            "givenname": "jack morris",
+            "additionalname": "jxmnop"
+          },
+          {
+            "identifier": "1546135402678992896",
+            "givenname": "Alex Graveley",
+            "disambiguatingdescription": "Perplexity",
+            "additionalname": "alexgraveley"
+          },
+          {
+            "identifier": "1546135402678992896",
+            "givenname": "Alex Graveley",
+            "additionalname": "alexgraveley"
+          },
+          {
+            "identifier": "960111592825290753",
+            "givenname": "Formerly GiannisWorld",
+            "additionalname": "NeuralAA"
+          },
+          {
+            "identifier": "1546135402678992896",
+            "givenname": "Alex Graveley",
+            "disambiguatingdescription": "Perplexity",
+            "additionalname": "alexgraveley"
+          },
+          {
+            "identifier": "1546135402678992896",
+            "givenname": "Alex Graveley",
+            "additionalname": "alexgraveley"
+          },
+          {
+            "identifier": "1263452700",
+            "givenname": "Ali Shobeiri",
+            "disambiguatingdescription": "Perplexity",
+            "additionalname": "Ali_Shobeiri"
+          },
+          {
+            "identifier": "1546135402678992896",
+            "givenname": "Alex Graveley",
+            "additionalname": "alexgraveley"
+          },
+          {
+            "identifier": "86676024",
+            "givenname": "Amish Thaker",
+            "additionalname": "theqrcodeguy"
+          },
+          {
+            "identifier": "1546135402678992896",
+            "givenname": "Alex Graveley",
+            "disambiguatingdescription": "Perplexity",
+            "additionalname": "alexgraveley"
+          },
+          {
+            "identifier": "1546135402678992896",
+            "givenname": "Alex Graveley",
+            "disambiguatingdescription": "Perplexity",
+            "additionalname": "alexgraveley"
+          },
+          {
+            "identifier": "1546135402678992896",
+            "givenname": "Alex Graveley",
+            "disambiguatingdescription": "Perplexity",
+            "additionalname": "alexgraveley"
+          },
+          {
+            "identifier": "1546135402678992896",
+            "givenname": "Alex Graveley",
+            "disambiguatingdescription": "Perplexity",
+            "additionalname": "alexgraveley"
+          },
+          {
+            "identifier": "1546135402678992896",
+            "givenname": "Alex Graveley",
+            "disambiguatingdescription": "Perplexity",
+            "additionalname": "alexgraveley"
+          },
+          {
+            "identifier": "1546135402678992896",
+            "givenname": "Alex Graveley",
+            "disambiguatingdescription": "Perplexity",
+            "additionalname": "alexgraveley"
+          },
+          {
+            "identifier": "1546135402678992896",
+            "givenname": "Alex Graveley",
+            "disambiguatingdescription": "Perplexity",
+            "additionalname": "alexgraveley"
+          },
+          {
+            "identifier": "1546135402678992896",
+            "givenname": "Alex Graveley",
+            "disambiguatingdescription": "Perplexity",
+            "additionalname": "alexgraveley"
+          },
+          {
+            "identifier": "1546135402678992896",
+            "givenname": "Alex Graveley",
+            "additionalname": "alexgraveley"
+          },
+          {
+            "identifier": "1163801450968997889",
+            "givenname": "Casper Hansen",
+            "additionalname": "casper_hansen_"
+          },
+          {
+            "identifier": "1546135402678992896",
+            "givenname": "Alex Graveley",
+            "disambiguatingdescription": "Perplexity",
+            "additionalname": "alexgraveley"
+          },
+          {
+            "identifier": "1546135402678992896",
+            "givenname": "Alex Graveley",
+            "disambiguatingdescription": "Perplexity",
+            "additionalname": "alexgraveley"
+          }
+        ],
+        "interactioncounter": [
+          {
+            "userinteractioncount": "218",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/alexgraveley/status/1945366047181213988/likes"
+          },
+          {
+            "userinteractioncount": "12",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/alexgraveley/status/1945366047181213988/retweets"
+          },
+          {
+            "userinteractioncount": "5",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/alexgraveley/status/1945366047181213988/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "8",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/alexgraveley/status/1945366047181213988"
+          },
+          {
+            "userinteractioncount": "20948",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "3",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/alexgraveley/status/1956082009165734048/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/alexgraveley/status/1956082009165734048/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/alexgraveley/status/1956082009165734048/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/alexgraveley/status/1956082009165734048"
+          },
+          {
+            "userinteractioncount": "577",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "1039",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/perplexity_ai/status/1955684209483534657/likes"
+          },
+          {
+            "userinteractioncount": "77",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/perplexity_ai/status/1955684209483534657/retweets"
+          },
+          {
+            "userinteractioncount": "23",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/perplexity_ai/status/1955684209483534657/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "89",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/perplexity_ai/status/1955684209483534657"
+          },
+          {
+            "userinteractioncount": "198115",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "6026",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/jxmnop/status/1955436067353502083/likes"
+          },
+          {
+            "userinteractioncount": "447",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/jxmnop/status/1955436067353502083/retweets"
+          },
+          {
+            "userinteractioncount": "93",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/jxmnop/status/1955436067353502083/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "149",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/jxmnop/status/1955436067353502083"
+          },
+          {
+            "userinteractioncount": "821534",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "5",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/alexgraveley/status/1955450008310067484/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/alexgraveley/status/1955450008310067484/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/alexgraveley/status/1955450008310067484/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "7",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/alexgraveley/status/1955450008310067484"
+          },
+          {
+            "userinteractioncount": "4267",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "42",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/NeuralAA/status/1954636814045610428/likes"
+          },
+          {
+            "userinteractioncount": "3",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/NeuralAA/status/1954636814045610428/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/NeuralAA/status/1954636814045610428/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "3",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/NeuralAA/status/1954636814045610428"
+          },
+          {
+            "userinteractioncount": "4617",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "6",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/alexgraveley/status/1954078447862517771/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/alexgraveley/status/1954078447862517771/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/alexgraveley/status/1954078447862517771/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/alexgraveley/status/1954078447862517771"
+          },
+          {
+            "userinteractioncount": "2360",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "259",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/Ali_Shobeiri/status/1954014542343852414/likes"
+          },
+          {
+            "userinteractioncount": "4",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/Ali_Shobeiri/status/1954014542343852414/retweets"
+          },
+          {
+            "userinteractioncount": "2",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/Ali_Shobeiri/status/1954014542343852414/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "17",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/Ali_Shobeiri/status/1954014542343852414"
+          },
+          {
+            "userinteractioncount": "17578",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "91",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/theqrcodeguy/status/1953557844994736291/likes"
+          },
+          {
+            "userinteractioncount": "8",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/theqrcodeguy/status/1953557844994736291/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/theqrcodeguy/status/1953557844994736291/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "14",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/theqrcodeguy/status/1953557844994736291"
+          },
+          {
+            "userinteractioncount": "8233",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "22",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/alexgraveley/status/1953972545109266874/likes"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/alexgraveley/status/1953972545109266874/retweets"
+          },
+          {
+            "userinteractioncount": "2",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/alexgraveley/status/1953972545109266874/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "6",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/alexgraveley/status/1953972545109266874"
+          },
+          {
+            "userinteractioncount": "7184",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "2",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/alexgraveley/status/1953921869981397284/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/alexgraveley/status/1953921869981397284/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/alexgraveley/status/1953921869981397284/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "3",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/alexgraveley/status/1953921869981397284"
+          },
+          {
+            "userinteractioncount": "1491",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "18",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/alexgraveley/status/1953871534743068918/likes"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/alexgraveley/status/1953871534743068918/retweets"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/alexgraveley/status/1953871534743068918/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "5",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/alexgraveley/status/1953871534743068918"
+          },
+          {
+            "userinteractioncount": "2986",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/alexgraveley/status/1953882197972144457/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/alexgraveley/status/1953882197972144457/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/alexgraveley/status/1953882197972144457/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/alexgraveley/status/1953882197972144457"
+          },
+          {
+            "userinteractioncount": "833",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/alexgraveley/status/1953882307913306231/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/alexgraveley/status/1953882307913306231/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/alexgraveley/status/1953882307913306231/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/alexgraveley/status/1953882307913306231"
+          },
+          {
+            "userinteractioncount": "760",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "87",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/alexgraveley/status/1953551494768472499/likes"
+          },
+          {
+            "userinteractioncount": "9",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/alexgraveley/status/1953551494768472499/retweets"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/alexgraveley/status/1953551494768472499/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "3",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/alexgraveley/status/1953551494768472499"
+          },
+          {
+            "userinteractioncount": "12332",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "4",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/alexgraveley/status/1953509337055330724/likes"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/alexgraveley/status/1953509337055330724/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/alexgraveley/status/1953509337055330724/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/alexgraveley/status/1953509337055330724"
+          },
+          {
+            "userinteractioncount": "1436",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "16",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/alexgraveley/status/1953207250656608737/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/alexgraveley/status/1953207250656608737/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/alexgraveley/status/1953207250656608737/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "2",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/alexgraveley/status/1953207250656608737"
+          },
+          {
+            "userinteractioncount": "2602",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "128",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/casper_hansen_/status/1952382517497180348/likes"
+          },
+          {
+            "userinteractioncount": "4",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/casper_hansen_/status/1952382517497180348/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/casper_hansen_/status/1952382517497180348/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "4",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/casper_hansen_/status/1952382517497180348"
+          },
+          {
+            "userinteractioncount": "9248",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "9",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/alexgraveley/status/1952257717386805356/likes"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/alexgraveley/status/1952257717386805356/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/alexgraveley/status/1952257717386805356/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/alexgraveley/status/1952257717386805356"
+          },
+          {
+            "userinteractioncount": "2521",
+            "interactiontype": "https://schema.org/ViewAction"
+          },
+          {
+            "userinteractioncount": "2",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/alexgraveley/status/1952155415938257172/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/alexgraveley/status/1952155415938257172/retweets"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/alexgraveley/status/1952155415938257172/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/alexgraveley/status/1952155415938257172"
+          },
+          {
+            "userinteractioncount": "1798",
+            "interactiontype": "https://schema.org/ViewAction"
+          }
+        ],
+        "metatags": [
+          {
+            "apple-itunes-app": "app-id=333903271",
+            "og:image": "https://pbs.twimg.com/profile_images/1669608410776764416/kVuKoJmS_200x200.jpg",
+            "theme-color": "#FFFFFF",
+            "og:type": "profile",
+            "og:site_name": "X (formerly Twitter)",
+            "al:ios:app_name": "X",
+            "apple-mobile-web-app-title": "Twitter",
+            "og:title": "Alex Graveley (@alexgraveley) on X",
+            "al:android:package": "com.twitter.android",
+            "al:ios:url": "twitter://user?screen_name=alexgraveley",
+            "title": "Alex Graveley (@alexgraveley) on X",
+            "og:description": "Co-creator of GitHub Copilot, Dropbox Paper, AI Tinkerers, Hackpad, MobileCoin, Minion AI, etc. Working on @PerplexityComet. Survivor 🎗️",
+            "al:ios:app_store_id": "333903271",
+            "facebook-domain-verification": "x6sdcc8b5ju3bh8nbm59eswogvg6t1",
+            "al:android:url": "twitter://user?screen_name=alexgraveley",
+            "fb:app_id": "2231777543",
+            "apple-mobile-web-app-status-bar-style": "white",
+            "viewport": "width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover",
+            "mobile-web-app-capable": "yes",
+            "og:url": "https://x.com/alexgraveley",
+            "al:android:app_name": "X"
+          }
+        ],
+        "videoobject": [
+          {
+            "duration": "PT0H0M19S",
+            "embedurl": "https://platform.twitter.com/embed/Tweet.html?dnt=false&embedId=twitter-widget-1&frame=false&hideCard=false&hideThread=false&lang=en&id=1955684209483534657",
+            "contenturl": "https://video.twimg.com/amplify_video/1955684133155610625/vid/avc1/720x1066/YPN67tVueZjGs9QX.mp4?tag=14",
+            "uploaddate": "2025-08-13T17:33:45.000Z",
+            "name": "@perplexity_ai's video Tweet",
+            "description": "Embedded video",
+            "caption": "Embedded video",
+            "thumbnailurl": "https://pbs.twimg.com/amplify_video_thumb/1955684133155610625/img/Ae3AFOVhHPb82Sk6.jpg"
+          },
+          {
+            "duration": "PT0H0M25S",
+            "embedurl": "https://platform.twitter.com/embed/Tweet.html?dnt=false&embedId=twitter-widget-1&frame=false&hideCard=false&hideThread=false&lang=en&id=1954636814045610428",
+            "contenturl": "https://video.twimg.com/amplify_video/1954636659359653889/vid/avc1/2964x1760/Acf_VPpI90ptMicZ.mp4?tag=21",
+            "uploaddate": "2025-08-10T20:11:46.000Z",
+            "name": "@NeuralAA's video Tweet",
+            "description": "Embedded video",
+            "caption": "Embedded video",
+            "thumbnailurl": "https://pbs.twimg.com/amplify_video_thumb/1954636659359653889/img/jFly-uUXBgGB8-KC.jpg"
+          },
+          {
+            "duration": "PT0H0M38S",
+            "embedurl": "https://platform.twitter.com/embed/Tweet.html?dnt=false&embedId=twitter-widget-1&frame=false&hideCard=false&hideThread=false&lang=en&id=1954014542343852414",
+            "contenturl": "https://video.twimg.com/amplify_video/1954014459154063360/vid/avc1/1080x1080/wR1QAwSyi9PNCoIW.mp4?tag=21",
+            "uploaddate": "2025-08-09T02:59:05.000Z",
+            "name": "@Ali_Shobeiri's video Tweet",
+            "description": "Embedded video",
+            "caption": "Embedded video",
+            "thumbnailurl": "https://pbs.twimg.com/amplify_video_thumb/1954014459154063360/img/1pLrJ2I_jUd4urR_.jpg"
+          },
+          {
+            "duration": "PT0H1M45S",
+            "embedurl": "https://platform.twitter.com/embed/Tweet.html?dnt=false&embedId=twitter-widget-1&frame=false&hideCard=false&hideThread=false&lang=en&id=1953557844994736291",
+            "contenturl": "https://video.twimg.com/amplify_video/1953557507030286336/vid/avc1/1152x720/QH2OXJlpshgf-W6a.mp4?tag=14",
+            "uploaddate": "2025-08-07T20:44:20.000Z",
+            "name": "@theqrcodeguy's video Tweet",
+            "description": "Embedded video",
+            "caption": "Embedded video",
+            "thumbnailurl": "https://pbs.twimg.com/amplify_video_thumb/1953557507030286336/img/xKKuOC4ys8ruoxp4.jpg"
+          }
+        ],
+        "collection": [
+          {
+            "name": "Profile posts"
+          }
+        ],
+        "creativework": [
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/7xH5ogW2QK"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/3xryQgLF8Z"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/3P8G6A6mrW"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/dHYgsj0UgL"
+          },
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/iPJgD2u2DJ"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://pbs.twimg.com/profile_images/1669608410776764416/kVuKoJmS_200x200.jpg"
+          }
+        ],
+        "socialmediaposting": [
+          {
+            "identifier": "1945366047181213988",
+            "commentcount": "8",
+            "articlebody": "For many jobs, the web browser is the IDE.",
+            "position": "1",
+            "datecreated": "2025-07-16T06:13:03.000Z",
+            "datepublished": "2025-07-16T06:13:03.000Z",
+            "url": "https://twitter.com/alexgraveley/status/1945366047181213988"
+          },
+          {
+            "identifier": "1956082009165734048",
+            "commentcount": "1",
+            "articlebody": "Knowledge worker onboarding should be a bunch of prompts shared in a doc you paste into Comet as needed.",
+            "position": "2",
+            "datecreated": "2025-08-14T19:54:27.000Z",
+            "datepublished": "2025-08-14T19:54:27.000Z",
+            "url": "https://twitter.com/alexgraveley/status/1956082009165734048"
+          },
+          {
+            "identifier": "1955700425983775178",
+            "position": "3",
+            "datecreated": "2025-08-13T18:38:11.000Z",
+            "datepublished": "2025-08-13T18:38:11.000Z"
+          },
+          {
+            "identifier": "1955684209483534657",
+            "commentcount": "89",
+            "articlebody": "Comet is now available for all US-based Perplexity Pro users. Browse at the speed of thought.",
+            "datecreated": "2025-08-13T17:33:45.000Z",
+            "datepublished": "2025-08-13T17:33:45.000Z",
+            "url": "https://twitter.com/perplexity_ai/status/1955684209483534657"
+          },
+          {
+            "identifier": "1955453412595863899",
+            "position": "4",
+            "datecreated": "2025-08-13T02:16:38.000Z",
+            "datepublished": "2025-08-13T02:16:38.000Z"
+          },
+          {
+            "identifier": "1955436067353502083",
+            "commentcount": "149",
+            "articlebody": "OpenAI hasn’t open-sourced a base model since GPT-2 in 2019. they recently released GPT-OSS, which is reasoning-only... or is it? turns out that underneath the surface, there is still a strong...",
+            "datecreated": "2025-08-13T01:07:43.000Z",
+            "datepublished": "2025-08-13T01:07:43.000Z",
+            "url": "https://twitter.com/jxmnop/status/1955436067353502083"
+          },
+          {
+            "identifier": "1955450008310067484",
+            "commentcount": "7",
+            "articlebody": "Are there any constant blood pressure monitoring devices that are any good?",
+            "position": "5",
+            "datecreated": "2025-08-13T02:03:07.000Z",
+            "datepublished": "2025-08-13T02:03:07.000Z",
+            "url": "https://twitter.com/alexgraveley/status/1955450008310067484"
+          },
+          {
+            "identifier": "1954685911670894972",
+            "position": "6",
+            "datecreated": "2025-08-10T23:26:52.000Z",
+            "datepublished": "2025-08-10T23:26:52.000Z"
+          },
+          {
+            "identifier": "1954636814045610428",
+            "commentcount": "3",
+            "articlebody": ".@PerplexityComet working on 3 different websites simultaneously to find me the best deal on the shoe AT CHECKOUT going through the whole flow and getting the right size and going to checkout...",
+            "datecreated": "2025-08-10T20:11:46.000Z",
+            "datepublished": "2025-08-10T20:11:46.000Z",
+            "url": "https://twitter.com/NeuralAA/status/1954636814045610428"
+          },
+          {
+            "identifier": "1954078447862517771",
+            "commentcount": "0",
+            "articlebody": "Still true & a very fun optimization problem.",
+            "position": "7",
+            "datecreated": "2025-08-09T07:13:01.000Z",
+            "isbasedon": "https://twitter.com/alexgraveley/status/1779025922651201630",
+            "datepublished": "2025-08-09T07:13:01.000Z",
+            "url": "https://twitter.com/alexgraveley/status/1954078447862517771"
+          },
+          {
+            "identifier": "1954015009086091591",
+            "position": "8",
+            "datecreated": "2025-08-09T03:00:56.000Z",
+            "datepublished": "2025-08-09T03:00:56.000Z"
+          },
+          {
+            "identifier": "1954014542343852414",
+            "commentcount": "17",
+            "articlebody": "Playing Geoguessr with @PerplexityComet",
+            "datecreated": "2025-08-09T02:59:05.000Z",
+            "datepublished": "2025-08-09T02:59:05.000Z",
+            "url": "https://twitter.com/Ali_Shobeiri/status/1954014542343852414"
+          },
+          {
+            "identifier": "1954002679698796994",
+            "position": "9",
+            "datecreated": "2025-08-09T02:11:57.000Z",
+            "datepublished": "2025-08-09T02:11:57.000Z"
+          },
+          {
+            "identifier": "1953557844994736291",
+            "commentcount": "14",
+            "articlebody": "Holy cow!! Comet takes control of your screen and does what you tell it to do. Crazy!!! Imagine what it'll be capable of 6 months down the line... @PerplexityComet @perplexity_ai @AravSrinivas",
+            "datecreated": "2025-08-07T20:44:20.000Z",
+            "datepublished": "2025-08-07T20:44:20.000Z",
+            "url": "https://twitter.com/theqrcodeguy/status/1953557844994736291"
+          },
+          {
+            "identifier": "1953972545109266874",
+            "commentcount": "6",
+            "articlebody": "We’re in the midst of The Great Dereferencing. Casting off the heirarchy & reference-based organizational systems of recorded human history towards pure ontological dialectic.",
+            "position": "10",
+            "datecreated": "2025-08-09T00:12:12.000Z",
+            "datepublished": "2025-08-09T00:12:12.000Z",
+            "url": "https://twitter.com/alexgraveley/status/1953972545109266874"
+          },
+          {
+            "identifier": "1953921869981397284",
+            "commentcount": "3",
+            "articlebody": "Confused what to post on X lately. Will try to fit the distribution of this poll:",
+            "position": "11",
+            "datecreated": "2025-08-08T20:50:50.000Z",
+            "datepublished": "2025-08-08T20:50:50.000Z",
+            "url": "https://twitter.com/alexgraveley/status/1953921869981397284"
+          },
+          {
+            "identifier": "1953871534743068918",
+            "commentcount": "5",
+            "articlebody": "AGI golden query set example: Hey Comet, research a novel AI startup idea that fits me. Generate a short founder video from my profile picture & include mocks from the product idea. Submit...",
+            "position": "12",
+            "datecreated": "2025-08-08T17:30:49.000Z",
+            "datepublished": "2025-08-08T17:30:49.000Z",
+            "url": "https://twitter.com/alexgraveley/status/1953871534743068918"
+          },
+          {
+            "identifier": "1953882197972144457",
+            "commentcount": "1",
+            "articlebody": "#2 Hey Comet, buy ULTY every week on dividend date, and sell on market open following day. Max out margin. Do this every week while ULTY yielding >50%/yr.",
+            "ispartof": "https://twitter.com/alexgraveley/status/1953871534743068918",
+            "position": "13",
+            "datecreated": "2025-08-08T18:13:12.000Z",
+            "datepublished": "2025-08-08T18:13:12.000Z",
+            "url": "https://twitter.com/alexgraveley/status/1953882197972144457"
+          },
+          {
+            "identifier": "1953882307913306231",
+            "commentcount": "0",
+            "articlebody": "#3 Hey Comet, go through Facebook find all people I connected with during high school and send a short personalized “I’d love to reconnect” msg. Followup to schedule video chats or coffee...",
+            "ispartof": "https://twitter.com/alexgraveley/status/1953882197972144457",
+            "position": "14",
+            "datecreated": "2025-08-08T18:13:38.000Z",
+            "datepublished": "2025-08-08T18:13:38.000Z",
+            "url": "https://twitter.com/alexgraveley/status/1953882307913306231"
+          },
+          {
+            "identifier": "1953551494768472499",
+            "commentcount": "3",
+            "articlebody": "Extremely cool, modifying GRPO to optimize compound systems.",
+            "position": "15",
+            "datecreated": "2025-08-07T20:19:06.000Z",
+            "isbasedon": "https://twitter.com/dilarafsoylu/status/1953464927714226254",
+            "datepublished": "2025-08-07T20:19:06.000Z",
+            "url": "https://twitter.com/alexgraveley/status/1953551494768472499"
+          },
+          {
+            "identifier": "1953509337055330724",
+            "commentcount": "0",
+            "articlebody": "Helping agents use your site through accessibility clues is good for users who need to use assistive tech, and is required by law in many cases. It also means agents don't bias towards an accessibl...",
+            "position": "16",
+            "datecreated": "2025-08-07T17:31:35.000Z",
+            "isbasedon": "https://twitter.com/alexgraveley/status/1713644519118324058",
+            "datepublished": "2025-08-07T17:31:35.000Z",
+            "url": "https://twitter.com/alexgraveley/status/1953509337055330724"
+          },
+          {
+            "identifier": "1953207250656608737",
+            "commentcount": "2",
+            "articlebody": "Please put @daylightco screen in this",
+            "position": "17",
+            "datecreated": "2025-08-06T21:31:12.000Z",
+            "isbasedon": "https://twitter.com/mryoukhna/status/1953125357730615432",
+            "datepublished": "2025-08-06T21:31:12.000Z",
+            "url": "https://twitter.com/alexgraveley/status/1953207250656608737"
+          },
+          {
+            "identifier": "1952385337105461640",
+            "position": "18",
+            "datecreated": "2025-08-04T15:05:12.000Z",
+            "datepublished": "2025-08-04T15:05:12.000Z"
+          },
+          {
+            "identifier": "1952382517497180348",
+            "commentcount": "4",
+            "articlebody": "Almost every single MoE is now running on SGLang. The team has heavily optimized MoEs, e.g. GLM 4.5 by Zhipu AI is trained with SGLang as inference backend. Open-source inference providers...",
+            "datecreated": "2025-08-04T14:54:00.000Z",
+            "datepublished": "2025-08-04T14:54:00.000Z",
+            "url": "https://twitter.com/casper_hansen_/status/1952382517497180348"
+          },
+          {
+            "identifier": "1952257717386805356",
+            "commentcount": "0",
+            "articlebody": "If you want US to win AI you should ask yourself why we don’t have 100 Deepseeks.",
+            "position": "19",
+            "datecreated": "2025-08-04T06:38:05.000Z",
+            "isbasedon": "https://twitter.com/theRealJohnPeng/status/1952202990422466765",
+            "datepublished": "2025-08-04T06:38:05.000Z",
+            "url": "https://twitter.com/alexgraveley/status/1952257717386805356"
+          },
+          {
+            "identifier": "1952155415938257172",
+            "commentcount": "0",
+            "articlebody": "I wish $0 existed in IDE terminals to refer the the currently selected tab/file.",
+            "position": "20",
+            "datecreated": "2025-08-03T23:51:35.000Z",
+            "datepublished": "2025-08-03T23:51:35.000Z",
+            "url": "https://twitter.com/alexgraveley/status/1952155415938257172"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Dropbox Acquires Cloud Photos Startup Loom And Document ...",
+      "htmlTitle": "Dropbox Acquires Cloud Photos Startup Loom And Document ...",
+      "link": "https://techcrunch.com/2014/04/17/dropbox-acquires-cloud-photos-startup-loom-service-to-be-shut-down-as-users-transferred-to-carousel/",
+      "displayLink": "techcrunch.com",
+      "snippet": "Apr 17, 2014 ... Also announced is Dropbox's acquisition of Hackpad, a lightweight, document-collaboration web and mobile application. ... (founder, DC Shoes), and ...",
+      "htmlSnippet": "Apr 17, 2014 <b>...</b> Also announced is Dropbox&#39;s acquisition of <b>Hackpad</b>, a lightweight, document-collaboration web and mobile application. ... (<b>founder</b>, DC Shoes), and&nbsp;...",
+      "formattedUrl": "https://techcrunch.com/.../dropbox-acquires-cloud-photos-startup-loom-ser...",
+      "htmlFormattedUrl": "https://techcrunch.com/.../dropbox-acquires-cloud-photos-startup-loom-ser...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPh6vpmdez7Myo8OL4t6MnbafSRtgPuq8N8FpLQ5ctPQgeDtZOHBa33Z23&s",
+            "width": "295",
+            "height": "171"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://techcrunch.com/wp-content/uploads/2014/04/dropbox-loom.jpg",
+            "article:published_time": "2014-04-17T17:12:27+00:00",
+            "og:image:width": "600",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "TechCrunch",
+            "sailthru.tags": ",Dropbox,loom,hackpad,Startups",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "parsely-author": "Sarah Perez",
+            "og:image:type": "image/jpeg",
+            "msapplication-tileimage": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=270",
+            "og:description": "Only days after revealing its first dedicated photo management and sharing application Carousel, Dropbox is announcing it has acquired cloud photo storage and sync service Loom, a favorite among iOS users. The company, which currently offers apps for iPhone, iPad and Mac, as well as an online experience, says it will no longer be enrolling new users and will work to transition existing customers to Dropbox by May 16, 2014, at which point Loom will be shut down.",
+            "twitter:creator": "@TechCrunch",
+            "parsely-metadata": "{\"post_id\":989621,\"is_brief\":false}",
+            "article:publisher": "https://www.facebook.com/techcrunch",
+            "twitter:data1": "Sarah Perez",
+            "twitter:data2": "3 minutes",
+            "parsely-type": "post",
+            "twitter:site": "@TechCrunch",
+            "article:modified_time": "2014-04-18T18:05:27+00:00",
+            "parsely-link": "https://techcrunch.com/2014/04/17/dropbox-acquires-cloud-photos-startup-loom-service-to-be-shut-down-as-users-transferred-to-carousel/",
+            "sailthru.title": "Dropbox Acquires Cloud Photos Startup Loom And Document Collaboration Service Hackpad",
+            "parsely-image-url": "https://techcrunch.com/wp-content/uploads/2014/04/dropbox-loom.jpg?w=150",
+            "parsely-section": "Startups",
+            "sailthru.date": "2014-04-17 10:12:27",
+            "og:type": "article",
+            "author": "Sarah Perez",
+            "og:title": "Dropbox Acquires Cloud Photos Startup Loom And Document Collaboration Service Hackpad  | TechCrunch",
+            "og:image:height": "348",
+            "fediverse:creator": "@Sarahp@mastodon.social",
+            "sailthru.image.thumb": "https://techcrunch.com/wp-content/uploads/2014/04/dropbox-loom.jpg?w=50",
+            "parsely-title": "Dropbox Acquires Cloud Photos Startup Loom And Document Collaboration Service Hackpad",
+            "parsely-pub-date": "2014-04-17T17:12:27Z",
+            "sailthru.description": "Only days after revealing its first dedicated photo management and sharing application Carousel, Dropbox is announcing it has acquired cloud photo storage and sync service Loom, a favorite among iOS users. The company, which currently offers apps for iPhone, iPad and Mac, as well as an online experience, says it will no longer be enrolling new users and will work to transition existing customers to Dropbox by May 16, 2014, at which point Loom will be shut down.",
+            "parsely-tags": "dropbox,loom,hackpad",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:locale": "en_US",
+            "og:url": "https://techcrunch.com/2014/04/17/dropbox-acquires-cloud-photos-startup-loom-service-to-be-shut-down-as-users-transferred-to-carousel/",
+            "sailthru.author": "Sarah Perez",
+            "sailthru.image.full": "https://techcrunch.com/wp-content/uploads/2014/04/dropbox-loom.jpg"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://techcrunch.com/wp-content/uploads/2014/04/dropbox-loom.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Betsy Dupuis on X: \"“Alex” Balabhadra Graveley, Architect of GitHub ...",
+      "htmlTitle": "Betsy Dupuis on X: &quot;“Alex” Balabhadra Graveley, Architect of GitHub ...",
+      "link": "https://x.com/BetsyDupuis/status/1488368034804908033",
+      "displayLink": "x.com",
+      "snippet": "Feb 1, 2022 ... I dated @hackpad (acquired by @dropbox 2015) co-founder Alex Graveley @orph in 2019. Things started off well, but after about 2 months he ...",
+      "htmlSnippet": "Feb 1, 2022 <b>...</b> I dated @<b>hackpad</b> (acquired by @dropbox 2015) co-<b>founder</b> Alex Graveley @orph in 2019. Things started off well, but after about 2 months he&nbsp;...",
+      "formattedUrl": "https://x.com/BetsyDupuis/status/1488368034804908033",
+      "htmlFormattedUrl": "https://x.com/BetsyDupuis/status/1488368034804908033",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4wsNVTJkIn5BvELfAQhWH5W3F4qctBy6Z2Yrm3SXNTGFuVdpcLUOvzEh3&s",
+            "width": "197",
+            "height": "255"
+          }
+        ],
+        "imageobject": [
+          {
+            "contenturl": "https://pbs.twimg.com/media/FKe-1seWYAQmmIZ.jpg",
+            "width": "850",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/FKe-1seWYAQmmIZ?format=jpg&name=thumb"
+          },
+          {
+            "contenturl": "https://pbs.twimg.com/media/EoFs5jhXUAE8N4W.jpg",
+            "width": "1125",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/EoFs5jhXUAE8N4W?format=jpg&name=thumb"
+          },
+          {
+            "contenturl": "https://pbs.twimg.com/media/EoFs6hfXEAMWyYA.jpg",
+            "width": "1125",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/EoFs6hfXEAMWyYA?format=jpg&name=thumb"
+          },
+          {
+            "contenturl": "https://pbs.twimg.com/media/EoFs7eXW4AEES9H.jpg",
+            "width": "941",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/EoFs7eXW4AEES9H?format=jpg&name=thumb"
+          },
+          {
+            "contenturl": "https://pbs.twimg.com/media/EoFs8g-XUAYfr0L.jpg",
+            "width": "1121",
+            "caption": "Image",
+            "thumbnailurl": "https://pbs.twimg.com/media/EoFs8g-XUAYfr0L?format=jpg&name=thumb"
+          }
+        ],
+        "person": [
+          {
+            "identifier": "400818610",
+            "givenname": "Betsy Dupuis",
+            "additionalname": "BetsyDupuis"
+          }
+        ],
+        "interactioncounter": [
+          {
+            "userinteractioncount": "611",
+            "interactiontype": "https://schema.org/FollowAction",
+            "name": "Likes"
+          },
+          {
+            "userinteractioncount": "843",
+            "interactiontype": "https://schema.org/SubscribeAction",
+            "name": "Retweets"
+          },
+          {
+            "userinteractioncount": "4418",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Quotes"
+          },
+          {
+            "userinteractioncount": "6",
+            "interactiontype": "https://schema.org/LikeAction",
+            "name": "Likes",
+            "url": "https://twitter.com/BetsyDupuis/status/1488368034804908033/likes"
+          },
+          {
+            "userinteractioncount": "0",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Retweets",
+            "url": "https://twitter.com/BetsyDupuis/status/1488368034804908033/retweets"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Quotes",
+            "url": "https://twitter.com/BetsyDupuis/status/1488368034804908033/retweets/with_comments"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "https://schema.org/InteractAction",
+            "name": "Replies",
+            "url": "https://twitter.com/BetsyDupuis/status/1488368034804908033"
+          }
+        ],
+        "metatags": [
+          {
+            "apple-itunes-app": "app-id=333903271",
+            "og:image": "https://pbs.twimg.com/media/FKe-1seWYAQmmIZ.jpg:large",
+            "theme-color": "#FFFFFF",
+            "og:type": "article",
+            "og:site_name": "X (formerly Twitter)",
+            "al:ios:app_name": "X",
+            "apple-mobile-web-app-title": "Twitter",
+            "og:title": "Betsy Dupuis (@BetsyDupuis) on X",
+            "al:android:package": "com.twitter.android",
+            "al:ios:url": "twitter://status?id=1488368034804908033",
+            "title": "Betsy Dupuis (@BetsyDupuis) on X",
+            "og:description": "“Alex” Balabhadra Graveley, Architect of  GitHub Copilot has been arrested and charged with 3rd Degree Felony Strangulation. See police report of the incident below.",
+            "al:ios:app_store_id": "333903271",
+            "facebook-domain-verification": "x6sdcc8b5ju3bh8nbm59eswogvg6t1",
+            "al:android:url": "twitter://status?id=1488368034804908033",
+            "fb:app_id": "2231777543",
+            "apple-mobile-web-app-status-bar-style": "white",
+            "viewport": "width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover",
+            "mobile-web-app-capable": "yes",
+            "og:url": "https://x.com/BetsyDupuis/status/1488368034804908033",
+            "al:android:app_name": "X"
+          }
+        ],
+        "collection": [
+          {
+            "name": "Post with replies"
+          }
+        ],
+        "creativework": [
+          {
+            "name": "Expanded Tweet URLs",
+            "url": "https://t.co/75tRpa7n1q"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://pbs.twimg.com/media/FKe-1seWYAQmmIZ.jpg:large"
+          }
+        ],
+        "socialmediaposting": [
+          {
+            "identifier": "1488368034804908033",
+            "commentcount": "1",
+            "articlebody": "“Alex” Balabhadra Graveley, Architect of GitHub Copilot has been arrested and charged with 3rd Degree Felony Strangulation. See police report of the incident below.",
+            "position": "1",
+            "datecreated": "2022-02-01T04:26:06.000Z",
+            "isbasedon": "https://twitter.com/BetsyDupuis/status/1333466795332734978",
+            "datepublished": "2022-02-01T04:26:06.000Z",
+            "url": "https://twitter.com/BetsyDupuis/status/1488368034804908033",
+            "mainentityofpage": "https://twitter.com/BetsyDupuis/status/1488368034804908033"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Hackpad · Brand & Product",
+      "htmlTitle": "<b>Hackpad</b> · Brand &amp; Product",
+      "link": "https://www.micahdaigle.com/design/hackpad",
+      "displayLink": "www.micahdaigle.com",
+      "snippet": "... pleasure to work with.” Igor Kofman Founder, Hackpad. Previous. Previous. Asana · Brand & Product · Next. Next. Gatheround · Brand. Micah Daigle Creative ...",
+      "htmlSnippet": "... pleasure to work with.” Igor Kofman <b>Founder</b>, <b>Hackpad</b>. Previous. Previous. Asana · Brand &amp; Product &middot; Next. Next. Gatheround · Brand. Micah Daigle Creative&nbsp;...",
+      "formattedUrl": "https://www.micahdaigle.com/design/hackpad",
+      "htmlFormattedUrl": "https://www.micahdaigle.com/design/<b>hackpad</b>",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd7Zt78kEx0SDfYI0RgxTaw8PpKNkdNtchUs6dQow9aGdZy64KByrFOYM&s",
+            "width": "300",
+            "height": "168"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "http://static1.squarespace.com/static/638a7d00d0d311668565f366/63a6436a4fa4e0759fda6942/640aad30271e8a1581580869/1678727123623/Hackpad+Cover+5.jpg?format=1500w",
+            "og:type": "website",
+            "og:image:width": "1500",
+            "twitter:title": "Hackpad · Brand & Product",
+            "twitter:card": "summary",
+            "og:site_name": "Micah Daigle · Creative Director",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:url": "https://www.micahdaigle.com/design/hackpad",
+            "og:title": "Hackpad · Brand & Product",
+            "og:image:height": "842",
+            "og:url": "https://www.micahdaigle.com/design/hackpad",
+            "twitter:image": "http://static1.squarespace.com/static/638a7d00d0d311668565f366/63a6436a4fa4e0759fda6942/640aad30271e8a1581580869/1678727123623/Hackpad+Cover+5.jpg?format=1500w"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "http://static1.squarespace.com/static/638a7d00d0d311668565f366/63a6436a4fa4e0759fda6942/640aad30271e8a1581580869/1678727123623/Hackpad+Cover+5.jpg?format=1500w"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -32,6 +32,11 @@ redis==5.0.1
 sqlalchemy==2.0.25
 alembic==1.13.1
 
+# NLP
+spacy==3.7.2
+# Prebuilt small English model package so it installs via pip
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
+
 # Utilities
 tqdm==4.66.1
 rich==13.7.0

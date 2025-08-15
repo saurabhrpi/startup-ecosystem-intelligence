@@ -1,0 +1,904 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - \"Streak\" founders",
+        "totalResults": "6000000",
+        "searchTerms": "\"Streak\" founders",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - \"Streak\" founders",
+        "totalResults": "6000000",
+        "searchTerms": "\"Streak\" founders",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ]
+  },
+  "context": {
+    "title": "startup-ecosystem-intelligence"
+  },
+  "searchInformation": {
+    "searchTime": 0.18874,
+    "formattedSearchTime": "0.19",
+    "totalResults": "6000000",
+    "formattedTotalResults": "6,000,000"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "I'm Aleem Mawani, Founder and CEO of Streak. AMA! - AMAs ...",
+      "htmlTitle": "I&#39;m Aleem Mawani, <b>Founder</b> and CEO of <b>Streak</b>. AMA! - AMAs ...",
+      "link": "https://gorelay.co/t/im-aleem-mawani-founder-and-ceo-of-streak-ama/644",
+      "displayLink": "gorelay.co",
+      "snippet": "Oct 6, 2021 ... Streak provides a CRM service deeply integrated into the Gmail experience. Our primary customers are SMB teams and founders looking to manage ...",
+      "htmlSnippet": "Oct 6, 2021 <b>...</b> <b>Streak</b> provides a CRM service deeply integrated into the Gmail experience. Our primary customers are SMB teams and <b>founders</b> looking to manage&nbsp;...",
+      "formattedUrl": "https://gorelay.co/t/im-aleem-mawani-founder-and-ceo-of-streak.../644",
+      "htmlFormattedUrl": "https://gorelay.co/t/im-aleem-mawani-founder-and-ceo-of-<b>streak</b>.../644",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNUUvnCac6hJpBaHm1AYa0Y8YVgUD3lRk96d3n3Ecf-15MJQLowgzH4OXG&s",
+            "width": "310",
+            "height": "163"
+          }
+        ],
+        "imageobject": [
+          {
+            "url": "https://us1.discourse-cdn.com/flex020/uploads/relay1/original/1X/e37be9f26351660a7864630a239959f3c321fdfe.png"
+          }
+        ],
+        "person": [
+          {
+            "name": "aleem",
+            "url": "aleem"
+          },
+          {
+            "name": "Relay",
+            "url": "Relay"
+          },
+          {
+            "name": "Krish",
+            "url": "Krish"
+          },
+          {
+            "name": "rajaraman",
+            "url": "rajaraman"
+          },
+          {
+            "name": "aditi1002",
+            "url": "aditi1002"
+          },
+          {
+            "name": "jamesgill",
+            "url": "jamesgill"
+          },
+          {
+            "name": "Krish",
+            "url": "Krish"
+          },
+          {
+            "name": "navydish",
+            "url": "navydish"
+          },
+          {
+            "name": "rajaraman",
+            "url": "rajaraman"
+          },
+          {
+            "name": "aleem",
+            "url": "aleem"
+          },
+          {
+            "name": "aleem",
+            "url": "aleem"
+          },
+          {
+            "name": "aleem",
+            "url": "aleem"
+          },
+          {
+            "name": "aleem",
+            "url": "aleem"
+          },
+          {
+            "name": "aleem",
+            "url": "aleem"
+          },
+          {
+            "name": "aleem",
+            "url": "aleem"
+          },
+          {
+            "name": "Krish",
+            "url": "Krish"
+          },
+          {
+            "name": "aleem",
+            "url": "aleem"
+          },
+          {
+            "name": "aleem",
+            "url": "aleem"
+          },
+          {
+            "name": "akash",
+            "url": "akash"
+          },
+          {
+            "name": "Krish",
+            "url": "Krish"
+          }
+        ],
+        "organization": [
+          {
+            "name": "Chargebee"
+          }
+        ],
+        "interactioncounter": [
+          {
+            "userinteractioncount": "6",
+            "interactiontype": "http://schema.org/LikeAction"
+          },
+          {
+            "userinteractioncount": "4",
+            "interactiontype": "http://schema.org/LikeAction"
+          },
+          {
+            "userinteractioncount": "3",
+            "interactiontype": "http://schema.org/LikeAction"
+          },
+          {
+            "userinteractioncount": "3",
+            "interactiontype": "http://schema.org/LikeAction"
+          },
+          {
+            "userinteractioncount": "3",
+            "interactiontype": "http://schema.org/LikeAction"
+          },
+          {
+            "userinteractioncount": "4",
+            "interactiontype": "http://schema.org/LikeAction"
+          },
+          {
+            "userinteractioncount": "2",
+            "interactiontype": "http://schema.org/LikeAction"
+          },
+          {
+            "userinteractioncount": "4",
+            "interactiontype": "http://schema.org/LikeAction"
+          },
+          {
+            "userinteractioncount": "2",
+            "interactiontype": "http://schema.org/LikeAction"
+          },
+          {
+            "userinteractioncount": "2",
+            "interactiontype": "http://schema.org/LikeAction"
+          },
+          {
+            "userinteractioncount": "2",
+            "interactiontype": "http://schema.org/LikeAction"
+          },
+          {
+            "userinteractioncount": "2",
+            "interactiontype": "http://schema.org/LikeAction"
+          },
+          {
+            "userinteractioncount": "3",
+            "interactiontype": "http://schema.org/LikeAction"
+          },
+          {
+            "userinteractioncount": "3",
+            "interactiontype": "http://schema.org/LikeAction"
+          },
+          {
+            "userinteractioncount": "2",
+            "interactiontype": "http://schema.org/LikeAction"
+          },
+          {
+            "userinteractioncount": "2",
+            "interactiontype": "http://schema.org/LikeAction"
+          },
+          {
+            "userinteractioncount": "2",
+            "interactiontype": "http://schema.org/LikeAction"
+          },
+          {
+            "userinteractioncount": "2",
+            "interactiontype": "http://schema.org/LikeAction"
+          },
+          {
+            "userinteractioncount": "1",
+            "interactiontype": "http://schema.org/LikeAction"
+          },
+          {
+            "userinteractioncount": "2",
+            "interactiontype": "http://schema.org/LikeAction"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://us1.discourse-cdn.com/flex020/uploads/relay1/original/1X/14612ecf18ea4f6950eec45a2f7585501f6239c9.png",
+            "theme-color": "#EE4D49",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "I'm Aleem Mawani, Founder and CEO of Streak. AMA!",
+            "article:published_time": "2021-10-06T07:52:38+00:00",
+            "og:site_name": "Relay by Chargebee",
+            "twitter:url": "https://gorelay.co/t/im-aleem-mawani-founder-and-ceo-of-streak-ama/644",
+            "og:title": "I'm Aleem Mawani, Founder and CEO of Streak. AMA!",
+            "color-scheme": "light",
+            "og:description": "2021-10-14T16:30:00Z (UTC) → 2021-10-14T18:00:00Z (UTC)  Hi everyone! I’m Aleem Mawani, CEO of Streak .  I previously worked at Google and then founded Streak in 2012. Early on we raised a small seed round but have been profitable since and haven’t raised more capital. We have a tight knit 25 person team and recently celebrated crossing $10M ARR.  Streak provides a CRM service deeply integrated into the Gmail experience. Our primary customers are SMB teams and founders looking to manage their sa...",
+            "twitter:image": "https://us1.discourse-cdn.com/flex020/uploads/relay1/original/1X/14612ecf18ea4f6950eec45a2f7585501f6239c9.png",
+            "og:article:tag": "product-led-growth",
+            "og:ignore_canonical": "true",
+            "viewport": "width=device-width, initial-scale=1.0, minimum-scale=1.0, viewport-fit=cover",
+            "twitter:description": "2021-10-14T16:30:00Z (UTC) → 2021-10-14T18:00:00Z (UTC)  Hi everyone! I’m Aleem Mawani, CEO of Streak .  I previously worked at Google and then founded Streak in 2012. Early on we raised a small seed round but have been profitable since and haven’t raised more capital. We have a tight knit 25 person team and recently celebrated crossing $10M ARR.  Streak provides a CRM service deeply integrated into the Gmail experience. Our primary customers are SMB teams and founders looking to manage their sa...",
+            "og:article:section": "AMAs",
+            "og:url": "https://gorelay.co/t/im-aleem-mawani-founder-and-ceo-of-streak-ama/644",
+            "og:article:section:color": "4607A2"
+          }
+        ],
+        "discussionforumposting": [
+          {
+            "keywords": "product-led-growth, past-guests, founders-self, fundraising, operating-principles",
+            "datemodified": "2021-10-20T12:55:42Z",
+            "articlesection": "AMAs",
+            "position": "1",
+            "text": "2021-10-14T16:30:00Z → 2021-10-14T18:00:00Z Hi everyone! I’m Aleem Mawani, CEO of Streak . I previously worked at Google and then founded Streak in 2012. Early on we raised a small seed...",
+            "headline": "I'm Aleem Mawani, Founder and CEO of Streak. AMA!",
+            "url": "https://gorelay.co/t/im-aleem-mawani-founder-and-ceo-of-streak-ama/644",
+            "datepublished": "2021-10-06T07:52:38Z",
+            "mainentityofpage": "https://gorelay.co/t/im-aleem-mawani-founder-and-ceo-of-streak-ama/644"
+          }
+        ],
+        "comment": [
+          {
+            "datemodified": "2021-10-20T12:52:34Z",
+            "position": "2",
+            "text": "Note: This AMA is closed for new questions, but you can check out the existing conversations below. This October 14th, we’re stoked about hosting Streak’s founder and CEO, Aleem Mawani....",
+            "datepublished": "2021-10-06T08:17:26Z"
+          },
+          {
+            "datemodified": "2021-10-06T09:03:18Z",
+            "position": "3",
+            "text": "Hey Aleem, Thanks for doing this! \" We were 10X better in one area. In a bunch of other areas, we were actually 10X worse. We were really bad at most things, but in this one specific area,...",
+            "datepublished": "2021-10-06T09:03:18Z"
+          },
+          {
+            "datemodified": "2021-10-06T09:04:17Z",
+            "position": "4",
+            "text": "Hey Aleem, I second Krish. Streak has taken a rare (shouldn’t be so :)) and remarkable path. Loved the idea of building just one thing that’s 10x better while being 10x worse at other things....",
+            "datepublished": "2021-10-06T09:04:17Z"
+          },
+          {
+            "datemodified": "2021-10-12T16:08:49Z",
+            "position": "5",
+            "text": "Hey Aleem, Thanks for taking the time! Such a great journey to read about. You’ve mentioned somewhere how now you aren’t focussed on building a “billion dollar business” and instead...",
+            "datepublished": "2021-10-12T16:08:38Z"
+          },
+          {
+            "datemodified": "2021-10-14T10:09:51Z",
+            "position": "6",
+            "text": "@aleem Hi Aleem, thank you so much for taking the time to do this AMA! It’s so inspiring to hear your story. I have been aware of Streak for a long time – you’re the real deal – a proper...",
+            "datepublished": "2021-10-14T10:09:51Z"
+          },
+          {
+            "datemodified": "2021-10-14T15:39:42Z",
+            "position": "7",
+            "text": "Had another one in mind, Aleem. How has the definition of ‘doing your best work’ evolved for you as a founder, over the many phases that Streak has been through?",
+            "datepublished": "2021-10-14T15:39:42Z"
+          },
+          {
+            "datemodified": "2021-10-14T16:01:59Z",
+            "position": "8",
+            "text": "Hey Aleem - thank you for taking the time. Would love to know some of the closely-held beliefs as a founder that you had to let go of as you went from 0 to 100K USD to 1M to 10M USD?",
+            "datepublished": "2021-10-14T16:01:59Z"
+          },
+          {
+            "datemodified": "2021-10-14T16:34:01Z",
+            "position": "9",
+            "text": "Had to ask this, given your time at Google. :)) From an operating principles/operating rigour perspective, what were some of the “big-company” lessons that you have continued to observe at Streak?",
+            "datepublished": "2021-10-14T16:34:01Z"
+          },
+          {
+            "datemodified": "2021-10-14T16:41:37Z",
+            "position": "10",
+            "text": "Krish: It’ll be really useful to hear how you’ve thought about diversifying channels there on while being mindful of profitability as a core value. Have you continued looking for similar...",
+            "datepublished": "2021-10-14T16:41:37Z"
+          },
+          {
+            "datemodified": "2021-10-14T16:46:08Z",
+            "position": "11",
+            "text": "rajaraman: Curious to learn how the 10x principle applied to that. What did that first delivery scope document looked like? And how should early-stage founders think about what that first 10x-bette...",
+            "datepublished": "2021-10-14T16:46:08Z"
+          },
+          {
+            "datemodified": "2021-10-14T16:51:04Z",
+            "position": "12",
+            "text": "aditi1002: What does this entail? Or rather what were some of the core operating assumptions that changed when you made this mindset switch? I think the main thing was that we never thought...",
+            "datepublished": "2021-10-14T16:51:04Z"
+          },
+          {
+            "datemodified": "2021-10-14T16:55:26Z",
+            "position": "13",
+            "text": "jamesgill: did you proceed to buy out your early investors with profits, or are they still with you and supporting you? Yes. Because of the unique shape of our business (growing & profitable...",
+            "datepublished": "2021-10-14T16:55:26Z"
+          },
+          {
+            "datemodified": "2021-10-14T16:59:08Z",
+            "position": "14",
+            "text": "Krish: ‘doing your best work’ My role has changed a bunch in my time at Streak. I’ve literally done every single role. On the positive side, i think it’s easier to hire for a role when...",
+            "datepublished": "2021-10-14T16:59:08Z"
+          },
+          {
+            "datemodified": "2021-10-14T17:02:03Z",
+            "position": "15",
+            "text": "rajaraman: what were some of the “big-company” lessons that you have continued to observe at Streak? In 2007, Google’s management techniques were still relatively “startupy”. So all...",
+            "datepublished": "2021-10-14T17:02:03Z"
+          },
+          {
+            "datemodified": "2021-10-14T17:04:54Z",
+            "position": "16",
+            "text": "aleem: As a CEO it can be tough to balance what the company absolutely needs from you vs what you’re good at vs what gives you energy. Those 3 things are usually different. The goal is to...",
+            "datepublished": "2021-10-14T17:04:54Z"
+          },
+          {
+            "datemodified": "2021-10-14T17:10:02Z",
+            "position": "17",
+            "text": "Krish: personal habits and routines that help you stay sane as you think through constantly making that alignment? Leaders at the company all post in a slack channel weekly what the single...",
+            "datepublished": "2021-10-14T17:10:02Z"
+          },
+          {
+            "datemodified": "2021-10-14T17:11:53Z",
+            "position": "18",
+            "text": "navydish: Hey Aleem - thank you for taking the time. Would love to know some of the closely-held beliefs as a founder that you had to let go of as you went from 0 to 100K USD to 1M to 10M USD?...",
+            "datepublished": "2021-10-14T17:11:53Z"
+          },
+          {
+            "datemodified": "2021-10-15T03:13:08Z",
+            "position": "19",
+            "text": "Thanks so much for doing this, Aleem! Great to learn about the ideas and figures (and their very startupy interplay) that have informed Streak’s unique path. And thanks to all the Relay founders...",
+            "datepublished": "2021-10-15T03:13:08Z"
+          },
+          {
+            "datemodified": "2021-10-26T06:49:10Z",
+            "position": "20",
+            "text": "aleem: The idea being we give away some free tools to attract new users, and some of those users eventually discover our CRM and convert to paying users. Thanks, Aleem! You’re right. The...",
+            "datepublished": "2021-10-26T06:49:10Z"
+          }
+        ],
+        "itemlist": [
+          {
+            "itemlistorder": "http://schema.org/ItemListOrderDescending"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://us1.discourse-cdn.com/flex020/uploads/relay1/original/1X/14612ecf18ea4f6950eec45a2f7585501f6239c9.png"
+          }
+        ],
+        "sitenavigationelement": [
+          {
+            "name": "Home",
+            "url": "Home"
+          },
+          {
+            "name": "Categories",
+            "url": "Categories"
+          },
+          {
+            "name": "Guidelines",
+            "url": "Guidelines"
+          },
+          {
+            "name": "Terms of Service",
+            "url": "Terms of Service"
+          },
+          {
+            "name": "Privacy Policy",
+            "url": "Privacy Policy"
+          }
+        ],
+        "listitem": [
+          {
+            "item": "AMAs",
+            "name": "AMAs",
+            "position": "1"
+          },
+          {
+            "position": "1",
+            "url": "I’m Paul Joyce, Founder and CEO of Geckoboard. AMA!"
+          },
+          {
+            "position": "2",
+            "url": "I'm Waseem Daher, Cofounder and CEO at pilot.com. AMA!"
+          },
+          {
+            "position": "3",
+            "url": "Built a $50M/yr SaaS Biz (that didn't work out so great), So I'm Building Another One. I'm Rand Fishkin of SparkToro (prev. Moz) AMA"
+          },
+          {
+            "position": "4",
+            "url": "Private, profitable, and people-first, we’re celebrating our 20th birthday. I’m Natalie Nagele, Co-Founder and CEO of Wildbit. AMA!"
+          },
+          {
+            "position": "5",
+            "url": "I'm Aye Moah, CEO and Co-founder of Boomerang. AMA about building a profitable, bootstrapped category-creating company"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Aleem Mawani - Streak | LinkedIn",
+      "htmlTitle": "Aleem Mawani - <b>Streak</b> | LinkedIn",
+      "link": "https://www.linkedin.com/in/aleemmawani",
+      "displayLink": "www.linkedin.com",
+      "snippet": "Experience: Streak · Education: Y Combinator · Location: San Francisco · 500+ connections on LinkedIn. View Aleem Mawani's profile on LinkedIn, ...",
+      "htmlSnippet": "Experience: <b>Streak</b> · Education: Y Combinator · Location: San Francisco · 500+ connections on LinkedIn. View Aleem Mawani&#39;s profile on LinkedIn,&nbsp;...",
+      "formattedUrl": "https://www.linkedin.com/in/aleemmawani",
+      "htmlFormattedUrl": "https://www.linkedin.com/in/aleemmawani",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcgkiEna4n9gujzGtK7Wmy7-xoSBfPJujne8JNvk6XBOi6dJRcfoLGR1w&s",
+            "width": "200",
+            "height": "200"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://media.licdn.com/dms/image/v2/D5603AQHXejJaoa3k1A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1675487042591?e=2147483647&v=beta&t=tCUUwl38zutzyOKB-BLD-DV51iEJyFALQSAMmIWq45o",
+            "twitter:card": "summary",
+            "linkedin:pagetag": "openToProvider",
+            "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+            "al:android:package": "com.linkedin.android",
+            "bingbot": "nocache",
+            "locale": "en_US",
+            "al:ios:url": "https://www.linkedin.com/in/aleemmawani",
+            "og:description": "Experience: Streak · Education: Y Combinator · Location: San Francisco · 500+ connections on LinkedIn. View Aleem Mawani’s profile on LinkedIn, a professional community of 1 billion members.",
+            "al:ios:app_store_id": "288429040",
+            "platform": "https://static.licdn.com/aero-v1/sc/h/50rhhil0lpchs3iqo4twn4tk9",
+            "twitter:image": "https://media.licdn.com/dms/image/v2/D5603AQHXejJaoa3k1A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1675487042591?e=2147483647&v=beta&t=tCUUwl38zutzyOKB-BLD-DV51iEJyFALQSAMmIWq45o",
+            "profile:last_name": "Mawani",
+            "twitter:site": "@Linkedin",
+            "litmsprofilename": "public-profile-frontend",
+            "profile:first_name": "Aleem",
+            "og:type": "profile",
+            "twitter:title": "Aleem Mawani - Streak | LinkedIn",
+            "al:ios:app_name": "LinkedIn",
+            "og:title": "Aleem Mawani - Streak | LinkedIn",
+            "pagekey": "public_profile_v3_mobile",
+            "al:android:url": "https://www.linkedin.com/in/aleemmawani",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "twitter:description": "Experience: Streak · Education: Y Combinator · Location: San Francisco · 500+ connections on LinkedIn. View Aleem Mawani’s profile on LinkedIn, a professional community of 1 billion members.",
+            "ubba": "https://static.licdn.com/aero-v1/sc/h/41b802ccd3dg7q90ypctzxybx",
+            "og:url": "https://www.linkedin.com/in/aleemmawani",
+            "al:android:app_name": "LinkedIn"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://media.licdn.com/dms/image/v2/D5603AQHXejJaoa3k1A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1675487042591?e=2147483647&v=beta&t=tCUUwl38zutzyOKB-BLD-DV51iEJyFALQSAMmIWq45o"
+          }
+        ],
+        "Person": [
+          {}
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "About | Streak - CRM for Gmail",
+      "htmlTitle": "About | <b>Streak</b> - CRM for Gmail",
+      "link": "https://www.streak.com/about",
+      "displayLink": "www.streak.com",
+      "snippet": "Streak was born out of the frustration of constantly switching between our ... Letter from the founders. Vestibulum rutrum quam vitae fringilla ...",
+      "htmlSnippet": "<b>Streak</b> was born out of the frustration of constantly switching between our ... Letter from the <b>founders</b>. Vestibulum rutrum quam vitae fringilla&nbsp;...",
+      "formattedUrl": "https://www.streak.com/about",
+      "htmlFormattedUrl": "https://www.<b>streak</b>.com/about",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-U9e2jBCV9m79hWPlIhHNeDzB8iNbQQuwJHQMjhf3XrdejZ4XPnqh05s&s",
+            "width": "318",
+            "height": "159"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://cdn.prod.website-files.com/5b7f24cc9009731774d7be8e/5b969a427794eca72077ab35_streak-og.png",
+            "twitter:title": "About | Streak - CRM for Gmail",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "Streak was born out of the frustration of constantly switching between our inbox (where we do our work) and external systems. Our goal is to make it simple to manage your everyday processes so you can close more deals, resolve more support tickets, and get things done.",
+            "og:title": "About | Streak - CRM for Gmail",
+            "og:description": "Streak was born out of the frustration of constantly switching between our inbox (where we do our work) and external systems. Our goal is to make it simple to manage your everyday processes so you can close more deals, resolve more support tickets, and get things done.",
+            "twitter:image": "https://cdn.prod.website-files.com/5b7f24cc9009731774d7be8e/5b969a427794eca72077ab35_streak-og.png",
+            "facebook-domain-verification": "xom8x83o4edzzgv2dn1u3fyic6yumu"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.prod.website-files.com/5b7f24cc9009731774d7be8e/5b969a427794eca72077ab35_streak-og.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Just a headsup for people who like visitor, the 'Wild Streak' glider for ...",
+      "htmlTitle": "Just a headsup for people who like visitor, the &#39;Wild <b>Streak</b>&#39; glider for ...",
+      "link": "https://www.reddit.com/r/FortniteFashion/comments/bbtgw7/just_a_headsup_for_people_who_like_visitor_the/",
+      "displayLink": "www.reddit.com",
+      "snippet": "Apr 11, 2019 ... Just a headsup for people who like visitor, the 'Wild Streak' glider for founders works pretty well with him. Combo. [season 4 battlepass, STW].",
+      "htmlSnippet": "Apr 11, 2019 <b>...</b> Just a headsup for people who like visitor, the &#39;Wild <b>Streak</b>&#39; glider for <b>founders</b> works pretty well with him. Combo. [season 4 battlepass, STW].",
+      "formattedUrl": "https://www.reddit.com/.../just_a_headsup_for_people_who_like_visitor_th...",
+      "htmlFormattedUrl": "https://www.reddit.com/.../just_a_headsup_for_people_who_like_visitor_th...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrlUmWyTWfxYuCh7fvPRUrbkC6mq-xVTcNTAc-WG-zunK-tGwQF1IG0l5b&s",
+            "width": "232",
+            "height": "217"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://preview.redd.it/rraq2kqz1jr21.png?auto=webp&s=8adf1b8dc7f6720b4cd51e05c6d749385b819721",
+            "theme-color": "#000000",
+            "og:image:width": "919",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "r/FortniteFashion on Reddit: Just a headsup for people who like visitor, the 'Wild Streak' glider for founders works pretty well with him",
+            "og:site_name": "Reddit",
+            "og:title": "r/FortniteFashion on Reddit: Just a headsup for people who like visitor, the 'Wild Streak' glider for founders works pretty well with him",
+            "og:image:height": "861",
+            "msapplication-navbutton-color": "#000000",
+            "og:description": "Posted by u/[Deleted Account] - 279 votes and 48 comments",
+            "twitter:image": "https://preview.redd.it/rraq2kqz1jr21.png?auto=webp&s=8adf1b8dc7f6720b4cd51e05c6d749385b819721",
+            "apple-mobile-web-app-status-bar-style": "black",
+            "twitter:site": "@reddit",
+            "viewport": "width=device-width, initial-scale=1, viewport-fit=cover",
+            "apple-mobile-web-app-capable": "yes",
+            "og:ttl": "600",
+            "og:url": "https://www.reddit.com/r/FortniteFashion/comments/bbtgw7/just_a_headsup_for_people_who_like_visitor_the/?seeker-session=true"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://preview.redd.it/rraq2kqz1jr21.png?auto=webp&s=8adf1b8dc7f6720b4cd51e05c6d749385b819721"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Founder advice from Aleem Mawani's Reddit AMA: Bootstrapping ...",
+      "htmlTitle": "<b>Founder</b> advice from Aleem Mawani&#39;s Reddit AMA: Bootstrapping ...",
+      "link": "https://www.streak.com/post/founder-reddit-ama-recap",
+      "displayLink": "www.streak.com",
+      "snippet": "Streak founder Aleem Mawani shares unfiltered advice from his Reddit AMA on bootstrapping, startup growth, buying back investor equity, and building a ...",
+      "htmlSnippet": "<b>Streak founder</b> Aleem Mawani shares unfiltered advice from his Reddit AMA on bootstrapping, startup growth, buying back investor equity, and building a&nbsp;...",
+      "formattedUrl": "https://www.streak.com/post/founder-reddit-ama-recap",
+      "htmlFormattedUrl": "https://www.<b>streak</b>.com/post/founder-reddit-ama-recap",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcM8a0wWXfgnR17mb9gKQpFgDKJpdb2UFYwWi162Ve-U4Df6-0I5HKhsM&s",
+            "width": "326",
+            "height": "155"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://cdn.prod.website-files.com/5b7f24cc900973de13d7beb4/686c0be19ed1517ec38b0214_blog%20image-reddit%20ama.svg",
+            "twitter:title": "Founder advice from Aleem Mawani’s Reddit AMA: Bootstrapping, growth, and building Streak - Streak",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "og:image:width": "1200",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "Streak founder Aleem Mawani shares unfiltered advice from his Reddit AMA on bootstrapping, startup growth, buying back investor equity, and building a profitable business after YCombinator.",
+            "og:title": "Founder advice from Aleem Mawani’s Reddit AMA: Bootstrapping, growth, and building Streak - Streak",
+            "og:image:height": "630",
+            "og:description": "Streak founder Aleem Mawani shares unfiltered advice from his Reddit AMA on bootstrapping, startup growth, buying back investor equity, and building a profitable business after YCombinator.",
+            "twitter:image": "https://cdn.prod.website-files.com/5b7f24cc900973de13d7beb4/686c0be19ed1517ec38b0214_blog%20image-reddit%20ama.svg",
+            "facebook-domain-verification": "xom8x83o4edzzgv2dn1u3fyic6yumu"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.prod.website-files.com/5b7f24cc900973de13d7beb4/686c0be19ed1517ec38b0214_blog%20image-reddit%20ama.svg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Jayalakshmi Manohar - Streak AI Technologies Pvt Ltd | LinkedIn",
+      "htmlTitle": "Jayalakshmi Manohar - <b>Streak</b> AI Technologies Pvt Ltd | LinkedIn",
+      "link": "https://in.linkedin.com/in/jayalakshmimanohar",
+      "displayLink": "in.linkedin.com",
+      "snippet": "As the Founder & CPO of Streak, her interests focus on the integration of technology and… · Experience: Streak AI Technologies Pvt Ltd · Education: DSCE ...",
+      "htmlSnippet": "As the <b>Founder</b> &amp; CPO of <b>Streak</b>, her interests focus on the integration of technology and… · Experience: <b>Streak</b> AI Technologies Pvt Ltd · Education: DSCE&nbsp;...",
+      "formattedUrl": "https://in.linkedin.com/in/jayalakshmimanohar",
+      "htmlFormattedUrl": "https://in.linkedin.com/in/jayalakshmimanohar",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpEnMCOR-ytx0ZXHO2rgJlezc4CfXm5iHZMEjL8fSfOciDiTG4CU0Uc8QO&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "ProfilePage": [
+          {}
+        ],
+        "metatags": [
+          {
+            "og:image": "https://static.licdn.com/aero-v1/sc/h/1c5u578iilxfi4m4dvc4q810q",
+            "twitter:card": "summary",
+            "linkedin:pagetag": "openToProvider",
+            "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+            "al:android:package": "com.linkedin.android",
+            "bingbot": "nocache",
+            "locale": "en_US",
+            "al:ios:url": "https://in.linkedin.com/in/jayalakshmimanohar",
+            "og:description": "As the Founder &amp; CPO of Streak, her interests focus on the integration of technology and… · Experience: Streak AI Technologies Pvt Ltd · Education: DSCE · Location: Bengaluru · 500+ connections on LinkedIn. View Jayalakshmi Manohar’s profile on LinkedIn, a professional community of 1 billion members.",
+            "al:ios:app_store_id": "288429040",
+            "platform": "https://static.licdn.com/aero-v1/sc/h/50rhhil0lpchs3iqo4twn4tk9",
+            "twitter:image": "https://static.licdn.com/aero-v1/sc/h/1c5u578iilxfi4m4dvc4q810q",
+            "profile:last_name": "Manohar",
+            "twitter:site": "@Linkedin",
+            "litmsprofilename": "public-profile-frontend",
+            "profile:first_name": "Jayalakshmi",
+            "og:type": "profile",
+            "twitter:title": "Jayalakshmi Manohar - Streak AI Technologies Pvt Ltd | LinkedIn",
+            "al:ios:app_name": "LinkedIn",
+            "og:title": "Jayalakshmi Manohar - Streak AI Technologies Pvt Ltd | LinkedIn",
+            "pagekey": "public_profile_v3_mobile",
+            "al:android:url": "https://in.linkedin.com/in/jayalakshmimanohar",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "twitter:description": "As the Founder &amp; CPO of Streak, her interests focus on the integration of technology and… · Experience: Streak AI Technologies Pvt Ltd · Education: DSCE · Location: Bengaluru · 500+ connections on LinkedIn. View Jayalakshmi Manohar’s profile on LinkedIn, a professional community of 1 billion members.",
+            "ubba": "https://static.licdn.com/aero-v1/sc/h/41b802ccd3dg7q90ypctzxybx",
+            "og:url": "https://in.linkedin.com/in/jayalakshmimanohar",
+            "al:android:app_name": "LinkedIn"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://static.licdn.com/aero-v1/sc/h/1c5u578iilxfi4m4dvc4q810q"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Nelly Korda's historic LPGA win streak ends at 5 tournaments as ...",
+      "htmlTitle": "Nelly Korda&#39;s historic LPGA win <b>streak</b> ends at 5 tournaments as ...",
+      "link": "https://www.nytimes.com/athletic/5488374/2024/05/12/nelly-kordas-rose-zhang-founders-cup/",
+      "displayLink": "www.nytimes.com",
+      "snippet": "May 12, 2024 ... Nelly Korda's historic win streak on the LPGA Tour has officially ended at the Cognizant Founders Cup, but one of the fastest-rising stars ...",
+      "htmlSnippet": "May 12, 2024 <b>...</b> Nelly Korda&#39;s historic win <b>streak</b> on the LPGA Tour has officially ended at the Cognizant <b>Founders</b> Cup, but one of the fastest-rising stars&nbsp;...",
+      "formattedUrl": "https://www.nytimes.com/athletic/.../nelly-kordas-rose-zhang-founders-cup/",
+      "htmlFormattedUrl": "https://www.nytimes.com/athletic/.../nelly-kordas-rose-zhang-<b>founders</b>-cup/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8oEqmysAmXak-Dvu-Tf2iyEXbdvXb65kkARd9yAhjZr_Nrlw0d6UcoLGU&s",
+            "width": "275",
+            "height": "183"
+          }
+        ],
+        "metatags": [
+          {
+            "nyt_uri": "https://www.nytimes.com/athletic/5488374/2024/05/12/nelly-kordas-rose-zhang-founders-cup/",
+            "og:image": "https://static01.nyt.com/athletic/uploads/wp/2024/05/12172851/GettyImages-2152644429-scaled.jpg?width=1200&height=630&fit=cover",
+            "apple-itunes-app": "app-id=1135216317, app-argument=https://www.nytimes.com/athletic/5488374/2024/05/12/nelly-kordas-rose-zhang-founders-cup/",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Nelly Korda’s historic LPGA win streak ends at 5 tournaments as Rose Zhang wins Founders Cup",
+            "og:type": "article",
+            "og:site_name": "The Athletic",
+            "author": "Gabby Herzig",
+            "og:title": "Nelly Korda’s historic LPGA win streak ends at 5 tournaments as Rose Zhang wins Founders Cup",
+            "msapplication-tileimage": "https://www.nytimes.com/athletic/static/img/athletic-icon-192x192.png",
+            "twitter:creator": "@TheAthletic",
+            "og:description": "Zhang drained a 10-foot birdie putt on the last to shut out Sagstrom with a bogey-free 66, claiming her second LPGA victory.",
+            "twitter:image": "https://static01.nyt.com/athletic/uploads/wp/2024/05/12172851/GettyImages-2152644429-scaled.jpg?width=1200&height=675&fit=cover",
+            "next-head-count": "43",
+            "fb:app_id": "755512374574534",
+            "twitter:site": "@TheAthletic",
+            "viewport": "width=device-width",
+            "twitter:description": "Zhang drained a 10-foot birdie putt on the last to shut out Sagstrom with a bogey-free 66, claiming her second LPGA victory.",
+            "og:url": "https://www.nytimes.com/athletic/5488374/2024/05/12/nelly-kordas-rose-zhang-founders-cup/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://static01.nyt.com/athletic/uploads/wp/2024/05/12172851/GettyImages-2152644429-scaled.jpg?width=1200&height=630&fit=cover"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "What do you all think? Vanity streak... (Disclosure I am the founder of ...",
+      "htmlTitle": "What do you all think? Vanity <b>streak</b>... (Disclosure I am the <b>founder</b> of ...",
+      "link": "https://www.reddit.com/r/languagelearning/comments/kili3r/what_do_you_all_think_vanity_streak_disclosure_i/",
+      "displayLink": "www.reddit.com",
+      "snippet": "Dec 23, 2020 ... Vanity streak... (Disclosure I am the founder of HelloTalk app Zack) ... The tweet has been posted here, allegedly, by the HelloTalk founder, ...",
+      "htmlSnippet": "Dec 23, 2020 <b>...</b> Vanity <b>streak</b>... (Disclosure I am the <b>founder</b> of HelloTalk app Zack) ... The tweet has been posted here, allegedly, by the HelloTalk <b>founder</b>,&nbsp;...",
+      "formattedUrl": "https://www.reddit.com/.../what_do_you_all_think_vanity_streak_disclosur...",
+      "htmlFormattedUrl": "https://www.reddit.com/.../what_do_you_all_think_vanity_<b>streak</b>_disclosur...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGPPUlBYYBcCO9PzfqrqAl_HIZ5ZkZ-lGyaDGDrF0bdquGVuNJpRw-JHI&s",
+            "width": "340",
+            "height": "148"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://preview.redd.it/c8tpcb210v661.png?width=1080&crop=smart&auto=webp&s=1b24b0257783760eaf30e0a057dcbcea68d5a46a",
+            "theme-color": "#000000",
+            "og:image:width": "1080",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "r/languagelearning on Reddit: What do you all think? Vanity streak... (Disclosure I am the founder of HelloTalk app Zack)",
+            "og:site_name": "Reddit",
+            "og:title": "r/languagelearning on Reddit: What do you all think? Vanity streak... (Disclosure I am the founder of HelloTalk app Zack)",
+            "og:image:height": "472",
+            "msapplication-navbutton-color": "#000000",
+            "og:description": "Posted by u/zackery616 - 0 votes and 25 comments",
+            "twitter:image": "https://preview.redd.it/c8tpcb210v661.png?width=1080&crop=smart&auto=webp&s=1b24b0257783760eaf30e0a057dcbcea68d5a46a",
+            "apple-mobile-web-app-status-bar-style": "black",
+            "twitter:site": "@reddit",
+            "viewport": "width=device-width, initial-scale=1, viewport-fit=cover",
+            "apple-mobile-web-app-capable": "yes",
+            "og:ttl": "600",
+            "og:url": "https://www.reddit.com/r/languagelearning/comments/kili3r/what_do_you_all_think_vanity_streak_disclosure_i/?seeker-session=true"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://preview.redd.it/c8tpcb210v661.png?width=1080&crop=smart&auto=webp&s=1b24b0257783760eaf30e0a057dcbcea68d5a46a"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Rose Zhang wins Founders Cup as Korda's streak comes to an end",
+      "htmlTitle": "Rose Zhang wins <b>Founders</b> Cup as Korda&#39;s <b>streak</b> comes to an end",
+      "link": "https://golf.com/news/rose-zhang-wins-founders-cup/",
+      "displayLink": "golf.com",
+      "snippet": "May 12, 2024 ... Rose Zhang birdied four of her final five holes Sunday to win the Cognizant Founders Cup as Nelly Korda's win streak ended at five.",
+      "htmlSnippet": "May 12, 2024 <b>...</b> Rose Zhang birdied four of her final five holes Sunday to win the Cognizant <b>Founders</b> Cup as Nelly Korda&#39;s win <b>streak</b> ended at five.",
+      "formattedUrl": "https://golf.com/news/rose-zhang-wins-founders-cup/",
+      "htmlFormattedUrl": "https://golf.com/news/rose-zhang-wins-<b>founders</b>-cup/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkRylYPEqGD1uSS54KCwMd5Njb-i8hA6o5kwpM8ZGHKTR7C2J9rQy-h3AV&s",
+            "width": "300",
+            "height": "168"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://golf.com/wp-content/uploads/2024/05/RoseCognizantWin.jpg",
+            "og:type": "article",
+            "og:image:width": "1856",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Golf",
+            "og:title": "Rose Zhang wins Founders Cup as Nelly Korda's streak comes to unceremonious end",
+            "og:image:height": "1044",
+            "twitter:label1": "Est. reading time",
+            "og:image:type": "image/jpeg",
+            "msapplication-tileimage": "https://golf.com/wp-content/uploads/2020/04/cropped-favicon-512x512-1-270x270.png",
+            "og:description": "Rose Zhang birdied four of her final five holes Sunday to win the Cognizant Founders Cup as Nelly Korda's win streak ended at five.",
+            "article:publisher": "https://www.facebook.com/golf/",
+            "twitter:data1": "3 minutes",
+            "twitter:site": "@golf_com",
+            "amp-script-src": "sha384-b7t4Py8kGPeBRv43oQNutuL4yiLz3o7Rzc-NBU23pKYZlWgpCONaRwyo8AJ5Fe_F\n          sha384-yCPdwfLH-ghZXxNXAxw483KmnDmbiK7Lxa4pUUTcfHyjjFoHB9VIyFONbG7bChXp",
+            "article:modified_time": "2024-05-12T23:44:25+00:00",
+            "viewport": "width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=no",
+            "og:locale": "en_US",
+            "og:url": "https://golf.com/news/rose-zhang-wins-founders-cup/",
+            "amp-to-amp-navigation": "AMP-Redirect-To; AMP.navigateTo"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://golf.com/wp-content/uploads/2024/05/RoseCognizantWin.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "St. Joseph Eagles keeps up their winning streak again Founders ...",
+      "htmlTitle": "St. Joseph Eagles keeps up their winning <b>streak</b> again <b>Founders</b> ...",
+      "link": "https://www.kbtx.com/2023/09/30/st-joseph-eagles-keeps-up-their-winning-streak-again-founders-christian/",
+      "displayLink": "www.kbtx.com",
+      "snippet": "Sep 29, 2023 ... St. Joseph Eagles keeps up their winning streak again Founders Christian ... BRYAN, Texas (KBTX) - The St. Joseph Eagles looked to stay undefeated ...",
+      "htmlSnippet": "Sep 29, 2023 <b>...</b> St. Joseph Eagles keeps up their winning <b>streak</b> again <b>Founders</b> Christian ... BRYAN, Texas (KBTX) - The St. Joseph Eagles looked to stay undefeated&nbsp;...",
+      "formattedUrl": "https://www.kbtx.com/.../st-joseph-eagles-keeps-up-their-winning-streak-ag...",
+      "htmlFormattedUrl": "https://www.kbtx.com/.../st-joseph-eagles-keeps-up-their-winning-<b>streak</b>-ag...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqmkGyjZGZ6ggk00Ml49xD23EyhoFHIv8SQG8PRb-1gVVKbSab5ZkkyI1o&s",
+            "width": "318",
+            "height": "159"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://gray-kbtx-prod.gtv-cdn.com/resizer/v2/LFPIKWH2J5H7HLX3TQXTWVVKO4.png?auth=37c0e0fa75432c877be03da64a1d7013331315cb50ff50b554699249a4c7baf2&width=1200&height=600&smart=true",
+            "apple-itunes-app": "app-id=420427970",
+            "copyright": "Copyright (c) 2025",
+            "twitter:card": "summary_large_image",
+            "article:published_time": "2023-09-30T03:58:48.257Z",
+            "og:site_name": "https://www.kbtx.com",
+            "rating": "general",
+            "distribution": "global",
+            "og:description": "The St. Joseph Eagles were looked to stay undefeated Friday night as they faced off against Founders Christian at the Eagles Nest.",
+            "twitter:creator": "@kbtxnews",
+            "article:sections_paths": "/sports/coachescorner/st-joseph-catholic-eagles,/sports,/sports/coachescorner",
+            "article:publisher": "https://www.facebook.com/kbtxmedia/",
+            "twitter:image": "https://gray-kbtx-prod.gtv-cdn.com/resizer/v2/LFPIKWH2J5H7HLX3TQXTWVVKO4.png?auth=37c0e0fa75432c877be03da64a1d7013331315cb50ff50b554699249a4c7baf2&width=1200&height=600&smart=true",
+            "twitter:site": "@kbtxnews",
+            "article:modified_time": "2023-09-30T03:58:48.257Z",
+            "fb:admins": "644426401",
+            "article:has_video": "false",
+            "article:distributor_subcategory": "gray-original-content",
+            "og:type": "article",
+            "twitter:title": "St. Joseph Eagles keeps up their winning streak again Founders Christian",
+            "article:section": "St. Joseph Catholic Eagles",
+            "og:title": "St. Joseph Eagles keeps up their winning streak again Founders Christian",
+            "googlebot-news": "index",
+            "fb:pages": "27855747225",
+            "fb:app_id": "558227244353809",
+            "apple-mobile-web-app-status-bar-style": "black-translucent",
+            "viewport": "width=device-width, minimum-scale=1, initial-scale=1, viewport-fit=cover",
+            "twitter:description": "The St. Joseph Eagles were looked to stay undefeated Friday night as they faced off against Founders Christian at the Eagles Nest.",
+            "og:locale": "en_US",
+            "article:distributor_category": "staff",
+            "article:distributor_name": "Gray TV Stations (English)",
+            "og:url": "https://www.kbtx.com/2023/09/30/st-joseph-eagles-keeps-up-their-winning-streak-again-founders-christian/",
+            "google-play-app": "app-id=com.graytv.android.kbtxnews",
+            "taboola-section": "kbtx",
+            "authors": "Tyler Hoskins"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://gray-kbtx-prod.gtv-cdn.com/resizer/v2/LFPIKWH2J5H7HLX3TQXTWVVKO4.png?auth=37c0e0fa75432c877be03da64a1d7013331315cb50ff50b554699249a4c7baf2&width=1200&height=600&smart=true"
+          }
+        ]
+      }
+    }
+  ]
+}

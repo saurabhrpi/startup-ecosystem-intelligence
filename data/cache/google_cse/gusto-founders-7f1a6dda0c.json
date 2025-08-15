@@ -1,0 +1,503 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - \"Gusto\" founders",
+        "totalResults": "6440000",
+        "searchTerms": "\"Gusto\" founders",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - \"Gusto\" founders",
+        "totalResults": "6440000",
+        "searchTerms": "\"Gusto\" founders",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ]
+  },
+  "context": {
+    "title": "startup-ecosystem-intelligence"
+  },
+  "searchInformation": {
+    "searchTime": 0.146416,
+    "formattedSearchTime": "0.15",
+    "totalResults": "6440000",
+    "formattedTotalResults": "6,440,000"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "Joshua Reeves – Gusto CEO & Co-Founder",
+      "htmlTitle": "Joshua Reeves – <b>Gusto</b> CEO &amp; Co-<b>Founder</b>",
+      "link": "https://gusto.com/resources/articles/author/joshua-reeves",
+      "displayLink": "gusto.com",
+      "snippet": "Josh is the CEO and co-founder of Gusto, a startup that's reimagining HR, payroll, and benefits for modern companies.",
+      "htmlSnippet": "<b>Josh</b> is the CEO and co-<b>founder</b> of <b>Gusto</b>, a startup that&#39;s reimagining HR, payroll, and benefits for modern companies.",
+      "formattedUrl": "https://gusto.com/resources/articles/author/joshua-reeves",
+      "htmlFormattedUrl": "https://<b>gusto</b>.com/resources/articles/author/joshua-reeves",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeTycn7lDVZjtPav3KXqTUMxKbRDd2m_lBNzTf0xJs0Mt1ryVjksZjvI-o&s",
+            "width": "249",
+            "height": "203"
+          }
+        ],
+        "metatags": [
+          {
+            "application-name": "Gusto",
+            "msapplication-tilecolor": "#ffffff",
+            "og:image": "https://prod.gusto-assets.com/media/Reeves_Josh_Gusto.jpeg",
+            "x-build-id": "z4y1sw-632ko4",
+            "og:type": "profile",
+            "twitter:card": "summary_large_image",
+            "google-client-id": "416608718644-0p2f63469gheljgnojejgcd74hhmbaip.apps.googleusercontent.com",
+            "og:site_name": "Gusto",
+            "og:title": "Joshua Reeves",
+            "msapplication-tileimage": "https://prod.gusto-assets.com/icons/gusto-icon-144x144.png",
+            "csrf-param": "authenticity_token",
+            "og:description": "Josh is the CEO and co-founder of Gusto, a startup that’s reimagining HR, payroll, and benefits for modern companies. Josh believes in the power of software to solve complex problems.",
+            "last-modified": "2025-08-06T17:50:33.789Z",
+            "next-head-count": "26",
+            "twitter:site": "@gustohq",
+            "viewport": "width=device-width",
+            "csrf-token": "Mc0jFUMPKDsem3T0JKGs42donO8vpO0dc4j-qnI1NOCATt3HvpT2daUNafodw9HV8McGbjkhkUJgHglPYzngUw",
+            "og:locale": "en_US",
+            "debug-info-render-type": "nextjs-live-server",
+            "og:url": "https://gusto.com/resources/articles/author/joshua-reeves"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://prod.gusto-assets.com/media/Reeves_Josh_Gusto.jpeg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "I studied how Gusto (YC W12) went from zero to a $9.5 billion ...",
+      "htmlTitle": "I studied how <b>Gusto</b> (YC W12) went from zero to a $9.5 billion ...",
+      "link": "https://www.reddit.com/r/Entrepreneur/comments/1bijbgn/i_studied_how_gusto_yc_w12_went_from_zero_to_a_95/",
+      "displayLink": "www.reddit.com",
+      "snippet": "Mar 19, 2024 ... Gusto was founded by Joshua Reeves, Timer London and Edward Kim in 2011 as ZenPayroll. As earlier founders, they had experienced firsthand the ...",
+      "htmlSnippet": "Mar 19, 2024 <b>...</b> <b>Gusto</b> was founded by Joshua Reeves, Timer London and Edward Kim in 2011 as ZenPayroll. As earlier <b>founders</b>, they had experienced firsthand the&nbsp;...",
+      "formattedUrl": "https://www.reddit.com/.../i_studied_how_gusto_yc_w12_went_from_zero...",
+      "htmlFormattedUrl": "https://www.reddit.com/.../i_studied_how_<b>gusto</b>_yc_w12_went_from_zero...",
+      "pagemap": {
+        "metatags": [
+          {
+            "og:image": "https://share.redd.it/preview/post/1bijbgn",
+            "theme-color": "#000000",
+            "og:image:width": "1200",
+            "og:type": "website",
+            "og:image:alt": "An image containing a preview of the post",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "r/Entrepreneur on Reddit: I studied how Gusto (YC W12) went from zero to a $9.5 billion company in 12 years.",
+            "og:site_name": "Reddit",
+            "og:title": "r/Entrepreneur on Reddit: I studied how Gusto (YC W12) went from zero to a $9.5 billion company in 12 years.",
+            "og:image:height": "630",
+            "msapplication-navbutton-color": "#000000",
+            "og:description": "Posted by u/haphazardwizardofoz - 32 votes and 2 comments",
+            "twitter:image": "https://share.redd.it/preview/post/1bijbgn",
+            "apple-mobile-web-app-status-bar-style": "black",
+            "twitter:site": "@reddit",
+            "viewport": "width=device-width, initial-scale=1, viewport-fit=cover",
+            "apple-mobile-web-app-capable": "yes",
+            "og:ttl": "600",
+            "og:url": "https://www.reddit.com/r/Entrepreneur/comments/1bijbgn/i_studied_how_gusto_yc_w12_went_from_zero_to_a_95/?seeker-session=true"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Gusto founders' perspective on SaaS 3.0 and embedded fintech ...",
+      "htmlTitle": "<b>Gusto founders</b>&#39; perspective on SaaS 3.0 and embedded fintech ...",
+      "link": "https://embedded.gusto.com/blog/gusto-founders-perspective-on-saas-3-and-embedded-fintech/",
+      "displayLink": "embedded.gusto.com",
+      "snippet": "May 23, 2023 ... Gusto Co-founders Josh Reeves, Tomer London, and Eddie Kim share their POV on adding an embedded fintech full suite to a vertical SaaS ...",
+      "htmlSnippet": "May 23, 2023 <b>...</b> <b>Gusto</b> Co-<b>founders</b> Josh Reeves, Tomer London, and Eddie Kim share their POV on adding an embedded fintech full suite to a vertical SaaS&nbsp;...",
+      "formattedUrl": "https://embedded.gusto.com/.../gusto-founders-perspective-on-saas-3-and-e...",
+      "htmlFormattedUrl": "https://embedded.<b>gusto</b>.com/.../<b>gusto</b>-<b>founders</b>-perspective-on-saas-3-and-e...",
+      "pagemap": {
+        "metatags": [
+          {
+            "og:image": "https://embeddedblog.wpengine.com/wp-content/uploads/2023/05/emb_podcast_founders_updated.png",
+            "og:type": "article",
+            "article:published_time": "2023-05-23T18:56:40+00:00",
+            "og:image:width": "4000",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Embedded Blog",
+            "author": "Brian Busch",
+            "og:title": "Gusto founders’ perspective on SaaS 3.0 and embedded fintech - Embedded Blog",
+            "og:image:height": "2250",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "og:image:type": "image/png",
+            "og:description": "Gusto Co-founders Josh Reeves, Tomer London, and Eddie Kim share their POV on adding an embedded fintech full suite to a vertical SaaS solution.",
+            "twitter:data1": "Brian Busch",
+            "twitter:data2": "9 minutes",
+            "article:modified_time": "2023-12-13T22:15:49+00:00",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:locale": "en_US",
+            "og:url": "https://embedded.gusto.com/blog/gusto-founders-perspective-on-saas-3-and-embedded-fintech/"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Gusto, Inc. - Wikipedia",
+      "htmlTitle": "<b>Gusto</b>, Inc. - Wikipedia",
+      "link": "https://en.wikipedia.org/wiki/Gusto,_Inc.",
+      "displayLink": "en.wikipedia.org",
+      "snippet": "Gusto, Inc. ; Formerly, ZenPayroll, Inc. ; Company type, Private ; Industry, business software industry Edit this on Wikidata ; Founded, November 2011; 13 years ago ...",
+      "htmlSnippet": "<b>Gusto</b>, Inc. ; Formerly, ZenPayroll, Inc. ; Company type, Private ; Industry, business software industry Edit this on Wikidata ; Founded, November 2011; 13 years ago&nbsp;...",
+      "formattedUrl": "https://en.wikipedia.org/wiki/Gusto,_Inc.",
+      "htmlFormattedUrl": "https://en.wikipedia.org/wiki/<b>Gusto</b>,_Inc.",
+      "pagemap": {
+        "hcard": [
+          {
+            "bday": "2011-11",
+            "fn": "Gusto, Inc.",
+            "nickname": "ZenPayroll, Inc.",
+            "category": "Private"
+          }
+        ],
+        "metatags": [
+          {
+            "referrer": "origin",
+            "og:image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Gusto%2C_Inc._logo.svg/1200px-Gusto%2C_Inc._logo.svg.png",
+            "theme-color": "#eaecf0",
+            "og:image:width": "1200",
+            "og:type": "website",
+            "viewport": "width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0",
+            "og:title": "Gusto, Inc. - Wikipedia",
+            "og:image:height": "800",
+            "format-detection": "telephone=no"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Nate Hybl by The Atlanta Story - The Atlanta Story",
+      "htmlTitle": "Nate Hybl by The Atlanta Story - The Atlanta Story",
+      "link": "https://www.atlstory.com/nate-hybl",
+      "displayLink": "www.atlstory.com",
+      "snippet": "Jun 22, 2023 ... \"I want to serve better food to as many people as possible.\" Nate Hybl, Founder of Gusto!",
+      "htmlSnippet": "Jun 22, 2023 <b>...</b> &quot;I want to serve better food to as many people as possible.&quot; Nate Hybl, <b>Founder</b> of <b>Gusto</b>!",
+      "formattedUrl": "https://www.atlstory.com/nate-hybl",
+      "htmlFormattedUrl": "https://www.atlstory.com/nate-hybl",
+      "pagemap": {
+        "thumbnail": [
+          {
+            "src": "https://exposure.accelerator.net/production/posts/1893809/cover-photo/cover-1687367808.jpg;resize(1200,630,crop).jpeg?auto=webp"
+          }
+        ],
+        "metatags": [
+          {
+            "p:domain_verify": "48ce7497dd58f907fda0037e6c21e59d",
+            "og:image": "https://exposure.accelerator.net/production/posts/1893809/cover-photo/cover-1687367808.jpg;resize(1200,630,crop).jpeg?auto=webp",
+            "apple-itunes-app": "app-id=1502776532",
+            "theme-color": "#292525",
+            "twitter:card": "summary_large_image",
+            "og:description": "In this episode Jon Birdsong sits down with Nate Hybl, Founder of Gusto!",
+            "twitter:creator": "theatlantastory",
+            "user-plan": "free",
+            "twitter:site": "@exposure",
+            "csrf-token": "JQukp2-_659kVU91oDiLHo_7t-r2Vad432DUBflnOGXS8Nxo2U5kD0VsUJyjocb8PtxpR6O9-qQ3cMcAsqbZCw",
+            "og:type": "website",
+            "thumbnail": "https://exposure.accelerator.net/production/posts/1893809/cover-photo/cover-1687367808.jpg;resize(1200,630,crop).jpeg?auto=webp",
+            "twitter:title": "Nate Hybl",
+            "handheldfriendly": "true",
+            "msvalidate.01": "17B3807D50A65EEB366D7C82472971A6",
+            "og:title": "Nate Hybl - The Atlanta Story",
+            "csrf-param": "authenticity_token",
+            "twitter:image:src": "https://exposure.accelerator.net/production/posts/1893809/cover-photo/cover-1687367808.jpg;resize(1200,675,crop).jpeg?auto=webp",
+            "fragment": "!",
+            "apple-mobile-web-app-status-bar-style": "black",
+            "viewport": "width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5",
+            "apple-mobile-web-app-capable": "yes",
+            "twitter:description": "In this episode Jon Birdsong sits down with Nate Hybl, Founder of Gusto!",
+            "user-bucket": "none",
+            "og:url": "https://www.atlstory.com/nate-hybl"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://exposure.accelerator.net/production/posts/1893809/cover-photo/cover-1687367808.jpg;resize(1200,630,crop).jpeg?auto=webp"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "I'm a Co-Founder of Gusto and Y Combinator Alum — Here's the ...",
+      "htmlTitle": "I&#39;m a Co-<b>Founder</b> of <b>Gusto</b> and Y Combinator Alum — Here&#39;s the ...",
+      "link": "https://engineering.gusto.com/im-a-co-founder-of-gusto-and-y-combinator-alum-here-s-the-advice-i-give-every-startup-founder-32eb4a9cc4b4",
+      "displayLink": "engineering.gusto.com",
+      "snippet": "Mar 5, 2018 ... I'm a Co-Founder of Gusto and Y Combinator Alum — Here's the Advice I Give Every Startup Founder · Your #1 priority after raising seed: Finding ...",
+      "htmlSnippet": "Mar 5, 2018 <b>...</b> I&#39;m a Co-<b>Founder</b> of <b>Gusto</b> and Y Combinator Alum — Here&#39;s the Advice I Give Every Startup <b>Founder</b> &middot; Your #1 priority after raising seed: Finding&nbsp;...",
+      "formattedUrl": "https://engineering.gusto.com/im-a-co-founder-of-gusto-and-y-combinator...",
+      "htmlFormattedUrl": "https://engineering.<b>gusto</b>.com/im-a-co-founder-of-<b>gusto</b>-and-y-combinator...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpJuN_chp-H_oeScLk_-jinIJL5Flui9ru4a_2PKiiExhrrg2ruzNpw_Q&s",
+            "width": "318",
+            "height": "159"
+          }
+        ],
+        "metatags": [
+          {
+            "apple-itunes-app": "app-id=828256236, app-argument=/im-a-co-founder-of-gusto-and-y-combinator-alum-here-s-the-advice-i-give-every-startup-founder-32eb4a9cc4b4, affiliate-data=pt=698524&ct=smart_app_banner&mt=8",
+            "og:image": "https://miro.medium.com/v2/resize:fit:780/1*Est2n3OynHx_RMkHb8HuSQ.png",
+            "twitter:app:url:iphone": "medium://p/32eb4a9cc4b4",
+            "theme-color": "#000000",
+            "article:published_time": "2024-06-25T19:04:13.259Z",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Medium",
+            "al:android:package": "com.medium.reader",
+            "twitter:label1": "Reading time",
+            "twitter:app:id:iphone": "828256236",
+            "title": "I’m a Co-Founder of Gusto and Y Combinator Alum — Here’s the Advice I Give Every Startup Founder | by Tomer London | Gusto Engineering",
+            "al:ios:url": "medium://p/32eb4a9cc4b4",
+            "og:description": "When we graduated from Y Combinator in the winter of 2012, we had a pretty limited payroll product and a handful of early local customers…",
+            "twitter:creator": "@tomerlondon",
+            "al:ios:app_store_id": "828256236",
+            "twitter:data1": "5 min read",
+            "twitter:site": "@GustoHQ",
+            "og:type": "article",
+            "twitter:title": "I’m a Co-Founder of Gusto and Y Combinator Alum — Here’s the Advice I Give Every Startup Founder",
+            "al:ios:app_name": "Medium",
+            "author": "Tomer London",
+            "og:title": "I’m a Co-Founder of Gusto and Y Combinator Alum — Here’s the Advice I Give Every Startup Founder",
+            "al:web:url": "https://engineering.gusto.com/im-a-co-founder-of-gusto-and-y-combinator-alum-here-s-the-advice-i-give-every-startup-founder-32eb4a9cc4b4",
+            "article:author": "https://medium.com/@tomerlondon",
+            "twitter:image:src": "https://miro.medium.com/v2/resize:fit:780/1*Est2n3OynHx_RMkHb8HuSQ.png",
+            "al:android:url": "medium://p/32eb4a9cc4b4",
+            "referrer": "unsafe-url",
+            "fb:app_id": "542599432471018",
+            "viewport": "width=device-width,minimum-scale=1,initial-scale=1,maximum-scale=1",
+            "twitter:description": "When we graduated from Y Combinator in the winter of 2012, we had a pretty limited payroll product and a handful of early local customers…",
+            "og:url": "https://engineering.gusto.com/im-a-co-founder-of-gusto-and-y-combinator-alum-here-s-the-advice-i-give-every-startup-founder-32eb4a9cc4b4",
+            "twitter:app:name:iphone": "Medium",
+            "al:android:app_name": "Medium"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://miro.medium.com/v2/resize:fit:780/1*Est2n3OynHx_RMkHb8HuSQ.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Report: Gusto Business Breakdown & Founding Story | Contrary ...",
+      "htmlTitle": "Report: <b>Gusto</b> Business Breakdown &amp; <b>Founding</b> Story | Contrary ...",
+      "link": "https://research.contrary.com/company/gusto",
+      "displayLink": "research.contrary.com",
+      "snippet": "Founding Story. Gusto, originally known as ZenPayroll, was founded by Josh Reeves (CEO), Tomer London, and Edward Kim in 2012. The company ...",
+      "htmlSnippet": "<b>Founding</b> Story. <b>Gusto</b>, originally known as ZenPayroll, was founded by Josh Reeves (CEO), Tomer London, and Edward Kim in 2012. The company&nbsp;...",
+      "formattedUrl": "https://research.contrary.com/company/gusto",
+      "htmlFormattedUrl": "https://research.contrary.com/company/<b>gusto</b>",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSliHzMdeLKUJe8q17zHvmIx8BsgU_Gx4kP3dpiQpa8MxFxV8iwvaKvxFI&s",
+            "width": "318",
+            "height": "159"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://images.prismic.io/contrary-research/8dc6cebb-e322-44f1-9bea-a4d386657637_Gusto.png?auto=compress,format",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Report: Gusto Business Breakdown & Founding Story | Contrary Research",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "A report from Contrary Research. Discover Gusto's founding story, product, business model, and an in-depth analysis of the business.",
+            "og:title": "Report: Gusto Business Breakdown & Founding Story | Contrary Research",
+            "og:description": "A report from Contrary Research. Discover Gusto's founding story, product, business model, and an in-depth analysis of the business.",
+            "twitter:image": "https://images.prismic.io/contrary-research/8dc6cebb-e322-44f1-9bea-a4d386657637_Gusto.png?auto=compress,format"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://images.prismic.io/contrary-research/8dc6cebb-e322-44f1-9bea-a4d386657637_Gusto.png?auto=compress,format"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Josh R. - Gusto | LinkedIn",
+      "htmlTitle": "Josh R. - <b>Gusto</b> | LinkedIn",
+      "link": "https://www.linkedin.com/in/joshuareeves",
+      "displayLink": "www.linkedin.com",
+      "snippet": "On a multi-decade mission at Gusto to create a world where work empowers a better life… · Experience: Gusto · Location: United States · 500+ connections on ...",
+      "htmlSnippet": "On a multi-decade mission at <b>Gusto</b> to create a world where work empowers a better life… · Experience: <b>Gusto</b> · Location: United States · 500+ connections on&nbsp;...",
+      "formattedUrl": "https://www.linkedin.com/in/joshuareeves",
+      "htmlFormattedUrl": "https://www.linkedin.com/in/joshuareeves",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGU0tMEvm1H8922WRXw-ZkGeCncx9yRsmRdfn2hGjFl1vrWikoBJA9en4&s",
+            "width": "200",
+            "height": "200"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://media.licdn.com/dms/image/v2/D5603AQFqXncs3asMFg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1700183982460?e=2147483647&v=beta&t=-nqFhJU6chZ1jFtnsoWCwKwJXHIneXglqbtbeibKMg8",
+            "twitter:card": "summary",
+            "linkedin:pagetag": "openToProvider",
+            "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+            "al:android:package": "com.linkedin.android",
+            "bingbot": "nocache",
+            "locale": "en_US",
+            "al:ios:url": "https://www.linkedin.com/in/joshuareeves",
+            "og:description": "On a multi-decade mission at Gusto to create a world where work empowers a better life… · Experience: Gusto · Location: United States · 500+ connections on LinkedIn. View Josh R.’s profile on LinkedIn, a professional community of 1 billion members.",
+            "al:ios:app_store_id": "288429040",
+            "platform": "https://static.licdn.com/aero-v1/sc/h/4nm9pu95jzy03fx73wtc0vlru",
+            "twitter:image": "https://media.licdn.com/dms/image/v2/D5603AQFqXncs3asMFg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1700183982460?e=2147483647&v=beta&t=-nqFhJU6chZ1jFtnsoWCwKwJXHIneXglqbtbeibKMg8",
+            "profile:last_name": "R.",
+            "twitter:site": "@Linkedin",
+            "litmsprofilename": "public-profile-frontend",
+            "profile:first_name": "Josh",
+            "og:type": "profile",
+            "twitter:title": "Josh R. - Gusto | LinkedIn",
+            "al:ios:app_name": "LinkedIn",
+            "og:title": "Josh R. - Gusto | LinkedIn",
+            "pagekey": "public_profile_v3_mobile",
+            "al:android:url": "https://www.linkedin.com/in/joshuareeves",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "twitter:description": "On a multi-decade mission at Gusto to create a world where work empowers a better life… · Experience: Gusto · Location: United States · 500+ connections on LinkedIn. View Josh R.’s profile on LinkedIn, a professional community of 1 billion members.",
+            "ubba": "https://static.licdn.com/aero-v1/sc/h/6314rx53vzqnwyjpjmgri18gg",
+            "og:url": "https://www.linkedin.com/in/joshuareeves",
+            "al:android:app_name": "LinkedIn"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://media.licdn.com/dms/image/v2/D5603AQFqXncs3asMFg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1700183982460?e=2147483647&v=beta&t=-nqFhJU6chZ1jFtnsoWCwKwJXHIneXglqbtbeibKMg8"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Gusto CEO Josh Reeves on Values-Driven Leadership and ...",
+      "htmlTitle": "<b>Gusto</b> CEO Josh Reeves on Values-Driven Leadership and ...",
+      "link": "https://markmacleod.me/gusto-ceo-josh-reeves-on-values-driven-leadership-and-revolutionizing-smb-payroll/",
+      "displayLink": "markmacleod.me",
+      "snippet": "Jan 13, 2025 ... Gusto co-founder Josh Reeves opens up about building a mission-driven company that has transformed from a small payroll startup to a ...",
+      "htmlSnippet": "Jan 13, 2025 <b>...</b> <b>Gusto</b> co-<b>founder</b> Josh Reeves opens up about building a mission-driven company that has transformed from a small payroll startup to a&nbsp;...",
+      "formattedUrl": "https://markmacleod.me/gusto-ceo-josh-reeves-on-values-driven-leadership...",
+      "htmlFormattedUrl": "https://markmacleod.me/<b>gusto</b>-ceo-josh-reeves-on-values-driven-leadership...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5pwT7hlkHOUA00IhmrobwlCxjjftm9_Vily-LAPfKTjN_qAudIg71rxc1&s",
+            "width": "268",
+            "height": "188"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://markmacleod.me/wp-content/uploads/2025/01/JoshuaReeves_BlogCover_StartupCEO_370x260.png",
+            "og:type": "article",
+            "article:published_time": "2025-01-13T12:26:33+00:00",
+            "og:image:width": "370",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Mark MacLeod",
+            "author": "Sheila",
+            "og:title": "Gusto CEO Josh Reeves on Values-Driven Leadership and Revolutionizing SMB Payroll - Mark MacLeod",
+            "og:image:height": "260",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "og:image:type": "image/png",
+            "msapplication-tileimage": "https://markmacleod.me/wp-content/uploads/2020/05/cropped-favicon-270x270.png",
+            "og:description": "Gusto co-founder Josh Reeves opens up about building a mission-driven company that has transformed from a small payroll startup to a comprehensive SMB platform serving thousands of businesses. In this conversation, Josh shares the refreshingly different ways Gusto does things: from their famous \"no shoes\" office policy to using nature walks for making big decisions. He opens up about growing from three founders to 2,500 people while keeping things real, why being kind and competitive isn't a contradiction, and what it means to truly build a company that puts people first. If you're tired of the same old startup stories, this one's different.",
+            "twitter:data1": "Sheila",
+            "twitter:data2": "1 minute",
+            "article:modified_time": "2025-01-13T13:15:20+00:00",
+            "viewport": "width=device-width, initial-scale=1, maximum-scale=2.0",
+            "og:locale": "en_US",
+            "og:url": "https://markmacleod.me/gusto-ceo-josh-reeves-on-values-driven-leadership-and-revolutionizing-smb-payroll/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://markmacleod.me/wp-content/uploads/2025/01/JoshuaReeves_BlogCover_StartupCEO_370x260.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Gusto Co-Founders: Josh Reeves, Edward Kim & Tomer London ...",
+      "htmlTitle": "<b>Gusto</b> Co-<b>Founders</b>: Josh Reeves, Edward Kim &amp; Tomer London ...",
+      "link": "https://open.spotify.com/episode/7hujrYjJedoSnF4CkHY4jZ",
+      "displayLink": "open.spotify.com",
+      "snippet": "Jan 15, 2025 ... Listen to this episode from The Social Radars on Spotify. In today's episode, we chat with all three of the Gusto founders: Josh Reeves, ...",
+      "htmlSnippet": "Jan 15, 2025 <b>...</b> Listen to this episode from The Social Radars on Spotify. In today&#39;s episode, we chat with all three of the <b>Gusto founders</b>: Josh Reeves,&nbsp;...",
+      "formattedUrl": "https://open.spotify.com/episode/7hujrYjJedoSnF4CkHY4jZ",
+      "htmlFormattedUrl": "https://open.spotify.com/episode/7hujrYjJedoSnF4CkHY4jZ",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpk2ij4ukpyBLo7nOvFN8svasU7IfPiwj5d4nhNjipzQyLkjg-5tvZKkQn&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "og:type": "music.song",
+            "og:site_name": "Spotify",
+            "al:ios:app_name": "Spotify",
+            "og:title": "Gusto Co-Founders: Josh Reeves, Edward Kim & Tomer London",
+            "al:android:package": "com.spotify.music",
+            "google": "notranslate",
+            "al:ios:url": "spotify://episode/7hujrYjJedoSnF4CkHY4jZ",
+            "og:description": "The Social Radars · Episode",
+            "al:ios:app_store_id": "324684580",
+            "al:android:url": "spotify://episode/7hujrYjJedoSnF4CkHY4jZ",
+            "fb:app_id": "174829003346",
+            "viewport": "width=device-width, initial-scale=1",
+            "music:release_date": "2025-01-15T14:00:00Z",
+            "og:url": "https://open.spotify.com/episode/7hujrYjJedoSnF4CkHY4jZ",
+            "music:duration": "4436",
+            "al:android:app_name": "Spotify",
+            "og:restrictions:country:allowed": "AD"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://i.scdn.co/image/ab67656300005f1fa4265d76d07449481c61737d"
+          }
+        ]
+      }
+    }
+  ]
+}

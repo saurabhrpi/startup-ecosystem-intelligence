@@ -1,0 +1,529 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - \"HireArt\" founders",
+        "totalResults": "2500",
+        "searchTerms": "\"HireArt\" founders",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - \"HireArt\" founders",
+        "totalResults": "2500",
+        "searchTerms": "\"HireArt\" founders",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ]
+  },
+  "context": {
+    "title": "startup-ecosystem-intelligence"
+  },
+  "searchInformation": {
+    "searchTime": 0.107053,
+    "formattedSearchTime": "0.11",
+    "totalResults": "2500",
+    "formattedTotalResults": "2,500"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "HireArt's Founders Discuss Vertically Integrated Employment",
+      "htmlTitle": "<b>HireArt&#39;s Founders</b> Discuss Vertically Integrated Employment",
+      "link": "https://get.hireart.com/vertically-integrated-webinar/",
+      "displayLink": "get.hireart.com",
+      "snippet": "HireArt Co-Founders Discuss Common Challenges and Groundbreaking Solutions in Contingent Workforce Management.",
+      "htmlSnippet": "<b>HireArt</b> Co-<b>Founders</b> Discuss Common Challenges and Groundbreaking Solutions in Contingent Workforce Management.",
+      "formattedUrl": "https://get.hireart.com/vertically-integrated-webinar/",
+      "htmlFormattedUrl": "https://get.<b>hireart</b>.com/vertically-integrated-webinar/",
+      "pagemap": {
+        "metatags": [
+          {
+            "viewport": "width=device-width, initial-scale=1.0",
+            "lp-version": "v6.24.172"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Key Takeaways from \"Vertically Integrated Employment\" - HireArt",
+      "htmlTitle": "Key Takeaways from \"Vertically Integrated Employment\" - HireArt",
+      "link": "https://www.hireart.com/resources/key-takeaways-from-vertically-integrated-employment",
+      "displayLink": "www.hireart.com",
+      "snippet": "In a discussion captured on a HireArt webinar, Co-Founders Nick Sedlet and Chris Brower highlighted how current industry practices often result in frustration ...",
+      "htmlSnippet": "In a discussion captured on a <b>HireArt</b> webinar, Co-<b>Founders</b> Nick Sedlet and Chris Brower highlighted how current industry practices often result in frustration&nbsp;...",
+      "formattedUrl": "https://www.hireart.com/.../key-takeaways-from-vertically-integrated-emplo...",
+      "htmlFormattedUrl": "https://www.<b>hireart</b>.com/.../key-takeaways-from-vertically-integrated-emplo...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcwB4YCvecIzXYoKNtaBJGdrXHSAplNjHF3lz9lk8k9c0TdjyI1pYxIj8&s",
+            "width": "295",
+            "height": "171"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://cdn.prod.website-files.com/63f37f0c2e88900d70dd3deb/65b142db897ff5800ebccb11_Blog%20Hero_Key%20Takeaways.png",
+            "twitter:title": "HireArt | Key Takeaways from \"Vertically Integrated Employment\"",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "Examining three core talking points from the conversation with HireArt’s co-founders",
+            "og:title": "HireArt | Key Takeaways from \"Vertically Integrated Employment\"",
+            "og:description": "Examining three core talking points from the conversation with HireArt’s co-founders",
+            "twitter:image": "https://cdn.prod.website-files.com/63f37f0c2e88900d70dd3deb/65b142db897ff5800ebccb11_Blog%20Hero_Key%20Takeaways.png"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.prod.website-files.com/63f37f0c2e88900d70dd3deb/65b142db897ff5800ebccb11_Blog%20Hero_Key%20Takeaways.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Nick Sedlet - HireArt | LinkedIn",
+      "htmlTitle": "Nick Sedlet - <b>HireArt</b> | LinkedIn",
+      "link": "https://www.linkedin.com/in/nick-sedlet",
+      "displayLink": "www.linkedin.com",
+      "snippet": "Experience: HireArt · Education: Y Combinator · Location: New York · 500+ connections on LinkedIn. View Nick Sedlet's profile on LinkedIn, a professional ...",
+      "htmlSnippet": "Experience: <b>HireArt</b> · Education: Y Combinator · Location: New York · 500+ connections on LinkedIn. View Nick Sedlet&#39;s profile on LinkedIn, a professional&nbsp;...",
+      "formattedUrl": "https://www.linkedin.com/in/nick-sedlet",
+      "htmlFormattedUrl": "https://www.linkedin.com/in/nick-sedlet",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJpefWu6-w37OwKv9NvZVew4ym2RxTmzRAjw4NGwGZJ7nsNiO2zm-HiZD8&s",
+            "width": "167",
+            "height": "167"
+          }
+        ],
+        "ProfilePage": [
+          {}
+        ],
+        "metatags": [
+          {
+            "og:image": "https://media.licdn.com/dms/image/v2/C4D03AQG2llLRsGlqwQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1528302331674?e=2147483647&v=beta&t=Pxxv4UIgE3WihXO2dWAirekbmSZoLFi_FtDS_bK3Z38",
+            "twitter:card": "summary",
+            "linkedin:pagetag": "openToProvider",
+            "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+            "al:android:package": "com.linkedin.android",
+            "bingbot": "nocache",
+            "locale": "en_US",
+            "al:ios:url": "https://www.linkedin.com/in/nick-sedlet",
+            "og:description": "Experience: HireArt · Education: Y Combinator · Location: New York · 500+ connections on LinkedIn. View Nick Sedlet’s profile on LinkedIn, a professional community of 1 billion members.",
+            "al:ios:app_store_id": "288429040",
+            "platform": "https://static.licdn.com/aero-v1/sc/h/50rhhil0lpchs3iqo4twn4tk9",
+            "twitter:image": "https://media.licdn.com/dms/image/v2/C4D03AQG2llLRsGlqwQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1528302331674?e=2147483647&v=beta&t=Pxxv4UIgE3WihXO2dWAirekbmSZoLFi_FtDS_bK3Z38",
+            "profile:last_name": "Sedlet",
+            "twitter:site": "@Linkedin",
+            "litmsprofilename": "public-profile-frontend",
+            "profile:first_name": "Nick",
+            "og:type": "profile",
+            "twitter:title": "Nick Sedlet - HireArt | LinkedIn",
+            "al:ios:app_name": "LinkedIn",
+            "og:title": "Nick Sedlet - HireArt | LinkedIn",
+            "pagekey": "public_profile_v3_mobile",
+            "al:android:url": "https://www.linkedin.com/in/nick-sedlet",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "twitter:description": "Experience: HireArt · Education: Y Combinator · Location: New York · 500+ connections on LinkedIn. View Nick Sedlet’s profile on LinkedIn, a professional community of 1 billion members.",
+            "ubba": "https://static.licdn.com/aero-v1/sc/h/41b802ccd3dg7q90ypctzxybx",
+            "og:url": "https://www.linkedin.com/in/nick-sedlet",
+            "al:android:app_name": "LinkedIn"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://media.licdn.com/dms/image/v2/C4D03AQG2llLRsGlqwQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1528302331674?e=2147483647&v=beta&t=Pxxv4UIgE3WihXO2dWAirekbmSZoLFi_FtDS_bK3Z38"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "HireArt Listed on Inc.'s 2022 List of Fastest-Growing Companies",
+      "htmlTitle": "<b>HireArt</b> Listed on Inc.&#39;s 2022 List of Fastest-Growing Companies",
+      "link": "https://www.hireart.com/resources/hireart-listed-on-inc-s-2022-list-of-fastest-growing-companies",
+      "displayLink": "www.hireart.com",
+      "snippet": "HireArt's continued growth is a testament to our team's success in helping our clients navigate these changes.\" says Nick Sedlet, Co-Founder and CEO of HireArt.",
+      "htmlSnippet": "<b>HireArt&#39;s</b> continued growth is a testament to our team&#39;s success in helping our clients navigate these changes.&quot; says Nick Sedlet, Co-<b>Founder</b> and CEO of <b>HireArt</b>.",
+      "formattedUrl": "https://www.hireart.com/.../hireart-listed-on-inc-s-2022-list-of-fastest-growi...",
+      "htmlFormattedUrl": "https://www.<b>hireart</b>.com/.../<b>hireart</b>-listed-on-inc-s-2022-list-of-fastest-growi...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkMTKu3ObN1bK1Udll3PVpVgCWp09saExd_GuHd_3N15K2ERQzgQLuBCM&s",
+            "width": "295",
+            "height": "171"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://cdn.prod.website-files.com/63f37f0c2e88900d70dd3deb/63f3c1df66eaf3c93f9fa0bb_HireArt-x-Inc-5000_LinkedIn.png",
+            "twitter:title": "HireArt | HireArt Listed on Inc.’s 2022 List of Fastest-Growing Companies",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "This month, Inc. revealed that HireArt is ranked No. 1,174 on its annual Inc. 5000 list",
+            "og:title": "HireArt | HireArt Listed on Inc.’s 2022 List of Fastest-Growing Companies",
+            "og:description": "This month, Inc. revealed that HireArt is ranked No. 1,174 on its annual Inc. 5000 list",
+            "twitter:image": "https://cdn.prod.website-files.com/63f37f0c2e88900d70dd3deb/63f3c1df66eaf3c93f9fa0bb_HireArt-x-Inc-5000_LinkedIn.png"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.prod.website-files.com/63f37f0c2e88900d70dd3deb/63f3c1df66eaf3c93f9fa0bb_HireArt-x-Inc-5000_LinkedIn.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "HireArt lands $26.25M to help recruit W2 contractors",
+      "htmlTitle": "<b>HireArt</b> lands $26.25M to help recruit W2 contractors",
+      "link": "https://techcrunch.com/2022/07/18/hireart-lands-26-25m-to-help-manage-and-recruit-w2-contractors-for-clients/",
+      "displayLink": "techcrunch.com",
+      "snippet": "Jul 18, 2022 ... But the co-founders — Dain Lewis, Eleonora Sharef and Sedlet — discovered that many of HireArt's clients were hiring its people by putting them ...",
+      "htmlSnippet": "Jul 18, 2022 <b>...</b> But the co-<b>founders</b> — Dain Lewis, Eleonora Sharef and Sedlet — discovered that many of <b>HireArt&#39;s</b> clients were hiring its people by putting them&nbsp;...",
+      "formattedUrl": "https://techcrunch.com/.../hireart-lands-26-25m-to-help-manage-and-recruit...",
+      "htmlFormattedUrl": "https://techcrunch.com/.../<b>hireart</b>-lands-26-25m-to-help-manage-and-recruit...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsKd6tMamYOselxd2fIvK9D6U_3q2HzY6BmEUYi1uISCIiyrd25X422RDO&s",
+            "width": "275",
+            "height": "183"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://techcrunch.com/wp-content/uploads/2021/10/GettyImages-1255922590.jpg?resize=1200,800",
+            "article:published_time": "2022-07-18T20:00:37+00:00",
+            "og:image:width": "1200",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "TechCrunch",
+            "sailthru.tags": ",Enterprise,personnel moves,w2,staffing,contractors,human resources,hireart,labor,hr,Startups,hiring,Funding,Cloud Computing,Startups,Enterprise,Media & Entertainment",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "parsely-author": "Kyle Wiggers",
+            "og:image:type": "image/jpeg",
+            "msapplication-tileimage": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=270",
+            "og:description": "HireArt has raised $26.25M in a venture equity round to fund its approach to managing and recruiting W2 contractors for clients including Meta.",
+            "twitter:creator": "@TechCrunch",
+            "parsely-metadata": "{\"post_id\":2352273,\"is_brief\":false}",
+            "article:publisher": "https://www.facebook.com/techcrunch",
+            "twitter:data1": "Kyle Wiggers",
+            "twitter:data2": "4 minutes",
+            "parsely-type": "post",
+            "twitter:site": "@TechCrunch",
+            "article:modified_time": "2022-07-18T20:42:12+00:00",
+            "parsely-link": "https://techcrunch.com/2022/07/18/hireart-lands-26-25m-to-help-manage-and-recruit-w2-contractors-for-clients/",
+            "sailthru.title": "HireArt lands $26.25M to help manage and recruit W2 contractors for clients",
+            "parsely-image-url": "https://techcrunch.com/wp-content/uploads/2021/10/GettyImages-1255922590.jpg?w=150",
+            "parsely-section": "Startups",
+            "sailthru.date": "2022-07-18 13:00:37",
+            "og:type": "article",
+            "twitter:title": "HireArt lands $26.25M to help recruit W2 contractors",
+            "author": "Kyle Wiggers",
+            "og:title": "HireArt lands $26.25M to help recruit W2 contractors",
+            "og:image:height": "800",
+            "sailthru.image.thumb": "https://techcrunch.com/wp-content/uploads/2021/10/GettyImages-1255922590.jpg?w=50",
+            "parsely-title": "HireArt lands $26.25M to help manage and recruit W2 contractors for clients",
+            "parsely-pub-date": "2022-07-18T20:00:37Z",
+            "sailthru.description": "HireArt, which TechCrunch previously described as a “resume-killing” jobs marketplace, today announced that it raised $26.25 million in a Series B financing round led by Three Fish Capital with participation from over a “half dozen” angel investors. CEO Nick Sedlet said that the cash will be put toward product development and more than doubling HireArt’s […]",
+            "parsely-tags": "cloud computing,enterprise,funding,hiring,startups,hr,labor,hireart,human resources,contractors,staffing,w2,personnel moves",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "HireArt has raised $26.25M in a venture equity round to fund its approach to managing and recruiting W2 contractors for clients including Meta.",
+            "og:locale": "en_US",
+            "og:url": "https://techcrunch.com/2022/07/18/hireart-lands-26-25m-to-help-manage-and-recruit-w2-contractors-for-clients/",
+            "sailthru.author": "Kyle Wiggers",
+            "sailthru.image.full": "https://techcrunch.com/wp-content/uploads/2021/10/GettyImages-1255922590.jpg"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://techcrunch.com/wp-content/uploads/2021/10/GettyImages-1255922590.jpg?resize=1200,800"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Meet the Startup That Wants to Bring 'Sanity' to the Job Hunt ...",
+      "htmlTitle": "Meet the Startup That Wants to Bring &#39;Sanity&#39; to the Job Hunt ...",
+      "link": "https://www.entrepreneur.com/living/meet-the-startup-that-wants-to-bring-sanity-to-the-job/273315",
+      "displayLink": "www.entrepreneur.com",
+      "snippet": "\"Our biggest hope is to continue to make the job process more transparent,\" HireArt co-founder Nick Sedlet told Entrepreneur. \"What we imagine ...",
+      "htmlSnippet": "&quot;Our biggest hope is to continue to make the job process more transparent,&quot; <b>HireArt</b> co-<b>founder</b> Nick Sedlet told Entrepreneur. &quot;What we imagine&nbsp;...",
+      "formattedUrl": "https://www.entrepreneur.com/living/meet-the-startup-that.../273315",
+      "htmlFormattedUrl": "https://www.entrepreneur.com/living/meet-the-startup-that.../273315",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbYH9JvQZ6XLqb-Q3nBw5mHNaxO8310Ckui5aJi1g3D5yR184UbuV6gDY&s",
+            "width": "275",
+            "height": "183"
+          }
+        ],
+        "metatags": [
+          {
+            "msapplication-config": "none",
+            "og:image": "https://assets.entrepreneur.com/content/3x2/2000/20160331181453-hireart.jpeg?format=pjeg&auto=webp",
+            "copyright": "Copyright 2025 Entrepreneur Media, LLC All rights reserved.",
+            "theme-color": "#131318",
+            "og:image:width": "2000",
+            "article:published_time": "2016-03-31T18:06:00+00:00",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Entrepreneur",
+            "twitter:url": "https://www.entrepreneur.com/living/meet-the-startup-that-wants-to-bring-sanity-to-the-job/273315",
+            "edition": "us",
+            "og:image:type": "image/jpeg",
+            "og:description": "Personalization, constant communication and video are the benchmarks of recruiting platform HireArt.",
+            "article:publisher": "https://www.facebook.com/entrepreneur",
+            "twitter:image": "https://assets.entrepreneur.com/content/3x2/2000/20160331181453-hireart.jpeg?format=pjeg&auto=webp",
+            "twitter:site": "@Entrepreneur",
+            "article:modified_time": "2016-03-31T18:06:00+00:00",
+            "cxenseparse:taxonomy": "living/resumes-interviewing",
+            "schema:url": "https://www.entrepreneur.com/living/meet-the-startup-that-wants-to-bring-sanity-to-the-job/273315",
+            "og:type": "article",
+            "article:section": "Meet the Startup That Wants to Bring 'Sanity' to the Job Hunt | Entrepreneur",
+            "twitter:title": "Meet the Startup That Wants to Bring 'Sanity' to the Job Hunt",
+            "adobject": "science-technology,career,resumes-interviewing,mobile,hiring,jobs,technology,interviewing,job-seekers,careers,author2638,273315",
+            "twitter:domain": "https://www.entrepreneur.com",
+            "msvalidate.01": "54B5AAADAA61BB7748D0BA219F04B657",
+            "author": "Nina Zipkin",
+            "og:title": "Meet the Startup That Wants to Bring 'Sanity' to the Job Hunt | Entrepreneur",
+            "og:image:height": "1333",
+            "fb:pages": "35585623895",
+            "article:tag": "Science & Technology,Career,Resumes & Interviewing,Mobile,Hiring,Jobs,Technology,Interviewing,Job Seekers,Careers",
+            "fb:app_id": "1819515551625402",
+            "linkedin:owner": "mid:21884750",
+            "viewport": "width=device-width,initial-scale=1.0",
+            "twitter:description": "Personalization, constant communication and video are the benchmarks of recruiting platform HireArt.",
+            "mobile-web-app-capable": "yes",
+            "original-source": "https://www.entrepreneur.com/living/meet-the-startup-that-wants-to-bring-sanity-to-the-job/273315",
+            "og:url": "https://www.entrepreneur.com/living/meet-the-startup-that-wants-to-bring-sanity-to-the-job/273315"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://assets.entrepreneur.com/content/3x2/2000/20160331181453-hireart.jpeg?format=pjeg&auto=webp"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "HireArt - 2025 Company Profile, Team, Funding & Competitors ...",
+      "htmlTitle": "<b>HireArt</b> - 2025 Company Profile, Team, Funding &amp; Competitors ...",
+      "link": "https://tracxn.com/d/companies/hireart/__4pmcuvCuL18BSl8hS5-ttvq5op2tlFtntxAynqb99lw",
+      "displayLink": "tracxn.com",
+      "snippet": "Jun 9, 2025 ... The founders of HireArt are Nicholas Sedlet and Elli Sharef. Nicholas Sedlet is the CEO of HireArt. Here are the details of HireArt's key team ...",
+      "htmlSnippet": "Jun 9, 2025 <b>...</b> The <b>founders</b> of <b>HireArt</b> are Nicholas Sedlet and Elli Sharef. Nicholas Sedlet is the CEO of <b>HireArt</b>. Here are the details of <b>HireArt&#39;s</b> key team&nbsp;...",
+      "formattedUrl": "https://tracxn.com/.../hireart/__4pmcuvCuL18BSl8hS5-ttvq5op2tlFtntxAyn...",
+      "htmlFormattedUrl": "https://tracxn.com/.../<b>hireart</b>/__4pmcuvCuL18BSl8hS5-ttvq5op2tlFtntxAyn...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQecwZdcV-_ePNrCbsnzVfwipHwFdzUityDEmXlHpCF4o9uc9Yi_CjG8WsT&s",
+            "width": "310",
+            "height": "163"
+          }
+        ],
+        "metatags": [
+          {
+            "image": "https://cdn.tracxn.com/images/seo/social/companies/hireart-overview-1709647831536.webp",
+            "og:image": "https://cdn.tracxn.com/images/seo/social/companies/hireart-overview-1709647831536.webp",
+            "og:type": "article",
+            "og:image:width": "1200",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "HireArt - 2025 Company Profile & Team - Tracxn",
+            "theme-color": "#ffffff",
+            "og:title": "HireArt - 2025 Company Profile & Team - Tracxn",
+            "og:image:height": "630",
+            "og:description": "HireArt - Job applicant pre screening solution through online interviews. Raised a total funding of $35.2M over 4 rounds from 6 investors.",
+            "twitter:image": "https://cdn.tracxn.com/images/seo/social/companies/hireart-overview-1709647831536.webp",
+            "referrer": "no-referrer-when-downgrade",
+            "astro-view-transitions-fallback": "animate",
+            "apple-mobile-web-app-status-bar-style": "default",
+            "viewport": "width=device-width",
+            "astro-view-transitions-enabled": "true",
+            "twitter:description": "HireArt - Job applicant pre screening solution through online interviews. Raised a total funding of $35.2M over 4 rounds from 6 investors.",
+            "apple-mobile-web-app-capable": "yes",
+            "mobile-web-app-capable": "yes",
+            "og:url": "https://tracxn.com/d/companies/hireart/__4pmcuvCuL18BSl8hS5-ttvq5op2tlFtntxAynqb99lw"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.tracxn.com/images/seo/social/companies/hireart-overview-1709647831536.webp"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "HireArt CEO And Leadership: Executives and Demographics - Zippia",
+      "htmlTitle": "<b>HireArt</b> CEO And Leadership: Executives and Demographics - Zippia",
+      "link": "https://www.zippia.com/hireart-careers-1405135/executives/",
+      "displayLink": "www.zippia.com",
+      "snippet": "Based on our data team's research, Nicholas Sedlet is the HireArt's CEO. HireArt has 40 employees, of which 30 are in a leadership position.",
+      "htmlSnippet": "Based on our data team&#39;s research, <b>Nicholas Sedlet</b> is the <b>HireArt&#39;s</b> CEO. <b>HireArt</b> has 40 employees, of which 30 are in a leadership position.",
+      "formattedUrl": "https://www.zippia.com/hireart-careers-1405135/executives/",
+      "htmlFormattedUrl": "https://www.zippia.com/<b>hireart</b>-careers-1405135/executives/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfgSKmwPZOm-ZTPyXmqX-hq9x7Bl4zVxyV-5OPw6A6laowH82lX7RtIu8&s",
+            "width": "310",
+            "height": "163"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://static.zippia.com/assets/zippia-og-image.png",
+            "og:type": "website",
+            "article:published_time": "2021-07-28T02:00:00-08:00",
+            "twitter:card": "summary",
+            "twitter:title": "HireArt CEO And Leadership: Executives and Demographics",
+            "twitter:url": "https://www.zippia.com/hireart-careers-1405135/executives/",
+            "og:title": "HireArt CEO And Leadership: Executives and Demographics",
+            "og:updated_time": "2022-11-18T02:00:00-08:00",
+            "twitter:image:src": "https://static.zippia.com/assets/zippia-og-image.png",
+            "next-head-count": "24",
+            "fb:app_id": "508633732650088",
+            "twitter:site": "@ZippiaInc",
+            "article:modified_time": "2022-11-18T02:00:00-08:00",
+            "viewport": "height=device-height, width=device-width, initial-scale=1.0, viewport-fit=cover",
+            "og:url": "https://www.zippia.com/hireart-careers-1405135/executives/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://static.zippia.com/assets/zippia-og-image.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "HireArt CEO and Key Executive Team | Craft.co",
+      "htmlTitle": "<b>HireArt</b> CEO and Key Executive Team | Craft.co",
+      "link": "https://craft.co/hireart/executives",
+      "displayLink": "craft.co",
+      "snippet": "HireArt's Co-Founder, CEO is Nicholas Sedlet. HireArt's key executives include Nicholas Sedlet and 5 others.",
+      "htmlSnippet": "<b>HireArt&#39;s</b> Co-<b>Founder</b>, CEO is <b>Nicholas Sedlet</b>. <b>HireArt&#39;s</b> key executives include <b>Nicholas Sedlet</b> and 5 others.",
+      "formattedUrl": "https://craft.co/hireart/executives",
+      "htmlFormattedUrl": "https://craft.co/<b>hireart</b>/executives",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvXK-RI1XV0nlWiPHLYFEjWRzTHuctJ2TpM-rsPGjiGT0lp9nds3vj&s",
+            "width": "80",
+            "height": "80"
+          }
+        ],
+        "metatags": [
+          {
+            "msapplication-tilecolor": "#46305b",
+            "og:image": "https://uploads3.craft.co/uploads/company/logo/849xx/84926/normal_pcP9dPXn_400x400.png",
+            "msapplication-config": "//static.production.craft.co/browserconfig.xml",
+            "theme-color": "#ffffff",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:title": "HireArt CEO and Key Executive Team | Craft.co",
+            "og:description": "HireArt's Co-Founder, CEO is Nicholas Sedlet. Other executives include Chris Brower, Cofounder and COO; Eleonora Sharef, Co-Founder and 3 others. See the full leadership team at Craft."
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://uploads3.craft.co/uploads/company/logo/849xx/84926/normal_pcP9dPXn_400x400.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Here's How One Startup Aims to Revolutionize the Hiring Process ...",
+      "htmlTitle": "Here&#39;s How One Startup Aims to Revolutionize the Hiring Process ...",
+      "link": "https://www.businessinsider.com/heres-how-one-startup-aims-to-revolutionize-the-hiring-process-2013-11",
+      "displayLink": "www.businessinsider.com",
+      "snippet": "Nov 21, 2013 ... That's the problem that New York-based startup HireArt aims to fix. The online job search company was founded in 2011 by a pair of Yale ...",
+      "htmlSnippet": "Nov 21, 2013 <b>...</b> That&#39;s the problem that New York-based startup <b>HireArt</b> aims to fix. The online job search company was founded in 2011 by a pair of Yale&nbsp;...",
+      "formattedUrl": "https://www.businessinsider.com/heres-how-one-startup-aims-to-revolutioni...",
+      "htmlFormattedUrl": "https://www.businessinsider.com/heres-how-one-startup-aims-to-revolutioni...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8cHzO4G7_g-RuhdLmoR-lh9dqlVfOhxzzDNf4yRIRYxpY35XhNcQIkAA2&s",
+            "width": "318",
+            "height": "159"
+          }
+        ],
+        "imageobject": [
+          {
+            "contenturl": "https://i.insider.com/528be982ecad048003b0fe7d",
+            "credittext": "Courtesy of HireArt"
+          },
+          {
+            "contenturl": "https://i.insider.com/528bea116bb3f70675b0fe73",
+            "credittext": "Courtesy of HireArt"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://i.insider.com/528e1ff1ecad040151a03142?width=1200&format=jpeg",
+            "apple-itunes-app": "app-id=554260576",
+            "msapplication-config": "/public/assets/BI/US/favicons/browserconfig.xml?v=2025-05",
+            "og:image:width": "1200",
+            "twitter:card": "summary_large_image",
+            "theme-color": "#fff",
+            "og:site_name": "Business Insider",
+            "apple-mobile-web-app-title": "Business Insider",
+            "og:image:type": "image/jpeg",
+            "title": "Here's How One Startup Aims To Revolutionize The Hiring Process",
+            "og:description": "HireArt, a job search startup founded by two Yale graduates, aims to streamline the hiring process and help right an imbalance in the labor market.",
+            "article:publisher": "businessinsider",
+            "mrf:tags": "sub-section:Careers;",
+            "datemodified": "2013-11-21T20:58:55Z",
+            "news_keywords": "Strategy, Careers, Hiring, Labor Market",
+            "mrf:sections": "Strategy",
+            "datepublished": "2013-11-21T14:58:06Z",
+            "og:type": "article",
+            "author": "Alison Griswold",
+            "tbi-vertical": "Strategy",
+            "og:title": "Here's How One Startup Aims To Revolutionize The Hiring Process",
+            "og:image:height": "600",
+            "fb:pages": "20446254070",
+            "linkedin:owner": "mid:1d5f7b",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:url": "https://www.businessinsider.com/heres-how-one-startup-aims-to-revolutionize-the-hiring-process-2013-11"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://i.insider.com/528e1ff1ecad040151a03142?width=1200&format=jpeg"
+          }
+        ]
+      }
+    }
+  ]
+}

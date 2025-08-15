@@ -1,0 +1,358 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - site:42floors.com (founder OR cofounder)",
+        "totalResults": "14",
+        "searchTerms": "site:42floors.com (founder OR cofounder)",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - site:42floors.com (founder OR cofounder)",
+        "totalResults": "14",
+        "searchTerms": "site:42floors.com (founder OR cofounder)",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ]
+  },
+  "context": {
+    "title": "startup-ecosystem-intelligence"
+  },
+  "searchInformation": {
+    "searchTime": 0.092389,
+    "formattedSearchTime": "0.09",
+    "totalResults": "14",
+    "formattedTotalResults": "14"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "151 North Kraemer Blvd, Placentia, CA 92870 | CommercialCafe.com",
+      "htmlTitle": "151 North Kraemer Blvd, Placentia, CA 92870 | CommercialCafe.com",
+      "link": "https://42floors.com/commercial-property/us/ca/placentia/founder-court-131-151-north-kraemer-blvd-377-east-chapman-avenue/",
+      "displayLink": "42floors.com",
+      "snippet": "Jul 10, 2025 ... Check Founder Court - 131 &151 North Kraemer Blvd & 377 East Chapman Avenue space availability, located at 151 North Kraemer Blvd, ...",
+      "htmlSnippet": "Jul 10, 2025 <b>...</b> Check <b>Founder</b> Court - 131 &amp;151 North Kraemer Blvd &amp; 377 East Chapman Avenue space availability, located at 151 North Kraemer Blvd,&nbsp;...",
+      "formattedUrl": "https://42floors.com/.../founder-court-131-151-north-kraemer-blvd-377-ea...",
+      "htmlFormattedUrl": "https://42floors.com/.../<b>founder</b>-court-131-151-north-kraemer-blvd-377-ea...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHt5aQjuioHRsU_ebFFEQwqPZenR9AxGPJnrWqTsXLFVXrrijr305vzlY&s",
+            "width": "251",
+            "height": "201"
+          }
+        ],
+        "metatags": [
+          {
+            "theme-color": "#FFFFFF",
+            "viewport": "width=device-width, initial-scale=1",
+            "author": "Yardi Systems, Inc.",
+            "format-detection": "telephone=no"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.commercialcafe.com/images/2464C594-A82F-4201-9176-CCCCD4D60E79/789434.jpg?width=550"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "1000 North Main Street, Tooele, UT 84074 | CommercialCafe.com",
+      "htmlTitle": "1000 North Main Street, Tooele, UT 84074 | CommercialCafe.com",
+      "link": "https://42floors.com/commercial-property/us/ut/tooele/founders-pointe/",
+      "displayLink": "42floors.com",
+      "snippet": "Check Founder's Pointe space availability, located at 1000 North Main Street, Tooele, UT 84074. Get full listing information, property data, ...",
+      "htmlSnippet": "Check <b>Founder&#39;s</b> Pointe space availability, located at 1000 North Main Street, Tooele, UT 84074. Get full listing information, property data,&nbsp;...",
+      "formattedUrl": "https://42floors.com/commercial-property/us/ut/tooele/founders-pointe/",
+      "htmlFormattedUrl": "https://42floors.com/commercial-property/us/ut/tooele/<b>founder</b>s-pointe/",
+      "pagemap": {
+        "metatags": [
+          {
+            "theme-color": "#FFFFFF",
+            "viewport": "width=device-width, initial-scale=1",
+            "author": "Yardi Systems, Inc.",
+            "format-detection": "telephone=no"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "18302 Irvine Blvd, Tustin, CA 92780 | CommercialCafe.com",
+      "htmlTitle": "18302 Irvine Blvd, Tustin, CA 92780 | CommercialCafe.com",
+      "link": "https://42floors.com/commercial-property/us/ca/tustin/tustin-corporate-center-18302-irvine-blvd/",
+      "displayLink": "42floors.com",
+      "snippet": "Jun 23, 2025 ... Check Tustin Corporate Center - 18302 Irvine Blvd space availability, located at 18302 Irvine Blvd, Tustin, CA 92780.",
+      "htmlSnippet": "Jun 23, 2025 <b>...</b> Check Tustin Corporate Center - 18302 Irvine Blvd space availability, located at 18302 Irvine Blvd, Tustin, CA 92780.",
+      "formattedUrl": "https://42floors.com/.../us/ca/.../tustin-corporate-center-18302-irvine-blvd/",
+      "htmlFormattedUrl": "https://42floors.com/.../us/ca/.../tustin-corporate-center-18302-irvine-blvd/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtk58fDvDb5pbTfq6EWM2V25dBVjr-HDsEdAxLwSnn4UJN9bzyUDPCymbu&s",
+            "width": "251",
+            "height": "201"
+          }
+        ],
+        "metatags": [
+          {
+            "theme-color": "#FFFFFF",
+            "viewport": "width=device-width, initial-scale=1",
+            "author": "Yardi Systems, Inc.",
+            "format-detection": "telephone=no"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.commercialcafe.com/images/A68D6F8D-4991-48AF-AB10-6322BFCF741C/797432.jpg?width=550"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "11500 Northlake Drive, Cincinnati, OH 45249 | CommercialCafe.com",
+      "htmlTitle": "11500 Northlake Drive, Cincinnati, OH 45249 | CommercialCafe.com",
+      "link": "https://42floors.com/commercial-property/us/oh/cincinnati/one-northlake-place/",
+      "displayLink": "42floors.com",
+      "snippet": "Jul 9, 2025 ... Founder's Campus. 0.81 miles. Schilling School for Gifted Children. 0.81 miles. Edyth B. Lindner Campus. 0.82 miles. Cincinnati Hills Christian ...",
+      "htmlSnippet": "Jul 9, 2025 <b>...</b> <b>Founder&#39;s</b> Campus. 0.81 miles. Schilling School for Gifted Children. 0.81 miles. Edyth B. Lindner Campus. 0.82 miles. Cincinnati Hills Christian&nbsp;...",
+      "formattedUrl": "https://42floors.com/commercial-property/us/oh/.../one-northlake-place/",
+      "htmlFormattedUrl": "https://42floors.com/commercial-property/us/oh/.../one-northlake-place/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPW3WsZhMaI_-XzZdzkxzpxoIznjTP2-sHwm4lZRhMVKLfDhvPG3sxZnXz&s",
+            "width": "251",
+            "height": "201"
+          }
+        ],
+        "metatags": [
+          {
+            "theme-color": "#FFFFFF",
+            "viewport": "width=device-width, initial-scale=1",
+            "author": "Yardi Systems, Inc.",
+            "format-detection": "telephone=no"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.commercialcafe.com/images/6340DB39-7AAA-4721-A243-622F405E2FDA/4199.jpg?width=550"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Bentonville, AR Coworking & Shared Spaces",
+      "htmlTitle": "Bentonville, AR Coworking &amp; Shared Spaces",
+      "link": "https://42floors.com/coworking/us/ar/bentonville",
+      "displayLink": "42floors.com",
+      "snippet": "Cofounder- Parkway Tower. Sage Partners. 3333 Pinnacle Hills Parkway Suite 240, Rogers, AR. Property Type. Meeting Rooms. For Lease. From $100/hour. $400/day.",
+      "htmlSnippet": "<b>Cofounder</b>- Parkway Tower. Sage Partners. 3333 Pinnacle Hills Parkway Suite 240, Rogers, AR. Property Type. Meeting Rooms. For Lease. From $100/hour. $400/day.",
+      "formattedUrl": "https://42floors.com/coworking/us/ar/bentonville",
+      "htmlFormattedUrl": "https://42floors.com/coworking/us/ar/bentonville",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvHzt02zUAYDfjImBvG_lVDOyryuyaKIge8O5tzVfOo_0T_YL0TVMP2o8&s",
+            "width": "275",
+            "height": "183"
+          }
+        ],
+        "metatags": [
+          {
+            "theme-color": "#FFFFFF",
+            "viewport": "width=device-width, initial-scale=1",
+            "author": "Yardi Systems, Inc."
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.commercialcafe.com/images/2BA43C09-B169-4AA5-A502-568D025AF8B8/Regus%20Bentonville%20Plaza%20(755)%20Arkanas%20USA%20Reception%20-%20Bentonville%20Plaza.jpg?width=450"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Rogers, AR Office Space for Rent",
+      "htmlTitle": "Rogers, AR Office Space for Rent",
+      "link": "https://42floors.com/for-lease/office-space/us/ar/rogers",
+      "displayLink": "42floors.com",
+      "snippet": "CoFounder - Founders Plaza. Sage Partners. 5001 Founders Drive Suite L10/210, Rogers, AR. Property Type. Meeting Rooms. For Lease. From $60/hour. $240/day.",
+      "htmlSnippet": "<b>CoFounder</b> - Founders Plaza. Sage Partners. 5001 Founders Drive Suite L10/210, Rogers, AR. Property Type. Meeting Rooms. For Lease. From $60/hour. $240/day.",
+      "formattedUrl": "https://42floors.com/for-lease/office-space/us/ar/rogers",
+      "htmlFormattedUrl": "https://42floors.com/for-lease/office-space/us/ar/rogers",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKi9Jp2JuwykwD8U3msP6PMTrr16cGwONKUmoL__jBHD8d75W5dMrIhu4&s",
+            "width": "273",
+            "height": "185"
+          }
+        ],
+        "metatags": [
+          {
+            "theme-color": "#FFFFFF",
+            "viewport": "width=device-width, initial-scale=1",
+            "author": "Yardi Systems, Inc."
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.commercialcafe.com/images/E331FD72-8BB5-4F0F-8806-C776531A0D91/Screenshot%202024-09-18%20123047.jpg?width=450"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Rogers, AR Commercial Real Estate for Lease or Sale",
+      "htmlTitle": "Rogers, AR Commercial Real Estate for Lease or Sale",
+      "link": "https://42floors.com/us/ar/rogers",
+      "displayLink": "42floors.com",
+      "snippet": "CoFounder - Founders Plaza. Sage Partners. 5001 Founders Drive Suite L10/210, Rogers, AR. Property Type. Meeting Rooms. For Lease. From $60/hour. $240/day.",
+      "htmlSnippet": "<b>CoFounder</b> - Founders Plaza. Sage Partners. 5001 Founders Drive Suite L10/210, Rogers, AR. Property Type. Meeting Rooms. For Lease. From $60/hour. $240/day.",
+      "formattedUrl": "https://42floors.com/us/ar/rogers",
+      "htmlFormattedUrl": "https://42floors.com/us/ar/rogers",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg6OvYxJFy7fe__jmHXiZG_pCVYlPyrCLOB0lmhsvG7nlRrnC8vElDIKfK&s",
+            "width": "300",
+            "height": "168"
+          }
+        ],
+        "metatags": [
+          {
+            "theme-color": "#FFFFFF",
+            "viewport": "width=device-width, initial-scale=1",
+            "author": "Yardi Systems, Inc."
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.commercialcafe.com/images/4E17212B-6678-4685-BECE-19C4D8A3B0DF/32271105.jpeg?width=450"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Arkansas Office Space for Rent",
+      "htmlTitle": "Arkansas Office Space for Rent",
+      "link": "https://42floors.com/for-lease/office-space/us/ar",
+      "displayLink": "42floors.com",
+      "snippet": "CoFounder - Founders Plaza. Sage Partners. 5001 Founders Drive Suite L10/210, Rogers, AR. Property Type. Meeting Rooms. For Lease. From $60/hour. $240/day.",
+      "htmlSnippet": "<b>CoFounder</b> - Founders Plaza. Sage Partners. 5001 Founders Drive Suite L10/210, Rogers, AR. Property Type. Meeting Rooms. For Lease. From $60/hour. $240/day.",
+      "formattedUrl": "https://42floors.com/for-lease/office-space/us/ar",
+      "htmlFormattedUrl": "https://42floors.com/for-lease/office-space/us/ar",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvHzt02zUAYDfjImBvG_lVDOyryuyaKIge8O5tzVfOo_0T_YL0TVMP2o8&s",
+            "width": "275",
+            "height": "183"
+          }
+        ],
+        "metatags": [
+          {
+            "theme-color": "#FFFFFF",
+            "viewport": "width=device-width, initial-scale=1",
+            "author": "Yardi Systems, Inc."
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.commercialcafe.com/images/2BA43C09-B169-4AA5-A502-568D025AF8B8/Regus%20Bentonville%20Plaza%20(755)%20Arkanas%20USA%20Reception%20-%20Bentonville%20Plaza.jpg?width=450"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Placentia, CA Office Space for Rent",
+      "htmlTitle": "Placentia, CA Office Space for Rent",
+      "link": "https://42floors.com/for-lease/office-space/us/ca/placentia",
+      "displayLink": "42floors.com",
+      "snippet": "Founder Court - 131 &151 North Kraemer Blvd & 377 East Chapman Avenue. 151 North Kraemer Blvd, Placentia, CA. Property Type. Office. For Lease. $1.99 - $2.25/SF ...",
+      "htmlSnippet": "<b>Founder</b> Court - 131 &amp;151 North Kraemer Blvd &amp; 377 East Chapman Avenue. 151 North Kraemer Blvd, Placentia, CA. Property Type. Office. For Lease. $1.99 - $2.25/SF&nbsp;...",
+      "formattedUrl": "https://42floors.com/for-lease/office-space/us/ca/placentia",
+      "htmlFormattedUrl": "https://42floors.com/for-lease/office-space/us/ca/placentia",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLI3-_39xTT3NOi6MpPAL5Jv6PKNT1l_WrN3jJl370il6jm6nunoVmll8&s",
+            "width": "251",
+            "height": "201"
+          }
+        ],
+        "metatags": [
+          {
+            "theme-color": "#FFFFFF",
+            "viewport": "width=device-width, initial-scale=1",
+            "author": "Yardi Systems, Inc."
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.commercialcafe.com/images/F74F69F2-2CE2-4310-9049-EEF17C94C0F0/925111.jpg?width=450"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Charlotte, NC Office Space for Rent",
+      "htmlTitle": "Charlotte, NC Office Space for Rent",
+      "link": "https://42floors.com/for-lease/office-space/us/nc/charlotte",
+      "displayLink": "42floors.com",
+      "snippet": "Search 796 office space listings in Charlotte, NC available for rent. Focus your search by square footage, lease rates, and availability.",
+      "htmlSnippet": "Search 796 office space listings in Charlotte, NC available for rent. Focus your search by square footage, lease rates, and availability.",
+      "formattedUrl": "https://42floors.com/for-lease/office-space/us/nc/charlotte",
+      "htmlFormattedUrl": "https://42floors.com/for-lease/office-space/us/nc/charlotte",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzAgjlmHMhkyTDcq_XCA1NuFf4_B9dtWhyZ4pW-dNB51yBPOcQZq4UCaR0&s",
+            "width": "280",
+            "height": "180"
+          }
+        ],
+        "metatags": [
+          {
+            "theme-color": "#FFFFFF",
+            "viewport": "width=device-width, initial-scale=1",
+            "author": "Yardi Systems, Inc."
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.commercialcafe.com/images/7E1F4738-7639-4953-A617-1B45CD8791A1/1.jpg?width=450"
+          }
+        ]
+      }
+    }
+  ]
+}

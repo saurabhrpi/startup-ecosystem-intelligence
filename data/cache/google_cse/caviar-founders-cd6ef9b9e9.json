@@ -1,0 +1,604 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - \"Caviar\" founders",
+        "totalResults": "1640000",
+        "searchTerms": "\"Caviar\" founders",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - \"Caviar\" founders",
+        "totalResults": "1640000",
+        "searchTerms": "\"Caviar\" founders",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ]
+  },
+  "context": {
+    "title": "startup-ecosystem-intelligence"
+  },
+  "searchInformation": {
+    "searchTime": 0.215063,
+    "formattedSearchTime": "0.22",
+    "totalResults": "1640000",
+    "formattedTotalResults": "1,640,000"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "Caviar - Haas News | Berkeley Haas",
+      "htmlTitle": "<b>Caviar</b> - Haas News | Berkeley Haas",
+      "link": "https://newsroom.haas.berkeley.edu/magazine/spring-2021/caviar/",
+      "displayLink": "newsroom.haas.berkeley.edu",
+      "snippet": "Food-delivery apps weren't new when Jason Wang, BS 09, and four co-founders launched Caviar, so differentiating themselves from the likes of Seamless and ...",
+      "htmlSnippet": "Food-delivery apps weren&#39;t new when Jason Wang, BS 09, and four co-<b>founders</b> launched <b>Caviar</b>, so differentiating themselves from the likes of Seamless and&nbsp;...",
+      "formattedUrl": "https://newsroom.haas.berkeley.edu/magazine/spring-2021/caviar/",
+      "htmlFormattedUrl": "https://newsroom.haas.berkeley.edu/magazine/spring-2021/<b>caviar</b>/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRITZrh2dzK5K7V2xasjrSGR8mwFJoqnOBIoc3b9nkt-z9zie80Sn90g7A&s",
+            "width": "292",
+            "height": "172"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://newsroom.haas.berkeley.edu/wp-content/uploads/2021/04/Caviar_Delivery.jpg",
+            "theme-color": "#120458",
+            "og:type": "article",
+            "article:published_time": "2021-04-14T21:36:17+00:00",
+            "og:image:width": "2000",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Haas News | Berkeley Haas",
+            "author": "Kevin Sandness",
+            "og:title": "Caviar - Haas News | Berkeley Haas",
+            "og:image:height": "1182",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "og:image:type": "image/jpeg",
+            "msapplication-tileimage": "https://newsroom.haas.berkeley.edu/wp-content/uploads/2018/05/cropped-blue-gold-270x270.png",
+            "og:description": "How Berkeley alumni changed the food-delivery game.",
+            "twitter:creator": "@BerkeleyHaas",
+            "article:publisher": "https://www.facebook.com/BerkeleyHaas/",
+            "twitter:data1": "Kevin Sandness",
+            "twitter:data2": "3 minutes",
+            "twitter:site": "@BerkeleyHaas",
+            "article:modified_time": "2025-05-15T19:47:52+00:00",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:locale": "en_US",
+            "og:url": "https://newsroom.haas.berkeley.edu/magazine/spring-2021/caviar/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://newsroom.haas.berkeley.edu/wp-content/uploads/2021/04/Caviar_Delivery.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "How startup Caviar became multimillion-dollar food delivery company",
+      "htmlTitle": "How startup <b>Caviar</b> became multimillion-dollar food delivery company",
+      "link": "https://www.cnbc.com/2023/10/10/how-startup-caviar-became-multimillion-dollar-food-delivery-company.html",
+      "displayLink": "www.cnbc.com",
+      "snippet": "Oct 10, 2023 ... Shawn Tsao, a co-founder of food delivery app Caviar, was craving food from his favorite sandwich spot across town when he and his four friends ...",
+      "htmlSnippet": "Oct 10, 2023 <b>...</b> Shawn Tsao, a co-<b>founder</b> of food delivery app <b>Caviar</b>, was craving food from his favorite sandwich spot across town when he and his four friends&nbsp;...",
+      "formattedUrl": "https://www.cnbc.com/.../how-startup-caviar-became-multimillion-dollar-fo...",
+      "htmlFormattedUrl": "https://www.cnbc.com/.../how-startup-<b>caviar</b>-became-multimillion-dollar-fo...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgqmcGj5fRQxw637AHAxAZc4GIP57YQSWZ2PD2iXWtYvnsXQk-ejXnLt-c&s",
+            "width": "300",
+            "height": "168"
+          }
+        ],
+        "newsmediaorganization": [
+          {
+            "foundingdate": "'1989-04-17'",
+            "name": "CNBC",
+            "url": "https://www.cnbc.com"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://image.cnbcfm.com/api/v1/image/107314431-1696949316187-107314431-1696947298518-fe-caviar-still1.jpg?v=1696949337&w=1920&h=1080",
+            "apple-itunes-app": "app-id=398018310",
+            "twitter:card": "summary_large_image",
+            "article:published_time": "2023-10-10T14:47:42+0000",
+            "og:site_name": "CNBC",
+            "twitter:url": "https://www.cnbc.com/2023/10/10/how-startup-caviar-became-multimillion-dollar-food-delivery-company.html",
+            "tp:preferredformats": "M3U,MPEG4",
+            "og:description": "Shawn Tsao almost became an architect. Instead, he's a co-founder of food delivery company Caviar, which sold to DoorDash in 2019 for $410 million.",
+            "twitter:creator": "ErnestineSiu",
+            "parsely-metadata": "{\"nodeid\":107312932,\"originalImage\":\"https://image.cnbcfm.com/api/v1/image/107314431-1696949316187-107314431-1696947298518-fe-caviar-still1.jpg?v=1696949337\"}",
+            "twitter:image": "https://image.cnbcfm.com/api/v1/image/107314431-1696949316187-107314431-1696947298518-fe-caviar-still1.jpg?v=1696949337&w=1920&h=1080",
+            "article:publisher": "https://www.facebook.com/cnbc",
+            "al:ios:app_store_id": "398018310",
+            "pagenodeid": "107312932",
+            "twitter:site": "@CNBC",
+            "article:modified_time": "2023-10-10T15:37:19+0000",
+            "news_keywords": "Video First,Block Inc,DoorDash Inc,Entrepreneurship",
+            "tp:preferredruntimes": "universal",
+            "tp:initialize": "false",
+            "assettype": "cnbcnewsstory",
+            "og:type": "article",
+            "twitter:title": "'Let's be the Uber for food': How 5 friends from UC Berkeley started a $400 million company",
+            "article:section": "Make It - Founder Effect",
+            "al:ios:app_name": "CNBC Business News and Finance",
+            "author": "Tom Huddleston Jr.,Ernestine Siu",
+            "og:title": "'Let's be the Uber for food': How 5 friends from UC Berkeley started a $400 million company",
+            "article:author": "https://www.facebook.com/CNBC",
+            "twitter:image:src": "https://image.cnbcfm.com/api/v1/image/107314431-1696949316187-107314431-1696947298518-fe-caviar-still1.jpg?v=1696949337&w=1920&h=1080",
+            "article:tag": "Video First",
+            "viewport": "initial-scale=1.0, width=device-width",
+            "twitter:description": "Shawn Tsao almost became an architect. Instead, he's a co-founder of food delivery company Caviar, which sold to DoorDash in 2019 for $410 million.",
+            "og:url": "https://www.cnbc.com/2023/10/10/how-startup-caviar-became-multimillion-dollar-food-delivery-company.html",
+            "format-detection": "telephone=no",
+            "article:opinion": "false"
+          }
+        ],
+        "webpage": [
+          {
+            "image": "https://image.cnbcfm.com/api/v1/image/107314431-1696949316187-107314431-1696947298518-fe-caviar-still1.jpg?v=1696949337&w=1920&h=1080",
+            "contentrating": "NR",
+            "specialty": "Video First,Block Inc,DoorDash Inc,Entrepreneurship",
+            "primaryimageofpage": "https://image.cnbcfm.com/api/v1/image/107314431-1696949316187-107314431-1696947298518-fe-caviar-still1.jpg?v=1696949337",
+            "datemodified": "2023-10-10T15:37:19+0000",
+            "inlanguage": "en-US",
+            "keywords": "Video First,Block Inc,DoorDash Inc,Entrepreneurship",
+            "lastreviewed": "2023-10-10T15:37:19+0000",
+            "name": "How startup Caviar became multimillion-dollar food delivery company",
+            "description": "Shawn Tsao almost became an architect. Instead, he's a co-founder of food delivery company Caviar, which sold to DoorDash in 2019 for $410 million.",
+            "datecreated": "2023-10-10T14:47:42+0000",
+            "datepublished": "2023-10-10T14:47:42+0000"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://image.cnbcfm.com/api/v1/image/107314431-1696949316187-107314431-1696947298518-fe-caviar-still1.jpg?v=1696949337&w=1920&h=1080"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "How I Built A $400 Million Food Delivery Company | Caviar Founder ...",
+      "htmlTitle": "How I Built A $400 Million Food Delivery Company | <b>Caviar Founder</b> ...",
+      "link": "https://damaliealfred23.medium.com/how-i-built-a-400-million-food-delivery-company-caviar-founder-24fd9d312498",
+      "displayLink": "damaliealfred23.medium.com",
+      "snippet": "Jan 21, 2024 ... Before Caviar, Sean and his co-founders faced the harsh realities of a failing startup, Luncheon Meat. Unfazed by setbacks, they decided to ...",
+      "htmlSnippet": "Jan 21, 2024 <b>...</b> Before <b>Caviar</b>, Sean and his co-<b>founders</b> faced the harsh realities of a failing startup, Luncheon Meat. Unfazed by setbacks, they decided to&nbsp;...",
+      "formattedUrl": "https://damaliealfred23.medium.com/how-i-built-a-400-million-food-delive...",
+      "htmlFormattedUrl": "https://damaliealfred23.medium.com/how-i-built-a-400-million-food-delive...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjvwCt5h-0uw2-5DGNi5klQjZ5cjtqYwIfD0w_JyUy5Ts425-93dQUUwg&s",
+            "width": "300",
+            "height": "168"
+          }
+        ],
+        "metatags": [
+          {
+            "apple-itunes-app": "app-id=828256236, app-argument=/how-i-built-a-400-million-food-delivery-company-caviar-founder-24fd9d312498, affiliate-data=pt=698524&ct=smart_app_banner&mt=8",
+            "og:image": "https://miro.medium.com/v2/resize:fit:1200/1*eDxTNO598_qEvVpQU7V5fQ.jpeg",
+            "twitter:app:url:iphone": "medium://p/24fd9d312498",
+            "theme-color": "#000000",
+            "article:published_time": "2024-01-21T20:43:02.561Z",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Medium",
+            "al:android:package": "com.medium.reader",
+            "twitter:label1": "Reading time",
+            "twitter:app:id:iphone": "828256236",
+            "title": "How I Built A $400 Million Food Delivery Company | Caviar Founder | by Alfred Damalie | Medium",
+            "al:ios:url": "medium://p/24fd9d312498",
+            "og:description": "In the dynamic world of startups, the story of Caviar emerges as a remarkable narrative of resilience, innovation, and eventual triumph…",
+            "al:ios:app_store_id": "828256236",
+            "twitter:data1": "3 min read",
+            "twitter:site": "@Medium",
+            "og:type": "article",
+            "twitter:title": "How I Built A $400 Million Food Delivery Company | Caviar Founder",
+            "al:ios:app_name": "Medium",
+            "author": "Alfred Damalie",
+            "og:title": "How I Built A $400 Million Food Delivery Company | Caviar Founder",
+            "al:web:url": "https://damaliealfred23.medium.com/how-i-built-a-400-million-food-delivery-company-caviar-founder-24fd9d312498",
+            "article:author": "https://damaliealfred23.medium.com",
+            "twitter:image:src": "https://miro.medium.com/v2/resize:fit:1200/1*eDxTNO598_qEvVpQU7V5fQ.jpeg",
+            "al:android:url": "medium://p/24fd9d312498",
+            "referrer": "unsafe-url",
+            "fb:app_id": "542599432471018",
+            "viewport": "width=device-width,minimum-scale=1,initial-scale=1,maximum-scale=1",
+            "twitter:description": "In the dynamic world of startups, the story of Caviar emerges as a remarkable narrative of resilience, innovation, and eventual triumph…",
+            "og:url": "https://damaliealfred23.medium.com/how-i-built-a-400-million-food-delivery-company-caviar-founder-24fd9d312498",
+            "twitter:app:name:iphone": "Medium",
+            "al:android:app_name": "Medium"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://miro.medium.com/v2/resize:fit:1200/1*eDxTNO598_qEvVpQU7V5fQ.jpeg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Female Founders: Michelle Aran of Velvet Caviar On The Five ...",
+      "htmlTitle": "Female <b>Founders</b>: Michelle Aran of Velvet <b>Caviar</b> On The Five ...",
+      "link": "https://medium.com/authority-magazine/female-founders-michelle-aran-of-velvet-caviar-on-the-five-things-you-need-to-thrive-and-succeed-f17a96d47d14",
+      "displayLink": "medium.com",
+      "snippet": "Aug 23, 2023 ... Founder, Michelle Aran of designer phone case and accessories brand, Velvet Caviar is dominating the industry by creating fun yet practical ...",
+      "htmlSnippet": "Aug 23, 2023 <b>...</b> <b>Founder</b>, Michelle Aran of designer phone case and accessories brand, Velvet <b>Caviar</b> is dominating the industry by creating fun yet practical&nbsp;...",
+      "formattedUrl": "https://medium.com/.../female-founders-michelle-aran-of-velvet-caviar-on-t...",
+      "htmlFormattedUrl": "https://medium.com/.../female-<b>founders</b>-michelle-aran-of-velvet-<b>caviar</b>-on-t...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTga0XV04NrRPoaQHaI4sL0JdQB5JeL53dG5EoLk8IDBwJSq3EIiEjAvU&s",
+            "width": "310",
+            "height": "163"
+          }
+        ],
+        "metatags": [
+          {
+            "apple-itunes-app": "app-id=828256236, app-argument=/authority-magazine/female-founders-michelle-aran-of-velvet-caviar-on-the-five-things-you-need-to-thrive-and-succeed-f17a96d47d14, affiliate-data=pt=698524&ct=smart_app_banner&mt=8",
+            "og:image": "https://miro.medium.com/v2/resize:fill:1200:632/g:fp:0.47:0.27/1*U6EH1oLWgglivGNwROWdhQ.jpeg",
+            "twitter:app:url:iphone": "medium://p/f17a96d47d14",
+            "theme-color": "#000000",
+            "article:published_time": "2023-09-09T23:53:56.703Z",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Medium",
+            "al:android:package": "com.medium.reader",
+            "twitter:label1": "Reading time",
+            "twitter:app:id:iphone": "828256236",
+            "title": "Female Founders: Michelle Aran of Velvet Caviar On The Five Things You Need To Thrive and Succeed as a Woman Founder | by Doug Noll | Authority Magazine | Medium",
+            "al:ios:url": "medium://p/f17a96d47d14",
+            "og:description": "An Interview With Doug Noll",
+            "al:ios:app_store_id": "828256236",
+            "twitter:data1": "10 min read",
+            "twitter:site": "@AuthorityMgzine",
+            "og:type": "article",
+            "twitter:title": "Female Founders: Michelle Aran of Velvet Caviar On The Five Things You Need To Thrive and Succeed…",
+            "al:ios:app_name": "Medium",
+            "author": "Doug Noll",
+            "og:title": "Female Founders: Michelle Aran of Velvet Caviar On The Five Things You Need To Thrive and Succeed…",
+            "al:web:url": "https://medium.com/authority-magazine/female-founders-michelle-aran-of-velvet-caviar-on-the-five-things-you-need-to-thrive-and-succeed-f17a96d47d14",
+            "article:author": "https://medium.com/@dougnoll",
+            "twitter:image:src": "https://miro.medium.com/v2/resize:fill:1200:632/g:fp:0.47:0.27/1*U6EH1oLWgglivGNwROWdhQ.jpeg",
+            "al:android:url": "medium://p/f17a96d47d14",
+            "referrer": "unsafe-url",
+            "fb:app_id": "542599432471018",
+            "viewport": "width=device-width,minimum-scale=1,initial-scale=1,maximum-scale=1",
+            "twitter:description": "An Interview With Doug Noll",
+            "og:url": "https://medium.com/authority-magazine/female-founders-michelle-aran-of-velvet-caviar-on-the-five-things-you-need-to-thrive-and-succeed-f17a96d47d14",
+            "twitter:app:name:iphone": "Medium",
+            "al:android:app_name": "Medium"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://miro.medium.com/v2/resize:fill:1200:632/g:fp:0.47:0.27/1*U6EH1oLWgglivGNwROWdhQ.jpeg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Fabric Founder Caviar | Fabrics and Leathers | Lee Industries",
+      "htmlTitle": "Fabric <b>Founder Caviar</b> | Fabrics and Leathers | Lee Industries",
+      "link": "https://www.leeindustries.com/Upholstery/Detail/Fabric/Founder-Caviar/99912713",
+      "displayLink": "www.leeindustries.com",
+      "snippet": "Founder Caviar ; GRADE: L ; CONTENT: 100% POLYESTER ; CUT DIRECTION: RAILROADED ; CLEANING CODE: X ; NOTES: Please note that shading may occur when velvet fabrics ...",
+      "htmlSnippet": "<b>Founder Caviar</b> ; GRADE: L ; CONTENT: 100% POLYESTER ; CUT DIRECTION: RAILROADED ; CLEANING CODE: X ; NOTES: Please note that shading may occur when velvet fabrics&nbsp;...",
+      "formattedUrl": "https://www.leeindustries.com/Upholstery/Detail/Fabric/...Caviar/99912713",
+      "htmlFormattedUrl": "https://www.leeindustries.com/Upholstery/Detail/Fabric/...<b>Caviar</b>/99912713",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP5x25YXDDvlIMo4G753Uj2Iq1b4aT8rAuxWRyWoMH8AG6S9uNpzsHpZv3&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "viewport": "width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=no",
+            "apple-mobile-web-app-capable": "yes",
+            "mobile-web-app-capable": "yes"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://leeprodimage-bbgph3c9ftgfgpgc.eastus-01.azurewebsites.net/azure/fabric-leather/hires/FounderCaviar.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "The Town FC Welcomes Shawn Tsao, Co-Founder of Caviar, to ...",
+      "htmlTitle": "The Town FC Welcomes Shawn Tsao, Co-<b>Founder</b> of <b>Caviar</b>, to ...",
+      "link": "https://thetownfc.com/the-town-fc-welcomes-shawn-tsao-co-founder-of-caviar-to-investment-group/",
+      "displayLink": "thetownfc.com",
+      "snippet": "Sep 8, 2023 ... The Town, CA September 8th, 2023 – The Town FC announced that Shawn Tsao, co-founder of food delivery company Caviar, will be joining its ...",
+      "htmlSnippet": "Sep 8, 2023 <b>...</b> The Town, CA September 8th, 2023 – The Town FC announced that Shawn Tsao, co-<b>founder</b> of food delivery company <b>Caviar</b>, will be joining its&nbsp;...",
+      "formattedUrl": "https://thetownfc.com/the-town-fc-welcomes-shawn-tsao-co-founder-of-cav...",
+      "htmlFormattedUrl": "https://thetownfc.com/the-town-fc-welcomes-shawn-tsao-co-founder-of-<b>cav</b>...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtCBv99fq4CsPwFntoFAh85QDYWPJmxXEC_6aBeLUSOvMTAdjs_XQa1nc&s",
+            "width": "300",
+            "height": "168"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://thetownfc.com/wp-content/uploads/2023/09/Sawn-Tsao-Announcement-Featured.jpg",
+            "og:type": "article",
+            "article:published_time": "2023-09-08T16:50:00+00:00",
+            "og:image:width": "1920",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "THE TOWN FC",
+            "author": "The Town FC",
+            "og:title": "The Town FC Welcomes Shawn Tsao, Co-Founder of Caviar, to Investment Group - THE TOWN FC",
+            "og:image:height": "1080",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "og:image:type": "image/jpeg",
+            "msapplication-tileimage": "https://thetownfc.com/wp-content/uploads/2022/04/cropped-android-chrome-512x512-1-270x270.png",
+            "og:description": "Caviar Co-Founder and Cal Berkeley Alum Shawn Tsao joins The Town FC investment group, bringing food and tech knowledge to the team.",
+            "twitter:creator": "@TheTown_FC",
+            "article:publisher": "https://www.facebook.com/p/The-Town-FC-100073183153382/",
+            "twitter:data1": "The Town FC",
+            "twitter:data2": "2 minutes",
+            "twitter:site": "@TheTown_FC",
+            "article:modified_time": "2023-10-18T18:37:04+00:00",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:locale": "en_US",
+            "og:url": "https://thetownfc.com/the-town-fc-welcomes-shawn-tsao-co-founder-of-caviar-to-investment-group/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://thetownfc.com/wp-content/uploads/2023/09/Sawn-Tsao-Announcement-Featured.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Caviar: Uber for food. | Y Combinator",
+      "htmlTitle": "<b>Caviar</b>: Uber for food. | Y Combinator",
+      "link": "https://www.ycombinator.com/companies/caviar",
+      "displayLink": "www.ycombinator.com",
+      "snippet": "Former Founders. Jason Wang. Founder/Founding CEO. Founding CEO at Caviar, Angel Investor, Restauranteur, World Traveler. Twitter account.",
+      "htmlSnippet": "Former <b>Founders</b>. Jason Wang. <b>Founder</b>/<b>Founding</b> CEO. <b>Founding</b> CEO at <b>Caviar</b>, Angel Investor, Restauranteur, World Traveler. Twitter account.",
+      "formattedUrl": "https://www.ycombinator.com/companies/caviar",
+      "htmlFormattedUrl": "https://www.ycombinator.com/companies/<b>caviar</b>",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_jlx_ttcDqicgZBVs0DjrnlFIWkOUPYZ1SvaiGlEZzk4B6xRiqshYu3_C&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "image": "/logos/medium/missing.png",
+            "og:image": "/logos/medium/missing.png",
+            "twitter:card": "summary_large_image",
+            "og:type": "website",
+            "og:site_name": "Y Combinator",
+            "og:image:url": "/logos/medium/missing.png",
+            "og:title": "Caviar: Uber for food. | Y Combinator",
+            "csrf-param": "authenticity_token",
+            "title": "Caviar: Uber for food.",
+            "og:description": "Uber for food. Founded in  by , Caviar has 51 employees based in San Francisco, CA, USA.",
+            "twitter:image": "/logos/medium/missing.png",
+            "og:image:secure_url": "/logos/medium/missing.png",
+            "twitter:site": "@ycombinator",
+            "viewport": "initial-scale=1, width=device-width, height=device-height",
+            "csrf-token": "CLTCIViTo0xqwC32NUg5zHFeQIcKloGdj5RGnibxYTNUxnHAIr-K57ZS-9WeGSqqr-2wHPGgH3_1gURsJA1-CA",
+            "og:locale": "en_US",
+            "og:url": "https://www.ycombinator.com/companies/caviar"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "x-raw-image:///7481412385fe6d0f7d4a3339d90fe12309432ca41983e8d350b232301d5d8684"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Caviar Founders Opening Thai Chicken Restaurant That Won't Do ...",
+      "htmlTitle": "<b>Caviar Founders</b> Opening Thai Chicken Restaurant That Won&#39;t Do ...",
+      "link": "https://sf.eater.com/2017/7/14/15974218/chickn-rice-thai-chicken-caviar-founders-berkeley-opening",
+      "displayLink": "sf.eater.com",
+      "snippet": "Jul 14, 2017 ... Founders Jason Wang, Shawn Tsao, Vince Cao, and John Keh sold Caviar to mobile payments company Square in 2014 for a reported $90 million in ...",
+      "htmlSnippet": "Jul 14, 2017 <b>...</b> <b>Founders</b> Jason Wang, Shawn Tsao, Vince Cao, and John Keh sold <b>Caviar</b> to mobile payments company Square in 2014 for a reported $90 million in&nbsp;...",
+      "formattedUrl": "https://sf.eater.com/.../chickn-rice-thai-chicken-caviar-founders-berkeley-o...",
+      "htmlFormattedUrl": "https://sf.eater.com/.../chickn-rice-thai-chicken-<b>caviar</b>-<b>founders</b>-berkeley-o...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkTnCJAtdgP_ghEakBzAm-y14_RIDinQ6CwZQn230B46zqfPrYXiJ-I3qA&s",
+            "width": "312",
+            "height": "162"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://platform.sf.eater.com/wp-content/uploads/sites/28/chorus/uploads/chorus_asset/file/8854101/18922005_644551835733791_2327074137277545017_n.jpg?quality=90&strip=all&crop=0,10.732984293194,100,78.534031413613",
+            "twitter:card": "summary_large_image",
+            "article:published_time": "2017-07-14T20:30:30+00:00",
+            "og:image:width": "960",
+            "og:site_name": "Eater SF",
+            "twitter:url": "https://sf.eater.com/2017/7/14/15974218/chickn-rice-thai-chicken-caviar-founders-berkeley-opening",
+            "apple-mobile-web-app-title": "Eater San Francisco",
+            "parsely-author": "Caleb Pershan",
+            "bingbot": "nocache",
+            "og:image:type": "image/jpeg",
+            "amazonbot": "noarchive",
+            "cse-authors": "Caleb Pershan",
+            "og:description": "(at least initially)",
+            "twitter:image": "https://platform.sf.eater.com/wp-content/uploads/sites/28/chorus/uploads/chorus_asset/file/8854101/18922005_644551835733791_2327074137277545017_n.jpg?quality=90&strip=all&crop=0,10.732984293194,100,78.534031413613",
+            "next-head-count": "49",
+            "parsely-type": "post",
+            "twitter:site": "@eatersf",
+            "article:modified_time": "2017-07-14T20:30:30+00:00",
+            "parsely-link": "https://sf.eater.com/2017/7/14/15974218/chickn-rice-thai-chicken-caviar-founders-berkeley-opening",
+            "parsely-image-url": "https://platform.sf.eater.com/wp-content/uploads/sites/28/chorus/uploads/chorus_asset/file/8854101/18922005_644551835733791_2327074137277545017_n.jpg?quality=90&strip=all&crop=0,10.732984293194,100,78.534031413613",
+            "parsely-section": "eater-archives",
+            "og:type": "article",
+            "twitter:title": "Caviar Founders Opening Thai Chicken Restaurant That Won’t Do Delivery",
+            "cse-category": "Eater Archives",
+            "author": "Caleb Pershan",
+            "og:title": "Caviar Founders Opening Thai Chicken Restaurant That Won’t Do Delivery",
+            "og:image:height": "502",
+            "parsely-title": "Caviar Founders Opening Thai Chicken Restaurant That Won’t Do Delivery",
+            "parsely-pub-date": "2017-07-14T20:30:30+00:00",
+            "fb:app_id": "549923288395304",
+            "parsely-tags": "sf.eater,pagetype:story,eater-archives",
+            "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+            "twitter:description": "(at least initially)",
+            "og:url": "https://sf.eater.com/2017/7/14/15974218/chickn-rice-thai-chicken-caviar-founders-berkeley-opening"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://platform.sf.eater.com/wp-content/uploads/sites/28/chorus/uploads/chorus_asset/file/8854101/18922005_644551835733791_2327074137277545017_n.jpg?quality=90&strip=all&crop=0,10.732984293194,100,78.534031413613"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Meets the Female Founders Behind one of the World's Best ...",
+      "htmlTitle": "Meets the Female <b>Founders</b> Behind one of the World&#39;s Best ...",
+      "link": "https://robbreportmonaco.com/food-drink/volzhenka-caviar-meets-the-female-founders/",
+      "displayLink": "robbreportmonaco.com",
+      "snippet": "Oct 6, 2024 ... The caviar industry is a man's world; at least it was until Ekaterina Bataeva took her hammer to its glass ceiling. As founder of artisan brand ...",
+      "htmlSnippet": "Oct 6, 2024 <b>...</b> The <b>caviar</b> industry is a man&#39;s world; at least it was until Ekaterina Bataeva took her hammer to its glass ceiling. As <b>founder</b> of artisan brand&nbsp;...",
+      "formattedUrl": "https://robbreportmonaco.com/.../volzhenka-caviar-meets-the-female-found...",
+      "htmlFormattedUrl": "https://robbreportmonaco.com/.../volzhenka-<b>caviar</b>-meets-the-female-<b>found</b>...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxO_JrzVwZ3z84PjAPkejxBsPiAGJ2SdrKlSfdWf8NKnJqfRoLblUlenY&s",
+            "width": "275",
+            "height": "183"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://robbreportmonaco.com/wp-content/uploads/2024/10/VOLZHENKA12020-1-scaled.jpg",
+            "og:type": "article",
+            "article:published_time": "2024-10-06T14:46:18+00:00",
+            "og:image:width": "2560",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "robbreportmonaco.com",
+            "author": "Rachel Ingram",
+            "og:title": "Meets the Female Founders Behind one of the World's Best Artisanal Caviar Brands - robbreportmonaco.com",
+            "og:image:height": "1707",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Estimated reading time",
+            "og:image:type": "image/jpeg",
+            "msapplication-tileimage": "https://robbreportmonaco.com/wp-content/uploads/2023/02/RR-300x300.jpg",
+            "og:description": "Female-founded artisan caviar brand Volzhenka is shaking up the industry— and the status quo—with its values-driven approach.",
+            "twitter:data1": "Rachel Ingram",
+            "twitter:data2": "5 minutes",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:locale": "en_GB",
+            "og:url": "https://robbreportmonaco.com/food-drink/volzhenka-caviar-meets-the-female-founders/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://robbreportmonaco.com/wp-content/uploads/2024/10/VOLZHENKA12020-1-scaled.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "How did we become the only legal Beluga caviar farmers in the USA ...",
+      "htmlTitle": "How did we become the only legal Beluga <b>caviar</b> farmers in the USA ...",
+      "link": "https://www.instagram.com/p/DBABpZrOOjF/",
+      "displayLink": "www.instagram.com",
+      "snippet": "Oct 11, 2024 ... We look back at a journey that began over 40 years ago when our founders, Mark Gelman and Mark Zaslavsky, sought to bring quality caviar to the US market.",
+      "htmlSnippet": "Oct 11, 2024 <b>...</b> We look back at a journey that began over 40 years ago when our <b>founders</b>, Mark Gelman and Mark Zaslavsky, sought to bring quality <b>caviar</b> to the US market.",
+      "formattedUrl": "https://www.instagram.com/p/DBABpZrOOjF/",
+      "htmlFormattedUrl": "https://www.instagram.com/p/DBABpZrOOjF/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoygu9qdZUMPcAw8PSU9_EX2Y02MhzpeMj0qoUi8ITV3tRwxghiqMSEGI&s",
+            "width": "278",
+            "height": "181"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3476786155443775685",
+            "theme-color": "#FFFFFF",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Instagram",
+            "application-title": "Instagram",
+            "al:android:package": "com.instagram.android",
+            "bingbot": "noarchive",
+            "medium": "image",
+            "al:ios:url": "instagram://media?id=3476786155443775685",
+            "og:description": "259 likes, 10 comments - markyscaviar on October 11, 2024: \"✨ How did we become the only legal Beluga caviar farmers in the USA? Now, as third-generation caviar farmers, we look back at a journey that began over 40 years ago when our founders, Mark Gelman and Mark Zaslavsky, sought to bring quality caviar to the US market. \n\n✨ Driven by a passion for sustainable aquaculture, Mark and Mark established Sturgeon Aquafarms (SAF) in the early 2000s, located in Bascom, FL, with a mission to reduce pressure on wild sturgeon populations while producing world-class domestic caviar.\n\n✨ In 2003, we began importing Beluga sturgeon broodstock to raise domestically. When the USFWS banned all Beluga caviar imports in 2005, we had already secured broodstock to continue our conservation mission. SAF played a critical role in conserving the species, and in 2019, we became the first and only legal entity authorized to produce and distribute Beluga caviar in the USA.\n\n✨ Today, after over two decades of dedication, SAF co",
+            "twitter:image": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3476786155443775685",
+            "al:ios:app_store_id": "389801252",
+            "twitter:site": "@instagram",
+            "instapp:owner_user_id": "255141439",
+            "og:type": "article",
+            "twitter:title": "Marky’s (@markyscaviar) • Instagram photo",
+            "al:ios:app_name": "Instagram",
+            "og:title": "Marky’s on Instagram: \"✨ How did we become the only legal Beluga caviar farmers in the USA? Now, as third-generation caviar farmers, we look back at a journey that began over 40 years ago when our founders, Mark Gelman and Mark Zaslavsky, sought to bring quality caviar to the US market. \n\n✨ Driven by a passion for sustainable aquaculture, Mark and Mark established Sturgeon Aquafarms (SAF) in the early 2000s, located in Bascom, FL, with a mission to reduce pressure on wild sturgeon populations while producing world-class domestic caviar.\n\n✨ In 2003, we began importing Beluga sturgeon broodstock to raise domestically. When the USFWS banned all Beluga caviar imports in 2005, we had already secured broodstock to continue our conservation mission. SAF played a critical role in conserving the species, and in 2019, we became the first and only legal entity authorized to produce and distribute Beluga caviar in the USA.\n\n✨ Today, after over two decades of dedication, SAF continues to thrive, producing premiu",
+            "twitter:maxage": "86400",
+            "color-scheme": "light",
+            "al:android:url": "https://www.instagram.com/p/DBABpZrOOjF/",
+            "fb:app_id": "124024574287414",
+            "apple-mobile-web-app-status-bar-style": "default",
+            "viewport": "width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover",
+            "mobile-web-app-capable": "yes",
+            "og:url": "https://www.instagram.com/p/DBABpZrOOjF/",
+            "al:android:app_name": "Instagram"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3476786155443775685"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -38,8 +38,8 @@ class Settings(BaseSettings):
         ENV.get("GOOGLE_CSE_CX") or os.getenv("GOOGLE_CSE_CX")
     )
     use_cse_for_founders: bool = (os.getenv("USE_CSE_FOR_FOUNDERS", "true").lower() == "true")
-    max_cse_queries_per_run: int = int(os.getenv("MAX_CSE_QUERIES_PER_RUN", "500"))
-    max_cse_queries_per_company: int = int(os.getenv("MAX_CSE_QUERIES_PER_COMPANY", "2"))
+    max_cse_queries_per_run: int = int(os.getenv("MAX_CSE_QUERIES_PER_RUN", "100"))
+    max_cse_queries_per_company: int = int(os.getenv("MAX_CSE_QUERIES_PER_COMPANY", "1"))
 
     # Pipeline feature flags / selection strategy
     use_website_scraper: bool = (os.getenv("USE_WEBSITE_SCRAPER", "false").lower() == "true")

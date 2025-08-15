@@ -1,0 +1,558 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - site:priceonomics.com (founder OR cofounder)",
+        "totalResults": "102",
+        "searchTerms": "site:priceonomics.com (founder OR cofounder)",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - site:priceonomics.com (founder OR cofounder)",
+        "totalResults": "102",
+        "searchTerms": "site:priceonomics.com (founder OR cofounder)",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ]
+  },
+  "context": {
+    "title": "startup-ecosystem-intelligence"
+  },
+  "searchInformation": {
+    "searchTime": 0.095276,
+    "formattedSearchTime": "0.10",
+    "totalResults": "102",
+    "formattedTotalResults": "102"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "How Much Equity Do Founders Have When Their Company IPOs ...",
+      "htmlTitle": "How Much Equity Do Founders Have When Their Company IPOs ...",
+      "link": "https://priceonomics.com/how-much-equity-do-founders-have-when-their/",
+      "displayLink": "priceonomics.com",
+      "snippet": "Dec 8, 2016 ... You're a founder of one of the .0.0001% of startups that make it to IPO. How much of the company do you still own?",
+      "htmlSnippet": "Dec 8, 2016 <b>...</b> You&#39;re a <b>founder</b> of one of the .0.0001% of startups that make it to IPO. How much of the company do you still own?",
+      "formattedUrl": "https://priceonomics.com/how-much-equity-do-founders-have-when-their/",
+      "htmlFormattedUrl": "https://priceonomics.com/how-much-equity-do-<b>founder</b>s-have-when-their/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnd9cuu_UzPVYmflqE7yrUa29uxbOxTetSzkESrTa6XrMdEqFz6Nxvh1oS&s",
+            "width": "275",
+            "height": "183"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://etzq49yfnmd.exactdn.com/wp-content/uploads/2022/03/10779578936_cff7954bc1_b-6.jpg?strip=all&lossy=1&ssl=1",
+            "og:type": "article",
+            "article:published_time": "2016-12-08T15:13:36+00:00",
+            "og:image:width": "1024",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Priceonomics",
+            "author": "Ilya Levtov",
+            "og:title": "How Much Equity Do Founders Have When Their Company IPOs? - Priceonomics",
+            "og:image:height": "683",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "og:image:type": "image/jpeg",
+            "msapplication-tileimage": "https://etzq49yfnmd.exactdn.com/wp-content/uploads/2022/03/cropped-priceonomics.png?strip=all&lossy=1&resize=270%2C270&ssl=1",
+            "og:description": "You're a founder of one of the .0.0001% of startups that make it to IPO. How much of the company do you still own?",
+            "twitter:creator": "@priceonomics",
+            "article:publisher": "https://www.facebook.com/priceonomics",
+            "twitter:data1": "Ilya Levtov",
+            "twitter:data2": "3 minutes",
+            "twitter:site": "@priceonomics",
+            "article:modified_time": "2022-03-20T00:40:20+00:00",
+            "viewport": "initial-scale=1.0, width=device-width",
+            "og:locale": "en_US",
+            "og:url": "https://priceonomics.com/how-much-equity-do-founders-have-when-their/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://etzq49yfnmd.exactdn.com/wp-content/uploads/2022/03/10779578936_cff7954bc1_b-6.jpg?strip=all&lossy=1&ssl=1"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Founders with Kids - Priceonomics",
+      "htmlTitle": "Founders with Kids - Priceonomics",
+      "link": "https://priceonomics.com/founders-with-kids/",
+      "displayLink": "priceonomics.com",
+      "snippet": "Apr 30, 2014 ... Marcel Salathe, Vouchpop: Before being a founder of a startup, I was a professor at a University, so having to be efficient with my time is ...",
+      "htmlSnippet": "Apr 30, 2014 <b>...</b> Marcel Salathe, Vouchpop: Before being a <b>founder</b> of a startup, I was a professor at a University, so having to be efficient with my time is&nbsp;...",
+      "formattedUrl": "https://priceonomics.com/founders-with-kids/",
+      "htmlFormattedUrl": "https://priceonomics.com/<b>founder</b>s-with-kids/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYFAKV-z3zeGO1tkYqewpIlFzw0oPEu0jOIebkt-m7rp5XJSHlvykdtO8&s",
+            "width": "263",
+            "height": "192"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://etzq49yfnmd.exactdn.com/wp-content/uploads/2022/03/MarcelSalatheVouchpop.jpg?strip=all&lossy=1&ssl=1",
+            "og:type": "article",
+            "article:published_time": "2014-04-30T15:42:21+00:00",
+            "og:image:width": "1200",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Priceonomics",
+            "author": "Priceonomics",
+            "og:title": "Founders with Kids - Priceonomics",
+            "og:image:height": "876",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "og:image:type": "image/jpeg",
+            "msapplication-tileimage": "https://etzq49yfnmd.exactdn.com/wp-content/uploads/2022/03/cropped-priceonomics.png?strip=all&lossy=1&resize=270%2C270&ssl=1",
+            "og:description": "What is it like to be a founder of a startup and have kids?",
+            "twitter:creator": "@priceonomics",
+            "article:publisher": "https://www.facebook.com/priceonomics",
+            "twitter:data1": "Priceonomics",
+            "twitter:data2": "6 minutes",
+            "twitter:site": "@priceonomics",
+            "article:modified_time": "2022-03-20T00:44:39+00:00",
+            "viewport": "initial-scale=1.0, width=device-width",
+            "og:locale": "en_US",
+            "og:url": "https://priceonomics.com/founders-with-kids/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://etzq49yfnmd.exactdn.com/wp-content/uploads/2022/03/MarcelSalatheVouchpop.jpg?strip=all&lossy=1&ssl=1"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "How Much Do CEOs of Tech Companies Make Pre-IPO ...",
+      "htmlTitle": "How Much Do CEOs of Tech Companies Make Pre-IPO ...",
+      "link": "https://priceonomics.com/how-much-do-ceos-of-tech-companies-make-pre-ipo/",
+      "displayLink": "priceonomics.com",
+      "snippet": "Dec 6, 2018 ... ... founder might previously have earned (for an analysis of founder equity stakes at IPO, please see this past analysis). The table below shows ...",
+      "htmlSnippet": "Dec 6, 2018 <b>...</b> ... <b>founder</b> might previously have earned (for an analysis of <b>founder</b> equity stakes at IPO, please see this past analysis). The table below shows&nbsp;...",
+      "formattedUrl": "https://priceonomics.com/how-much-do-ceos-of-tech-companies-make-pre-...",
+      "htmlFormattedUrl": "https://priceonomics.com/how-much-do-ceos-of-tech-companies-make-pre-...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeXvokxc7KCqji-9c-yPYDbeEB7kE0j5xz1MdWA9KhZdc80-AJxJ8MkhE&s",
+            "width": "275",
+            "height": "183"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://etzq49yfnmd.exactdn.com/wp-content/uploads/2022/03/Director_Petraeus_rings_opening_bell_at_NY_Stock_Exchange_-_Flickr_-_The_Central_Intelligence_Agency.jpg?strip=all&lossy=1&ssl=1",
+            "og:type": "article",
+            "article:published_time": "2018-12-06T16:35:01+00:00",
+            "og:image:width": "1000",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Priceonomics",
+            "author": "Craft",
+            "og:title": "How Much Do CEOs of Tech Companies Make Pre-IPO? - Priceonomics",
+            "og:image:height": "667",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "og:image:type": "image/jpeg",
+            "msapplication-tileimage": "https://etzq49yfnmd.exactdn.com/wp-content/uploads/2022/03/cropped-priceonomics.png?strip=all&lossy=1&resize=270%2C270&ssl=1",
+            "og:description": "Anywhere from $10K to $100MM in compensation at IPO (plus all the equity they already have).",
+            "twitter:creator": "@priceonomics",
+            "article:publisher": "https://www.facebook.com/priceonomics",
+            "twitter:data1": "Craft",
+            "twitter:data2": "3 minutes",
+            "twitter:site": "@priceonomics",
+            "article:modified_time": "2022-03-20T00:40:36+00:00",
+            "viewport": "initial-scale=1.0, width=device-width",
+            "og:locale": "en_US",
+            "og:url": "https://priceonomics.com/how-much-do-ceos-of-tech-companies-make-pre-ipo/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://etzq49yfnmd.exactdn.com/wp-content/uploads/2022/03/Director_Petraeus_rings_opening_bell_at_NY_Stock_Exchange_-_Flickr_-_The_Central_Intelligence_Agency.jpg?strip=all&lossy=1&ssl=1"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "About Us - Priceonomics",
+      "htmlTitle": "About Us - Priceonomics",
+      "link": "https://priceonomics.com/about-us/",
+      "displayLink": "priceonomics.com",
+      "snippet": "Team ; Rohin Dhar. CEO, Founder ; Susan O'Connor. Sales ; Brendan Wood. CTO ; Elad Yarom. Lead Systems Engineer ...",
+      "htmlSnippet": "Team ; Rohin Dhar. CEO, <b>Founder</b> ; Susan O&#39;Connor. Sales ; Brendan Wood. CTO ; Elad Yarom. Lead Systems Engineer&nbsp;...",
+      "formattedUrl": "https://priceonomics.com/about-us/",
+      "htmlFormattedUrl": "https://priceonomics.com/about-us/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTahizxXT89XaVczj5gN2o5SZE-UGn6PYRKFzcw3a3V-Z3ngJ2XYMF2NElt&s",
+            "width": "200",
+            "height": "200"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://pix-media.priceonomics-media.com/rohin.jpg",
+            "og:type": "article",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Priceonomics",
+            "og:title": "About Us - Priceonomics",
+            "twitter:label1": "Est. reading time",
+            "msapplication-tileimage": "https://etzq49yfnmd.exactdn.com/wp-content/uploads/2022/03/cropped-priceonomics.png?strip=all&lossy=1&resize=270%2C270&ssl=1",
+            "og:description": "Why priceonomics exists, who we are, and why we do what we do",
+            "article:publisher": "https://www.facebook.com/priceonomics",
+            "twitter:data1": "3 minutes",
+            "twitter:site": "@priceonomics",
+            "article:modified_time": "2022-03-30T17:18:48+00:00",
+            "viewport": "initial-scale=1.0, width=device-width",
+            "og:locale": "en_US",
+            "og:url": "https://priceonomics.com/about-us/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://pix-media.priceonomics-media.com/rohin.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "The Priceonomics Conference: Announcing Speakers from ...",
+      "htmlTitle": "The Priceonomics Conference: Announcing Speakers from ...",
+      "link": "https://priceonomics.com/the-priceonomics-conference-announcing-speakers/",
+      "displayLink": "priceonomics.com",
+      "snippet": "Oct 3, 2016 ... Sander Daniels, Co-founder of Thumbtack.",
+      "htmlSnippet": "Oct 3, 2016 <b>...</b> Sander Daniels, Co-<b>founder</b> of Thumbtack.",
+      "formattedUrl": "https://priceonomics.com/the-priceonomics-conference-announcing-speakers/",
+      "htmlFormattedUrl": "https://priceonomics.com/the-priceonomics-conference-announcing-speakers/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7KGEudoECKxfR6SKZrHnCtwf_Hnt6EAzXy7fC-pPjLu5tGWQlYqPCc_8&s",
+            "width": "258",
+            "height": "195"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://etzq49yfnmd.exactdn.com/wp-content/uploads/2022/03/rohin_gaussian-15smaller.png?strip=all&lossy=1&ssl=1",
+            "og:type": "article",
+            "article:published_time": "2016-10-03T18:01:23+00:00",
+            "og:image:width": "720",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Priceonomics",
+            "author": "Rohin Dhar",
+            "og:title": "The Priceonomics Conference: Announcing Speakers from Andreessen Horowitz, Slack, Thumbtack & More - Priceonomics",
+            "og:image:height": "544",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "og:image:type": "image/png",
+            "msapplication-tileimage": "https://etzq49yfnmd.exactdn.com/wp-content/uploads/2022/03/cropped-priceonomics.png?strip=all&lossy=1&resize=270%2C270&ssl=1",
+            "og:description": "Join speakers from Andreessen Horowitz, Thumbtack, Medium, Slack, REDEF, Digg and more at Priceonomics Content Conference.",
+            "twitter:creator": "@priceonomics",
+            "article:publisher": "https://www.facebook.com/priceonomics",
+            "twitter:data1": "Rohin Dhar",
+            "twitter:data2": "3 minutes",
+            "twitter:site": "@priceonomics",
+            "article:modified_time": "2022-03-20T00:40:54+00:00",
+            "viewport": "initial-scale=1.0, width=device-width",
+            "og:locale": "en_US",
+            "og:url": "https://priceonomics.com/the-priceonomics-conference-announcing-speakers/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://etzq49yfnmd.exactdn.com/wp-content/uploads/2022/03/rohin_gaussian-15smaller.png?strip=all&lossy=1&ssl=1"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "What Startups Think about Silicon Valley Bank - Priceonomics",
+      "htmlTitle": "What Startups Think about Silicon Valley Bank - Priceonomics",
+      "link": "https://priceonomics.com/what-startups-think-about-silicon-valley-bank/",
+      "displayLink": "priceonomics.com",
+      "snippet": "Mar 20, 2014 ... Any recommendations? Instead of getting helpful tips about other banks he could use, the founder was inundated by complaints about Silicon ...",
+      "htmlSnippet": "Mar 20, 2014 <b>...</b> Any recommendations? Instead of getting helpful tips about other banks he could use, the <b>founder</b> was inundated by complaints about Silicon&nbsp;...",
+      "formattedUrl": "https://priceonomics.com/what-startups-think-about-silicon-valley-bank/",
+      "htmlFormattedUrl": "https://priceonomics.com/what-startups-think-about-silicon-valley-bank/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-ET7qH84x3QchQTM2OQ5gCubZzIv18LpiasdeEBHisxSRJ6xCzve0PbyJ&s",
+            "width": "263",
+            "height": "192"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://etzq49yfnmd.exactdn.com/wp-content/uploads/2022/03/Screenshot2014-03-2014.20.32.png?strip=all&lossy=1&ssl=1",
+            "og:type": "article",
+            "article:published_time": "2014-03-20T20:03:37+00:00",
+            "og:image:width": "834",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Priceonomics",
+            "author": "Priceonomics",
+            "og:title": "What Startups Think about Silicon Valley Bank - Priceonomics",
+            "og:image:height": "609",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "og:image:type": "image/png",
+            "msapplication-tileimage": "https://etzq49yfnmd.exactdn.com/wp-content/uploads/2022/03/cropped-priceonomics.png?strip=all&lossy=1&resize=270%2C270&ssl=1",
+            "og:description": "Silicon Valley Bank: the bank of startups? Not according to startup founders.",
+            "twitter:creator": "@priceonomics",
+            "article:publisher": "https://www.facebook.com/priceonomics",
+            "twitter:data1": "Priceonomics",
+            "twitter:data2": "5 minutes",
+            "twitter:site": "@priceonomics",
+            "article:modified_time": "2022-03-20T00:44:54+00:00",
+            "viewport": "initial-scale=1.0, width=device-width",
+            "og:locale": "en_US",
+            "og:url": "https://priceonomics.com/what-startups-think-about-silicon-valley-bank/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://etzq49yfnmd.exactdn.com/wp-content/uploads/2022/03/Screenshot2014-03-2014.20.32.png?strip=all&lossy=1&ssl=1"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "How Southwest Airlines Settled a Legal Dispute with Arm Wrestling ...",
+      "htmlTitle": "How Southwest Airlines Settled a Legal Dispute with Arm Wrestling ...",
+      "link": "https://priceonomics.com/how-southwest-airlines-settled-a-legal-dispute/",
+      "displayLink": "priceonomics.com",
+      "snippet": "Nov 3, 2014 ... Herb Kelleher, co-founder of Southwest Airlines. In 1968, Texas businessman Rollin King and his lawyer, Herb Kelleher, formulated a plan to ...",
+      "htmlSnippet": "Nov 3, 2014 <b>...</b> Herb Kelleher, co-<b>founder</b> of Southwest Airlines. In 1968, Texas businessman Rollin King and his lawyer, Herb Kelleher, formulated a plan to&nbsp;...",
+      "formattedUrl": "https://priceonomics.com/how-southwest-airlines-settled-a-legal-dispute/",
+      "htmlFormattedUrl": "https://priceonomics.com/how-southwest-airlines-settled-a-legal-dispute/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3I95-GsK3lkUShNFKKp2JMnjL5eozGKOna_Pxnq4OmowynT3pWwkFc2k&s",
+            "width": "265",
+            "height": "190"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://etzq49yfnmd.exactdn.com/wp-content/uploads/2022/03/maliceindallas.png?strip=all&lossy=1&ssl=1",
+            "og:type": "article",
+            "article:published_time": "2014-11-03T20:51:24+00:00",
+            "og:image:width": "847",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Priceonomics",
+            "author": "Priceonomics",
+            "og:title": "How Southwest Airlines Settled a Legal Dispute with Arm Wrestling - Priceonomics",
+            "og:image:height": "607",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "og:image:type": "image/png",
+            "msapplication-tileimage": "https://etzq49yfnmd.exactdn.com/wp-content/uploads/2022/03/cropped-priceonomics.png?strip=all&lossy=1&resize=270%2C270&ssl=1",
+            "og:description": "When Southwest Airlines and Stevens Aviation both wanted the same slogan in 1992, there was only one way to settle the matter: a CEO vs. CEO arm wrestling match.",
+            "twitter:creator": "@priceonomics",
+            "article:publisher": "https://www.facebook.com/priceonomics",
+            "twitter:data1": "Priceonomics",
+            "twitter:data2": "8 minutes",
+            "twitter:site": "@priceonomics",
+            "article:modified_time": "2022-03-20T00:44:38+00:00",
+            "viewport": "initial-scale=1.0, width=device-width",
+            "og:locale": "en_US",
+            "og:url": "https://priceonomics.com/how-southwest-airlines-settled-a-legal-dispute/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://etzq49yfnmd.exactdn.com/wp-content/uploads/2022/03/maliceindallas.png?strip=all&lossy=1&ssl=1"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "What Meetups Tell Us About America - Priceonomics",
+      "htmlTitle": "What Meetups Tell Us About America - Priceonomics",
+      "link": "https://priceonomics.com/what-meetups-tell-us-about-america/",
+      "displayLink": "priceonomics.com",
+      "snippet": "Jan 12, 2016 ... Meetup CEO and Co-Founder Scott Heiferman at the White House Tech Meetup. According to Meetup's founder, the origins of the company begin in ...",
+      "htmlSnippet": "Jan 12, 2016 <b>...</b> Meetup CEO and Co-<b>Founder</b> Scott Heiferman at the White House Tech Meetup. According to Meetup&#39;s <b>founder</b>, the origins of the company begin in&nbsp;...",
+      "formattedUrl": "https://priceonomics.com/what-meetups-tell-us-about-america/",
+      "htmlFormattedUrl": "https://priceonomics.com/what-meetups-tell-us-about-america/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLV62H_vYp1KT4cT4M5Qnj-FRwJj-ks401n_HC_t0THWvWE_KpYkeoUq2j&s",
+            "width": "292",
+            "height": "173"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://etzq49yfnmd.exactdn.com/wp-content/uploads/2022/03/image07-24.png?strip=all&lossy=1&ssl=1",
+            "og:type": "article",
+            "article:published_time": "2016-01-12T19:40:37+00:00",
+            "og:image:width": "524",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Priceonomics",
+            "author": "Priceonomics",
+            "og:title": "What Meetups Tell Us About America - Priceonomics",
+            "og:image:height": "311",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "og:image:type": "image/png",
+            "msapplication-tileimage": "https://etzq49yfnmd.exactdn.com/wp-content/uploads/2022/03/cropped-priceonomics.png?strip=all&lossy=1&resize=270%2C270&ssl=1",
+            "og:description": "From tech, politics, to the paranormal, Meetup groups provide a unique glimpse into Americans’ passions. We analyzed Meetup participation data to learn about the unique interests of cities.",
+            "twitter:creator": "@priceonomics",
+            "article:publisher": "https://www.facebook.com/priceonomics",
+            "twitter:data1": "Priceonomics",
+            "twitter:data2": "10 minutes",
+            "twitter:site": "@priceonomics",
+            "article:modified_time": "2022-03-20T00:41:58+00:00",
+            "viewport": "initial-scale=1.0, width=device-width",
+            "og:locale": "en_US",
+            "og:url": "https://priceonomics.com/what-meetups-tell-us-about-america/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://etzq49yfnmd.exactdn.com/wp-content/uploads/2022/03/image07-24.png?strip=all&lossy=1&ssl=1"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "The Supply Curve for Medical Detectives - Priceonomics",
+      "htmlTitle": "The Supply Curve for Medical Detectives - Priceonomics",
+      "link": "https://priceonomics.com/the-supply-curve-for-medical-detectives/",
+      "displayLink": "priceonomics.com",
+      "snippet": "Jan 20, 2014 ... Jared Heyman, a founder of the company, explains the quandry: The problem is that we ended up with a chronic imbalance in our marketplace ...",
+      "htmlSnippet": "Jan 20, 2014 <b>...</b> Jared Heyman, a <b>founder</b> of the company, explains the quandry: The problem is that we ended up with a chronic imbalance in our marketplace&nbsp;...",
+      "formattedUrl": "https://priceonomics.com/the-supply-curve-for-medical-detectives/",
+      "htmlFormattedUrl": "https://priceonomics.com/the-supply-curve-for-medical-detectives/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqQX2cIPkUcP3hpTS8LxTdRZR_I_nV-StX6I1KFF4YiWA41IEEmRcUKjp8&s",
+            "width": "256",
+            "height": "197"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://etzq49yfnmd.exactdn.com/wp-content/uploads/2022/03/detective.jpg?strip=all&lossy=1&ssl=1",
+            "og:type": "article",
+            "article:published_time": "2014-01-20T17:08:59+00:00",
+            "og:image:width": "795",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Priceonomics",
+            "author": "Priceonomics",
+            "og:title": "The Supply Curve for Medical Detectives - Priceonomics",
+            "og:image:height": "612",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "og:image:type": "image/jpeg",
+            "msapplication-tileimage": "https://etzq49yfnmd.exactdn.com/wp-content/uploads/2022/03/cropped-priceonomics.png?strip=all&lossy=1&resize=270%2C270&ssl=1",
+            "og:description": "Neoclassical economists rejoice! Paying people more increases the supply of \"medical detectives.\"",
+            "twitter:creator": "@priceonomics",
+            "article:publisher": "https://www.facebook.com/priceonomics",
+            "twitter:data1": "Priceonomics",
+            "twitter:data2": "2 minutes",
+            "twitter:site": "@priceonomics",
+            "article:modified_time": "2022-03-20T00:44:51+00:00",
+            "viewport": "initial-scale=1.0, width=device-width",
+            "og:locale": "en_US",
+            "og:url": "https://priceonomics.com/the-supply-curve-for-medical-detectives/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://etzq49yfnmd.exactdn.com/wp-content/uploads/2022/03/detective.jpg?strip=all&lossy=1&ssl=1"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Bicycle Price Guide - Priceonomics",
+      "htmlTitle": "Bicycle Price Guide - Priceonomics",
+      "link": "https://priceonomics.com/bicycle-price-guide/",
+      "displayLink": "priceonomics.com",
+      "snippet": "Jul 26, 2012 ... This founder (Rohin – author of this very post) bought a Trek 5000 on Craigslist for $300. He used it for about a week, but it wasn't the ...",
+      "htmlSnippet": "Jul 26, 2012 <b>...</b> This <b>founder</b> (Rohin – author of this very post) bought a Trek 5000 on Craigslist for $300. He used it for about a week, but it wasn&#39;t the&nbsp;...",
+      "formattedUrl": "https://priceonomics.com/bicycle-price-guide/",
+      "htmlFormattedUrl": "https://priceonomics.com/bicycle-price-guide/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLXaPD56PnMn8QnH1IcjKHhq4aSsf7Jjb3yqLmBV2x4Yq2IzGZu6Czxy7t&s",
+            "width": "260",
+            "height": "194"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://etzq49yfnmd.exactdn.com/wp-content/uploads/2022/03/trek-5000.jpeg?strip=all&lossy=1&ssl=1",
+            "og:type": "article",
+            "article:published_time": "2012-07-26T20:41:26+00:00",
+            "og:image:width": "475",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Priceonomics",
+            "author": "Priceonomics",
+            "og:title": "Bicycle Price Guide - Priceonomics",
+            "og:image:height": "355",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "og:image:type": "image/jpeg",
+            "msapplication-tileimage": "https://etzq49yfnmd.exactdn.com/wp-content/uploads/2022/03/cropped-priceonomics.png?strip=all&lossy=1&resize=270%2C270&ssl=1",
+            "og:description": "Bicycle Price Guide",
+            "twitter:creator": "@priceonomics",
+            "article:publisher": "https://www.facebook.com/priceonomics",
+            "twitter:data1": "Priceonomics",
+            "twitter:data2": "3 minutes",
+            "twitter:site": "@priceonomics",
+            "article:modified_time": "2022-03-30T17:09:48+00:00",
+            "viewport": "initial-scale=1.0, width=device-width",
+            "og:locale": "en_US",
+            "og:url": "https://priceonomics.com/bicycle-price-guide/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://etzq49yfnmd.exactdn.com/wp-content/uploads/2022/03/trek-5000.jpeg?strip=all&lossy=1&ssl=1"
+          }
+        ]
+      }
+    }
+  ]
+}

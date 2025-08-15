@@ -1,0 +1,494 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - \"Chute\" founders",
+        "totalResults": "2550000",
+        "searchTerms": "\"Chute\" founders",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - \"Chute\" founders",
+        "totalResults": "2550000",
+        "searchTerms": "\"Chute\" founders",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ]
+  },
+  "context": {
+    "title": "startup-ecosystem-intelligence"
+  },
+  "searchInformation": {
+    "searchTime": 0.135775,
+    "formattedSearchTime": "0.14",
+    "totalResults": "2550000",
+    "formattedTotalResults": "2,550,000"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "409 FOUNDERS WAY, Little Chute, WI 54140 | MLS #50308312 ...",
+      "htmlTitle": "409 <b>FOUNDERS</b> WAY, Little <b>Chute</b>, WI 54140 | MLS #50308312 ...",
+      "link": "https://www.zillow.com/homedetails/409-Founders-Way-Little-Chute-WI-54140/452085935_zpid/",
+      "displayLink": "www.zillow.com",
+      "snippet": "Zillow has 72 photos of this $650000 6 beds, 4 baths, 2904 Square Feet multi family home located at 409 FOUNDERS WAY, Little Chute, WI 54140 built in 2025.",
+      "htmlSnippet": "Zillow has 72 photos of this $650000 6 beds, 4 baths, 2904 Square Feet multi family home located at 409 <b>FOUNDERS</b> WAY, Little <b>Chute</b>, WI 54140 built in 2025.",
+      "formattedUrl": "https://www.zillow.com/homedetails/...Founders...Chute.../452085935_zpid...",
+      "htmlFormattedUrl": "https://www.zillow.com/homedetails/...<b>Founders</b>...<b>Chute</b>.../452085935_zpid...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6PdtVfc4-yOFXGUEJh1pvX_jB6a1vKkq_XNG3-QftOBrAoqZEaOKVw34&s",
+            "width": "275",
+            "height": "183"
+          }
+        ],
+        "metatags": [
+          {
+            "msapplication-config": "none",
+            "og:image": "https://photos.zillowstatic.com/fp/4abbf425bc5f388714ff52369a67c2e0-cc_ft_1536.jpg",
+            "copyright": "Copyright (c) 2006-2025 Zillow, Inc.",
+            "zillow_fb:beds": "6",
+            "og:site_name": "Zillow",
+            "msapplication-tileimage": "https://www.zillowstatic.com/static/images/logos/zillow-logo-win8-tile.png",
+            "og:description": "This 2904 square feet Multiple Occupancy home has 6 bedrooms and 4 bathrooms. It is located at 409 FOUNDERS WAY, Little Chute, WI.",
+            "next-head-count": "50",
+            "google-signin-cookiepolicy": "single_host_origin",
+            "zillow_fb:baths": "4",
+            "google-translate-customization": "691f1bfccade71b5-c065751219a379dd-g64cedb67f5ea020a-a",
+            "google-signin-scope": "openid profile email",
+            "msapplication-tilecolor": "#3366b8",
+            "og:type": "zillow_fb:home",
+            "author": "Zillow, Inc.",
+            "og:title": "409 FOUNDERS WAY, Little Chute, WI 54140 | MLS #50308312 | Zillow",
+            "referrer": "always",
+            "fb:app_id": "172285552816089",
+            "apple-mobile-web-app-status-bar-style": "black-translucent",
+            "viewport": "width=device-width, height=device-height, user-scalable=yes, initial-scale=1.0, minimum-scale=1.0",
+            "apple-mobile-web-app-capable": "yes",
+            "google-signin-clientid": "238648973530.apps.googleusercontent.com",
+            "zillow_fb:description": "This 2904 square feet Multiple Occupancy home has 6 bedrooms and 4 bathrooms. It is located at 409 FOUNDERS WAY, Little Chute, WI.",
+            "pod-group-name": "web-platform-render-for-sale-page-sub-app",
+            "og:url": "https://www.zillow.com/homedetails/409-Founders-Way-Little-Chute-WI-54140/452085935_zpid/",
+            "format-detection": "telephone=no",
+            "og:zillow_fb:address": "409 FOUNDERS WAY"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://photos.zillowstatic.com/fp/4abbf425bc5f388714ff52369a67c2e0-cc_ft_1536.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "423 Founders Way, Little Chute, WI 54140 | Realtor.com®",
+      "htmlTitle": "423 <b>Founders</b> Way, Little <b>Chute</b>, WI 54140 | Realtor.com®",
+      "link": "https://www.realtor.com/realestateandhomes-detail/423-Founders-Way_Little-Chute_WI_54140_M92075-64003",
+      "displayLink": "www.realtor.com",
+      "snippet": "View detailed information about property 423 Founders Way, Little Chute, WI 54140 including listing details, property photos, school and neighborhood data, ...",
+      "htmlSnippet": "View detailed information about property 423 <b>Founders</b> Way, Little <b>Chute</b>, WI 54140 including listing details, property photos, school and neighborhood data,&nbsp;...",
+      "formattedUrl": "https://www.realtor.com/.../423-Founders-Way_Little-Chute_WI_54140_M...",
+      "htmlFormattedUrl": "https://www.realtor.com/.../423-<b>Founders</b>-Way_Little-<b>Chute</b>_WI_54140_M...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfg0bHAltnled6_O0FYK8DPfmSDqCyPC4756t27fJhqNSa7BctgmqcYm8&s",
+            "width": "283",
+            "height": "178"
+          }
+        ],
+        "metatags": [
+          {
+            "og:street-address": "423 Founders Way",
+            "og:region": "WI",
+            "og:image": "https://ap.rdcpix.com/9fd806140f4fb2dec9bdf7cfa3f9c551l-m727956610od-w640_h480.jpg",
+            "twitter:title": "423 Founders Way, Little Chute, WI 54140 | Realtor.com®",
+            "twitter:card": "summary_large_image",
+            "og:type": "place",
+            "og:image:width": "640",
+            "og:site_name": "realtor.com®",
+            "og:locality": "Little Chute",
+            "og:title": "423 Founders Way, Little Chute, WI 54140 | Realtor.com®",
+            "og:image:height": "480",
+            "fb:pages": "35368227870",
+            "twitter:creator": "@realtordotcom",
+            "og:description": "View detailed information about property 423 Founders Way, Little Chute, WI 54140 including listing details, property photos, school and neighborhood data, and much more.",
+            "twitter:image": "https://ap.rdcpix.com/9fd806140f4fb2dec9bdf7cfa3f9c551l-m727956610od-w640_h480.jpg",
+            "next-head-count": "35",
+            "twitter:site": "@realtordotcom",
+            "og:postal-code": "54140",
+            "viewport": "width=device-width",
+            "twitter:description": "View detailed information about property 423 Founders Way, Little Chute, WI 54140 including listing details, property photos, school and neighborhood data, and much more.",
+            "og:url": "https://www.realtor.com/realestateandhomes-detail/423-Founders-Way_Little-Chute_WI_54140_M92075-64003",
+            "google-play-app": "app-id=com.move.realtor",
+            "og:country-name": "USA"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://ap.rdcpix.com/9fd806140f4fb2dec9bdf7cfa3f9c551l-m727956610od-w640_h480.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "421 FOUNDERS WAY, Little Chute, WI 54140 | Zillow",
+      "htmlTitle": "421 <b>FOUNDERS</b> WAY, Little <b>Chute</b>, WI 54140 | Zillow",
+      "link": "https://www.zillow.com/homedetails/421-Founders-Way-Little-Chute-WI-54140/443082134_zpid/",
+      "displayLink": "www.zillow.com",
+      "snippet": "421 FOUNDERS WAY, Little Chute, WI 54140 is currently not for sale. The 4080 Square Feet multi family home is a 5 beds, 5 baths property.",
+      "htmlSnippet": "421 <b>FOUNDERS</b> WAY, Little <b>Chute</b>, WI 54140 is currently not for sale. The 4080 Square Feet multi family home is a 5 beds, 5 baths property.",
+      "formattedUrl": "https://www.zillow.com/homedetails/...Founders...Chute.../443082134_zpid...",
+      "htmlFormattedUrl": "https://www.zillow.com/homedetails/...<b>Founders</b>...<b>Chute</b>.../443082134_zpid...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWNdNr48bcX57o8L3nJdAFLEG1sVIWlLebV8XC-g-ca2i-ktEcar1TomdR&s",
+            "width": "259",
+            "height": "194"
+          }
+        ],
+        "metatags": [
+          {
+            "msapplication-config": "none",
+            "og:image": "https://photos.zillowstatic.com/fp/cb123e2770840844032e1795e69652a8-cc_ft_1536.jpg",
+            "copyright": "Copyright (c) 2006-2025 Zillow, Inc.",
+            "zillow_fb:beds": "5",
+            "og:site_name": "Zillow",
+            "msapplication-tileimage": "https://www.zillowstatic.com/static/images/logos/zillow-logo-win8-tile.png",
+            "og:description": "421 Founders Way, Little Chute WI, is a Multiple Occupancy home that contains 4080 sq ft and was built in 2025.It contains 5 bedrooms and 5 bathrooms.This home last sold for $760,000 in June 2025.\n \nThe Zestimate for this Multiple Occupancy is $765,200, which has increased by $112,800 in the last 30 days.",
+            "next-head-count": "52",
+            "google-signin-cookiepolicy": "single_host_origin",
+            "zillow_fb:baths": "5",
+            "google-translate-customization": "691f1bfccade71b5-c065751219a379dd-g64cedb67f5ea020a-a",
+            "google-signin-scope": "openid profile email",
+            "msapplication-tilecolor": "#3366b8",
+            "og:type": "zillow_fb:home",
+            "author": "Zillow, Inc.",
+            "og:title": "421 FOUNDERS WAY, Little Chute, WI 54140 | Zillow",
+            "referrer": "always",
+            "fb:app_id": "172285552816089",
+            "apple-mobile-web-app-status-bar-style": "black-translucent",
+            "viewport": "width=device-width, height=device-height, user-scalable=yes, initial-scale=1.0, minimum-scale=1.0",
+            "apple-mobile-web-app-capable": "yes",
+            "google-signin-clientid": "238648973530.apps.googleusercontent.com",
+            "zillow_fb:description": "421 Founders Way, Little Chute WI, is a Multiple Occupancy home that contains 4080 sq ft and was built in 2025.It contains 5 bedrooms and 5 bathrooms.This home last sold for $760,000 in June 2025.\n \nThe Zestimate for this Multiple Occupancy is $765,200, which has increased by $112,800 in the last 30 days.",
+            "pod-group-name": "web-platform-render-not-for-sale-page-sub-app",
+            "og:url": "https://www.zillow.com/homedetails/421-Founders-Way-Little-Chute-WI-54140/443082134_zpid/",
+            "format-detection": "telephone=no",
+            "og:zillow_fb:address": "421 FOUNDERS WAY"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://photos.zillowstatic.com/fp/cb123e2770840844032e1795e69652a8-cc_ft_1536.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "409 Founders Way, Little Chute, WI 54140 [Updated 7/18]",
+      "htmlTitle": "409 <b>Founders</b> Way, Little <b>Chute</b>, WI 54140 [Updated 7/18]",
+      "link": "https://www.realtor.com/realestateandhomes-detail/409-Founders-Way_Little-Chute_WI_54140_M91185-44991",
+      "displayLink": "www.realtor.com",
+      "snippet": "Jul 19, 2025 ... See home details and neighborhood info of this 6 bed, 4 bath, 2904 sqft. multi family home located at 409 Founders Way, Little Chute, ...",
+      "htmlSnippet": "Jul 19, 2025 <b>...</b> See home details and neighborhood info of this 6 bed, 4 bath, 2904 sqft. multi family home located at 409 <b>Founders</b> Way, Little <b>Chute</b>,&nbsp;...",
+      "formattedUrl": "https://www.realtor.com/.../409-Founders-Way_Little-Chute_WI_54140_M...",
+      "htmlFormattedUrl": "https://www.realtor.com/.../409-<b>Founders</b>-Way_Little-<b>Chute</b>_WI_54140_M...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc--3osuomW1ZbrikAgBdF91PeXh00j9CDT3hg_gLF5LO1cswVEFsVews&s",
+            "width": "275",
+            "height": "183"
+          }
+        ],
+        "metatags": [
+          {
+            "og:street-address": "409 Founders Way",
+            "place:location:longitude": "-88.32053444",
+            "og:image": "https://ap.rdcpix.com/ae06fbef3db05c9eb042d466de7e7051l-m1857034154od-w640_h480.jpg",
+            "apple-itunes-app": "app-id=336698281",
+            "theme-color": "#ffffff",
+            "twitter:card": "summary_large_image",
+            "og:image:width": "640",
+            "og:site_name": "realtor.com®",
+            "place:location:latitude": "44.29464506",
+            "og:locality": "Little Chute",
+            "apple-mobile-web-app-title": "409 Founders Way, Little Chute, WI 54140 [Updated 7/18]",
+            "twitter:creator": "@realtordotcom",
+            "og:description": "See home details and neighborhood info of this 6 bed, 4 bath, 2904 sqft. multi family home located at 409 Founders Way, Little Chute, WI 54140.",
+            "twitter:image": "https://ap.rdcpix.com/ae06fbef3db05c9eb042d466de7e7051l-m1857034154od-w640_h480.jpg",
+            "next-head-count": "35",
+            "twitter:site": "@realtordotcom",
+            "og:country-name": "USA",
+            "og:region": "WI",
+            "og:type": "place",
+            "twitter:title": "409 Founders Way, Little Chute, WI 54140 [Updated 7/18]",
+            "og:title": "409 Founders Way, Little Chute, WI 54140 [Updated 7/18]",
+            "og:image:height": "480",
+            "apple-mobile-web-app-status-bar-style": "default",
+            "og:postal-code": "54140",
+            "rdc:ldp:year-built": "2025",
+            "viewport": "width=device-width, initial-scale=1, viewport-fit=cover",
+            "apple-mobile-web-app-capable": "yes",
+            "twitter:description": "See home details and neighborhood info of this 6 bed, 4 bath, 2904 sqft. multi family home located at 409 Founders Way, Little Chute, WI 54140.",
+            "mobile-web-app-capable": "yes",
+            "og:url": "https://www.realtor.com/realestateandhomes-detail/409-Founders-Way_Little-Chute_WI_54140_M91185-44991",
+            "google-play-app": "app-id=com.move.realtor"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://ap.rdcpix.com/ae06fbef3db05c9eb042d466de7e7051l-m1857034154od-w640_h480.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "About Us | BLC Community Bank- Fox Valley, WI",
+      "htmlTitle": "About Us | BLC Community Bank- Fox Valley, WI",
+      "link": "https://www.blccb.com/about/who-we-are/about-us",
+      "displayLink": "www.blccb.com",
+      "snippet": "We don't have branches. We have roots… Roots that have been a pillar of the Fox Valley community since BLC Community Bank's (Bank of Little Chute) founding ...",
+      "htmlSnippet": "We don&#39;t have branches. We have roots… Roots that have been a pillar of the Fox Valley community since BLC Community Bank&#39;s (Bank of Little <b>Chute</b>) <b>founding</b>&nbsp;...",
+      "formattedUrl": "https://www.blccb.com/about/who-we-are/about-us",
+      "htmlFormattedUrl": "https://www.blccb.com/about/who-we-are/about-us",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuYiUAyeOPC15zHhkgAKd4I0fk53CIsK3m6LYMcJOlg0A0haPXZSLjPEE&s",
+            "width": "263",
+            "height": "191"
+          }
+        ],
+        "metatags": [
+          {
+            "msapplication-tilecolor": "#603cba",
+            "og:image": "https://www.blccb.com/images/default-source/image-headers/blog-resource-pages/mobile/blog-resources-mobile.jpg?sfvrsn=2b4c63c4_12",
+            "theme-color": "#ffffff",
+            "og:type": "website",
+            "og:site_name": "Default",
+            "viewport": "width=device-width,initial-scale=1.0",
+            "og:title": "About Us | BLC Community Bank- Fox Valley, WI",
+            "og:url": "https://www.blccb.com/about/who-we-are/about-us",
+            "og:description": "BLC Community Bank is locally owned and all banking decisions are made right here. Learn about our expansive list of financial services brought to locally.",
+            "format-detection": "telephone=no"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.blccb.com/images/default-source/image-headers/blog-resource-pages/mobile/blog-resources-mobile.jpg?sfvrsn=2b4c63c4_12"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Untitled",
+      "htmlTitle": "Untitled",
+      "link": "https://www.rdi2build.com/wp-content/uploads/2024/01/Final-Plat-Founders-Estates.pdf",
+      "displayLink": "www.rdi2build.com",
+      "snippet": "Resolved, that the plat of Founders Estates in the Village of Little Chute. Outagamie County, Founders Estates. LLC, owner, is hereby approved by the ...",
+      "htmlSnippet": "Resolved, that the plat of <b>Founders</b> Estates in the Village of Little <b>Chute</b>. Outagamie County, <b>Founders</b> Estates. LLC, owner, is hereby approved by the&nbsp;...",
+      "formattedUrl": "https://www.rdi2build.com/wp-content/.../Final-Plat-Founders-Estates.pdf",
+      "htmlFormattedUrl": "https://www.rdi2build.com/wp-content/.../Final-Plat-<b>Founders</b>-Estates.pdf",
+      "pagemap": {
+        "metatags": [
+          {
+            "creator": "PDFium",
+            "creationdate": "Tue Oct  3 08:45:01 2023",
+            "producer": "PDFium"
+          }
+        ]
+      },
+      "mime": "application/pdf",
+      "fileFormat": "PDF/Adobe Acrobat"
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "BTT & Chute Boxe founders: It's harder now",
+      "htmlTitle": "BTT &amp; <b>Chute</b> Boxe <b>founders</b>: It&#39;s harder now",
+      "link": "https://mixedmartialarts.com/news/btt-chute-boxe-founders-its-harder-now/",
+      "displayLink": "mixedmartialarts.com",
+      "snippet": "May 16, 2014 ... BTT & Chute Boxe founders: It's harder now. Rudimar Fedrigo: “This sport is becoming more and more competitive, with teams all over the world ...",
+      "htmlSnippet": "May 16, 2014 <b>...</b> BTT &amp; <b>Chute</b> Boxe <b>founders</b>: It&#39;s harder now. Rudimar Fedrigo: “This sport is becoming more and more competitive, with teams all over the world&nbsp;...",
+      "formattedUrl": "https://mixedmartialarts.com/news/btt-chute-boxe-founders-its-harder-now/",
+      "htmlFormattedUrl": "https://mixedmartialarts.com/news/btt-<b>chute</b>-boxe-<b>founders</b>-its-harder-now/",
+      "pagemap": {
+        "metatags": [
+          {
+            "og:type": "article",
+            "article:section": "News",
+            "article:published_time": "2014-05-16T04:00:00+00:00",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "BTT & Chute Boxe founders: It's harder now",
+            "og:site_name": "MMA Underground",
+            "og:title": "BTT & Chute Boxe founders: It's harder now",
+            "msapplication-tileimage": "https://i0.wp.com/mixedmartialarts.com/wp-content/uploads/2025/05/cropped-BRANDMARK-BLACK.png?fit=270%2C270&ssl=1",
+            "og:description": "Rudimar Fedrigo: \"This sport is becoming more and more competitive, with teams all over the world. So it’s hard to build a generation like that.\"",
+            "article:tag": "Brazilian Top Team",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "Rudimar Fedrigo: \"This sport is becoming more and more competitive, with teams all over the world. So it’s hard to build a generation like that.\"",
+            "og:locale": "en_US",
+            "og:url": "https://mixedmartialarts.com/news/btt-chute-boxe-founders-its-harder-now/"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Paso Robles Magazine founder dies at 77 | San Luis Obispo Tribune",
+      "htmlTitle": "Paso Robles Magazine <b>founder</b> dies at 77 | San Luis Obispo Tribune",
+      "link": "https://www.sanluisobispo.com/news/local/article308570675.html",
+      "displayLink": "www.sanluisobispo.com",
+      "snippet": "Jun 15, 2025 ... Bob Chute, founder of Paso Robles Magazine, died of a rare form of Parkinson's disease. His family and friends remember him for his ...",
+      "htmlSnippet": "Jun 15, 2025 <b>...</b> Bob <b>Chute</b>, <b>founder</b> of Paso Robles Magazine, died of a rare form of Parkinson&#39;s disease. His family and friends remember him for his&nbsp;...",
+      "formattedUrl": "https://www.sanluisobispo.com/news/local/article308570675.html",
+      "htmlFormattedUrl": "https://www.sanluisobispo.com/news/local/article308570675.html",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm2qb5z7GGHBM-KhybWj_6JOT57KIA4cRAJvIZVdLGBlqUuSoDFiK7JXUo&s",
+            "width": "300",
+            "height": "168"
+          }
+        ],
+        "metatags": [
+          {
+            "apple-itunes-app": "app-id=436437940, affiliate-data=at=1010lHsN&ct=SmartAppBannerSLO, app-argument=https://www.sanluisobispo.com/news/local/article308570675.html?appNav=smartBanner",
+            "og:image": "https://www.sanluisobispo.com/public/latest-news/kysi8w/picture308588235/alternates/LANDSCAPE_1140/75464875808471178.jpg_fitted.jpeg",
+            "twitter:card": "summary_large_image",
+            "article:published_time": "2025-06-15T18:00:00.000Z",
+            "og:site_name": "San Luis Obispo Tribune",
+            "msapplication-tileimage": "https://www.sanluisobispo.com/wps/build/images/sanluisobispo/windowsmetro-144.png",
+            "title": "Paso Robles Magazine founder dies at 77 | San Luis Obispo Tribune",
+            "og:description": "Bob Chute founded the magazine in 2001.",
+            "parsely-metadata": "{\"article_id\": \"308570675\"}",
+            "twitter:image": "https://www.sanluisobispo.com/public/latest-news/kysi8w/picture308588235/alternates/LANDSCAPE_1140/75464875808471178.jpg_fitted.jpeg",
+            "twitter:image:alt": "Paso Robles Magazine founder Bob Chute died on June 5, 2025.",
+            "twitter:site": "@SLOTribune",
+            "news_keywords": "Paso Robles, Bob Chute, Paso Robles Magazine, founder death",
+            "allow-comments": "true",
+            "mrf:canonical": "https://www.sanluisobispo.com/news/local/article308570675.html",
+            "msapplication-tilecolor": "#FFFFFF",
+            "twitter:title": "Paso Robles Magazine founder remembered for his commitment to community",
+            "og:type": "article",
+            "og:image:alt": "Paso Robles Magazine founder Bob Chute died on June 5, 2025.",
+            "og:title": "Paso Robles Magazine founder remembered for his commitment to community",
+            "fb:pages": "129581143405",
+            "fb:app_id": "533626820044007",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "twitter:description": "Bob Chute founded the magazine in 2001.",
+            "is-wirestory": "false",
+            "og:url": "https://www.sanluisobispo.com/news/local/article308570675.html",
+            "article:opinion": "false"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.sanluisobispo.com/public/latest-news/kysi8w/picture308588235/alternates/LANDSCAPE_1140/75464875808471178.jpg_fitted.jpeg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Christopher G. Chute, MD, MPH, DrPH – Institute for Clinical and ...",
+      "htmlTitle": "Christopher G. <b>Chute</b>, MD, MPH, DrPH – Institute for Clinical and ...",
+      "link": "https://ictr.johnshopkins.edu/about/staff-directory/christopher-g-chute-md-mph-drph/",
+      "displayLink": "ictr.johnshopkins.edu",
+      "snippet": "Dr. Chute is founding PI of the eMERGE project at Mayo Clinic, which has pioneered techniques for high-throughput phenotyping from the EMR.",
+      "htmlSnippet": "Dr. <b>Chute</b> is <b>founding</b> PI of the eMERGE project at Mayo Clinic, which has pioneered techniques for high-throughput phenotyping from the EMR.",
+      "formattedUrl": "https://ictr.johnshopkins.edu/about/staff.../christopher-g-chute-md-mph-drp...",
+      "htmlFormattedUrl": "https://ictr.johnshopkins.edu/about/staff.../christopher-g-<b>chute</b>-md-mph-drp...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy8aAB2ifcnk4Jr_LxFFweTyrxXtXERUW8SEqaCG2Clj6uCwMqRMmnRKo&s",
+            "width": "357",
+            "height": "141"
+          }
+        ],
+        "metatags": [
+          {
+            "viewport": "width=device-width, initial-scale=1, maximum-scale=10.0, user-scalable=yes",
+            "tec-api-origin": "https://ictr.johnshopkins.edu",
+            "msapplication-tileimage": "https://ictr.johnshopkins.edu/wp-content/uploads/2022/01/cropped-university.shield.small_.blue-1-270x270.png",
+            "tec-api-version": "v1"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://ictr.johnshopkins.edu/wp-content/uploads/cropped-ICTR-logo.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Departments > Information Technology - Grand Chute",
+      "htmlTitle": "Departments > Information Technology - Grand Chute",
+      "link": "https://www.grandchutewi.gov/departments/information-technology/",
+      "displayLink": "www.grandchutewi.gov",
+      "snippet": "AAMFON (Appleton Area Metropolitan Fiber Optic Network) Grand Chute is one of the original five founding members of this fiber optic cable network connecting ...",
+      "htmlSnippet": "AAMFON (Appleton Area Metropolitan Fiber Optic Network) Grand <b>Chute</b> is one of the original five <b>founding</b> members of this fiber optic cable network connecting&nbsp;...",
+      "formattedUrl": "https://www.grandchutewi.gov/departments/information-technology/",
+      "htmlFormattedUrl": "https://www.grand<b>chute</b>wi.gov/departments/information-technology/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7xGhJqSb9-a8ckKlrjD0qSu_jcdEoju1UHwJMJ_B4VUx8yRA_e9v6wXM&s",
+            "width": "310",
+            "height": "163"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://www.grandchutewi.gov/i/og_logo.png",
+            "og:type": "website",
+            "twitter:card": "summary",
+            "twitter:title": "Town of Grand Chute- Experience Better!",
+            "copyright": "2025 Grand Chute",
+            "og:site_name": "Grand Chute",
+            "author": "www.dmistudios.com",
+            "og:title": "Town of Grand Chute- Experience Better!",
+            "og:description": "Located in the Fox Cities metropolitan area of Northeast Wisconsin. Grand Chute is the largest town in the state, with a diverse mix of residential, commercial, industrial, agricultural, and natural lands.",
+            "twitter:image": "http://www.grandchutewi.gov",
+            "viewport": "width=device-width, initial-scale=1, maximum-scale=5, minimum-scale=1, user-scalable=yes",
+            "twitter:description": "Located in the Fox Cities metropolitan area of Northeast Wisconsin. Grand Chute is the largest town in the state, with a diverse mix of residential, commercial, industrial, agricultural, and natural lands.",
+            "og:locale": "en_US",
+            "og:url": "https://www.grandchutewi.gov/departments/information-technology/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.grandchutewi.gov/i/og_logo.png"
+          }
+        ]
+      }
+    }
+  ]
+}

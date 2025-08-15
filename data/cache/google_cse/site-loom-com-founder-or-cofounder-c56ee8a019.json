@@ -1,0 +1,517 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - site:loom.com (founder OR cofounder)",
+        "totalResults": "70",
+        "searchTerms": "site:loom.com (founder OR cofounder)",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - site:loom.com (founder OR cofounder)",
+        "totalResults": "70",
+        "searchTerms": "site:loom.com (founder OR cofounder)",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ]
+  },
+  "context": {
+    "title": "startup-ecosystem-intelligence"
+  },
+  "searchInformation": {
+    "searchTime": 0.100695,
+    "formattedSearchTime": "0.10",
+    "totalResults": "70",
+    "formattedTotalResults": "70"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "About Us | Loom",
+      "htmlTitle": "About Us | Loom",
+      "link": "https://www.loom.com/about-us",
+      "displayLink": "www.loom.com",
+      "snippet": "Joe Thomas. CEO & Co-Founder · Portrait of Vinay Hiremath. Vinay Hiremath. CTO & Co-Founder · Portrait of Anique Drumwright. Anique Drumright. COO · Lili Peng. VP ...",
+      "htmlSnippet": "Joe Thomas. CEO &amp; Co-<b>Founder</b> &middot; Portrait of Vinay Hiremath. Vinay Hiremath. CTO &amp; Co-<b>Founder</b> &middot; Portrait of Anique Drumwright. Anique Drumright. COO &middot; Lili Peng. VP&nbsp;...",
+      "formattedUrl": "https://www.loom.com/about-us",
+      "htmlFormattedUrl": "https://www.loom.com/about-us",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuZiHTCgiVi9hqadBUu64AXDHmoh2DotANFHLh0LkVKPtXosA_6zS1oN9C&s",
+            "width": "311",
+            "height": "162"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://cdn.sanity.io/images/pvn35iyy/production/167d127d1b5c4e6a8dac54195cb4a12fe299444f-2400x1254.jpg",
+            "twitter:title": "About Us | Loom",
+            "twitter:card": "summary_large_image",
+            "og:type": "website",
+            "og:site_name": "Loom",
+            "twitter:domain": "www.loom.com",
+            "twitter:url": "https://www.loom.com/about-us",
+            "og:title": "About Us | Loom",
+            "og:description": "We are on a mission to empower everyone at work to communicate more effectively, wherever they are.",
+            "twitter:image": "https://cdn.sanity.io/images/pvn35iyy/production/167d127d1b5c4e6a8dac54195cb4a12fe299444f-2400x1254.jpg",
+            "next-head-count": "21",
+            "twitter:site": "@loom",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "We are on a mission to empower everyone at work to communicate more effectively, wherever they are.",
+            "loom-environment": "production",
+            "og:url": "https://www.loom.com/about-us"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.sanity.io/images/pvn35iyy/production/167d127d1b5c4e6a8dac54195cb4a12fe299444f-2400x1254.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "How This Founder Uses Video Messages To Run a Company ...",
+      "htmlTitle": "How This <b>Founder</b> Uses Video Messages To Run a Company ...",
+      "link": "https://www.loom.com/blog/use-cases-leadership",
+      "displayLink": "www.loom.com",
+      "snippet": "Jul 11, 2022 ... As a Co-founder and the CEO of Loom, I often get asked how we leverage video messaging as a tool on our own teams.",
+      "htmlSnippet": "Jul 11, 2022 <b>...</b> As a Co-<b>founder</b> and the CEO of Loom, I often get asked how we leverage video messaging as a tool on our own teams.",
+      "formattedUrl": "https://www.loom.com/blog/use-cases-leadership",
+      "htmlFormattedUrl": "https://www.loom.com/blog/use-cases-leadership",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_aucxWziKWs3yvXUzu4Pek9OqOfeWQmtt4mTmmqiaXE71LSJfZShRvoU&s",
+            "width": "318",
+            "height": "158"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://www.atlassian.com/blog/wp-content/uploads/2025/07/loom-blog-hero.png",
+            "og:type": "article",
+            "article:published_time": "2022-07-11T12:00:00+00:00",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Work Life by Atlassian",
+            "og:title": "How This Founder Uses Video Messages To Run a Company - Work Life by Atlassian",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "msapplication-tileimage": "https://atlassianblog.wpengine.com/wp-content/uploads/2017/10/android-chrome-256x256.png",
+            "og:description": "In this article, our CEO explains how our Loom improves communication and performance across the company. From project updates to onboarding",
+            "twitter:creator": "@Atlassian",
+            "article:publisher": "https://www.facebook.com/Atlassian",
+            "twitter:image": "https://www.atlassian.com/blog/wp-content/uploads/2025/07/loom-blog-hero.png",
+            "twitter:data1": "Joe Thomas",
+            "twitter:data2": "5 minutes",
+            "twitter:site": "@Atlassian",
+            "article:modified_time": "2025-06-25T14:00:36+00:00",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:locale": "en_US",
+            "og:url": "https://www.atlassian.com/blog/loom/use-cases-leadership"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.atlassian.com/blog/wp-content/uploads/2025/07/loom-blog-hero.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Tips for your upcoming candidate selection call w/ Go2 founder Scott ...",
+      "htmlTitle": "Tips for your upcoming candidate selection call w/ Go2 <b>founder</b> Scott ...",
+      "link": "https://www.loom.com/community/2083a0c0b6b7459eadccd0619c251e90-pg",
+      "displayLink": "www.loom.com",
+      "snippet": "This video is meant to help teammates be in a mindset that will help them crush a candidate selection call.",
+      "htmlSnippet": "This video is meant to help teammates be in a mindset that will help them crush a candidate selection call.",
+      "formattedUrl": "https://www.loom.com/.../2083a0c0b6b7459eadccd0619c251e90-pg",
+      "htmlFormattedUrl": "https://www.loom.com/.../2083a0c0b6b7459eadccd0619c251e90-pg",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2t_IbAn4dvxlQVCypY2fVTrgIOveS2tTQ0M_qyYXtOna7JaM7bFUoFPw&s",
+            "width": "300",
+            "height": "168"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://cdn.sanity.io/images/pvn35iyy/production/74d348fb150b2f37076655b04c36ddf68eed23d5-1200x675.png",
+            "twitter:title": "Tips for your upcoming candidate selection call w/ Go2 founder Scott Moran | Loom",
+            "twitter:card": "summary_large_image",
+            "og:type": "website",
+            "og:site_name": "Loom",
+            "twitter:domain": "www.loom.com",
+            "twitter:url": "https://www.loom.com/community/2083a0c0b6b7459eadccd0619c251e90-pg",
+            "og:title": "Tips for your upcoming candidate selection call w/ Go2 founder Scott Moran | Loom",
+            "og:description": "Video is part of this article, which contains more information on how a candidate selection call works. \nhttps://intercom.help/go2/en/articles/6182968-how-a-go2-candidate-selection-call-works-for-teammates\n\nThis video is meant to help teammates be in a mindset that will help them crush a candidate selection call.\n\nIf you have any questions or concerns about your upcoming candidate selection call the best person to reach out to is our head of matching aina@go2.io. \n\nIf you have issues with your experience with our matching team or the recruitment process in general and want to give feedback, please reach out to S@go2.io\n\nThank you, seriously. \n\nFor a little more info on what we are about and to learn about the values we look for in a Go2 team member - click here - https://go2io.notion.site/",
+            "twitter:image": "https://cdn.sanity.io/images/pvn35iyy/production/74d348fb150b2f37076655b04c36ddf68eed23d5-1200x675.png",
+            "next-head-count": "21",
+            "twitter:site": "@loom",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "Video is part of this article, which contains more information on how a candidate selection call works. \nhttps://intercom.help/go2/en/articles/6182968-how-a-go2-candidate-selection-call-works-for-teammates\n\nThis video is meant to help teammates be in a mindset that will help them crush a candidate selection call.\n\nIf you have any questions or concerns about your upcoming candidate selection call the best person to reach out to is our head of matching aina@go2.io. \n\nIf you have issues with your experience with our matching team or the recruitment process in general and want to give feedback, please reach out to S@go2.io\n\nThank you, seriously. \n\nFor a little more info on what we are about and to learn about the values we look for in a Go2 team member - click here - https://go2io.notion.site/",
+            "loom-environment": "production",
+            "og:url": "https://www.loom.com/community/2083a0c0b6b7459eadccd0619c251e90-pg"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.sanity.io/images/pvn35iyy/production/74d348fb150b2f37076655b04c36ddf68eed23d5-1200x675.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Intro to co-founder Vinay | Loom",
+      "htmlTitle": "Intro to co-<b>founder</b> Vinay | Loom",
+      "link": "https://www.loom.com/community/8059e3c6457a4f8b979e13b5b192580e-pg",
+      "displayLink": "www.loom.com",
+      "snippet": "Loom creates an ongoing visual and audible experience across our business and enables our employees to feel part of a unified culture and company.",
+      "htmlSnippet": "Loom creates an ongoing visual and audible experience across our business and enables our employees to feel part of a unified culture and company.",
+      "formattedUrl": "https://www.loom.com/.../8059e3c6457a4f8b979e13b5b192580e-pg",
+      "htmlFormattedUrl": "https://www.loom.com/.../8059e3c6457a4f8b979e13b5b192580e-pg",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2t_IbAn4dvxlQVCypY2fVTrgIOveS2tTQ0M_qyYXtOna7JaM7bFUoFPw&s",
+            "width": "300",
+            "height": "168"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://cdn.sanity.io/images/pvn35iyy/production/74d348fb150b2f37076655b04c36ddf68eed23d5-1200x675.png",
+            "twitter:title": "👋 Intro to co-founder Vinay | Loom",
+            "twitter:card": "summary_large_image",
+            "og:type": "website",
+            "og:site_name": "Loom",
+            "twitter:domain": "www.loom.com",
+            "twitter:url": "https://www.loom.com/community/8059e3c6457a4f8b979e13b5b192580e-pg",
+            "og:title": "👋 Intro to co-founder Vinay | Loom",
+            "twitter:image": "https://cdn.sanity.io/images/pvn35iyy/production/74d348fb150b2f37076655b04c36ddf68eed23d5-1200x675.png",
+            "next-head-count": "18",
+            "twitter:site": "@loom",
+            "viewport": "width=device-width, initial-scale=1",
+            "loom-environment": "production",
+            "og:url": "https://www.loom.com/community/8059e3c6457a4f8b979e13b5b192580e-pg"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.sanity.io/images/pvn35iyy/production/74d348fb150b2f37076655b04c36ddf68eed23d5-1200x675.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Tips for your upcoming candidate selection call w/ Go2 founder Scott ...",
+      "htmlTitle": "Tips for your upcoming candidate selection call w/ Go2 <b>founder</b> Scott ...",
+      "link": "https://www.loom.com/share/2083a0c0b6b7459eadccd0619c251e90",
+      "displayLink": "www.loom.com",
+      "snippet": "May 1, 2022 ... Video is part of this article, which contains more information on how a candidate selection call works.",
+      "htmlSnippet": "May 1, 2022 <b>...</b> Video is part of this article, which contains more information on how a candidate selection call works.",
+      "formattedUrl": "https://www.loom.com/share/2083a0c0b6b7459eadccd0619c251e90",
+      "htmlFormattedUrl": "https://www.loom.com/share/2083a0c0b6b7459eadccd0619c251e90",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSwTJqkfSyaNJfpJ-h6nE32YU-1RA7dR1GcRQ0DGjCuBrVvC1QByTXIyI&s",
+            "width": "318",
+            "height": "159"
+          }
+        ],
+        "metatags": [
+          {
+            "application-name": "Loom",
+            "msapplication-tilecolor": "#b91d47",
+            "og:image": "https://cdn.loom.com/assets/img/og/loom-banner.png",
+            "og:type": "website",
+            "og:image:width": "1200",
+            "twitter:card": "summary_large_image",
+            "theme-color": "#ffffff",
+            "og:site_name": "Loom",
+            "og:title": "Tips for your upcoming candidate selection call w/ Go2 founder Scott Moran",
+            "apple-mobile-web-app-title": "Loom",
+            "og:image:height": "600",
+            "slack-app-id": "A9G1TH4S2",
+            "msapplication-tileimage": "https://cdn.loom.com/assets/favicons-loom/mstile-150x150.png",
+            "og:description": "Video is part of this article, which contains more information on how a candidate selection call works. \nhttps://intercom.help/go2/en/articles/6182968-how-a-go2-candidate-selection-call-works-for-teammates\n\nThis video is meant to help teammates be in a mindset that will help them crush a candidate selection call.\n\nIf you have any questions or concerns about your upcoming candidate selection call the best person to reach out to is our head of matching aina@go2.io. \n\nIf you have issues with your experience with our matching team or the recruitment process in general and want to give feedback, please reach out to S@go2.io\n\nThank you, seriously. \n\nFor a little more info on what we are about and to learn about the values we look for in a Go2 team member - click here - https://go2io.notion.site/",
+            "apple-mobile-web-app-status-bar-style": "black-translucent",
+            "viewport": "width=device-width",
+            "apple-mobile-web-app-capable": "yes",
+            "mobile-web-app-capable": "yes",
+            "og:url": "https://www.loom.com"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.loom.com/assets/img/og/loom-banner.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "How to take full advantage of the remote work revolution with Sara ...",
+      "htmlTitle": "How to take full advantage of the remote work revolution with Sara ...",
+      "link": "https://www.loom.com/blog/remote-work-revolution-sara-sutton",
+      "displayLink": "www.loom.com",
+      "snippet": "Aug 23, 2022 ... In the very first episode of the series, Loom's former SVP of Marketing Rebecca Kline sits down with Sara Sutton, the founder and CEO of ...",
+      "htmlSnippet": "Aug 23, 2022 <b>...</b> In the very first episode of the series, Loom&#39;s former SVP of Marketing Rebecca Kline sits down with Sara Sutton, the <b>founder</b> and CEO of&nbsp;...",
+      "formattedUrl": "https://www.loom.com/blog/remote-work-revolution-sara-sutton",
+      "htmlFormattedUrl": "https://www.loom.com/blog/remote-work-revolution-sara-sutton",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_aucxWziKWs3yvXUzu4Pek9OqOfeWQmtt4mTmmqiaXE71LSJfZShRvoU&s",
+            "width": "318",
+            "height": "158"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://www.atlassian.com/blog/wp-content/uploads/2025/07/loom-blog-hero.png",
+            "og:type": "article",
+            "article:published_time": "2022-08-24T00:00:00+00:00",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Work Life by Atlassian",
+            "og:title": "How to take full advantage of the remote work revolution with Sara Sutton, founder and CEO of FlexJobs - Work Life by Atlassian",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "msapplication-tileimage": "https://atlassianblog.wpengine.com/wp-content/uploads/2017/10/android-chrome-256x256.png",
+            "og:description": "Episode 1 of See You At Work, where we interview thought leaders and industry experts to get their take on the evolution of the modern working world.",
+            "twitter:creator": "@Atlassian",
+            "article:publisher": "https://www.facebook.com/Atlassian",
+            "twitter:image": "https://www.atlassian.com/blog/wp-content/uploads/2025/07/loom-blog-hero.png",
+            "twitter:data1": "Sanam Shah",
+            "twitter:data2": "7 minutes",
+            "twitter:site": "@Atlassian",
+            "article:modified_time": "2025-06-25T14:00:33+00:00",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:locale": "en_US",
+            "og:url": "https://www.atlassian.com/blog/loom/remote-work-revolution-sara-sutton"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.atlassian.com/blog/wp-content/uploads/2025/07/loom-blog-hero.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "How the CEO of Loom uses Loom | Loom",
+      "htmlTitle": "How the CEO of Loom uses Loom | Loom",
+      "link": "https://www.loom.com/community/5bbdeb480ba84e65b1b3de8c190e2003-pg",
+      "displayLink": "www.loom.com",
+      "snippet": "I am the co-founder and CEO of loom, and I'm really, really happy you're here. I just want to take a minute to explain to you how I, as yo use loom a daily ...",
+      "htmlSnippet": "I am the co-<b>founder</b> and CEO of loom, and I&#39;m really, really happy you&#39;re here. I just want to take a minute to explain to you how I, as yo use loom a daily&nbsp;...",
+      "formattedUrl": "https://www.loom.com/.../5bbdeb480ba84e65b1b3de8c190e2003-pg",
+      "htmlFormattedUrl": "https://www.loom.com/.../5bbdeb480ba84e65b1b3de8c190e2003-pg",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2t_IbAn4dvxlQVCypY2fVTrgIOveS2tTQ0M_qyYXtOna7JaM7bFUoFPw&s",
+            "width": "300",
+            "height": "168"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://cdn.sanity.io/images/pvn35iyy/production/74d348fb150b2f37076655b04c36ddf68eed23d5-1200x675.png",
+            "twitter:title": "How the CEO of Loom uses Loom | Loom",
+            "twitter:card": "summary_large_image",
+            "og:type": "website",
+            "og:site_name": "Loom",
+            "twitter:domain": "www.loom.com",
+            "twitter:url": "https://www.loom.com/community/5bbdeb480ba84e65b1b3de8c190e2003-pg",
+            "og:title": "How the CEO of Loom uses Loom | Loom",
+            "og:description": "Joe, Loom's CEO, shares how he uses Loom daily for adding context, giving feedback, improving meetings, and building connections. Discover how Loom enhances communication at work.",
+            "twitter:image": "https://cdn.sanity.io/images/pvn35iyy/production/74d348fb150b2f37076655b04c36ddf68eed23d5-1200x675.png",
+            "next-head-count": "21",
+            "twitter:site": "@loom",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "Joe, Loom's CEO, shares how he uses Loom daily for adding context, giving feedback, improving meetings, and building connections. Discover how Loom enhances communication at work.",
+            "loom-environment": "production",
+            "og:url": "https://www.loom.com/community/5bbdeb480ba84e65b1b3de8c190e2003-pg"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.sanity.io/images/pvn35iyy/production/74d348fb150b2f37076655b04c36ddf68eed23d5-1200x675.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "How to Build Company Culture With Video Messages - Work Life by ...",
+      "htmlTitle": "How to Build Company Culture With Video Messages - Work Life by ...",
+      "link": "https://www.loom.com/blog/corporate-culture-videos",
+      "displayLink": "www.loom.com",
+      "snippet": "Nov 11, 2020 ... My Co-founder and our CTO, Vinay Hiremath, recorded this ridiculous video with Paulius to wish Senior Software Engineer (and diehard ...",
+      "htmlSnippet": "Nov 11, 2020 <b>...</b> My Co-<b>founder</b> and our CTO, Vinay Hiremath, recorded this ridiculous video with Paulius to wish Senior Software Engineer (and diehard&nbsp;...",
+      "formattedUrl": "https://www.loom.com/blog/corporate-culture-videos",
+      "htmlFormattedUrl": "https://www.loom.com/blog/corporate-culture-videos",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_aucxWziKWs3yvXUzu4Pek9OqOfeWQmtt4mTmmqiaXE71LSJfZShRvoU&s",
+            "width": "318",
+            "height": "158"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://www.atlassian.com/blog/wp-content/uploads/2025/07/loom-blog-hero.png",
+            "og:type": "article",
+            "article:published_time": "2020-11-11T08:00:00+00:00",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Work Life by Atlassian",
+            "og:title": "How to Build Company Culture With Video Messages - Work Life by Atlassian",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "msapplication-tileimage": "https://atlassianblog.wpengine.com/wp-content/uploads/2017/10/android-chrome-256x256.png",
+            "og:description": "Human, genuine, funny corporate culture videos help our team members stay connected and live our core values.",
+            "twitter:creator": "@Atlassian",
+            "article:publisher": "https://www.facebook.com/Atlassian",
+            "twitter:image": "https://www.atlassian.com/blog/wp-content/uploads/2025/07/loom-blog-hero.png",
+            "twitter:data1": "Joe Thomas",
+            "twitter:data2": "6 minutes",
+            "twitter:site": "@Atlassian",
+            "article:modified_time": "2025-06-25T14:00:49+00:00",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:locale": "en_US",
+            "og:url": "https://www.atlassian.com/blog/loom/corporate-culture-videos"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.atlassian.com/blog/wp-content/uploads/2025/07/loom-blog-hero.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "20:VC Podcast: 3 Key Rules To Operate Remote Teams ...",
+      "htmlTitle": "20:VC Podcast: 3 Key Rules To Operate Remote Teams ...",
+      "link": "https://www.loom.com/blog/successful-remote-teams",
+      "displayLink": "www.loom.com",
+      "snippet": "Aug 7, 2020 ... Co-Founder and Head of Product Management, Loom. Published ... Joe Thomas Co-Founder and Head of Product Management, Loom. Facebook ...",
+      "htmlSnippet": "Aug 7, 2020 <b>...</b> Co-<b>Founder</b> and Head of Product Management, Loom. Published ... Joe Thomas Co-<b>Founder</b> and Head of Product Management, Loom. Facebook&nbsp;...",
+      "formattedUrl": "https://www.loom.com/blog/successful-remote-teams",
+      "htmlFormattedUrl": "https://www.loom.com/blog/successful-remote-teams",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_aucxWziKWs3yvXUzu4Pek9OqOfeWQmtt4mTmmqiaXE71LSJfZShRvoU&s",
+            "width": "318",
+            "height": "158"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://www.atlassian.com/blog/wp-content/uploads/2025/07/loom-blog-hero.png",
+            "og:type": "article",
+            "article:published_time": "2020-08-07T07:00:00+00:00",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Work Life by Atlassian",
+            "og:title": "20:VC Podcast: 3 Key Rules To Operate Remote Teams Successfully - Work Life by Atlassian",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "msapplication-tileimage": "https://atlassianblog.wpengine.com/wp-content/uploads/2017/10/android-chrome-256x256.png",
+            "og:description": "Loom CEO Joe Thomas speaks with Harry Stebbings of The Twenty Minute VC about seed funding, VC selection, and effective remote teams.",
+            "twitter:creator": "@Atlassian",
+            "article:publisher": "https://www.facebook.com/Atlassian",
+            "twitter:image": "https://www.atlassian.com/blog/wp-content/uploads/2025/07/loom-blog-hero.png",
+            "twitter:data1": "Joe Thomas",
+            "twitter:data2": "1 minute",
+            "twitter:site": "@Atlassian",
+            "article:modified_time": "2025-06-25T14:00:53+00:00",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:locale": "en_US",
+            "og:url": "https://www.atlassian.com/blog/loom/successful-remote-teams"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.atlassian.com/blog/wp-content/uploads/2025/07/loom-blog-hero.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Why we raised a $30M Series B - Work Life by Atlassian",
+      "htmlTitle": "Why we raised a $30M Series B - Work Life by Atlassian",
+      "link": "https://www.loom.com/blog/why-we-raised-a-30m-series-b-from-sequoia",
+      "displayLink": "www.loom.com",
+      "snippet": "Nov 26, 2019 ... ... founder, Mathilde Collin. We couldn't be more grateful for their support. You might be asking yourself why we're raising again after closing ...",
+      "htmlSnippet": "Nov 26, 2019 <b>...</b> ... <b>founder</b>, Mathilde Collin. We couldn&#39;t be more grateful for their support. You might be asking yourself why we&#39;re raising again after closing&nbsp;...",
+      "formattedUrl": "https://www.loom.com/blog/why-we-raised-a-30m-series-b-from-sequoia",
+      "htmlFormattedUrl": "https://www.loom.com/blog/why-we-raised-a-30m-series-b-from-sequoia",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_aucxWziKWs3yvXUzu4Pek9OqOfeWQmtt4mTmmqiaXE71LSJfZShRvoU&s",
+            "width": "318",
+            "height": "158"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://www.atlassian.com/blog/wp-content/uploads/2025/07/loom-blog-hero.png",
+            "og:type": "article",
+            "article:published_time": "2019-11-26T08:00:00+00:00",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Work Life by Atlassian",
+            "og:title": "Why we raised a $30M Series B - Work Life by Atlassian",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "msapplication-tileimage": "https://atlassianblog.wpengine.com/wp-content/uploads/2017/10/android-chrome-256x256.png",
+            "og:description": "Information about Loom's $30 million Series B fundraising round, led by Andrew Reed of Sequoia.",
+            "twitter:creator": "@Atlassian",
+            "article:publisher": "https://www.facebook.com/Atlassian",
+            "twitter:image": "https://www.atlassian.com/blog/wp-content/uploads/2025/07/loom-blog-hero.png",
+            "twitter:data1": "Joe Thomas",
+            "twitter:data2": "6 minutes",
+            "twitter:site": "@Atlassian",
+            "article:modified_time": "2025-06-25T14:00:58+00:00",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:locale": "en_US",
+            "og:url": "https://www.atlassian.com/blog/loom/why-we-raised-a-30m-series-b-from-sequoia"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.atlassian.com/blog/wp-content/uploads/2025/07/loom-blog-hero.png"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - \"Flutter\" founders",
+        "totalResults": "4400000",
+        "searchTerms": "\"Flutter\" founders",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - \"Flutter\" founders",
+        "totalResults": "4400000",
+        "searchTerms": "\"Flutter\" founders",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ]
+  },
+  "context": {
+    "title": "startup-ecosystem-intelligence"
+  },
+  "searchInformation": {
+    "searchTime": 0.15402,
+    "formattedSearchTime": "0.15",
+    "totalResults": "4400000",
+    "formattedTotalResults": "4,400,000"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "Flutter (software) - Wikipedia",
+      "htmlTitle": "<b>Flutter</b> (software) - Wikipedia",
+      "link": "https://en.wikipedia.org/wiki/Flutter_(software)",
+      "displayLink": "en.wikipedia.org",
+      "snippet": "Flutter is an open-source UI software development kit created by Google. It can be used to develop cross platform applications from a single codebase for ...",
+      "htmlSnippet": "<b>Flutter</b> is an open-source UI software development kit created by Google. It can be used to develop cross platform applications from a single codebase for&nbsp;...",
+      "formattedUrl": "https://en.wikipedia.org/wiki/Flutter_(software)",
+      "htmlFormattedUrl": "https://en.wikipedia.org/wiki/<b>Flutter</b>_(software)",
+      "pagemap": {
+        "metatags": [
+          {
+            "referrer": "origin",
+            "theme-color": "#eaecf0",
+            "og:type": "website",
+            "viewport": "width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0",
+            "og:title": "Flutter (software) - Wikipedia",
+            "format-detection": "telephone=no"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "As a solo flutter founder, I'm scared of disappointing early users : r ...",
+      "htmlTitle": "As a solo <b>flutter founder</b>, I&#39;m scared of disappointing early users : r ...",
+      "link": "https://www.reddit.com/r/FlutterDev/comments/1kh3at8/as_a_solo_flutter_founder_im_scared_of/",
+      "displayLink": "www.reddit.com",
+      "snippet": "May 7, 2025 ... As a solo flutter founder, I'm scared of disappointing early users. Discussion. Hi all, I'm building a b2b mobile app as a solo founder. I ...",
+      "htmlSnippet": "May 7, 2025 <b>...</b> As a solo <b>flutter founder</b>, I&#39;m scared of disappointing early users. Discussion. Hi all, I&#39;m building a b2b mobile app as a solo founder. I&nbsp;...",
+      "formattedUrl": "https://www.reddit.com/.../FlutterDev/.../as_a_solo_flutter_founder_im_scar...",
+      "htmlFormattedUrl": "https://www.reddit.com/.../<b>Flutter</b>Dev/.../as_a_solo_<b>flutter</b>_founder_im_scar...",
+      "pagemap": {
+        "metatags": [
+          {
+            "og:image": "https://share.redd.it/preview/post/1kh3at8",
+            "theme-color": "#000000",
+            "og:image:width": "1200",
+            "og:type": "website",
+            "og:image:alt": "An image containing a preview of the post",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "r/FlutterDev on Reddit: As a solo flutter founder, I’m scared of disappointing early users",
+            "og:site_name": "Reddit",
+            "og:title": "r/FlutterDev on Reddit: As a solo flutter founder, I’m scared of disappointing early users",
+            "og:image:height": "630",
+            "msapplication-navbutton-color": "#000000",
+            "og:description": "Posted by u/United_Confidence394 - 65 votes and 28 comments",
+            "twitter:image": "https://share.redd.it/preview/post/1kh3at8",
+            "apple-mobile-web-app-status-bar-style": "black",
+            "twitter:site": "@reddit",
+            "viewport": "width=device-width, initial-scale=1, viewport-fit=cover",
+            "apple-mobile-web-app-capable": "yes",
+            "og:ttl": "600",
+            "og:url": "https://www.reddit.com/r/FlutterDev/comments/1kh3at8/as_a_solo_flutter_founder_im_scared_of/?seeker-session=true"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Flutter (American company) - Wikipedia",
+      "htmlTitle": "<b>Flutter</b> (American company) - Wikipedia",
+      "link": "https://en.wikipedia.org/wiki/Flutter_(American_company)",
+      "displayLink": "en.wikipedia.org",
+      "snippet": "Flutter is a gesture recognition technology startup based in San Francisco, California, United States. Founded by Navneet Dalal and Mehul Nariyawala, ...",
+      "htmlSnippet": "<b>Flutter</b> is a gesture recognition technology startup based in San Francisco, California, United States. Founded by Navneet Dalal and Mehul Nariyawala,&nbsp;...",
+      "formattedUrl": "https://en.wikipedia.org/wiki/Flutter_(American_company)",
+      "htmlFormattedUrl": "https://en.wikipedia.org/wiki/<b>Flutter</b>_(American_company)",
+      "pagemap": {
+        "hcard": [
+          {
+            "url_text": "flutterapp.com",
+            "bday": "2010",
+            "fn": "Flutter Ltd.",
+            "category": "Subsidiary",
+            "url": "flutterapp.com"
+          }
+        ],
+        "metatags": [
+          {
+            "referrer": "origin",
+            "theme-color": "#eaecf0",
+            "og:type": "website",
+            "viewport": "width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0",
+            "og:title": "Flutter (American company) - Wikipedia",
+            "format-detection": "telephone=no"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Interview with the Creator of Flutter — Eric Seidel : r/FlutterDev",
+      "htmlTitle": "Interview with the Creator of <b>Flutter</b> — Eric Seidel : r/FlutterDev",
+      "link": "https://www.reddit.com/r/FlutterDev/comments/1kdy95d/interview_with_the_creator_of_flutter_eric_seidel/",
+      "displayLink": "www.reddit.com",
+      "snippet": "May 3, 2025 ... Just had the chance to chat with Eric Seidel, co-founder of Flutter. We talked about his new company Shorebird, the early days of Flutter at Google, and of ...",
+      "htmlSnippet": "May 3, 2025 <b>...</b> Just had the chance to chat with <b>Eric Seidel</b>, co-<b>founder</b> of <b>Flutter</b>. We talked about his new company Shorebird, the early days of <b>Flutter</b> at Google, and of&nbsp;...",
+      "formattedUrl": "https://www.reddit.com/.../FlutterDev/.../interview_with_the_creator_of_flu...",
+      "htmlFormattedUrl": "https://www.reddit.com/.../<b>Flutter</b>Dev/.../interview_with_the_creator_of_<b>flu</b>...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3VakpHSl3FPZRO-5nOnl4nBlYOGh3Z3DcCconyxEabxPzhD5mT_3IoZxJ&s",
+            "width": "259",
+            "height": "194"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://external-preview.redd.it/interview-with-the-creator-of-flutter-eric-seidel-v0-w3ao4mf9H-KvOTTGnEHX4UE4G2AMvzTZXYUNtYBnsa4.jpg?format=pjpg&auto=webp&s=4ee06b1c632d8eb5dcd3d1ff49ae8312fd1c0cda",
+            "theme-color": "#000000",
+            "og:image:width": "480",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "r/FlutterDev on Reddit: Interview with the Creator of Flutter — Eric Seidel",
+            "og:site_name": "Reddit",
+            "og:title": "r/FlutterDev on Reddit: Interview with the Creator of Flutter — Eric Seidel",
+            "og:image:height": "360",
+            "msapplication-navbutton-color": "#000000",
+            "og:description": "Posted by u/svprdga - 39 votes and 5 comments",
+            "twitter:image": "https://external-preview.redd.it/interview-with-the-creator-of-flutter-eric-seidel-v0-w3ao4mf9H-KvOTTGnEHX4UE4G2AMvzTZXYUNtYBnsa4.jpg?format=pjpg&auto=webp&s=4ee06b1c632d8eb5dcd3d1ff49ae8312fd1c0cda",
+            "apple-mobile-web-app-status-bar-style": "black",
+            "twitter:site": "@reddit",
+            "viewport": "width=device-width, initial-scale=1, viewport-fit=cover",
+            "apple-mobile-web-app-capable": "yes",
+            "og:ttl": "600",
+            "og:url": "https://www.reddit.com/r/FlutterDev/comments/1kdy95d/interview_with_the_creator_of_flutter_eric_seidel/?seeker-session=true"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://external-preview.redd.it/interview-with-the-creator-of-flutter-eric-seidel-v0-w3ao4mf9H-KvOTTGnEHX4UE4G2AMvzTZXYUNtYBnsa4.jpg?format=pjpg&auto=webp&s=4ee06b1c632d8eb5dcd3d1ff49ae8312fd1c0cda"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Executive committee | Flutter Entertainment",
+      "htmlTitle": "Executive committee | <b>Flutter</b> Entertainment",
+      "link": "https://www.flutter.com/about-us/leadership/executive-committee/",
+      "displayLink": "www.flutter.com",
+      "snippet": "Executive committee ; Dan Taylor. Chief Executive Officer – Flutter International ; Phil Bishop. Chief Operating Officer ; Don Liu. Chief Legal Officer.",
+      "htmlSnippet": "Executive committee ; Dan Taylor. Chief Executive Officer – <b>Flutter</b> International ; Phil Bishop. Chief Operating Officer ; Don Liu. Chief Legal Officer.",
+      "formattedUrl": "https://www.flutter.com/about-us/leadership/executive-committee/",
+      "htmlFormattedUrl": "https://www.<b>flutter</b>.com/about-us/leadership/executive-committee/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe-O2wQpeOBfq9PjedJY61nWcKBHLhaPpA1QR1bSqItvPkTsT9ZQLM5g&s",
+            "width": "402",
+            "height": "125"
+          }
+        ],
+        "metatags": [
+          {
+            "msapplication-tilecolor": "#da532c",
+            "og:image": "https://www.flutter.com/media/3geexhvc/exec-committee-banner-2-1920x600.jpg",
+            "theme-color": "#ffffff",
+            "og:type": "website",
+            "twitter:title": "Executive committee",
+            "og:site_name": "Flutter Entertainment",
+            "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=2",
+            "twitter:url": "https://www.flutter.com/about-us/leadership/executive-committee/",
+            "og:title": "Executive committee",
+            "og:url": "https://www.flutter.com/about-us/leadership/executive-committee/",
+            "og:description": "Find out more about Flutter’s executive leadership team including previous roles, skills, and experience.",
+            "twitter:image": "https://www.flutter.com/media/3geexhvc/exec-committee-banner-2-1920x600.jpg"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.flutter.com/media/3geexhvc/exec-committee-banner-2-1920x600.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Flutter founder here. When I led the Google team we had pretty good ...",
+      "htmlTitle": "<b>Flutter founder</b> here. When I led the Google team we had pretty good ...",
+      "link": "https://news.ycombinator.com/item?id=41975320",
+      "displayLink": "news.ycombinator.com",
+      "snippet": "My point was you just can't count SDK downloads as developers. Is every CI/CD pipeline a developer ? The founder of Flutter who posted that stat has a startup ...",
+      "htmlSnippet": "My point was you just can&#39;t count SDK downloads as developers. Is every CI/CD pipeline a developer ? The <b>founder</b> of <b>Flutter</b> who posted that stat has a startup&nbsp;...",
+      "formattedUrl": "https://news.ycombinator.com/item?id=41975320",
+      "htmlFormattedUrl": "https://news.ycombinator.com/item?id=41975320",
+      "pagemap": {
+        "metatags": [
+          {
+            "referrer": "origin",
+            "viewport": "width=device-width, initial-scale=1.0"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "I'm overjoyed to introduce Sabrina Persaud, founder of Flutter Butter ...",
+      "htmlTitle": "I&#39;m overjoyed to introduce Sabrina Persaud, <b>founder</b> of <b>Flutter</b> Butter ...",
+      "link": "https://www.instagram.com/p/C_isfnpPJRK/",
+      "displayLink": "www.instagram.com",
+      "snippet": "Sep 5, 2024 ... 177 likes, 45 comments - raisinsandporcupines on September 5, 2024: \"I'm overjoyed to introduce Sabrina Persaud, founder of Flutter Butter ...",
+      "htmlSnippet": "Sep 5, 2024 <b>...</b> 177 likes, 45 comments - raisinsandporcupines on September 5, 2024: &quot;I&#39;m overjoyed to introduce Sabrina Persaud, <b>founder</b> of <b>Flutter</b> Butter&nbsp;...",
+      "formattedUrl": "https://www.instagram.com/p/C_isfnpPJRK/",
+      "htmlFormattedUrl": "https://www.instagram.com/p/C_isfnpPJRK/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlILxIP4agbfD4ip9sNM7fQ4SmLXeFjW2Y5Sz3oveK7UPp97P7A96kLuM&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3450515943157872670",
+            "theme-color": "#FFFFFF",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Instagram",
+            "application-title": "Instagram",
+            "al:android:package": "com.instagram.android",
+            "bingbot": "noarchive",
+            "medium": "image",
+            "al:ios:url": "instagram://media?id=3450515951437255754",
+            "og:description": "177 likes, 45 comments - raisinsandporcupines on September 5, 2024: \"I’m overjoyed to introduce Sabrina Persaud, founder of Flutter Butter Bakery and host of the @feastandheal podcast. This Ottawa, Canada, native is spreading joy throughout NYC in the form of gluten free baked goods. From a young age, Sabrina has always loved baking 👩🏽‍🍳\n\nA Celiac diagnosis in her mid-20s pushed Sabrina to rethink her approach in the kitchen. She started experimenting with different gluten free flours to optimize flavor and texture✨Sabrina is passionate about making everyone feel welcome around the table. Given her innate entrepreneurial spirit, it was only natural for her to build a bakery around this mission.\n\nIf you’re in NYC, be sure to check out Flutter Butter Bakery. Even if you do not have a gluten allergy, you can enjoy Sabrina’s delicious baked goods 💕 I am excited to build community with amazing founders like Sabrina!\n\n#femalefounders #glutenfree #celiac #bakery #smallbusiness #nyc #launch #wel",
+            "twitter:image": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3450515943157872670",
+            "al:ios:app_store_id": "389801252",
+            "twitter:site": "@instagram",
+            "instapp:owner_user_id": "37486123512",
+            "og:type": "article",
+            "twitter:title": "Together We Well (@raisinsandporcupines) • Instagram photos and videos",
+            "al:ios:app_name": "Instagram",
+            "og:title": "Together We Well on Instagram: \"I’m overjoyed to introduce Sabrina Persaud, founder of Flutter Butter Bakery and host of the @feastandheal podcast. This Ottawa, Canada, native is spreading joy throughout NYC in the form of gluten free baked goods. From a young age, Sabrina has always loved baking 👩🏽‍🍳\n\nA Celiac diagnosis in her mid-20s pushed Sabrina to rethink her approach in the kitchen. She started experimenting with different gluten free flours to optimize flavor and texture✨Sabrina is passionate about making everyone feel welcome around the table. Given her innate entrepreneurial spirit, it was only natural for her to build a bakery around this mission.\n\nIf you’re in NYC, be sure to check out Flutter Butter Bakery. Even if you do not have a gluten allergy, you can enjoy Sabrina’s delicious baked goods 💕 I am excited to build community with amazing founders like Sabrina!\n\n#femalefounders #glutenfree #celiac #bakery #smallbusiness #nyc #launch #wellness #residency\"",
+            "twitter:maxage": "86400",
+            "color-scheme": "light",
+            "al:android:url": "https://www.instagram.com/p/C_isfnpPJRK/",
+            "fb:app_id": "124024574287414",
+            "apple-mobile-web-app-status-bar-style": "default",
+            "viewport": "width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover",
+            "mobile-web-app-capable": "yes",
+            "og:url": "https://www.instagram.com/p/C_isfnpPJRK/",
+            "al:android:app_name": "Instagram"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3450515943157872670"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Flutter Founder here. If you ever have any concerns re: Flutter ...",
+      "htmlTitle": "<b>Flutter Founder</b> here. If you ever have any concerns re: Flutter ...",
+      "link": "https://news.ycombinator.com/item?id=41975525",
+      "displayLink": "news.ycombinator.com",
+      "snippet": "> Flutter Founder here. Flutter was a company acquired ala Firebase? Always thought it was a project (like Golang) incubated by/for/at Google.",
+      "htmlSnippet": "&gt; <b>Flutter Founder</b> here. Flutter was a company acquired ala Firebase? Always thought it was a project (like Golang) incubated by/for/at Google.",
+      "formattedUrl": "https://news.ycombinator.com/item?id=41975525",
+      "htmlFormattedUrl": "https://news.ycombinator.com/item?id=41975525",
+      "pagemap": {
+        "metatags": [
+          {
+            "referrer": "origin",
+            "viewport": "width=device-width, initial-scale=1.0"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "A founder told me they got 300 applications for a Flutter role. | Simon ...",
+      "htmlTitle": "A <b>founder</b> told me they got 300 applications for a <b>Flutter</b> role. | Simon ...",
+      "link": "https://www.linkedin.com/posts/simonmonaghan_a-founder-told-me-they-got-300-applications-activity-7354481148116230145-VuAn",
+      "displayLink": "www.linkedin.com",
+      "snippet": "Jul 25, 2025 ... Simon Monaghan's Post. View profile for Simon Monaghan · Simon Monaghan. Helping startups hire Flutter Devs who build and ship like Founders.",
+      "htmlSnippet": "Jul 25, 2025 <b>...</b> Simon Monaghan&#39;s Post. View profile for Simon Monaghan &middot; Simon Monaghan. Helping startups hire <b>Flutter</b> Devs who build and ship like <b>Founders</b>.",
+      "formattedUrl": "https://www.linkedin.com/.../simonmonaghan_a-founder-told-me-they-got-...",
+      "htmlFormattedUrl": "https://www.linkedin.com/.../simonmonaghan_a-founder-told-me-they-got-...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReZZwU-Nj7Psst_HLlTt1mnnJPzL2RWdkIan0Ee9L-u1pereMyh2NU5lc&s",
+            "width": "297",
+            "height": "170"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+            "twitter:title": "A founder told me they got 300 applications for a Flutter role. | Simon Monaghan",
+            "twitter:card": "summary_large_image",
+            "og:type": "article",
+            "al:ios:app_name": "LinkedIn",
+            "twitter:url": "https://www.linkedin.com/posts/simonmonaghan_a-founder-told-me-they-got-300-applications-activity-7354481148116230145-VuAn",
+            "og:title": "A founder told me they got 300 applications for a Flutter role. | Simon Monaghan",
+            "al:android:package": "com.linkedin.android",
+            "pagekey": "p_public_post",
+            "locale": "en_US",
+            "al:ios:url": "https://www.linkedin.com/posts/simonmonaghan_a-founder-told-me-they-got-300-applications-activity-7354481148116230145-VuAn",
+            "og:description": "A founder told me they got 300 applications for a Flutter role.\nNone made it past round one.\n\nNot because the bar was too high.\nBecause too many people are good at applying, not building.\n\nThat’s why I don’t wait for inbound.\nI go straight to the ones already shipping. | 19 comments on LinkedIn",
+            "al:ios:app_store_id": "288429040",
+            "twitter:image": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7",
+            "al:android:url": "https://www.linkedin.com/posts/simonmonaghan_a-founder-told-me-they-got-300-applications-activity-7354481148116230145-VuAn",
+            "lnkd:url": "https://www.linkedin.com/feed/update/urn:li:activity:7354481148116230145",
+            "twitter:site": "@linkedin",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "twitter:description": "A founder told me they got 300 applications for a Flutter role.\nNone made it past round one.\n\nNot because the bar was too high.\nBecause too many people are good at applying, not building.\n\nThat’s why I don’t wait for inbound.\nI go straight to the ones already shipping. | 19 comments on LinkedIn",
+            "og:url": "https://www.linkedin.com/posts/simonmonaghan_a-founder-told-me-they-got-300-applications-activity-7354481148116230145-VuAn",
+            "al:android:app_name": "LinkedIn"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://static.licdn.com/aero-v1/sc/h/c45fy346jw096z9pbphyyhdz7"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Top Flutter MVP Agencies for Startup Founders",
+      "htmlTitle": "Top <b>Flutter</b> MVP Agencies for Startup <b>Founders</b>",
+      "link": "https://www.ptolemay.com/post/top-flutter-mvp-agencies-for-startup-founders",
+      "displayLink": "www.ptolemay.com",
+      "snippet": "Top Flutter MVP Agencies for Startup Founders. Olga Gubanova. -. August 1, 2025. Why a Startup-First Flutter MVP Development Ranking? How We Built This Ranking ...",
+      "htmlSnippet": "Top <b>Flutter</b> MVP Agencies for Startup <b>Founders</b>. Olga Gubanova. -. August 1, 2025. Why a Startup-First <b>Flutter</b> MVP Development Ranking? How We Built This Ranking&nbsp;...",
+      "formattedUrl": "https://www.ptolemay.com/.../top-flutter-mvp-agencies-for-startup-founder...",
+      "htmlFormattedUrl": "https://www.ptolemay.com/.../top-<b>flutter</b>-mvp-agencies-for-startup-<b>founder</b>...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ_F8ffRQHiwTQlc8FPNo_zylAobvMl3SC1Ovsbr8QrAJQ49-ZIHfE1Ri5&s",
+            "width": "275",
+            "height": "183"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://cdn.prod.website-files.com/6377bf360873283fad488724/680b1148a71a911f1b503c7f_top-flutter-mvp-agencies-startup-founders-cover.png",
+            "twitter:title": "2025’s Best Flutter MVP Agencies — Ranked by Speed, Funding & Price",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "We ranked top Flutter MVP agencies by real launch speed, budgets under $70K, and client funding success — no ads, no fluff, just open-source data.",
+            "og:title": "2025’s Best Flutter MVP Agencies — Ranked by Speed, Funding & Price",
+            "og:description": "We ranked top Flutter MVP agencies by real launch speed, budgets under $70K, and client funding success — no ads, no fluff, just open-source data.",
+            "twitter:image": "https://cdn.prod.website-files.com/6377bf360873283fad488724/680b1148a71a911f1b503c7f_top-flutter-mvp-agencies-startup-founders-cover.png"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.prod.website-files.com/6377bf360873283fad488724/680b1148a71a911f1b503c7f_top-flutter-mvp-agencies-startup-founders-cover.png"
+          }
+        ]
+      }
+    }
+  ]
+}

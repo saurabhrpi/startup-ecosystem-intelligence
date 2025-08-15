@@ -1,0 +1,517 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - \"AgileMD\" founders",
+        "totalResults": "586",
+        "searchTerms": "\"AgileMD\" founders",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - \"AgileMD\" founders",
+        "totalResults": "586",
+        "searchTerms": "\"AgileMD\" founders",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ]
+  },
+  "context": {
+    "title": "startup-ecosystem-intelligence"
+  },
+  "searchInformation": {
+    "searchTime": 0.209804,
+    "formattedSearchTime": "0.21",
+    "totalResults": "586",
+    "formattedTotalResults": "586"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "AgileMD: Predictive analytics and clinical pathways for hospitals | Y ...",
+      "htmlTitle": "<b>AgileMD</b>: Predictive analytics and clinical pathways for hospitals | Y ...",
+      "link": "https://www.ycombinator.com/companies/agilemd",
+      "displayLink": "www.ycombinator.com",
+      "snippet": "Borna is the co-founder and CEO of AgileMD, a digital health startup reinventing how clinical predictive analytics and decision support help physicians at the ...",
+      "htmlSnippet": "Borna is the co-<b>founder</b> and CEO of <b>AgileMD</b>, a digital health startup reinventing how clinical predictive analytics and decision support help physicians at the&nbsp;...",
+      "formattedUrl": "https://www.ycombinator.com/companies/agilemd",
+      "htmlFormattedUrl": "https://www.ycombinator.com/companies/<b>agilemd</b>",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_jlx_ttcDqicgZBVs0DjrnlFIWkOUPYZ1SvaiGlEZzk4B6xRiqshYu3_C&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "image": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/631308e89ceea87795e92486bc1dea7a887790f1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAEVKHIB64%2F20250812%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250812T024724Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEML%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIBxydkASKYE9NOK1j%2FQfIydLyEX2tlWnq3w0aNJCig4dAiApsPF54pPuIAuemFutTSWYRCMR5UwlrPyBvUgm4SW78CruAwj7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDAwNjIwMTgxMTA3MiIM6iBPqrkU%2B3IeIphEKsID9f3vew0%2BtE2fjZr6YN5drV8fQ6Q1XYM9S7%2B%2BzjmdTgfrgd6qeh%2FCkfXkvg4lHuebVJq98ZkEPsK5r6MHtjasNBJWWF70%2B5nIQZQX64MtxrwKPnw8OZHdw%2BRQJcezFe4J77i7uPoKGiRnt8R6khcvfLOs%2Fd3uZxOc1ztFG14PwWVBhXv77RVidf%2BM7XdXl32CJk3t6UDEiwev8m4mgiVtciSRt%2FyXYgQP6x%2Bt7Ez5q4WBYiIWKPTdPcy%2BZL5MpIbNn8GBJOCuP8pguIfsT8SBnP%2BMfF3lCdka8JjVdnc%2FR6s2ZBTVP1reszDZ6iyiyY5wFF%2Fl4ogKsqmXHKW1HLtJgbzhWv6nu%2BLHyp22PzZ7x7n6nVPo280Vq7wHTfnIJpxS6HNyHLndiNE%2FNeMAR5FSHHjkNvX9LWeZQZ6NMUP3S4VJEqFsX2CRM8H5TDa%2Bp4pkDcSolqxZLx",
+            "og:image": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/631308e89ceea87795e92486bc1dea7a887790f1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAEVKHIB64%2F20250812%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250812T024724Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEML%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIBxydkASKYE9NOK1j%2FQfIydLyEX2tlWnq3w0aNJCig4dAiApsPF54pPuIAuemFutTSWYRCMR5UwlrPyBvUgm4SW78CruAwj7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDAwNjIwMTgxMTA3MiIM6iBPqrkU%2B3IeIphEKsID9f3vew0%2BtE2fjZr6YN5drV8fQ6Q1XYM9S7%2B%2BzjmdTgfrgd6qeh%2FCkfXkvg4lHuebVJq98ZkEPsK5r6MHtjasNBJWWF70%2B5nIQZQX64MtxrwKPnw8OZHdw%2BRQJcezFe4J77i7uPoKGiRnt8R6khcvfLOs%2Fd3uZxOc1ztFG14PwWVBhXv77RVidf%2BM7XdXl32CJk3t6UDEiwev8m4mgiVtciSRt%2FyXYgQP6x%2Bt7Ez5q4WBYiIWKPTdPcy%2BZL5MpIbNn8GBJOCuP8pguIfsT8SBnP%2BMfF3lCdka8JjVdnc%2FR6s2ZBTVP1reszDZ6iyiyY5wFF%2Fl4ogKsqmXHKW1HLtJgbzhWv6nu%2BLHyp22PzZ7x7n6nVPo280Vq7wHTfnIJpxS6HNyHLndiNE%2FNeMAR5FSHHjkNvX9LWeZQZ6NMUP3S4VJEqFsX2CRM8H5TDa%2Bp4pkDcSolqxZLx",
+            "twitter:card": "summary_large_image",
+            "og:type": "website",
+            "og:site_name": "Y Combinator",
+            "og:image:url": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/631308e89ceea87795e92486bc1dea7a887790f1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAEVKHIB64%2F20250812%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250812T024724Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEML%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIBxydkASKYE9NOK1j%2FQfIydLyEX2tlWnq3w0aNJCig4dAiApsPF54pPuIAuemFutTSWYRCMR5UwlrPyBvUgm4SW78CruAwj7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDAwNjIwMTgxMTA3MiIM6iBPqrkU%2B3IeIphEKsID9f3vew0%2BtE2fjZr6YN5drV8fQ6Q1XYM9S7%2B%2BzjmdTgfrgd6qeh%2FCkfXkvg4lHuebVJq98ZkEPsK5r6MHtjasNBJWWF70%2B5nIQZQX64MtxrwKPnw8OZHdw%2BRQJcezFe4J77i7uPoKGiRnt8R6khcvfLOs%2Fd3uZxOc1ztFG14PwWVBhXv77RVidf%2BM7XdXl32CJk3t6UDEiwev8m4mgiVtciSRt%2FyXYgQP6x%2Bt7Ez5q4WBYiIWKPTdPcy%2BZL5MpIbNn8GBJOCuP8pguIfsT8SBnP%2BMfF3lCdka8JjVdnc%2FR6s2ZBTVP1reszDZ6iyiyY5wFF%2Fl4ogKsqmXHKW1HLtJgbzhWv6nu%2BLHyp22PzZ7x7n6nVPo280Vq7wHTfnIJpxS6HNyHLndiNE%2FNeMAR5FSHHjkNvX9LWeZQZ6NMUP3S4VJEqFsX2CRM8H5TDa%2Bp4pkDcSolqxZLx",
+            "og:title": "AgileMD: Predictive analytics and clinical pathways for hospitals  | Y Combinator",
+            "csrf-param": "authenticity_token",
+            "title": "AgileMD: Predictive analytics and clinical pathways for hospitals",
+            "og:description": "Predictive analytics and clinical pathways for hospitals . Founded in 2011 by Borna Safabakhsh, AgileMD has 18 employees based in San Francisco, CA, USA. AgileMD is hiring for 2 roles in engineering and science.",
+            "twitter:image": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/631308e89ceea87795e92486bc1dea7a887790f1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAEVKHIB64%2F20250812%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250812T024724Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEML%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIBxydkASKYE9NOK1j%2FQfIydLyEX2tlWnq3w0aNJCig4dAiApsPF54pPuIAuemFutTSWYRCMR5UwlrPyBvUgm4SW78CruAwj7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDAwNjIwMTgxMTA3MiIM6iBPqrkU%2B3IeIphEKsID9f3vew0%2BtE2fjZr6YN5drV8fQ6Q1XYM9S7%2B%2BzjmdTgfrgd6qeh%2FCkfXkvg4lHuebVJq98ZkEPsK5r6MHtjasNBJWWF70%2B5nIQZQX64MtxrwKPnw8OZHdw%2BRQJcezFe4J77i7uPoKGiRnt8R6khcvfLOs%2Fd3uZxOc1ztFG14PwWVBhXv77RVidf%2BM7XdXl32CJk3t6UDEiwev8m4mgiVtciSRt%2FyXYgQP6x%2Bt7Ez5q4WBYiIWKPTdPcy%2BZL5MpIbNn8GBJOCuP8pguIfsT8SBnP%2BMfF3lCdka8JjVdnc%2FR6s2ZBTVP1reszDZ6iyiyY5wFF%2Fl4ogKsqmXHKW1HLtJgbzhWv6nu%2BLHyp22PzZ7x7n6nVPo280Vq7wHTfnIJpxS6HNyHLndiNE%2FNeMAR5FSHHjkNvX9LWeZQZ6NMUP3S4VJEqFsX2CRM8H5TDa%2Bp4pkDcSolqxZLx",
+            "og:image:secure_url": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/631308e89ceea87795e92486bc1dea7a887790f1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAEVKHIB64%2F20250812%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250812T024724Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEML%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIBxydkASKYE9NOK1j%2FQfIydLyEX2tlWnq3w0aNJCig4dAiApsPF54pPuIAuemFutTSWYRCMR5UwlrPyBvUgm4SW78CruAwj7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDAwNjIwMTgxMTA3MiIM6iBPqrkU%2B3IeIphEKsID9f3vew0%2BtE2fjZr6YN5drV8fQ6Q1XYM9S7%2B%2BzjmdTgfrgd6qeh%2FCkfXkvg4lHuebVJq98ZkEPsK5r6MHtjasNBJWWF70%2B5nIQZQX64MtxrwKPnw8OZHdw%2BRQJcezFe4J77i7uPoKGiRnt8R6khcvfLOs%2Fd3uZxOc1ztFG14PwWVBhXv77RVidf%2BM7XdXl32CJk3t6UDEiwev8m4mgiVtciSRt%2FyXYgQP6x%2Bt7Ez5q4WBYiIWKPTdPcy%2BZL5MpIbNn8GBJOCuP8pguIfsT8SBnP%2BMfF3lCdka8JjVdnc%2FR6s2ZBTVP1reszDZ6iyiyY5wFF%2Fl4ogKsqmXHKW1HLtJgbzhWv6nu%2BLHyp22PzZ7x7n6nVPo280Vq7wHTfnIJpxS6HNyHLndiNE%2FNeMAR5FSHHjkNvX9LWeZQZ6NMUP3S4VJEqFsX2CRM8H5TDa%2Bp4pkDcSolqxZLx",
+            "twitter:site": "@ycombinator",
+            "viewport": "initial-scale=1, width=device-width, height=device-height",
+            "csrf-token": "5LiWYetyJYkfX9_hoLfC0T9rNpOaGf7oThA-hg--GmdCTLyk8rDySdAN2wmOX1V4jxTGl2KOaSqV_8H7qQjsCA",
+            "og:locale": "en_US",
+            "og:url": "https://www.ycombinator.com/companies/agilemd"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "x-raw-image:///7481412385fe6d0f7d4a3339d90fe12309432ca41983e8d350b232301d5d8684"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "AgileMD in the News",
+      "htmlTitle": "<b>AgileMD</b> in the News",
+      "link": "https://www.agilemd.com/news",
+      "displayLink": "www.agilemd.com",
+      "snippet": "Priti Patel, Chief Medical Information Officer at John Muir Health, and Borna Safabakhsh, Co-founder and CEO of AgileMD discuss how the eCART early warning ...",
+      "htmlSnippet": "Priti Patel, Chief Medical Information Officer at John Muir Health, and Borna Safabakhsh, Co-<b>founder</b> and CEO of <b>AgileMD</b> discuss how the eCART early warning&nbsp;...",
+      "formattedUrl": "https://www.agilemd.com/news",
+      "htmlFormattedUrl": "https://www.<b>agilemd</b>.com/news",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGsAIgdtP4ZqW37sZowA3K4NciQzU6I4k9Cd3hUMuVEPOs5-hO15IPHc2q&s",
+            "width": "308",
+            "height": "163"
+          }
+        ],
+        "metatags": [
+          {
+            "twitter:title": "News",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "AgileMD in the News",
+            "og:title": "News",
+            "og:description": "AgileMD in the News"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.prod.website-files.com/62d742c41f3f8d248213c18b/68557cbb9d265ae4eefe9be6_25.06.20_AVIA%20JMH%20Title%20Slide.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Born at UChicago, AgileMD Takes Strides to Expand Healthcare ...",
+      "htmlTitle": "Born at UChicago, <b>AgileMD</b> Takes Strides to Expand Healthcare ...",
+      "link": "https://polsky.uchicago.edu/2024/06/28/agilemd-fda-clearance/",
+      "displayLink": "polsky.uchicago.edu",
+      "snippet": "Jun 28, 2024 ... Speaking to the importance of the FDA clearance, Borna Safabakhsh, MBA '11, cofounder and CEO of AgileMD, noted industry attention on where and ...",
+      "htmlSnippet": "Jun 28, 2024 <b>...</b> Speaking to the importance of the FDA clearance, Borna Safabakhsh, MBA &#39;11, cofounder and CEO of <b>AgileMD</b>, noted industry attention on where and&nbsp;...",
+      "formattedUrl": "https://polsky.uchicago.edu/2024/06/28/agilemd-fda-clearance/",
+      "htmlFormattedUrl": "https://polsky.uchicago.edu/2024/06/28/<b>agilemd</b>-fda-clearance/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwuZZedH5QXRbvQeDTPQWKZd1XPLE7KJKeHsYBzwg9mpAgG9TCDXBi9ng&s",
+            "width": "308",
+            "height": "163"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://polsky.uchicago.edu/wp-content/uploads/2024/06/Clinician-Desk_Detail-View.png",
+            "theme-color": "#ffffff",
+            "article:published_time": "2024-06-28T16:49:18+00:00",
+            "twitter:card": "summary_large_image",
+            "og:image:width": "800",
+            "og:site_name": "Polsky Center for Entrepreneurship and Innovation -",
+            "tec-api-origin": "https://polsky.uchicago.edu",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "og:image:type": "image/png",
+            "msapplication-tileimage": "https://polsky.uchicago.edu/wp-content/uploads/2019/04/cropped-Polsky-Color-270x270.png",
+            "og:description": "Founded at the University of Chicago by business school students at Booth and physician-researchers at the hospital, AgileMD has announced significant steps in expanding the adoption of its AI-powered software – and its mission to improve healthcare with technology. The company’s software as a medical device uses a machine learning algorithm to continuously assess patient",
+            "twitter:creator": "@polskycenter",
+            "article:publisher": "https://www.facebook.com/PolskyCenter",
+            "twitter:data1": "Melissa Fassbender",
+            "twitter:data2": "5 minutes",
+            "twitter:site": "@polskycenter",
+            "article:modified_time": "2024-10-02T16:33:56+00:00",
+            "tec-api-version": "v1",
+            "og:type": "article",
+            "twitter:title": "Born at UChicago, AgileMD Takes Strides to Expand Healthcare Tech with Recent FDA Nod - Polsky Center for Entrepreneurship and Innovation",
+            "author": "Melissa Fassbender",
+            "og:title": "Born at UChicago, AgileMD Takes Strides to Expand Healthcare Tech with Recent FDA Nod - Polsky Center for Entrepreneurship and Innovation",
+            "og:image:height": "425",
+            "viewport": "width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0",
+            "twitter:description": "Founded at the University of Chicago by business school students at Booth and physician-researchers at the hospital, AgileMD has announced significant steps in expanding the adoption of its AI-powered software – and its mission to improve healthcare with technology. The company’s software as a medical device uses a machine learning algorithm to continuously assess patient",
+            "og:locale": "en_US",
+            "og:url": "https://polsky.uchicago.edu/2024/06/28/agilemd-fda-clearance/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://polsky.uchicago.edu/wp-content/uploads/2024/06/Clinician-Desk_Detail-View.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "AgileMD - 2025 Founders and Board of Directors - Tracxn",
+      "htmlTitle": "<b>AgileMD</b> - 2025 <b>Founders</b> and Board of Directors - Tracxn",
+      "link": "https://tracxn.com/d/companies/agilemd/__wY7pGSrKWCIO-EUnT_M6tGeaVmRZc3uqLVVKfDr4JSI/founders-and-board-of-directors",
+      "displayLink": "tracxn.com",
+      "snippet": "Jun 13, 2025 ... AgileMD has 2 founders: Kurt Ericson (Co-Founder at AgileMD) and Borna Safabakhsh (Co-Founder & CEO at AgileMD).",
+      "htmlSnippet": "Jun 13, 2025 <b>...</b> <b>AgileMD</b> has 2 <b>founders</b>: Kurt Ericson (Co-<b>Founder</b> at <b>AgileMD</b>) and Borna Safabakhsh (Co-<b>Founder</b> &amp; CEO at <b>AgileMD</b>).",
+      "formattedUrl": "https://tracxn.com/d/.../agilemd/__...EUnT.../founders-and-board-of-directo...",
+      "htmlFormattedUrl": "https://tracxn.com/d/.../<b>agilemd</b>/__...EUnT.../<b>founders</b>-and-board-of-directo...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUpjK4dQTprMoBGcs59EZEpb0q_YNswhjPGh1B6BGucJVQpSg2VuFlsjby&s",
+            "width": "224",
+            "height": "224"
+          }
+        ],
+        "metatags": [
+          {
+            "image": "https://cdn.tracxn.com/images/seo/social/companies/agilemd-founders-and-board-of-directors-1709000128245.webp",
+            "og:image": "https://cdn.tracxn.com/images/seo/social/companies/agilemd-founders-and-board-of-directors-1709000128245.webp",
+            "og:type": "article",
+            "og:image:width": "1200",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "AgileMD - 2025 Founders and Board of Directors - Tracxn",
+            "theme-color": "#ffffff",
+            "og:title": "AgileMD - 2025 Founders and Board of Directors - Tracxn",
+            "og:image:height": "630",
+            "og:description": "AgileMD's founders include Kurt Ericson and Borna Safabakhsh.",
+            "twitter:image": "https://cdn.tracxn.com/images/seo/social/companies/agilemd-founders-and-board-of-directors-1709000128245.webp",
+            "referrer": "no-referrer-when-downgrade",
+            "astro-view-transitions-fallback": "animate",
+            "apple-mobile-web-app-status-bar-style": "default",
+            "viewport": "width=device-width",
+            "astro-view-transitions-enabled": "true",
+            "twitter:description": "AgileMD's founders include Kurt Ericson and Borna Safabakhsh.",
+            "apple-mobile-web-app-capable": "yes",
+            "mobile-web-app-capable": "yes",
+            "og:url": "https://tracxn.com/d/companies/agilemd/__wY7pGSrKWCIO-EUnT_M6tGeaVmRZc3uqLVVKfDr4JSI/founders-and-board-of-directors"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "x-raw-image:///e6ae6000e1682e1ee1f4f950e5d66a41b7b21343a9e147dc10a468e1baed1247"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "AgileMD - Polsky Center for Entrepreneurship and Innovation",
+      "htmlTitle": "<b>AgileMD</b> - Polsky Center for Entrepreneurship and Innovation",
+      "link": "https://polsky.uchicago.edu/?company=agilemd",
+      "displayLink": "polsky.uchicago.edu",
+      "snippet": "AgileMD · Founded by Borna Safabakhsh, MBA '11 · 1st place at the 2011 Edward L. Kaplan, '71, New Venture Challenge (NVC) ($25,000) · Headquartered in San ...",
+      "htmlSnippet": "<b>AgileMD</b> &middot; Founded by Borna Safabakhsh, MBA &#39;11 &middot; 1st place at the 2011 Edward L. Kaplan, &#39;71, New Venture Challenge (NVC) ($25,000) &middot; Headquartered in San&nbsp;...",
+      "formattedUrl": "https://polsky.uchicago.edu/?company=agilemd",
+      "htmlFormattedUrl": "https://polsky.uchicago.edu/?company=<b>agilemd</b>",
+      "pagemap": {
+        "metatags": [
+          {
+            "theme-color": "#ffffff",
+            "og:type": "article",
+            "article:published_time": "2017-08-17T00:01:38+00:00",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "AgileMD - Polsky Center for Entrepreneurship and Innovation",
+            "og:site_name": "Polsky Center for Entrepreneurship and Innovation -",
+            "tec-api-origin": "https://polsky.uchicago.edu",
+            "og:title": "AgileMD - Polsky Center for Entrepreneurship and Innovation",
+            "twitter:label1": "Est. reading time",
+            "msapplication-tileimage": "https://polsky.uchicago.edu/wp-content/uploads/2019/04/cropped-Polsky-Color-270x270.png",
+            "og:description": "Agile MD, formerly known as Agile Diagnosis, is a web, mobile, and EHR-integrated application that provides clinicians fast access to guidelines, protocols, and reference information. Thanks to AgileMD, organizations are improving the quality of care, reducing unnecessary utilization, and lowering the risk of medical error. In fact, founder, Borna Safabakhsh, MBA ’11, and his team",
+            "article:publisher": "https://www.facebook.com/PolskyCenter",
+            "twitter:data1": "1 minute",
+            "twitter:site": "@polskycenter",
+            "article:modified_time": "2018-05-26T20:30:16+00:00",
+            "viewport": "width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0",
+            "twitter:description": "Agile MD, formerly known as Agile Diagnosis, is a web, mobile, and EHR-integrated application that provides clinicians fast access to guidelines, protocols, and reference information. Thanks to AgileMD, organizations are improving the quality of care, reducing unnecessary utilization, and lowering the risk of medical error. In fact, founder, Borna Safabakhsh, MBA ’11, and his team",
+            "og:locale": "en_US",
+            "og:url": "https://polsky.uchicago.edu/?company=agilemd",
+            "tec-api-version": "v1"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "UNC Health Taps AgileMD to Address IV Fluid Shortage | Newsroom",
+      "htmlTitle": "UNC Health Taps <b>AgileMD</b> to Address IV Fluid Shortage | Newsroom",
+      "link": "https://news.unchealthcare.org/2024/12/unc-health-taps-agilemd-to-address-iv-fluid-shortage/",
+      "displayLink": "news.unchealthcare.org",
+      "snippet": "Dec 4, 2024 ... AgileMD's co-founder and CEO, Borna Safabakhsh, agrees. “Unforeseen emergencies, like supply shortages and emerging disease threats, are not ...",
+      "htmlSnippet": "Dec 4, 2024 <b>...</b> <b>AgileMD&#39;s</b> co-<b>founder</b> and CEO, Borna Safabakhsh, agrees. “Unforeseen emergencies, like supply shortages and emerging disease threats, are not&nbsp;...",
+      "formattedUrl": "https://news.unchealthcare.org/.../unc-health-taps-agilemd-to-address-iv-flui...",
+      "htmlFormattedUrl": "https://news.unchealthcare.org/.../unc-health-taps-<b>agilemd</b>-to-address-iv-flui...",
+      "pagemap": {
+        "metatags": [
+          {
+            "msapplication-tilecolor": "#4b9bd3",
+            "msapplication-config": "https://news.unchealthcare.org/wp-content/themes/heelium-white-coat/assets/favicons/browserconfig.xml",
+            "og:type": "article",
+            "article:published_time": "2024-12-04T19:21:50+00:00",
+            "twitter:card": "summary_large_image",
+            "theme-color": "#4b9bd3",
+            "og:site_name": "Newsroom",
+            "tec-api-origin": "https://news.unchealthcare.org",
+            "author": "Thomas Hughes",
+            "og:title": "UNC Health Taps AgileMD to Address IV Fluid Shortage | Newsroom",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "og:description": "Clinical tool enhances patient care and ensures physicians can adapt quickly",
+            "twitter:creator": "@unc_health_care",
+            "article:publisher": "https://www.facebook.com/unchealthcare",
+            "twitter:data1": "Thomas Hughes",
+            "twitter:data2": "4 minutes",
+            "twitter:site": "@unc_health_care",
+            "article:modified_time": "2024-12-05T16:45:37+00:00",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:locale": "en_US",
+            "og:url": "https://news.unchealthcare.org/2024/12/unc-health-taps-agilemd-to-address-iv-fluid-shortage/",
+            "tec-api-version": "v1"
+          }
+        ],
+        "Breadcrumb": [
+          {
+            "title": "News",
+            "url": "News"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Borna Safabakhsh - AgileMD | LinkedIn",
+      "htmlTitle": "Borna Safabakhsh - <b>AgileMD</b> | LinkedIn",
+      "link": "https://www.linkedin.com/in/bornas",
+      "displayLink": "www.linkedin.com",
+      "snippet": "Experience: AgileMD · Education: Y Combinator · Location: San Francisco Bay Area · 500+ connections on LinkedIn. View Borna Safabakhsh's profile on LinkedIn ...",
+      "htmlSnippet": "Experience: <b>AgileMD</b> · Education: Y Combinator · Location: San Francisco Bay Area · 500+ connections on LinkedIn. View Borna Safabakhsh&#39;s profile on LinkedIn&nbsp;...",
+      "formattedUrl": "https://www.linkedin.com/in/bornas",
+      "htmlFormattedUrl": "https://www.linkedin.com/in/bornas",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpEnMCOR-ytx0ZXHO2rgJlezc4CfXm5iHZMEjL8fSfOciDiTG4CU0Uc8QO&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://static.licdn.com/aero-v1/sc/h/1c5u578iilxfi4m4dvc4q810q",
+            "twitter:card": "summary",
+            "linkedin:pagetag": "openToProvider",
+            "platform-worker": "https://static.licdn.com/aero-v1/sc/h/7nirg34a8ey4y2l4rw7xgwxx4",
+            "al:android:package": "com.linkedin.android",
+            "bingbot": "nocache",
+            "locale": "en_US",
+            "al:ios:url": "https://www.linkedin.com/in/bornas",
+            "og:description": "Experience: AgileMD · Education: Y Combinator · Location: San Francisco Bay Area · 500+ connections on LinkedIn. View Borna Safabakhsh’s profile on LinkedIn, a professional community of 1 billion members.",
+            "al:ios:app_store_id": "288429040",
+            "platform": "https://static.licdn.com/aero-v1/sc/h/50rhhil0lpchs3iqo4twn4tk9",
+            "twitter:image": "https://static.licdn.com/aero-v1/sc/h/1c5u578iilxfi4m4dvc4q810q",
+            "profile:last_name": "Safabakhsh",
+            "twitter:site": "@Linkedin",
+            "litmsprofilename": "public-profile-frontend",
+            "profile:first_name": "Borna",
+            "og:type": "profile",
+            "twitter:title": "Borna Safabakhsh - AgileMD | LinkedIn",
+            "al:ios:app_name": "LinkedIn",
+            "og:title": "Borna Safabakhsh - AgileMD | LinkedIn",
+            "pagekey": "public_profile_v3_mobile",
+            "al:android:url": "https://www.linkedin.com/in/bornas",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "twitter:description": "Experience: AgileMD · Education: Y Combinator · Location: San Francisco Bay Area · 500+ connections on LinkedIn. View Borna Safabakhsh’s profile on LinkedIn, a professional community of 1 billion members.",
+            "ubba": "https://static.licdn.com/aero-v1/sc/h/41b802ccd3dg7q90ypctzxybx",
+            "og:url": "https://www.linkedin.com/in/bornas",
+            "al:android:app_name": "LinkedIn"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://static.licdn.com/aero-v1/sc/h/1c5u578iilxfi4m4dvc4q810q"
+          }
+        ],
+        "Person": [
+          {}
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "FDA clears Agilemd's AI-driven clinical deterioration tool | BioWorld",
+      "htmlTitle": "FDA clears <b>Agilemd&#39;s</b> AI-driven clinical deterioration tool | BioWorld",
+      "link": "https://www.bioworld.com/articles/709642-fda-clears-agilemds-ai-driven-clinical-deterioration-tool",
+      "displayLink": "www.bioworld.com",
+      "snippet": "Jun 27, 2024 ... ... Agilemd's CEO and co-founder. “We believe that should be the ... founders Edelson and Churpek. Ecart has been used in practice in a ...",
+      "htmlSnippet": "Jun 27, 2024 <b>...</b> ... <b>Agilemd&#39;s</b> CEO and co-<b>founder</b>. “We believe that should be the ... <b>founders</b> Edelson and Churpek. Ecart has been used in practice in a&nbsp;...",
+      "formattedUrl": "https://www.bioworld.com/.../709642-fda-clears-agilemds-ai-driven-clinical...",
+      "htmlFormattedUrl": "https://www.bioworld.com/.../709642-fda-clears-<b>agilemd</b>s-ai-driven-clinical...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEtZGr-a9rdVl6s2qWlAWQkSEphHOnRJ6HLWk-uaxSBw_kyaE_foTYk0JE&s",
+            "width": "259",
+            "height": "194"
+          }
+        ],
+        "metatags": [
+          {
+            "msapplication-tilecolor": "#00aba9",
+            "og:image": "https://www.bioworld.com/ext/resources/Stock-images/Regulatory/FDA-approved-icons-and-medical-professional.webp?height=635&t=1639686678&width=1200",
+            "msapplication-config": "/icons/browserconfig.xml",
+            "og:image:width": "846",
+            "og:type": "Article",
+            "twitter:title": "FDA clears Agilemd’s AI-driven clinical deterioration tool",
+            "twitter:card": "summary",
+            "theme-color": "#ffffff",
+            "og:title": "FDA clears Agilemd’s AI-driven clinical deterioration tool",
+            "og:image:height": "635",
+            "csrf-param": "authenticity_token",
+            "og:description": "Agilemd Inc. received U.S. FDA clearance for its Ecart clinical deterioration suite, an artificial intelligence-powered software as a medical device that uses a machine learning algorithm to continuously evaluate the risk of a hospitalized patient’s death or transfer to intensive care based on 97 real-time variables.",
+            "twitter:image": "https://www.bioworld.com/ext/resources/Stock-images/Regulatory/FDA-approved-icons-and-medical-professional.webp?height=418&t=1639686678&width=800",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "og:author": "Annette Boyle",
+            "twitter:description": "Agilemd Inc. received U.S. FDA clearance for its Ecart clinical deterioration suite, an artificial intelligence-powered software as a medical device that uses a machine learning algorithm to continuously evaluate the risk of a hospitalized patient’s death or transfer to intensive care based on 97 real-time variables.",
+            "csrf-token": "a/Z5gNNzhnh5PHOpI6qoqg7D+1E++sqC5SYxjgyVdY44ulXh22qTWVE2Z7XXo1dvlJ4NoSc/3Ar3Y3IaEBEofQ==",
+            "og:url": "https://www.bioworld.com/articles/709642-fda-clears-agilemds-ai-driven-clinical-deterioration-tool",
+            "has-log-view": "true"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.bioworld.com/ext/resources/Stock-images/Regulatory/FDA-approved-icons-and-medical-professional.webp?height=635&t=1639686678&width=1200"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "AgileMD | LinkedIn",
+      "htmlTitle": "<b>AgileMD</b> | LinkedIn",
+      "link": "https://www.linkedin.com/company/agilemd",
+      "displayLink": "www.linkedin.com",
+      "snippet": "Jul 14, 2012 ... AgileMD | 2586 followers on LinkedIn. EHR-integrated clinical ... Roy Perlis interview AgileMD co-founder Dana P. Edelson, MD, MS on ...",
+      "htmlSnippet": "Jul 14, 2012 <b>...</b> <b>AgileMD</b> | 2586 followers on LinkedIn. EHR-integrated clinical ... Roy Perlis interview <b>AgileMD</b> co-<b>founder</b> Dana P. Edelson, MD, MS on&nbsp;...",
+      "formattedUrl": "https://www.linkedin.com/company/agilemd",
+      "htmlFormattedUrl": "https://www.linkedin.com/company/<b>agilemd</b>",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdDijI-TAgimRKRUsLXJbBd1GZY9V2L3nmKCJrNAXWmuGHJXjuon4SIgQ&s",
+            "width": "200",
+            "height": "200"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://media.licdn.com/dms/image/v2/C560BAQGW-J20ryUVMA/company-logo_200_200/company-logo_200_200/0/1631364080219?e=2147483647&v=beta&t=bPNeCfxm2ZZ7g50Xx-rAf4UbOwDEwGyEdKR8tJdKvf4",
+            "og:type": "article",
+            "twitter:card": "summary",
+            "twitter:title": "AgileMD | LinkedIn",
+            "clientsideingraphs": "1",
+            "al:ios:app_name": "LinkedIn",
+            "linkedin:pagetag": "noncanonical_subdomain=control",
+            "og:title": "AgileMD | LinkedIn",
+            "al:android:package": "com.linkedin.android",
+            "pagekey": "p_org_guest_company_overview",
+            "bingbot": "nocache",
+            "locale": "en_US",
+            "al:ios:url": "https://www.linkedin.com/company/agilemd",
+            "og:description": "AgileMD | 2,586 followers on LinkedIn. EHR-integrated clinical decision support | Healthcare providers are overwhelmed and medical protocols change fast.  AgileMD ensures that nurses and doctors can rapidly understand a patient&#39;s status and follow the most current clinical best practices to provide optimal care.  The company’s software offers real-time predictive analytics and adaptive clinical guidance that are deeply integrated into the electronic health record (EHR) workflow, exactly where healthcare providers are assessing and treating their patients.",
+            "al:ios:app_store_id": "288429040",
+            "twitter:image": "https://media.licdn.com/dms/image/v2/C560BAQGW-J20ryUVMA/company-logo_200_200/company-logo_200_200/0/1631364080219?e=2147483647&v=beta&t=bPNeCfxm2ZZ7g50Xx-rAf4UbOwDEwGyEdKR8tJdKvf4",
+            "al:android:url": "https://www.linkedin.com/company/agilemd",
+            "twitter:site": "@linkedin",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "twitter:description": "AgileMD | 2,586 followers on LinkedIn. EHR-integrated clinical decision support | Healthcare providers are overwhelmed and medical protocols change fast.  AgileMD ensures that nurses and doctors can rapidly understand a patient&#39;s status and follow the most current clinical best practices to provide optimal care.  The company’s software offers real-time predictive analytics and adaptive clinical guidance that are deeply integrated into the electronic health record (EHR) workflow, exactly where healthcare providers are assessing and treating their patients.",
+            "og:url": "https://www.linkedin.com/company/agilemd",
+            "al:android:app_name": "LinkedIn"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://media.licdn.com/dms/image/v2/C560BAQGW-J20ryUVMA/company-logo_200_200/company-logo_200_200/0/1631364080219?e=2147483647&v=beta&t=bPNeCfxm2ZZ7g50Xx-rAf4UbOwDEwGyEdKR8tJdKvf4"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Hear from the winners of the MATTER COVID-19 Support Startup ...",
+      "htmlTitle": "Hear from the winners of the MATTER COVID-19 Support Startup ...",
+      "link": "https://matter.health/posts/matter-covid-19-support-grants-update/",
+      "displayLink": "matter.health",
+      "snippet": "Oct 30, 2020 ... ... AgileMD, Diagnostic Photonics and EmOpti. We caught up with the founders of each company to hear more about the solutions they're building ...",
+      "htmlSnippet": "Oct 30, 2020 <b>...</b> ... <b>AgileMD</b>, Diagnostic Photonics and EmOpti. We caught up with the <b>founders</b> of each company to hear more about the solutions they&#39;re building&nbsp;...",
+      "formattedUrl": "https://matter.health/posts/matter-covid-19-support-grants-update/",
+      "htmlFormattedUrl": "https://matter.health/posts/matter-covid-19-support-grants-update/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYBRZId2WCMg4-r8bgaGsrJVasC_K0Ka21JHZp0rXsgwmOU0QwC9728w3C&s",
+            "width": "318",
+            "height": "159"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://matter.imgix.net/uploads/UPDATE%20COVID-19-startup-grant-recipients.png?ixlib=jekyll-1.1.0&w=400",
+            "article:published_time": "2020-10-30 14:31:00 -0500",
+            "og:type": "article",
+            "twitter:title": "Hear from the winners of the MATTER COVID-19 Support Startup Grants",
+            "twitter:card": "summary_large_image",
+            "og:title": "Hear from the winners of the MATTER COVID-19 Support Startup Grants",
+            "og:description": "As part of the COVID-19 Pandemic Response (CPR) initiative, MATTER identified three member startups as recipients of the COVID-19 Support Startup Grants: AgileMD, Diagnostic Photonics and EmOpti. We caught up with the founders of each company to hear more about the solutions they’re building and the progress they’ve made with the help of the grant",
+            "twitter:image": "https://matter.imgix.net/uploads/UPDATE%20COVID-19-startup-grant-recipients.png?ixlib=jekyll-1.1.0&w=400",
+            "referrer": "no-referrer-when-downgrade",
+            "twitter:site": "@MATTERhealth",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:locale": "en_US",
+            "og:url": "https://matter.health/posts/matter-covid-19-support-grants-update/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://matter.imgix.net/uploads/UPDATE%20COVID-19-startup-grant-recipients.png?ixlib=jekyll-1.1.0&w=400"
+          }
+        ]
+      }
+    }
+  ]
+}

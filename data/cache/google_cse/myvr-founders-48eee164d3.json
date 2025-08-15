@@ -1,0 +1,518 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - \"MyVR\" founders",
+        "totalResults": "1300",
+        "searchTerms": "\"MyVR\" founders",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - \"MyVR\" founders",
+        "totalResults": "1300",
+        "searchTerms": "\"MyVR\" founders",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "active",
+        "cx": "967261cd064eb4c7c"
+      }
+    ]
+  },
+  "context": {
+    "title": "startup-ecosystem-intelligence"
+  },
+  "searchInformation": {
+    "searchTime": 0.140696,
+    "formattedSearchTime": "0.14",
+    "totalResults": "1300",
+    "formattedTotalResults": "1,300"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "MyVR Simplifies the Vacation Rental Business - Tahoe Quarterly",
+      "htmlTitle": "<b>MyVR</b> Simplifies the Vacation Rental Business - Tahoe Quarterly",
+      "link": "https://tahoequarterly.com/winter-2018-2019/myvr-simplifying-the-vacation-rental-business",
+      "displayLink": "tahoequarterly.com",
+      "snippet": "Dec 2, 2018 ... For Jonathan Murray, chief executive officer of MyVR, it is this: If you see a void, fill it. Seven years ago, MyVR co-founders Murray ...",
+      "htmlSnippet": "Dec 2, 2018 <b>...</b> For Jonathan Murray, chief executive officer of <b>MyVR</b>, it is this: If you see a void, fill it. Seven years ago, <b>MyVR</b> co-<b>founders</b> Murray&nbsp;...",
+      "formattedUrl": "https://tahoequarterly.com/.../myvr-simplifying-the-vacation-rental-business",
+      "htmlFormattedUrl": "https://tahoequarterly.com/.../<b>myvr</b>-simplifying-the-vacation-rental-business",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4S-uOkDa-tAAOc_h7oA1pvalMyF1YVfEBWNw9no3zPHTzxkCaaYZ9JXWm&s",
+            "width": "275",
+            "height": "183"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://tahoequarterly.com/wp-content/uploads/2018/11/17-1.jpg",
+            "og:type": "article",
+            "article:published_time": "2018-12-02T10:30:20+00:00",
+            "og:image:width": "1584",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Tahoe Quarterly",
+            "og:title": "MyVR Simplifies the Vacation Rental Business - Tahoe Quarterly",
+            "og:image:height": "1056",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "og:image:type": "image/jpeg",
+            "msapplication-tileimage": "https://tahoequarterly.com/wp-content/uploads/2021/10/cropped-q2cdxguk3pnqpaf4zqig-270x270.png",
+            "og:description": "Some business adages never get old. For Jonathan Murray, chief executive officer of MyVR, it is this: If you see a void, fill it.  Seven years ago, MyVR co-founders Murray, Michael Stachowiak and Markus Nordvik saw such a void in an absence of easy-to-use software solutions for helping small vacation rental managers and owners manage their businesses.",
+            "article:publisher": "http://www.facebook.com/tahoequarterly",
+            "twitter:data2": "5 minutes",
+            "article:modified_time": "2020-04-20T23:13:56+00:00",
+            "viewport": "width=device-width,initial-scale=1,user-scalable=no",
+            "og:locale": "en_US",
+            "og:url": "https://tahoequarterly.com/winter-2018-2019/myvr-simplifying-the-vacation-rental-business"
+          }
+        ],
+        "webpage": [
+          {
+            "image": "https://tahoequarterly.com/wp-content/uploads/2021/09/NEW_TQlogos_teal_full.svg",
+            "name": "02 Dec MyVR Simplifies the Vacation Rental Business",
+            "interactioncount": "UserComments: 0",
+            "datecreated": "02 Dec",
+            "url": "https://tahoequarterly.com/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://tahoequarterly.com/wp-content/uploads/2018/11/17-1.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "MyVR Is Picking Up Where the Vacation Rental ... - True Ventures",
+      "htmlTitle": "MyVR Is Picking Up Where the Vacation Rental ... - True Ventures",
+      "link": "https://trueventures.com/blog/myvr-property-management-tool",
+      "displayLink": "trueventures.com",
+      "snippet": "Dec 5, 2017 ... MyVR Co-Founders Markus Nordvik, Mike Stachowiak and Jonathan Murray. With the increased complexity and maturity of the vacation rental market, ...",
+      "htmlSnippet": "Dec 5, 2017 <b>...</b> <b>MyVR</b> Co-<b>Founders</b> Markus Nordvik, Mike Stachowiak and Jonathan Murray. With the increased complexity and maturity of the vacation rental market,&nbsp;...",
+      "formattedUrl": "https://trueventures.com/blog/myvr-property-management-tool",
+      "htmlFormattedUrl": "https://trueventures.com/blog/<b>myvr</b>-property-management-tool",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwanA4tcPpPJ9m07g_k5Pn_dFmNS2iS8KHxTn35Uuy8Mwd99XYJhUIonfb&s",
+            "width": "275",
+            "height": "183"
+          }
+        ],
+        "metatags": [
+          {
+            "msapplication-tilecolor": "#FFFFFF",
+            "og:image": "https://api.trueventures.com/wp-content/uploads/2017/12/MyVR-team.jpg?w=768",
+            "msapplication-square70x70logo": "/favicons/mstile-70x70.png",
+            "theme-color": "#222222",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "MyVR Is Picking Up Where the Vacation Rental Industry Left Off",
+            "og:title": "MyVR Is Picking Up Where the Vacation Rental Industry Left Off",
+            "msapplication-wide310x150logo": "/favicons/mstile-310x150.png",
+            "msapplication-tileimage": "/favicons/mstile-150x150.png",
+            "msapplication-square150x150logo": "/favicons/mstile-150x150.png",
+            "twitter:creator": "@trueventures",
+            "twitter:image": "https://api.trueventures.com/wp-content/uploads/2017/12/MyVR-team.jpg?w=768",
+            "twitter:site": "@trueventures",
+            "viewport": "width=device-width, initial-scale=1, user-scalable=no",
+            "msapplication-square310x310logo": "/favicons/mstile-310x310.png",
+            "twitter:description": "We support and empower extraordinary founders from all walks of life."
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://api.trueventures.com/wp-content/uploads/2017/12/MyVR-team.jpg?w=768"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "MyVR: The open platform for the vacation rental industry. | Y ...",
+      "htmlTitle": "<b>MyVR</b>: The open platform for the vacation rental industry. | Y ...",
+      "link": "https://www.ycombinator.com/companies/myvr",
+      "displayLink": "www.ycombinator.com",
+      "snippet": "The open platform for the vacation rental industry. Founded in 2012 by Jonathan Murray, Markus Nordvik, and Mike Stachowiak, MyVR has 15 employees based in ...",
+      "htmlSnippet": "The open platform for the vacation rental industry. Founded in 2012 by Jonathan Murray, Markus Nordvik, and Mike Stachowiak, <b>MyVR</b> has 15 employees based in&nbsp;...",
+      "formattedUrl": "https://www.ycombinator.com/companies/myvr",
+      "htmlFormattedUrl": "https://www.ycombinator.com/companies/<b>myvr</b>",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_jlx_ttcDqicgZBVs0DjrnlFIWkOUPYZ1SvaiGlEZzk4B6xRiqshYu3_C&s",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "image": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/a05ce254ae365110d0d00b40970ec5a1767ceab0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAC23MQNS5%2F20250808%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250808T170926Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHAaCXVzLXdlc3QtMiJGMEQCIGjrlAnNbGf8j7%2B%2BSXMKdegR9fZfjChT0SgggxctGdukAiBpW94VGtv3VuNLzC6Wa9Br4pcwwDQZgk9H59G0fju%2BsSruAwip%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDAwNjIwMTgxMTA3MiIMAgB3sK1bo2B7%2Bs47KsID2uan4HS4%2FT2qfFIkUxNrNtVehaIhAeQslKU0E6Rhk2QdCQIaUw8B5NYqMpc0twwDDCSWpzehuiAjwMrcA3%2Bdxle0pzHjNYv%2FnkVe4fBTMq583ATkNLCdGbvqqzvzBWb2fYy2DOz%2BC5f7XmVmutoxgIKUA4rc70UozerOVq0ZtLiLWrXBA8V6%2FWMk9p%2BLBEmG7o1RV57Gb2Kr%2FKSQBl3FXlIRUYxP1IAZ%2BwTm7YkH8Y0aSRUFTXXShsopcqcf%2Bo1Gwpd7IU6bKIC%2BIx1Mtg9GphckBo8Qmj8DEjLAEdfL7uEysbzR8bHb4nz%2F6PAp8t1BujQdF49%2BRk6hhvXfN24UD%2BL0yZnfTmHOlRrHnPrHk767%2B2U7nsSG9XvDUTWPv%2F5QejHf%2BAG5dBRQQyriV3Wm02PvSt234BFdsB6y36o4CBpJt69zXSofroE7Vw9dntVMIIPTRd2wCXGJ9UDYnjBdMd%2FzFXfzD7BfgTVWzs",
+            "og:image": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/a05ce254ae365110d0d00b40970ec5a1767ceab0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAC23MQNS5%2F20250808%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250808T170926Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHAaCXVzLXdlc3QtMiJGMEQCIGjrlAnNbGf8j7%2B%2BSXMKdegR9fZfjChT0SgggxctGdukAiBpW94VGtv3VuNLzC6Wa9Br4pcwwDQZgk9H59G0fju%2BsSruAwip%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDAwNjIwMTgxMTA3MiIMAgB3sK1bo2B7%2Bs47KsID2uan4HS4%2FT2qfFIkUxNrNtVehaIhAeQslKU0E6Rhk2QdCQIaUw8B5NYqMpc0twwDDCSWpzehuiAjwMrcA3%2Bdxle0pzHjNYv%2FnkVe4fBTMq583ATkNLCdGbvqqzvzBWb2fYy2DOz%2BC5f7XmVmutoxgIKUA4rc70UozerOVq0ZtLiLWrXBA8V6%2FWMk9p%2BLBEmG7o1RV57Gb2Kr%2FKSQBl3FXlIRUYxP1IAZ%2BwTm7YkH8Y0aSRUFTXXShsopcqcf%2Bo1Gwpd7IU6bKIC%2BIx1Mtg9GphckBo8Qmj8DEjLAEdfL7uEysbzR8bHb4nz%2F6PAp8t1BujQdF49%2BRk6hhvXfN24UD%2BL0yZnfTmHOlRrHnPrHk767%2B2U7nsSG9XvDUTWPv%2F5QejHf%2BAG5dBRQQyriV3Wm02PvSt234BFdsB6y36o4CBpJt69zXSofroE7Vw9dntVMIIPTRd2wCXGJ9UDYnjBdMd%2FzFXfzD7BfgTVWzs",
+            "twitter:card": "summary_large_image",
+            "og:type": "website",
+            "og:site_name": "Y Combinator",
+            "og:image:url": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/a05ce254ae365110d0d00b40970ec5a1767ceab0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAC23MQNS5%2F20250808%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250808T170926Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHAaCXVzLXdlc3QtMiJGMEQCIGjrlAnNbGf8j7%2B%2BSXMKdegR9fZfjChT0SgggxctGdukAiBpW94VGtv3VuNLzC6Wa9Br4pcwwDQZgk9H59G0fju%2BsSruAwip%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDAwNjIwMTgxMTA3MiIMAgB3sK1bo2B7%2Bs47KsID2uan4HS4%2FT2qfFIkUxNrNtVehaIhAeQslKU0E6Rhk2QdCQIaUw8B5NYqMpc0twwDDCSWpzehuiAjwMrcA3%2Bdxle0pzHjNYv%2FnkVe4fBTMq583ATkNLCdGbvqqzvzBWb2fYy2DOz%2BC5f7XmVmutoxgIKUA4rc70UozerOVq0ZtLiLWrXBA8V6%2FWMk9p%2BLBEmG7o1RV57Gb2Kr%2FKSQBl3FXlIRUYxP1IAZ%2BwTm7YkH8Y0aSRUFTXXShsopcqcf%2Bo1Gwpd7IU6bKIC%2BIx1Mtg9GphckBo8Qmj8DEjLAEdfL7uEysbzR8bHb4nz%2F6PAp8t1BujQdF49%2BRk6hhvXfN24UD%2BL0yZnfTmHOlRrHnPrHk767%2B2U7nsSG9XvDUTWPv%2F5QejHf%2BAG5dBRQQyriV3Wm02PvSt234BFdsB6y36o4CBpJt69zXSofroE7Vw9dntVMIIPTRd2wCXGJ9UDYnjBdMd%2FzFXfzD7BfgTVWzs",
+            "og:title": "MyVR: The open platform for the vacation rental industry. | Y Combinator",
+            "csrf-param": "authenticity_token",
+            "title": "MyVR: The open platform for the vacation rental industry.",
+            "og:description": "The open platform for the vacation rental industry. Founded in 2012 by Jonathan Murray, Markus Nordvik, and Mike Stachowiak, MyVR has 15 employees based in San Francisco, CA, USA.",
+            "twitter:image": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/a05ce254ae365110d0d00b40970ec5a1767ceab0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAC23MQNS5%2F20250808%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250808T170926Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHAaCXVzLXdlc3QtMiJGMEQCIGjrlAnNbGf8j7%2B%2BSXMKdegR9fZfjChT0SgggxctGdukAiBpW94VGtv3VuNLzC6Wa9Br4pcwwDQZgk9H59G0fju%2BsSruAwip%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDAwNjIwMTgxMTA3MiIMAgB3sK1bo2B7%2Bs47KsID2uan4HS4%2FT2qfFIkUxNrNtVehaIhAeQslKU0E6Rhk2QdCQIaUw8B5NYqMpc0twwDDCSWpzehuiAjwMrcA3%2Bdxle0pzHjNYv%2FnkVe4fBTMq583ATkNLCdGbvqqzvzBWb2fYy2DOz%2BC5f7XmVmutoxgIKUA4rc70UozerOVq0ZtLiLWrXBA8V6%2FWMk9p%2BLBEmG7o1RV57Gb2Kr%2FKSQBl3FXlIRUYxP1IAZ%2BwTm7YkH8Y0aSRUFTXXShsopcqcf%2Bo1Gwpd7IU6bKIC%2BIx1Mtg9GphckBo8Qmj8DEjLAEdfL7uEysbzR8bHb4nz%2F6PAp8t1BujQdF49%2BRk6hhvXfN24UD%2BL0yZnfTmHOlRrHnPrHk767%2B2U7nsSG9XvDUTWPv%2F5QejHf%2BAG5dBRQQyriV3Wm02PvSt234BFdsB6y36o4CBpJt69zXSofroE7Vw9dntVMIIPTRd2wCXGJ9UDYnjBdMd%2FzFXfzD7BfgTVWzs",
+            "og:image:secure_url": "https://bookface-images.s3.us-west-2.amazonaws.com/logos/a05ce254ae365110d0d00b40970ec5a1767ceab0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAC23MQNS5%2F20250808%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250808T170926Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHAaCXVzLXdlc3QtMiJGMEQCIGjrlAnNbGf8j7%2B%2BSXMKdegR9fZfjChT0SgggxctGdukAiBpW94VGtv3VuNLzC6Wa9Br4pcwwDQZgk9H59G0fju%2BsSruAwip%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDAwNjIwMTgxMTA3MiIMAgB3sK1bo2B7%2Bs47KsID2uan4HS4%2FT2qfFIkUxNrNtVehaIhAeQslKU0E6Rhk2QdCQIaUw8B5NYqMpc0twwDDCSWpzehuiAjwMrcA3%2Bdxle0pzHjNYv%2FnkVe4fBTMq583ATkNLCdGbvqqzvzBWb2fYy2DOz%2BC5f7XmVmutoxgIKUA4rc70UozerOVq0ZtLiLWrXBA8V6%2FWMk9p%2BLBEmG7o1RV57Gb2Kr%2FKSQBl3FXlIRUYxP1IAZ%2BwTm7YkH8Y0aSRUFTXXShsopcqcf%2Bo1Gwpd7IU6bKIC%2BIx1Mtg9GphckBo8Qmj8DEjLAEdfL7uEysbzR8bHb4nz%2F6PAp8t1BujQdF49%2BRk6hhvXfN24UD%2BL0yZnfTmHOlRrHnPrHk767%2B2U7nsSG9XvDUTWPv%2F5QejHf%2BAG5dBRQQyriV3Wm02PvSt234BFdsB6y36o4CBpJt69zXSofroE7Vw9dntVMIIPTRd2wCXGJ9UDYnjBdMd%2FzFXfzD7BfgTVWzs",
+            "twitter:site": "@ycombinator",
+            "viewport": "initial-scale=1, width=device-width, height=device-height",
+            "csrf-token": "ON2DbT_USlj12I7Q1m5arMyZp-MplCpLeD76TMPr8z3Qktt4XYi-ckQtkeRk3tKepqafJVGDbYoAM6nyDYuj2g",
+            "og:locale": "en_US",
+            "og:url": "https://www.ycombinator.com/companies/myvr"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "x-raw-image:///7481412385fe6d0f7d4a3339d90fe12309432ca41983e8d350b232301d5d8684"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "MyVR Raises $6 Million for Rental Property Software: Travel Startup ...",
+      "htmlTitle": "<b>MyVR</b> Raises $6 Million for Rental Property Software: Travel Startup ...",
+      "link": "https://skift.com/2017/12/08/myvr-travel-startup-funding-december-2017/",
+      "displayLink": "skift.com",
+      "snippet": "Dec 8, 2017 ... myvr travel startup founders vacation rental software. Photo Credit: Left to right: MyVR cofounders Markus Nordvic, Mike Stachowiak, and ...",
+      "htmlSnippet": "Dec 8, 2017 <b>...</b> <b>myvr</b> travel startup <b>founders</b> vacation rental software. Photo Credit: Left to right: <b>MyVR</b> cofounders Markus Nordvic, Mike Stachowiak, and&nbsp;...",
+      "formattedUrl": "https://skift.com/2017/12/08/myvr-travel-startup-funding-december-2017/",
+      "htmlFormattedUrl": "https://skift.com/2017/12/08/<b>myvr</b>-travel-startup-funding-december-2017/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx_bRFXufQV6luiWYIll9OjX_3OFctFGufSze9blGAIz2z7fdtpfytmuCc&s",
+            "width": "275",
+            "height": "183"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://skift.com/wp-content/uploads/2017/12/myvr-travel-startup-founders-.jpg",
+            "og:type": "article",
+            "article:published_time": "2017-12-08T06:30:25+00:00",
+            "og:image:width": "1024",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Skift",
+            "author": "Sean O'Neill",
+            "og:title": "MyVR Raises $6 Million for Rental Property Software: Travel Startup Funding This Week",
+            "og:image:height": "683",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Est. reading time",
+            "og:image:type": "image/jpeg",
+            "msapplication-tileimage": "https://skift.com/wp-content/uploads/2016/09/cropped-logo-square-yellow.png?w=270",
+            "og:description": "Each week we round up travel startups that have recently received or announced funding. Three side notes in travel-related funding, first: >>Lyft,",
+            "twitter:creator": "@sean_oneill",
+            "article:publisher": "https://www.facebook.com/Skiftnews",
+            "twitter:data1": "Sean O'Neill",
+            "twitter:data2": "3 minutes",
+            "facebook-domain-verification": "fyq1gmtz4gx4nk2py95kytr5kk6bv6",
+            "twitter:site": "@skift",
+            "article:modified_time": "2017-12-08T16:39:11+00:00",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:locale": "en_US",
+            "og:url": "https://skift.com/2017/12/08/myvr-travel-startup-funding-december-2017/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://skift.com/wp-content/uploads/2017/12/myvr-travel-startup-founders-.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Jonathan Murray Co-Founder & CEO, MyVR | Software Equity Group",
+      "htmlTitle": "Jonathan Murray Co-<b>Founder</b> &amp; CEO, <b>MyVR</b> | Software Equity Group",
+      "link": "https://softwareequity.com/testimonial/jonathan-murray-co-founder-ceo-myvr-2/",
+      "displayLink": "softwareequity.com",
+      "snippet": "Jonathan Murray Co-Founder & CEO, MyVR. January 29, 2024. “SEG was a trusted partner throughout our acquisition process, and I felt as though they never ...",
+      "htmlSnippet": "Jonathan Murray Co-<b>Founder</b> &amp; CEO, <b>MyVR</b>. January 29, 2024. “SEG was a trusted partner throughout our acquisition process, and I felt as though they never&nbsp;...",
+      "formattedUrl": "https://softwareequity.com/.../jonathan-murray-co-founder-ceo-myvr-2/",
+      "htmlFormattedUrl": "https://softwareequity.com/.../jonathan-murray-co-founder-ceo-<b>myvr</b>-2/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpznE5mbH5NkTYQv1GQIYaSb7aboSrv7KcBlLIsIZcxspGMynUBrY3aAD3&s",
+            "width": "313",
+            "height": "161"
+          }
+        ],
+        "metatags": [
+          {
+            "og:type": "article",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Software Equity Group",
+            "article:modified_time": "2024-02-07T09:36:43+00:00",
+            "viewport": "width=device-width, initial-scale=1",
+            "msvalidate.01": "CB3E15B717BD034955FDF93E70E2B198",
+            "og:title": "Jonathan Murray Co-Founder & CEO, MyVR",
+            "og:locale": "en_US",
+            "og:url": "https://softwareequity.com/testimonial/jonathan-murray-co-founder-ceo-myvr-2/",
+            "og:description": "“SEG was a trusted partner throughout our acquisition process, and I felt as though they never lost focus on what was best for us as their client."
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://softwareequity.com/wp-content/uploads/2024/09/SEG-Merger-and-Acquisition-Discovery.webp"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "MyVR announces integration with BeHome247 home automation ...",
+      "htmlTitle": "<b>MyVR</b> announces integration with BeHome247 home automation ...",
+      "link": "https://shorttermrentalz.com/news/myvr-integration-behome247/",
+      "displayLink": "shorttermrentalz.com",
+      "snippet": "Mar 9, 2020 ... iPass is available across leading smartphones, tablets, and PCs, providing access any time, anywhere on any device. MyVR co-founder and CTO, ...",
+      "htmlSnippet": "Mar 9, 2020 <b>...</b> iPass is available across leading smartphones, tablets, and PCs, providing access any time, anywhere on any device. <b>MyVR</b> co-<b>founder</b> and CTO,&nbsp;...",
+      "formattedUrl": "https://shorttermrentalz.com/news/myvr-integration-behome247/",
+      "htmlFormattedUrl": "https://shorttermrentalz.com/news/<b>myvr</b>-integration-behome247/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4FM8ss-oM1jF-eTUOHJECE8D1ah1clP6cbOv8oxySJKN9taz9Hp44xEp8&s",
+            "width": "275",
+            "height": "183"
+          }
+        ],
+        "Event": [
+          {
+            "url": "https://shorttermrentalz.com/news/myvr-integration-behome247/"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://shorttermrentalz.com/wp-content/uploads/2020/03/myvr2.png",
+            "og:type": "article",
+            "article:published_time": "2020-03-09T14:29:47+00:00",
+            "og:image:width": "612",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Short Term Rentals",
+            "author": "Paul Stevens",
+            "og:title": "MyVR announces integration with BeHome247 home automation solution",
+            "og:image:height": "408",
+            "twitter:label1": "Written by",
+            "twitter:label2": "Estimated reading time",
+            "og:image:type": "image/png",
+            "msapplication-tileimage": "https://shorttermrentalz.com/wp-content/uploads/2018/09/STRz-square.png",
+            "og:description": "MyVR announces integration with BeHome247 home automation solution: Read on for more information at our ShortTermRentalz website.",
+            "twitter:creator": "@STRentalz",
+            "article:publisher": "https://www.facebook.com/STRentalz/",
+            "twitter:data1": "Paul Stevens",
+            "twitter:data2": "1 minute",
+            "twitter:site": "@STRentalz",
+            "article:modified_time": "2020-05-01T12:09:13+00:00",
+            "viewport": "width=device-width, initial-scale=1",
+            "og:locale": "en_GB",
+            "og:url": "https://shorttermrentalz.com/news/myvr-integration-behome247/"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://shorttermrentalz.com/wp-content/uploads/2020/03/myvr2.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Jonathan Murray, Co-Founder & CEO, MyVR | Software Equity Group",
+      "htmlTitle": "Jonathan Murray, Co-<b>Founder</b> &amp; CEO, <b>MyVR</b> | Software Equity Group",
+      "link": "https://softwareequity.com/testimonial/jonathan-murray-co-founder-ceo-myvr/",
+      "displayLink": "softwareequity.com",
+      "snippet": "Jonathan Murray, Co-Founder & CEO, MyVR. December 27, 2022. “Their team went above and beyond the call of duty to keep things moving and yet never missed a ...",
+      "htmlSnippet": "Jonathan Murray, Co-<b>Founder</b> &amp; CEO, <b>MyVR</b>. December 27, 2022. “Their team went above and beyond the call of duty to keep things moving and yet never missed a&nbsp;...",
+      "formattedUrl": "https://softwareequity.com/.../jonathan-murray-co-founder-ceo-myvr/",
+      "htmlFormattedUrl": "https://softwareequity.com/.../jonathan-murray-co-founder-ceo-<b>myvr</b>/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpznE5mbH5NkTYQv1GQIYaSb7aboSrv7KcBlLIsIZcxspGMynUBrY3aAD3&s",
+            "width": "313",
+            "height": "161"
+          }
+        ],
+        "metatags": [
+          {
+            "og:type": "article",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Software Equity Group",
+            "article:modified_time": "2024-01-29T07:02:52+00:00",
+            "viewport": "width=device-width, initial-scale=1",
+            "msvalidate.01": "CB3E15B717BD034955FDF93E70E2B198",
+            "og:title": "Jonathan Murray, Co-Founder & CEO, MyVR ",
+            "og:locale": "en_US",
+            "og:url": "https://softwareequity.com/testimonial/jonathan-murray-co-founder-ceo-myvr/",
+            "og:description": "“Their team went above and beyond the call of duty to keep things moving and yet never missed a detail. I also found them to be a great group of people! I would work with SEG again without hesitation in the future. The process is just too important, and the stakes too high for me… ..."
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://softwareequity.com/wp-content/uploads/2024/09/SEG-Merger-and-Acquisition-Discovery.webp"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Guesty has acquired MyVR! - Guesty",
+      "htmlTitle": "Guesty has acquired <b>MyVR</b>! - Guesty",
+      "link": "https://www.guesty.com/blog/guesty-has-acquired-myvr/",
+      "displayLink": "www.guesty.com",
+      "snippet": "Apr 8, 2021 ... Guesty has acquired MyVR, a fellow Y Combinator alum and successful property management software solution ... Amiad Soto is co-founder and CEO ...",
+      "htmlSnippet": "Apr 8, 2021 <b>...</b> Guesty has acquired <b>MyVR</b>, a fellow Y Combinator alum and successful property management software solution ... Amiad Soto is co-<b>founder</b> and CEO&nbsp;...",
+      "formattedUrl": "https://www.guesty.com/blog/guesty-has-acquired-myvr/",
+      "htmlFormattedUrl": "https://www.guesty.com/blog/guesty-has-acquired-<b>myvr</b>/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOu3GOnPNWhJ27_bvfxgMfwwStmrITCihIYOJy1WicdaevlDk3ZhmtQdc&s",
+            "width": "300",
+            "height": "168"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://www.guesty.com/wp-content/uploads/2023/07/Social-sharing-image-1600x900-1.png",
+            "og:type": "article",
+            "article:published_time": "2021-04-08T09:43:28+00:00",
+            "og:image:width": "2560",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Guesty",
+            "author": "Amiad Soto",
+            "og:title": "Guesty has acquired MyVR!",
+            "og:image:height": "1440",
+            "og:image:type": "image/png",
+            "msapplication-tileimage": "https://www.guesty.com/wp-content/uploads/2025/06/cropped-guesty-favicon-270x270.png",
+            "og:description": "Guesty has acquired MyVR, a fellow Y Combinator alum and successful property management software solution. Check out the full announcement!",
+            "article:modified_time": "2021-04-08T00:00:00+00:00",
+            "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
+            "og:locale": "en_US",
+            "og:url": "https://www.guesty.com/blog/guesty-has-acquired-myvr/",
+            "format-detection": "telephone=no"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.guesty.com/wp-content/uploads/2023/07/Social-sharing-image-1600x900-1.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "MyVR Acquired by Guesty - Software Equity Group",
+      "htmlTitle": "<b>MyVR</b> Acquired by Guesty - Software Equity Group",
+      "link": "https://softwareequity.com/transactions/myvr-acquired-by-guesty",
+      "displayLink": "softwareequity.com",
+      "snippet": "Apr 8, 2021 ... Jonathan Murray, Co-Founder & CEO, MyVR. myvr-logo-lrg. +. Guesty-logo-lrg. SEG served as exclusive advisor to MyVR. Client Description. The ...",
+      "htmlSnippet": "Apr 8, 2021 <b>...</b> Jonathan Murray, Co-<b>Founder</b> &amp; CEO, <b>MyVR</b>. <b>myvr</b>-logo-lrg. +. Guesty-logo-lrg. SEG served as exclusive advisor to <b>MyVR</b>. Client Description. The&nbsp;...",
+      "formattedUrl": "https://softwareequity.com/transactions/myvr-acquired-by-guesty",
+      "htmlFormattedUrl": "https://softwareequity.com/transactions/<b>myvr</b>-acquired-by-guesty",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfB5Zd1NsZ6FAQXTIpfegu4hbkacplrMUUinWJhY3Vvw613oikiXNFaLSo&s",
+            "width": "281",
+            "height": "180"
+          }
+        ],
+        "metatags": [
+          {
+            "og:type": "article",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Software Equity Group",
+            "article:modified_time": "2023-04-07T21:48:48+00:00",
+            "viewport": "width=device-width, initial-scale=1",
+            "msvalidate.01": "CB3E15B717BD034955FDF93E70E2B198",
+            "og:title": "MyVR Acquired by Guesty",
+            "og:locale": "en_US",
+            "og:url": "https://softwareequity.com/transactions/myvr-acquired-by-guesty/",
+            "og:description": "Software Equity Group (SEG) announces our client, MyVR, has been acquired by Guesty. SEG served as the exclusive advisor to MyVR."
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://softwareequity.com/wp-content/uploads/2022/03/MyVR-Jonathan-Murray.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "MyVR - A Guesty Company | LinkedIn",
+      "htmlTitle": "<b>MyVR</b> - A Guesty Company | LinkedIn",
+      "link": "https://www.linkedin.com/company/myvr-com",
+      "displayLink": "www.linkedin.com",
+      "snippet": "Jan 5, 2018 ... MyVR - A Guesty Company | 1146 followers on LinkedIn. Modern, reliable short-term rental property management software | MyVR, a Guesty ...",
+      "htmlSnippet": "Jan 5, 2018 <b>...</b> <b>MyVR</b> - A Guesty Company | 1146 followers on LinkedIn. Modern, reliable short-term rental property management software | <b>MyVR</b>, a Guesty&nbsp;...",
+      "formattedUrl": "https://www.linkedin.com/company/myvr-com",
+      "htmlFormattedUrl": "https://www.linkedin.com/company/<b>myvr</b>-com",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScLyzF7ktY8ZqFC0g6FLmnQweHSJhF66upTvTKaMK_J_zuXqfIaLx2jOuQ&s",
+            "width": "200",
+            "height": "200"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://media.licdn.com/dms/image/v2/C560BAQH3fb3IjHgjog/company-logo_200_200/company-logo_200_200/0/1630655929827/myvr_com_logo?e=2147483647&v=beta&t=c8ISDxQ5dk1p06Rsaap8Et7dWjjT-Xmc2aDJnHZ3h_k",
+            "og:type": "article",
+            "twitter:card": "summary",
+            "twitter:title": "MyVR - A Guesty Company | LinkedIn",
+            "clientsideingraphs": "1",
+            "al:ios:app_name": "LinkedIn",
+            "linkedin:pagetag": "noncanonical_subdomain=control",
+            "og:title": "MyVR - A Guesty Company | LinkedIn",
+            "al:android:package": "com.linkedin.android",
+            "pagekey": "p_org_guest_company_overview",
+            "bingbot": "nocache",
+            "locale": "en_US",
+            "al:ios:url": "https://www.linkedin.com/company/myvr-com",
+            "og:description": "MyVR - A Guesty Company | 1,146 followers on LinkedIn. Modern, reliable short-term rental property management software | MyVR, a Guesty company, is a cloud-based, multi-channel management platform that provides short-term rental businesses with the ability to simplify and centralize property management across key booking channels from a single dashboard. The software streamlines and automates day-to-day tasks in order to save businesses time and resources, reduce efforts and improve the experience of travelers.",
+            "al:ios:app_store_id": "288429040",
+            "twitter:image": "https://media.licdn.com/dms/image/v2/C560BAQH3fb3IjHgjog/company-logo_200_200/company-logo_200_200/0/1630655929827/myvr_com_logo?e=2147483647&v=beta&t=c8ISDxQ5dk1p06Rsaap8Et7dWjjT-Xmc2aDJnHZ3h_k",
+            "al:android:url": "https://www.linkedin.com/company/myvr-com",
+            "twitter:site": "@linkedin",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "twitter:description": "MyVR - A Guesty Company | 1,146 followers on LinkedIn. Modern, reliable short-term rental property management software | MyVR, a Guesty company, is a cloud-based, multi-channel management platform that provides short-term rental businesses with the ability to simplify and centralize property management across key booking channels from a single dashboard. The software streamlines and automates day-to-day tasks in order to save businesses time and resources, reduce efforts and improve the experience of travelers.",
+            "og:url": "https://www.linkedin.com/company/myvr-com",
+            "al:android:app_name": "LinkedIn"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://media.licdn.com/dms/image/v2/C560BAQH3fb3IjHgjog/company-logo_200_200/company-logo_200_200/0/1630655929827/myvr_com_logo?e=2147483647&v=beta&t=c8ISDxQ5dk1p06Rsaap8Et7dWjjT-Xmc2aDJnHZ3h_k"
+          }
+        ]
+      }
+    }
+  ]
+}
