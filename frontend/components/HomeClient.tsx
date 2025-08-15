@@ -9,6 +9,7 @@ import CompanyDetail from '@/components/CompanyDetail'
 import ResponseDisplay from '@/components/ResponseDisplay'
 import { Company, SearchResult } from '@/lib/types'
 import { TrendingUp, Sparkles, Zap } from 'lucide-react'
+import PersonGrid from '@/components/PersonGrid'
 
 type Stats = { total_companies: number; total_embeddings: number; data_sources: number }
 
@@ -154,6 +155,7 @@ export default function HomeClient({ initialStats }: { initialStats: Stats }) {
                   const firstMatch: any = searchResults.matches[0]
                   const resultType = firstMatch?.type || (firstMatch?.metadata?.type) || 'Company'
                   const isRepository = resultType === 'Repository'
+                  const isPerson = resultType === 'Person'
                     
                   return (
                     <>
@@ -173,6 +175,11 @@ export default function HomeClient({ initialStats }: { initialStats: Stats }) {
                             onSelectRepository={(repo) => {
                               setSelectedRepository(repo)
                             }}
+                          />
+                        ) : isPerson ? (
+                          <PersonGrid 
+                            people={searchResults.matches as any}
+                            onSelectPerson={() => {}}
                           />
                         ) : (
                           <CompanyGrid 

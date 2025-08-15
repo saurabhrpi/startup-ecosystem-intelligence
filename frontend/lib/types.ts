@@ -41,6 +41,19 @@ export interface CompanyScore {
   rank?: number
 }
 
+export interface Person {
+  id: string
+  score: number
+  metadata: {
+    name: string
+    role?: string
+    company?: string
+    source?: string
+    location?: string
+    type: string
+  }
+}
+
 export interface NetworkData {
   nodes: Array<{
     id: string

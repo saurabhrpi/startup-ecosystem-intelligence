@@ -17,6 +17,8 @@ from backend.utils.embeddings import EmbeddingGenerator
 from backend.utils.neo4j_store import Neo4jStore
 from urllib.parse import urlparse
 import re
+from backend.collectors.google_cse import GoogleCSEClient
+from backend.config import settings
 
 class Neo4jDataPipeline:
     def __init__(self):
@@ -28,6 +30,13 @@ class Neo4jDataPipeline:
         self.neo4j_store = Neo4jStore()
         # Track processed people to avoid redundant embedding generation
         self.processed_person_ids = set()
+        self.cse_client = None
+        try:
+            if settings.use_cse_for_founders and settings.google_cse_api_key and settings.google_cse_cx:
+                self.cse_client = GoogleCSEClient()
+                print("[FOUNDERS] Google Custom Search enabled for founder discovery")
+        except Exception:
+            self.cse_client = None
         
     async def run_full_pipeline(self):
         """Run the complete data pipeline"""
@@ -86,17 +95,48 @@ class Neo4jDataPipeline:
             all_data['repos'] = []
             self.repo_company_mappings = []
         else:
-            # Use company-first approach to discover all repos
             print("[GitHub] Starting company-first repository discovery...")
             import os as _os
-            # Start with small batch for testing (5 companies by default)
-            MAX_COMPANY_REPO_QUERIES = int(_os.getenv('MAX_COMPANY_REPO_QUERIES', '1000'))
-            print(f"[INFO] Processing up to {MAX_COMPANY_REPO_QUERIES} companies (set MAX_COMPANY_REPO_QUERIES env var to change)")
+            # Limit per-company repo discovery to a reasonable default
+            MAX_COMPANY_REPO_QUERIES = int(_os.getenv('MAX_COMPANY_REPO_QUERIES', '100'))
+            selection = _os.getenv('COMPANY_SELECTION_STRATEGY', 'zero_repos').lower()
+
+            # Build candidate pool based on DB state
+            companies_pool = all_data.get('companies', [])
+            if selection in ('zero_repos', 'zero_founders'):
+                try:
+                    with self.neo4j_store.driver.session() as session:
+                        if selection == 'zero_repos':
+                            query = """
+                            MATCH (c:Company)
+                            OPTIONAL MATCH (c)-[:OWNS|:LIKELY_OWNS]->(:Repository)
+                            WITH c, count(*) AS rels
+                            WHERE rels = 0
+                            RETURN c.id AS id
+                            """
+                        else:
+                            query = """
+                            MATCH (c:Company)
+                            OPTIONAL MATCH (c)<-[:FOUNDED]-(:Person)
+                            WITH c, count(*) AS founders
+                            WHERE founders = 0
+                            RETURN c.id AS id
+                            """
+                        rows = session.run(query)
+                        empty_ids = {row['id'] for row in rows}
+                    companies_pool = [c for c in companies_pool if self._generate_id(c, 'company') in empty_ids]
+                    print(f"[SELECT] Strategy='{selection}': {len(companies_pool)} companies selected from DB state")
+                except Exception as e:
+                    print(f"[WARN] Selection strategy '{selection}' failed: {e}. Falling back to full list")
+
+            # Apply limit
+            companies_to_process = companies_pool[:MAX_COMPANY_REPO_QUERIES]
+            print(f"[INFO] Processing {len(companies_to_process)} companies (limit {MAX_COMPANY_REPO_QUERIES}; set MAX_COMPANY_REPO_QUERIES to change)")
             
             try:
                 repos = await self.collectors['github'].fetch_all_company_repos(
-                    all_data.get('companies', []), 
-                    max_companies=MAX_COMPANY_REPO_QUERIES
+                    companies_to_process,
+                    max_companies=len(companies_to_process)
                 )
                 
                 if not repos:
@@ -104,7 +144,7 @@ class Neo4jDataPipeline:
                     all_data['repos'] = []
                 else:
                     all_data['repos'] = repos
-                    print(f"[SUCCESS] Discovered {len(repos)} GitHub repos from {min(MAX_COMPANY_REPO_QUERIES, len(all_data.get('companies', [])))} companies")
+                    print(f"[SUCCESS] Discovered {len(repos)} GitHub repos from {len(companies_to_process)} companies")
                 
                 # Store the repo-company mappings for later relationship creation
                 self.repo_company_mappings = getattr(self.collectors['github'], 'repo_company_mappings', [])
@@ -143,21 +183,24 @@ class Neo4jDataPipeline:
                 existing_ids = {record['id'] for record in result}
                 print(f"[INFO] Found {len(existing_ids)} existing YC companies in database")
         
-        # Filter out existing companies
-        new_companies = []
+        # Split into new vs existing companies
+        new_companies: List[Dict[str, Any]] = []
+        existing_companies: List[Dict[str, Any]] = []
         skipped_count = 0
         for company in companies:
             company_id = self._generate_id(company, 'company')
             if company_id not in existing_ids:
                 new_companies.append(company)
             else:
+                existing_companies.append(company)
                 skipped_count += 1
         
         if skipped_count > 0:
             print(f"[INFO] Skipping {skipped_count} companies that already exist")
         
         if not new_companies:
-            print("[INFO] All companies are already loaded!")
+            print("[INFO] All companies are already loaded! Running founders backfill for existing companies...")
+            await self._backfill_founders_for_existing(existing_companies)
             return
         
         print(f"[INFO] Loading {len(new_companies)} new companies...")
@@ -204,7 +247,15 @@ class Neo4jDataPipeline:
                         if not founders:
                             text = f"{company.get('long_description','')}\n{company.get('description','')}"
                             founders = self._extract_founders_from_text(text)
-                        if not founders and company.get('website'):
+                        if not founders and self.cse_client:
+                            try:
+                                founders = await self.cse_client.search_founders(
+                                    company.get('name') or '',
+                                    company_data.get('website_domain') if 'company_data' in locals() else self._extract_domain(company.get('website') or '')
+                                )
+                            except Exception:
+                                founders = []
+                        if not founders and company.get('website') and os.getenv('USE_WEBSITE_SCRAPER', 'false').lower() == 'true':
                             try:
                                 scraper = WebsiteScraper()
                                 founders = await scraper.scrape_founders(company.get('website'))
@@ -246,6 +297,73 @@ class Neo4jDataPipeline:
             if batch_idx < total_batches - 1:
                 print(f"[DELAY] Waiting 2 seconds before next batch...")
                 time.sleep(2)
+
+        # Also backfill founders for existing companies in this run
+        if existing_companies:
+            print("\n[BACKFILL] Processing founders for existing companies...")
+            await self._backfill_founders_for_existing(existing_companies)
+
+    async def _backfill_founders_for_existing(self, companies: List[Dict[str, Any]]):
+        """Create founder Person nodes and FOUNDED relationships for companies that already exist in DB.
+        The number of companies processed can be limited via env MAX_FOUNDER_BACKFILL (default: 100).
+        """
+        import os as _os
+        limit = int(_os.getenv('MAX_FOUNDER_BACKFILL', '100'))
+        subset = companies[:limit] if limit > 0 else companies
+        print(f"[BACKFILL] Founders backfill will process up to {len(subset)} companies (MAX_FOUNDER_BACKFILL={limit}).")
+        for company in tqdm(subset, desc="Backfilling founders"):
+            try:
+                company_id = self._generate_id(company, 'company')
+                # Derive founders using same logic as new companies
+                founders: List[str] = []
+                if isinstance(company.get('founders'), list) and company['founders']:
+                    founders = [f['name'] if isinstance(f, dict) else f for f in company['founders'] if f]
+                if not founders:
+                    text = f"{company.get('long_description','')}\n{company.get('description','')}"
+                    founders = self._extract_founders_from_text(text)
+                if not founders and self.cse_client:
+                    try:
+                        founders = await self.cse_client.search_founders(
+                            company.get('name') or '',
+                            self._extract_domain(company.get('website') or '')
+                        )
+                    except Exception:
+                        founders = []
+                if not founders and company.get('website') and os.getenv('USE_WEBSITE_SCRAPER', 'false').lower() == 'true':
+                    try:
+                        scraper = WebsiteScraper()
+                        founders = await scraper.scrape_founders(company.get('website'))
+                    except Exception:
+                        founders = []
+
+                for founder_name in founders:
+                    if not founder_name:
+                        continue
+                    founder_obj = {'name': founder_name, 'source': 'yc'}
+                    person_id = self._generate_id(founder_obj, 'person')
+                    person_data = {
+                        'id': person_id,
+                        'name': founder_name,
+                        'role': 'Founder',
+                        'company': company.get('name'),
+                        'source': 'yc'
+                    }
+                    # Generate embedding for person if not already processed
+                    if person_id not in self.processed_person_ids:
+                        person_text = f"Name: {founder_name}\nRole: Founder\nCompany: {company.get('name')}"
+                        person_embedding = self._get_embedding(person_text)
+                        self.processed_person_ids.add(person_id)
+                    else:
+                        person_embedding = None
+                    self.neo4j_store.create_person_with_embedding(person_data, person_embedding)
+                    self.neo4j_store.create_relationship(
+                        from_id=person_id,
+                        to_id=company_id,
+                        rel_type='FOUNDED',
+                        properties={'role': 'Founder'}
+                    )
+            except Exception as e:
+                print(f"[WARN] Backfill founders error for company {company.get('name','Unknown')}: {e}")
     
     async def _load_repositories(self, repos: List[Dict[str, Any]]):
         """Load repositories with embeddings"""

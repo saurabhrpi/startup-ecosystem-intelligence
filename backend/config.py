@@ -30,6 +30,22 @@ class Settings(BaseSettings):
     producthunt_api_key: Optional[str] = os.getenv("PRODUCTHUNT_API_KEY")
     news_api_key: Optional[str] = os.getenv("NEWS_API_KEY")
     
+    # Google Custom Search (for founders discovery)
+    google_cse_api_key: Optional[str] = (
+        ENV.get("GOOGLE_CSE_API_KEY") or os.getenv("GOOGLE_CSE_API_KEY")
+    )
+    google_cse_cx: Optional[str] = (
+        ENV.get("GOOGLE_CSE_CX") or os.getenv("GOOGLE_CSE_CX")
+    )
+    use_cse_for_founders: bool = (os.getenv("USE_CSE_FOR_FOUNDERS", "true").lower() == "true")
+    max_cse_queries_per_run: int = int(os.getenv("MAX_CSE_QUERIES_PER_RUN", "500"))
+    max_cse_queries_per_company: int = int(os.getenv("MAX_CSE_QUERIES_PER_COMPANY", "2"))
+
+    # Pipeline feature flags / selection strategy
+    use_website_scraper: bool = (os.getenv("USE_WEBSITE_SCRAPER", "false").lower() == "true")
+    company_selection_strategy: str = os.getenv("COMPANY_SELECTION_STRATEGY", "zero_repos")
+    max_company_repo_queries: int = int(os.getenv("MAX_COMPANY_REPO_QUERIES", "100"))
+    
     # Pinecone (Required)
     pinecone_environment: str = os.getenv("PINECONE_ENVIRONMENT", "gcp-starter")
     pinecone_index_name: str = os.getenv("PINECONE_INDEX_NAME", "startup-embeddings")
