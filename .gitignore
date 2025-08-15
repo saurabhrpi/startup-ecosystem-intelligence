@@ -15,6 +15,7 @@ venv/
 data/raw/*
 data/processed/*
 data/embeddings/*
+data/cache/
 data/pipeline_report_*.json
 data/neo4j_pipeline_report_*.json
 !data/*/.gitkeep
