@@ -401,12 +401,12 @@ class Neo4jStore:
             top_k: Number of results
             graph_depth: Depth for graph expansion
         """
-        # First, get vector search results with reasonable threshold
+        # First, get vector search results with low threshold to maximize recall; we will sort and filter afterward
         vector_results = self.vector_search(
             query_embedding,
             node_type,
             top_k * 2,
-            min_score=0.5,
+            min_score=0.0,
             location_filters=location_filters,
             batch_filters=batch_filters,
             exclude_location_filters=exclude_location_filters,
