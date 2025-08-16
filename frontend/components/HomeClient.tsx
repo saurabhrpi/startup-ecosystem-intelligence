@@ -161,12 +161,14 @@ export default function HomeClient({ initialStats }: { initialStats: Stats }) {
                     <>
                       <div className="text-center mb-6">
                         <h2 className="text-3xl font-bold text-gray-800 mb-2">
-                          {isRepository ? 'Discovered Repositories' : 'Discovered Companies'}
+                          {isRepository ? 'Discovered Repositories' : (isPerson ? 'Discovered Founders' : 'Discovered Companies')}
                         </h2>
                         <p className="text-gray-600">
                           {isRepository 
                             ? 'Showing repositories with their associated companies'
-                            : 'Click on any company to explore detailed insights'}
+                            : isPerson
+                              ? 'Showing founders and their associated companies'
+                              : 'Click on any company to explore detailed insights'}
                         </p>
                       </div>
                         {isRepository ? (
@@ -177,10 +179,16 @@ export default function HomeClient({ initialStats }: { initialStats: Stats }) {
                             }}
                           />
                         ) : isPerson ? (
-                          <PersonGrid 
-                            people={searchResults.matches as any}
-                            onSelectPerson={() => {}}
-                          />
+                          (() => {
+                            const peopleOnly = (searchResults.matches as any[]).filter((m) => (m?.type || m?.metadata?.type) === 'Person')
+                            const uniquePeople = Array.from(new Map(peopleOnly.map((p) => [p.id, p])).values())
+                            return (
+                              <PersonGrid 
+                                people={uniquePeople as any}
+                                onSelectPerson={() => {}}
+                              />
+                            )
+                          })()
                         ) : (
                           <CompanyGrid 
                             companies={searchResults.matches as unknown as Company[]} 
