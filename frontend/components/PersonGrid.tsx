@@ -1,6 +1,8 @@
 'use client'
 
+import { useState } from 'react'
 import PersonCard from './PersonCard'
+import PersonDetail from './PersonDetail'
 
 interface Person {
   id: string
@@ -16,6 +18,8 @@ interface Person {
 }
 
 export default function PersonGrid({ people = [], onSelectPerson }: { people: Person[]; onSelectPerson?: (p: Person) => void }) {
+  const [selected, setSelected] = useState<Person | null>(null)
+
   if (!people || people.length === 0) {
     return (
       <div className="text-center py-8 text-gray-500">No people found. Try a different search query.</div>
@@ -23,11 +27,16 @@ export default function PersonGrid({ people = [], onSelectPerson }: { people: Pe
   }
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-      {people.map((person) => (
-        <PersonCard key={person.id} person={person} onClick={() => onSelectPerson?.(person)} />
-      ))}
-    </div>
+    <>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        {people.map((person) => (
+          <PersonCard key={person.id} person={person} onClick={() => { setSelected(person); onSelectPerson?.(person) }} />
+        ))}
+      </div>
+      {selected && (
+        <PersonDetail person={selected as any} onClose={() => setSelected(null)} />
+      )}
+    </>
   )
 }
 

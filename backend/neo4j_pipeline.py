@@ -15,6 +15,7 @@ from backend.collectors.github_collector import GitHubCollector
 from backend.collectors.website_scraper import WebsiteScraper
 from backend.utils.embeddings import EmbeddingGenerator
 from backend.utils.neo4j_store import Neo4jStore
+from backend.utils.name_guard import is_probable_person_name
 from urllib.parse import urlparse
 import re
 from backend.collectors.google_cse import GoogleCSEClient
@@ -266,9 +267,11 @@ class Neo4jDataPipeline:
                             except Exception:
                                 founders = []
 
-                        # Create founder nodes and relationships
+                        # Create founder nodes and relationships (guard against non-person entries)
                         for founder_name in founders:
                             if not founder_name:
+                                continue
+                            if not is_probable_person_name(founder_name):
                                 continue
                             founder_obj = {'name': founder_name, 'source': 'yc'}
                             person_id = self._generate_id(founder_obj, 'person')
@@ -347,6 +350,8 @@ class Neo4jDataPipeline:
 
                 for founder_name in founders:
                     if not founder_name:
+                        continue
+                    if not is_probable_person_name(founder_name):
                         continue
                     founder_obj = {'name': founder_name, 'source': 'yc'}
                     person_id = self._generate_id(founder_obj, 'person')
