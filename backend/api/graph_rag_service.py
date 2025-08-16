@@ -3,6 +3,7 @@ Graph RAG Service V2 - Uses Neo4j for both vector search and graph relationships
 """
 import os
 import re
+import json
 from typing import List, Dict, Any, Optional, Tuple
 from dotenv import load_dotenv
 import openai
@@ -82,12 +83,69 @@ class GraphRAGService:
             cleaned_query = cleaned_query[:start] + ' ' + cleaned_query[end:]
         
         # Only clean up extra whitespace, don't remove stopwords
-        # This preserves important context like "Series A", "in San Francisco", etc.
-        # Embeddings are trained to understand full context including stopwords
         cleaned_query = ' '.join(cleaned_query.split())
         
         logger.info(f"Extracted numeric filters: {filters} from query: '{query}'")
         return filters, cleaned_query
+
+    def _is_complex_query(self, q: str) -> bool:
+        ql = (q or '').lower()
+        score = 0
+        # multi-entity mentions
+        ents = sum(k in ql for k in ["founder","person","repo","repository","company","startup"])
+        if ents >= 2: score += 2
+        # boolean/combiner
+        if re.search(r"\b(and|or|not|without|except|between)\b", ql): score += 2
+        # comparators/aggregations
+        if re.search(r"[<>]=?|\b(at least|at most|over|under|more than|less than|top \d+|best|most)\b", ql): score += 2
+        # joins/relations
+        if re.search(r"\b(who|that|which)\b", ql): score += 1
+        # multiple filters: location + time/round
+        if re.search(r"\b(in|near|from)\b", ql) and re.search(r"\b(20\d{2}|w\d{2}|s\d{2}|series [abc]|seed)\b", ql):
+            score += 2
+        # analytical verbs
+        if re.search(r"\b(compare|rank|summarize|recommend|explain|why|how)\b", ql): score += 2
+        # length
+        if len(q.split()) > 12: score += 1
+        return score >= 3
+
+    def _plan_query(self, query: str) -> Dict[str, Any]:
+        """Ask the LLM for a compact JSON execution plan. Fallback to heuristics on error."""
+        try:
+            prompt = (
+                "You are a query planner. Read the user query and output a minimal JSON plan with fields: "
+                "filter_type (one of: 'company','person','repository' or null), person_roles (array, e.g., ['founder']), "
+                "min_repo_stars (int or null), location (string or null), query_focus (string to use for embedding). "
+                "Only output JSON."
+            )
+            msg = [
+                {"role": "system", "content": prompt},
+                {"role": "user", "content": query}
+            ]
+            resp = self.openai_client.chat.completions.create(
+                model="gpt-4",
+                messages=msg,
+                temperature=0,
+                max_tokens=200
+            )
+            content = resp.choices[0].message.content.strip()
+            plan = json.loads(content)
+            if isinstance(plan, dict):
+                return plan
+        except Exception:
+            pass
+        # heuristic fallback: founders, repositories, or companies
+        ql = query.lower()
+        plan: Dict[str, Any] = {}
+        if any(k in ql for k in ["founder","founders","people","person","ceo","cto"]):
+            plan["filter_type"] = "person"
+            plan["person_roles"] = ["founder"]
+        elif any(k in ql for k in ["repo","repository","github","code"]):
+            plan["filter_type"] = "repository"
+        else:
+            plan["filter_type"] = "company"
+        plan["query_focus"] = query
+        return plan
     
     def _detect_entity_type(self, query: str) -> Optional[str]:
         """
@@ -132,6 +190,7 @@ class GraphRAGService:
         """
         Perform Graph RAG search using Neo4j's hybrid capabilities
         """
+        used_planner = False
         # Extract numeric filters from query
         numeric_filters, cleaned_query = self._extract_numeric_filters(query)
         
@@ -148,6 +207,19 @@ class GraphRAGService:
             if detected_type:
                 filter_type = detected_type
                 logger.info(f"Auto-detected entity type: {filter_type}")
+        
+        # If complex, run planner to refine execution params
+        if self._is_complex_query(query):
+            plan = self._plan_query(query)
+            used_planner = True
+            if isinstance(plan.get("filter_type"), str):
+                filter_type = plan["filter_type"]
+            if isinstance(plan.get("person_roles"), list):
+                person_role_filters = [r.lower() for r in plan["person_roles"] if isinstance(r, str)]
+            if isinstance(plan.get("min_repo_stars"), int):
+                min_repo_stars = plan["min_repo_stars"]
+            if isinstance(plan.get("query_focus"), str) and plan["query_focus"].strip():
+                embedding_query = plan["query_focus"].strip()
         
         # Check for special repository queries
         query_lower = query.lower()
@@ -172,7 +244,7 @@ class GraphRAGService:
                 }
             }
         
-        # Get embedding using cleaned query for better semantic matching
+        # Get embedding using possibly refined focus
         query_embedding = self._get_query_embedding(embedding_query)
 
         # Extract optional filters from the free-text query (e.g., location hints like "NYC")
@@ -197,6 +269,32 @@ class GraphRAGService:
             min_repo_stars=min_repo_stars,
             person_role_filters=person_role_filters
         )
+
+        # Escalate to planner if nothing found yet
+        if not results and not used_planner:
+            plan = self._plan_query(query)
+            used_planner = True
+            if isinstance(plan.get("filter_type"), str):
+                filter_type = plan["filter_type"]
+            if isinstance(plan.get("person_roles"), list):
+                person_role_filters = [r.lower() for r in plan["person_roles"] if isinstance(r, str)]
+            if isinstance(plan.get("min_repo_stars"), int):
+                min_repo_stars = plan["min_repo_stars"]
+            if isinstance(plan.get("query_focus"), str) and plan["query_focus"].strip():
+                embedding_query = plan["query_focus"].strip()
+            # Re-run once with planned params
+            query_embedding = self._get_query_embedding(embedding_query)
+            results = self.neo4j_store.hybrid_search(
+                query_embedding=query_embedding,
+                node_type=filter_type,
+                top_k=adjusted_top_k,
+                graph_depth=graph_depth,
+                location_filters=self._aliases_for_code(location_code) if location_code else None,
+                batch_filters=batch_filters,
+                exclude_location_filters=exclude_locations,
+                min_repo_stars=min_repo_stars,
+                person_role_filters=person_role_filters
+            )
 
         # If repositories are in the results, enrich with associated company when available
         try:
@@ -564,7 +662,7 @@ Provide a comprehensive yet concise response (max 3-4 paragraphs)."""
                     'type': result['type'],
                     'score': result.get('score', 0)
                 })
-            
+        
             # Add connection edges
             if 'connection' in result:
                 conn = result['connection']
