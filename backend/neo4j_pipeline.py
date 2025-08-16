@@ -230,8 +230,12 @@ class Neo4jDataPipeline:
                             'name': company.get('name'),
                             'description': company.get('description', ''),
                             'location': company.get('location', ''),
+                            # location_code will be set by DB backfill or alias pass; accept inbound if present
+                            'location_code': company.get('location_code', ''),
                             'website': company.get('website', ''),
                             'batch': company.get('batch', ''),
+                            # batch_code compact form if present
+                            'batch_code': company.get('batch_code', ''),
                             'industries': company.get('industries', []),
                             'source': 'yc'
                         }
@@ -271,9 +275,14 @@ class Neo4jDataPipeline:
                             person_data = {
                                 'id': person_id,
                                 'name': founder_name,
-                                'role': 'Founder',
+                                'role': 'founder',
+                                'roles': ['founder'],
                                 'company': company.get('name'),
-                                'source': 'yc'
+                                'source': 'yc',
+                                'location': company_data.get('location', ''),
+                                'location_code': company_data.get('location_code', ''),
+                                'batch': company_data.get('batch', ''),
+                                'batch_code': company_data.get('batch_code', '')
                             }
                             # Generate embedding for person (founder)
                             if person_id not in self.processed_person_ids:
@@ -344,9 +353,14 @@ class Neo4jDataPipeline:
                     person_data = {
                         'id': person_id,
                         'name': founder_name,
-                        'role': 'Founder',
+                        'role': 'founder',
+                        'roles': ['founder'],
                         'company': company.get('name'),
-                        'source': 'yc'
+                        'source': 'yc',
+                        'location': company.get('location', ''),
+                        'location_code': '',
+                        'batch': company.get('batch', ''),
+                        'batch_code': ''
                     }
                     # Generate embedding for person if not already processed
                     if person_id not in self.processed_person_ids:

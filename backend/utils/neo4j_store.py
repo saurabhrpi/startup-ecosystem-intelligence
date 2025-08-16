@@ -155,9 +155,11 @@ class Neo4jStore:
                 c.name = $name,
                 c.description = $description,
                 c.location = $location,
+                c.location_code = $location_code,
                 c.website = $website,
                 c.website_domain = $website_domain,
                 c.batch = $batch,
+                c.batch_code = $batch_code,
                 c.industries = $industries,
                 c.source = $source,
                 c.sources = [$source],
@@ -168,9 +170,11 @@ class Neo4jStore:
                 c.name = coalesce(c.name, $name),
                 c.description = CASE WHEN c.description IS NULL OR c.description = '' THEN $description ELSE c.description END,
                 c.location = CASE WHEN c.location IS NULL OR c.location = '' THEN $location ELSE c.location END,
+                c.location_code = coalesce(c.location_code, $location_code),
                 c.website = CASE WHEN c.website IS NULL OR c.website = '' THEN $website ELSE c.website END,
                 c.website_domain = CASE WHEN c.website_domain IS NULL OR c.website_domain = '' THEN $website_domain ELSE c.website_domain END,
                 c.batch = CASE WHEN c.batch IS NULL OR c.batch = '' THEN $batch ELSE c.batch END,
+                c.batch_code = coalesce(c.batch_code, $batch_code),
                 c.industries = CASE WHEN c.industries IS NULL OR size(c.industries) = 0 THEN $industries ELSE c.industries END,
                 c.embedding = coalesce(c.embedding, $embedding),
                 c.sources = CASE 
@@ -186,40 +190,62 @@ class Neo4jStore:
                 'name': sanitized.get('name'),
                 'description': sanitized.get('description', ''),
                 'location': sanitized.get('location', ''),
+                'location_code': sanitized.get('location_code', ''),
                 'website': sanitized.get('website', ''),
                 'website_domain': sanitized.get('website_domain', ''),
                 'batch': sanitized.get('batch', ''),
+                'batch_code': sanitized.get('batch_code', ''),
                 'industries': sanitized.get('industries', []),
                 'source': sanitized.get('source', 'unknown'),
                 'embedding': embedding
             })
     
     def create_person_with_embedding(self, person_data: Dict[str, Any], embedding: Optional[List[float]] = None) -> None:
-        """Create a person node with optional embedding"""
+        """Create or update a person node with optional embedding using non-destructive updates."""
         with self.driver.session() as session:
             query = """
             MERGE (p:Person {id: $id})
-            SET p.name = $name,
+            ON CREATE SET
+                p.name = $name,
                 p.role = $role,
+                p.roles = CASE WHEN $roles IS NULL OR size($roles) = 0 THEN NULL ELSE $roles END,
                 p.company = $company,
                 p.source = $source,
-                p.created_at = datetime()
+                p.location = $location,
+                p.location_code = $location_code,
+                p.batch = $batch,
+                p.batch_code = $batch_code,
+                p.embedding = CASE WHEN $embedding IS NULL THEN NULL ELSE $embedding END,
+                p.created_at = datetime(),
+                p.updated_at = datetime()
+            ON MATCH SET
+                p.name = coalesce(p.name, $name),
+                p.role = CASE WHEN p.role IS NULL OR p.role = '' THEN $role ELSE p.role END,
+                p.roles = CASE WHEN p.roles IS NULL OR size(p.roles) = 0 THEN $roles ELSE p.roles END,
+                p.company = CASE WHEN p.company IS NULL OR p.company = '' THEN $company ELSE p.company END,
+                p.source = coalesce(p.source, $source),
+                p.location = CASE WHEN p.location IS NULL OR p.location = '' THEN $location ELSE p.location END,
+                p.location_code = coalesce(p.location_code, $location_code),
+                p.batch = CASE WHEN p.batch IS NULL OR p.batch = '' THEN $batch ELSE p.batch END,
+                p.batch_code = coalesce(p.batch_code, $batch_code),
+                p.embedding = coalesce(p.embedding, $embedding),
+                p.updated_at = datetime()
             """
-            
+
             params = {
                 'id': person_data.get('id'),
                 'name': person_data.get('name'),
-                'role': person_data.get('role', ''),
+                'role': (person_data.get('role') or ''),
+                'roles': person_data.get('roles') if isinstance(person_data.get('roles'), list) else None,
                 'company': person_data.get('company', ''),
-                'source': person_data.get('source', 'unknown')
+                'source': person_data.get('source', 'unknown'),
+                'location': person_data.get('location', ''),
+                'location_code': person_data.get('location_code', ''),
+                'batch': person_data.get('batch', ''),
+                'batch_code': person_data.get('batch_code', ''),
+                'embedding': embedding
             }
-            
-            # Add embedding if provided
-            if embedding:
-                query = query.replace("p.created_at = datetime()", 
-                                    "p.embedding = $embedding, p.created_at = datetime()")
-                params['embedding'] = embedding
-            
+
             session.run(query, params)
     
     def create_repository_with_embedding(self, repo_data: Dict[str, Any], embedding: List[float]) -> None:
