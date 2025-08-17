@@ -11,6 +11,7 @@ from backend.config import settings
 NAME_TOKEN = r"[A-Z][a-z]+(?:[-'][A-Z][a-z]+)*"
 NAME_2_3 = re.compile(rf"\b{NAME_TOKEN}(?:\s{NAME_TOKEN}){{1,2}}\b")
 NEAR_FOUNDER_AFTER = re.compile(rf"\b(Co-?founder|Founder)\b\s*.{{0,40}}({NAME_TOKEN}(?:\s{NAME_TOKEN}){{1,2}})", re.IGNORECASE)
+NEAR_INVESTOR_AFTER = re.compile(rf"\b(Investor|Angel|Lead investor|VC|Venture|Partner|General Partner|Managing Partner|Principal|Associate)\b\s*.{{0,60}}({NAME_TOKEN}(?:\s{NAME_TOKEN}){{1,2}})", re.IGNORECASE)
 
 # Minimal validation: title-cased 2–3 tokens with allowed characters
 
@@ -150,6 +151,34 @@ class GoogleCSEClient:
                 break
         return out[:3]
 
+    def _extract_investors_from_items(self, items: List[Dict[str, Any]], company_domain: Optional[str]) -> List[str]:
+        out: List[str] = []
+        seen = set()
+
+        def add(name: str):
+            if name and name not in seen and _is_valid_name(name):
+                out.append(name)
+                seen.add(name)
+
+        for it in items or []:
+            snippet = it.get('snippet', '') or ''
+            if not snippet:
+                continue
+            # Primary: NER
+            ner_names = _extract_persons_ner(snippet)
+            for nm in ner_names:
+                add(nm)
+            if len(out) >= 3:
+                break
+            # Fallback: regex after investor-related keywords
+            for m in NEAR_INVESTOR_AFTER.finditer(snippet):
+                add(m.group(2).strip())
+                if len(out) >= 3:
+                    break
+            if len(out) >= 3:
+                break
+        return out[:3]
+
     async def search_founders(self, company_name: str, company_domain: Optional[str]) -> List[str]:
         if not company_name:
             return []
@@ -168,3 +197,27 @@ class GoogleCSEClient:
                 if len(results) >= 3:
                     break
         return results[:3]
+
+    async def search_investors(self, company_name: str, company_domain: Optional[str]) -> List[str]:
+        if not company_name:
+            return []
+        queries = [f'"{company_name}" investors', f'"{company_name}" funding investors']
+        if company_domain:
+            queries.append(f"site:{company_domain} (investor OR investors OR partners OR team)")
+
+        results: List[str] = []
+        async with httpx.AsyncClient(timeout=15.0, headers={"User-Agent": "startup-ecosystem-intelligence"}) as client:
+            for idx, q in enumerate(queries):
+                if idx >= self.max_per_company:
+                    break
+                data = await self._query(client, q, num=10)
+                results.extend(self._extract_investors_from_items(data.get("items", []), company_domain))
+                results = list(dict.fromkeys(results))
+                if len(results) >= 3:
+                    break
+        return results[:3]
+
+    async def search_founders_and_investors(self, company_name: str, company_domain: Optional[str]) -> Dict[str, List[str]]:
+        founders = await self.search_founders(company_name, company_domain)
+        investors = await self.search_investors(company_name, company_domain)
+        return {"founders": founders, "investors": investors}

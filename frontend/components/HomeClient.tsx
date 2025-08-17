@@ -10,6 +10,7 @@ import ResponseDisplay from '@/components/ResponseDisplay'
 import { Company, SearchResult } from '@/lib/types'
 import { TrendingUp, Sparkles, Zap } from 'lucide-react'
 import PersonGrid from '@/components/PersonGrid'
+import InvestorGrid from '@/components/InvestorGrid'
 
 type Stats = { total_companies: number; total_embeddings: number; data_sources: number }
 
@@ -156,18 +157,22 @@ export default function HomeClient({ initialStats }: { initialStats: Stats }) {
                   const resultType = firstMatch?.type || (firstMatch?.metadata?.type) || 'Company'
                   const isRepository = resultType === 'Repository'
                   const isPerson = resultType === 'Person'
+                  const isInvestorList = isPerson && (searchResults.matches as any[]).some((m:any) => {
+                    const role = (m?.metadata?.role || '').toLowerCase()
+                    return role.includes('investor') || role.includes('vc') || role.includes('venture')
+                  })
                     
                   return (
                     <>
                       <div className="text-center mb-6">
                         <h2 className="text-3xl font-bold text-gray-800 mb-2">
-                          {isRepository ? 'Discovered Repositories' : (isPerson ? 'Discovered Founders' : 'Discovered Companies')}
+                          {isRepository ? 'Discovered Repositories' : (isPerson ? (isInvestorList ? 'Discovered Investors' : 'Discovered Founders') : 'Discovered Companies')}
                         </h2>
                         <p className="text-gray-600">
                           {isRepository 
                             ? 'Showing repositories with their associated companies'
                             : isPerson
-                              ? 'Showing founders and their associated companies'
+                              ? (isInvestorList ? 'Showing investors' : 'Showing founders and their associated companies')
                               : 'Click on any company to explore detailed insights'}
                         </p>
                       </div>
@@ -182,6 +187,13 @@ export default function HomeClient({ initialStats }: { initialStats: Stats }) {
                           (() => {
                             const peopleOnly = (searchResults.matches as any[]).filter((m) => (m?.type || m?.metadata?.type) === 'Person')
                             const uniquePeople = Array.from(new Map(peopleOnly.map((p) => [p.id, p])).values())
+                            if (isInvestorList) {
+                              const investors = uniquePeople.filter((p:any) => {
+                                const role = (p?.metadata?.role || '').toLowerCase()
+                                return role.includes('investor') || role.includes('vc') || role.includes('venture')
+                              })
+                              return <InvestorGrid people={investors as any} />
+                            }
                             return (
                               <PersonGrid 
                                 people={uniquePeople as any}

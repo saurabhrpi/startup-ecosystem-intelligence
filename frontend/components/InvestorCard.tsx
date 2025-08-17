@@ -1,6 +1,6 @@
 'use client'
 
-import { User2, Briefcase, Building2, MapPin } from 'lucide-react'
+import { User2, Briefcase, MapPin } from 'lucide-react'
 
 interface Person {
   id: string
@@ -15,10 +15,10 @@ interface Person {
   }
 }
 
-export default function PersonCard({ person, onClick }: { person: Person; onClick?: () => void }) {
+export default function InvestorCard({ person, onClick }: { person: Person; onClick?: () => void }) {
   const { metadata } = person
   const matchScore = Math.round(person.score * 100)
-  
+
   return (
     <div
       onClick={onClick}
@@ -26,7 +26,6 @@ export default function PersonCard({ person, onClick }: { person: Person; onClic
       className="group relative bg-white rounded-xl shadow-sm hover:shadow-2xl transition-all duration-300 cursor-pointer overflow-hidden border border-gray-100 hover:border-indigo-200"
     >
       <div className="relative p-6 space-y-4">
-        {/* Header */}
         <div className="flex justify-between items-start">
           <div className="flex-1 pr-2">
             <div className="flex items-center gap-2">
@@ -35,18 +34,13 @@ export default function PersonCard({ person, onClick }: { person: Person; onClic
                 {metadata.name}
               </h3>
             </div>
-            {(metadata.role || metadata.company) && (
+            {(
+              metadata.role || metadata.company
+            ) && (
               <div className="mt-1 text-sm text-gray-600 flex flex-wrap gap-3">
-                {metadata.role && (
-                  <span className="inline-flex items-center gap-1">
-                    <Briefcase size={14} className="text-indigo-500" /> {metadata.role}
-                  </span>
-                )}
-                {metadata.company && (
-                  <span className="inline-flex items-center gap-1">
-                    <Building2 size={14} className="text-green-600" /> {metadata.company}
-                  </span>
-                )}
+                <span className="inline-flex items-center gap-1">
+                  <Briefcase size={14} className="text-indigo-500" /> {metadata.role || 'Investor'}
+                </span>
               </div>
             )}
           </div>
@@ -55,7 +49,6 @@ export default function PersonCard({ person, onClick }: { person: Person; onClic
           </div>
         </div>
 
-        {/* Location */}
         {metadata.location && (
           <div className="flex items-center gap-1.5 text-sm text-gray-600">
             <MapPin className="text-red-500" size={14} />

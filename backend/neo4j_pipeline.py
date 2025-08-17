@@ -245,21 +245,25 @@ class Neo4jDataPipeline:
                         
                         self.neo4j_store.create_company_with_embedding(company_data, embedding)
                         
-                        # Derive founders if missing: from text, then website scrape
+                        # Derive founders/investors if missing: from text, CSE, then website scrape
                         founders = []
+                        investors: List[str] = []
                         if isinstance(company.get('founders'), list) and company['founders']:
                             founders = [f['name'] if isinstance(f, dict) else f for f in company['founders'] if f]
                         if not founders:
                             text = f"{company.get('long_description','')}\n{company.get('description','')}"
                             founders = self._extract_founders_from_text(text)
-                        if not founders and self.cse_client:
+                        if self.cse_client:
                             try:
-                                founders = await self.cse_client.search_founders(
+                                # fetch both founders and investors in one pass where possible
+                                both = await self.cse_client.search_founders_and_investors(
                                     company.get('name') or '',
                                     company_data.get('website_domain') if 'company_data' in locals() else self._extract_domain(company.get('website') or '')
                                 )
+                                founders = both.get('founders') or founders
+                                investors = both.get('investors') or investors
                             except Exception:
-                                founders = []
+                                pass
                         if not founders and company.get('website') and os.getenv('USE_WEBSITE_SCRAPER', 'false').lower() == 'true':
                             try:
                                 scraper = WebsiteScraper()
@@ -300,6 +304,40 @@ class Neo4jDataPipeline:
                                 to_id=company_id,
                                 rel_type='FOUNDED',
                                 properties={'role': 'Founder'}
+                            )
+
+                        # Create investor person nodes and WORKS_AT relationships (non-destructive)
+                        for investor_name in investors:
+                            if not investor_name:
+                                continue
+                            if not is_probable_person_name(investor_name):
+                                continue
+                            inv_obj = {'name': investor_name, 'source': 'google_cse'}
+                            inv_id = self._generate_id(inv_obj, 'person')
+                            inv_data = {
+                                'id': inv_id,
+                                'name': investor_name,
+                                'role': 'investor',
+                                'roles': ['investor'],
+                                'company': company.get('name'),
+                                'source': 'google_cse',
+                                'location': company_data.get('location', ''),
+                                'location_code': company_data.get('location_code', ''),
+                                'batch': company_data.get('batch', ''),
+                                'batch_code': company_data.get('batch_code', '')
+                            }
+                            if inv_id not in self.processed_person_ids:
+                                inv_text = f"Name: {investor_name}\nRole: Investor\nCompany: {company.get('name')}"
+                                inv_embedding = self._get_embedding(inv_text)
+                                self.processed_person_ids.add(inv_id)
+                            else:
+                                inv_embedding = None
+                            self.neo4j_store.create_person_with_embedding(inv_data, inv_embedding)
+                            self.neo4j_store.create_relationship(
+                                from_id=inv_id,
+                                to_id=company_id,
+                                rel_type='INVESTS_IN',
+                                properties={'role': 'Investor'}
                             )
                     
                 except Exception as e:
