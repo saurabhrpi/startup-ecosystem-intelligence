@@ -28,12 +28,12 @@ export interface SearchResult {
 export interface CompanyScore {
   company_id: string
   company_name: string
-  total_score: number
+  total_score: number | null
   scores: {
-    founder_score: number
+    founder_score: number | null
     network_score: number
     market_score: number
-    technical_score: number
+    technical_score: number | null
     timing_score: number
   }
   investment_thesis: string

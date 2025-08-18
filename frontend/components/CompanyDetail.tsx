@@ -139,10 +139,19 @@ export default function CompanyDetail({ company, onClose }: CompanyDetailProps) 
               <h3 className="text-2xl font-semibold mb-4">AI Investment Score</h3>
               
               <div className="text-center mb-6">
-                <div className={`text-6xl font-bold ${getScoreColor(score.total_score)}`}>
-                  {score.total_score}/10
-                </div>
-                <p className="text-gray-600 mt-2">Overall Score</p>
+                {score.total_score !== null ? (
+                  <>
+                    <div className={`text-6xl font-bold ${getScoreColor(score.total_score)}`}>
+                      {score.total_score}/10
+                    </div>
+                    <p className="text-gray-600 mt-2">Overall Score</p>
+                  </>
+                ) : (
+                  <>
+                    <div className="text-4xl font-bold text-gray-500">N/A</div>
+                    <p className="text-gray-600 mt-2">Overall Score</p>
+                  </>
+                )}
               </div>
 
               <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-6">
@@ -151,9 +160,13 @@ export default function CompanyDetail({ company, onClose }: CompanyDetailProps) 
                   return (
                     <div key={key} className="text-center">
                       <Icon className="w-8 h-8 mx-auto mb-2 text-gray-600" />
-                      <div className={`text-2xl font-semibold ${getScoreColor(value)}`}>
-                        {value.toFixed(1)}
-                      </div>
+                      {value !== null ? (
+                        <div className={`text-2xl font-semibold ${getScoreColor(value as number)}`}>
+                          {(value as number).toFixed(1)}
+                        </div>
+                      ) : (
+                        <div className="text-2xl font-semibold text-gray-500">N/A</div>
+                      )}
                       <p className="text-xs text-gray-600 capitalize">
                         {key.replace('_score', '').replace('_', ' ')}
                       </p>

@@ -57,18 +57,24 @@ class ScoringAgent:
         }
         
         # Calculate weighted total score
-        total_score = sum(
-            score * self.weights[score_name] 
-            for score_name, score in scores.items()
-        )
+        # Compute weighted total over available factors only (exclude N/A)
+        available_factors = [(name, score) for name, score in scores.items() if isinstance(score, (int, float))]
+        if available_factors:
+            weight_sum = sum(self.weights[name] for name, _ in available_factors)
+            weighted_sum = sum(score * self.weights[name] for name, score in available_factors)
+            total_score = weighted_sum / weight_sum
+        else:
+            total_score = None
         
+        # Persist last total score for thesis formatting
+        self._last_total_score = total_score  # may be None
         # Generate investment thesis
         thesis = await self._generate_investment_thesis(company_data, scores)
         
         return {
             'company_id': company_id,
             'company_name': company_data['name'],
-            'total_score': round(total_score, 2),
+            'total_score': round(total_score, 2) if isinstance(total_score, (int, float)) else None,
             'scores': scores,
             'investment_thesis': thesis,
             'scoring_date': datetime.now().isoformat()
@@ -126,7 +132,7 @@ class ScoringAgent:
             
             return company
     
-    async def _score_founders(self, company_data: Dict[str, Any]) -> float:
+    async def _score_founders(self, company_data: Dict[str, Any]) -> Optional[float]:
         """
         Score based on founder quality (0-10)
         Factors:
@@ -135,7 +141,7 @@ class ScoringAgent:
         - Past successes
         """
         if not company_data.get('founders'):
-            return 5.0  # Default score if no founder data
+            return None  # Not Available when no founder data
         
         # Use LLM to analyze founder quality
         founders_text = "\n".join([
@@ -150,9 +156,9 @@ class ScoringAgent:
         {founders_text}
         
         Score the founder quality from 0-10 based on:
-        1. Names suggesting experience (e.g., common in tech)
-        2. Number of founders (2-3 is optimal)
-        3. Role clarity
+        1. Team size and composition (2-3 founders is generally optimal)
+        2. Role clarity (e.g., presence of CEO/CTO or clearly defined roles)
+        3. Any prior leadership or domain-relevant signals if evident from roles
         
         Respond with ONLY a number between 0-10.
         """
@@ -167,7 +173,7 @@ class ScoringAgent:
             score = float(response.choices[0].message.content.strip())
             return min(max(score, 0), 10)  # Ensure 0-10 range
         except:
-            return 6.0  # Default on error
+            return None  # Not Available on error
     
     def _score_network(self, company_data: Dict[str, Any]) -> float:
         """
@@ -177,11 +183,10 @@ class ScoringAgent:
         - Industry connections
         - Repository connections
         """
-        batch_score = min(company_data.get('batch_peer_count', 0) / 5, 1) * 3
-        industry_score = min(company_data.get('industry_peer_count', 0) / 10, 1) * 4
-        repo_score = min(len(company_data.get('repositories', [])) / 2, 1) * 3
-        
-        return batch_score + industry_score + repo_score
+        # Define network purely as peer connectivity (batch / industry). Repositories are excluded.
+        batch_score = min(company_data.get('batch_peer_count', 0) / 5, 1) * 5  # up to 5 points
+        industry_score = min(company_data.get('industry_peer_count', 0) / 10, 1) * 5  # up to 5 points
+        return batch_score + industry_score
     
     async def _score_market(self, company_data: Dict[str, Any]) -> float:
         """
@@ -211,14 +216,14 @@ class ScoringAgent:
         
         return sum(scores) / len(scores) if scores else 5.0
     
-    def _score_technical(self, company_data: Dict[str, Any]) -> float:
+    def _score_technical(self, company_data: Dict[str, Any]) -> Optional[float]:
         """
         Score based on technical indicators (0-10)
         For companies with GitHub repos
         """
         repos = company_data.get('repositories', [])
         if not repos:
-            return 5.0  # No technical data
+            return None  # Not Available when no repos
         
         # Average stars across repos
         total_stars = sum(r.get('stars', 0) for r in repos)
@@ -271,19 +276,23 @@ class ScoringAgent:
         """
         Generate an investment thesis based on scores
         """
+        def fmt(val: Optional[float]) -> str:
+            return f"{val}/10" if isinstance(val, (int, float)) else "N/A"
+
+        total_str = f"{self._last_total_score:.1f}/10" if isinstance(getattr(self, '_last_total_score', None), (int, float)) else "N/A"
         prompt = f"""
         Generate a concise investment thesis for:
         Company: {company_data.get('name')}
         Industries: {', '.join(company_data.get('industries', []))}
         
         Scores:
-        - Founder Quality: {scores['founder_score']}/10
-        - Network Strength: {scores['network_score']}/10
-        - Market Opportunity: {scores['market_score']}/10
-        - Technical Indicators: {scores['technical_score']}/10
-        - Timing: {scores['timing_score']}/10
+        - Founder Quality: {fmt(scores.get('founder_score'))}
+        - Network Strength: {fmt(scores.get('network_score'))}
+        - Market Opportunity: {fmt(scores.get('market_score'))}
+        - Technical Indicators: {fmt(scores.get('technical_score'))}
+        - Timing: {fmt(scores.get('timing_score'))}
         
-        Total Score: {sum(scores.values()) / len(scores):.1f}/10
+        Total Score: {total_str}
         
         Provide a 2-3 sentence investment thesis highlighting the strongest factors
         and any concerns. Be specific and actionable.
@@ -312,11 +321,11 @@ class ScoringAgent:
             "factors": {
                 "founder_score": {
                     "weight": self.weights['founder_score'],
-                    "description": "Evaluates founder experience, background, and team composition"
+                    "description": "Evaluates team size/composition (2–3 optimal) and role clarity (e.g., CEO/CTO). Returns N/A if founder data is missing."
                 },
                 "network_score": {
                     "weight": self.weights['network_score'],
-                    "description": "Measures connections to successful companies and peers"
+                    "description": "Measures peer connectivity: up to 5 points from SAME_BATCH peers (cap at 5), and up to 5 points from SAME_INDUSTRY peers (cap at 10). Repositories are excluded."
                 },
                 "market_score": {
                     "weight": self.weights['market_score'],
@@ -324,7 +333,7 @@ class ScoringAgent:
                 },
                 "technical_score": {
                     "weight": self.weights['technical_score'],
-                    "description": "Analyzes technical indicators like GitHub activity"
+                    "description": "Analyzes GitHub indicators (total stars thresholds). Returns N/A if no repos."
                 },
                 "timing_score": {
                     "weight": self.weights['timing_score'],
