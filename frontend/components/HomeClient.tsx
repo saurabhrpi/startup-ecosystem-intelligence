@@ -43,13 +43,17 @@ export default function HomeClient({ initialStats }: { initialStats: Stats }) {
   const handleSearch = async (query: string) => {
     setLoading(true)
     try {
-      // Don't force filter_type, let the backend auto-detect
-      const response = await fetch(
-        `/api/search?query=${encodeURIComponent(query)}&top_k=20`,
-        {
-          headers: { Accept: 'application/json' },
-        }
-      )
+      const ql = (query || '').toLowerCase()
+      const isInvestorQuery = ['investor', 'investors', 'vc', 'venture'].some(t => ql.includes(t))
+      const params = new URLSearchParams({
+        query,
+        top_k: '5',
+      })
+      if (isInvestorQuery) {
+        params.set('filter_type', 'person')
+        params.set('person_roles', 'investor')
+      }
+      const response = await fetch(`/api/search?${params.toString()}`, { headers: { Accept: 'application/json' } })
       if (!response.ok) {
         throw new Error(`Search failed: ${response.status}`)
       }
@@ -145,7 +149,7 @@ export default function HomeClient({ initialStats }: { initialStats: Stats }) {
           <div className="space-y-8">
             {/* Response Display */}
             {searchResults.response && (
-              <ResponseDisplay response={searchResults.response} totalResults={searchResults.total_results} />
+              <ResponseDisplay response={searchResults.response} totalResults={searchResults.total_results} matches={searchResults.matches as any[]} />
             )}
 
             {/* Results Grid - Companies or Repositories */}

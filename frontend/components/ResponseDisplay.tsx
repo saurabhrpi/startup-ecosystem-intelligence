@@ -6,9 +6,10 @@ import { ChevronDown, ChevronUp, Sparkles, TrendingUp, Users, Lightbulb, ArrowRi
 interface ResponseDisplayProps {
   response: string
   totalResults: number
+  matches?: any[]
 }
 
-export default function ResponseDisplay({ response, totalResults }: ResponseDisplayProps) {
+export default function ResponseDisplay({ response, totalResults, matches = [] }: ResponseDisplayProps) {
   const [expanded, setExpanded] = useState(true)
 
   // Parse the response to extract insights and recommendations
@@ -37,7 +38,27 @@ export default function ResponseDisplay({ response, totalResults }: ResponseDisp
     return { summary, insights, recommendations, companies }
   }
 
-  const { summary, insights, recommendations, companies } = parseResponse(response)
+  const { summary, insights, recommendations: aiRecommendations, companies } = parseResponse(response)
+
+  // Derive concise recommendations directly from actual matches to avoid LLM drift
+  const derivedRecommendations: string[] = Array.isArray(matches)
+    ? matches.slice(0, 5).map((m: any) => {
+        const meta = m?.metadata || m || {}
+        const type = (m?.type || meta?.type || '').toString()
+        const name = (meta?.name || meta?.company || meta?.id || '').toString()
+        if (!name) return 'Top match'
+        if (type === 'Person') {
+          const role = (meta?.role || '').toString()
+          const company = (meta?.company || '').toString()
+          return `${name}${role ? ` — ${role}` : ''}${company ? ` @ ${company}` : ''}`
+        }
+        if (type === 'Repository') {
+          const company = (meta?.company?.name || meta?.company || '').toString()
+          return `${name}${company ? ` (${company})` : ''}`
+        }
+        return name
+      })
+    : []
 
   // Render simple markdown emphasis (**bold**, *italic*, __bold__, _italic_) as React elements
   const renderWithEmphasis = (text: string) => {
@@ -158,8 +179,8 @@ export default function ResponseDisplay({ response, totalResults }: ResponseDisp
               </div>
             )}
 
-            {/* Recommendations */}
-            {recommendations.length > 0 && (
+            {/* Recommendations (from matches only) */}
+            {derivedRecommendations.length > 0 && (
               <div className="space-y-3">
                 <div className="flex items-center space-x-2 mb-3">
                   <Sparkles className="text-purple-600" size={20} />
@@ -167,7 +188,7 @@ export default function ResponseDisplay({ response, totalResults }: ResponseDisp
                 </div>
                 <div className="bg-purple-50 rounded-lg p-4 border border-purple-200">
                   <ul className="space-y-2">
-                    {recommendations.map((rec, idx) => (
+                    {derivedRecommendations.map((rec, idx) => (
                       <li key={idx} className="flex items-start space-x-2">
                         <span className="text-purple-600 mt-1">→</span>
                         <span className="text-gray-700">{renderWithEmphasis(rec)}</span>
@@ -179,7 +200,7 @@ export default function ResponseDisplay({ response, totalResults }: ResponseDisp
             )}
 
             {/* Raw Response Fallback */}
-            {!summary && companies.length === 0 && insights.length === 0 && recommendations.length === 0 && (
+            {!summary && companies.length === 0 && insights.length === 0 && aiRecommendations.length === 0 && (
               <div className="bg-gray-50 rounded-lg p-4">
                 <p className="text-gray-700 whitespace-pre-wrap">{response}</p>
               </div>

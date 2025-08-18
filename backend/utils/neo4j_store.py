@@ -336,7 +336,12 @@ class Neo4jStore:
               AND ($batch_filters IS NULL OR ANY(b IN $batch_filters WHERE toLower(coalesce(n.batch, '')) CONTAINS b))
               AND ($exclude_location_filters IS NULL OR NONE(ex IN $exclude_location_filters WHERE toLower(coalesce(n.location, '')) CONTAINS ex))
               AND ($min_repo_stars IS NULL OR (n.stars IS NOT NULL AND n.stars >= $min_repo_stars))
-              AND ($person_role_filters IS NULL OR (n.role IS NOT NULL AND toLower(n.role) IN $person_role_filters))
+              AND (
+                    $person_role_filters IS NULL OR (
+                        (n.role IS NOT NULL AND toLower(n.role) IN $person_role_filters)
+                        OR (n.roles IS NOT NULL AND ANY(r IN n.roles WHERE toLower(r) IN $person_role_filters))
+                    )
+                  )
             WITH n, gds.similarity.cosine(n.embedding, $query_embedding) AS score
             WHERE score >= $min_score
             RETURN n, score, labels(n) as node_labels
@@ -435,7 +440,12 @@ class Neo4jStore:
                   AND ($batch_filters IS NULL OR ANY(b IN $batch_filters WHERE toLower(coalesce(connected.batch, '')) CONTAINS b))
                   AND ($exclude_location_filters IS NULL OR NONE(ex IN $exclude_location_filters WHERE toLower(coalesce(connected.location, '')) CONTAINS ex))
                   AND ($min_repo_stars IS NULL OR (connected.stars IS NOT NULL AND connected.stars >= $min_repo_stars))
-                  AND ($person_role_filters IS NULL OR (connected.role IS NOT NULL AND toLower(connected.role) IN $person_role_filters))
+                  AND (
+                        $person_role_filters IS NULL OR (
+                            (connected.role IS NOT NULL AND toLower(connected.role) IN $person_role_filters)
+                            OR (connected.roles IS NOT NULL AND ANY(r IN connected.roles WHERE toLower(r) IN $person_role_filters))
+                        )
+                      )
                 WITH connected, 
                      length(path) as distance,
                      [rel in relationships(path) | type(rel)] as rel_types

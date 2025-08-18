@@ -177,6 +177,28 @@ class GraphRAGService:
         
         return None
     
+    def _derive_person_roles_from_query(self, query: str) -> Optional[List[str]]:
+        """Infer person role filters directly from the free-text query.
+        Returns a list like ['investor'] or ['founder'] when confidently detected, else None.
+        """
+        if not query:
+            return None
+        q = query.lower()
+        # Investor-oriented terms
+        investor_terms = [
+            'investor', 'investors', 'vc', 'venture capital', 'venture-capital',
+            'angel', 'lead investor', 'general partner', 'gp', 'partner', 'principal', 'associate'
+        ]
+        # Founder-oriented terms
+        founder_terms = [
+            'founder', 'founders', 'cofounder', 'co-founder', 'ceo', 'cto', 'cpo', 'head of'
+        ]
+        if any(t in q for t in investor_terms):
+            return ['investor']
+        if any(t in q for t in founder_terms):
+            return ['founder']
+        return None
+    
     def search(
         self, 
         query: str, 
@@ -208,6 +230,12 @@ class GraphRAGService:
                 filter_type = detected_type
                 logger.info(f"Auto-detected entity type: {filter_type}")
         
+        # If searching for people but roles weren't provided, derive them from the query
+        if (filter_type == 'person') and not person_role_filters:
+            derived_roles = self._derive_person_roles_from_query(query)
+            if derived_roles:
+                person_role_filters = [r.lower() for r in derived_roles]
+        
         # If complex, run planner to refine execution params
         if self._is_complex_query(query):
             plan = self._plan_query(query)
@@ -220,6 +248,11 @@ class GraphRAGService:
                 min_repo_stars = plan["min_repo_stars"]
             if isinstance(plan.get("query_focus"), str) and plan["query_focus"].strip():
                 embedding_query = plan["query_focus"].strip()
+            # If planner didn't set roles for person queries, fall back to derivation
+            if (filter_type == 'person') and not person_role_filters:
+                derived_roles = self._derive_person_roles_from_query(query)
+                if derived_roles:
+                    person_role_filters = [r.lower() for r in derived_roles]
         
         # Check for special repository queries
         query_lower = query.lower()
@@ -282,6 +315,10 @@ class GraphRAGService:
                 min_repo_stars = plan["min_repo_stars"]
             if isinstance(plan.get("query_focus"), str) and plan["query_focus"].strip():
                 embedding_query = plan["query_focus"].strip()
+            if (filter_type == 'person') and not person_role_filters:
+                derived_roles = self._derive_person_roles_from_query(query)
+                if derived_roles:
+                    person_role_filters = [r.lower() for r in derived_roles]
             # Re-run once with planned params
             query_embedding = self._get_query_embedding(embedding_query)
             results = self.neo4j_store.hybrid_search(
