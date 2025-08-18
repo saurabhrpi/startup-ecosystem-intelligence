@@ -149,7 +149,7 @@ export default function HomeClient({ initialStats }: { initialStats: Stats }) {
           <div className="space-y-8">
             {/* Response Display */}
             {searchResults.response && (
-              <ResponseDisplay response={searchResults.response} totalResults={searchResults.total_results} matches={searchResults.matches as any[]} />
+              <ResponseDisplay response={searchResults.response} totalResults={searchResults.total_results} matches={searchResults.matches as any[]} query={searchResults.query} />
             )}
 
             {/* Results Grid - Companies or Repositories */}

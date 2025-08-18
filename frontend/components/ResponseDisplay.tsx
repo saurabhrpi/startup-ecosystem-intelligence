@@ -7,9 +7,10 @@ interface ResponseDisplayProps {
   response: string
   totalResults: number
   matches?: any[]
+  query?: string
 }
 
-export default function ResponseDisplay({ response, totalResults, matches = [] }: ResponseDisplayProps) {
+export default function ResponseDisplay({ response, totalResults, matches = [], query }: ResponseDisplayProps) {
   const [expanded, setExpanded] = useState(true)
 
   // Parse the response to extract insights and recommendations
@@ -59,6 +60,68 @@ export default function ResponseDisplay({ response, totalResults, matches = [] }
         return name
       })
     : []
+
+  // Build natural-language recommendation sentences from matches
+  const buildContextPhrase = (q?: string) => {
+    const ql = (q || '').toLowerCase()
+    // Try to extract a domain after 'in '
+    const inIdx = ql.indexOf(' in ')
+    if (inIdx >= 0) {
+      const after = ql.slice(inIdx + 4).trim()
+      if (after) {
+        const end = after.search(/[.,;]|$/)
+        const raw = after.slice(0, end).trim()
+        if (raw) {
+          // Title-case simple tokens like 'edtech'
+          const pretty = raw.split(/\s+/).map(w => w.length > 2 ? w[0].toUpperCase() + w.slice(1) : w.toUpperCase()).join(' ')
+          return ` in the ${pretty} field`
+        }
+      }
+    }
+    return ''
+  }
+
+  const buildRecommendationSentences = (): string[] => {
+    const names: string[] = []
+    const investors: string[] = []
+    const others: string[] = []
+    if (!Array.isArray(matches)) return []
+    const unique = new Set<string>()
+    for (const m of matches) {
+      const meta = (m?.metadata || m || {}) as any
+      const type = (m?.type || meta?.type || '').toString()
+      const name = (meta?.name || meta?.company || meta?.id || '').toString()
+      if (!name || unique.has(name)) continue
+      unique.add(name)
+      const role = (meta?.role || '').toLowerCase()
+      if (type === 'Person' && (role.includes('investor') || role.includes('vc') || role.includes('venture'))) {
+        investors.push(name)
+      } else {
+        names.push(name)
+      }
+    }
+    // If we have multiple investors, prioritize recommending outreach to them
+    const context = buildContextPhrase(query)
+    const sentences: string[] = []
+    const primaryList = investors.length ? investors : names
+    if (primaryList.length > 0) {
+      const head = primaryList.slice(0, 2)
+      const rest = primaryList.slice(2, 5)
+      const headText = head.length === 1 ? head[0] : `${head[0]} and ${head[1]}`
+      const restText = rest.length ? `, as well as ${rest.join(', ')}` : ''
+      const who = investors.length ? 'for potential investment opportunities or partnerships' : 'for potential opportunities'
+      sentences.push(`Consider reaching out to ${headText}${restText} ${who}${context}.`)
+    }
+    // If there are additional distinct entities beyond the first group, add a second sentence
+    const secondaryPool = investors.length ? names : []
+    if (secondaryPool.length > 0) {
+      const sec = secondaryPool.slice(0, 3)
+      const secText = sec.length === 1 ? sec[0] : sec.length === 2 ? `${sec[0]} and ${sec[1]}` : `${sec[0]}, ${sec[1]}, and ${sec[2]}`
+      sentences.push(`Also, keep an eye on ${secText}, as their activities could shape the landscape${context}.`)
+    }
+    return sentences
+  }
+  const recommendationSentences = buildRecommendationSentences()
 
   // Render simple markdown emphasis (**bold**, *italic*, __bold__, _italic_) as React elements
   const renderWithEmphasis = (text: string) => {
@@ -179,8 +242,8 @@ export default function ResponseDisplay({ response, totalResults, matches = [] }
               </div>
             )}
 
-            {/* Recommendations (from matches only) */}
-            {derivedRecommendations.length > 0 && (
+            {/* Recommendations (from matches only, natural-language bullets) */}
+            {recommendationSentences.length > 0 && (
               <div className="space-y-3">
                 <div className="flex items-center space-x-2 mb-3">
                   <Sparkles className="text-purple-600" size={20} />
@@ -188,7 +251,7 @@ export default function ResponseDisplay({ response, totalResults, matches = [] }
                 </div>
                 <div className="bg-purple-50 rounded-lg p-4 border border-purple-200">
                   <ul className="space-y-2">
-                    {derivedRecommendations.map((rec, idx) => (
+                    {recommendationSentences.map((rec, idx) => (
                       <li key={idx} className="flex items-start space-x-2">
                         <span className="text-purple-600 mt-1">•</span>
                         <span className="text-gray-700">{renderWithEmphasis(rec)}</span>
