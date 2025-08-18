@@ -190,7 +190,7 @@ export default function ResponseDisplay({ response, totalResults, matches = [] }
                   <ul className="space-y-2">
                     {derivedRecommendations.map((rec, idx) => (
                       <li key={idx} className="flex items-start space-x-2">
-                        <span className="text-purple-600 mt-1">→</span>
+                        <span className="text-purple-600 mt-1">•</span>
                         <span className="text-gray-700">{renderWithEmphasis(rec)}</span>
                       </li>
                     ))}
