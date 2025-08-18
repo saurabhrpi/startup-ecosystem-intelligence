@@ -108,13 +108,18 @@ class ScoringAgent:
             query = """
             MATCH (c:Company {id: $company_id})
             OPTIONAL MATCH (c)<-[:FOUNDED]-(founder:Person)
-            OPTIONAL MATCH (c)-[:SAME_BATCH]-(batch_peer:Company)
-            OPTIONAL MATCH (c)-[:SAME_INDUSTRY]-(industry_peer:Company)
-            OPTIONAL MATCH (c)-[:LIKELY_OWNS]->(repo:Repository)
+            WITH c, collect(DISTINCT founder) AS founders
+            OPTIONAL MATCH (c)-[:IN_BATCH]->(b)<-[:IN_BATCH]-(batch_peer:Company)
+            WHERE batch_peer.id <> c.id
+            WITH c, founders, count(DISTINCT batch_peer) AS batch_peer_count
+            OPTIONAL MATCH (c)-[:IN_INDUSTRY]->(i)<-[:IN_INDUSTRY]-(industry_peer:Company)
+            WHERE industry_peer.id <> c.id
+            WITH c, founders, batch_peer_count, count(DISTINCT industry_peer) AS industry_peer_count
+            OPTIONAL MATCH (c)-[:OWNS|LIKELY_OWNS]->(repo:Repository)
             RETURN c,
-                   collect(DISTINCT founder) as founders,
-                   count(DISTINCT batch_peer) as batch_peer_count,
-                   count(DISTINCT industry_peer) as industry_peer_count,
+                   founders,
+                   batch_peer_count,
+                   industry_peer_count,
                    collect(DISTINCT repo) as repositories
             """
             
