@@ -222,6 +222,52 @@ class GraphRAGService:
         
         # Use cleaned query for embeddings to get better semantic matches
         embedding_query = cleaned_query if cleaned_query else query
+
+        # Detect basic filters
+        batch_filters = self._extract_batch_from_query(query)
+        location_code = self._extract_location_from_query(query)
+        if not filter_type:
+            detected_type = self._detect_entity_type(query)
+            if detected_type:
+                filter_type = detected_type
+                logger.info(f"Auto-detected entity type: {filter_type}")
+        roles_from_query = self._derive_person_roles_from_query(query) if filter_type == 'person' and not person_role_filters else None
+        if roles_from_query:
+            person_role_filters = [r.lower() for r in roles_from_query]
+
+        # General filter-only path: if filters present and no analytic terms
+        ql = (query or '').lower()
+        analytic_terms = ['why','how','explain','compare','similar','rank','best','top','most']
+        is_analytic = any(t in ql for t in analytic_terms)
+        has_filters = bool(batch_filters or location_code or person_role_filters or min_repo_stars)
+        if has_filters and not is_analytic:
+            results = self.neo4j_store.filter_search(
+                node_type=filter_type,
+                batch_filters=batch_filters,
+                location_filters=self._aliases_for_code(location_code) if location_code else None,
+                industry_filters=None,
+                person_role_filters=person_role_filters,
+                min_repo_stars=min_repo_stars,
+            )
+            response = self._generate_graph_aware_response(query, results)
+            graph_data = self._build_visualization_data(results[:5])
+            return {
+                'query': query,
+                'matches': results,
+                'response': response,
+                'graph': graph_data,
+                'total_results': len(results),
+                'search_params': {
+                    'filter_only': True,
+                    'filter_type': filter_type,
+                    'applied_filters': {
+                        'location': location_code,
+                        'batch': batch_filters,
+                        'min_repo_stars': min_repo_stars,
+                        'person_roles': person_role_filters
+                    }
+                }
+            }
         
         # Auto-detect entity type if not specified
         if not filter_type:
@@ -280,9 +326,7 @@ class GraphRAGService:
         # Get embedding using possibly refined focus
         query_embedding = self._get_query_embedding(embedding_query)
 
-        # Extract optional filters from the free-text query (e.g., location hints like "NYC")
-        location_code = self._extract_location_from_query(query)
-        batch_filters = self._extract_batch_from_query(query)
+        # Extract optional filters from the free-text query (already computed above)
         exclude_locations = self._derive_exclude_locations(location_code)
         
         # Log applied filters for debugging

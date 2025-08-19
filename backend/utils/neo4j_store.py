@@ -519,6 +519,113 @@ class Neo4jStore:
                     'metadata': clean_node_data
                 })
             return matches
+
+    def filter_search(
+        self,
+        node_type: Optional[str] = None,
+        batch_filters: Optional[List[str]] = None,
+        location_filters: Optional[List[str]] = None,
+        industry_filters: Optional[List[str]] = None,
+        person_role_filters: Optional[List[str]] = None,
+        min_repo_stars: Optional[int] = None,
+    ) -> List[Dict[str, Any]]:
+        """Return ALL matches that satisfy the given filters (no top_k cap), ordered by name.
+        - node_type: 'company' | 'person' | 'repository' (optional)
+        - batch/location/industry filters: lowercase substrings
+        - person_role_filters: lowercase roles (e.g., ['founder'] or ['investor'])
+        - min_repo_stars: integer threshold for repositories
+        """
+        results: List[Dict[str, Any]] = []
+        with self.driver.session() as session:
+            if not node_type or node_type.lower() == 'company':
+                query = """
+                MATCH (c:Company)
+                WHERE ($batch_filters IS NULL OR ANY(b IN $batch_filters WHERE toLower(coalesce(c.batch, '')) CONTAINS b))
+                  AND ($location_filters IS NULL OR ANY(loc IN $location_filters WHERE toLower(coalesce(c.location, '')) CONTAINS loc))
+                  AND (
+                        $industry_filters IS NULL OR (
+                            size([ind IN coalesce(c.industries, []) WHERE ANY(f IN $industry_filters WHERE toLower(ind) CONTAINS f)]) > 0
+                        )
+                      )
+                RETURN c
+                ORDER BY toLower(c.name)
+                """
+                rows = session.run(query, {
+                    'batch_filters': batch_filters,
+                    'location_filters': location_filters,
+                    'industry_filters': industry_filters,
+                })
+                for record in rows:
+                    node = record['c']
+                    data = dict(node)
+                    data.pop('embedding', None)
+                    clean = clean_neo4j_data(data)
+                    results.append({'id': clean.get('id'), 'score': 1.0, 'type': 'Company', 'metadata': clean})
+                return results
+
+            if node_type.lower() == 'person':
+                query = """
+                MATCH (p:Person)
+                WHERE (
+                    $person_role_filters IS NULL OR (
+                        (p.role IS NOT NULL AND toLower(p.role) IN $person_role_filters)
+                        OR (p.roles IS NOT NULL AND ANY(r IN p.roles WHERE toLower(r) IN $person_role_filters))
+                    )
+                )
+                OPTIONAL MATCH (p)-[:FOUNDED|WORKS_AT]->(c:Company)
+                WITH p, collect(DISTINCT c) AS companies
+                WHERE (
+                    $batch_filters IS NULL OR ANY(b IN $batch_filters WHERE ANY(comp IN companies WHERE toLower(coalesce(comp.batch, '')) CONTAINS b))
+                ) AND (
+                    $location_filters IS NULL OR ANY(loc IN $location_filters WHERE ANY(comp IN companies WHERE toLower(coalesce(comp.location, '')) CONTAINS loc))
+                ) AND (
+                    $industry_filters IS NULL OR ANY(comp IN companies WHERE size([ind IN coalesce(comp.industries, []) WHERE ANY(f IN $industry_filters WHERE toLower(ind) CONTAINS f)]) > 0)
+                )
+                RETURN p
+                ORDER BY toLower(p.name)
+                """
+                rows = session.run(query, {
+                    'person_role_filters': person_role_filters,
+                    'batch_filters': batch_filters,
+                    'location_filters': location_filters,
+                    'industry_filters': industry_filters,
+                })
+                for record in rows:
+                    node = record['p']
+                    data = dict(node)
+                    data.pop('embedding', None)
+                    clean = clean_neo4j_data(data)
+                    results.append({'id': clean.get('id'), 'score': 1.0, 'type': 'Person', 'metadata': clean})
+                return results
+
+            if node_type.lower() == 'repository':
+                query = """
+                MATCH (r:Repository)
+                WHERE ($min_repo_stars IS NULL OR (r.stars IS NOT NULL AND r.stars >= $min_repo_stars))
+                OPTIONAL MATCH (c:Company)-[:OWNS|LIKELY_OWNS]->(r)
+                WITH r, collect(DISTINCT c) AS companies
+                WHERE (
+                    $location_filters IS NULL OR ANY(loc IN $location_filters WHERE ANY(comp IN companies WHERE toLower(coalesce(comp.location, '')) CONTAINS loc))
+                ) AND (
+                    $industry_filters IS NULL OR ANY(comp IN companies WHERE size([ind IN coalesce(comp.industries, []) WHERE ANY(f IN $industry_filters WHERE toLower(ind) CONTAINS f)]) > 0)
+                )
+                RETURN r
+                ORDER BY toLower(r.name)
+                """
+                rows = session.run(query, {
+                    'min_repo_stars': min_repo_stars,
+                    'location_filters': location_filters,
+                    'industry_filters': industry_filters,
+                })
+                for record in rows:
+                    node = record['r']
+                    data = dict(node)
+                    data.pop('embedding', None)
+                    clean = clean_neo4j_data(data)
+                    results.append({'id': clean.get('id'), 'score': 1.0, 'type': 'Repository', 'metadata': clean})
+                return results
+
+        return results
     
     def create_relationship(self, from_id: str, to_id: str, rel_type: str, properties: Dict = None) -> None:
         """Create a relationship between two nodes"""
