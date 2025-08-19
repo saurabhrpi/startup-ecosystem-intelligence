@@ -543,9 +543,11 @@ class Neo4jStore:
                 WHERE ($batch_filters IS NULL OR ANY(b IN $batch_filters WHERE toLower(coalesce(c.batch, '')) CONTAINS b))
                   AND ($location_filters IS NULL OR ANY(loc IN $location_filters WHERE toLower(coalesce(c.location, '')) CONTAINS loc))
                   AND (
-                        $industry_filters IS NULL OR (
-                            size([ind IN coalesce(c.industries, []) WHERE ANY(f IN $industry_filters WHERE toLower(ind) CONTAINS f)]) > 0
-                        )
+                        $industry_filters IS NULL OR EXISTS {
+                            MATCH (c)-[:IN_INDUSTRY]->(i:Industry)
+                            WHERE toLower(i.name) IN $industry_filters
+                               OR ANY(a IN coalesce(i.aliases,[]) WHERE toLower(a) IN $industry_filters)
+                        }
                       )
                 RETURN c
                 ORDER BY toLower(c.name)
@@ -572,14 +574,22 @@ class Neo4jStore:
                         OR (p.roles IS NOT NULL AND ANY(r IN p.roles WHERE toLower(r) IN $person_role_filters))
                     )
                 )
-                OPTIONAL MATCH (p)-[:FOUNDED|WORKS_AT|INVESTS_IN]->(c:Company)
-                WITH p, collect(DISTINCT c) AS companies
+                // Collect companies by role-specific relationships
+                OPTIONAL MATCH (p)-[:INVESTS_IN]->(ci:Company)
+                OPTIONAL MATCH (p)-[:FOUNDED]->(cf:Company)
+                WITH p,
+                     CASE WHEN $person_role_filters IS NULL OR 'investor' IN $person_role_filters THEN collect(DISTINCT ci) ELSE [] END +
+                     CASE WHEN $person_role_filters IS NULL OR 'founder' IN $person_role_filters THEN collect(DISTINCT cf) ELSE [] END AS companies
                 WHERE (
                     $batch_filters IS NULL OR ANY(b IN $batch_filters WHERE ANY(comp IN companies WHERE toLower(coalesce(comp.batch, '')) CONTAINS b))
                 ) AND (
                     $location_filters IS NULL OR ANY(loc IN $location_filters WHERE ANY(comp IN companies WHERE toLower(coalesce(comp.location, '')) CONTAINS loc))
                 ) AND (
-                    $industry_filters IS NULL OR ANY(comp IN companies WHERE size([ind IN coalesce(comp.industries, []) WHERE ANY(f IN $industry_filters WHERE toLower(ind) CONTAINS f)]) > 0)
+                    $industry_filters IS NULL OR ANY(comp IN companies WHERE EXISTS {
+                        MATCH (comp)-[:IN_INDUSTRY]->(i:Industry)
+                        WHERE toLower(i.name) IN $industry_filters
+                           OR ANY(a IN coalesce(i.aliases,[]) WHERE toLower(a) IN $industry_filters)
+                    })
                 )
                 RETURN p
                 ORDER BY toLower(p.name)
@@ -607,7 +617,11 @@ class Neo4jStore:
                 WHERE (
                     $location_filters IS NULL OR ANY(loc IN $location_filters WHERE ANY(comp IN companies WHERE toLower(coalesce(comp.location, '')) CONTAINS loc))
                 ) AND (
-                    $industry_filters IS NULL OR ANY(comp IN companies WHERE size([ind IN coalesce(comp.industries, []) WHERE ANY(f IN $industry_filters WHERE toLower(ind) CONTAINS f)]) > 0)
+                    $industry_filters IS NULL OR ANY(comp IN companies WHERE EXISTS {
+                        MATCH (comp)-[:IN_INDUSTRY]->(i:Industry)
+                        WHERE toLower(i.name) IN $industry_filters
+                           OR ANY(a IN coalesce(i.aliases,[]) WHERE toLower(a) IN $industry_filters)
+                    })
                 )
                 RETURN r
                 ORDER BY toLower(r.name)

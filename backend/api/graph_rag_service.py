@@ -246,11 +246,27 @@ class GraphRAGService:
         is_analytic = any(t in ql for t in analytic_terms)
         has_filters = bool(batch_filters or location_code or industry_filters or person_role_filters or min_repo_stars)
         if has_filters and not is_analytic:
+            # Expand industry filters with aliases (canonical + all aliases)
+            expanded_industries = None
+            if industry_filters:
+                expanded: set[str] = set()
+                if self.industry_aliases is None:
+                    self.industry_aliases = self._load_industry_aliases()
+                for canonical in industry_filters:
+                    token = (canonical or '').strip().lower()
+                    if not token:
+                        continue
+                    expanded.add(token)
+                    for alias in (self.industry_aliases or {}).get(token, []) or []:
+                        a = (alias or '').strip().lower()
+                        if a:
+                            expanded.add(a)
+                expanded_industries = list(expanded) if expanded else None
             results = self.neo4j_store.filter_search(
                 node_type=filter_type,
                 batch_filters=batch_filters,
                 location_filters=self._aliases_for_code(location_code) if location_code else None,
-                industry_filters=industry_filters,
+                industry_filters=expanded_industries,
                 person_role_filters=person_role_filters,
                 min_repo_stars=min_repo_stars,
             )
