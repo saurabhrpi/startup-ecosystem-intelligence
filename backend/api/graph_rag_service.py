@@ -262,6 +262,16 @@ class GraphRAGService:
                         if a:
                             expanded.add(a)
                 expanded_industries = list(expanded) if expanded else None
+            # Debug: only log for investor filter-only branch
+            if filter_type == 'person' and person_role_filters and 'investor' in person_role_filters:
+                print(
+                    "[INVESTOR_FILTER_ONLY] roles=", person_role_filters,
+                    " batch=", batch_filters,
+                    " location=", location_code,
+                    " industries_in=", industry_filters,
+                    " industries_expanded=", expanded_industries,
+                    " min_stars=", min_repo_stars,
+                )
             results = self.neo4j_store.filter_search(
                 node_type=filter_type,
                 batch_filters=batch_filters,
@@ -270,6 +280,8 @@ class GraphRAGService:
                 person_role_filters=person_role_filters,
                 min_repo_stars=min_repo_stars,
             )
+            if filter_type == 'person' and person_role_filters and 'investor' in person_role_filters:
+                print("[INVESTOR_FILTER_ONLY] results_count=", len(results))
             response = self._generate_graph_aware_response(query, results)
             graph_data = self._build_visualization_data(results[:5])
             return {
