@@ -29,6 +29,8 @@ class GraphRAGService:
         # 2) LOCATION_ALIASES_JSON env var (JSON object), else
         # 3) empty map (no location filtering).
         self.location_aliases: Dict[str, List[str]] = self._load_location_aliases()
+        # Known industries loaded lazily on first use
+        self.known_industries: Optional[List[str]] = None
     
     def _extract_numeric_filters(self, query: str) -> Tuple[Dict[str, int], str]:
         """
@@ -226,6 +228,7 @@ class GraphRAGService:
         # Detect basic filters
         batch_filters = self._extract_batch_from_query(query)
         location_code = self._extract_location_from_query(query)
+        industry_filters = self._extract_industries_from_query(query)
         if not filter_type:
             detected_type = self._detect_entity_type(query)
             if detected_type:
@@ -239,13 +242,13 @@ class GraphRAGService:
         ql = (query or '').lower()
         analytic_terms = ['why','how','explain','compare','similar','rank','best','top','most']
         is_analytic = any(t in ql for t in analytic_terms)
-        has_filters = bool(batch_filters or location_code or person_role_filters or min_repo_stars)
+        has_filters = bool(batch_filters or location_code or industry_filters or person_role_filters or min_repo_stars)
         if has_filters and not is_analytic:
             results = self.neo4j_store.filter_search(
                 node_type=filter_type,
                 batch_filters=batch_filters,
                 location_filters=self._aliases_for_code(location_code) if location_code else None,
-                industry_filters=None,
+                industry_filters=industry_filters,
                 person_role_filters=person_role_filters,
                 min_repo_stars=min_repo_stars,
             )
@@ -541,6 +544,63 @@ class GraphRAGService:
             logger.warning(f"Failed to load LOCATION_ALIASES_JSON: {e}")
         # Default
         return {}
+
+    def _load_industry_names(self) -> List[str]:
+        """Load known industries from Neo4j Industry nodes, fallback to an env-provided list, else empty.
+        Industry names are normalized to lowercase.
+        """
+        # Try Neo4j
+        try:
+            names: List[str] = []
+            with self.neo4j_store.driver.session() as session:
+                rows = session.run("""
+                    MATCH (i:Industry)
+                    RETURN toLower(i.name) AS name
+                """)
+                for row in rows:
+                    n = (row.get('name') or '').strip().lower()
+                    if n:
+                        names.append(n)
+            if names:
+                # Deduplicate while preserving order
+                seen = set()
+                ordered = []
+                for n in names:
+                    if n not in seen:
+                        seen.add(n)
+                        ordered.append(n)
+                return ordered
+        except Exception as e:
+            logger.warning(f"Failed to load Industry names from Neo4j: {e}")
+        # Try ENV list (comma-separated)
+        try:
+            raw = os.getenv('INDUSTRY_NAMES_CSV')
+            if raw:
+                parsed = [s.strip().lower() for s in raw.split(',') if s.strip()]
+                return parsed
+        except Exception as e:
+            logger.warning(f"Failed to load INDUSTRY_NAMES_CSV: {e}")
+        return []
+
+    def _extract_industries_from_query(self, query: str) -> Optional[List[str]]:
+        """Find industry tokens present in the query using known industry names as substrings.
+        Returns a list of matched industry substrings (lowercased), or None.
+        """
+        if not query:
+            return None
+        q = query.lower()
+        # Lazy load known industries
+        if self.known_industries is None:
+            self.known_industries = self._load_industry_names()
+        if not self.known_industries:
+            return None
+        matched: List[str] = []
+        for ind in self.known_industries:
+            if ind and ind in q:
+                matched.append(ind)
+        # Deduplicate
+        matched = list({m for m in matched})
+        return matched or None
 
     def _extract_batch_from_query(self, query: str) -> Optional[List[str]]:
         """Extract implied YC batch filters from natural text, e.g., 'YC W24', 'Winter 2024', 'S24'.

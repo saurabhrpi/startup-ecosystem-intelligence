@@ -572,7 +572,7 @@ class Neo4jStore:
                         OR (p.roles IS NOT NULL AND ANY(r IN p.roles WHERE toLower(r) IN $person_role_filters))
                     )
                 )
-                OPTIONAL MATCH (p)-[:FOUNDED|WORKS_AT]->(c:Company)
+                OPTIONAL MATCH (p)-[:FOUNDED|WORKS_AT|INVESTS_IN]->(c:Company)
                 WITH p, collect(DISTINCT c) AS companies
                 WHERE (
                     $batch_filters IS NULL OR ANY(b IN $batch_filters WHERE ANY(comp IN companies WHERE toLower(coalesce(comp.batch, '')) CONTAINS b))
