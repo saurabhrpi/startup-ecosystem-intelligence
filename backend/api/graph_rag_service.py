@@ -31,6 +31,8 @@ class GraphRAGService:
         self.location_aliases: Dict[str, List[str]] = self._load_location_aliases()
         # Known industries loaded lazily on first use
         self.known_industries: Optional[List[str]] = None
+        # Industry aliases mapping canonical -> [aliases], loaded lazily
+        self.industry_aliases: Optional[Dict[str, List[str]]] = None
     
     def _extract_numeric_filters(self, query: str) -> Tuple[Dict[str, int], str]:
         """
@@ -583,24 +585,84 @@ class GraphRAGService:
         return []
 
     def _extract_industries_from_query(self, query: str) -> Optional[List[str]]:
-        """Find industry tokens present in the query using known industry names as substrings.
-        Returns a list of matched industry substrings (lowercased), or None.
+        """Extract industry tokens using alias mapping if available; fallback to name list.
+        Returns a list of canonical industry names (lowercased), or None.
         """
         if not query:
             return None
         q = query.lower()
-        # Lazy load known industries
+        # Prefer alias mapping when present
+        if self.industry_aliases is None:
+            self.industry_aliases = self._load_industry_aliases()
+        matched: List[str] = []
+        if self.industry_aliases:
+            for canonical, aliases in self.industry_aliases.items():
+                if not canonical:
+                    continue
+                if canonical in q:
+                    matched.append(canonical)
+                    continue
+                for alias in (aliases or []):
+                    a = (alias or '').strip().lower()
+                    if a and a in q:
+                        matched.append(canonical)
+                        break
+            matched = list({m for m in matched})
+            if matched:
+                return matched
+        # Fallback to simple name matching
         if self.known_industries is None:
             self.known_industries = self._load_industry_names()
         if not self.known_industries:
             return None
-        matched: List[str] = []
         for ind in self.known_industries:
             if ind and ind in q:
                 matched.append(ind)
-        # Deduplicate
         matched = list({m for m in matched})
         return matched or None
+
+    def _load_industry_aliases(self) -> Dict[str, List[str]]:
+        """Load industry alias mapping from Neo4j Industry nodes (name + aliases) or
+        INDUSTRY_ALIASES_JSON env var. Canonicals and aliases are normalized to lowercase.
+        """
+        # Try Neo4j
+        try:
+            mapping: Dict[str, List[str]] = {}
+            with self.neo4j_store.driver.session() as session:
+                rows = session.run(
+                    """
+                    MATCH (i:Industry)
+                    RETURN toLower(i.name) AS canonical, coalesce(i.aliases, []) AS aliases
+                    """
+                )
+                for row in rows:
+                    canonical = (row.get('canonical') or '').strip().lower()
+                    alias_list = [str(a).strip().lower() for a in (row.get('aliases') or []) if str(a).strip()]
+                    if canonical:
+                        mapping[canonical] = alias_list
+            if mapping:
+                return mapping
+        except Exception as e:
+            logger.warning(f"Failed to load Industry aliases from Neo4j: {e}")
+        # Try ENV JSON
+        try:
+            raw = os.getenv('INDUSTRY_ALIASES_JSON')
+            if raw:
+                parsed = json.loads(raw)
+                if isinstance(parsed, dict):
+                    normalized: Dict[str, List[str]] = {}
+                    for k, v in parsed.items():
+                        if not isinstance(v, list):
+                            continue
+                        canonical = (str(k) or '').strip().lower()
+                        aliases = [str(a).strip().lower() for a in v if str(a).strip()]
+                        if canonical:
+                            normalized[canonical] = aliases
+                    if normalized:
+                        return normalized
+        except Exception as e:
+            logger.warning(f"Failed to load INDUSTRY_ALIASES_JSON: {e}")
+        return {}
 
     def _extract_batch_from_query(self, query: str) -> Optional[List[str]]:
         """Extract implied YC batch filters from natural text, e.g., 'YC W24', 'Winter 2024', 'S24'.
