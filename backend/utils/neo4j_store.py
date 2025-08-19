@@ -600,9 +600,13 @@ class Neo4jStore:
                     'location_filters': location_filters,
                     'industry_filters': industry_filters,
                 })
-                for record in rows:
-                    node = record['p']
+            
+                print("[PERSON_FILTER_ONLY] query=", query)
+
+                for record in rows:                    
+                    node = record['p']                    
                     data = dict(node)
+                    print("iterating investors")
                     data.pop('embedding', None)
                     clean = clean_neo4j_data(data)
                     results.append({'id': clean.get('id'), 'score': 1.0, 'type': 'Person', 'metadata': clean})
