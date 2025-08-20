@@ -96,6 +96,8 @@ class SearchResponse(BaseModel):
     matches: List[Dict[str, Any]]
     response: str
     total_results: int
+    graph: Optional[Dict[str, Any]] = None
+    search_params: Optional[Dict[str, Any]] = None
 
 class HealthResponse(BaseModel):
     status: str
