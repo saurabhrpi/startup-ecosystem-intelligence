@@ -6,9 +6,10 @@ import CompanyCard from './CompanyCard'
 interface CompanyGridProps {
   companies: Company[]
   onSelectCompany: (company: Company) => void
+  suppressScores?: boolean
 }
 
-export default function CompanyGrid({ companies = [], onSelectCompany }: CompanyGridProps) {
+export default function CompanyGrid({ companies = [], onSelectCompany, suppressScores }: CompanyGridProps) {
   if (!companies || companies.length === 0) {
     return (
       <div className="text-center py-8 text-gray-500">
@@ -23,6 +24,7 @@ export default function CompanyGrid({ companies = [], onSelectCompany }: Company
         <CompanyCard
           key={company.id}
           company={company}
+          suppressScore={suppressScores}
           onClick={() => onSelectCompany(company)}
         />
       ))}

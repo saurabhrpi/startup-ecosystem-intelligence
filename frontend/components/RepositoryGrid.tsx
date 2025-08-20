@@ -23,9 +23,10 @@ interface Repository {
 interface RepositoryGridProps {
   repositories: Repository[]
   onSelectRepository?: (repository: Repository) => void
+  suppressScores?: boolean
 }
 
-export default function RepositoryGrid({ repositories = [], onSelectRepository }: RepositoryGridProps) {
+export default function RepositoryGrid({ repositories = [], onSelectRepository, suppressScores }: RepositoryGridProps) {
   if (!repositories || repositories.length === 0) {
     return (
       <div className="text-center py-8 text-gray-500">
@@ -40,6 +41,7 @@ export default function RepositoryGrid({ repositories = [], onSelectRepository }
         <RepositoryCard
           key={repository.id}
           repository={repository}
+          suppressScore={suppressScores}
           onClick={() => onSelectRepository?.(repository)}
         />
       ))}

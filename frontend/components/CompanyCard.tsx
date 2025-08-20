@@ -6,9 +6,10 @@ import { Building2, MapPin, Globe, Tag, TrendingUp, Calendar, Users, ArrowUpRigh
 interface CompanyCardProps {
   company: Company
   onClick: () => void
+  suppressScore?: boolean
 }
 
-export default function CompanyCard({ company, onClick }: CompanyCardProps) {
+export default function CompanyCard({ company, onClick, suppressScore }: CompanyCardProps) {
   const { metadata } = company
   const matchScore = Math.round(company.score * 100)
 
@@ -49,9 +50,11 @@ export default function CompanyCard({ company, onClick }: CompanyCardProps) {
               {metadata.name}
             </h3>
           </div>
-          <div className={`px-3 py-1 rounded-full text-sm font-bold ${getScoreColor(matchScore)} shadow-sm`}>
-            {matchScore}%
-          </div>
+          {!suppressScore && (
+            <div className={`px-3 py-1 rounded-full text-sm font-bold ${getScoreColor(matchScore)} shadow-sm`}>
+              {matchScore}%
+            </div>
+          )}
         </div>
 
         {/* Description */}

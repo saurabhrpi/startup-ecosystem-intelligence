@@ -23,9 +23,10 @@ interface Repository {
 interface RepositoryCardProps {
   repository: Repository
   onClick?: () => void
+  suppressScore?: boolean
 }
 
-export default function RepositoryCard({ repository, onClick }: RepositoryCardProps) {
+export default function RepositoryCard({ repository, onClick, suppressScore }: RepositoryCardProps) {
   return (
     <div
       className="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition-shadow cursor-pointer border border-gray-200"
@@ -83,7 +84,7 @@ export default function RepositoryCard({ repository, onClick }: RepositoryCardPr
                 {repository.company.name}
               </span>
             </div>
-            {repository.company_relationship && (
+            {repository.company_relationship && !suppressScore && (
               <span className={`text-xs px-2 py-1 rounded-full ${
                 repository.company_relationship.confidence >= 0.95 
                   ? 'bg-green-100 text-green-700' 
