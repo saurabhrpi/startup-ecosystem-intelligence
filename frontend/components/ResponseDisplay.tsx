@@ -8,9 +8,10 @@ interface ResponseDisplayProps {
   totalResults: number
   matches?: any[]
   query?: string
+  filterOnly?: boolean
 }
 
-export default function ResponseDisplay({ response, totalResults, matches = [], query }: ResponseDisplayProps) {
+export default function ResponseDisplay({ response, totalResults, matches = [], query, filterOnly }: ResponseDisplayProps) {
   const [expanded, setExpanded] = useState(true)
 
   // Parse the response to extract insights and recommendations
@@ -121,7 +122,7 @@ export default function ResponseDisplay({ response, totalResults, matches = [], 
     }
     return sentences
   }
-  const recommendationSentences = buildRecommendationSentences()
+  const recommendationSentences = filterOnly ? [] : buildRecommendationSentences()
 
   // Render simple markdown emphasis (**bold**, *italic*, __bold__, _italic_) as React elements
   const renderWithEmphasis = (text: string) => {

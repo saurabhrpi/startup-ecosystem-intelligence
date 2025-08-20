@@ -282,7 +282,23 @@ class GraphRAGService:
             )
             if filter_type == 'person' and person_role_filters and 'investor' in person_role_filters:
                 print("[INVESTOR_FILTER_ONLY] results_count=", len(results))
-            response = self._generate_graph_aware_response(query, results)
+            # Deterministic summary for filter-only to avoid misleading phrasing
+            count = len(results)
+            applied_bits = []
+            if batch_filters:
+                applied_bits.append(f"batch={', '.join(batch_filters)}")
+            if location_code:
+                applied_bits.append(f"location={location_code}")
+            if expanded_industries:
+                applied_bits.append(f"industry={', '.join(expanded_industries)}")
+            if person_role_filters:
+                applied_bits.append(f"roles={', '.join(person_role_filters)}")
+            if min_repo_stars:
+                applied_bits.append(f"min_repo_stars={min_repo_stars}")
+            applied_text = ("; ".join(applied_bits)) if applied_bits else "no filters"
+            response = (
+                f"Found {count} {filter_type if filter_type else 'results'} matching the applied filters ({applied_text})."
+            )
             graph_data = self._build_visualization_data(results[:5])
             return {
                 'query': query,
