@@ -23,6 +23,11 @@ export interface SearchResult {
   matches: Company[]
   response: string
   total_results: number
+  search_params?: {
+    filter_only?: boolean
+    filter_type?: string
+    applied_filters?: any
+  }
 }
 
 export interface CompanyScore {

@@ -16,7 +16,7 @@ interface Person {
   }
 }
 
-export default function PersonDetail({ person, onClose }: { person: Person; onClose: () => void }) {
+export default function PersonDetail({ person, onClose, suppressScore }: { person: Person; onClose: () => void; suppressScore?: boolean }) {
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
       if (event.key === 'Escape') {
@@ -55,7 +55,9 @@ export default function PersonDetail({ person, onClose }: { person: Person; onCl
         </div>
 
         <div className="p-6 space-y-4">
-          <div className="text-sm text-gray-500">Match score: {(Math.round(person.score * 100))}%</div>
+          {!suppressScore && (
+            <div className="text-sm text-gray-500">Match score: {(Math.round(person.score * 100))}%</div>
+          )}
           {person.metadata.source && (
             <div className="text-sm text-gray-500">Source: {person.metadata.source}</div>
           )}

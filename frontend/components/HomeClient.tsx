@@ -166,6 +166,7 @@ export default function HomeClient({ initialStats }: { initialStats: Stats }) {
                     return role.includes('investor') || role.includes('vc') || role.includes('venture')
                   })
                     
+                  const isFilterOnly = Boolean((searchResults as any)?.search_params?.filter_only)
                   return (
                     <>
                       <div className="text-center mb-6">
@@ -183,6 +184,7 @@ export default function HomeClient({ initialStats }: { initialStats: Stats }) {
                         {isRepository ? (
                           <RepositoryGrid 
                             repositories={searchResults.matches.map((m: any) => m.metadata || m)} 
+                            suppressScores={isFilterOnly}
                             onSelectRepository={(repo) => {
                               setSelectedRepository(repo)
                             }}
@@ -196,18 +198,20 @@ export default function HomeClient({ initialStats }: { initialStats: Stats }) {
                                 const role = (p?.metadata?.role || '').toLowerCase()
                                 return role.includes('investor') || role.includes('vc') || role.includes('venture')
                               })
-                              return <InvestorGrid people={investors as any} />
+                              return <InvestorGrid people={investors as any} suppressScores={isFilterOnly} />
                             }
                             return (
                               <PersonGrid 
                                 people={uniquePeople as any}
+                                suppressScores={isFilterOnly}
                                 onSelectPerson={() => {}}
                               />
                             )
                           })()
                         ) : (
                           <CompanyGrid 
-                            companies={searchResults.matches as unknown as Company[]} 
+                            companies={searchResults.matches as unknown as Company[]}
+                            suppressScores={isFilterOnly}
                             onSelectCompany={setSelectedCompany} 
                           />
                         )}

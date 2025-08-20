@@ -17,7 +17,7 @@ interface Person {
   }
 }
 
-export default function InvestorGrid({ people = [] }: { people: Person[] }) {
+export default function InvestorGrid({ people = [], suppressScores }: { people: Person[]; suppressScores?: boolean }) {
   const [selected, setSelected] = useState<Person | null>(null)
   if (!people || people.length === 0) {
     return <div className="text-center py-8 text-gray-500">No investors found. Try a different search.</div>
@@ -26,10 +26,10 @@ export default function InvestorGrid({ people = [] }: { people: Person[] }) {
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
         {people.map((p) => (
-          <InvestorCard key={p.id} person={p} onClick={() => setSelected(p)} />
+          <InvestorCard key={p.id} person={p} suppressScore={suppressScores} onClick={() => setSelected(p)} />
         ))}
       </div>
-      {selected && <PersonDetail person={selected as any} onClose={() => setSelected(null)} />}
+      {selected && <PersonDetail person={selected as any} suppressScore={suppressScores} onClose={() => setSelected(null)} />}
     </>
   )
 }

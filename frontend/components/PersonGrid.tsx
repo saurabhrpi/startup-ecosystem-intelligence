@@ -17,7 +17,7 @@ interface Person {
   }
 }
 
-export default function PersonGrid({ people = [], onSelectPerson }: { people: Person[]; onSelectPerson?: (p: Person) => void }) {
+export default function PersonGrid({ people = [], onSelectPerson, suppressScores }: { people: Person[]; onSelectPerson?: (p: Person) => void; suppressScores?: boolean }) {
   const [selected, setSelected] = useState<Person | null>(null)
 
   if (!people || people.length === 0) {
@@ -30,11 +30,11 @@ export default function PersonGrid({ people = [], onSelectPerson }: { people: Pe
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
         {people.map((person) => (
-          <PersonCard key={person.id} person={person} onClick={() => { setSelected(person); onSelectPerson?.(person) }} />
+          <PersonCard key={person.id} person={person} suppressScore={suppressScores} onClick={() => { setSelected(person); onSelectPerson?.(person) }} />
         ))}
       </div>
       {selected && (
-        <PersonDetail person={selected as any} onClose={() => setSelected(null)} />
+        <PersonDetail person={selected as any} suppressScore={suppressScores} onClose={() => setSelected(null)} />
       )}
     </>
   )

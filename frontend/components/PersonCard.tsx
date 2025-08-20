@@ -15,7 +15,7 @@ interface Person {
   }
 }
 
-export default function PersonCard({ person, onClick }: { person: Person; onClick?: () => void }) {
+export default function PersonCard({ person, onClick, suppressScore }: { person: Person; onClick?: () => void; suppressScore?: boolean }) {
   const { metadata } = person
   const matchScore = Math.round(person.score * 100)
   
@@ -50,9 +50,11 @@ export default function PersonCard({ person, onClick }: { person: Person; onClic
               </div>
             )}
           </div>
-          <div className="px-3 py-1 rounded-full text-sm font-bold bg-gradient-to-r from-blue-400 to-indigo-500 text-white shadow-sm">
-            {matchScore}%
-          </div>
+          {!suppressScore && (
+            <div className="px-3 py-1 rounded-full text-sm font-bold bg-gradient-to-r from-blue-400 to-indigo-500 text-white shadow-sm">
+              {matchScore}%
+            </div>
+          )}
         </div>
 
         {/* Location */}
