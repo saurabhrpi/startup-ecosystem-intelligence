@@ -25,6 +25,63 @@ export default function SignInPage() {
     setLoading(false)
   }
 
+  // Auto-moving carousel (right-to-left)
+  useEffect(() => {
+    const el = carouselRef.current
+    if (!el) return
+    let raf = 0
+    let last = performance.now()
+    const speed = 60 // px per second
+    const tick = (t: number) => {
+      const dt = (t - last) / 1000
+      last = t
+      el.scrollLeft += speed * dt
+      if (el.scrollLeft + el.clientWidth >= el.scrollWidth - 1) {
+        el.scrollLeft = 0
+      }
+      raf = requestAnimationFrame(tick)
+    }
+    raf = requestAnimationFrame(tick)
+    return () => cancelAnimationFrame(raf)
+  }, [])
+
+  // Auto-cycle steps (pause on hover)
+  const [isHoveringSteps, setIsHoveringSteps] = useState(false)
+  useEffect(() => {
+    if (isHoveringSteps) return
+    const id = setInterval(() => setStepIndex((i) => (i + 1) % 4), 2200)
+    return () => clearInterval(id)
+  }, [isHoveringSteps])
+
+  const stepDetails: Array<{ title: string; content: string }> = [
+    {
+      title: 'Understand intent',
+      content: `Plan:
+{ filter_type: "repository", min_star: 100, query_focus: "developer tools" }
+Extracted: numeric filters, entity type, embedding focus.`,
+    },
+    {
+      title: 'Apply filters',
+      content: `Filter-only when exact attributes present:
+• batch/location/industry/roles/stars
+• Returns all matches (no % / recs)`,
+    },
+    {
+      title: 'Traverse graph',
+      content: `Example:
+MATCH (p:Person)-[:FOUNDED]->(c:Company)-[:IN_INDUSTRY]->(i:Industry)
+WHERE toLower(i.name) IN ['developer tools']
+RETURN p,c LIMIT 10`,
+    },
+    {
+      title: 'Generate insights',
+      content: `Compose concise, actionable output:
+• Direct matches
+• Related entities
+• Clear recommendations (from matches only)`,
+    },
+  ]
+
   return (
     <main className="relative min-h-screen overflow-x-hidden bg-gradient-to-br from-[#0a0b14] via-[#0c0f1d] to-[#090a12] text-white">
       {/* Background accents */}
@@ -216,12 +273,18 @@ RETURN p, c LIMIT 10`}</pre>
           style={{ backgroundImage: `radial-gradient(600px at ${cursorPos.x}px ${cursorPos.y}px, rgba(99,102,241,0.15), transparent 40%)` }}
         >
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-            <div className="space-y-3">
-              {[{ icon: <Search size={16} />, title: 'Understand intent', desc: 'Parse query, extract filters.' },
-                { icon: <Filter size={16} />, title: 'Apply filters', desc: 'Batch, industry, location, stars.' },
-                { icon: <Network size={16} />, title: 'Traverse graph', desc: 'Follow founders/investors/industry.' },
-                { icon: <Share2 size={16} />, title: 'Generate insights', desc: 'Summarize with references.' },].map((s, idx) => (
-                <div key={idx} className={`flex items-start gap-3 rounded-xl border p-3 transition ${idx===stepIndex ? 'border-indigo-400/30 bg-indigo-500/10' : 'border-white/10 bg-white/5'}`}>
+            <div className="space-y-3" onMouseEnter={() => setIsHoveringSteps(true)} onMouseLeave={() => setIsHoveringSteps(false)}>
+              {[
+                { icon: <Search size={16} />, title: stepDetails[0].title, desc: 'Parse query, extract filters.' },
+                { icon: <Filter size={16} />, title: stepDetails[1].title, desc: 'Batch, industry, location, stars.' },
+                { icon: <Network size={16} />, title: stepDetails[2].title, desc: 'Follow founders/investors/industry.' },
+                { icon: <Share2 size={16} />, title: stepDetails[3].title, desc: 'Summarize with references.' },
+              ].map((s, idx) => (
+                <div
+                  key={idx}
+                  onMouseEnter={() => setStepIndex(idx)}
+                  className={`flex items-start gap-3 rounded-xl border p-3 transition ${idx===stepIndex ? 'border-indigo-400/30 bg-indigo-500/10' : 'border-white/10 bg-white/5'}`}
+                >
                   <div className={`${idx===stepIndex ? 'text-indigo-300' : 'text-slate-400'}`}>{s.icon}</div>
                   <div>
                     <div className="font-semibold">{s.title}</div>
@@ -233,12 +296,24 @@ RETURN p, c LIMIT 10`}</pre>
             <div className="rounded-2xl border border-white/10 bg-black/40 p-4">
               <div className="text-xs text-slate-300">Sample workflow</div>
               <div className="mt-2 grid grid-cols-4 gap-2 text-center">
-                {[{ icon: <Search size={16} />, title: 'Understand intent' }, { icon: <Filter size={16} />, title: 'Apply filters' }, { icon: <Network size={16} />, title: 'Traverse graph' }, { icon: <Share2 size={16} />, title: 'Generate insights' }].map((s, idx) => (
-                  <div key={idx} className={`rounded-lg p-3 ${idx===stepIndex ? 'bg-indigo-600 text-white' : 'bg-white/5 text-slate-300'}`}>
+                {[
+                  { icon: <Search size={16} />, title: stepDetails[0].title, content: stepDetails[0].content },
+                  { icon: <Filter size={16} />, title: stepDetails[1].title, content: stepDetails[1].content },
+                  { icon: <Network size={16} />, title: stepDetails[2].title, content: stepDetails[2].content },
+                  { icon: <Share2 size={16} />, title: stepDetails[3].title, content: stepDetails[3].content },
+                ].map((s, idx) => (
+                  <div
+                    key={idx}
+                    onMouseEnter={() => setStepIndex(idx)}
+                    className={`rounded-lg p-3 ${idx===stepIndex ? 'bg-indigo-600 text-white' : 'bg-white/5 text-slate-300'}`}
+                  >
                     <div className="mx-auto mb-1 w-6 h-6 flex items-center justify-center rounded-md bg-white/10">{s.icon}</div>
                     <div className="text-[11px] leading-tight">{s.title}</div>
                   </div>
                 ))}
+              </div>
+              <div className="mt-4 rounded-xl border border-white/10 bg-black/60 p-3">
+                <pre className="text-xs text-slate-200 whitespace-pre-wrap">{stepDetails[stepIndex].content}</pre>
               </div>
             </div>
           </div>
@@ -246,7 +321,7 @@ RETURN p, c LIMIT 10`}</pre>
       </section>
 
       {/* Scroll overlay experience */}
-      <section className="mx-auto max-w-7xl px-6 pb-32">
+      <section className="mx-auto max-w-7xl px-6 pb-20">
         <div className="relative" style={{ minHeight: 600 }}>
           <div ref={overlayRef1} className={`absolute inset-0 transition-opacity duration-500 ${overlayActive==='one' ? 'opacity-100 z-20' : 'opacity-0 z-10'}`}>
             <div className="rounded-3xl border border-white/10 bg-gradient-to-br from-indigo-900/40 to-purple-900/30 p-8 shadow-xl">
@@ -272,7 +347,11 @@ RETURN p, c LIMIT 10`}</pre>
               </ul>
             </div>
           </div>
-          <div className="h-[800px]"></div>
+          {/* Remove large spacer; add compact CTA */}
+          <div className="mt-6 rounded-2xl border border-white/10 bg-white/[0.04] p-6 text-center">
+            <h5 className="text-lg font-semibold">Ready to explore?</h5>
+            <p className="mt-1 text-slate-300 text-sm">Sign in to run your first graph-powered search.</p>
+          </div>
         </div>
       </section>
     </main>
