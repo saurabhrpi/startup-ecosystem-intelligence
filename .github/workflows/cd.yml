@@ -1,0 +1,33 @@
+name: CD
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    uses: ./.github/workflows/ci.yml
+
+  deploy-backend:
+    needs: test
+    runs-on: ubuntu-latest
+    if: ${{ success() }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy to Railway
+        uses: railwayapp/action@v1
+        with:
+          service: ${{ secrets.RAILWAY_SERVICE_ID }}
+        env:
+          RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
+
+  deploy-frontend:
+    needs: test
+    runs-on: ubuntu-latest
+    if: ${{ success() }}
+    steps:
+      - name: Trigger Replit Deploy Hook
+        run: |
+          curl -sSf -X POST "${{ secrets.REPLIT_DEPLOY_HOOK_URL }}" -H "Content-Type: application/json" -d '{"event":"deploy"}'
+
