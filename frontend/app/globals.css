@@ -42,10 +42,7 @@ html {
 }
 
 /* Custom Scrollbar */
-::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
-}
+::-webkit-scrollbar { width: 10px; height: 10px; }
 
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
@@ -60,6 +57,10 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(180deg, #5a67d8 0%, #6b4398 100%);
 }
+
+/* Hide scrollbar utility */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
 
 /* Better Typography */
 body {

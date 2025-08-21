@@ -31,7 +31,7 @@ export default function SignInPage() {
     if (!el) return
     let raf = 0
     let last = performance.now()
-    const speed = 60 // px per second
+    const speed = 240 // px per second (4x faster)
     const tick = (t: number) => {
       const dt = (t - last) / 1000
       last = t
@@ -237,7 +237,7 @@ RETURN p, c LIMIT 10`}</pre>
       {/* Companies carousel */}
       <section className="mx-auto max-w-7xl px-6 pb-20">
         <h3 className="mb-4 text-xl font-bold">Companies you can discover</h3>
-        <div ref={carouselRef} className="flex gap-4 overflow-x-auto scroll-smooth">
+        <div ref={carouselRef} className="flex gap-4 overflow-x-auto scroll-smooth no-scrollbar">
           {/* doubled list for seamless loop */}
           {([
             { name: 'Zep AI', batch: 'W24', industry: 'B2B', location: 'San Francisco', blurb: 'Memory infrastructure for AI.' },
@@ -322,7 +322,7 @@ RETURN p, c LIMIT 10`}</pre>
 
       {/* Scroll overlay experience */}
       <section className="mx-auto max-w-7xl px-6 pb-20">
-        <div className="relative" style={{ minHeight: 600 }}>
+        <div className="relative space-y-8">
           <div ref={overlayRef1} className={`absolute inset-0 transition-opacity duration-500 ${overlayActive==='one' ? 'opacity-100 z-20' : 'opacity-0 z-10'}`}>
             <div className="rounded-3xl border border-white/10 bg-gradient-to-br from-indigo-900/40 to-purple-900/30 p-8 shadow-xl">
               <h4 className="text-2xl font-bold">Pipeline-ready data</h4>
@@ -335,7 +335,7 @@ RETURN p, c LIMIT 10`}</pre>
               </ul>
             </div>
           </div>
-          <div ref={overlayRef2} className={`absolute inset-0 transition-opacity duration-500 ${overlayActive==='two' ? 'opacity-100 z-30' : 'opacity-0 z-10'}`}>
+          <div ref={overlayRef2} className={`relative transition-opacity duration-500 ${overlayActive==='two' ? 'opacity-100' : 'opacity-0'}`}>
             <div className="rounded-3xl border border-white/10 bg-gradient-to-br from-blue-900/40 to-rose-900/30 p-8 shadow-xl">
               <h4 className="text-2xl font-bold">Actionable intelligence</h4>
               <p className="mt-2 text-slate-300">Summarize direct matches and graph-discovered context into clear, actionable insights.</p>
@@ -347,8 +347,8 @@ RETURN p, c LIMIT 10`}</pre>
               </ul>
             </div>
           </div>
-          {/* Remove large spacer; add compact CTA */}
-          <div className="mt-6 rounded-2xl border border-white/10 bg-white/[0.04] p-6 text-center">
+          {/* Compact CTA below stacked cards */}
+          <div className="rounded-2xl border border-white/10 bg-white/[0.04] p-6 text-center">
             <h5 className="text-lg font-semibold">Ready to explore?</h5>
             <p className="mt-1 text-slate-300 text-sm">Sign in to run your first graph-powered search.</p>
           </div>
