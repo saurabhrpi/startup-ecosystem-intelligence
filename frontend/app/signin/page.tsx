@@ -31,7 +31,7 @@ export default function SignInPage() {
     if (!el) return
     let raf = 0
     let last = performance.now()
-    const speed = 240 // px per second (4x faster)
+    const speed = 900 // px per second
     const tick = (t: number) => {
       const dt = (t - last) / 1000
       last = t
