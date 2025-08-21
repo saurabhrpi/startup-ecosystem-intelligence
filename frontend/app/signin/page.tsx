@@ -40,7 +40,7 @@ export default function SignInPage() {
     recalc()
     const onResize = () => recalc()
     window.addEventListener('resize', onResize)
-    const speed = 200 // px per second
+    const speed = 120 // px per second
     const animate = (now: number) => {
       if (!track || loopWidth <= 0) {
         raf = requestAnimationFrame(animate)
