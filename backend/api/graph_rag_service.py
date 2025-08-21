@@ -211,7 +211,8 @@ class GraphRAGService:
         filter_type: Optional[str] = None,
         min_score: float = 0.7,
         min_repo_stars: Optional[int] = None,
-        person_role_filters: Optional[List[str]] = None
+        person_role_filters: Optional[List[str]] = None,
+        user_id: Optional[str] = None
     ) -> Dict[str, Any]:
         """
         Perform Graph RAG search using Neo4j's hybrid capabilities
@@ -446,6 +447,32 @@ class GraphRAGService:
         if batch_filters and not results:
             results = self.neo4j_store.find_companies_by_batch(batch_filters, limit=top_k)
         
+        # Soft preference biasing (only when user provided and query lacks explicit location/industry)
+        if user_id and not location_code and not industry_filters:
+            try:
+                prefs = self.neo4j_store.get_user_preferences(user_id)
+                pref_loc = prefs.get('location_code')
+                pref_inds = set([str(x).strip().lower() for x in (prefs.get('industries') or []) if str(x).strip()])
+                if pref_loc or pref_inds:
+                    for r in results:
+                        meta = r.get('metadata') or {}
+                        boost = 1.0
+                        if pref_loc:
+                            loc_text = (meta.get('location') or '')
+                            if self._location_matches(pref_loc, loc_text):
+                                boost *= 1.1
+                        if pref_inds:
+                            inds = [str(x).strip().lower() for x in (meta.get('industries') or []) if str(x).strip()]
+                            if inds and pref_inds.intersection(inds):
+                                boost *= 1.1
+                        r['score'] = float(r.get('score') or 0) * boost
+                    # Re-sort after boosting
+                    results.sort(key=lambda x: x.get('score', 0), reverse=True)
+                    results = results[:top_k]
+            except Exception as _:
+                # Do not fail search if prefs lookup fails
+                pass
+
         # Generate intelligent response with graph context
         response = self._generate_graph_aware_response(query, results)
         

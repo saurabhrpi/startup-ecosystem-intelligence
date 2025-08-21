@@ -13,13 +13,15 @@ import PersonGrid from '@/components/PersonGrid'
 import InvestorGrid from '@/components/InvestorGrid'
 
 type Stats = { total_companies: number; total_embeddings: number; data_sources: number }
+type Prefs = { location_code?: string | null; industries?: string[] }
 
-export default function HomeClient({ initialStats }: { initialStats: Stats }) {
+export default function HomeClient({ initialStats, initialPrefs }: { initialStats: Stats; initialPrefs?: Prefs }) {
   const [searchResults, setSearchResults] = useState<SearchResult | null>(null)
   const [selectedCompany, setSelectedCompany] = useState<Company | null>(null)
   const [selectedRepository, setSelectedRepository] = useState<any | null>(null)
   const [loading, setLoading] = useState(false)
   const [stats, setStats] = useState<Stats>(initialStats)
+  const [prefs, setPrefs] = useState<Prefs>(initialPrefs || { location_code: null, industries: [] })
 
   // Fetch stats on component mount
   useEffect(() => {
@@ -131,6 +133,13 @@ export default function HomeClient({ initialStats }: { initialStats: Stats }) {
         {/* Search Section */}
         <div className="max-w-3xl mx-auto mb-12">
           <SearchBar onSearch={handleSearch} />
+          {prefs?.location_code || (prefs?.industries && prefs.industries.length > 0) ? (
+            <div className="mt-3 text-sm text-gray-600 text-center">
+              Personalized: {prefs.location_code ? `Location=${prefs.location_code}` : ''}
+              {prefs.location_code && prefs.industries && prefs.industries.length > 0 ? ' • ' : ''}
+              {prefs.industries && prefs.industries.length > 0 ? `Industries=${prefs.industries.join(', ')}` : ''}
+            </div>
+          ) : null}
         </div>
 
         {/* Loading State */}

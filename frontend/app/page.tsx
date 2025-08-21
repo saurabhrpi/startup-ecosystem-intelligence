@@ -12,5 +12,11 @@ export default async function Home() {
   const initialStats = res.ok
     ? await res.json()
     : { total_companies: 0, total_embeddings: 0, data_sources: 6 }
-  return <HomeClient initialStats={initialStats} />
+  // Fetch user preferences (optional, do not block)
+  let initialPrefs: any = { location_code: null, industries: [] }
+  try {
+    const prefsRes = await fetch(`${apiUrl}/users/me/preferences`, { headers: { Accept: 'application/json', 'x-user-id': (session.user as any).id || '' }, cache: 'no-store' })
+    if (prefsRes.ok) initialPrefs = await prefsRes.json()
+  } catch {}
+  return <HomeClient initialStats={initialStats} initialPrefs={initialPrefs} />
 }

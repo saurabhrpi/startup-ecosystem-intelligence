@@ -7,6 +7,7 @@ export async function GET(req: NextRequest) {
   if (!session) return new Response('Unauthorized', { status: 401 })
   const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'https://startup-ecosystem-api-production.up.railway.app'
   const apiKey = process.env.BACKEND_API_KEY || ''
+  const userId = (session?.user as any)?.id || ''
 
   const { search } = new URL(req.url)
   const url = `${apiUrl}/search${search}`
@@ -15,6 +16,7 @@ export async function GET(req: NextRequest) {
     headers: {
       'x-api-key': apiKey,
       'Accept': 'application/json',
+      'x-user-id': userId,
     },
     cache: 'no-store',
   })
@@ -27,6 +29,7 @@ export async function POST(req: NextRequest) {
   if (!session) return new Response('Unauthorized', { status: 401 })
   const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'https://startup-ecosystem-api-production.up.railway.app'
   const apiKey = process.env.BACKEND_API_KEY || ''
+  const userId = (session?.user as any)?.id || ''
   const body = await req.text()
 
   const res = await fetch(`${apiUrl}/search`, {
@@ -35,6 +38,7 @@ export async function POST(req: NextRequest) {
       'x-api-key': apiKey,
       'Content-Type': 'application/json',
       'Accept': 'application/json',
+      'x-user-id': userId,
     },
     body,
     cache: 'no-store',

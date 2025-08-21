@@ -1,6 +1,6 @@
 'use client'
 
-import { User2, Briefcase, Building2, MapPin } from 'lucide-react'
+import { User2, Briefcase, Building2, MapPin, BookmarkPlus } from 'lucide-react'
 
 interface Person {
   id: string
@@ -50,11 +50,24 @@ export default function PersonCard({ person, onClick, suppressScore }: { person:
               </div>
             )}
           </div>
-          {!suppressScore && (
-            <div className="px-3 py-1 rounded-full text-sm font-bold bg-gradient-to-r from-blue-400 to-indigo-500 text-white shadow-sm">
-              {matchScore}%
-            </div>
-          )}
+          <div className="flex items-center gap-2">
+            <button
+              className="inline-flex items-center gap-1 rounded-full bg-indigo-50 px-2 py-1 text-xs font-semibold text-indigo-700 hover:bg-indigo-100"
+              onClick={(e) => {
+                e.stopPropagation()
+                fetch('/api/user/follow', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ entity_id: person.id }) })
+              }}
+              aria-label="Follow person"
+              title="Follow person"
+            >
+              <BookmarkPlus size={14} /> Follow
+            </button>
+            {!suppressScore && (
+              <div className="px-3 py-1 rounded-full text-sm font-bold bg-gradient-to-r from-blue-400 to-indigo-500 text-white shadow-sm">
+                {matchScore}%
+              </div>
+            )}
+          </div>
         </div>
 
         {/* Location */}

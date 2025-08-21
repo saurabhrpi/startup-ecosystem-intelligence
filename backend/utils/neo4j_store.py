@@ -797,3 +797,74 @@ class Neo4jStore:
                 logger.info("Neo4j connection closed successfully")
         except Exception as e:
             logger.warning(f"Error closing Neo4j connection: {e}")
+
+    # --- User preferences and follows ---
+    def get_user_preferences(self, user_id: str) -> Dict[str, Any]:
+        """Return user's preferred location code and industries (lowercased)."""
+        with self.driver.session() as session:
+            row = session.run(
+                """
+                MATCH (u:User {id: $id})
+                OPTIONAL MATCH (u)-[:PREFERS_LOCATION]->(l:Location)
+                OPTIONAL MATCH (u)-[:PREFERS_INDUSTRY]->(i:Industry)
+                RETURN l.canonical AS location_code, collect(DISTINCT toLower(i.name)) AS industries
+                """,
+                { 'id': user_id }
+            ).single()
+            if not row:
+                return { 'location_code': None, 'industries': [] }
+            return {
+                'location_code': row.get('location_code'),
+                'industries': row.get('industries') or []
+            }
+
+    def set_user_preferences(self, user_id: str, location_code: Optional[str], industries: Optional[List[str]]):
+        """Upsert user preferences: single preferred location (by canonical) and preferred industries."""
+        inds = [str(x).strip().lower() for x in (industries or []) if str(x).strip()]
+        with self.driver.session() as session:
+            session.run("MERGE (u:User {id:$id}) SET u.updated_at=datetime()", { 'id': user_id })
+            if location_code:
+                session.run(
+                    """
+                    MATCH (u:User {id:$id})
+                    OPTIONAL MATCH (u)-[r:PREFERS_LOCATION]->()
+                    DELETE r
+                    WITH u
+                    MERGE (l:Location {canonical:$loc})
+                    MERGE (u)-[:PREFERS_LOCATION]->(l)
+                    """,
+                    { 'id': user_id, 'loc': str(location_code).strip().lower() }
+                )
+            # Reset industries and set new ones
+            session.run(
+                """
+                MATCH (u:User {id:$id})
+                OPTIONAL MATCH (u)-[r:PREFERS_INDUSTRY]->()
+                DELETE r
+                """,
+                { 'id': user_id }
+            )
+            if inds:
+                session.run(
+                    """
+                    MATCH (u:User {id:$id})
+                    UNWIND $inds AS name
+                    MATCH (i:Industry)
+                    WHERE toLower(i.name) = name
+                    MERGE (u)-[:PREFERS_INDUSTRY]->(i)
+                    """,
+                    { 'id': user_id, 'inds': inds }
+                )
+
+    def follow_entity(self, user_id: str, entity_id: str):
+        """Create a FOLLOWS relationship from user to any entity by id."""
+        with self.driver.session() as session:
+            session.run(
+                """
+                MATCH (e {id:$eid})
+                MERGE (u:User {id:$uid})
+                MERGE (u)-[:FOLLOWS]->(e)
+                SET u.updated_at = datetime()
+                """,
+                { 'uid': user_id, 'eid': entity_id }
+            )

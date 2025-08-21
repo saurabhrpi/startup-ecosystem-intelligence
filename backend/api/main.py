@@ -9,6 +9,7 @@ from backend.api.graph_rag_service import GraphRAGService
 from backend.agents.scoring_agent import ScoringAgent
 from backend.config import settings
 import time
+from fastapi import Header
 
 # Simple in-memory rate limiter: key -> [window_start_ts, count]
 rate_buckets: Dict[str, Dict[str, float]] = {}
@@ -170,9 +171,30 @@ async def get_ecosystem_stats():
             "data_sources": 2,
             "error": str(e)
         }
+# Catalog endpoints (no auth)
+@app.get("/catalog/locations")
+async def list_locations():
+    try:
+        with graph_rag_service.neo4j_store.driver.session() as session:
+            rows = session.run("MATCH (l:Location) RETURN toLower(l.canonical) AS canonical, coalesce(l.aliases,[]) AS aliases ORDER BY canonical")
+            out = []
+            for r in rows:
+                out.append({ 'canonical': r.get('canonical'), 'aliases': r.get('aliases') or [] })
+            return { 'locations': out }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/catalog/industries")
+async def list_industries():
+    try:
+        with graph_rag_service.neo4j_store.driver.session() as session:
+            rows = session.run("MATCH (i:Industry) RETURN toLower(i.name) AS name ORDER BY name")
+            return { 'industries': [r.get('name') for r in rows] }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
 @app.post("/search", response_model=SearchResponse, dependencies=[Depends(require_api_key), Depends(rate_limit)])
-async def search(request: SearchRequest):
+async def search(request: SearchRequest, x_user_id: Optional[str] = Header(None)):
     """
     Search the startup ecosystem database
     
@@ -190,7 +212,8 @@ async def search(request: SearchRequest):
             filter_type=request.filter_type,
             graph_depth=2,
             min_repo_stars=request.min_stars,
-            person_role_filters=request.person_roles
+            person_role_filters=request.person_roles,
+            user_id=x_user_id
         )
         return result
     except Exception as e:
@@ -203,7 +226,8 @@ async def search_get(
     filter_type: Optional[str] = Query(None, description="Filter by entity type"),
     filter_source: Optional[str] = Query(None, description="Filter by data source"),
     min_stars: Optional[int] = Query(None, description="Minimum stars for repositories"),
-    person_roles: Optional[str] = Query(None, description="Comma-separated person roles to include (e.g., founder,investor)")
+    person_roles: Optional[str] = Query(None, description="Comma-separated person roles to include (e.g., founder,investor)"),
+    x_user_id: Optional[str] = Header(None)
 ):
     """
     Search endpoint for GET requests
@@ -218,9 +242,43 @@ async def search_get(
             filter_type=filter_type,
             graph_depth=2,
             min_repo_stars=min_stars,
-            person_role_filters=role_list
+            person_role_filters=role_list,
+            user_id=x_user_id
         )
         return result
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+# User preferences endpoints
+@app.get("/users/me/preferences")
+async def get_prefs(x_user_id: str = Header(...)):
+    try:
+        return graph_rag_service.neo4j_store.get_user_preferences(x_user_id)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+class SetPrefsRequest(BaseModel):
+    location_code: Optional[str] = None
+    industries: Optional[List[str]] = None
+
+@app.put("/users/me/preferences")
+async def set_prefs(payload: SetPrefsRequest, x_user_id: str = Header(...)):
+    try:
+        graph_rag_service.neo4j_store.set_user_preferences(
+            x_user_id, payload.location_code, payload.industries or []
+        )
+        return {"ok": True}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+class FollowRequest(BaseModel):
+    entity_id: str
+
+@app.post("/users/me/follow")
+async def follow_entity(payload: FollowRequest, x_user_id: str = Header(...)):
+    try:
+        graph_rag_service.neo4j_store.follow_entity(x_user_id, payload.entity_id)
+        return {"ok": True}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 

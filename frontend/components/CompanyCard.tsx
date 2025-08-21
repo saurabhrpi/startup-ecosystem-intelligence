@@ -1,7 +1,7 @@
 'use client'
 
 import { Company } from '@/lib/types'
-import { Building2, MapPin, Globe, Tag, TrendingUp, Calendar, Users, ArrowUpRight } from 'lucide-react'
+import { Building2, MapPin, Globe, Tag, TrendingUp, Calendar, Users, ArrowUpRight, BookmarkPlus } from 'lucide-react'
 
 interface CompanyCardProps {
   company: Company
@@ -50,6 +50,17 @@ export default function CompanyCard({ company, onClick, suppressScore }: Company
               {metadata.name}
             </h3>
           </div>
+          <button
+            className="mr-2 inline-flex items-center gap-1 rounded-full bg-indigo-50 px-2 py-1 text-xs font-semibold text-indigo-700 hover:bg-indigo-100"
+            onClick={(e) => {
+              e.stopPropagation()
+              fetch('/api/user/follow', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ entity_id: company.id }) })
+            }}
+            aria-label="Follow company"
+            title="Follow company"
+          >
+            <BookmarkPlus size={14} /> Follow
+          </button>
           {!suppressScore && (
             <div className={`px-3 py-1 rounded-full text-sm font-bold ${getScoreColor(matchScore)} shadow-sm`}>
               {matchScore}%
