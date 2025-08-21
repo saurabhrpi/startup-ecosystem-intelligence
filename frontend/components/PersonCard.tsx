@@ -1,6 +1,7 @@
 'use client'
 
-import { User2, Briefcase, Building2, MapPin, BookmarkPlus } from 'lucide-react'
+import { User2, Briefcase, Building2, MapPin, BookmarkPlus, Check } from 'lucide-react'
+import { useState } from 'react'
 
 interface Person {
   id: string
@@ -18,6 +19,8 @@ interface Person {
 export default function PersonCard({ person, onClick, suppressScore }: { person: Person; onClick?: () => void; suppressScore?: boolean }) {
   const { metadata } = person
   const matchScore = Math.round(person.score * 100)
+  const [isFollowing, setIsFollowing] = useState(false)
+  const [isFollowLoading, setIsFollowLoading] = useState(false)
   
   return (
     <div
@@ -52,15 +55,34 @@ export default function PersonCard({ person, onClick, suppressScore }: { person:
           </div>
           <div className="flex items-center gap-2">
             <button
-              className="inline-flex items-center gap-1 rounded-full bg-indigo-50 px-2 py-1 text-xs font-semibold text-indigo-700 hover:bg-indigo-100"
-              onClick={(e) => {
+              className={`${isFollowing ? 'bg-green-50 text-green-700 hover:bg-green-100' : 'bg-indigo-50 text-indigo-700 hover:bg-indigo-100'} inline-flex items-center gap-1 rounded-full px-2 py-1 text-xs font-semibold`}
+              onClick={async (e) => {
                 e.stopPropagation()
-                fetch('/api/user/follow', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ entity_id: person.id }) })
+                if (isFollowing || isFollowLoading) return
+                try {
+                  setIsFollowLoading(true)
+                  const res = await fetch('/api/user/follow', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ entity_id: person.id }) })
+                  if (res.ok) {
+                    setIsFollowing(true)
+                  } else if (res.status === 401) {
+                    alert('Please sign in to follow')
+                  } else {
+                    const txt = await res.text().catch(() => '')
+                    console.error('Follow failed', res.status, txt)
+                    alert('Could not follow. Please try again.')
+                  }
+                } catch (err) {
+                  console.error('Follow error', err)
+                  alert('Could not follow. Please try again.')
+                } finally {
+                  setIsFollowLoading(false)
+                }
               }}
-              aria-label="Follow person"
-              title="Follow person"
+              aria-label={isFollowing ? 'Following person' : 'Follow person'}
+              title={isFollowing ? 'Following' : 'Follow person'}
+              disabled={isFollowLoading || isFollowing}
             >
-              <BookmarkPlus size={14} /> Follow
+              {isFollowing ? <Check size={14} /> : <BookmarkPlus size={14} />} {isFollowing ? 'Following' : (isFollowLoading ? 'Following…' : 'Follow')}
             </button>
             {!suppressScore && (
               <div className="px-3 py-1 rounded-full text-sm font-bold bg-gradient-to-r from-blue-400 to-indigo-500 text-white shadow-sm">

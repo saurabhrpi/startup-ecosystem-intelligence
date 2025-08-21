@@ -1,7 +1,9 @@
+
 'use client'
 
 import { Company } from '@/lib/types'
-import { Building2, MapPin, Globe, Tag, TrendingUp, Calendar, Users, ArrowUpRight, BookmarkPlus } from 'lucide-react'
+import { Building2, MapPin, Globe, Tag, TrendingUp, Calendar, Users, ArrowUpRight, BookmarkPlus, Check } from 'lucide-react'
+import { useState } from 'react'
 
 interface CompanyCardProps {
   company: Company
@@ -12,6 +14,9 @@ interface CompanyCardProps {
 export default function CompanyCard({ company, onClick, suppressScore }: CompanyCardProps) {
   const { metadata } = company
   const matchScore = Math.round(company.score * 100)
+
+  const [isFollowing, setIsFollowing] = useState(false)
+  const [isFollowLoading, setIsFollowLoading] = useState(false)
 
   // Determine score color based on value
   const getScoreColor = (score: number) => {
@@ -51,15 +56,38 @@ export default function CompanyCard({ company, onClick, suppressScore }: Company
             </h3>
           </div>
           <button
-            className="mr-2 inline-flex items-center gap-1 rounded-full bg-indigo-50 px-2 py-1 text-xs font-semibold text-indigo-700 hover:bg-indigo-100"
-            onClick={(e) => {
+            className={`${isFollowing ? 'bg-green-50 text-green-700 hover:bg-green-100' : 'bg-indigo-50 text-indigo-700 hover:bg-indigo-100'} mr-2 inline-flex items-center gap-1 rounded-full px-2 py-1 text-xs font-semibold`}
+            onClick={async (e) => {
               e.stopPropagation()
-              fetch('/api/user/follow', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ entity_id: company.id }) })
+              if (isFollowing || isFollowLoading) return
+              try {
+                setIsFollowLoading(true)
+                const res = await fetch('/api/user/follow', {
+                  method: 'POST',
+                  headers: { 'Content-Type': 'application/json' },
+                  body: JSON.stringify({ entity_id: company.id })
+                })
+                if (res.ok) {
+                  setIsFollowing(true)
+                } else if (res.status === 401) {
+                  alert('Please sign in to follow')
+                } else {
+                  const txt = await res.text().catch(() => '')
+                  console.error('Follow failed', res.status, txt)
+                  alert('Could not follow. Please try again.')
+                }
+              } catch (err) {
+                console.error('Follow error', err)
+                alert('Could not follow. Please try again.')
+              } finally {
+                setIsFollowLoading(false)
+              }
             }}
-            aria-label="Follow company"
-            title="Follow company"
+            aria-label={isFollowing ? 'Following company' : 'Follow company'}
+            title={isFollowing ? 'Following' : 'Follow company'}
+            disabled={isFollowLoading || isFollowing}
           >
-            <BookmarkPlus size={14} /> Follow
+            {isFollowing ? <Check size={14} /> : <BookmarkPlus size={14} />} {isFollowing ? 'Following' : (isFollowLoading ? 'Following…' : 'Follow')}
           </button>
           {!suppressScore && (
             <div className={`px-3 py-1 rounded-full text-sm font-bold ${getScoreColor(matchScore)} shadow-sm`}>

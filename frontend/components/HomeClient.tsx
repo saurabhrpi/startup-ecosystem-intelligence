@@ -8,7 +8,8 @@ import RepositoryDetail from '@/components/RepositoryDetail'
 import CompanyDetail from '@/components/CompanyDetail'
 import ResponseDisplay from '@/components/ResponseDisplay'
 import { Company, SearchResult } from '@/lib/types'
-import { TrendingUp, Sparkles, Zap } from 'lucide-react'
+import { TrendingUp, Sparkles, Zap, LogOut } from 'lucide-react'
+import { signOut } from 'next-auth/react'
 import PersonGrid from '@/components/PersonGrid'
 import InvestorGrid from '@/components/InvestorGrid'
 
@@ -87,6 +88,15 @@ export default function HomeClient({ initialStats, initialPrefs }: { initialStat
       <div className="container mx-auto px-4 py-8 relative">
         {/* Header */}
         <header className="text-center mb-12">
+          <div className="absolute right-4 top-4">
+            <button
+              onClick={() => signOut({ callbackUrl: '/signin' })}
+              className="inline-flex items-center gap-2 rounded-full bg-white/80 px-3 py-1.5 text-sm font-semibold text-gray-700 hover:bg-white shadow border border-gray-200"
+              title="Sign out"
+            >
+              <LogOut size={14} /> Sign out
+            </button>
+          </div>
           <div className="inline-flex items-center justify-center space-x-2 mb-4 bg-gradient-to-r from-blue-100 to-indigo-100 px-4 py-2 rounded-full">
             <Zap className="text-indigo-600" size={20} />
             <span className="text-sm font-semibold text-indigo-700">Graph-RAG Powered Intelligence</span>
