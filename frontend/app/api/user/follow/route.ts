@@ -8,10 +8,11 @@ export async function POST(req: NextRequest) {
   const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'https://startup-ecosystem-api-production.up.railway.app'
   const apiKey = process.env.BACKEND_API_KEY || ''
   const userId = (session?.user as any)?.id || ''
+  const userEmail = (session?.user as any)?.email || ''
   const body = await req.text()
   const res = await fetch(`${apiUrl}/users/me/follow`, {
     method: 'POST',
-    headers: { 'x-api-key': apiKey, 'Accept': 'application/json', 'Content-Type': 'application/json', 'x-user-id': userId },
+    headers: { 'x-api-key': apiKey, 'Accept': 'application/json', 'Content-Type': 'application/json', 'x-user-id': userId, 'x-user-email': userEmail },
     body,
     cache: 'no-store'
   })

@@ -251,9 +251,9 @@ async def search_get(
 
 # User preferences endpoints
 @app.get("/users/me/preferences")
-async def get_prefs(x_user_id: str = Header(...)):
+async def get_prefs(x_user_id: str = Header(...), x_user_email: Optional[str] = Header(None)):
     try:
-        return graph_rag_service.neo4j_store.get_user_preferences(x_user_id)
+        return graph_rag_service.neo4j_store.get_user_preferences(x_user_id, x_user_email)
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
@@ -262,10 +262,10 @@ class SetPrefsRequest(BaseModel):
     industries: Optional[List[str]] = None
 
 @app.put("/users/me/preferences")
-async def set_prefs(payload: SetPrefsRequest, x_user_id: str = Header(...)):
+async def set_prefs(payload: SetPrefsRequest, x_user_id: str = Header(...), x_user_email: Optional[str] = Header(None)):
     try:
         graph_rag_service.neo4j_store.set_user_preferences(
-            x_user_id, payload.location_code, payload.industries or []
+            x_user_id, payload.location_code, payload.industries or [], x_user_email
         )
         return {"ok": True}
     except Exception as e:
@@ -275,9 +275,9 @@ class FollowRequest(BaseModel):
     entity_id: str
 
 @app.post("/users/me/follow")
-async def follow_entity(payload: FollowRequest, x_user_id: str = Header(...)):
+async def follow_entity(payload: FollowRequest, x_user_id: str = Header(...), x_user_email: Optional[str] = Header(None)):
     try:
-        graph_rag_service.neo4j_store.follow_entity(x_user_id, payload.entity_id)
+        graph_rag_service.neo4j_store.follow_entity(x_user_id, payload.entity_id, x_user_email)
         return {"ok": True}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))

@@ -89,13 +89,22 @@ export default function HomeClient({ initialStats, initialPrefs }: { initialStat
         {/* Header */}
         <header className="text-center mb-12">
           <div className="absolute right-4 top-4">
-            <button
-              onClick={() => signOut({ callbackUrl: '/signin' })}
-              className="inline-flex items-center gap-2 rounded-full bg-white/80 px-3 py-1.5 text-sm font-semibold text-gray-700 hover:bg-white shadow border border-gray-200"
-              title="Sign out"
-            >
-              <LogOut size={14} /> Sign out
-            </button>
+            <div className="flex items-center gap-2">
+              <a
+                href="/settings"
+                className="inline-flex items-center gap-2 rounded-full bg-white/80 px-3 py-1.5 text-sm font-semibold text-gray-700 hover:bg-white shadow border border-gray-200"
+                title="Personalization settings"
+              >
+                Preferences
+              </a>
+              <button
+                onClick={() => signOut({ callbackUrl: '/signin' })}
+                className="inline-flex items-center gap-2 rounded-full bg-white/80 px-3 py-1.5 text-sm font-semibold text-gray-700 hover:bg-white shadow border border-gray-200"
+                title="Sign out"
+              >
+                <LogOut size={14} /> Sign out
+              </button>
+            </div>
           </div>
           <div className="inline-flex items-center justify-center space-x-2 mb-4 bg-gradient-to-r from-blue-100 to-indigo-100 px-4 py-2 rounded-full">
             <Zap className="text-indigo-600" size={20} />

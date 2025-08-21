@@ -799,17 +799,20 @@ class Neo4jStore:
             logger.warning(f"Error closing Neo4j connection: {e}")
 
     # --- User preferences and follows ---
-    def get_user_preferences(self, user_id: str) -> Dict[str, Any]:
-        """Return user's preferred location code and industries (lowercased)."""
+    def get_user_preferences(self, user_id: str, user_email: Optional[str] = None) -> Dict[str, Any]:
+        """Return user's preferred location code and industries (lowercased). Also ensure a User node exists and backfill email if provided."""
         with self.driver.session() as session:
             row = session.run(
                 """
-                MATCH (u:User {id: $id})
+                MERGE (u:User {id: $id})
+                ON CREATE SET u.created_at = datetime(), u.updated_at = datetime(), u.email = $email
+                ON MATCH SET u.updated_at = coalesce(u.updated_at, datetime()), u.email = coalesce(u.email, $email)
+                WITH u
                 OPTIONAL MATCH (u)-[:PREFERS_LOCATION]->(l:Location)
                 OPTIONAL MATCH (u)-[:PREFERS_INDUSTRY]->(i:Industry)
                 RETURN l.canonical AS location_code, collect(DISTINCT toLower(i.name)) AS industries
                 """,
-                { 'id': user_id }
+                { 'id': user_id, 'email': (user_email or None) }
             ).single()
             if not row:
                 return { 'location_code': None, 'industries': [] }
@@ -818,11 +821,11 @@ class Neo4jStore:
                 'industries': row.get('industries') or []
             }
 
-    def set_user_preferences(self, user_id: str, location_code: Optional[str], industries: Optional[List[str]]):
-        """Upsert user preferences: single preferred location (by canonical) and preferred industries."""
+    def set_user_preferences(self, user_id: str, location_code: Optional[str], industries: Optional[List[str]], user_email: Optional[str] = None):
+        """Upsert user preferences: single preferred location (by canonical) and preferred industries. Backfill user email if provided."""
         inds = [str(x).strip().lower() for x in (industries or []) if str(x).strip()]
         with self.driver.session() as session:
-            session.run("MERGE (u:User {id:$id}) SET u.updated_at=datetime()", { 'id': user_id })
+            session.run("MERGE (u:User {id:$id}) SET u.updated_at=datetime(), u.email = coalesce(u.email, $email)", { 'id': user_id, 'email': (user_email or None) })
             if location_code:
                 session.run(
                     """
@@ -856,15 +859,17 @@ class Neo4jStore:
                     { 'id': user_id, 'inds': inds }
                 )
 
-    def follow_entity(self, user_id: str, entity_id: str):
-        """Create a FOLLOWS relationship from user to any entity by id."""
+    def follow_entity(self, user_id: str, entity_id: str, user_email: Optional[str] = None):
+        """Create a FOLLOWS relationship from user to any entity by id. Ensure User exists and backfill email if provided."""
         with self.driver.session() as session:
             session.run(
                 """
-                MATCH (e {id:$eid})
                 MERGE (u:User {id:$uid})
+                ON CREATE SET u.created_at = datetime(), u.email = $email
+                SET u.updated_at = datetime(), u.email = coalesce(u.email, $email)
+                WITH u
+                MATCH (e {id:$eid})
                 MERGE (u)-[:FOLLOWS]->(e)
-                SET u.updated_at = datetime()
                 """,
-                { 'uid': user_id, 'eid': entity_id }
+                { 'uid': user_id, 'eid': entity_id, 'email': (user_email or None) }
             )

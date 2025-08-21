@@ -8,8 +8,9 @@ export async function GET(_req: NextRequest) {
   const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'https://startup-ecosystem-api-production.up.railway.app'
   const apiKey = process.env.BACKEND_API_KEY || ''
   const userId = (session?.user as any)?.id || ''
+  const userEmail = (session?.user as any)?.email || ''
   const res = await fetch(`${apiUrl}/users/me/preferences`, {
-    headers: { 'x-api-key': apiKey, 'Accept': 'application/json', 'x-user-id': userId },
+    headers: { 'x-api-key': apiKey, 'Accept': 'application/json', 'x-user-id': userId, 'x-user-email': userEmail },
     cache: 'no-store',
   })
   return new Response(await res.text(), { status: res.status, headers: { 'content-type': 'application/json' } })
@@ -21,10 +22,11 @@ export async function PUT(req: NextRequest) {
   const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'https://startup-ecosystem-api-production.up.railway.app'
   const apiKey = process.env.BACKEND_API_KEY || ''
   const userId = (session?.user as any)?.id || ''
+  const userEmail = (session?.user as any)?.email || ''
   const body = await req.text()
   const res = await fetch(`${apiUrl}/users/me/preferences`, {
     method: 'PUT',
-    headers: { 'x-api-key': apiKey, 'Accept': 'application/json', 'Content-Type': 'application/json', 'x-user-id': userId },
+    headers: { 'x-api-key': apiKey, 'Accept': 'application/json', 'Content-Type': 'application/json', 'x-user-id': userId, 'x-user-email': userEmail },
     body,
     cache: 'no-store',
   })
