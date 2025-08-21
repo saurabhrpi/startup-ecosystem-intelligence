@@ -12,6 +12,7 @@ export default function SignInPage() {
   const [cursorPos, setCursorPos] = useState<{ x: number; y: number }>({ x: 150, y: 80 })
   const [stepIndex, setStepIndex] = useState(0)
   const carouselRef = useRef<HTMLDivElement>(null)
+  const trackRef = useRef<HTMLDivElement>(null)
   const overlayRef1 = useRef<HTMLDivElement>(null)
   const overlayRef2 = useRef<HTMLDivElement>(null)
   const [overlayActive, setOverlayActive] = useState<'one' | 'two'>('one')
@@ -25,24 +26,33 @@ export default function SignInPage() {
     setLoading(false)
   }
 
-  // Auto-moving carousel (right-to-left)
+  // Auto-moving carousel via transform (decoupled from user scroll)
   useEffect(() => {
-    const el = carouselRef.current
-    if (!el) return
+    const track = trackRef.current
+    if (!track) return
     let raf = 0
-    let last = performance.now()
-    const speed = 900 // px per second
-    const tick = (t: number) => {
-      const dt = (t - last) / 1000
-      last = t
-      el.scrollLeft += speed * dt
-      if (el.scrollLeft + el.clientWidth >= el.scrollWidth - 1) {
-        el.scrollLeft = 0
-      }
-      raf = requestAnimationFrame(tick)
+    let start = performance.now()
+    let loopWidth = 0
+    const recalc = () => {
+      const total = track.scrollWidth
+      loopWidth = total / 2 // duplicated items
     }
-    raf = requestAnimationFrame(tick)
-    return () => cancelAnimationFrame(raf)
+    recalc()
+    const onResize = () => recalc()
+    window.addEventListener('resize', onResize)
+    const speed = 900 // px per second
+    const animate = (now: number) => {
+      if (!track || loopWidth <= 0) {
+        raf = requestAnimationFrame(animate)
+        return
+      }
+      const elapsed = (now - start) / 1000
+      const x = (elapsed * speed) % loopWidth
+      track.style.transform = `translateX(${-x}px)`
+      raf = requestAnimationFrame(animate)
+    }
+    raf = requestAnimationFrame(animate)
+    return () => { cancelAnimationFrame(raf); window.removeEventListener('resize', onResize) }
   }, [])
 
   // Auto-cycle steps (pause on hover)
@@ -237,7 +247,8 @@ RETURN p, c LIMIT 10`}</pre>
       {/* Companies carousel */}
       <section className="mx-auto max-w-7xl px-6 pb-20">
         <h3 className="mb-4 text-xl font-bold">Companies you can discover</h3>
-        <div ref={carouselRef} className="flex gap-4 overflow-x-auto scroll-smooth no-scrollbar">
+        <div ref={carouselRef} className="relative overflow-hidden">
+          <div ref={trackRef} className="flex gap-4 will-change-transform">
           {/* doubled list for seamless loop */}
           {([
             { name: 'Zep AI', batch: 'W24', industry: 'B2B', location: 'San Francisco', blurb: 'Memory infrastructure for AI.' },
@@ -258,6 +269,7 @@ RETURN p, c LIMIT 10`}</pre>
               <p className="mt-2 text-slate-300 text-sm">{c.blurb}</p>
             </div>
           ))}
+          </div>
         </div>
       </section>
 
