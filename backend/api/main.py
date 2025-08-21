@@ -3,6 +3,8 @@ Main FastAPI application for Startup Ecosystem Intelligence Platform
 """
 from fastapi import FastAPI, HTTPException, Query, Depends, Request
 from fastapi.middleware.cors import CORSMiddleware
+from starlette.middleware.base import BaseHTTPMiddleware
+import hmac, hashlib, time
 from pydantic import BaseModel
 from typing import Optional, List, Dict, Any
 from backend.api.graph_rag_service import GraphRAGService
@@ -41,6 +43,47 @@ def rate_limit(request: Request):
     bucket['count'] += 1
     return True
 
+def require_user_sig(request: Request):
+    """Verify signed user identity headers when API key is configured.
+    Expects x-user-id, x-user-email, x-user-ts (ms), x-user-sig = HMAC_SHA256(id.email.ts, api_key).
+    """
+    secret = settings.api_key
+    if not secret:
+        # In local/dev without API key, skip
+        return True
+    uid = request.headers.get('x-user-id') or ''
+    email = request.headers.get('x-user-email') or ''
+    ts = request.headers.get('x-user-ts') or ''
+    sig = request.headers.get('x-user-sig') or ''
+    if not uid or not ts or not sig:
+        raise HTTPException(status_code=401, detail="Missing user signature headers")
+    try:
+        ts_int = int(ts)
+    except Exception:
+        raise HTTPException(status_code=401, detail="Invalid timestamp")
+    # timestamp freshness: 5 minutes
+    now_ms = int(time.time() * 1000)
+    if abs(now_ms - ts_int) > 5 * 60 * 1000:
+        raise HTTPException(status_code=401, detail="Stale signature")
+    payload = f"{uid}.{email}.{ts}".encode('utf-8')
+    expected = hmac.new(secret.encode('utf-8'), payload, hashlib.sha256).hexdigest()
+    if not hmac.compare_digest(expected, sig):
+        raise HTTPException(status_code=401, detail="Invalid signature")
+    return True
+
+class SecurityHeadersMiddleware(BaseHTTPMiddleware):
+    async def dispatch(self, request: Request, call_next):
+        response = await call_next(request)
+        response.headers['X-Frame-Options'] = 'DENY'
+        response.headers['X-Content-Type-Options'] = 'nosniff'
+        response.headers['Referrer-Policy'] = 'no-referrer'
+        # Conservative CSP; adjust if needed for third-party assets
+        response.headers['Content-Security-Policy'] = "default-src 'self' data: blob:; img-src 'self' data: https:; connect-src 'self' https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; style-src 'self' 'unsafe-inline' https:; frame-ancestors 'none'"
+        # HSTS for HTTPS
+        if (request.url.scheme or '').lower() == 'https':
+            response.headers['Strict-Transport-Security'] = 'max-age=63072000; includeSubDomains; preload'
+        return response
+
 # Initialize FastAPI app
 app = FastAPI(
     title="Startup Ecosystem Intelligence API",
@@ -53,11 +96,11 @@ import os
 
 allowed_origins = ["*"]  # Default for development
 if os.getenv("ENVIRONMENT") == "production":
-    # Get allowed origins from environment variable
-    origins_str = os.getenv("ALLOWED_ORIGINS", "")
-    allowed_origins = [origin.strip() for origin in origins_str.split(",") if origin.strip()]
+    # Prefer explicit allowlist; if absent, disallow cross-origin by default
+    origins_str = os.getenv("ALLOWED_ORIGINS") or os.getenv("PUBLIC_FRONTEND_URL", "")
+    allowed_origins = [origin.strip() for origin in origins_str.split(",") if origin and origin.strip()]
     if not allowed_origins:
-        allowed_origins = ["*"]  # Fallback
+        allowed_origins = []  # lock down by default in production
 
 app.add_middleware(
     CORSMiddleware,
@@ -66,6 +109,8 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+app.add_middleware(SecurityHeadersMiddleware)
 
 # Initialize services  
 graph_rag_service = GraphRAGService()
@@ -193,7 +238,7 @@ async def list_industries():
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-@app.post("/search", response_model=SearchResponse, dependencies=[Depends(require_api_key), Depends(rate_limit)])
+@app.post("/search", response_model=SearchResponse, dependencies=[Depends(require_api_key), Depends(require_user_sig), Depends(rate_limit)])
 async def search(request: SearchRequest, x_user_id: Optional[str] = Header(None)):
     """
     Search the startup ecosystem database
@@ -219,7 +264,7 @@ async def search(request: SearchRequest, x_user_id: Optional[str] = Header(None)
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-@app.get("/search", response_model=SearchResponse, dependencies=[Depends(require_api_key), Depends(rate_limit)])
+@app.get("/search", response_model=SearchResponse, dependencies=[Depends(require_api_key), Depends(require_user_sig), Depends(rate_limit)])
 async def search_get(
     query: str = Query(..., description="Search query"),
     top_k: int = Query(10, description="Number of results to return"),
@@ -250,7 +295,7 @@ async def search_get(
         raise HTTPException(status_code=500, detail=str(e))
 
 # User preferences endpoints
-@app.get("/users/me/preferences")
+@app.get("/users/me/preferences", dependencies=[Depends(require_api_key), Depends(require_user_sig), Depends(rate_limit)])
 async def get_prefs(x_user_id: str = Header(...), x_user_email: Optional[str] = Header(None)):
     try:
         return graph_rag_service.neo4j_store.get_user_preferences(x_user_id, x_user_email)
@@ -261,7 +306,7 @@ class SetPrefsRequest(BaseModel):
     location_code: Optional[str] = None
     industries: Optional[List[str]] = None
 
-@app.put("/users/me/preferences")
+@app.put("/users/me/preferences", dependencies=[Depends(require_api_key), Depends(require_user_sig), Depends(rate_limit)])
 async def set_prefs(payload: SetPrefsRequest, x_user_id: str = Header(...), x_user_email: Optional[str] = Header(None)):
     try:
         graph_rag_service.neo4j_store.set_user_preferences(
@@ -274,7 +319,7 @@ async def set_prefs(payload: SetPrefsRequest, x_user_id: str = Header(...), x_us
 class FollowRequest(BaseModel):
     entity_id: str
 
-@app.post("/users/me/follow")
+@app.post("/users/me/follow", dependencies=[Depends(require_api_key), Depends(require_user_sig), Depends(rate_limit)])
 async def follow_entity(payload: FollowRequest, x_user_id: str = Header(...), x_user_email: Optional[str] = Header(None)):
     try:
         graph_rag_service.neo4j_store.follow_entity(x_user_id, payload.entity_id, x_user_email)

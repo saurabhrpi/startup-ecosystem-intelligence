@@ -217,6 +217,46 @@ class GraphRAGService:
         """
         Perform Graph RAG search using Neo4j's hybrid capabilities
         """
+        # --- Input validation and safety ---
+        # Clamp top_k
+        try:
+            top_k = int(top_k)
+        except Exception:
+            top_k = 10
+        if top_k < 1:
+            top_k = 1
+        if top_k > 50:
+            top_k = 50
+
+        # Validate filter_type against an allow-list
+        if filter_type:
+            filter_type = filter_type.strip().lower()
+            if filter_type not in { 'company', 'person', 'repository' }:
+                filter_type = None
+
+        # Validate roles
+        if person_role_filters:
+            person_role_filters = [r.strip().lower() for r in person_role_filters if isinstance(r, str)]
+            allowed_roles = {'founder','investor'}
+            person_role_filters = [r for r in person_role_filters if r in allowed_roles]
+            if not person_role_filters:
+                person_role_filters = None
+
+        # Basic unsafe prompt screening (lightweight, no external call)
+        blocked_terms = [
+            'ignore previous instructions', 'system prompt', 'admin prompt', 'reveal prompt', 'jailbreak',
+            'password', 'api key', 'token', 'private key', 'ssh key', 'credit card', 'ssn'
+        ]
+        ql_block = (query or '').lower()
+        if any(t in ql_block for t in blocked_terms):
+            return {
+                'query': query,
+                'matches': [],
+                'response': 'Your query contains unsafe terms and was blocked by policy.',
+                'graph': None,
+                'total_results': 0,
+                'search_params': { 'blocked': True }
+            }
         used_planner = False
         # Extract numeric filters from query
         numeric_filters, cleaned_query = self._extract_numeric_filters(query)

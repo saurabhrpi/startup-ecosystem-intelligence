@@ -139,6 +139,20 @@ class Neo4jStore:
                     # Neo4j will throw an error if index already exists, which is fine
                     if "already exists" not in str(e):
                         logger.warning(f"Index creation warning: {e}")
+            # Create uniqueness constraints (id) for core labels
+            constraints = [
+                "CREATE CONSTRAINT user_id IF NOT EXISTS FOR (u:User) REQUIRE u.id IS UNIQUE",
+                "CREATE CONSTRAINT company_id IF NOT EXISTS FOR (c:Company) REQUIRE c.id IS UNIQUE",
+                "CREATE CONSTRAINT person_id IF NOT EXISTS FOR (p:Person) REQUIRE p.id IS UNIQUE",
+                "CREATE CONSTRAINT repo_id IF NOT EXISTS FOR (r:Repository) REQUIRE r.id IS UNIQUE",
+            ]
+            for cql in constraints:
+                try:
+                    session.run(cql)
+                    logger.info(f"Created/verified constraint: {cql.split(' ')[2]}")
+                except Exception as e:
+                    if "already exists" not in str(e):
+                        logger.warning(f"Constraint creation warning: {e}")
     
     def create_company_with_embedding(self, company_data: Dict[str, Any], embedding: List[float]) -> None:
         """Create or update a company node with its embedding using non-destructive updates.
