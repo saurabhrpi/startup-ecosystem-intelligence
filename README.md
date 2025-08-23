@@ -13,7 +13,7 @@ An AI-powered intelligence platform that uses Graph RAG to discover hidden conne
 
 1. Clone the repository:
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/saurabhrpi/startup-ecosystem-intelligence.git
 cd startup-ecosystem-intelligence
 ```
 
@@ -101,8 +101,8 @@ startup-ecosystem-intelligence/
 
 Edit `.env` file to configure:
 - `OPENAI_API_KEY`: Your OpenAI API key
-- `PINECONE_API_KEY`: Your Pinecone API key
-- `PINECONE_INDEX_NAME`: Pinecone index name (default: startup-embeddings)
+- `NEO4j_API_KEY`: Your NEO4j API key
+- `NEO4j_INDEX_NAME`: NEO4j index name
 - `GITHUB_TOKEN`: GitHub personal access token (optional)
 
 ## 📈 Current Status
@@ -111,9 +111,9 @@ Edit `.env` file to configure:
 - ✅ Vector embeddings generation
 - ✅ RAG-powered search API
 - ✅ Basic API endpoints
-- 🚧 Graph database integration (Neo4j)
-- 🚧 Frontend application
-- 🚧 Additional data sources
+- ✅ Graph database integration (Neo4j)
+- ✅ Frontend application
+- ✅ Additional data sources
 
 ## 🤝 Contributing
 
