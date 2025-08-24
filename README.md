@@ -7,7 +7,9 @@ An AI-powered intelligence platform that uses Graph RAG to discover hidden conne
 ### Prerequisites
 - Python 3.11+
 - OpenAI API key
-- Pinecone API key
+- Neo4j API key
+- Google CSE API key
+- Github Access Token
 
 ### Installation
 
