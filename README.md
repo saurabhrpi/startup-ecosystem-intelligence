@@ -69,7 +69,7 @@ API endpoints:
 curl "http://localhost:8000/search?query=AI%20startups%20in%20San%20Francisco"
 
 # Get database stats
-curl "http://localhost:8000/stats"
+curl "https://railway.com/project/<projectId>/stats"
 ```
 
 ## 📊 Project Structure
