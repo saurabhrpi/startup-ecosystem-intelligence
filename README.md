@@ -93,7 +93,7 @@ startup-ecosystem-intelligence/
 
 ## 🎯 Features
 
-- **Multi-Source Data Collection**: YC companies, GitHub repos, SEC filings, and more
+- **Multi-Source Data Collection**: YC companies, GitHub repos, Google Custom Search Engine and more
 - **Vector Search**: Semantic search using OpenAI embeddings
 - **Intelligent Responses**: GPT-4 powered analysis and insights
 - **Graph Relationships**: Discover hidden connections
