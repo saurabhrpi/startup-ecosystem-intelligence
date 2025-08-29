@@ -95,6 +95,7 @@ startup-ecosystem-intelligence/
 
 - **Multi-Source Data Collection**: YC companies, GitHub repos, Google Custom Search Engine and more
 - **Vector Search**: Semantic search using OpenAI embeddings
+- **Filtered Search**: Filtered search for instant insights for queries that don't need semantic approach.
 - **Intelligent Responses**: GPT-4 powered analysis and insights
 - **Graph Relationships**: Discover hidden connections
 - **Real-time Updates**: Continuous data collection and processing
