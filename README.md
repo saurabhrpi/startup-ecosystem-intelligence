@@ -54,7 +54,7 @@ This will:
 ```bash
 python run_api.py
 ```
-This will start the FastAPI server at http://localhost:8000
+This will start the FastAPI server at http://localhost:8000 (if deployed locally).
 
 API endpoints:
 - `GET /` - Health check
