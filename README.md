@@ -115,7 +115,7 @@ Edit `.env` file to configure:
 - ✅ RAG-powered search API
 - ✅ Basic API endpoints
 - ✅ Graph database integration (Neo4j)
-- ✅ Frontend application
+- ✅ Engaging UI with search functionality 
 - ✅ Additional data sources
 
 ## 🤝 Contributing
