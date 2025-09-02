@@ -46,7 +46,7 @@ cp .env.example .env
 python run_pipeline.py
 ```
 This will:
-- Collect data from YC companies, GitHub repos, and other sources
+- Collect data from YC companies, GitHub repos, and Google Custom Search Engine.
 - Generate embeddings for all collected data
 - Store embeddings in Pinecone vector database
 
