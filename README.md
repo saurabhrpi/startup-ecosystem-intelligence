@@ -48,7 +48,7 @@ python run_pipeline.py
 This will:
 - Collect data from YC companies, GitHub repos, and Google Custom Search Engine.
 - Generate embeddings for all collected data
-- Store embeddings in Pinecone vector database
+- Store embeddings in Neo4j database.
 
 #### 2. API Server (Search and Query)
 ```bash
