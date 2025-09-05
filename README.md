@@ -116,7 +116,7 @@ Edit `.env` file to configure:
 - ✅ Basic API endpoints
 - ✅ Graph database integration (Neo4j)
 - ✅ Engaging UI with search functionality 
-- ✅ Additional data sources
+- ✅ Added Google CSE
 
 ## 🤝 Contributing
 
