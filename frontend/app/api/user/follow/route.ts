@@ -1,6 +1,7 @@
 import { NextRequest } from 'next/server'
 import { getServerSession } from 'next-auth'
 import { authOptions } from '@/lib/auth'
+import { createHmac } from 'crypto'
 
 export async function POST(req: NextRequest) {
   const session = await getServerSession(authOptions)
@@ -11,18 +12,7 @@ export async function POST(req: NextRequest) {
   const userEmail = (session?.user as any)?.email || ''
   const body = await req.text()
   const ts = Date.now().toString()
-  // best-effort browser HMAC
-  // @ts-ignore
-  const subtle: SubtleCrypto | undefined = (globalThis.crypto as any)?.subtle
-  let sig = ''
-  try {
-    if (subtle && apiKey) {
-      const enc = new TextEncoder()
-      const key = await subtle.importKey('raw', enc.encode(apiKey), { name: 'HMAC', hash: 'SHA-256' }, false, ['sign'])
-      const signature = await subtle.sign('HMAC', key, enc.encode(`${userId}.${userEmail}.${ts}`))
-      sig = Array.from(new Uint8Array(signature)).map(b => b.toString(16).padStart(2, '0')).join('')
-    }
-  } catch {}
+  const sig = apiKey ? createHmac('sha256', apiKey).update(`${userId}.${userEmail}.${ts}`).digest('hex') : ''
   const res = await fetch(`${apiUrl}/users/me/follow`, {
     method: 'POST',
     headers: { 'x-api-key': apiKey, 'Accept': 'application/json', 'Content-Type': 'application/json', 'x-user-id': userId, 'x-user-email': userEmail, 'x-user-ts': ts, 'x-user-sig': sig },

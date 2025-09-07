@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - main
+  workflow_call:
 
 jobs:
   backend-syntax:
@@ -42,6 +43,10 @@ jobs:
     needs: [backend-syntax, frontend-build]
     steps:
       - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
       - name: Run validation script
         run: |
           python scripts/validate_ci.py
