@@ -98,7 +98,7 @@ startup-ecosystem-intelligence/
 - **Filtered Search**: Filtered search for instant insights for queries that don't need semantic approach.
 - **Intelligent Responses**: GPT-4 powered analysis and insights
 - **Graph Relationships**: Discover hidden connections
-- **Real-time Updates** (in progress): Continuous data collection and processing
+- **Real-time Updates** (in progress): Continuous data collection and processing. Next action item: Find data sources. 
 
 ## 🔧 Configuration
 
