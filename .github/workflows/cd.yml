@@ -15,10 +15,14 @@ jobs:
     if: ${{ success() }}
     steps:
       - uses: actions/checkout@v4
+      - name: Validate Railway secrets
+        run: |
+          [ -n "${{ secrets.RAILWAY_TOKEN }}" ] || { echo "RAILWAY_TOKEN missing"; exit 1; }
+          [ -n "${{ secrets.RAILWAY_SERVICE_NAME }}" ] || { echo "RAILWAY_SERVICE_NAME missing"; exit 1; }
       - name: Deploy to Railway
         uses: railwayapp/action@v1
         with:
-          service: ${{ secrets.RAILWAY_SERVICE_ID }}
+          service: ${{ secrets.RAILWAY_SERVICE_NAME }}
         env:
           RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
 
@@ -27,7 +31,7 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ success() }}
     steps:
-      - name: Trigger Replit Deploy Hook
+      - name: Frontend deployment is manual on Replit
         run: |
-          curl -sSf -X POST "${{ secrets.REPLIT_DEPLOY_HOOK_URL }}" -H "Content-Type: application/json" -d '{"event":"deploy"}'
+          echo "::notice title=Replit deployment::Frontend deployment is manual on Replit. Skipping automated deploy."
 
