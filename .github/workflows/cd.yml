@@ -19,12 +19,20 @@ jobs:
         run: |
           [ -n "${{ secrets.RAILWAY_TOKEN }}" ] || { echo "RAILWAY_TOKEN missing"; exit 1; }
           [ -n "${{ secrets.RAILWAY_SERVICE_NAME }}" ] || { echo "RAILWAY_SERVICE_NAME missing"; exit 1; }
-      - name: Deploy to Railway
-        uses: railwayapp/action@v1
+          [ -n "${{ secrets.RAILWAY_PROJECT_ID }}" ] || { echo "RAILWAY_PROJECT_ID missing"; exit 1; }
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
         with:
-          service: ${{ secrets.RAILWAY_SERVICE_NAME }}
+          node-version: '20'
+      - name: Install Railway CLI
+        run: npm i -g @railway/cli
+      - name: Deploy to Railway via CLI
         env:
           RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
+          SERVICE_NAME: ${{ secrets.RAILWAY_SERVICE_NAME }}
+          PROJECT_ID: ${{ secrets.RAILWAY_PROJECT_ID }}
+        run: |
+          railway up --service "$SERVICE_NAME" --project "$PROJECT_ID" --yes
 
   deploy-frontend:
     needs: test
