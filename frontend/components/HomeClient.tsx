@@ -12,11 +12,13 @@ import { TrendingUp, Sparkles, Zap, LogOut } from 'lucide-react'
 import { signOut } from 'next-auth/react'
 import PersonGrid from '@/components/PersonGrid'
 import InvestorGrid from '@/components/InvestorGrid'
+import { useSession } from 'next-auth/react'
 
 type Stats = { total_companies: number; total_embeddings: number; data_sources: number }
 type Prefs = { location_code?: string | null; industries?: string[] }
 
 export default function HomeClient({ initialStats, initialPrefs }: { initialStats: Stats; initialPrefs?: Prefs }) {
+  const { data: session } = useSession()
   const [searchResults, setSearchResults] = useState<SearchResult | null>(null)
   const [selectedCompany, setSelectedCompany] = useState<Company | null>(null)
   const [selectedRepository, setSelectedRepository] = useState<any | null>(null)
@@ -90,6 +92,11 @@ export default function HomeClient({ initialStats, initialPrefs }: { initialStat
         <header className="text-center mb-12">
           <div className="absolute right-4 top-4">
             <div className="flex items-center gap-2">
+              {session?.user?.name && (
+                <span className="inline-flex items-center gap-2 rounded-full bg-white/80 px-3 py-1.5 text-sm font-semibold text-gray-700 shadow border border-gray-200">
+                  Welcome {session.user.name}
+                </span>
+              )}
               <a
                 href="/settings"
                 className="inline-flex items-center gap-2 rounded-full bg-white/80 px-3 py-1.5 text-sm font-semibold text-gray-700 hover:bg-white shadow border border-gray-200"

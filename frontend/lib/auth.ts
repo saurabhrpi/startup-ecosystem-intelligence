@@ -8,13 +8,16 @@ export const authOptions: NextAuthOptions = {
     CredentialsProvider({
       name: 'Email',
       credentials: {
+        name: { label: 'Name', type: 'text', placeholder: 'Jane Doe' },
         email: { label: 'Email', type: 'email', placeholder: 'you@example.com' },
       },
       async authorize(credentials) {
         const email = credentials?.email?.trim().toLowerCase()
         if (!email) return null
+        const providedName = (credentials as any)?.name?.toString().trim()
         const id = createHash('sha256').update(email).digest('hex').slice(0, 24)
-        const user: User = { id, name: email.split('@')[0], email }
+        const name = providedName && providedName.length > 0 ? providedName : email.split('@')[0]
+        const user: User = { id, name, email }
         return user
       },
     }),
@@ -28,6 +31,7 @@ export const authOptions: NextAuthOptions = {
       if (user) {
         token.sub = user.id
         token.email = user.email
+        ;(token as any).name = user.name
       }
       return token
     },
@@ -35,6 +39,7 @@ export const authOptions: NextAuthOptions = {
       if (session.user) {
         ;(session.user as any).id = token.sub
         session.user.email = (token as any).email as string | null
+        session.user.name = ((token as any).name as string | undefined) || session.user.name || null
       }
       return session
     },

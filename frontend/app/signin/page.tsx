@@ -5,6 +5,7 @@ import { signIn } from 'next-auth/react'
 import { Sparkles, Mail, Shield, CheckCircle2, ArrowRight, Search, Filter, Share2, Network } from 'lucide-react'
 
 export default function SignInPage() {
+  const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
@@ -21,7 +22,7 @@ export default function SignInPage() {
     e.preventDefault()
     setLoading(true)
     setError(null)
-    const res = await signIn('credentials', { email, redirect: true, callbackUrl: '/' })
+    const res = await signIn('credentials', { name, email, redirect: true, callbackUrl: '/' })
     if (res?.error) setError('Sign-in failed')
     setLoading(false)
   }
@@ -146,6 +147,17 @@ RETURN p,c LIMIT 10`,
                   <p className="mt-1 text-sm text-slate-300">Use your email to continue</p>
                 </div>
                 <form onSubmit={handleSubmit} className="space-y-5">
+                  <div>
+                    <label className="block text-sm text-slate-200 mb-1">Name</label>
+                    <input
+                      type="text"
+                      value={name}
+                      onChange={(e) => setName(e.target.value)}
+                      required
+                      className="w-full rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm shadow-sm outline-none transition placeholder:text-slate-400 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20"
+                      placeholder="Jane Doe"
+                    />
+                  </div>
                   <div>
                     <label className="block text-sm text-slate-200 mb-1">Email</label>
                     <div className="relative">
