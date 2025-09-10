@@ -89,14 +89,16 @@ export default function HomeClient({ initialStats, initialPrefs }: { initialStat
 
       <div className="container mx-auto px-4 py-8 relative">
         {/* Header */}
-        <header className="text-center mb-12">
-          <div className="absolute right-4 top-4">
-            <div className="flex items-center gap-2">
-              {session?.user?.name && (
-                <span className="inline-flex items-center gap-2 rounded-full bg-white/80 px-3 py-1.5 text-sm font-semibold text-gray-700 shadow border border-gray-200">
-                  Welcome {session.user.name}
-                </span>
+        <header className="mb-12">
+          <div className="flex items-center justify-between">
+            <div className="text-sm font-medium text-gray-700">
+              {session?.user?.name ? (
+                <span>Welcome {session.user.name}</span>
+              ) : (
+                <span className="invisible">Welcome</span>
               )}
+            </div>
+            <div className="flex items-center gap-2">
               <a
                 href="/settings"
                 className="inline-flex items-center gap-2 rounded-full bg-white/80 px-3 py-1.5 text-sm font-semibold text-gray-700 hover:bg-white shadow border border-gray-200"
