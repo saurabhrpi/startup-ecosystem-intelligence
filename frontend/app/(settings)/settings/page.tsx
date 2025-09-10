@@ -17,7 +17,7 @@ export default function SettingsPage() {
         const [locRes, indRes, prefRes] = await Promise.all([
           fetch('/api/backend/catalog/locations', { headers: { Accept: 'application/json' } }),
           fetch('/api/backend/catalog/industries', { headers: { Accept: 'application/json' } }),
-          fetch('/api/backend/users/me/preferences', { headers: { Accept: 'application/json' } }),
+          fetch('/api/user/preferences', { headers: { Accept: 'application/json' } }),
         ])
         if (locRes.ok) setLocations((await locRes.json()).locations || [])
         if (indRes.ok) setIndustries((await indRes.json()).industries || [])
@@ -40,7 +40,7 @@ export default function SettingsPage() {
     setSaving(true)
     setSavedOk(false)
     try {
-      const res = await fetch('/api/backend/users/me/preferences', {
+      const res = await fetch('/api/user/preferences', {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ location_code: prefs.location_code, industries: prefs.industries || [] }),
