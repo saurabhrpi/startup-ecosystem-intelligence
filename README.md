@@ -78,7 +78,7 @@ curl "https://railway.com/project/<projectId>/stats"
 startup-ecosystem-intelligence/
 ├── backend/
 │   ├── api/               # FastAPI application
-│   ├── collectors/        # Data collectors (YC, GitHub, etc.)
+│   ├── collectors/        # Data collectors (YC, GitHub, Google CSE)
 │   ├── utils/            # Utilities (embeddings, vector store)
 │   └── pipeline.py       # Main data pipeline
 ├── data/
