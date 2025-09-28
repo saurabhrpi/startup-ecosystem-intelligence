@@ -118,6 +118,10 @@ Edit `.env` file to configure:
 - ✅ Engaging UI with search functionality 
 - ✅ Added Google CSE
 
+## TBD:
+
+- Figuring out the data sources.
+
 ## 🤝 Contributing
 
 1. Fork the repository
