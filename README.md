@@ -121,6 +121,7 @@ Edit `.env` file to configure:
 ## TBD:
 
 - Figuring out the data sources.
+- Clarifying the ambiguity around target user persona.
 
 ## 🤝 Contributing
 
