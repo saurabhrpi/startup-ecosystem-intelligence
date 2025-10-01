@@ -122,7 +122,7 @@ Edit `.env` file to configure:
 
 - Figuring out the data sources.
 - Clarify the ambiguity around target user persona.
-- Clarify the price point of product.
+- Clarify the price point of product as well as the target market segment of the product.
 
 ## 🤝 Contributing
 
