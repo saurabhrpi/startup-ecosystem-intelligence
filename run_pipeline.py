@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 """
 Main entry point for the Startup Ecosystem Intelligence Data Pipeline
+Not called anywhere in the main workflow. Only used to populate the bakend data stores.
 """
 import asyncio
 import sys
