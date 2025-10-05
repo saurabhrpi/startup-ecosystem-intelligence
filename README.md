@@ -121,7 +121,7 @@ Edit `.env` file to configure:
 ## TBD:
 
 - Figuring out the data sources.
-- Clarify the ambiguity around target user persona.
+- Clarify the ambiguity around target user persona : Is it the Junior VCs or an analyst working at a VC firm?
 - Clarify the price point of product as well as the target market segment of the product.
 
 ## 🤝 Contributing
