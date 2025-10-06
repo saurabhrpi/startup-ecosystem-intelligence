@@ -62,7 +62,7 @@ class Neo4jDataPipeline:
         print(f"\nPipeline completed in {duration:.2f} seconds")
         
     async def collect_all_data(self) -> Dict[str, List[Dict[str, Any]]]:
-        """Collect data from all sources"""
+        """Collect data from YC public API and GitHub"""
         print("\n[DATA] Collecting data from all sources...")
         
         all_data = {}
